@@ -1,4 +1,4 @@
-# Krischanstaspaaxets sångbok
+# Krischanstaspääxets sångbok
 Sångbok för Krischanstaspääxet!
 
 Tillgänglig på https://krischanstaspaaxet.github.io/
