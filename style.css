@@ -57,3 +57,11 @@ h2 {
 h3 {
   font-weight:200;
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
