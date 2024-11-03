@@ -525,7 +525,19 @@ HC HC Andersen
     });
   }
   </script>
-  
+<!--
+  <script>
+    $('collapsible').click(function(e) {
+	e.preventDefault();
+	var currentIsActive = $(this).hasClass('is-active');
+	$(this).parent('collapsible').find('> *').removeClass('is-active');
+	if(currentIsActive != 1) {
+		$(this).addClass('is-active');
+		$(this).next('.content').addClass('is-active');
+	}
+});
+  </script>
+-->
 </body>
 
 <body>
