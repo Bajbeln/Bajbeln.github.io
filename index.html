@@ -6,6 +6,15 @@
 </h1>
 
 <body>
+  <div id = "header"></div>
+  <script>
+    // Load header.html into the div with id="header"
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header').innerHTML = data;
+      });
+      </script>
 
   <a href="/index.html"><img src="/bilder/logga (1).png" width= "150" alt="Spexloggan"></a>
   <h1><a href="/index.html"> Krischanstaspääxets<br>Sajber-Bajbel</a></h1>
@@ -26,5 +35,7 @@
     <a href= "https://github.com/Krischanstaspaaxet/Krischanstaspaaxet.github.io"> <b>Källkod</b></a>
   </footer>
 </body>
+
+
 
 </html>
