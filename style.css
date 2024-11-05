@@ -67,3 +67,79 @@ h3 {
 .column {
   flex: 50%;
 }
+
+/*Used for searchbar*/
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+/* Container for search bar */
+.search-container {
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Search Input Field */
+.search-container input[type="text"] {
+  width: 100%; 
+  max-width: 400px; 
+  padding: 12px 20px; 
+  padding-left: 40px; 
+  border: 2px solid #ddd;
+  border-radius: 30px; 
+  font-size: 18px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  box-sizing: border-box;
+}
+
+/* Focus State for Input */
+.search-container input[type="text"]:focus {
+  border-color: #8ac9e4; 
+  box-shadow: 0 0 8px rgba(138, 201, 228, 0.5);
+}
+
+/* Search Button */
+.search-container button {
+  position: absolute;
+  left: 20px; 
+  top: 42%; 
+  transform: translateY(-50%); 
+  background-color: transparent; 
+  border: none;
+  color: #8ac9e4; 
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0; 
+  outline: none;
+}
+
+/* Search Icon */
+.search-container button i {
+  font-size: 25px;
+}
+
+/* Hover Effect for Button */
+.search-container button:hover {
+  color: #70b6d0; 
+}
+
+/* Placeholder styling */
+.search-container input[type="text"]::placeholder {
+  color: #aaa; 
+}
