@@ -918,7 +918,51 @@ Kristina	Jag skulle ta den nya kappan<br>
     });
   }
   </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      // Function to get the query parameter from the URL
+      console.log("hittade rätt");
+      function getSearchParam() {
+          const params = new URLSearchParams(window.location.search);
+          return params.get('search');
+      }
+  
+      const searchTerm = getSearchParam();
+  
+      if (searchTerm) {
+          const lowerSearchTerm = searchTerm.toLowerCase();
+          const songButtons = document.getElementsByClassName('collapsible');
+          let found = false;
+  
+          // Loop through each song title (button) to find a match
+          for (let i = 0; i < songButtons.length; i++) {
+              const songTitle = songButtons[i].textContent.toLowerCase();
+  
+              if (songTitle.includes(lowerSearchTerm)) {
+                  // Scroll to the matching song
+                  songButtons[i].scrollIntoView({ behavior: 'smooth', block: 'start' });
+  
+                  // Optional: Highlight the song briefly
+                  songButtons[i].style.backgroundColor = '#ffd54f';
+                  setTimeout(() => {
+                      songButtons[i].style.backgroundColor = '';
+                  }, 1000);
+  
+                  found = true;
+                  break;
+              }
+          }
+  
+          if (!found) {
+              alert("No matching song found on this page.");
+          }
+      }
+  });
+  </script>
 </body>
+
+  
 
 <!-- Footer -->
 <body>

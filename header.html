@@ -15,5 +15,38 @@
             </form>
         </div>
     </div>
+    <!-- 
+    <script>
+        document.getElementById('search-form').addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            console.log("headerPrint1");
+            const searchTerm = document.getElementById('search-input').value.trim().toLowerCase();
+        
+            if (!searchTerm) {
+                console.log("headerIF1");
+                alert("Please enter a search term.");
+                return;
+            }
+            console.log({searchTerm} + "= searchTerm");
+        
+            // Fetch the song index JSON file
+            fetch('songIndex.json')
+                .then(response => response.json())
+                .then(data => {
+                    console.log("hitta json");
+                    // Search for the song in the JSON data
+                    const match = data.find(song => song.title.toLowerCase().includes(searchTerm));
+        
+                    if (match) {
+                        // Redirect to the found page with the search term as a URL parameter
+                        console.log("ska ta dig dit");
+                        window.location.href = `${match.page}?search=${encodeURIComponent(searchTerm)}`;
+                    } else {
+                        alert("No matching song found.");
+                    }
+                })
+                .catch(error => console.error('Error loading song index:', error));
+        });
+    </script>
+        -->
 </body>
-    

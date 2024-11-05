@@ -13,7 +13,50 @@
       .then(response => response.text())
       .then(data => {
         document.getElementById('header').innerHTML = data;
-      });
+        console.log("loaded header");
+
+        document.getElementById('search-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Stop the form from submitting normally
+            console.log("Form submitted!");
+
+            const searchTerm = document.getElementById('search-input').value.trim().toLowerCase();
+            console.log("Search term:", searchTerm);
+
+            if (!searchTerm) {
+                alert("Please enter a search term.");
+                return;
+            }
+
+            // Attempt to load songIndex.json
+            fetch('/songIndex.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error("Network response was not ok " + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log("Fetched song index:", data);
+
+                    // Search for the song title in the JSON data
+                    const match = data.find(song => song.title.toLowerCase().includes(searchTerm));
+                    console.log("Search result:", match);
+
+                    if (match) {
+                        // Redirect to the page with the search term in the URL
+                        window.location.href = `${match.page}?search=${encodeURIComponent(searchTerm)}`;
+                    } else {
+                        alert("No matching song found.");
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching song index:', error);
+                    alert("Could not load the song index file.");
+                });
+        });
+      })
+      .catch(error => console.error('Error loading header.html:', error));
+      
       </script>
 
   <a href="/index.html"><img src="/bilder/logga (1).png" width= "150" alt="Spexloggan"></a>
