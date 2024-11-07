@@ -10,7 +10,7 @@ body {
   font-family: 'Georgia', Times, serif;
   border-color: #8ac9e4e0;
   color:white;
-  border-radius: 10px;
+  border-radius: 17px;
   padding: 7 7;
 }
 /* For collapsible when hovering */
@@ -26,7 +26,7 @@ body {
   transition: max-height 0.2s ease-out;
   font-size: 15;
   color:white;
-  border-radius: 5px;
+  border-radius: 17px;
 }
 
 /* For footer text */
@@ -43,18 +43,18 @@ a.button {
   background-color: white;
   text-decoration: none;
   padding: 7 7;
-  border-radius: 2px;
+  border-radius: 17px;
   display: inline-block;
   background-color:rgb(154, 85, 135);
-  border-radius: 10px;
 }
-
+/* Head title and source code link*/
 a {
   text-decoration: none !important;
   /*color: #386ba6;*/
   color: rgb(154, 85, 135);
 }
 
+/* Spex titles */
 h2 {
   color:rgba(170, 75, 143, 0.809);
 }
@@ -71,7 +71,7 @@ h3 {
   flex: 50%;
 }
 
-/*Used for searchbar*/
+/* Used for searchbar */
 .topnav {
   background-color: transparent;
   overflow: hidden;
@@ -145,4 +145,8 @@ h3 {
 /* Placeholder styling */
 .search-container input[type="text"]::placeholder {
   color: #aaa; 
+}
+
+test {
+  background-color: blue;
 }
