@@ -10,8 +10,8 @@ body {
   font-family: 'Georgia', Times, serif;
   border-color: #8ac9e4e0;
   color:white;
-  border-radius: 17px;
-  padding: 7 7;
+  border-radius: 20px;
+  padding: 9 9;
 }
 /* For collapsible when hovering */
 .active, .collapsible:hover {
@@ -26,7 +26,7 @@ body {
   transition: max-height 0.2s ease-out;
   font-size: 15;
   color:white;
-  border-radius: 17px;
+  border-radius: 20px;
 }
 
 /* For footer text */
@@ -42,7 +42,7 @@ a.button {
   color: white;
   background-color: white;
   text-decoration: none;
-  padding: 7 7;
+  padding: 9 9;
   border-radius: 17px;
   display: inline-block;
   background-color:rgb(154, 85, 135);
