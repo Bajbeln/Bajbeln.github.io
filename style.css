@@ -3,7 +3,7 @@ body {
   text-align: center;
   font-family: 'Georgia', Times, serif;
 }
-
+/* For collapsibles */
 .collapsible {
   background-color: #8ac9e4e0;
   font-size: 16;
@@ -13,11 +13,12 @@ body {
   border-radius: 10px;
   padding: 7 7;
 }
-
+/* For collapsible when hovering */
 .active, .collapsible:hover {
   background-color: #f4ce347e;
 }
 
+/* For collapsible when opening */
 .content {
   background-color: #8ac9e4e0;
   max-height: 0;
@@ -28,11 +29,13 @@ body {
   border-radius: 5px;
 }
 
+/* For footer text */
 footer {
   color:rgb(154, 85, 135);
   padding:70px;
 }
 
+/* For clickable text */
 a.button {
   border:1px outset buttonborder;
   border-color: rgb(154, 85, 135);
