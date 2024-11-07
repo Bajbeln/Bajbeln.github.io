@@ -150,3 +150,7 @@ h3 {
 test {
   background-color: blue;
 }
+
+img {
+  filter:brightness(1000);
+}
