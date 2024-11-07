@@ -7,6 +7,20 @@
 
 <body>
   <div id = "header"></div>
+
+  <a href="/index.html"><img src="/bilder/logga (1).png" width= "150" alt="Spexloggan"></a>
+  <h1><a href="/index.html"> Krischanstaspääxets<br>Sajber-Bajbel</a></h1>
+  <a href="/spex/hc_andersen_ST24.html" class="button">H.C. Andersen 2024 (HCA)</a>
+  <br>
+  <a href="/spex/kristina_HT23.html" class="button">Kristina 2023/24 (KRI)</a>
+  <br>
+  <a href="/spex/kraftor_ST23.html" class="button">Kräftor Kräva Dessa Drycker 2023 (KRÄ)</a>
+  <br>
+  <a href="/spex/hilma_HT22.html" class="button">Hilma af Klint 2022/23 (HIL)</a>
+  <br>
+  <a href="/spex/erik_HT21.html" class="button">Erik XIV 2021/22 (E14)</a>
+
+  
   <script>
     // Load header.html into the div with id="header"
     fetch('header.html')
@@ -16,7 +30,7 @@
         console.log("loaded header");
 
         document.getElementById('search-form').addEventListener('submit', function(event) {
-            event.preventDefault(); // Stop the form from submitting normally
+            event.preventDefault(); // Tar bort reload
             console.log("Form submitted!");
 
             const searchTerm = document.getElementById('search-input').value.trim().toLowerCase();
@@ -58,18 +72,6 @@
       .catch(error => console.error('Error loading header.html:', error));
       
       </script>
-
-  <a href="/index.html"><img src="/bilder/logga (1).png" width= "150" alt="Spexloggan"></a>
-  <h1><a href="/index.html"> Krischanstaspääxets<br>Sajber-Bajbel</a></h1>
-  <a href="/spex/hc_andersen_ST24.html" class="button">H.C. Andersen 2024 (HCA)</a>
-  <br>
-  <a href="/spex/kristina_HT23.html" class="button">Kristina 2023/24 (KRI)</a>
-  <br>
-  <a href="/spex/kraftor_ST23.html" class="button">Kräftor Kräva Dessa Drycker 2023 (KRÄ)</a>
-  <br>
-  <a href="/spex/hilma_HT22.html" class="button">Hilma af Klint 2022/23 (HIL)</a>
-  <br>
-  <a href="/spex/erik_HT21.html" class="button">Erik XIV 2021/22 (E14)</a>
 </body>
 
 <body>
