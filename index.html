@@ -10,68 +10,15 @@
 
   <a href="/index.html"><img src="/bilder/logga (1).png" width= "150" alt="Spexloggan"></a>
   <h1><a href="/index.html"> Krischanstaspääxets<br>Sajber-Bajbel</a></h1>
-  <a href="/spex/hc_andersen_ST24.html" class="button">H.C. Andersen 2024 (HCA)</a>
+  <a href="/spex/hc_andersen.html" class="button">H.C. Andersen 2024 (HCA)</a>
   <br>
-  <a href="/spex/kristina_HT23.html" class="button">Kristina 2023/24 (KRI)</a>
+  <a href="/spex/kristina.html" class="button">Kristina 2023/24 (KRI)</a>
   <br>
-  <a href="/spex/kraftor_ST23.html" class="button">Kräftor Kräva Dessa Drycker 2023 (KRÄ)</a>
+  <a href="/spex/kraftor.html" class="button">Kräftor Kräva Dessa Drycker 2023 (KRÄ)</a>
   <br>
-  <a href="/spex/hilma_HT22.html" class="button">Hilma af Klint 2022/23 (HIL)</a>
+  <a href="/spex/hilma.html" class="button">Hilma af Klint 2022/23 (HIL)</a>
   <br>
   <a href="/spex/erik_HT21.html" class="button">Erik XIV 2021/22 (E14)</a>
-
-  
-  <script>
-    // Load header.html into the div with id="header"
-    fetch('header.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('header').innerHTML = data;
-        console.log("loaded header");
-
-        document.getElementById('search-form').addEventListener('submit', function(event) {
-            event.preventDefault(); // Tar bort reload
-            console.log("Form submitted!");
-
-            const searchTerm = document.getElementById('search-input').value.trim().toLowerCase();
-            console.log("Search term:", searchTerm);
-
-            if (!searchTerm) {
-                alert("Please enter a search term.");
-                return;
-            }
-
-            // Attempt to load songIndex.json
-            fetch('/songIndex.json')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error("Network response was not ok " + response.statusText);
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    console.log("Fetched song index:", data);
-
-                    // Search for the song title in the JSON data
-                    const match = data.find(song => song.title.toLowerCase().includes(searchTerm));
-                    console.log("Search result:", match);
-
-                    if (match) {
-                        // Redirect to the page with the search term in the URL
-                        window.location.href = `${match.page}?search=${encodeURIComponent(searchTerm)}`;
-                    } else {
-                        alert("No matching song found.");
-                    }
-                })
-                .catch(error => {
-                    console.error('Error fetching song index:', error);
-                    alert("Could not load the song index file.");
-                });
-        });
-      })
-      .catch(error => console.error('Error loading header.html:', error));
-      
-      </script>
 </body>
 
 <body>
