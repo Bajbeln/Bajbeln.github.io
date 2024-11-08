@@ -39,7 +39,7 @@ footer {
 
 /* For clickable text */
 a.button {
-  border:1px outset buttonborder;
+  border:2px outset buttonborder;
   border-color: rgb(154, 85, 135);
   color: white;
   background-color: white;
