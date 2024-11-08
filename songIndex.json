@@ -66,10 +66,37 @@
     {"title": "Slutkuplett ur Krischanstaspääxet Hilma af Klint HT22",                                    "page": "/spex/hilma.html"},
     {"title": "Slutkuplett ur Krischanstaspääxet Hilma af Klint VT23",                                    "page": "/spex/hilma.html"},
 
+    {"title": "Annan tid, samma kanal",                       "page": "/spex/loshultskuppen.html"},
+    {"title": "En Svenssons svåra liv",                       "page": "/spex/loshultskuppen.html"},
+    {"title": "Det är kanoners",                              "page": "/spex/loshultskuppen.html"},
+    {"title": "En smålandsvisa",                              "page": "/spex/loshultskuppen.html"},
+    {"title": "Snillrika nyrika snillen",                     "page": "/spex/loshultskuppen.html"},
+    {"title": "Revolt av lantmän",                            "page": "/spex/loshultskuppen.html"},
+    {"title": "Kupp(lett)",                                   "page": "/spex/loshultskuppen.html"},
+    {"title": "Så ska de lärda låta",                         "page": "/spex/loshultskuppen.html"},
+    {"title": "Guld i gröna skogen",                          "page": "/spex/loshultskuppen.html"},
+    {"title": "Dela Jesu kropp (med mig)",                    "page": "/spex/loshultskuppen.html"},
+    {"title": "En mantel vänds lättare än en kappa i vinden", "page": "/spex/loshultskuppen.html"},
+
     {"title": "Öppningskuplett ur Krischanstaspääxets återuppsättning av Erik XIV", "page": "/spex/erik.html"},
     {"title": "Elizabeths Eleganta Entré",                                          "page": "/spex/erik.html"},
     {"title": "Marys Majestätiska Melodi",                                          "page": "/spex/erik.html"},
     {"title": "En sång om mord & tarmflora",                                        "page": "/spex/erik.html"},
     {"title": "Villa, Volvo, Vovve (med svans)",                                    "page": "/spex/erik.html"},
-    {"title": "Slutkuplett ur Krischanstaspääxets återuppsättning av Erik XIV",     "page": "/spex/erik.html"}
+    {"title": "Slutkuplett ur Krischanstaspääxets återuppsättning av Erik XIV",     "page": "/spex/erik.html"},
+
+    {"title": "Öppningskuplett ur Krischanstaspääxet Lafayette", "page": "/spex/lafayette.html"},
+    {"title": "Lafayettes entré",                                "page": "/spex/lafayette.html"},
+    {"title": "Konspirationskupletten",                          "page": "/spex/lafayette.html"},
+    {"title": "Maries kväde",                                    "page": "/spex/lafayette.html"},
+    {"title": "Filosofernas face/oﬀ",                            "page": "/spex/lafayette.html"},
+    {"title": "Kär i Pierre / Pierre är kär",                    "page": "/spex/lafayette.html"},
+    {"title": "Skrivarens orimliga kuplett",                     "page": "/spex/lafayette.html"},
+    {"title": "Nu är det dags för paus",                         "page": "/spex/lafayette.html"},
+    {"title": "Va’ gött det är att va’ kung!",                   "page": "/spex/lafayette.html"},
+    {"title": "Musketörens sång",                                "page": "/spex/lafayette.html"},
+    {"title": "Bud från Lafayette",                              "page": "/spex/lafayette.html"},
+    {"title": "Ode till Brödette",                               "page": "/spex/lafayette.html"},
+    {"title": "Duelldängan",                                     "page": "/spex/lafayette.html"},
+    {"title": "Ett olyckligt slut",                              "page": "/spex/lafayette.html"}
 ]
