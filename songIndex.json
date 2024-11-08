@@ -144,5 +144,16 @@
     {"title": "Dra på spa",                                     "page": "/spex/katarina.html"},
     {"title": "Snälla älska mig",                               "page": "/spex/katarina.html"},
     {"title": "Trakasserier i den treeniga trons tribunal",     "page": "/spex/katarina.html"},
-    {"title": "Tänk som det går",                               "page": "/spex/katarina.html"}
+    {"title": "Tänk som det går",                               "page": "/spex/katarina.html"},
+
+    {"title": "Flyg med oss!",                       "page": "/spex/hindenburg.html"},
+    {"title": "En stadsman göring ett rike",         "page": "/spex/hindenburg.html"},
+    {"title": "Tal till nationen med T",             "page": "/spex/hindenburg.html"},
+    {"title": "Anguished Dog",                       "page": "/spex/hindenburg.html"},
+    {"title": "Hejdå och hoppas att vi inte dör",    "page": "/spex/hindenburg.html"},
+    {"title": "CargoCult",                           "page": "/spex/hindenburg.html"},
+    {"title": "Ska vi gäddhänga hos dig eller mig?", "page": "/spex/hindenburg.html"},
+    {"title": "Håll om mig för fan",                 "page": "/spex/hindenburg.html"},
+    {"title": "Dödens vind om babords Valhalsar",    "page": "/spex/hindenburg.html"},
+    {"title": "Slutslask",                           "page": "/spex/hindenburg.html"}
 ]
