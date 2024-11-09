@@ -25,7 +25,7 @@ body {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
-  font-size: 15;
+  font-size: 17;
   color:white;
   border-radius: 24px;
   margin: 1px
