@@ -197,5 +197,10 @@
     {"title": "Vi längtar till varma stugor och falukorv", "page": "/spex/taget_over_balt.html"},
     {"title": "Pimpa. Båten Låten",                        "page": "/spex/taget_over_balt.html"},
     {"title": "Nu jävlar går vi över isen",                "page": "/spex/taget_over_balt.html"},
-    {"title": "Final - Slutlåt! Bal!",                     "page": "/spex/taget_over_balt.html"}
+    {"title": "Final - Slutlåt! Bal!",                     "page": "/spex/taget_over_balt.html"},
+
+    {"title": "Sången om Pablo Picassos långa namn och hur himla otympligt det är att signera tavlor (eller hangarfartyg) med det*", "page": "/spex/sketchetera.html"},
+    {"title": "Kosmonautens klagan",                                                                                                 "page": "/spex/sketchetera.html"},
+    {"title": "Sången om Studentupproret i Lund 1793 (såsom det är nedtecknat i Wikipedias historieböcker)",                         "page": "/spex/sketchetera.html"},
+    {"title": "Slutsång etc.",                                                                                                       "page": "/spex/sketchetera.html"}
 ]
