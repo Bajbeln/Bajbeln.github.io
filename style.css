@@ -89,7 +89,7 @@ h3 {
 }
 
 .topnav .search-container {
-  float: right;
+  float: center;
 }
 
 /* Container for search bar */
@@ -112,6 +112,7 @@ h3 {
   outline: none;
   transition: all 0.3s ease-in-out;
   box-sizing: border-box;
+  font-family: 'Georgia', Times, serif;
 }
 
 /* Focus State for Input */
@@ -123,7 +124,7 @@ h3 {
 /* Search Button */
 .search-container button {
   position: absolute;
-  left: 20px; 
+  left: 20px;
   top: 42%; 
   transform: translateY(-50%); 
   background-color: transparent; 
