@@ -6,7 +6,7 @@ body {
 /* For collapsibles */
 .collapsible {
   background-color: #8ac9e4e0;
-  font-size: 20;
+  font-size: 18;
   font-family: 'Georgia', Times, serif;
   border-color: #8ac9e4e0;
   color:white;
@@ -25,7 +25,7 @@ body {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
-  font-size: 17;
+  font-size: 18;
   color:white;
   border-radius: 24px;
   margin: 1px
