@@ -1,0 +1,166 @@
+<body_test>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+  
+  <!-- Logga -->
+  <a href="/index.html"><img src="/bilder/logga (1).png" width= "70" alt="Spexloggan"></a>
+  
+  <body>
+    <h1><a href="/index.html"> Krischanstaspääxets<br>Sajber-Bajbel </a></h1>
+  </body>
+  <body>
+    <h2>Sketchofreni 2006 (SEV)</h2>
+  </body>
+  </head>
+  
+  <!-- Copy link-button -->
+  <body>
+    <a href="/spex/SPEX.html" class= "button"> Kopiera Länk</a><br><br>
+  <script>
+    navigator.clipboard.writeText(window.location.href);
+  </script>
+  </body>
+  
+    <!-- Song sample -->
+  <!-- 
+  <button type="button" class="collapsible">Sångtitel</button>
+  <div class="content">
+    <p><i>SJUNGS_AV</i><br>
+    <i>MELODI</i><br><br>
+      SÅNGTEXT
+    </p>
+  </div>
+  -->
+  
+  <!-- Double column -->
+  <!-- 
+  <div class="row">
+    <div class="column"></div>
+    <div class="column"></div>
+  </div> 
+  -->
+  
+  <body>
+  <!-- Place for songs -->
+
+  <button type="button" class="collapsible">1. Diagnoskupletten</button>
+  <div class="content">
+    <p><i>SJUNGS_AV</i><br>
+    <i>MELODI</i><br><br>
+      SÅNGTEXT
+    </p>
+  </div>
+
+  <button type="button" class="collapsible">2. Fyra Juggar och en påse kola</button>
+  <div class="content">
+    <p><i>SJUNGS_AV</i><br>
+    <i>MELODI</i><br><br>
+      SÅNGTEXT
+    </p>
+  </div>
+
+  <button type="button" class="collapsible">3. Tvålen</button>
+  <div class="content">
+    <p><i>SJUNGS_AV</i><br>
+    <i>MELODI</i><br><br>
+      SÅNGTEXT
+    </p>
+  </div>
+
+  <button type="button" class="collapsible">4. Suicidsång</button>
+  <div class="content">
+    <p><i>SJUNGS_AV</i><br>
+    <i>MELODI</i><br><br>
+      SÅNGTEXT
+    </p>
+  </div>
+
+  <button type="button" class="collapsible">5. Det lilla rus jag har</button>
+  <div class="content">
+    <p><i>SJUNGS_AV</i><br>
+    <i>MELODI</i><br><br>
+      SÅNGTEXT
+    </p>
+  </div>
+  
+    <!-- Animation for drop-down menu -->
+  </body>
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+  </body>
+  
+  <!-- Search functionality -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Function to get the query parameter from the URL
+        console.log("hittade rätt");
+        function getSearchParam() {
+            const params = new URLSearchParams(window.location.search);
+            return params.get('search');
+        }
+    
+        const searchTerm = getSearchParam();
+    
+        if (searchTerm) {
+            const lowerSearchTerm = searchTerm.toLowerCase();
+            const songButtons = document.getElementsByClassName('collapsible');
+            let found = false;
+    
+            // Loop through each song title (button) to find a match, Have to reorganize so it doesent take in the nr 
+            for (let i = 0; i < songButtons.length; i++) {
+                const songTitle = songButtons[i].textContent.toLowerCase(); //trimma på något sätt här. 
+    
+                if (songTitle.includes(lowerSearchTerm)) {
+                    // Scroll to the matching song
+                    songButtons[i].scrollIntoView({ behavior: 'smooth', block: 'start' });
+    
+                    // Optional: Highlight the song for 2 sec
+                    songButtons[i].style.backgroundColor = '#ffd54f';
+                    setTimeout(() => {
+                        songButtons[i].style.backgroundColor = '';
+                    }, 2000);
+    
+                    found = true;
+                    break;
+                }
+            }
+    
+            if (!found) {
+                alert("No matching song found on this page.");
+            }
+        }
+    });
+    </script>
+    
+  <!-- Unique background color for this page -->
+  <style>
+    body {
+      background-color: rgb(206, 203, 244);
+    }
+  </style>
+  
+  
+  <!-- Footer -->
+  <body>
+    <footer>
+      <a href= "https://github.com/Bajbeln/Bajbeln.github.io"> <b>Källkod</b></a>
+    </footer>
+  </body>
+  </html>
