@@ -311,5 +311,27 @@
     {"title": "ADHD-sången",          "page": "/spex/sketchup.html"},
     {"title": "Sadomasochistaria",    "page": "/spex/sketchup.html"},
     {"title": "Stadigt rus",          "page": "/spex/sketchup.html"},
-    {"title": "Våran håv",            "page": "/spex/sketchup.html"}
+    {"title": "Våran håv",            "page": "/spex/sketchup.html"},
+
+    {"title": "Rom är staden alla snackar om",           "page": "/spex/caesar.html"},
+    {"title": "Stoppa inte gallerna i näsan, Marcus",    "page": "/spex/caesar.html"},
+    {"title": "Senatens presentationssång-sången",       "page": "/spex/caesar.html"},
+    {"title": "Gallernas presentationskuplett I",        "page": "/spex/caesar.html"},
+    {"title": "Ni säger avsätta, jag säger avrätta",     "page": "/spex/caesar.html"},
+    {"title": "Caesar är född-född-född till häst",      "page": "/spex/caesar.html"},
+    {"title": "Gnällduell",                              "page": "/spex/caesar.html"},
+    {"title": "Du var prost och jag hade brost",         "page": "/spex/caesar.html"},
+    {"title": "Gallernas presentationskuplett II",       "page": "/spex/caesar.html"},
+    {"title": "Pyramidyra",                              "page": "/spex/caesar.html"},
+    {"title": "Nu ska vi sätta galler bakom galler",     "page": "/spex/caesar.html"},
+    {"title": "Jag har blivit en man",                   "page": "/spex/caesar.html"},
+    {"title": "Rut har häcken full",                     "page": "/spex/caesar.html"},
+    {"title": "Finns det egyptiskt kaffe på hotellet?",  "page": "/spex/caesar.html"},
+    {"title": "Ett ode värre än doden",                  "page": "/spex/caesar.html"},
+    {"title": "J-Aktfinal",                              "page": "/spex/caesar.html"},
+    {"title": "Gallernas presentationskuplett III",      "page": "/spex/caesar.html"},
+    {"title": "Vi blir talföra av slavgöra",             "page": "/spex/caesar.html"},
+    {"title": "Ett Maffigt outro - Diktator Triumfator", "page": "/spex/caesar.html"},
+    {"title": "Senatens presentationssång 2.0",          "page": "/spex/caesar.html"},
+    {"title": "Maktfinal",                               "page": "/spex/caesar.html"}
 ]
