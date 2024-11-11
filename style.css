@@ -123,9 +123,9 @@ h3 {
 
 /* Search Button */
 .search-container button {
-  position: absolute;
-  left: 520px;
-  top: 42%; 
+  position: relative;
+  left: 120px;
+  bottom: 24px; 
   transform: translateY(-50%); 
   background-color: transparent; 
   border: none;
