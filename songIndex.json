@@ -299,5 +299,11 @@
     {"title": "En sång om att vara död och bytis",            "page": "/spex/sketchistens.html"},
     {"title": "En sång om the dark side of the love",         "page": "/spex/sketchistens.html"},
     {"title": "En sång om en som är gla och gi'o",            "page": "/spex/sketchistens.html"},
-    {"title": "Karnefilivisan eller sången om att hitta hem", "page": "/spex/sketchistens.html"}
+    {"title": "Karnefilivisan eller sången om att hitta hem", "page": "/spex/sketchistens.html"},
+
+    {"title": "Diagnoskupletten",             "page": "/spex/sketchofreni.html"},
+    {"title": "Fyra Juggar och en påse kola", "page": "/spex/sketchofreni.html"},
+    {"title": "Tvålen",                       "page": "/spex/sketchofreni.html"},
+    {"title": "Suicidsång",                   "page": "/spex/sketchofreni.html"},
+    {"title": "Det lilla rus jag har",        "page": "/spex/sketchofreni.html"}       
 ]
