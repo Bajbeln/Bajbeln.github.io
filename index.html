@@ -10,6 +10,8 @@
   
   <a href="/index.html"><img src="/bilder/logga (1).png" width= "150" alt="Spexloggan"></a>
   <h1><a href="/index.html"> Krischanstaspääxets<br>Sajber-Bajbel</a></h1>
+  
+  <button class="random"> Räändom </button>
   <br>
   <a href="/spex/favourites.html" class="button"><i>Favoriter</i> - ej klar</a>
   <br>
@@ -85,6 +87,7 @@
 </body>
 
 <script>
+  //SÖK
   // Load header.html into the div with id="header"
   fetch('header.html')
     .then(response => response.text())
@@ -113,11 +116,8 @@
                   return response.json();
               })
               .then(data => {
-                  console.log("Fetched song index:", data);
-
                   // Search for the song title in the JSON data
                   const match = data.find(song => song.title.toLowerCase().includes(searchTerm));
-                  console.log("Search result:", match);
 
                   if (match) {
                       // Redirect to the page with the search term in the URL
@@ -133,6 +133,30 @@
       });
     })
     .catch(error => console.error('Error loading header.html:', error));
+
+
+    //Random
+    document.addEventListener("DOMContentLoaded", function() {
+      document.querySelector('.random').addEventListener("click", () => {
+        fetch('/songIndex.json')
+          .then(response => {
+            if (!response.ok) {
+              throw new Error("Network response was not ok " + response.statusText);
+            }
+            return response.json();
+          })
+          .then(data => {
+            //random song
+            const randomSong = data[Math.floor(Math.random()*data.length)];
+
+            window.location.href = `${randomSong.page}?search=${encodeURIComponent(randomSong.title)}`;
+          })
+          .catch(error => {
+            console.error('Error fetching song index:', error);
+            alert("Could not load the song index file.");
+          });
+      });
+    });
     
     </script>
 </body>
