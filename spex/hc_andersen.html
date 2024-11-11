@@ -532,7 +532,6 @@ I kejsarens nya stil!
 <script>
   document.addEventListener('DOMContentLoaded', function() {
       // Function to get the query parameter from the URL
-      console.log("hittade rätt");
       function getSearchParam() {
           const params = new URLSearchParams(window.location.search);
           return params.get('search');
@@ -553,11 +552,12 @@ I kejsarens nya stil!
                   // Scroll to the matching song
                   songButtons[i].scrollIntoView({ behavior: 'smooth', block: 'start' });
   
-                  // Optional: Highlight the song for 2 sec
+                  
                   songButtons[i].style.backgroundColor = '#ffd54f';
                   setTimeout(() => {
                       songButtons[i].style.backgroundColor = '';
-                  }, 2000);
+                  }, 2000); 
+                  songButtons[i].click();
   
                   found = true;
                   break;
