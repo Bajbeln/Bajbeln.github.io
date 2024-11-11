@@ -159,7 +159,7 @@ button.random{
   border:2px outset buttonborder;
   font-family: 'Georgia', Times, serif;
   font-size: 20;
-  color: white;
+  color: black;
   background-color: rgb(252, 219, 89);
   border-color:rgb(237, 213, 153);
   height: 75;
@@ -168,6 +168,6 @@ button.random{
   padding: 11 11;
   border-radius: 50%;
   display: inline-block;
-  margin: 5px
+  margin-bottom: 20;
   
 }
