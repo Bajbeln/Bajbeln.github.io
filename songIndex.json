@@ -305,5 +305,11 @@
     {"title": "Fyra Juggar och en påse kola", "page": "/spex/sketchofreni.html"},
     {"title": "Tvålen",                       "page": "/spex/sketchofreni.html"},
     {"title": "Suicidsång",                   "page": "/spex/sketchofreni.html"},
-    {"title": "Det lilla rus jag har",        "page": "/spex/sketchofreni.html"}       
+    {"title": "Det lilla rus jag har",        "page": "/spex/sketchofreni.html"},  
+    
+    {"title": "Livet som en spermie", "page": "/spex/sketchup.html"},
+    {"title": "ADHD-sången",          "page": "/spex/sketchup.html"},
+    {"title": "Sadomasochistaria",    "page": "/spex/sketchup.html"},
+    {"title": "Stadigt rus",          "page": "/spex/sketchup.html"},
+    {"title": "Våran håv",            "page": "/spex/sketchup.html"}
 ]
