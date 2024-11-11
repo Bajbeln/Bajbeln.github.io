@@ -293,5 +293,11 @@
     {"title": "En sång om att åka till Paris",                  "page": "/spex/per_albin.html"},
     {"title": "Förrädarrock",                                   "page": "/spex/per_albin.html"},
     {"title": "Vi ska bygga bunkrar",                           "page": "/spex/per_albin.html"},
-    {"title": "Slutlåt",                                        "page": "/spex/per_albin.html"}
+    {"title": "Slutlåt",                                        "page": "/spex/per_albin.html"},
+
+    {"title": "Religiösa vänner",                             "page": "/spex/sketchistens.html"},
+    {"title": "En sång om att vara död och bytis",            "page": "/spex/sketchistens.html"},
+    {"title": "En sång om the dark side of the love",         "page": "/spex/sketchistens.html"},
+    {"title": "En sång om en som är gla och gi'o",            "page": "/spex/sketchistens.html"},
+    {"title": "Karnefilivisan eller sången om att hitta hem", "page": "/spex/sketchistens.html"}
 ]
