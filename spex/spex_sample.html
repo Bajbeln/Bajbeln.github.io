@@ -87,9 +87,9 @@
           const songButtons = document.getElementsByClassName('collapsible');
           let found = false;
   
-          // Loop through each song title (button) to find a match, Have to reorganize so it doesent take in the nr 
+          // Loop through each song title (button) to find a match
           for (let i = 0; i < songButtons.length; i++) {
-              const songTitle = songButtons[i].textContent.toLowerCase(); //trimma på något sätt här. 
+              const songTitle = songButtons[i].textContent.toLowerCase();
   
               if (songTitle.includes(lowerSearchTerm)) {
                   // Scroll to the matching song
