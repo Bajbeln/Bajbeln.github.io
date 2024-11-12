@@ -34,7 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         if (!found) {
-            alert("No matching song found on this page.");
+            alert("No matching song found on this page. " + searchTerm);
+
         }
     }
 });
