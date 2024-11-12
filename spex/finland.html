@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <script src="/searchscript.js"></script>
   
   <!-- Logga -->
   <a href="/index.html"><img src="/bilder/logga (1).png" width= "70" alt="Spexloggan"></a>
@@ -66,50 +67,6 @@
     }
     </script>
   </body>
-  
-  <!-- Search functionality -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Function to get the query parameter from the URL
-        console.log("hittade rätt");
-        function getSearchParam() {
-            const params = new URLSearchParams(window.location.search);
-            return params.get('search');
-        }
-    
-        const searchTerm = getSearchParam();
-    
-        if (searchTerm) {
-            const lowerSearchTerm = searchTerm.toLowerCase();
-            const songButtons = document.getElementsByClassName('collapsible');
-            let found = false;
-    
-            // Loop through each song title (button) to find a match, Have to reorganize so it doesent take in the nr 
-            for (let i = 0; i < songButtons.length; i++) {
-                const songTitle = songButtons[i].textContent.toLowerCase(); //trimma på något sätt här. 
-    
-                if (songTitle.includes(lowerSearchTerm)) {
-                    // Scroll to the matching song
-                    songButtons[i].scrollIntoView({ behavior: 'smooth', block: 'start' });
-    
-                    // Optional: Highlight the song for 2 sec
-                    songButtons[i].style.backgroundColor = '#ffd54f';
-                    setTimeout(() => {
-                        songButtons[i].style.backgroundColor = '';
-                    }, 2000);
-                    songButtons[i].click();
-    
-                    found = true;
-                    break;
-                }
-            }
-    
-            if (!found) {
-                alert("No matching song found on this page.");
-            }
-        }
-    });
-    </script>
     
   <!-- Unique background color for this page -->
   <style>
