@@ -3,6 +3,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
+  <script src="/searchscript.js"></script>
 </head>
 
 <!-- Logga -->
@@ -25,6 +26,7 @@
 <body>
 <button type="button" class="collapsible">1. Ack Odense</button>
 <div class="content">
+
   <p><i>Mel.: Nicest kids in town – James Marsden</i><br><br>
     Godmorgon Odense!<br>
     Ännu en strålande dag.<br>
@@ -455,7 +457,7 @@
     (Det kommer bli) Ta och ring Vogue och Prada<br>
     (Pornografi) Jag vill att folket ska bada
     <br><br>
-I kejsarens nya stil!
+    I kejsarens nya stil!
 
   </p>
 </div>
@@ -527,49 +529,6 @@ I kejsarens nya stil!
   }
   </script>
 </body>
-
-<!-- Search functionality -->
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-      // Function to get the query parameter from the URL
-      function getSearchParam() {
-          const params = new URLSearchParams(window.location.search);
-          return params.get('search');
-      }
-  
-      const searchTerm = getSearchParam();
-  
-      if (searchTerm) {
-          const lowerSearchTerm = searchTerm.toLowerCase();
-          const songButtons = document.getElementsByClassName('collapsible');
-          let found = false;
-  
-          // Loop through each song title (button) to find a match, Have to reorganize so it doesent take in the nr 
-          for (let i = 0; i < songButtons.length; i++) {
-              const songTitle = songButtons[i].textContent.toLowerCase(); //trimma på något sätt här. 
-  
-              if (songTitle.includes(lowerSearchTerm)) {
-                  // Scroll to the matching song
-                  songButtons[i].scrollIntoView({ behavior: 'smooth', block: 'start' });
-  
-                  
-                  songButtons[i].style.backgroundColor = '#ffd54f';
-                  setTimeout(() => {
-                      songButtons[i].style.backgroundColor = '';
-                  }, 2000); 
-                  songButtons[i].click();
-  
-                  found = true;
-                  break;
-              }
-          }
-  
-          if (!found) {
-              alert("No matching song found on this page.");
-          }
-      }
-  });
-  </script>
 
 <!-- Unique background color for this page -->
 <style>
