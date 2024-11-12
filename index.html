@@ -177,7 +177,6 @@
     .then(response => response.text())
     .then(data => {
       document.getElementById('header').innerHTML = data;
-      console.log("loaded header");
 
       document.getElementById('search-form').addEventListener('submit', function(event) {
           event.preventDefault(); // Tar bort reload
