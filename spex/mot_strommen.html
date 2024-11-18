@@ -1,0 +1,95 @@
+<body_test>
+    <html lang="en">
+    <head>
+    
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/style.css">
+      <script src="/searchscript.js"></script>
+    
+      <link rel="icon" type="image/png" href="/images/logga.png">
+    
+    <!-- Logga -->
+    <a href="/"><img src="/images/logga.png" width= "70" alt="Spexloggan"></a>
+    
+    <body>
+      <h1><a href="/"> Krischanstaspääxets<br>Sajber-Bajbel </a></h1>
+    </body>
+    <body>
+      <h2>Spextitel</h2>
+    </body>
+    </head>
+    
+    <!-- Copy link-button -->
+    <body>
+      <a href="/spex/SPEX.html" class= "button"> Kopiera Länk</a><br><br>
+    <script>
+      navigator.clipboard.writeText(window.location.href);
+    </script>
+    </body>
+    
+      <!-- Song sample -->
+    <!-- 
+    <button type="button" class="collapsible">Sångtitel</button>
+    <div class="content">
+      <p><i>SJUNGS_AV</i><br>
+      <i>MELODI</i><br><br>
+        SÅNGTEXT
+      </p>
+    </div>
+    -->
+    
+    <!-- Double column -->
+    <!-- 
+    <div class="row">
+      <div class="column"></div>
+      <div class="column"></div>
+    </div> 
+    -->
+    
+    <!-- Navigate to section of page -->
+    <!--
+    <a href="sample.html#sushi">Sushi</a>
+    <div id='sushi'><a name='sushi'></a></div>
+    -->
+    
+    <body>
+    <!-- Place for songs -->
+    </body>
+    
+      <!-- Animation for drop-down menu -->
+    </body>
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+      </script>
+    </body>
+      
+    <!-- Unique background color for this page -->
+    <style>
+      body {
+        background-color: rgb(149, 180, 245);
+      }
+    </style>
+    
+    
+    <!-- Footer -->
+    <body>
+      <footer>
+        Krischanstaspääxet 2024<br>
+        <a href= "https://github.com/Bajbeln/Bajbeln.github.io"> <b>Källkod</b></a>
+      </footer>
+    </body>
+    </html>
