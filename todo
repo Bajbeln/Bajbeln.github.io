@@ -3,13 +3,11 @@
 -- sökfuktionalitet
     efter melodi?
 
---fälla upp de andra flikarna när en annan öppnas
+--fälla upp de andra flikarna när en annan öppnas (kanske)
 
 --hosta på nationens server?
 
 --fixa varför texten är större på de sista spexen
-
---knapp för att kopiera/dela låttext?
 
 --ev. lägga in tecken för pi osv i rosetta-4
 --lägg in caesar-11
@@ -18,20 +16,10 @@
 
 --korrläs alla spex (joel)
 
---om dublett: lägg in i samma sida men med rubrik nedan.
-
---länk på första sidan direkt till uppsättningen
-
 --abstrahera sök och randomize
-
---vit text på blå bakgrund funkar ej bra?
 
 --fixa random så att den alltid ger resultat - köra om random?
 
 --fixa kopiera länk-knapp
-
---olika färger på objekten för varje spex?
-
---lägg till aktfinalsslakt i Favoriter
 
 --gör sångnummerna sökbara
