@@ -560,5 +560,15 @@
     {"title": "[OSF 4] Spionsången",                 "page": "/spex/os_feber.html"},
     {"title": "[OSF 4] Myggkupletten",               "page": "/spex/os_feber.html"},
     {"title": "[OSF 5] Kärlek över språkbarriären",  "page": "/spex/os_feber.html"},
-    {"title": "[OSF 5] En ej Verdi slutsång",        "page": "/spex/os_feber.html"}
+    {"title": "[OSF 5] En ej Verdi slutsång",        "page": "/spex/os_feber.html"},
+    
+    {"title": "[GYT 1] Kärleksballad",                                    "page": "/spex/gyttjeblottning.html"},
+    {"title": "[GYT 1] Nätsacks",                                         "page": "/spex/gyttjeblottning.html"},
+    {"title": "[GYT 1] Julvisa",                                          "page": "/spex/gyttjeblottning.html"},
+    {"title": "[GYT 1] Askungen",                                         "page": "/spex/gyttjeblottning.html"},
+    {"title": "[GYT 1] Vit visa",                                         "page": "/spex/gyttjeblottning.html"},
+    {"title": "[GYT 1] Herr Doktor Hilbert Rothwangs billiga djurförsök", "page": "/spex/gyttjeblottning.html"}
+
+
+
 ]
