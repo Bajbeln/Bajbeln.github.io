@@ -551,5 +551,14 @@
     {"title": "[KUK 8] Commiegång",                       "page": "/spex/kubakrisen.html"},
     {"title": "[KUK 9] En ny världsordning",              "page": "/spex/kubakrisen.html"},
     {"title": "[KUK 10] Spääxfinal",                       "page": "/spex/kubakrisen.html"},
-    {"title": "[KUK 10] Ingen USAknad bara Burlove",       "page": "/spex/kubakrisen.html"}
+    {"title": "[KUK 10] Ingen USAknad bara Burlove",       "page": "/spex/kubakrisen.html"},
+
+    {"title": "[OSF 1] Officiella OS-låten",         "page": "/spex/os_feber.html"},
+    {"title": "[OSF 2] Carolines presentationssång", "page": "/spex/os_feber.html"},
+    {"title": "[OSF 2] Sjukpolketten",               "page": "/spex/os_feber.html"},
+    {"title": "[OSF 3] Aktfinal IOK",                "page": "/spex/os_feber.html"},
+    {"title": "[OSF 4] Spionsången",                 "page": "/spex/os_feber.html"},
+    {"title": "[OSF 4] Myggkupletten",               "page": "/spex/os_feber.html"},
+    {"title": "[OSF 5] Kärlek över språkbarriären",  "page": "/spex/os_feber.html"},
+    {"title": "[OSF 5] En ej Verdi slutsång",        "page": "/spex/os_feber.html"}
 ]
