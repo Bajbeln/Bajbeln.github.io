@@ -577,5 +577,12 @@
     {"title": "[GYT 1] Julvisa",                                          "page": "/spex/gyttjeblottning.html"},
     {"title": "[GYT 1] Askungen",                                         "page": "/spex/gyttjeblottning.html"},
     {"title": "[GYT 1] Vit visa",                                         "page": "/spex/gyttjeblottning.html"},
-    {"title": "[GYT 1] Herr Doktor Hilbert Rothwangs billiga djurförsök", "page": "/spex/gyttjeblottning.html"}
+    {"title": "[GYT 1] Herr Doktor Hilbert Rothwangs billiga djurförsök", "page": "/spex/gyttjeblottning.html"},
+
+    {"title": "[NIS 1] Nisse och klockan",               "page": "/spex/nisse.html"},
+    {"title": "[NIS 2] Guppyvisan",                      "page": "/spex/nisse.html"},
+    {"title": "[NIS 2] Brunos sång",                     "page": "/spex/nisse.html"},
+    {"title": "[NIS 3] Lapplisans sång",                 "page": "/spex/nisse.html"},
+    {"title": "[NIS 3] Nisses Helsingkronasång",         "page": "/spex/nisse.html"},
+    {"title": "[NIS 3] Lille Nisses stora klocka-theme", "page": "/spex/nisse.html"}
 ]
