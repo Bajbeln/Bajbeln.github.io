@@ -562,13 +562,20 @@
     {"title": "[OSF 5] Kärlek över språkbarriären",  "page": "/spex/os_feber.html"},
     {"title": "[OSF 5] En ej Verdi slutsång",        "page": "/spex/os_feber.html"},
     
+    {"title": "[PUL 1] En vass inledning",                 "page": "/spex/pullinutt.html"},
+    {"title": "[PUL 1] Pullinutts sång",                   "page": "/spex/pullinutt.html"},
+    {"title": "[PUL 1] Jag är Gulleplutt",                 "page": "/spex/pullinutt.html"},
+    {"title": "[PUL 1] Jag är den kloke Jan Eric Larsson", "page": "/spex/pullinutt.html"},
+    {"title": "[PUL 2] Jag är den stygga drottning Kaxa",  "page": "/spex/pullinutt.html"},
+    {"title": "[PUL 2] Duett mellan en elak trollkarl och en förtrollad princessa", "page": "/spex/pullinutt.html"},
+    {"title": "[PUL 3] Trolle-trolle-rollen",              "page": "/spex/pullinutt.html"},
+    {"title": "[PUL 3] Drakens magplåga",                  "page": "/spex/pullinutt.html"},
+    {"title": "[PUL 3] Slutsång",                          "page": "/spex/pullinutt.html"},
+
     {"title": "[GYT 1] Kärleksballad",                                    "page": "/spex/gyttjeblottning.html"},
     {"title": "[GYT 1] Nätsacks",                                         "page": "/spex/gyttjeblottning.html"},
     {"title": "[GYT 1] Julvisa",                                          "page": "/spex/gyttjeblottning.html"},
     {"title": "[GYT 1] Askungen",                                         "page": "/spex/gyttjeblottning.html"},
     {"title": "[GYT 1] Vit visa",                                         "page": "/spex/gyttjeblottning.html"},
     {"title": "[GYT 1] Herr Doktor Hilbert Rothwangs billiga djurförsök", "page": "/spex/gyttjeblottning.html"}
-
-
-
 ]
