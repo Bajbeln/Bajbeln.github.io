@@ -589,10 +589,25 @@
     {"title": "[MTV 4] Världens farligaste djur",                    "page": "/spex/mtv.html"},
     {"title": "[MTV 4] Dubbelmoralen: en sex-, våld- och spritsång", "page": "/spex/mtv.html"},
 
+    {"title": "[SAN 1] Karnevalskösång",                 "page": "/spex/sannladan.html"},
+    {"title": "[SAN 1] Sportallergisång",                "page": "/spex/sannladan.html"},
+    {"title": "[SAN 1] CSN - Vi dyrkar dig!",            "page": "/spex/sannladan.html"},
+    {"title": "[SAN 2] Øl og is",                        "page": "/spex/sannladan.html"},
+    {"title": "[SAN 2] Tampongsång",                     "page": "/spex/sannladan.html"},
+    {"title": "[SAN 2] Ligga i Lund",                    "page": "/spex/sannladan.html"},
+    {"title": "[SAN 3] Vi kan festa utan att ha roligt", "page": "/spex/sannladan.html"},
+    {"title": "[SAN 4] Gudasång",                        "page": "/spex/sannladan.html"},
+    {"title": "[SAN 4] Vi ska skiljas",                  "page": "/spex/sannladan.html"},
+    {"title": "[SAN 4] Finlands nationalsång",           "page": "/spex/sannladan.html"},
+    {"title": "[SAN 5] Punksång",                        "page": "/spex/sannladan.html"},
+    {"title": "[SAN 5] Halleluja - final",               "page": "/spex/sannladan.html"},
+
     {"title": "[NIS 1] Nisse och klockan",               "page": "/spex/nisse.html"},
     {"title": "[NIS 2] Guppyvisan",                      "page": "/spex/nisse.html"},
     {"title": "[NIS 2] Brunos sång",                     "page": "/spex/nisse.html"},
     {"title": "[NIS 3] Lapplisans sång",                 "page": "/spex/nisse.html"},
     {"title": "[NIS 3] Nisses Helsingkronasång",         "page": "/spex/nisse.html"},
     {"title": "[NIS 3] Lille Nisses stora klocka-theme", "page": "/spex/nisse.html"}
+
+    
 ]
