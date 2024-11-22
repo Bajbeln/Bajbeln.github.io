@@ -602,12 +602,21 @@
     {"title": "[SAN 5] Punksång",                        "page": "/spex/sannladan.html"},
     {"title": "[SAN 5] Halleluja - final",               "page": "/spex/sannladan.html"},
 
+    {"title": "[EIF 1] Nu jädrar är det världsutställningsdags", "page": "/spex/eiffel.html"},
+    {"title": "[EIF 1] Bollen är ball",                          "page": "/spex/eiffel.html"},
+    {"title": "[EIF 2] Kärleksvolontärerna",                     "page": "/spex/eiffel.html"},
+    {"title": "[EIF 2] Hej och hå, gul och blå!",                "page": "/spex/eiffel.html"},
+    {"title": "[EIF 2] Två gubbar är lika många som två bröst",  "page": "/spex/eiffel.html"},
+    {"title": "[EIF 3] Bollen blir till sand",                   "page": "/spex/eiffel.html"},
+    {"title": "[EIF 3] Lady Go Diva",                            "page": "/spex/eiffel.html"},
+    {"title": "[EIF 4] Eiffels patetiska bollsång",              "page": "/spex/eiffel.html"},
+    {"title": "[EIF 4] Spääxfinal till Eiffel",                  "page": "/spex/eiffel.html"},
+    {"title": "[EIF 4] En Verdi avslutning på spääxet Eiffel",   "page": "/spex/eiffel.html"},
+
     {"title": "[NIS 1] Nisse och klockan",               "page": "/spex/nisse.html"},
     {"title": "[NIS 2] Guppyvisan",                      "page": "/spex/nisse.html"},
     {"title": "[NIS 2] Brunos sång",                     "page": "/spex/nisse.html"},
     {"title": "[NIS 3] Lapplisans sång",                 "page": "/spex/nisse.html"},
     {"title": "[NIS 3] Nisses Helsingkronasång",         "page": "/spex/nisse.html"},
     {"title": "[NIS 3] Lille Nisses stora klocka-theme", "page": "/spex/nisse.html"}
-
-    
 ]
