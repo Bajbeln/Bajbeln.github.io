@@ -579,6 +579,16 @@
     {"title": "[GYT 1] Vit visa",                                         "page": "/spex/gyttjeblottning.html"},
     {"title": "[GYT 1] Herr Doktor Hilbert Rothwangs billiga djurförsök", "page": "/spex/gyttjeblottning.html"},
 
+    {"title": "[MTV 1] Aktivistvisan",                               "page": "/spex/mtv.html"},
+    {"title": "[MTV 1] Belåna",                                      "page": "/spex/mtv.html"},
+    {"title": "[MTV 1] Dödens aria",                                 "page": "/spex/mtv.html"},
+    {"title": "[MTV 2] Fantomen",                                    "page": "/spex/mtv.html"},
+    {"title": "[MTV 2] Moder jord visar sig för människorna",        "page": "/spex/mtv.html"},
+    {"title": "[MTV 3] Slumpen och kärlekens sång",                  "page": "/spex/mtv.html"},
+    {"title": "[MTV 3] Jag har tunnor på min gård",                  "page": "/spex/mtv.html"},
+    {"title": "[MTV 4] Världens farligaste djur",                    "page": "/spex/mtv.html"},
+    {"title": "[MTV 4] Dubbelmoralen: en sex-, våld- och spritsång", "page": "/spex/mtv.html"},
+
     {"title": "[NIS 1] Nisse och klockan",               "page": "/spex/nisse.html"},
     {"title": "[NIS 2] Guppyvisan",                      "page": "/spex/nisse.html"},
     {"title": "[NIS 2] Brunos sång",                     "page": "/spex/nisse.html"},
