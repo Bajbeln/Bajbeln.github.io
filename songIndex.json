@@ -613,6 +613,16 @@
     {"title": "[EIF 4] Spääxfinal till Eiffel",                  "page": "/spex/eiffel.html"},
     {"title": "[EIF 4] En Verdi avslutning på spääxet Eiffel",   "page": "/spex/eiffel.html"},
 
+    {"title": "Vi är glada Kristianstadsbor",                     "page": "/spex/charles_magnusson.html"},
+    {"title": "Kärlek i och till Kristianstad",                   "page": "/spex/charles_magnusson.html"},
+    {"title": "Pepp-sången",                                      "page": "/spex/charles_magnusson.html"},
+    {"title": "Moster Ettys Fnyssång",                            "page": "/spex/charles_magnusson.html"},
+    {"title": "Skurksång",                                        "page": "/spex/charles_magnusson.html"},
+    {"title": "Tagning-sången",                                   "page": "/spex/charles_magnusson.html"},
+    {"title": "Polismästarens kortis",                            "page": "/spex/charles_magnusson.html"},
+    {"title": "Lynchsång",                                        "page": "/spex/charles_magnusson.html"},
+    {"title": "En Verdi avslutning på spääxet Charles Magnusson", "page": "/spex/charles_magnusson.html"},
+
     {"title": "[NIS 1] Nisse och klockan",               "page": "/spex/nisse.html"},
     {"title": "[NIS 2] Guppyvisan",                      "page": "/spex/nisse.html"},
     {"title": "[NIS 2] Brunos sång",                     "page": "/spex/nisse.html"},
