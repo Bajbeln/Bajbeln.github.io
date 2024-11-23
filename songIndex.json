@@ -623,6 +623,16 @@
     {"title": "Lynchsång",                                        "page": "/spex/charles_magnusson.html"},
     {"title": "En Verdi avslutning på spääxet Charles Magnusson", "page": "/spex/charles_magnusson.html"},
 
+    {"title": "[GUS 1] Alla är här-sången",                "page": "/spex/gustav_iii.html"},
+    {"title": "[GUS 1] Ät potatis hos mig-sången",         "page": "/spex/gustav_iii.html"},
+    {"title": "[GUS 2] Gustav har klätt ut sig",           "page": "/spex/gustav_iii.html"},
+    {"title": "[GUS 2] Aurelias missionsvisa",             "page": "/spex/gustav_iii.html"},
+    {"title": "[GUS 3] Det är roligt med bygdlekar om man är jämnare par", "page": "/spex/gustav_iii.html"},
+    {"title": "[GUS 3] Det är synd om Näsman-sången",      "page": "/spex/gustav_iii.html"},
+    {"title": "[GUS 4] Kaffevisan",                        "page": "/spex/gustav_iii.html"},
+    {"title": "[GUS 5] Pytts och Näsmans osannolika sång", "page": "/spex/gustav_iii.html"},
+    {"title": "[GUS 5] Spääxfinal",                        "page": "/spex/gustav_iii.html"},
+
     {"title": "[NIS 1] Nisse och klockan",               "page": "/spex/nisse.html"},
     {"title": "[NIS 2] Guppyvisan",                      "page": "/spex/nisse.html"},
     {"title": "[NIS 2] Brunos sång",                     "page": "/spex/nisse.html"},
