@@ -638,5 +638,17 @@
     {"title": "[NIS 2] Brunos sång",                     "page": "/spex/nisse.html"},
     {"title": "[NIS 3] Lapplisans sång",                 "page": "/spex/nisse.html"},
     {"title": "[NIS 3] Nisses Helsingkronasång",         "page": "/spex/nisse.html"},
-    {"title": "[NIS 3] Lille Nisses stora klocka-theme", "page": "/spex/nisse.html"}
+    {"title": "[NIS 3] Lille Nisses stora klocka-theme", "page": "/spex/nisse.html"},
+
+    {"title": "[HJA 1] Vi är glada Kristianstadsbor",              "page": "/spex/hjalmar.html"},
+    {"title": "[HJA 1] Vi är olyckliga fast av olika anledningar", "page": "/spex/hjalmar.html"},
+    {"title": "[HJA 2] Aktfinal I - Vilken tur vi har!",           "page": "/spex/hjalmar.html"},
+    {"title": "[HJA 2] En vanlig dag på redaktionen",              "page": "/spex/hjalmar.html"},
+    {"title": "[HJA 3] Ibelsax presenterar sig",                   "page": "/spex/hjalmar.html"},
+    {"title": "[HJA 3] Kärlek på tryckeriet",                      "page": "/spex/hjalmar.html"},
+    {"title": "[HJA 4] Udos tyska ångest",                         "page": "/spex/hjalmar.html"},
+    {"title": "[HJA 4] Aktfinal II - Konspirationssången",         "page": "/spex/hjalmar.html"},
+    {"title": "[HJA 5] Ditt jävla as jag hatar dina inälvor",      "page": "/spex/hjalmar.html"},
+    {"title": "[HJA 5] Gammal kärlek ruttnar aldrig (den bara luktar konstigt)", "page": "/spex/hjalmar.html"},
+    {"title": "[HJA 6] Där satt den!",                             "page": "/spex/hjalmar.html"}
 ]
