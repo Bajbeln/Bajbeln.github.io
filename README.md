@@ -14,7 +14,7 @@ Lägg sedan till låtarna i songIndex.json för sökfuktionaliteten och spexet i
 - Direktlänk till låt (ej påbörjad)
 - Fixa kopiera länk-knapp (ej påbörjad)
 - Korrläsning av alla spex (på gång)
-- Sökfunktionen ger fel ibland, oftast beror det på att de titlen inte skrivits in rätt i songIndex eller i spexsidan. Kontrollera då så att de två överensstämmer med varandra.
+- Sökfunktionen ger fel ibland, oftast beror det på att titeln inte skrivits in rätt i songIndex eller i spexsidan. Kontrollera då så att de två överensstämmer med varandra.
 
 ## Tack till
 - Kodning har gjorts av Joel Takahashi Olsson, Jacob Annefors och Johan Furuhjelm.
