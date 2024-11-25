@@ -194,7 +194,7 @@
     {"title": "[KLE 6] Nu är hon faktiskt dödad, faktiskt.",                "page": "/spex/kleopatra.html"},
     {"title": "[KLE 7] Tronföljdstrudelutt (Har ni hört det feta?)",        "page": "/spex/kleopatra.html"},
     {"title": "[KLE 7] Komplott",                                           "page": "/spex/kleopatra.html"},
-    {"title": "[KLE 8] Det handlar om slem,lille vän",                      "page": "/spex/kleopatra.html"},
+    {"title": "[KLE 8] Det handlar om slem, lille vän",                      "page": "/spex/kleopatra.html"},
     {"title": "[KLE 8] Anatomtom bossa",                                    "page": "/spex/kleopatra.html"},
 
     {"title": "[LEW 1] Baby I'm A Star",                                    "page": "/spex/lewinsky.html"},
@@ -269,8 +269,8 @@
     {"title": "[O 6] Universalvocalsången",        "page": "/spex/rosetta.html"},
     {"title": "[0 7] Nu är det Över-sången",      "page": "/spex/rosetta.html"},
 
-    {"title": "[FRA 1] Franz Ferdinand är en hyvens kille",           "page": "/spex/franz_ferdinand.html"},
-    {"title": "[FRA 1] En hyvens kille i moll",                              "page": "/spex/franz_ferdinand.html"},
+    {"title": "[FRA 1] Franz Ferdinand är en hyvens kille",                          "page": "/spex/franz_ferdinand.html"},
+    {"title": "[FRA 1] En hyvens kille i moll",                                      "page": "/spex/franz_ferdinand.html"},
     {"title": "[FRA 1] Franz Ferdinands korta men kärnfulla hyllning till Tyskland", "page": "/spex/franz_ferdinand.html"},
     {"title": "[FRA 2] Den Olympiska konstitutionen",                                "page": "/spex/franz_ferdinand.html"},
     {"title": "[FRA 2] Tonårsrevolt trettio år senare",                              "page": "/spex/franz_ferdinand.html"},
@@ -474,7 +474,7 @@
     {"title": "[STA 20] Är det ingen som vill ta Frankrike-sången (Slutsång)", "page": "/spex/stalin.html"},
     {"title": "[STA 21] Stalinkvartett 2009",                         "page": "/spex/stalin.html"},
     {"title": "[STA 21] Slutsång",                                    "page": "/spex/stalin.html"},
-    {"title": "[STA 25] Pausfinal av DOOM",                           "page": "/spex/stalin.html"},
+    {"title": "[STA 25] Pausfinal of DOOM",                           "page": "/spex/stalin.html"},
     {"title": "[STA 25] Ett kugghjul i Moskva",                       "page": "/spex/stalin.html"},
     {"title": "[STA 26] Svettig Stalin Tango",                        "page": "/spex/stalin.html"},
     {"title": "[STA 26] Jag gjorde det på ett invandringsfritt sätt", "page": "/spex/stalin.html"},
