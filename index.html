@@ -238,6 +238,47 @@
           });
       });
     });
+
+    //Settings
+    function openSettings() {
+      let optionsDiv = document.getElementById("settings-options");
+      optionsDiv.classList.toggle("show");
+      optionsDiv.classList.toggle("hide");
+    }
+
+    function toggleReadingMode() {
+      console.log(document.cookie)
+      if (document.cookie.includes("readingMode=true")) {
+        document.cookie = "readingMode=false";
+        removeReadingMode();
+      } else {
+        document.cookie = "readingMode=true";
+        addReadingMode();
+      }
+    }
+
+    function addReadingMode(){
+      let buttons = document.getElementsByClassName("button");
+      buttons = Array.from(buttons);
+      buttons.forEach(button => {
+        button.classList.add("reading-mode");
+      });
+    }
+
+    function removeReadingMode(){
+      let buttons = document.getElementsByClassName("button");
+      buttons = Array.from(buttons);
+      buttons.forEach(button => {
+        button.classList.remove("reading-mode");
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+      if (document.cookie.includes("readingMode=true")) {
+        console.log("Reading mode is on");
+        addReadingMode();
+      }
+    });
     
     </script>
 </body>
