@@ -2,6 +2,7 @@ body {
   background: rgb(210, 231, 250);
   text-align: center;
   font-family: 'Georgia', Times, serif;
+  -webkit-tap-highlight-color: transparent; /* For mobile, removes blue clicking glitch */
 }
 /* For collapsibles */
 .collapsible {
@@ -55,7 +56,12 @@ a.button {
   border-radius: 24px;
   display: inline-block;
   background-color:rgb(154, 85, 135);
-  margin: 1px
+  margin: 1px;
+  cursor: pointer;
+}
+
+a.button:hover {
+  background-color: #f4ce347e;
 }
 /* Head title and source code link*/
 a {
@@ -178,4 +184,72 @@ button.random{
   display: inline-block;
   margin-bottom: 12;
   font-weight: 900;
+}
+
+button {
+  cursor: pointer;
+}
+
+.settings-container{
+  position: absolute;
+  top: 80px;
+  right: 5px;
+  padding: 10px;
+
+}
+
+#settings-button {
+  border: none;
+  background-color: transparent;
+  color: rgba(170, 75, 143, 0.809);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#settings-options {
+  position: relative;
+  right: -100px;
+}
+
+#settings-options.show{
+  animation: settings-options 0.3s forwards;
+  display: block;
+}
+
+#settings-options.hide{
+  animation: settings-options 0.3s forwards;
+  animation-direction: reverse;
+  display: none;
+}
+
+@keyframes settings-options {
+  from {right: -50px;
+        opacity: 0;}
+  to {right: 0;
+      opacity: 1;}
+}
+
+#reading-mode-button{
+  padding-top: 10px;
+  border: none;
+  background-color: transparent;
+  color: rgba(170, 75, 143, 0.809);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Reading mode (specified to give priority) */
+a.reading-mode{
+  background-color: white;
+  color: black;
+}
+
+div.reading-mode{
+  background-color: white;
+  color: black;
+}
+
+button.reading-mode{
+  background-color: white;
+  color: black;
 }
