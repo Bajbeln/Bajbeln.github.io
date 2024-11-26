@@ -171,7 +171,7 @@
 
     {"title": "[HIN 1] Flyg med oss!",                       "page": "/spex/hindenburg.html"},
     {"title": "[HIN 1] En stadsman göring ett rike",         "page": "/spex/hindenburg.html"},
-    {"title": "[HIN 2] Tal till nationen med T",             "page": "/spex/hindenburg.html"},
+    {"title": "[HIN 2] Tal till nationen på T",             "page": "/spex/hindenburg.html"},
     {"title": "[HIN 2] Anguished Dog",                       "page": "/spex/hindenburg.html"},
     {"title": "[HIN 3] Hejdå, och hoppas att vi inte dör",    "page": "/spex/hindenburg.html"},
     {"title": "[HIN 3] CargoCult",                            "page": "/spex/hindenburg.html"},
@@ -281,7 +281,7 @@
     {"title": "[FRA 5] Hissnande utsikter",                                          "page": "/spex/franz_ferdinand.html"},
     {"title": "[FRA 5] Svarta handens hemliga sällskapssång",                        "page": "/spex/franz_ferdinand.html"},
     {"title": "[FRA 6] Kärlek på gavrillovägar",                                     "page": "/spex/franz_ferdinand.html"},
-    {"title": "[FRA 7] Nu ligger världen för Svarta Handens fötter",                 "page": "/spex/franz_ferdinand.html"},
+    {"title": "[FRA 6] Nu ligger världen för Svarta Handens fötter",                 "page": "/spex/franz_ferdinand.html"},
     {"title": "[FRA 7] Vi stämplar in för maktskiftet",                              "page": "/spex/franz_ferdinand.html"},
     {"title": "[FRA 7] Rådvill lådvisa",                                             "page": "/spex/franz_ferdinand.html"},
     {"title": "[FRA 8] En lektion i fängelsecellektion",                             "page": "/spex/franz_ferdinand.html"},
@@ -573,7 +573,7 @@
     {"title": "[PUL 3] Slutsång",                          "page": "/spex/pullinutt.html"},
 
     {"title": "[GYT 1] Kärleksballad",                                    "page": "/spex/gyttjeblottning.html"},
-    {"title": "[GYT 1] Nätsacks",                                         "page": "/spex/gyttjeblottning.html"},
+    {"title": "[GYT 1] Nätsäcks",                                         "page": "/spex/gyttjeblottning.html"},
     {"title": "[GYT 1] Julvisa",                                          "page": "/spex/gyttjeblottning.html"},
     {"title": "[GYT 1] Askungen",                                         "page": "/spex/gyttjeblottning.html"},
     {"title": "[GYT 1] Vit visa",                                         "page": "/spex/gyttjeblottning.html"},
