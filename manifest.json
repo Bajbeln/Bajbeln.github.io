@@ -1,0 +1,39 @@
+{
+    "name": "Krischanstaspääxets Sajber-bajbel",
+    "short_name": "Bajbeln",
+    "description": "Låttexter genom tiderna",
+    "start_url": "/index.html",
+    "permissions": [
+        "clipboardWrite"
+    ],
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+        {
+            "src": "/images/icon192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/icon512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ], 
+    "screenshots": [
+        {
+            "src": "/images/screenshot.png",
+            "sizes": "1879x868",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/images/screenshot_narrow.png",
+            "sizes": "645x859",
+            "type": "image/png",
+            "form_factor": "narrow"
+        }
+    ]
+
+}

@@ -3,14 +3,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
+  <link rel="manifest" href="../manifest.json">
   <script src="/searchscript.js"></script>
   <script src="/pagescript.js"></script>
+  
 </head>
 
 <!-- Logga -->
 <a href="/index.html"><img src="/images/logga.png" width= "70" alt="Spexloggan"></a>
-
-
 
 <body>
   <h1><a href="/index.html"> Krischanstaspääxets<br>Sajber-Bajbel</a></h1>
@@ -20,10 +20,7 @@
 </body>
 
 <body>
-  <a href="/spex/hc_andersen.html" class= "button"> Kopiera Länk</a><br><br>
-<script>
-  navigator.clipboard.writeText(window.location.href);
-</script>
+  <button class="copyButton" onclick="copyLink()"> Kopiera Länk</button><br><br>
 </body>
 
 <body>
