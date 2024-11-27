@@ -1,10 +1,5 @@
 --se om det går att expandera inuti en expanderbar (Pausfinalen HC A)
 
--- sökfuktionalitet
-    efter melodi?
-
---fälla upp de andra flikarna när en annan öppnas (kanske)
-
 --hosta på nationens server?
 
 --fixa stalin-10
@@ -14,8 +9,6 @@
 --korrläs alla spex (joel)
 
 --abstrahera sök och randomize
-
---fixa random så att den alltid ger resultat - köra om random?
 
 --fixa kopiera länk-knapp
 
@@ -28,3 +21,5 @@
 --går det att göra inställningar tillgängligt från alla sidor?
 
 --ska det finnas fler inställningar eller ska den svartvita inställningen finnas tillgänglig direkt?
+
+--svatvitt (för textrutan) kanske ändå kan bli standardinställning?
