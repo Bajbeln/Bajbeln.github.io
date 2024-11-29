@@ -755,5 +755,23 @@
     {"title": "[KAR 7] Yohanna håller stånd",                        "page": "/spex/martell.html"},
     {"title": "[KAR 8] Så fick vi på varandras rygg",                "page": "/spex/martell.html"},
     {"title": "[KAR 8] Martellfinal",                                "page": "/spex/martell.html"},
-    {"title": "[KAR 8] En Verdi avslutning på Spääxet Karl Martell", "page": "/spex/martell.html"}
+    {"title": "[KAR 8] En Verdi avslutning på Spääxet Karl Martell", "page": "/spex/martell.html"},
+
+    {"title": "Nu ska vi festa",                   "page": "/spex/favourites.html"},
+    {"title": "Lisas presentationsvisa",           "page": "/spex/favourites.html"},
+    {"title": "Ett lyckligt slut",                 "page": "/spex/favourites.html"},
+    {"title": "Jag heter Akai",                    "page": "/spex/favourites.html"},
+    {"title": "Nu ska visst alla döda Kalle",      "page": "/spex/favourites.html"},
+    {"title": "Hyllningssång",                     "page": "/spex/favourites.html"},
+    {"title": "En sång om en som är gla och gi'o", "page": "/spex/favourites.html"},
+    {"title": "Våran håv",                         "page": "/spex/favourites.html"},
+    {"title": "BOISEN",                            "page": "/spex/favourites.html"},
+    {"title": "Lafayettes entré",                  "page": "/spex/favourites.html"},
+    {"title": "Din Mamma!",                        "page": "/spex/favourites.html"},
+    {"title": "Sova på saken",                     "page": "/spex/favourites.html"},
+    {"title": "Kons aria",                         "page": "/spex/favourites.html"},
+    {"title": "En rysk folksång till",             "page": "/spex/favourites.html"},
+    {"title": "Vilka har giftet",                  "page": "/spex/favourites.html"},
+    {"title": "Michelangelos presentationssång",   "page": "/spex/favourites.html"},
+    {"title": "Aktfinalsslakt",                    "page": "/spex/favourites.html"}
 ]
