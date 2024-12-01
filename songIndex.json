@@ -773,5 +773,25 @@
     {"title": "En rysk folksång till",             "page": "/spex/favourites.html"},
     {"title": "Vilka har giftet",                  "page": "/spex/favourites.html"},
     {"title": "Michelangelos presentationssång",   "page": "/spex/favourites.html"},
-    {"title": "Aktfinalsslakt",                    "page": "/spex/favourites.html"}
+    {"title": "Aktfinalsslakt",                    "page": "/spex/favourites.html"},
+
+    {"title": "[CIV 7] Hebba jazzar till det",                                       "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 7] Jag är fet och full - igen",                                  "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 1] Ett maffigt intro",                                           "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 1] Hebbatrånen",                                                 "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 1] Snappos entré-sång",                                          "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 1] En gammal presentationsvisa",                                 "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 2] Kampen om Hebba",                                             "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 2] Kons aria",                                                   "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 2] Kort knotvisa",                                               "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 2] Organisk kärlekssång (urversionen)",                          "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 2] När jag är fet och full",                                     "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 3] Ett ur-lyckligt slut (Kirsten Munks korta presentationssång)", "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 3] En Verdi av slutning på Christian IV",                        "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 4] Snappos kampsång",                                            "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 4] Trippelpresentation",                                         "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 5] Knotvisa",                                                    "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 5] Organisk kärlekssång",                                        "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 5] Jag är fet och full",                                         "page": "/spex/christian_iv.html"},
+    {"title": "[CIV 6] Ett lyckligt slut (Kisten Munks förlängda presentaionssång)", "page": "/spex/christian_iv.html"}
 ]
