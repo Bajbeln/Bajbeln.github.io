@@ -793,5 +793,17 @@
     {"title": "[CIV 5] Knotvisa",                                                    "page": "/spex/christian_iv.html"},
     {"title": "[CIV 5] Organisk kärlekssång",                                        "page": "/spex/christian_iv.html"},
     {"title": "[CIV 5] Jag är fet och full",                                         "page": "/spex/christian_iv.html"},
-    {"title": "[CIV 6] Ett lyckligt slut (Kisten Munks förlängda presentaionssång)", "page": "/spex/christian_iv.html"}
+    {"title": "[CIV 6] Ett lyckligt slut (Kisten Munks förlängda presentaionssång)", "page": "/spex/christian_iv.html"},
+
+    {"title": "[CXI 1] Kalles presentationssång",        "page": "/spex/carl_xi.html"},
+    {"title": "[CXI 2] Strategisång",                    "page": "/spex/carl_xi.html"},
+    {"title": "[CXI 2] Kärleken bär frukt",              "page": "/spex/carl_xi.html"},
+    {"title": "[CXI 3] Öllis Ölvisa",                    "page": "/spex/carl_xi.html"},
+    {"title": "[CXI 3] Rostock rock",                    "page": "/spex/carl_xi.html"},
+    {"title": "[CXI 4] Smörsång",                        "page": "/spex/carl_xi.html"},
+    {"title": "[CXI 4] Aktfinal 2",                      "page": "/spex/carl_xi.html"},
+    {"title": "[CXI 5] Kaninens sötsång",                "page": "/spex/carl_xi.html"},
+    {"title": "[CXI 5] Åh herregud, det är han/hon",     "page": "/spex/carl_xi.html"},
+    {"title": "[CXI 6] Invokation till Pelle Andersson", "page": "/spex/carl_xi.html"},
+    {"title": "[CXI 8] Final till Karl XI",              "page": "/spex/carl_xi.html"}
 ]
