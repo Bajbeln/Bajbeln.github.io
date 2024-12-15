@@ -832,5 +832,15 @@
     {"title": "[LIN 6] Presidenten tänker till",               "page": "/spex/lincoln.html"},
     {"title": "[LIN 7] Jag har löst det",                      "page": "/spex/lincoln.html"},
     {"title": "[LIN 8] Måsart, tradig",                        "page": "/spex/lincoln.html"},
-    {"title": "[LIN 8] En Verdi avslutning på Lincoln",        "page": "/spex/lincoln.html"}
+    {"title": "[LIN 8] En Verdi avslutning på Lincoln",        "page": "/spex/lincoln.html"},
+
+    {"title": "[NOS 1] Efraims sång",                "page": "/spex/nosaby.html"},
+    {"title": "[NOS 2] Gropar gräves bäst med grep", "page": "/spex/nosaby.html"},
+    {"title": "[NOS 3] Husförhörsmenuett",           "page": "/spex/nosaby.html"},
+    {"title": "[NOS 4] Man måste vara tapper",       "page": "/spex/nosaby.html"},
+    {"title": "[NOS 5] Klas och Efraims svårt patetiska sång", "page": "/spex/nosaby.html"},
+    {"title": "[NOS 6] Suktsång",                    "page": "/spex/nosaby.html"},
+    {"title": "[NOS 6] Kärlekssång",                 "page": "/spex/nosaby.html"},
+    {"title": "[NOS 7] När jag var i Yngsjö",        "page": "/spex/nosaby.html"},
+    {"title": "[NOS 8] Totalfinal",                  "page": "/spex/nosaby.html"}
 ]
