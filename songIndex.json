@@ -1,4 +1,16 @@
 [
+
+    {"title": "Öppningskuplett",                 "page": "/spex/tycho.html"},
+    {"title": "Rymdmekanik",         "page": "/spex/tycho.html"},
+    {"title": "Aktfinal 1",    "page": "/spex/tycho.html"},
+    {"title": "Kristines cravings",      "page": "/spex/tycho.html"},
+    {"title": "Jag vill busa",                "page": "/spex/tycho.html"},
+    {"title": "Pausfinal",                "page": "/spex/tycho.html"},
+    {"title": "Jag är smart",               "page": "/spex/tycho.html"},
+    {"title": "vi ska bunkra",                 "page": "/spex/tycho.html"},
+    {"title": "Fredriks presentation",           "page": "/spex/tycho.html"},
+    {"title": "Slutkuplett",             "page": "/spex/tycho.html"},
+
     {"title": "Ack Odense",                 "page": "/spex/hc_andersen.html"},
     {"title": "Meet the Andersens",         "page": "/spex/hc_andersen.html"},
     {"title": "Höger- och vänstervisan",    "page": "/spex/hc_andersen.html"},
