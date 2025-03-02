@@ -5,10 +5,6 @@ body {
   -webkit-tap-highlight-color: transparent; /* For mobile, removes blue clicking glitch */
 }
 
-p {
-  white-space: pre-wrap;
-}
-
 /* For collapsibles */
 .collapsible {
   background-color: #7ba4dbe0;
