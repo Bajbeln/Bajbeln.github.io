@@ -875,5 +875,24 @@
     {"title": "[DAR 6] Gregers stund på jorden",        "page": "/spex/darwin.html"},
     {"title": "[DAR 6] Tantsnusksång",                  "page": "/spex/darwin.html"},
     {"title": "[DAR 7] Mingelsången",                   "page": "/spex/darwin.html"},
-    {"title": "[DAR 7] Totalfinal",                     "page": "/spex/darwin.html"}
+    {"title": "[DAR 7] Totalfinal",                     "page": "/spex/darwin.html"},
+
+    {"title": "[NOB 1] Låt mig-bestämma-/Låt-mig-va-låtenn",                     "page": "/spex/nobel.html"},
+    {"title": "[NOB 2] Vi-är-Emigrationsverket-och-vi-gillar-tårtor-sången",     "page": "/spex/nobel.html"},
+    {"title": "[NOB 2] En tung gung kung sång",                                  "page": "/spex/nobel.html"},
+    {"title": "[NOB 3] Budbärarumbäranden",                                      "page": "/spex/nobel.html"},
+    {"title": "[NOB 4] Nobel är så satans snål och Berta så satans svår sången", "page": "/spex/nobel.html"},
+    {"title": "[NOB 5] Kvinnokontrollskupletten",                                "page": "/spex/nobel.html"},
+    {"title": "[NOB 5] Le Nons Presentationssång",                               "page": "/spex/nobel.html"},
+    {"title": "[NOB 6] Alla-borde-borda-båten-låten",                            "page": "/spex/nobel.html"},
+    {"title": "[NOB 7] Kölhalad och ölsaglad",                                   "page": "/spex/nobel.html"},
+    {"title": "[NOB 7] Houdini bryter ut i sång",                                "page": "/spex/nobel.html"},
+    {"title": "[NOB 8] Mili-tant-sången",                                        "page": "/spex/nobel.html"},
+    {"title": "[NOB 9] Kvinnokonventssången",                                    "page": "/spex/nobel.html"},
+    {"title": "[NOB 10] Plottpluttinuttisnuttitutt",                             "page": "/spex/nobel.html"},
+    {"title": "[NOB 11] Pangfinal",                                              "page": "/spex/nobel.html"},
+    {"title": "[NOB 12] Le Nons presentationssång",                              "page": "/spex/nobel.html"},
+    {"title": "[NOB 12] Åh, vilken dag",                                         "page": "/spex/nobel.html"},
+    {"title": "[NOB 12] Alla borde-borda-båten-låten",                           "page": "/spex/nobel.html"},
+    {"title": "[NOB 13] Kvinnokonventssången version 2.0",                       "page": "/spex/nobel.html"}
 ]
