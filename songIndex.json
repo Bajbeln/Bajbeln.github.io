@@ -905,5 +905,21 @@
     {"title": "[MAR 6] Det får ni själv lista ut-sången",   "page": "/spex/maria_eleonora.html"},
     {"title": "[MAR 6] Det är synd om Dodo",                "page": "/spex/maria_eleonora.html"},
     {"title": "[MAR 7] Kärlekssång, typ",                   "page": "/spex/maria_eleonora.html"},
-    {"title": "[MAR 8] Slutsång",                           "page": "/spex/maria_eleonora.html"}
+    {"title": "[MAR 8] Slutsång",                           "page": "/spex/maria_eleonora.html"},
+
+    {"title": "[CvL 6] Introsång",                 "page": "/spex/linne.html"},
+    {"title": "[CvL 6] Fy för snusk!",             "page": "/spex/linne.html"},
+    {"title": "[CvL 7] Hybrisduetten",             "page": "/spex/linne.html"},
+    {"title": "[CvL 7] Ung kärlek rodnar aldrig",  "page": "/spex/linne.html"},
+    {"title": "[CvL 9] Ett snuskigt slut",         "page": "/spex/linne.html"},
+    {"title": "[CvL 1] Grisavisan",                "page": "/spex/linne.html"},
+    {"title": "[CvL 1] Fy för snusk!",             "page": "/spex/linne.html"},
+    {"title": "[CvL 2] Linnéduetten",              "page": "/spex/linne.html"},
+    {"title": "[CvL 2] Fröken Schulténs klagan",   "page": "/spex/linne.html"},
+    {"title": "[CvL 3] Hybriskupletten",           "page": "/spex/linne.html"},
+    {"title": "[CvL 3] Potatiskonventsången",      "page": "/spex/linne.html"},
+    {"title": "[CvL 4] Jag kan höra dig nu!",      "page": "/spex/linne.html"},
+    {"title": "[CvL 5] Drottningens kortis",       "page": "/spex/linne.html"},
+    {"title": "[CvL 5] En Verdi avslutning på Carl von Linné",  "page": "/spex/linne.html"},
+    {"title": "[CvL 5] Spääxfinal",                "page": "/spex/linne.html"}
 ]
