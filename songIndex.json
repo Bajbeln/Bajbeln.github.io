@@ -921,5 +921,16 @@
     {"title": "[CvL 4] Jag kan höra dig nu!",      "page": "/spex/linne.html"},
     {"title": "[CvL 5] Drottningens kortis",       "page": "/spex/linne.html"},
     {"title": "[CvL 5] En Verdi avslutning på Carl von Linné",  "page": "/spex/linne.html"},
-    {"title": "[CvL 5] Spääxfinal",                "page": "/spex/linne.html"}
+    {"title": "[CvL 5] Spääxfinal",                "page": "/spex/linne.html"},
+
+    {"title": "[FIN 1] Jag vill inte leva i Kristianstad",      "page": "/spex/finlands.html"},
+    {"title": "[FIN 1] Vi har roligt i Frimurarna",             "page": "/spex/finlands.html"},
+    {"title": "[FIN 2] Kärlekssång",                            "page": "/spex/finlands.html"},
+    {"title": "[FIN 3] Aktfinal 1",                             "page": "/spex/finlands.html"},
+    {"title": "[FIN 4] Till minne av ett historiskt ögonblick", "page": "/spex/finlands.html"},
+    {"title": "[FIN 5] Utters tal",                             "page": "/spex/finlands.html"},
+    {"title": "[FIN 5] Nu grönskar det",                        "page": "/spex/finlands.html"},
+    {"title": "[FIN 6] Skillingtryckmedley",                    "page": "/spex/finlands.html"},
+    {"title": "[FIN 7] Louise är för jädra jobbig",             "page": "/spex/finlands.html"},
+    {"title": "[FIN 8] Slutsång",                               "page": "/spex/finlands.html"}
 ]
