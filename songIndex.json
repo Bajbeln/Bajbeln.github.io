@@ -932,5 +932,24 @@
     {"title": "[FIN 5] Nu grönskar det",                        "page": "/spex/finlands.html"},
     {"title": "[FIN 6] Skillingtryckmedley",                    "page": "/spex/finlands.html"},
     {"title": "[FIN 7] Louise är för jädra jobbig",             "page": "/spex/finlands.html"},
-    {"title": "[FIN 8] Slutsång",                               "page": "/spex/finlands.html"}
+    {"title": "[FIN 8] Slutsång",                               "page": "/spex/finlands.html"},
+
+    {"title": "[MOT 1] Kapitalisttwist",                                                   "page": "/spex/mot_strommen.html"},
+    {"title": "[MOT 2] Pappa Edison och Dot-ter sjunger",                                  "page": "/spex/mot_strommen.html"},
+    {"title": "[MOT 3] Ifrågasättande av presidentkandidats förmåga att bortskänka visan", "page": "/spex/mot_strommen.html"},
+    {"title": "[MOT 3] Edisons bitterbugg",                                                "page": "/spex/mot_strommen.html"},
+    {"title": "[MOT 4] Ett spännande bröllop",                                             "page": "/spex/mot_strommen.html"},
+    {"title": "[MOT 5] Etikettkuplett",                                                    "page": "/spex/mot_strommen.html"},
+    {"title": "[MOT 6] Toner av kontradiktioner",                                          "page": "/spex/mot_strommen.html"},
+    {"title": "[MOT 7] Curies sång",                                                       "page": "/spex/mot_strommen.html"},
+    {"title": "[MOT 8] Aktfinal II - Sorti i anarki",                                      "page": "/spex/mot_strommen.html"},
+    {"title": "[MOT 8] Patentösens patentvärk",                                            "page": "/spex/mot_strommen.html"},
+    {"title": "[MOT 9] Jag har byggt en telefon, är rätt fräck, och vill ha fröken i säng-kuplett (telefongozzen)", "page": "/spex/mot_strommen.html"},
+    {"title": "[MOT 10] Aktfinal III",                                                     "page": "/spex/mot_strommen.html"},
+    {"title": "[MOT 11] Dashs hjältesång",                                                 "page": "/spex/mot_strommen.html"},
+    {"title": "[MOT 12] Särlekssången - fallstudie i kärlek",                              "page": "/spex/mot_strommen.html"},
+    {"title": "[MOT 13] En spännande kväll",                                               "page": "/spex/mot_strommen.html"},
+    {"title": "[MOT 13] Totalfinal",                                                       "page": "/spex/mot_strommen.html"},
+    {"title": "[MOT 14] Ett nästan lika spännande bröllop",                                "page": "/spex/mot_strommen.html"}
+
 ]
