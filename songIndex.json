@@ -950,6 +950,13 @@
     {"title": "[MOT 12] Särlekssången - fallstudie i kärlek",                              "page": "/spex/mot_strommen.html"},
     {"title": "[MOT 13] En spännande kväll",                                               "page": "/spex/mot_strommen.html"},
     {"title": "[MOT 13] Totalfinal",                                                       "page": "/spex/mot_strommen.html"},
-    {"title": "[MOT 14] Ett nästan lika spännande bröllop",                                "page": "/spex/mot_strommen.html"}
+    {"title": "[MOT 14] Ett nästan lika spännande bröllop",                                "page": "/spex/mot_strommen.html"},
+
+    {"title": "[E14 12] Antikärleksduett",     "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 13] Om kungen dog",        "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 14] Vi möblerar om",       "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 15] Skurkfinal",           "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 16] Slutsång",             "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 17] Där vi va'i fredags!", "page": "/spex/erik_xiv.html"}
 
 ]
