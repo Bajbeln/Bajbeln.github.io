@@ -957,6 +957,25 @@
     {"title": "[E14 14] Vi möblerar om",       "page": "/spex/erik_xiv.html"},
     {"title": "[E14 15] Skurkfinal",           "page": "/spex/erik_xiv.html"},
     {"title": "[E14 16] Slutsång",             "page": "/spex/erik_xiv.html"},
-    {"title": "[E14 17] Där vi va'i fredags!", "page": "/spex/erik_xiv.html"}
+    {"title": "[E14 17] Där vi va'i fredags!", "page": "/spex/erik_xiv.html"},
 
+    {"title": "[SOK 1] Vi är Platons murvlar alla tre",          "page": "/spex/sokrates.html"},
+    {"title": "[SOK 1] Aristoteles och Platons grälsång",        "page": "/spex/sokrates.html"},
+    {"title": "[SOK 2] Vara tillhops",                           "page": "/spex/sokrates.html"},
+    {"title": "[SOK 2] Jag är ett rivigt järn",                  "page": "/spex/sokrates.html"},
+    {"title": "[SOK 3] Jag är ledare för huvudstan i Grekland",  "page": "/spex/sokrates.html"},
+    {"title": "[SOK 3] Leonidas presentationssång",              "page": "/spex/sokrates.html"},
+    {"title": "[SOK 4] Du e, du e",                              "page": "/spex/sokrates.html"},
+    {"title": "[SOK 4] Nu blir det krig",                        "page": "/spex/sokrates.html"},
+    {"title": "[SOK 5] Tåga, tåga",                              "page": "/spex/sokrates.html"},
+    {"title": "[SOK 5] Vilken fantastisk plan!",                 "page": "/spex/sokrates.html"},
+    {"title": "[SOK 6] Platon-och-Ambrosia-tänker-ha-lite-kul-sången", "page": "/spex/sokrates.html"},
+    {"title": "[SOK 6] TV-Visan",                                "page": "/spex/sokrates.html"},
+    {"title": "[SOK 7] Triumfmarsch",                            "page": "/spex/sokrates.html"},
+    {"title": "[SOK 7] Det var bättre förr",                     "page": "/spex/sokrates.html"},
+    {"title": "[SOK 8] Trög-sången",                             "page": "/spex/sokrates.html"},
+    {"title": "[SOK 8] En Verdi avslutning på spääxet Sokrates", "page": "/spex/sokrates.html"},
+    {"title": "[SOK 8] Stor, jättedundrande finalsång",          "page": "/spex/sokrates.html"},
+    {"title": "[SOK 9] Journalistsuck",                          "page": "/spex/sokrates.html"},
+    {"title": "[SOK 9] Det var mycket bättre förr",              "page": "/spex/sokrates.html"}
 ]
