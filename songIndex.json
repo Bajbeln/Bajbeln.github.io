@@ -1027,5 +1027,25 @@
     {"title": "[KRO 8] Transpirantas visa",                               "page": "/spex/krook.html"},
     {"title": "[KRO 8] Jag-har-gjort-bort-mig-det-är-inte-bra-sången",    "page": "/spex/krook.html"},
     {"title": "[KRO 9] Oh-vad-vi-älskar-varandra-sången",                 "page": "/spex/krook.html"},
-    {"title": "[KRO 9] En Verdi Avslutning",                              "page": "/spex/krook.html"}
+    {"title": "[KRO 9] En Verdi Avslutning",                              "page": "/spex/krook.html"},
+
+    {"title": "[E14 1] Måns har en grogg",                                  "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 1] Brödraduetten ur spääxet Erik XIV",                  "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 2] Aktfinal I",                                         "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 3] Skäggsången",                                        "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 3] Brünnhildes jättelika",                              "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 4] Vi tapetserar om",                                   "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 4] Karin fixar skivan",                                 "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 5] En god sak i var mans mun",                          "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 5] Vi ska sova på saken",                               "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 6] Usch då vad vi är rädda för varandra",               "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 6] Om du vore min ko så vore jag din tjur och tvärtom", "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 7] Johans skurksång",                                   "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 7] Aktfinal III - Stick från kommunen och Erik",        "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 8] Charmduellen",                                       "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 8] Kockarnas kortis",                                   "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 9] Ärtsoppans lov",                                     "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 9] Spääxfinal",                                         "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 9] En Verdi avslutning på spääxet Erik XIV",            "page": "/spex/erik_xiv.html"},
+    {"title": "[E14 10] Ny spääxfinal",                                     "page": "/spex/erik_xiv.html"}
 ]
