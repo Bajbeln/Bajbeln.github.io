@@ -274,3 +274,12 @@ button.reading-mode{
   background-color: white;
   color: black;
 }
+
+table, tr {
+  width:100%;
+}
+td, th{
+  width: 50%;
+  text-align: center;
+  color: white;
+}
