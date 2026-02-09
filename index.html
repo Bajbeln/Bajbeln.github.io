@@ -178,11 +178,11 @@
 
 <script>
   //SÖK
-  // Load header.html into the div with id="header"
-  fetch('header.html')
+  // Load main_header.html into the div with id="main_header"
+  fetch('main_header.html')
     .then(response => response.text())
     .then(data => {
-      document.getElementById('header').innerHTML = data;
+      document.getElementById('main_header').innerHTML = data;
 
       document.getElementById('search-form').addEventListener('submit', function(event) {
           event.preventDefault(); // Tar bort reload
@@ -221,7 +221,7 @@
               });
       });
     })
-    .catch(error => console.error('Error loading header.html:', error));
+    .catch(error => console.error('Error loading main_header.html:', error));
 
 
     //Random

@@ -11,6 +11,32 @@ document.addEventListener("DOMContentLoaded", () => {
     '</div>';
     document.body.insertAdjacentHTML('afterbegin', settingsHTML);
 
+    // Inject random button after the "Kopiera Länk" button
+    var copyButton = document.querySelector('.copyButton');
+    if (copyButton) {
+      var randomBtn = document.createElement('button');
+      randomBtn.className = 'random-page';
+      randomBtn.textContent = 'Räändom';
+      randomBtn.addEventListener('click', function() {
+        fetch('/songIndex.json')
+          .then(response => {
+            if (!response.ok) {
+              throw new Error("Network response was not ok " + response.statusText);
+            }
+            return response.json();
+          })
+          .then(data => {
+            const randomSong = data[Math.floor(Math.random() * data.length)];
+            window.location.href = randomSong.page + '?search=' + encodeURIComponent(randomSong.title);
+          })
+          .catch(error => {
+            console.error('Error fetching song index:', error);
+            alert("Could not load the song index file.");
+          });
+      });
+      copyButton.parentNode.insertBefore(randomBtn, copyButton.nextSibling);
+    }
+
     // Load Font Awesome if not already loaded
     if (!document.querySelector('link[href*="font-awesome"]')) {
       var fa = document.createElement('link');

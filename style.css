@@ -197,13 +197,31 @@ button.random{
   background-color: rgb(252, 219, 89);
   border-color:rgb(237, 213, 153);
   color: brown;
-  height: 50;
+  height: 49;
   cursor: pointer;
   text-decoration: none;
   padding: 11 11;
   border-radius: 24px;
   display: inline-block;
-  margin-bottom: 12;
+  margin-bottom: 11;
+  font-weight: 900;
+}
+
+/* Räändom button - spex*/
+button.random-page{
+  border:2px outset buttonborder;
+  font-size: 15;
+  background-color: rgb(252, 219, 89);
+  border-color:rgb(237, 213, 153);
+  color: brown;
+  text-decoration: none;
+  padding: 11 11;
+  border-radius: 24px;
+  display: inline-block;
+  margin: 1px;
+  margin-left: 3px;
+  cursor: pointer;
+  font-family: 'Georgia', Times, serif;
   font-weight: 900;
 }
 
