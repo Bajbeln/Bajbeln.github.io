@@ -46,6 +46,16 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+function getSongIndex() {
+  return fetch('/songIndex.json')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Failed to load song index');
+      }
+      return response.json();
+    });
+}
+
 function copyLink() {
   navigator.permissions.query({ name: "clipboard-write" }).then((result) => {
     if (result.state === "granted" || result.state === "prompt") {

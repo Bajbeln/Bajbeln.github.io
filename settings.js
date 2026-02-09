@@ -9,10 +9,10 @@ function openSettings() {
 function toggleReadingMode() {
   console.log(document.cookie);
   if (document.cookie.includes("readingMode=true")) {
-    document.cookie = "readingMode=false";
+    document.cookie = "readingMode=false; path=/; max-age=31536000";
     removeReadingMode();
   } else {
-    document.cookie = "readingMode=true";
+    document.cookie = "readingMode=true; path=/; max-age=31536000";
     addReadingMode();
   }
 }
