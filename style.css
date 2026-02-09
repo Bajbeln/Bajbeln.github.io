@@ -8,12 +8,12 @@ body {
 /* For collapsibles */
 .collapsible {
   background-color: #7ba4dbe0;
-  font-size: 18;
+  font-size: 18px;
   font-family: 'Georgia', Times, serif;
   border-color: #7ba4dbe0;
   color:white;
   border-radius: 27px;
-  padding: 11 11;
+  padding: 11px;
   margin: 1px
 }
 /* For collapsible when hovering */
@@ -27,7 +27,7 @@ body {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
-  font-size: 16;
+  font-size: 16px;
   color:white;
   border-radius: 27px;
   margin: 1px;
@@ -53,7 +53,7 @@ a.button {
   color: white;
   background-color: white;
   text-decoration: none;
-  padding: 11 11;
+  padding: 11px;
   border-radius: 24px;
   display: inline-block;
   background-color:rgb(154, 85, 135);
@@ -65,16 +65,20 @@ a.button:hover {
   background-color: #f4ce347e;
 }
 
-.copyButton {
+a.button.copyButton {
+  font-family: 'Georgia', Times, serif;
+  font-size:200;
+}
+
+button.copyButton {
   border:2px outset buttonborder;
   border-color: rgb(154, 85, 135);
   color: white;
-  background-color: white;
+  background-color: rgb(154, 85, 135);
   text-decoration: none;
-  padding: 11 11;
+  padding: 11px;
   border-radius: 24px;
   display: inline-block;
-  background-color:rgb(154, 85, 135);
   margin: 1px;
   cursor: pointer;
   font-family: 'Georgia', Times, serif;
@@ -87,7 +91,6 @@ a.button:hover {
 /* Head title and source code link*/
 a {
   text-decoration: none !important;
-  /*color: #386ba6;*/
   color: rgb(154, 85, 135);
 }
 
@@ -193,17 +196,35 @@ test {
 button.random{
   border:2px outset buttonborder;
   font-family: 'Georgia', Times, serif;
-  font-size: 18;
+  font-size: 18px;
   background-color: rgb(252, 219, 89);
   border-color:rgb(237, 213, 153);
   color: brown;
-  height: 50;
+  height: 49px;
   cursor: pointer;
   text-decoration: none;
-  padding: 11 11;
+  padding: 11px;
   border-radius: 24px;
   display: inline-block;
-  margin-bottom: 12;
+  margin-bottom: 11px;
+  font-weight: 900;
+}
+
+/* Räändom button - spex*/
+button.random-page{
+  border:2px outset buttonborder;
+  font-size: 15px;
+  background-color: rgb(252, 219, 89);
+  border-color:rgb(237, 213, 153);
+  color: brown;
+  text-decoration: none;
+  padding: 11px;
+  border-radius: 24px;
+  display: inline-block;
+  margin: 1px;
+  margin-left: 3px;
+  cursor: pointer;
+  font-family: 'Georgia', Times, serif;
   font-weight: 900;
 }
 
@@ -216,7 +237,6 @@ button {
   top: 90px;
   right: 5px;
   padding: 10px;
-
 }
 
 #settings-button {
@@ -278,6 +298,7 @@ button.reading-mode{
 table, tr {
   width:100%;
 }
+
 td, th{
   width: 50%;
   text-align: center;
