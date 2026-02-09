@@ -141,8 +141,7 @@ h3 {
 .search-container input[type="text"] {
   width: 100%; 
   max-width: 400px; 
-  padding: 12px 20px; 
-  padding-left: 40px; 
+  padding: 12px 20px;
   border: 2px solid #ddd;
   border-radius: 30px; 
   font-size: 18px;
@@ -150,6 +149,7 @@ h3 {
   transition: all 0.3s ease-in-out;
   box-sizing: border-box;
   font-family: 'Georgia', Times, serif;
+  text-align: left;
 }
 
 /* Focus State for Input */
@@ -161,15 +161,14 @@ h3 {
 /* Search Button */
 .search-container button {
   position: relative;
-  left: 120px;
-  bottom: 24px; 
+  left: 40%;
+  bottom: 33%; 
   transform: translateY(-50%); 
   background-color: transparent; 
   border: none;
   color: #8ac9e4; 
   cursor: pointer;
   font-size: 18px;
-  padding: 0; 
   outline: none;
 }
 
