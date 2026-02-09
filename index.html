@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="manifest" href="manifest.json">
+  <script src="/settings.js"></script>
 </head>
 
 <body>
-  <div id = "header"></div>
+  <div id = "main_header"></div>
   
   <a href="/index.html"><img src="/images/logga.png" width= "150" alt="Spexloggan"></a>
   <h1><a href="/index.html"> Krischanstaspääxets<br>Sajber-Bajbel</a></h1>
@@ -246,39 +247,7 @@
       });
     });
 
-    //Settings
-    function openSettings() {
-      let optionsDiv = document.getElementById("settings-options");
-      optionsDiv.classList.toggle("show");
-      optionsDiv.classList.toggle("hide");
-    }
-
-    function toggleReadingMode() {
-      console.log(document.cookie)
-      if (document.cookie.includes("readingMode=true")) {
-        document.cookie = "readingMode=false";
-        removeReadingMode();
-      } else {
-        document.cookie = "readingMode=true";
-        addReadingMode();
-      }
-    }
-
-    function addReadingMode(){
-      let buttons = document.getElementsByClassName("button");
-      buttons = Array.from(buttons);
-      buttons.forEach(button => {
-        button.classList.add("reading-mode");
-      });
-    }
-
-    function removeReadingMode(){
-      let buttons = document.getElementsByClassName("button");
-      buttons = Array.from(buttons);
-      buttons.forEach(button => {
-        button.classList.remove("reading-mode");
-      });
-    }
+    //Settings - functions loaded from /settings.js
 
     document.addEventListener("DOMContentLoaded", function() {
       if (document.cookie.includes("readingMode=true")) {

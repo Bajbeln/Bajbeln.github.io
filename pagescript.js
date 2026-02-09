@@ -2,13 +2,26 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
+    // Inject settings container
+    var settingsHTML = '<div class="settings-container">' +
+      '<button id="settings-button" onclick="openSettings()"><i class="fa fa-cog"></i></button>' +
+      '<div id="settings-options" class="hide">' +
+        '<button id="reading-mode-button" onclick="toggleReadingMode()"><i class="fa fa-adjust"></i></button>' +
+      '</div>' +
+    '</div>';
+    document.body.insertAdjacentHTML('afterbegin', settingsHTML);
+
+    // Load Font Awesome if not already loaded
+    if (!document.querySelector('link[href*="font-awesome"]')) {
+      var fa = document.createElement('link');
+      fa.rel = 'stylesheet';
+      fa.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css';
+      document.head.appendChild(fa);
+    }
+
     // Check if reading mode is enabled
     if(document.cookie.includes("readingMode=true")){
-      let content = Array.from(document.getElementsByClassName("content"))
-      content.forEach(content => content.classList.add("reading-mode")) // Add reading mode class to content
-
-      let buttons = Array.from(document.getElementsByClassName("collapsible"))
-      buttons.forEach(button => button.classList.add("reading-mode")) // Add reading mode class to buttons
+      addReadingMode();
     }
   });
 
