@@ -4,12 +4,33 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Inject settings container
     var settingsHTML = '<div class="settings-container">' +
-      '<button id="settings-button" onclick="openSettings()"><i class="fa fa-cog"></i></button>' +
+      '<button id="settings-button" onclick="openSettings()" aria-label="Öppna inställningar"><i class="fa fa-cog"></i></button>' +
       '<div id="settings-options" class="hide">' +
-        '<button id="reading-mode-button" onclick="toggleReadingMode()"><i class="fa fa-adjust"></i></button>' +
+        '<button id="reading-mode-button" onclick="toggleReadingMode()" aria-label="Växla läsläge"><i class="fa fa-adjust"></i></button>' +
       '</div>' +
     '</div>';
     document.body.insertAdjacentHTML('afterbegin', settingsHTML);
+
+    // Inject random button after the "Kopiera Länk" button
+    var copyButton = document.querySelector('.copyButton');
+    if (copyButton) {
+      var randomBtn = document.createElement('button');
+      randomBtn.className = 'random-page';
+      randomBtn.setAttribute('aria-label', 'Gå till en slumpmässig sång');
+      randomBtn.textContent = 'Räändom';
+      randomBtn.addEventListener('click', function() {
+        getSongIndex()
+          .then(data => {
+            const randomSong = data[Math.floor(Math.random() * data.length)];
+            window.location.href = randomSong.page + '?search=' + encodeURIComponent(randomSong.title);
+          })
+          .catch(error => {
+            console.error('Error fetching song index:', error);
+            alert("Could not load the song index file.");
+          });
+      });
+      copyButton.parentNode.insertBefore(randomBtn, copyButton.nextSibling);
+    }
 
     // Load Font Awesome if not already loaded
     if (!document.querySelector('link[href*="font-awesome"]')) {

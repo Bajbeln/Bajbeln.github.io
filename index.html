@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="manifest" href="manifest.json">
+  <script src="/songIndexCache.js"></script>
   <script src="/settings.js"></script>
   <script src="/pagescript.js"></script>
 </head>
@@ -15,7 +16,7 @@
   <a href="/index.html"><img src="/images/logga.png" width= "150" alt="Spexloggan"></a>
   <h1><a href="/index.html"> Krischanstaspääxets<br>Sajber-Bajbel</a></h1>
   
-  <button class="random">Räändom</button>
+  <button class="random" aria-label="Välj en slumpmässig sång">Räändom</button>
   <br>
   
   <a href="/spex/favourites.html" class="button"><i>Favoriter</i></a>
@@ -179,11 +180,11 @@
 
 <script>
   //SÖK
-  // Load header.html into the div with id="header"
-  fetch('header.html')
+  // Load main_header.html into the div with id="main_header"
+  fetch('main_header.html')
     .then(response => response.text())
     .then(data => {
-      document.getElementById('header').innerHTML = data;
+      document.getElementById('main_header').innerHTML = data;
 
       document.getElementById('search-form').addEventListener('submit', function(event) {
           event.preventDefault(); // Tar bort reload
@@ -197,14 +198,8 @@
               return;
           }
 
-          // Attempt to load songIndex.json
-          fetch('/songIndex.json')
-              .then(response => {
-                  if (!response.ok) {
-                      throw new Error("Network response was not ok " + response.statusText);
-                  }
-                  return response.json();
-              })
+          // Attempt to load songIndex.json (with caching)
+          getSongIndex()
               .then(data => {
                   // Search for the song title in the JSON data
                   const match = data.find(song => song.title.toLowerCase().includes(searchTerm));
@@ -222,19 +217,13 @@
               });
       });
     })
-    .catch(error => console.error('Error loading header.html:', error));
+    .catch(error => console.error('Error loading main_header.html:', error));
 
 
     //Random
     document.addEventListener("DOMContentLoaded", function() {
       document.querySelector('.random').addEventListener("click", () => {
-        fetch('/songIndex.json')
-          .then(response => {
-            if (!response.ok) {
-              throw new Error("Network response was not ok " + response.statusText);
-            }
-            return response.json();
-          })
+        getSongIndex()
           .then(data => {
             //random song
             const randomSong = data[Math.floor(Math.random()*data.length)];
