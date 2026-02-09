@@ -11,13 +11,13 @@
         <div class="search-container">
             <form id="search-form">
                 <input type="text" placeholder="Sök..." name="search" id = "search-input">
-                <button type="submit"><i class="fa fa-search"></i></button>
+                <button type="submit" aria-label="Sök"><i class="fa fa-search"></i></button>
             </form>
         </div>
         <div class="settings-container">
-            <button id="settings-button" onclick="openSettings()"><i class="fa fa-cog"></i></button>
+            <button id="settings-button" onclick="openSettings()" aria-label="Öppna inställningar"><i class="fa fa-cog"></i></button>
             <div id="settings-options"class="hide">
-                <button id="reading-mode-button" onclick="toggleReadingMode()"><i class="fa fa-adjust"></i></button>
+                <button id="reading-mode-button" onclick="toggleReadingMode()" aria-label="Växla läsläge"><i class="fa fa-adjust"></i></button>
             </div>
         </div>
     </div>
