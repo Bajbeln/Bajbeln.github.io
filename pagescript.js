@@ -1,4 +1,4 @@
-// Any code on this file will be executed on every page load exept main page
+// Any code on this file will be executed on every page load
 
 document.addEventListener("DOMContentLoaded", () => {
 
