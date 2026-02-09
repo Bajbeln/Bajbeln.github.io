@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="manifest" href="manifest.json">
+  <script src="/songIndexCache.js"></script>
   <script src="/settings.js"></script>
 </head>
 
@@ -196,14 +197,8 @@
               return;
           }
 
-          // Attempt to load songIndex.json
-          fetch('/songIndex.json')
-              .then(response => {
-                  if (!response.ok) {
-                      throw new Error("Network response was not ok " + response.statusText);
-                  }
-                  return response.json();
-              })
+          // Attempt to load songIndex.json (with caching)
+          getSongIndex()
               .then(data => {
                   // Search for the song title in the JSON data
                   const match = data.find(song => song.title.toLowerCase().includes(searchTerm));
@@ -227,13 +222,7 @@
     //Random
     document.addEventListener("DOMContentLoaded", function() {
       document.querySelector('.random').addEventListener("click", () => {
-        fetch('/songIndex.json')
-          .then(response => {
-            if (!response.ok) {
-              throw new Error("Network response was not ok " + response.statusText);
-            }
-            return response.json();
-          })
+        getSongIndex()
           .then(data => {
             //random song
             const randomSong = data[Math.floor(Math.random()*data.length)];
