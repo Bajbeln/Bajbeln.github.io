@@ -67,7 +67,7 @@ a.button:hover {
 
 a.button.copyButton {
   font-family: 'Georgia', Times, serif;
-  font-size:200;
+  font-size:200px;
 }
 
 button.copyButton {
@@ -82,6 +82,7 @@ button.copyButton {
   margin: 1px;
   cursor: pointer;
   font-family: 'Georgia', Times, serif;
+  font-size:14px;
 }
 
 .copyButton:hover {
