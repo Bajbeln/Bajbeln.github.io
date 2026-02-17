@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     '</div>';
     document.body.insertAdjacentHTML('afterbegin', settingsHTML);
 
-    // Inject random button after the "Kopiera Länk" button
+    // Inject random button after the "Kopiera länk" button
     var copyButton = document.querySelector('.copyButton');
     if (copyButton) {
       var randomBtn = document.createElement('button');
@@ -46,25 +46,54 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-function getSongIndex() {
-  return fetch('/songIndex.json')
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Failed to load song index');
-      }
-      return response.json();
-    });
+async function getSongIndex(){
+  const response = await fetch('/songIndex.json');
+  if (!response.ok) {
+    throw new Error('Failed to load song index');
+  }
+  return response.json();
 }
 
 function copyLink() {
-  navigator.permissions.query({ name: "clipboard-write" }).then((result) => {
-    if (result.state === "granted" || result.state === "prompt") {
-      let link = window.location.href
-      navigator.clipboard.writeText(link)
-    }
-    else{
-      alert("Clipboard permission denied")
-    }
-  });
-    
+  const link = window.location.href;
+  
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(link)
+      .then(() => {
+        showCopyFeedback();
+      })
+      .catch((err) => {
+        console.error('Failed to copy:', err);
+        fallbackCopy(link);
+      });
+  } else {
+    fallbackCopy(link);
+  }
+}
+
+function fallbackCopy(text) {
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  document.body.appendChild(textarea);
+  textarea.select();
+  try {
+    document.execCommand("copy");
+    showCopyFeedback();
+  } catch (err) {
+    alert("Failed to copy");
+  }
+  document.body.removeChild(textarea);
+}
+
+function showCopyFeedback() {
+  const copyButton = document.querySelector('.copyButton');
+  if (!copyButton) return;
+  
+  const originalText = copyButton.textContent;
+  copyButton.textContent = 'Länk kopierad!';
+  
+  setTimeout(() => {
+    copyButton.textContent = originalText;
+    copyButton.style.backgroundColor = '';
+  }, 2000);
 }

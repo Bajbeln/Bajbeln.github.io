@@ -85,10 +85,6 @@ button.copyButton {
   font-size:14px;
 }
 
-.copyButton:hover {
-  background-color: #f4ce347e;
-}
-
 /* Head title and source code link*/
 a {
   text-decoration: none !important;
