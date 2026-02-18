@@ -11,7 +11,6 @@ Lägg sedan till låtarna i songIndex.json för sökfuktionaliteten och spexet i
 
 ## På gång & kända fel (mer på todo)
 - Direktlänk till låt (ej påbörjad)
-- Fixa kopiera länk-knapp (påbörjad)
 - Korrläsning av alla spex (på gång)
 - Sökfunktionen ger fel ibland, oftast beror det på att titeln inte skrivits in rätt i songIndex eller i spexsidan. Kontrollera då så att de två överensstämmer med varandra.
 
