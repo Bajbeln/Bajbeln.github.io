@@ -6,19 +6,22 @@
 - Undersök radbrytning vid långa rader i flerspaltsläge
 
 ## Funktioner
- - Expanderbar inuti expanderbar (se Pausfinalen HC A)
- - Lägg in direktlänk till låt
+- Expanderbar inuti expanderbar (se Pausfinalen HC A)
+- Lägg in direktlänk till låt (och kunna kopiera den)
 - Abstrahera sök och randomize
 - Ska svartvit inställning vara direkt tillgänglig, eller bland övriga inställningar?
-- Fixa ikonbakgrund — matcha blå bakgrundsfärg på hemsidan
 
 ## Att lägga till
 - [CXI 6] Invokation till Pelle Andersson
 - [E14 2] Aktfinal I
 - [E14 6] Usch då vad vi är rädda för varandra
 - CIV 2010 *(oklart om det ska med)*
-- Screenshots är småått inaktuella
+- Screenshots är smått inaktuella
 - Knapp/guide för att lägga till sidan på hemskärmen alternativt app
 
 ## Kvalitetssäkring
 - Korrläs alla spex
+
+## Idéer
+- Tjockare logga i icon (inte på sidorna)
+- Dark mode
