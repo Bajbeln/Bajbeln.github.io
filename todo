@@ -1,27 +1,22 @@
---se om det går att expandera inuti en expanderbar (Pausfinalen HC A)
+# TODO
 
---fixa stalin-10
+## Buggfixar
+- Fixa sökfunktionen — svårt för ensiffriga låtnummer
+- Fixa stalin-10
+- Undersök radbrytning vid långa rader i flerspaltsläge
 
---lägg in direktlänk till låt
+## Funktioner
+ - Expanderbar inuti expanderbar (se Pausfinalen HC A)
+ - Lägg in direktlänk till låt
+- Abstrahera sök och randomize
+- Ska svartvit inställning vara direkt tillgänglig, eller bland övriga inställningar?
+- Fixa ikonbakgrund — matcha blå bakgrundsfärg på hemsidan
 
---korrläs alla spex
+## Att lägga till
+- [CXI 6] Invokation till Pelle Andersson
+- [E14 2] Aktfinal I
+- [E14 6] Usch då vad vi är rädda för varandra
+- CIV 2010 *(oklart om det ska med)*
 
---abstrahera sök och randomize
-
---fixa kopiera länk-knapp
-
---fixa sökfunktionen, den har svårt för ensiffriga låtnummer
-
---ska det finnas fler inställningar eller ska den svartvita inställningen finnas tillgänglig direkt?
-
---går det att fixa så att ikonbakgrunden matchar den blå bakgrundsfärgen på hemsidan?
-
---lägga till CIV 2010? Oklart.
-
---lägg till [CXI 6] Invokation till Pelle Andersson
-
---lägg till [E14 2] Aktfinal I
-
---lägg till [E14 6] Usch då vad vi är rädda för varandra
-
---undersöka om radbrytning kan ske på ett tydligare vis vid långa rader på flera spalter
+## Kvalitetssäkring
+- Korrläs alla spex
