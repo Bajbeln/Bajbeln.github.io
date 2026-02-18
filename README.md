@@ -5,7 +5,7 @@ Tillgänglig på https://bajbeln.github.io/
 
 
 ## Lägga till ett spex
-För att lägga till ett spex, utgå från mallen (spex_sample_new) som finns i mappen spex genom att kopiera den. 
+För att lägga till ett spex, utgå från mallen (spex_sample) som finns i mappen spex genom att kopiera den.
 
 Lägg sedan till låtarna i songIndex.json för sökfuktionaliteten och spexet i index.html så att den är tillgänglig från förstasidan.
 
