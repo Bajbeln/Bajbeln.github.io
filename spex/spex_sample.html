@@ -1,107 +1,102 @@
-<body_test>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="sv">
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/style.css">
-  <script src="/searchscript.js"></script>
-  <script src="/pagescript.js"></script>
-      <script src="/settings.js"></script>
+  <title>Spextitel – Krischantaspääxets Sajber-Bajbel</title>
 
+  <link rel="stylesheet" href="/style.css">
   <link rel="icon" type="image/png" href="/images/logga.png">
 
-<!-- Logga -->
-<a href="/"><img src="/images/logga.png" width= "70" alt="Spexloggan"></a>
+  <script src="/searchscript.js" defer></script>
+  <script src="/pagescript.js" defer></script>
+  <script src="/settings.js" defer></script>
 
-<body>
-  <h1><a href="/"> Krischanstaspääxets<br>Sajber-Bajbel </a></h1>
-</body>
-<body>
-  <h2>Spextitel</h2>
-</body>
+  <!-- Unique background color for this page -->
+  <style>
+    body {
+      background-color: white;
+    }
+  </style>
 </head>
 
-<!-- Copy link-button -->
 <body>
-  <button class="copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida"> Kopiera länk</button><br><br>
-</body>
 
-  <!-- Song sample -->
-<!-- 
-<button type="button" class="collapsible" aria-label="Visa eller dölj Sångtitel">Sångtitel</button>
-<div class="content">
-  <p><i>SJUNGS_AV</i><br>
-  <i>MELODI</i><br><br>
-    SÅNGTEXT
-  </p>
-</div>
--->
+  <!-- Logo -->
+  <a href="/"><img src="/images/logga.png" width="70" alt="Spexloggan"></a>
 
-<!-- Double column -->
-<!-- 
-<div class="row">
-  <div class="column"></div>
-  <div class="column"></div>
-</div> 
--->
+  <!-- Site title -->
+  <h1><a href="/">Krischantaspääxets<br>Sajber-Bajbel</a></h1>
 
-<!-- Navigate to section of page -->
-<!--
-  <body>
-    <br>
-    <div id='kubakrisen_2003_04'><a name='kubakrisen_2003_04'></a>
-      <h2>Kubakrisen 2003/04 (KUK)</h2>
+  <!-- Page title -->
+  <h2>Spextitel</h2>
+
+  <!-- Copy link button -->
+  <button class="copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
+  <br><br>
+
+  <!-- ============================================================
+    HOW TO ADD A SONG:
+    Copy the block below, uncomment it, and fill in the fields.
+
+    <button type="button" class="collapsible" aria-label="Visa eller dölj Sångtitel">Sångtitel</button>
+    <div class="content">
+      <p>
+        <i>SJUNGS_AV</i><br>
+        <i>MELODI</i><br><br>
+        SÅNGTEXT
+      </p>
     </div>
-  </body>
--->
+  ============================================================ -->
 
-  <!-- Subsection -->
-  <!--
-  <body>
-    <br>
-    <div id='SPEX_20XX_XX'><a name='SPEX_20XX_XX'></a>
-      <h2>SPEX (???)</h2>
+  <!-- ============================================================
+    HOW TO ADD A TWO-COLUMN SECTION:
+
+    <div class="row">
+      <div class="column"></div>
+      <div class="column"></div>
     </div>
-  </body>
-  -->
+  ============================================================ -->
 
-<body>
-<!-- Place for songs -->
-</body>
+  <!-- ============================================================
+    HOW TO ADD A NAMED SECTION (for in-page navigation):
 
-  <!-- Animation for drop-down menu -->
-</body>
-<script>
-  var coll = document.getElementsByClassName("collapsible");
-  var i;
+    <div id="SPEX_20XX_XX">
+      <a name="SPEX_20XX_XX"></a>
+      <h2>Spextitel (???)</h2>
+    </div>
+  ============================================================ -->
+
+  <!-- Songs go here -->
+
+   <button type="button" class="collapsible" aria-label="Visa eller dölj Sångtitel">Sångtitel</button>
+    <div class="content">
+      <p>
+        <i>SJUNGS_AV</i><br>
+        <i>MELODI</i><br><br>
+        SÅNGTEXT
+      </p>
+    </div>
   
-  for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.maxHeight){
-        content.style.maxHeight = null;
-      } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-      }
-    });
-  }
-  </script>
-</body>
-  
-<!-- Unique background color for this page -->
-<style>
-  body {
-    background-color: red;
-  }
-</style>
-
-
-<!-- Footer -->
-<script src="/footer.js"></script>
-<body>
+  <!-- Footer -->
   <div id="footer-container"></div>
-</body>
+  <script src="/footer.js" defer></script>
 
+  <!-- Collapsible dropdown animation -->
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    for (var i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
+
+</body>
 </html>
