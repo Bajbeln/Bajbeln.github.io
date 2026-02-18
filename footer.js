@@ -15,5 +15,12 @@ function loadFooter() {
     .catch(error => console.error('Error loading footer:', error));
 }
 
+// Goatcounter - to check website traffic
+const script = document.createElement('script');
+script.dataset.goatcounter = 'https://bajbeln.goatcounter.com/count';
+script.async = true;
+script.src = '//gc.zgo.at/count.js';
+document.body.appendChild(script);
+
 // Load footer when DOM is ready
 document.addEventListener('DOMContentLoaded', loadFooter);
