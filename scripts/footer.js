@@ -1,6 +1,6 @@
 // Load footer from external file
 function loadFooter() {
-  fetch('/footer.html')
+  fetch('/partials/footer.html')
     .then(response => response.text())
     .then(data => {
       const footerContainer = document.getElementById('footer-container');

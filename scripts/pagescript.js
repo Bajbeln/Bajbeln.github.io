@@ -2,14 +2,23 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    // Inject settings container
+    // Inject header container and fetch spex header partial
+    document.body.insertAdjacentHTML('afterbegin', '<div id="spex-header-container"></div>');
+    fetch('/partials/spex_page_header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('spex-header-container').innerHTML = data;
+      })
+      .catch(error => console.error('Error loading spex header:', error));
+
+    // Inject settings container after header
     var settingsHTML = '<div class="settings-container">' +
       '<button id="settings-button" onclick="openSettings()" aria-label="Öppna inställningar"><i class="fa fa-cog"></i></button>' +
       '<div id="settings-options" class="hide">' +
         '<button id="reading-mode-button" onclick="toggleReadingMode()" aria-label="Växla läsläge"><i class="fa fa-adjust"></i></button>' +
       '</div>' +
     '</div>';
-    document.body.insertAdjacentHTML('afterbegin', settingsHTML);
+    document.getElementById('spex-header-container').insertAdjacentHTML('afterend', settingsHTML);
 
     // Inject random button after the "Kopiera länk" button
     var copyButton = document.querySelector('.copyButton');
