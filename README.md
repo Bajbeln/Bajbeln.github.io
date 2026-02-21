@@ -4,6 +4,10 @@ Tillgänglig på https://bajbeln.github.io/
 ## Kontakt
 
 
+## Utvecklardokumentation
+
+Se [docs/dev-manual.md](docs/dev-manual.md) (ej färdig) för en fullständig teknisk genomgång av projektet, inklusive kodstruktur, hur man lägger till ett spex, hur songIndex.json fungerar och mer.
+
 ## Lägga till ett spex
 För att lägga till ett spex, utgå från mallen (spex_sample) som finns i mappen spex genom att kopiera den.
 
