@@ -1,9 +1,9 @@
-# Utvecklarmanual — Krischantaspääxets Sajber-Bajbel
+# Utvecklarmanual — Krischanstaspääxets Sajber-Bajbel
 
 **Webbplats:** https://bajbeln.github.io/
 **Repository:** https://github.com/Bajbeln/Bajbeln.github.io
 
-Ett sökbart arkiv med sångtexter från Krischantaspääxets spexproduktioner,
+Ett sökbart arkiv med sångtexter från Krischanstaspääxets spexproduktioner,
 hostat som en statisk sajt på GitHub Pages.
 
 ---

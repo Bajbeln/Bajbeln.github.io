@@ -4,6 +4,7 @@
 - Fixa sökfunktionen — svårt för ensiffriga låtnummer
 - Fixa stalin-10
 - Undersök radbrytning vid långa rader i flerspaltsläge
+- spex_page_header laddar även på main page (det ska den inte)
 
 ## Funktioner
 - Expanderbar inuti expanderbar (se Pausfinalen HC A)
