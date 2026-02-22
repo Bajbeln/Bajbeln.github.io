@@ -1,5 +1,7 @@
 # Utvecklarmanual — Krischanstaspääxets Sajber-Bajbel
 
+(Som du nog märker är den här sidan maskinöversatt. Att översätta den med människor är något som prioriteras.)
+
 **Webbplats:** https://bajbeln.github.io/
 **Repository:** https://github.com/Bajbeln/Bajbeln.github.io
 
