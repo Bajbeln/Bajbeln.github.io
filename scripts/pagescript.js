@@ -2,14 +2,16 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    // Inject header container and fetch spex header partial
+    // Inject header container and fetch spex header partial (skip on root page)
     document.body.insertAdjacentHTML('afterbegin', '<div id="spex-header-container"></div>');
-    fetch('/partials/spex_page_header.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('spex-header-container').innerHTML = data;
-      })
-      .catch(error => console.error('Error loading spex header:', error));
+    if (window.location.pathname !== '/') {
+      fetch('/partials/spex_page_header.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('spex-header-container').innerHTML = data;
+        })
+        .catch(error => console.error('Error loading spex header:', error));
+    }
 
     // Inject settings container after header
     var settingsHTML = '<div class="settings-container">' +
