@@ -2,7 +2,7 @@
     "name": "Krischanstaspääxets Sajber-bajbel",
     "short_name": "Bajbeln",
     "description": "Låttexter genom tiderna",
-    "start_url": "/index.html",
+    "start_url": "/",
     "permissions": [
         "clipboardWrite"
     ],
