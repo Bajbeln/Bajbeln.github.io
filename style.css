@@ -300,3 +300,54 @@ td, th{
   text-align: center;
   color: white;
 }
+
+/* Dark mode */
+body.dark-mode {
+  background: #1a1a2e;
+  color: #e0e0e0;
+}
+
+body.dark-mode a {
+  color: #c084b0;
+}
+
+body.dark-mode h2 {
+  color: #c084b0;
+}
+
+body.dark-mode .collapsible {
+  background-color: #2d3a5e;
+  border-color: #2d3a5e;
+}
+
+body.dark-mode .content {
+  background-color: #2d3a5e;
+}
+
+body.dark-mode a.button {
+  background-color: #7a3d68;
+  border-color: #7a3d68;
+}
+
+body.dark-mode .search-container input[type="text"] {
+  background-color: #2a2a3e;
+  color: #e0e0e0;
+  border-color: #444;
+}
+
+body.dark-mode .search-container input[type="text"]::placeholder {
+  color: #888;
+}
+
+body.dark-mode footer {
+  color: #c084b0;
+}
+
+#dark-mode-button {
+  padding-top: 10px;
+  border: none;
+  background-color: transparent;
+  color: rgba(170, 75, 143, 0.809);
+  font-size: 30px;
+  cursor: pointer;
+}
