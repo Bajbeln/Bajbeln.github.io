@@ -23,6 +23,11 @@ h3 {
   font-weight:200;
 }
 
+.uppsattning-heading {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
 /*   layout  */
 
 .row {
@@ -146,7 +151,8 @@ td, th{
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
-  font-size: 16px;
+  font-size: 18;
+  line-height: 1.43;
   color:white;
   border-radius: 27px;
   margin: 1px;

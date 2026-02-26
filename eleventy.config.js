@@ -61,6 +61,16 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => (a.data.order || 0) - (b.data.order || 0));
   });
 
+  // Filter: get specific songs by a list of {spex, title} pairs, preserving list order
+  eleventyConfig.addFilter("songsFromList", function (collection, songList) {
+    if (!songList || !songList.length) return [];
+    return songList
+      .map(({ spex, title }) =>
+        collection.find(s => s.data.spex === spex && s.data.title === title)
+      )
+      .filter(Boolean);
+  });
+
   // Filter: render a song collection item as a song-block HTML string
   eleventyConfig.addFilter("renderSong", function (song) {
     const { title, singer, melody } = song.data;

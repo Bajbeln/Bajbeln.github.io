@@ -14,7 +14,7 @@
   {% if color or accentColor or accentBorderColor %}<style>
     {% if color %}body { background-color: {{ color }}; }{% endif %}
     {% if accentColor %}.collapsible, .content { background-color: {{ accentColor }}; }{% endif %}
-    {% if accentBorderColor %}.collapsible, .content { border-color: {{ accentBorderColor }}; }{% endif %}
+    {% if accentBorderColor %}.collapsible { border-color: {{ accentBorderColor }}; }{% endif %}
   </style>{% endif %}
 </head>
 <body>
@@ -22,22 +22,10 @@
   <button class="copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
   <br><br>
 
-  {% if uppsattning %}
-    {% for u in uppsattning %}
-      <h3 class="uppsattning-heading">{{ u.label }}</h3>
-      {% set groupSongs = collections.songs | songsForSpex(u.id) %}
-      {% for song in groupSongs %}{{ song | renderSong | safe }}{% endfor %}
-      <br>
-    {% endfor %}
-  {% elif spex %}
-    {% set pageSongs = collections.songs | songsForSpex(spex) %}
-    {% for song in pageSongs %}{{ song | renderSong | safe }}{% endfor %}
-  {% else %}
-    {{ content | safe }}
-  {% endif %}
+  {% set pageSongs = collections.songs | songsFromList(songs) %}
+  {% for song in pageSongs %}{{ song | renderSong | safe }}{% endfor %}
 
   <script>
-    // Collapsible song sections — find .content inside the same .song-block
     var coll = document.getElementsByClassName("collapsible");
     for (var i = 0; i < coll.length; i++) {
       coll[i].addEventListener("click", function () {
@@ -52,7 +40,6 @@
       });
     }
 
-    // Copy a direct anchor link to a specific song
     function copySongLink(id) {
       var url = location.href.split("#")[0] + "#" + id;
       var songBtn = document.getElementById(id);
@@ -84,7 +71,6 @@
       document.body.removeChild(ta);
     }
 
-    // Open and scroll to a song when the page loads with a #song-* hash
     document.addEventListener("DOMContentLoaded", function () {
       var hash = location.hash;
       if (hash && hash.length > 1) {

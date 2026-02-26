@@ -4,13 +4,16 @@ Tillgänglig på https://bajbeln.github.io/
 ## Kontakt
 
 
-## Utvecklardokumentation
-
-
 ## Lägga till ett spex
 För att lägga till ett spex, utgå från mallen (spex_sample) som finns i mappen spex genom att kopiera den.
 
 Lägg sedan till låtarna i songIndex.json för sökfuktionaliteten och spexet i index.html så att den är tillgänglig från förstasidan.
+
+## För utvecklare
+För att köra igång appen:
+```
+npm start
+```
 
 ## På gång & kända fel (mer på todo)
 - Direktlänk till låt (ej påbörjad)
