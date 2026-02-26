@@ -4,6 +4,7 @@
 - Fixa sökfunktionen — svårt för ensiffriga låtnummer
 - Fixa stalin-10
 - Undersök radbrytning vid långa rader i flerspaltsläge
+- Gör så att kopiera länk endast kopierar sidlänken (och inte sökning eller delsida)
 
 ## Funktioner
 - Expanderbar inuti expanderbar (se Pausfinalen HC A)
@@ -26,4 +27,8 @@
 - Tjockare logga i icon (inte på sidorna)
 - Dark mode
 - Navigera till nästa/förra spex-knapp
+- Skrolla ner till sången (titeln uppe) vid träff
 
+## Experimentellt
+- Migrera hela sidan till eleventy med låtar i .md-filer och njk för sidorna (Oresundsbron är test-migrerad)
+- Migrera sökindex

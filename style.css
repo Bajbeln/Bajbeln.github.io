@@ -372,3 +372,49 @@ body.dark-mode footer {
 test {
   background-color: blue;
 }
+
+/* experimental */
+
+/*   song blocks (Eleventy-generated pages)  */
+
+.song-header {
+  display: flex;
+  max-width: 500px;
+  width: 90%;
+  margin: 1px auto;
+  gap: 2px;
+}
+
+/* Override individual margin/radius so the two buttons sit flush */
+.song-header .collapsible {
+  flex: 1;
+  margin: 0;
+  border-radius: 27px 0 0 27px;
+}
+
+.song-link-btn {
+  flex: 0 0 auto;
+  background-color: #7ba4dbe0;
+  border: none;
+  border-radius: 0 27px 27px 0;
+  color: white;
+  font-size: 13px;
+  padding: 0 12px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+
+  border:2px outset buttonborder;
+  font-family: 'Georgia', Times, serif;
+  font-size: 18px;
+  background-color: rgb(252, 219, 89);
+  border-color:rgb(237, 213, 153);
+  color: brown;
+  height: 49px;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.song-link-btn:hover {
+  background-color: #f4ce347e;
+  opacity: 1;
+}
