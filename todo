@@ -30,5 +30,5 @@
 - Skrolla ner till sången (titeln uppe) vid träff
 
 ## Experimentellt
-- Migrera hela sidan till eleventy med låtar i .md-filer och njk för sidorna (Oresundsbron är test-migrerad)
+- Migrera hela sidan till eleventy med låtar i .md-filer och njk för sidorna
 - Migrera sökindex
