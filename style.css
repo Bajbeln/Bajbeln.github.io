@@ -151,7 +151,7 @@ td, th{
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
-  font-size: 16.4;
+  font-size: 16.3px;
   line-height: 1.43;
   color:white;
   border-radius: 27px;
