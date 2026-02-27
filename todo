@@ -1,4 +1,5 @@
 # TODO
+- OBS jag (Joel) testar att migrera sidan från ren html till eleventy - de nya filerna finns i src
 
 ## Buggfixar
 - Fixa sökfunktionen — svårt för ensiffriga låtnummer
@@ -33,4 +34,5 @@
 - Migrera hela sidan till eleventy med låtar i .md-filer och njk för sidorna
 - Migrera sökindex
 - ska vi länka till spääxet?
-- refaktorisera css
+- refaktorisera css - gör fler inheritance och globala variabler
+- ändra storlek på raandom-knapp
