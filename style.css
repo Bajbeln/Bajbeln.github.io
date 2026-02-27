@@ -1,4 +1,5 @@
 /*   base  */
+
 body {
   background: rgb(210, 231, 250);
   text-align: center;
@@ -135,9 +136,9 @@ td, th{
   font-family: 'Georgia', Times, serif;
   border-color: #7ba4dbe0;
   color:white;
-  border-radius: 27px;
-  padding: 11px;
-  margin: 1px
+  border-radius: 34px;
+  padding: 14.7px;
+  margin: 1px;
 }
 
 /* For collapsible when hovering */
@@ -151,7 +152,7 @@ td, th{
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
-  font-size: 16.3px;
+  font-size: 16.38px;
   line-height: 1.43;
   color:white;
   border-radius: 27px;
@@ -162,7 +163,7 @@ td, th{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 95.3%;
 }
 
 /*   buttons  */
@@ -178,12 +179,13 @@ a.button {
   color: white;
   background-color: white;
   text-decoration: none;
-  padding: 11px;
-  border-radius: 24px;
+  padding: 14.7px;
+  border-radius: 34px;
   display: inline-block;
   background-color:rgb(154, 85, 135);
   margin: 1px;
   cursor: pointer;
+  font-size: 18px;
 }
 
 a.button:hover {
