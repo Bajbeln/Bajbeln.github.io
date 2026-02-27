@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
       '<button id="settings-button" onclick="openSettings()" aria-label="Öppna inställningar"><i class="fa fa-cog"></i></button>' +
       '<div id="settings-options" class="hide">' +
         '<button id="reading-mode-button" onclick="toggleReadingMode()" aria-label="Växla läsläge"><i class="fa fa-adjust"></i></button>' +
+        //'<button id="dark-mode-button" onclick="toggleDarkMode()" aria-label="Växla mörkt läge"><i class="fa fa-moon"></i></button>' + - save for later
       '</div>' +
     '</div>';
     document.getElementById('spex-header-container').insertAdjacentHTML('afterend', settingsHTML);
@@ -55,6 +56,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if(document.cookie.includes("readingMode=true")){
       addReadingMode();
     }
+
+    // Check if dark mode is enabled
+    if(document.cookie.includes("darkMode=true")){
+      addDarkMode();
+    }
   });
 
 async function getSongIndex(){
@@ -66,7 +72,7 @@ async function getSongIndex(){
 }
 
 function copyLink() {
-  const link = window.location.href;
+  const link = window.location.origin + window.location.pathname;
   
   if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(link)
@@ -101,10 +107,12 @@ function showCopyFeedback() {
   if (!copyButton) return;
   
   const originalText = copyButton.textContent;
-  copyButton.textContent = 'Länk kopierad!';
-  
+  copyButton.style.width = copyButton.offsetWidth + 'px';
+  copyButton.textContent = 'Kopierad!';
+
   setTimeout(() => {
     copyButton.textContent = originalText;
+    copyButton.style.width = '';
     copyButton.style.backgroundColor = '';
   }, 2000);
 }

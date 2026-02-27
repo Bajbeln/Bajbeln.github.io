@@ -38,3 +38,21 @@ function removeReadingMode() {
   let linkButtons = Array.from(document.getElementsByClassName("button"));
   linkButtons.forEach(button => button.classList.remove("reading-mode"));
 }
+
+function toggleDarkMode() {
+  if (document.cookie.includes("darkMode=true")) {
+    document.cookie = "darkMode=false; path=/; max-age=31536000";
+    removeDarkMode();
+  } else {
+    document.cookie = "darkMode=true; path=/; max-age=31536000";
+    addDarkMode();
+  }
+}
+
+function addDarkMode() {
+  document.body.classList.add("dark-mode");
+}
+
+function removeDarkMode() {
+  document.body.classList.remove("dark-mode");
+}

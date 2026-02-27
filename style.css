@@ -1,9 +1,28 @@
+/*   global variables  */
+/* colors used for site */
+
+:root {
+  --purple:           #9a5587;
+  --purple-dim:       #aa4b8fce;
+  --bg:               #d2e7fa;
+  --blue-card:        #7ba4dbe0;
+  --blue-search:      #8ac9e4;
+  --blue-search-hover:#70b6d0;
+  --yellow-hover:     #f4ce347e;
+  --yellow:           #fcdb59;
+  --yellow-border:    #edd599;
+  --font-size-base:   17.9px;
+  --font-size-button: 18.2px;
+}
+
 /*   base  */
+* {
+  font-family: 'Georgia', Times, serif;
+  text-align: center;
+}
 
 body {
-  background: rgb(210, 231, 250);
-  text-align: center;
-  font-family: 'Georgia', Times, serif;
+  background: var(--bg);
   -webkit-tap-highlight-color: transparent; /* For mobile, removes blue clicking glitch */
 }
 
@@ -12,12 +31,12 @@ body {
 /* Head title and source code link*/
 a {
   text-decoration: none !important;
-  color: rgb(154, 85, 135);
+  color: var(--purple);
 }
 
 /* Spex titles */
 h2 {
-  color:rgba(170, 75, 143, 0.809);
+  color: var(--purple-dim);
 }
 
 h3 {
@@ -66,7 +85,7 @@ td, th{
 }
 
 .topnav .search-container {
-  float: center;
+  float: none;
 }
 
 /* Container for search bar */
@@ -81,26 +100,29 @@ td, th{
 .search-container input[type="text"] {
   width: 100%;
   max-width: 400px;
+  min-width: 230px;
   padding: 12px 20px;
   border: 2px solid #ddd;
-  border-radius: 30px;
-  font-size: 18.1px;
+  border-radius: 17.9px;
   outline: none;
   transition: all 0.3s ease-in-out;
   box-sizing: border-box;
-  font-family: 'Georgia', Times, serif;
   text-align: left;
+  border-radius: 34px;
+  padding: 14.7px;
+  font-size: var(--font-size-base);
 }
 
 /* Focus State for Input */
 .search-container input[type="text"]:focus {
-  border-color: #8ac9e4;
+  border-color: var(--blue-search);
   box-shadow: 0 0 8px rgba(138, 201, 228, 0.5);
 }
 
 /* Placeholder styling */
 .search-container input[type="text"]::placeholder {
   color: #aaa;
+  font-size: var(--font-size-base);
 }
 
 /* Search Button */
@@ -111,9 +133,9 @@ td, th{
   transform: translateY(-50%);
   background-color: transparent;
   border: none;
-  color: #8ac9e4;
+  color: var(--blue-search);
   cursor: pointer;
-  font-size: 18px;
+  font-size: var(--font-size-base);
   outline: none;
 }
 
@@ -124,17 +146,16 @@ td, th{
 
 /* Hover Effect for Button */
 .search-container button:hover {
-  color: #70b6d0;
+  color: var(--blue-search-hover);
 }
 
 /*   collapsibles  */
 
 /* For collapsibles */
 .collapsible {
-  background-color: #7ba4dbe0;
-  font-size: 18.1px;
-  font-family: 'Georgia', Times, serif;
-  border-color: #7ba4dbe0;
+  background-color: var(--blue-card);
+  font-size: var(--font-size-base);
+  border-color: var(--blue-card);
   color:white;
   border-radius: 34px;
   padding: 14.7px;
@@ -143,26 +164,23 @@ td, th{
 
 /* For collapsible when hovering */
 .active, .collapsible:hover {
-  background-color: #f4ce347e;
+  background-color: var(--yellow-hover);
 }
 
 /* For collapsible when opening */
 .content {
-  background-color: #7ba4dbe0;
+  background-color: var(--blue-card);
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
-  font-size: 18.1px;
+  font-size: var(--font-size-base);
   line-height: 1.6;
   color:white;
   border-radius: 27px;
-  margin: 1.3px;
-  padding-right: 8px;
-  padding-left: 8px;
+  margin: 1.3px auto;
+  padding: 0 8px;
   max-width: 600px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 96%;
 }
 
@@ -174,78 +192,69 @@ button {
 
 /* For clickable text */
 a.button {
-  border:2px outset buttonborder;
-  border-color: rgb(154, 85, 135);
+  border: 2px outset var(--purple);
   color: white;
-  background-color: white;
   text-decoration: none;
   padding: 14.7px;
   border-radius: 34px;
   display: inline-block;
-  background-color:rgb(154, 85, 135);
+  background-color: var(--purple);
   margin: 1.3px;
-  cursor: pointer;
-  font-size: 18px;
+  font-size: var(--font-size-base);
 }
 
 a.button:hover {
-  background-color: #f4ce347e;
+  background-color: var(--yellow-hover);
 }
 
-a.button.copyButton {
-  font-family: 'Georgia', Times, serif;
-  font-size:200px;
+/* Action button base */
+button.copyButton,
+button.random,
+button.random-page,
+button.song-link-btn {
+  border: 2px outset var(--purple);
+  text-decoration: none;
 }
 
+/* Yellow action buttons */
+button.random,
+button.random-page,
+button.song-link-btn {
+  background-color: var(--yellow);
+  border-color: var(--yellow-border);
+  color: brown;
+  font-weight: 900;
+}
+
+/* Pill-shaped action buttons */
+button.copyButton,
+button.random,
+button.random-page {
+  border-radius: 24px;
+  padding: 11px;
+  display: inline-block;
+  margin: 1px;
+}
+
+/* Spex-link button (copy spex page link) */
 button.copyButton {
-  border:2px outset buttonborder;
-  border-color: rgb(154, 85, 135);
+  background-color: var(--purple);
+  border-color: var(--purple);
   color: white;
-  background-color: rgb(154, 85, 135);
-  text-decoration: none;
-  padding: 11px;
-  border-radius: 24px;
-  display: inline-block;
-  margin: 1px;
-  cursor: pointer;
-  font-family: 'Georgia', Times, serif;
-  font-size:14px;
+  font-size: 14px;
 }
 
-/* Räändom button */
-button.random{
-  border:2px outset buttonborder;
-  font-family: 'Georgia', Times, serif;
-  font-size: 18px;
-  background-color: rgb(252, 219, 89);
-  border-color:rgb(237, 213, 153);
-  color: brown;
+/* Räändom button - front page */
+button.random {
+  font-size: var(--font-size-base);
   height: 49px;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 11px;
-  border-radius: 24px;
-  display: inline-block;
   margin-bottom: 11px;
-  font-weight: 900;
 }
 
-/* Räändom button - spex*/
-button.random-page{
-  border:2px outset buttonborder;
+/* Räändom button - spex page */
+button.random-page {
   font-size: 15px;
-  background-color: rgb(252, 219, 89);
-  border-color:rgb(237, 213, 153);
-  color: brown;
-  text-decoration: none;
-  padding: 11px;
-  border-radius: 24px;
-  display: inline-block;
-  margin: 1px;
   margin-left: 3px;
-  cursor: pointer;
-  font-family: 'Georgia', Times, serif;
-  font-weight: 900;
 }
 
 /*   settings  */
@@ -260,7 +269,7 @@ button.random-page{
 #settings-button {
   border: none;
   background-color: transparent;
-  color: rgba(170, 75, 143, 0.809);
+  color: var(--purple-dim);
   font-size: 30px;
   cursor: pointer;
 }
@@ -292,7 +301,7 @@ button.random-page{
   padding-top: 10px;
   border: none;
   background-color: transparent;
-  color: rgba(170, 75, 143, 0.809);
+  color: var(--purple-dim);
   font-size: 30px;
   cursor: pointer;
 }
@@ -301,7 +310,7 @@ button.random-page{
   padding-top: 10px;
   border: none;
   background-color: transparent;
-  color: rgba(170, 75, 143, 0.809);
+  color: var(--purple-dim);
   font-size: 30px;
   cursor: pointer;
 }
@@ -328,58 +337,45 @@ button.reading-mode{
 
 /* For footer text */
 footer {
-  color:rgb(154, 85, 135);
+  color: var(--purple);
   padding: 70px;
 }
 
 /*   dark mode  */
 
 body.dark-mode {
-  background: #1a1a2e;
-  color: #e0e0e0;
+  /* Override variables — dependent rules update automatically */
+  --bg:        #1a1a2e;
+  --blue-card: #2d3a5e;
+  --purple-dim: #c084b0;
+  background:  var(--bg);
+  color:       #e0e0e0;
 }
 
-body.dark-mode a {
-  color: #c084b0;
+/* Links and footer share the same dark purple */
+body.dark-mode a,
+body.dark-mode footer {
+  color: var(--purple-dim);
 }
 
-body.dark-mode h2 {
-  color: #c084b0;
-}
-
-body.dark-mode .collapsible {
-  background-color: #2d3a5e;
-  border-color: #2d3a5e;
-}
-
-body.dark-mode .content {
-  background-color: #2d3a5e;
-}
-
+/* Button background needs a darker purple than text links */
 body.dark-mode a.button {
   background-color: #7a3d68;
-  border-color: #7a3d68;
+  border-color:     #7a3d68;
 }
 
+/* Search input has no variable to override, explicit override needed */
 body.dark-mode .search-container input[type="text"] {
   background-color: #2a2a3e;
-  color: #e0e0e0;
-  border-color: #444;
+  color:            #e0e0e0;
+  border-color:     #444;
 }
 
 body.dark-mode .search-container input[type="text"]::placeholder {
   color: #888;
 }
 
-body.dark-mode footer {
-  color: #c084b0;
-}
-
 /*   misc.  */
-
-test {
-  background-color: blue;
-}
 
 /* experimental */
 
@@ -388,47 +384,33 @@ test {
 .song-header {
   display: flex;
   max-width: 500px;
-  width: 90%;
+  width: fit-content;
   margin: 1px auto;
   gap: 2px;
 }
 
 /* Override individual margin/radius so the two buttons sit flush */
 .song-header .collapsible {
-  flex: 1;
+  flex: 0 0 auto;
   margin: 0;
   border-radius: 27px 0 0 27px;
 }
 
 .song-link-btn {
   flex: 0 0 auto;
-  background-color: #7ba4dbe0;
-  border: none;
   border-radius: 0 27px 27px 0;
-  color: white;
-  font-size: 13px;
   padding: 0 12px;
-  cursor: pointer;
-  transition: opacity 0.15s;
-
-  border:2px outset buttonborder;
-  font-family: 'Georgia', Times, serif;
-  font-size: 18px;
-  background-color: rgb(252, 219, 89);
-  border-color:rgb(237, 213, 153);
-  color: brown;
   align-self: stretch;
-  text-decoration: none;
-  font-weight: 900;
+  transition: opacity 0.15s;
 }
 
 .song-link-icon {
   height: 27px;
-  width: 25px;
+  width: 23px;
   display: block;
 }
 
 .song-link-btn:hover {
-  background-color: #f4ce347e;
+  background-color: var(--yellow-hover);
   opacity: 1;
 }

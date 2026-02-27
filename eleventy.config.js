@@ -33,7 +33,7 @@ module.exports = function (eleventyConfig) {
 
     let header = "";
     if (singer) header += `<i>(${escHtml(singer)})</i><br>\n`;
-    if (melody) header += `<i>Mel. ${escHtml(melody)}</i><br><br>\n`;
+    if (melody) header += `<i>Mel. ${escHtml(melody)}</i><br>\n`;
 
     return `<div class="song-block">
   <div class="song-header">
@@ -79,7 +79,7 @@ module.exports = function (eleventyConfig) {
 
     let header = "";
     if (singer) header += `<i>(${escHtml(singer)})</i><br>\n`;
-    if (melody) header += `<i>Mel. ${escHtml(melody)}</i><br><br>\n`;
+    if (melody) header += `<i>Mel. ${escHtml(melody)}</i><br>\n`;
 
     return `<div class="song-block">
   <div class="song-header">
