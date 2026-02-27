@@ -417,14 +417,14 @@ test {
   background-color: rgb(252, 219, 89);
   border-color:rgb(237, 213, 153);
   color: brown;
-  height: 49px;
+  align-self: stretch;
   text-decoration: none;
   font-weight: 900;
 }
 
 .song-link-icon {
-  height: 22px;
-  width: auto;
+  height: 27px;
+  width: 25px;
   display: block;
 }
 
