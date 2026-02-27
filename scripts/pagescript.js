@@ -2,6 +2,26 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
+    // Inject favicon links if not already present
+    if (!document.querySelector('link[rel="icon"][type="image/png"]')) {
+      const faviconLinks = [
+        { rel: 'icon', type: 'image/png', href: '/assets/images/favicon-96x96.png', sizes: '96x96' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/assets/images/favicon.svg' },
+        { rel: 'shortcut icon', href: '/assets/images/favicon.ico' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/assets/images/apple-touch-icon.png' },
+        { rel: 'manifest', href: '/assets/images/site.webmanifest' },
+      ];
+      faviconLinks.forEach(attrs => {
+        const link = document.createElement('link');
+        Object.entries(attrs).forEach(([k, v]) => link.setAttribute(k, v));
+        document.head.appendChild(link);
+      });
+      const appleTitleMeta = document.createElement('meta');
+      appleTitleMeta.setAttribute('name', 'apple-mobile-web-app-title');
+      appleTitleMeta.setAttribute('content', 'Bajbeln');
+      document.head.appendChild(appleTitleMeta);
+    }
+
     // Inject header container and fetch spex header partial (skip on root page)
     document.body.insertAdjacentHTML('afterbegin', '<div id="spex-header-container"></div>');
     if (window.location.pathname !== '/') {
