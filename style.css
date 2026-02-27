@@ -422,6 +422,12 @@ test {
   font-weight: 900;
 }
 
+.song-link-icon {
+  height: 22px;
+  width: auto;
+  display: block;
+}
+
 .song-link-btn:hover {
   background-color: #f4ce347e;
   opacity: 1;

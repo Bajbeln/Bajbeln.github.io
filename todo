@@ -1,5 +1,5 @@
 # TODO
-- OBS jag (Joel) testar att migrera sidan från ren html till eleventy - de nya filerna finns i src
+- OBS jag (Joel) testar att migrera sidan från ren html till eleventy - de nya filerna finns i /src
 
 ## Buggfixar
 - Fixa sökfunktionen — svårt för ensiffriga låtnummer
@@ -12,6 +12,9 @@
 - Expanderbar inuti expanderbar (se Pausfinalen HC A)
 - Abstrahera sök och randomize
 - Ska svartvit inställning vara direkt tillgänglig, eller bland övriga inställningar?
+
+## Stil
+- ändra storlek på raandom-knapp
 
 ## Att lägga till
 - [CXI 6] Invokation till Pelle Andersson
@@ -26,13 +29,19 @@
 
 ## Idéer
 - Tjockare logga i icon (inte på sidorna)
-- Dark mode
+- Dark mode (som bevarar border color hos knapparna)
 - Navigera till nästa/förra spex-knapp
 - Skrolla ner till sången (titeln uppe) vid träff
+- ska vi länka till spääxet?
+- Stäng alla/expandera på alla på sida-knapp?
 
 ## Experimentellt
+- refaktorisera css - gör fler inheritance och globala variabler
+- går det att göra någon favoriter/spara-funktion? helst utan inloggning
+### Migrering av sida
 - Migrera hela sidan till eleventy med låtar i .md-filer och njk för sidorna
 - Migrera sökindex
-- ska vi länka till spääxet?
-- refaktorisera css - gör fler inheritance och globala variabler
-- ändra storlek på raandom-knapp
+- Kunna toggla mellan att söka på låttitel eller sångtext och kanske medodi, spex, sångare
+
+
+

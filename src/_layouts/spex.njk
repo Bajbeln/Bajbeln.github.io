@@ -57,12 +57,12 @@
       var url = location.href.split("#")[0] + "#" + id;
       var songBtn = document.getElementById(id);
       var linkBtn = songBtn ? songBtn.nextElementSibling : null;
+      var img = linkBtn ? linkBtn.querySelector("img") : null;
 
       function feedback() {
-        if (linkBtn) {
-          var orig = linkBtn.textContent;
-          linkBtn.textContent = "✓";
-          setTimeout(function () { linkBtn.textContent = orig; }, 1500);
+        if (img) {
+          img.src = "/assets/images/spex-copy-link-feedback.png";
+          setTimeout(function () { img.src = "/assets/images/spex-copy-link-button.png"; }, 1500);
         }
       }
 
