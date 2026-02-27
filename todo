@@ -4,11 +4,11 @@
 - Fixa sökfunktionen — svårt för ensiffriga låtnummer
 - Fixa stalin-10
 - Undersök radbrytning vid långa rader i flerspaltsläge
-- Gör så att kopiera länk endast kopierar sidlänken (och inte sökning eller delsida)
+- Gör så att kopiera länk (sida) endast kopierar sidlänken (och inte sökning eller delsida)
+- margins eller padding på sångtextboxen ut mot sidan är inte jämn (iaf inte på iphone)
 
 ## Funktioner
 - Expanderbar inuti expanderbar (se Pausfinalen HC A)
-- Lägg in direktlänk till låt (och kunna kopiera den)
 - Abstrahera sök och randomize
 - Ska svartvit inställning vara direkt tillgänglig, eller bland övriga inställningar?
 
