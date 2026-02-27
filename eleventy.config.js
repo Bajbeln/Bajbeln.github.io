@@ -7,6 +7,7 @@ function slugify(str) {
   return str
     .toLowerCase()
     .replace(/å/g, "a").replace(/ä/g, "a").replace(/ö/g, "o")
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
     .replace(/[^\w\s-]/g, "")
     .replace(/\s+/g, "-")
     .replace(/-+/g, "-")
