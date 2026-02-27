@@ -111,6 +111,7 @@ td, th{
   border-radius: 34px;
   padding: 14.7px;
   font-size: var(--font-size-base);
+  color: white;
 }
 
 /* Focus State for Input */
@@ -121,7 +122,7 @@ td, th{
 
 /* Placeholder styling */
 .search-container input[type="text"]::placeholder {
-  color: #aaa;
+  color: gray;
   font-size: var(--font-size-base);
 }
 
@@ -362,6 +363,7 @@ body.dark-mode footer {
 body.dark-mode a.button {
   background-color: #7a3d68;
   border-color:     #7a3d68;
+  color: white;
 }
 
 /* Search input has no variable to override, explicit override needed */
@@ -372,7 +374,7 @@ body.dark-mode .search-container input[type="text"] {
 }
 
 body.dark-mode .search-container input[type="text"]::placeholder {
-  color: #888;
+  color: white;
 }
 
 /*   misc.  */
@@ -413,4 +415,9 @@ body.dark-mode .search-container input[type="text"]::placeholder {
 .song-link-btn:hover {
   background-color: var(--yellow-hover);
   opacity: 1;
+}
+
+/* för att invertera färg på loggorna i dark mode */
+.dark-mode .spex-logo {
+  filter: invert(1);
 }

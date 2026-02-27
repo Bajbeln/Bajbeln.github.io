@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
       '<button id="settings-button" onclick="openSettings()" aria-label="Öppna inställningar"><i class="fa fa-cog"></i></button>' +
       '<div id="settings-options" class="hide">' +
         '<button id="reading-mode-button" onclick="toggleReadingMode()" aria-label="Växla läsläge"><i class="fa fa-adjust"></i></button>' +
-        //'<button id="dark-mode-button" onclick="toggleDarkMode()" aria-label="Växla mörkt läge"><i class="fa fa-moon"></i></button>' + - save for later
-      '</div>' +
+        '<button id="dark-mode-button" onclick="toggleDarkMode()" aria-label="Växla mörkt läge"><i class="fa fa-moon"></i></button>' +
+'</div>' +
     '</div>';
     document.getElementById('spex-header-container').insertAdjacentHTML('afterend', settingsHTML);
 

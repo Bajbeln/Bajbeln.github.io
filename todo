@@ -13,6 +13,7 @@
 
 ## Stil
 - ändra storlek på räändom-knapp
+- Se över alla färgerna på alla sidorna
 
 ## Att lägga till
 - [CXI 6] Invokation till Pelle Andersson
@@ -27,12 +28,14 @@
 
 ## Idéer
 - Tjockare logga i icon (inte på sidorna)
-- Dark mode (som bevarar border color hos knapparna)
+- Dark mode (som bevarar border color hos knapparna) men overridar det andra
+- Kunna toggla fritt mellan reading mode, normal, dark mode
 - Navigera till nästa/förra spex-knapp
 - Skrolla ner till sången (titeln uppe) vid träff
 - ska vi länka till spääxet?
 - Stäng alla/expandera på alla på sida-knapp?
 - Stilisera pop-up vid sökning
+- border i textrutorna i reading mode
 
 ## Experimentellt
 - refaktorisera css - påbörjad

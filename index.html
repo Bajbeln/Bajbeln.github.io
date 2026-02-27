@@ -13,9 +13,11 @@
 </head>
 
 <body>
-  <div id = "main_header"></div>
+  <div id = "main_page_header"></div>
   
-  <a href="/"><img src="/assets/images/logga.png" width= "150" alt="Spexloggan"></a>
+  <a href="/">
+    <img src="/assets/images/logga.png" width="180" alt="Spexloggan" class="spex-logo">
+  </a> 
   <h1><a href="/"> Krischanstaspääxets<br>Sajber-Bajbel</a></h1>
   
   <button class="random" aria-label="Välj en slumpmässig sång">Räändom</button>
@@ -182,11 +184,11 @@
 
 <script>
   //SÖK
-  // Load main_header.html into the div with id="main_header"
-  fetch('/partials/main_header.html')
+  // Load main_page_header.html into the div with id="main_page_header"
+  fetch('/partials/main_page_header.html')
     .then(response => response.text())
     .then(data => {
-      document.getElementById('main_header').innerHTML = data;
+      document.getElementById('main_page_header').innerHTML = data;
 
       document.getElementById('search-form').addEventListener('submit', function(event) {
           event.preventDefault(); // Tar bort reload
@@ -219,7 +221,7 @@
               });
       });
     })
-    .catch(error => console.error('Error loading main_header.html:', error));
+    .catch(error => console.error('Error loading main_page_header.html:', error));
 
 
     //Random
