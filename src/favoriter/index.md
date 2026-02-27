@@ -8,4 +8,6 @@ permalink: /favoriter/
 songs:
   # - spex: spextitel
   #   title: "Nr. Sångtitel"
+  - spex: sketchostrof
+    title: "[ROF 2] BOISEN"
 ---
