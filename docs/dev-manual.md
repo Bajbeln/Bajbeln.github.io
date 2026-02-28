@@ -169,7 +169,7 @@ Början på andra strofen
 
 ### Speaker labels
 
-Use markdown bold on its own line, **without a trailing colon**:
+Use markdown bold on its own line, with or without a trailing colon depending on situation: (tveksamt, ändrar kanske)
 
 ```
 **Gorm**
@@ -178,8 +178,7 @@ tiden den är mogen
 ```
 
 ```
-**Trine, Ditte & Bente**
-Vi ska planera
+**Ditte & Bente:** Vi ska planera
 Inkomst dubblera
 ```
 
@@ -388,17 +387,12 @@ Copy the relevant folder, rename it and the `.json` file inside, and fill in the
 
 The workflow at `.github/workflows/deploy_try.yml` builds the site with `npm run build` and deploys `_site/` to GitHub Pages.
 
-**Currently set to manual trigger only.** To activate automatic deploys on every push to `main`, change the `on:` block in the workflow file:
+**GitHub Pages deployment.** Automatic deploys on every push to `main` is set to on by these lines in `deploy_try.yml`:
 
 ```yaml
-# Change this:
-on:
-  workflow_dispatch:
-
-# To this:
 on:
   push:
     branches: [main]
 ```
 
-To trigger a manual deploy: go to the repository on GitHub → Actions → "Deploy (Eleventy) – try" → Run workflow.
+To activate the deployment: go to the repository on GitHub → Settings → Pages → Source: → set to GitHub Actions.

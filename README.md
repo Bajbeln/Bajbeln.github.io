@@ -10,9 +10,10 @@ För att lägga till ett spex, utgå från mallen (spex_sample) som finns i mapp
 Lägg sedan till låtarna i songIndex.json för sökfuktionaliteten och spexet i index.html så att den är tillgänglig från förstasidan.
 
 ## För utvecklare
+En preliminär utvecklarmanual finns här: `docs/dev-manual.md`
 För att köra igång appen:
 ```
-npm start
+npm run start
 ```
 
 ## På gång & kända fel (mer på todo)
