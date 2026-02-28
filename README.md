@@ -2,7 +2,7 @@
 Tillgänglig på [bajbeln.github.io](https://bajbeln.github.io/)
 
 ## Låtar
-Låtarna finns som filer i `/spex`, originaldokumenten de är tagna ifrån finns i `assets/song files`
+Låtarna finns som filer i `/spex`, originaldokumenten de är tagna ifrån finns i `/assets/song_files`
 
 ## Kontakt
 
