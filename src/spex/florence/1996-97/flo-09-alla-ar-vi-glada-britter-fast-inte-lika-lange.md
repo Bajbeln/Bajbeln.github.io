@@ -1,9 +1,9 @@
 ---
-title: "[FLO 1] Alla är vi glada britter"
+title: "[FLO 9] Alla är vi glada britter - fast inte lika länge"
 singer: "Glada britter sjunger"
 melody: "Boy from New York City"
 spex: florence-1996-97
-order: 1
+order: 23
 permalink: false
 ---
 **Alla:** Sju och trettio folket sitter
@@ -14,24 +14,25 @@ Nu ska ni få möta äkta britter
 <div class="row">
   <div class="column">
 
-**Vincent**
+**Vincent:**
 Vad här är trist
 När jag har fest
 Och mina döttrar
 Gör min tillvaro till pest
-Se lite regn
-Och sen en storm
-Ett litet åskväder
-Från öst börjar ta form
+**Barry:**
+Jag gillar bäst
+Komplexitet
+En rent estetiskt
+Ordaletisk exeget
 
   </div>
   <div class="column">
 
-**Övriga**
+**Övriga:**
 Vilken skön atmosfär
 Tänk att va miljonär
 
-
+**Övriga:**
 Tala väder och vind
 Det kan även en blind
 
@@ -51,42 +52,7 @@ Spel och dobbel hela långa dan
 **Alla:** Vi har stela överläppar
 Både vid kalas och när vi deppar
 
-<div class="row">
-  <div class="column">
-
-**Barry**
-En advokat
-
-Med full kontroll
-Kan vränga ord så
-Hela släkten fattar noll
-
-Jag gillar bäst
-Komplexitet
-En rent estetiskt
-Ordatletisk lagpoet
-
-  </div>
-  <div class="column">
-
-**Övriga**
-Dricka te alltid le
-Är vi vana vid
-Idka sport i vita kläder
-
-Skrattar högt åt
-En Black Adder
-Hahahaha
-
-  </div>
-</div>
-
-**Belle:** Ooh oo ee
-Det verkar som att ni
-Vill finna tröst
-Hos mina bröst
-
-**Alla:** Plåtar runt i rosrabatten
+**Alla:** Påtar runt i rosrabatten
 Skålar sen i portvinsslatten
 Vill vi sen ha skönt på natten
 Tar vi med en flaska uppvärmt vatten

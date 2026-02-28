@@ -6,8 +6,7 @@ spex: florence-2025
 order: 7
 permalink: false
 ---
-**Ronny**
-Låt mig tala, om för,
+**Ronny:** Låt mig tala, om för,
 er hur jag, har det här,
 varje dag, lampan osså jag.
 
@@ -21,24 +20,20 @@ Englands Bond, nu går jag min rond
 
 _(Paus för förflyttning av folk)_
 
-**Nanny**
-Måste vinna jakten,
+**Nanny:** Måste vinna jakten,
 smyger lätt bort ifrån vakten.
 
-**Harriet**
-På arv jag vill ej vänta,
+**Harriet:** På arv jag vill ej vänta,
 vi ska hitta denna jänta.
 
-**Elisabeth**
-Florence hämta mig nu,
+**Elisabeth:** Florence hämta mig nu,
 snälla säg var är du
 jag på knäna dig ber,
 jag vill inte mer!
 
 _(Dansbreak)_
 
-**Ronny**
-Nu är jag, tillbaka,
+**Ronny:** Nu är jag, tillbaka,
 har nu gått, hundra varv,
 detta jobb, det är inget larv
 

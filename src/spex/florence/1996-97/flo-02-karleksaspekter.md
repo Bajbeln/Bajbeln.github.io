@@ -6,8 +6,7 @@ spex: florence-1996-97
 order: 4
 permalink: false
 ---
-**Flo.**
-Den värme jag känner
+**Flo.** Den värme jag känner
 Får mig att förstå
 Att vi två är vänner
 Ja, mycket mer än så
@@ -16,8 +15,7 @@ lig kraft i mitt bröst
 Som aldrig försvinner
 Som skänker mig tröst
 
-**Fred**
-Jag trivs ibland snygga blondiner
+**Fred:** Jag trivs ibland snygga blondiner
 Utklädda till söta kaniner
 I kolsvarta dräkter som skiner
 Med urringning som små raviner
@@ -36,8 +34,7 @@ Bysthållare med vadderade
 Kupor, då vill jag ha mera, det
 Känns så fantastiskt
 
-**Flo**
-(Det känns så fantastiskt)
+**Flo:** (Det känns så fantastiskt)
 När jag är allena
 Och ser på hans bild
 Min kärlek, den rena
@@ -46,8 +43,7 @@ En lisa det skänker
 Av ljuv karaktär
 Var stund jag betänker
 Att han mig håller kär
-**A+H**
-Ett elände har vi
+**A+H:** Ett elände har vi
 Den saken är sann
 En drömmande Barbie
 En otrogen man
@@ -55,8 +51,7 @@ Som ni bär er åt får vi
 Alltid ta oss ton mot er
 Idioter...
 
-**Flo**
-När han åter gläntar
+**Flo:** När han åter gläntar
 På mitt hjärtas port
 Jag sitter och väntar
 Som jag alltid gjort

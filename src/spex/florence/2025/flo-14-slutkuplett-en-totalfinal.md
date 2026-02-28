@@ -6,8 +6,7 @@ spex: florence-2025
 order: 10
 permalink: false
 ---
-**Alla**
-Ja det tog sin tid att lyckas,
+**Alla:** Ja det tog sin tid att lyckas,
 men nu har det hänt igen
 Vår 97 var sist man såg,
 Florence är här min vän
@@ -25,15 +24,12 @@ pionjär
 Elisabeth klara sig undan sabotage
 (så bra)
 
-**H + A**
-men du, och jag
+**H + A:** men du, och jag
 Vi förlora arvet
 
-**Florence**
-För jag fick alla pengar
+**Florence:** För jag fick alla pengar
 
-**Alla**
-Trots allt vårt hårda slit
+**Alla:** Trots allt vårt hårda slit
 Livet är  inte likadant
 Våran plan tog oss hit
 Det är så sant
