@@ -111,7 +111,6 @@ td, th{
   border-radius: 34px;
   padding: 14.7px;
   font-size: var(--font-size-base);
-  color: white;
 }
 
 /* Focus State for Input */
