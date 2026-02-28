@@ -1,5 +1,5 @@
 ---
-layout: favoriter
+layout: spex
 title: Favoriter
 color: "rgb(252, 246, 218)"
 accentColor: "rgb(250, 203, 18)"

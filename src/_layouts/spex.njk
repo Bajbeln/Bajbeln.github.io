@@ -22,9 +22,22 @@
 <body>
   <h2>{{ title }}</h2>
   <button class="copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
+  <button class="toggle-all-btn" id="toggleAllBtn" onclick="toggleAll()" aria-label="Expandera/kollapsa alla sånger">
+    <svg class="icon-expand" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <polyline points="3,4 10,10 17,4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <polyline points="3,11 10,17 17,11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <svg class="icon-collapse" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:none">
+      <polyline points="3,10 10,4 17,10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <polyline points="3,17 10,11 17,17" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
   <br><br>
 
-  {% if uppsattning %}
+  {% if songs %}
+    {% set pageSongs = collections.songs | songsFromList(songs) %}
+    {% for song in pageSongs %}{{ song | renderSong | safe }}{% endfor %}
+  {% elif uppsattning %}
     {% set _prefix = page.url | replace("/", "") %}
     {% for u in uppsattning %}
       {% set _sectionId = u.id | replace(_prefix ~ "-", "") | replace("-", "_") %}
@@ -58,7 +71,44 @@
         } else {
           contentDiv.style.maxHeight = contentDiv.scrollHeight + "px";
         }
+        updateToggleBtn();
       });
+    }
+
+    if (coll.length === 0) {
+      var tBtn = document.getElementById("toggleAllBtn");
+      if (tBtn) tBtn.style.display = "none";
+    }
+
+    function updateToggleBtn() {
+      var btn = document.getElementById("toggleAllBtn");
+      if (!btn) return;
+      var anyOpen = Array.from(document.querySelectorAll(".song-block .content")).some(function (c) {
+        return !!c.style.maxHeight;
+      });
+      btn.querySelector(".icon-expand").style.display = anyOpen ? "none" : "";
+      btn.querySelector(".icon-collapse").style.display = anyOpen ? "" : "none";
+    }
+
+    function toggleAll() {
+      var blocks = document.querySelectorAll(".song-block");
+      var anyOpen = Array.from(blocks).some(function (block) {
+        var c = block.querySelector(".content");
+        return c && !!c.style.maxHeight;
+      });
+      blocks.forEach(function (block) {
+        var contentDiv = block.querySelector(".content");
+        var btn = block.querySelector(".collapsible");
+        if (!contentDiv) return;
+        if (anyOpen && contentDiv.style.maxHeight) {
+          contentDiv.style.maxHeight = null;
+          if (btn) btn.classList.remove("active");
+        } else if (!anyOpen && !contentDiv.style.maxHeight) {
+          contentDiv.style.maxHeight = contentDiv.scrollHeight + "px";
+          if (btn) btn.classList.add("active");
+        }
+      });
+      updateToggleBtn();
     }
 
     // Copy a direct anchor link to an uppsättning section
@@ -123,6 +173,7 @@
             setTimeout(function () { el.style.backgroundColor = ""; }, 2000);
             el.click();
           }
+          updateToggleBtn();
         }, 100);
       }
     });

@@ -248,6 +248,11 @@ button.copyButton {
   border-color: var(--purple);
   color: white;
   font-size: 14px;
+   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  vertical-align: middle;
 }
 
 /* Uppsättning heading + copy-link button, centered as a pair */
@@ -280,6 +285,26 @@ button.uppsattning-link-btn:hover {
   background-color: var(--purple-dim);
 }
 
+button.toggle-all-btn {
+  background-color: var(--yellow);
+  border-color: var(--yellow-border);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-left: 1px;
+  color: brown;
+}
+
+button.toggle-all-btn:hover {
+  background-color: var(--yellow-hover);
+}
+
 /* Räändom button - front page */
 button.random {
   font-size: var(--font-size-base);
@@ -291,6 +316,11 @@ button.random {
 button.random-page {
   font-size: 15px;
   margin-left: 3px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  vertical-align: middle;
 }
 
 /*   settings  */
