@@ -2,7 +2,7 @@
 <html lang="sv">
 <head>
   <meta charset="UTF-8">
-  <title>{{ title }} - Bajbeln</title>
+  <title>{{ tabTitle or title }} - Bajbeln</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
   <link rel="icon" type="image/png" href="/assets/images/logga.png">
@@ -11,10 +11,12 @@
   <script src="/scripts/searchscript.js" defer></script>
   <script src="/scripts/pagescript.js" defer></script>
   <script src="/scripts/settings.js" defer></script>
-  {% if color or accentColor or accentBorderColor %}<style>
+  {% if color or accentColor or accentBorderColor or darkColor %}<style>
     {% if color %}body { background-color: {{ color }}; }{% endif %}
     {% if accentColor %}.collapsible, .content { background-color: {{ accentColor }}; }{% endif %}
     {% if accentBorderColor %}.collapsible, .content { border-color: {{ accentBorderColor }}; }{% endif %}
+    {% if accentColor %}body.dark-mode .collapsible, body.dark-mode .content { background-color: {{ darkAccentColor or '#2d3a5e' }}; border-color: {{ darkAccentBorderColor or darkAccentColor or '#2d3a5e' }}; }{% endif %}
+    {% if darkColor %}body.dark-mode { background-color: {{ darkColor }}; }{% endif %}
   </style>{% endif %}
 </head>
 <body>

@@ -108,6 +108,21 @@ src/spex/<spex-name>/<spex-name>.json
 
 Eleventy's directory data cascade automatically applies these values to every file in the folder (and subfolders). `accentColor` and `accentBorderColor` are optional; omitting them falls back to the global defaults in `style.css`.
 
+To override the dark mode colors, add any of these optional fields:
+
+```json
+{
+  "color": "rgb(R, G, B)",
+  "accentColor": "rgb(R, G, B)",
+  "accentBorderColor": "rgb(R, G, B)",
+  "darkColor": "rgb(R, G, B)",
+  "darkAccentColor": "rgb(R, G, B)",
+  "darkAccentBorderColor": "rgb(R, G, B)"
+}
+```
+
+If omitted, dark mode falls back to the global defaults (`#1a1a2e` for the body, `#2d3a5e` for collapsibles/content).
+
 ### 3. Create one `.md` file per song
 
 The file naming convention depends on the song title format:
@@ -244,13 +259,16 @@ When the page loads with a hash in the URL, the layout automatically opens and s
 
 Each spex page's background and accent colors are set in `{name}.json` (see [step 2b above](#2b-create-namejson-colors)). The layout injects these as an inline `<style>` block.
 
-| Field | Sets |
-|---|---|
-| `color` | `body { background-color }` |
-| `accentColor` | `.collapsible, .content { background-color }` |
-| `accentBorderColor` | `.collapsible, .content { border-color }` |
+| Field | Sets | Dark mode default |
+|---|---|---|
+| `color` | `body { background-color }` | `#1a1a2e` (via `style.css`) |
+| `accentColor` | `.collapsible, .content { background-color }` | `#2d3a5e` |
+| `accentBorderColor` | `.collapsible, .content { border-color }` | `#2d3a5e` |
+| `darkColor` | `body.dark-mode { background-color }` | — |
+| `darkAccentColor` | `body.dark-mode .collapsible, .content { background-color }` | — |
+| `darkAccentBorderColor` | `body.dark-mode .collapsible, .content { border-color }` | — |
 
-If `accentColor` and `accentBorderColor` are omitted the global defaults from `style.css` apply.
+The `dark*` fields are optional. When a spex has `accentColor` set, the layout automatically injects dark mode overrides using the defaults above — unless the corresponding `dark*` field is provided.
 
 Colors are **not** set in `index.md` frontmatter. They live in `{name}.json` and are inherited by all files in the folder via Eleventy's directory data cascade. For multi-production spex, the `{name}.json` in the parent folder cascades into all year subfolders automatically.
 
