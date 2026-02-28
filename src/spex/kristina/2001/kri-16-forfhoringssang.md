@@ -78,7 +78,7 @@ När jag förförs/förför
 Luften börjar vibrera
 Jag blir alldeles het
 Med risk för att va indiskret:
-- Det här känns som en ny pubertet
+— Det här känns som en ny pubertet
 När jag förförs/förför
 
 _(solo, dans, hångel, &c.)_

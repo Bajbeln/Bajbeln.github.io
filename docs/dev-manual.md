@@ -24,10 +24,16 @@ Krischanstaspääxets Sajber-Bajbel is a static site that serves as a searchable
 │   ├── _layouts/
 │   │   └── spex.njk            # Layout for all spex pages
 │   ├── spex/
-│   │   ├── <spex-name>/
-│   │   │   ├── index.md        # Spex page (frontmatter only, no body)
+│   │   ├── <spex-name>/        # Single-production spex
+│   │   │   ├── index.md        # Spex page (spex: name, permalink: /name/)
 │   │   │   ├── 01-song-name.md
-│   │   │   ├── 02-song-name.md
+│   │   │   └── ...
+│   │   ├── <spex-name>/        # Multi-production spex (återuppsättning)
+│   │   │   ├── index.md        # Hub page (uppsattning list, no spex field)
+│   │   │   ├── <year>/
+│   │   │   │   ├── index.md    # Production page (spex: name-year, permalink: /name_year/)
+│   │   │   │   ├── 01-song.md
+│   │   │   │   └── ...
 │   │   │   └── ...
 │   │   └── ...
 │   └── favoriter/
@@ -75,30 +81,52 @@ Use a lowercase, hyphenated name with Swedish characters replaced: å→a, ä→
 ---
 layout: spex
 title: Spextitel År (XXX)
-color: "rgb(R, G, B)"
 permalink: /spex-name/
 spex: spex-name
 ---
 ```
 
-The body of `index.md` is intentionally left empty. The layout fetches and renders all songs automatically.
+The body of `index.md` is intentionally left empty. The layout renders all songs automatically via the `spex` identifier.
 
-Optional theming fields (see [Theming](#theming)):
+For spex with multiple productions, see [Spex with multiple productions](#spex-with-multiple-productions-uppsättningar).
 
-```yaml
-accentColor: "rgb(R, G, B)"
-accentBorderColor: "rgb(R, G, B)"
+### 2b. Create `{name}.json` (colors)
+
+Colors are stored in a separate JSON data file named after the folder:
+
 ```
+src/spex/<spex-name>/<spex-name>.json
+```
+
+```json
+{
+  "color": "rgb(R, G, B)",
+  "accentColor": "rgb(R, G, B)",
+  "accentBorderColor": "rgb(R, G, B)"
+}
+```
+
+Eleventy's directory data cascade automatically applies these values to every file in the folder (and subfolders). `accentColor` and `accentBorderColor` are optional; omitting them falls back to the global defaults in `style.css`.
 
 ### 3. Create one `.md` file per song
 
-Name files `NN-slugified-title.md` where `NN` is a zero-padded sequence number matching the `order` field.
+The file naming convention depends on the song title format:
+
+- **Title starts with `[ABB N]`** (e.g. `[KRI 1] Allting kan gå itu`):
+  → `{abbrev}-{NN}-{slug}.md`, where abbrev is lowercase with no special chars (ä→a, ö→o, etc.)
+  → e.g. `kri-01-allting-kan-ga-itu.md`
+
+- **Title starts with a number** (e.g. `1. Öppningskuplett`):
+  → `{NN}-{slug}.md`
+  → e.g. `01-oppningskuplett.md`
+
+`NN` is always two-digit zero-padded.
 
 ```yaml
 ---
-title: "[XXX N] Sångtitel"
-singer: "Sjungs av Rollfigur"   # optional
-melody: "Låttitel, Artist"
+title: "[XXX N] Sångtitel"       # or "N. Sångtitel"
+singer: "Sjungs av Rollfigur"    # optional
+melody: "Låttitel – Artist"      # optional
 spex: spex-name                  # must match the spex identifier in index.md
 order: 1                         # determines sort order on the page
 permalink: false                 # always false for individual song files
@@ -141,19 +169,27 @@ Början på andra strofen
 
 ### Speaker labels
 
-Use markdown bold. The label can be inline on the same line as the first lyric:
+Use markdown bold on its own line, **without a trailing colon**:
 
 ```
-**Gorm:** Vi spanar här i skogen tills
+**Gorm**
+Vi spanar här i skogen tills
 tiden den är mogen
 ```
 
-Or on its own line above the lyrics (the `<br>` from the line break separates it visually):
-
 ```
-**Trine, Ditte & Bente:**
+**Trine, Ditte & Bente**
 Vi ska planera
 Inkomst dubblera
+```
+
+### Dialogue dashes
+
+For inline dialogue, use an em dash `—` at the start of the line. Never use `- ` (renders as a bullet list) or `\-`:
+
+```
+— Sjung med oss!
+— Javisst, det gör vi!
 ```
 
 ### Stage directions
@@ -207,7 +243,7 @@ When the page loads with a hash in the URL, the layout automatically opens and s
 
 ## Theming
 
-Each spex page can set its background and accent colors in `index.md` frontmatter. The layout injects these as an inline `<style>` block.
+Each spex page's background and accent colors are set in `{name}.json` (see [step 2b above](#2b-create-namejson-colors)). The layout injects these as an inline `<style>` block.
 
 | Field | Sets |
 |---|---|
@@ -217,38 +253,60 @@ Each spex page can set its background and accent colors in `index.md` frontmatte
 
 If `accentColor` and `accentBorderColor` are omitted the global defaults from `style.css` apply.
 
+Colors are **not** set in `index.md` frontmatter. They live in `{name}.json` and are inherited by all files in the folder via Eleventy's directory data cascade. For multi-production spex, the `{name}.json` in the parent folder cascades into all year subfolders automatically.
+
 ---
 
 ## Spex with multiple productions (uppsättningar)
 
-When a spex title has been performed in multiple years, use a single `index.md` with an `uppsattning` list instead of a plain `spex` field. Each production gets its own `spex` identifier and its own folder of song files.
+When a spex title has been performed in multiple years, there is a two-level structure: a **hub page** that lists all productions, and a separate **production page** for each year.
+
+### Hub page — `src/spex/{name}/index.md`
+
+Has an `uppsattning` list and no `spex` field. Renders all productions on one page, each under its own heading.
 
 ```yaml
 ---
 layout: spex
 title: Kristina (KRI)
-color: "rgb(255, 220, 220)"
-accentColor: "rgb(220, 120, 120)"
-accentBorderColor: "rgb(200, 100, 100)"
 permalink: /kristina/
 uppsattning:
   - id: kristina-2023-24
-    label: "Kristina 2023/24"
+    label: "Kristina 2023/24 (KRI)"
   - id: kristina-2001
-    label: "Kristina 2001"
+    label: "Kristina 2001 (KRI)"
 ---
 ```
 
-The layout renders each production under its own `<h3>` heading, in the order listed. Song files for each production live in their own subfolder and carry the matching `spex` identifier:
+Colors come from `src/spex/kristina/kristina.json` and cascade into all year subfolders automatically.
+
+### Production page — `src/spex/{name}/{year}/index.md`
+
+Each production has its own page with a `spex` field matching the production id. The `permalink` uses an underscore to separate name and year:
+
+```yaml
+---
+layout: spex
+title: Kristina 2001 (KRI)
+spex: kristina-2001
+permalink: /kristina_2001/
+---
+```
+
+No color fields needed — they are inherited from the parent `kristina.json`.
+
+### File structure
 
 ```
 src/spex/kristina/
-├── index.md
+├── index.md                          # hub: uppsattning list, no spex field
 ├── 2023-24/
-│   ├── 01-det-ar-synd.md       # spex: kristina-2023-24
+│   ├── index.md                      # spex: kristina-2023-24, permalink: /kristina_2023-24/
+│   ├── 01-det-ar-synd.md             # spex: kristina-2023-24
 │   └── ...
 └── 2001/
-    ├── 01-allting-kan-ga-itu.md  # spex: kristina-2001
+    ├── index.md                      # spex: kristina-2001, permalink: /kristina_2001/
+    ├── kri-01-allting-kan-ga-itu.md  # spex: kristina-2001
     └── ...
 ```
 
@@ -291,8 +349,8 @@ The `songsFromList` filter looks up each entry in the `songs` collection and ren
 
 ### Layout flow (`src/_layouts/spex.njk`)
 
-1. If the page has `uppsattning`: iterate over productions, render each group under a heading.
-2. If the page has `spex`: query `songsForSpex` and render all songs.
+1. If the page has `uppsattning` (hub page): iterate over productions in list order, render each group under an `<h2>` heading using `songsForSpex(u.id)`.
+2. If the page has `spex` (single-production or individual production page): query `songsForSpex(spex)` and render all songs.
 3. Otherwise: render `{{ content | safe }}` (fallback, not normally used).
 
 Each song is rendered as:
@@ -312,6 +370,17 @@ Each song is rendered as:
 ```
 
 Collapsible behaviour and hash-navigation are handled by inline `<script>` in the layout.
+
+---
+
+## Templates
+
+Ready-to-copy templates live in:
+
+- `src/spex/_template/` — single-production spex
+- `src/spex/_template_multi/` — multi-production spex (hub + year subfolder)
+
+Copy the relevant folder, rename it and the `.json` file inside, and fill in the placeholders. Templates include comments explaining every field.
 
 ---
 

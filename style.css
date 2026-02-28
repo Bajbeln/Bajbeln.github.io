@@ -11,8 +11,10 @@
   --yellow-hover:     #f4ce347e;
   --yellow:           #fcdb59;
   --yellow-border:    #edd599;
-  --font-size-base:   17.9px;
-  --font-size-button: 18.2px;
+  --font-size-base:         17.9px;
+  --font-size-button:       18.2px;
+  --font-size-spex-title:   1.5em;
+  --font-size-uppsattning:  1.5em;
 }
 
 /*   base  */
@@ -37,6 +39,7 @@ a {
 /* Spex titles */
 h2 {
   color: var(--purple-dim);
+  font-size: var(--font-size-spex-title);
 }
 
 h3 {
@@ -47,7 +50,7 @@ h3 {
   margin-top: 1.5em;
   margin-bottom: 0.5em;
   color: var(--purple-dim);
-  font-weight: 600;
+  font-size: var(--font-size-uppsattning);
 }
 
 /*   layout  */

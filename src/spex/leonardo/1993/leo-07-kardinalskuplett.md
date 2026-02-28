@@ -28,4 +28,4 @@ Var festlig präst
 Är ständig gäst
 Vid våra backanaler
 Ett härligt liv i sus och dus
-- Vi lever i ett ständigt rus
+— Vi lever i ett ständigt rus

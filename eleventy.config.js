@@ -66,9 +66,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("songsFromList", function (collection, songList) {
     if (!songList || !songList.length) return [];
     return songList
-      .map(({ spex, title }) =>
-        collection.find(s => s.data.spex === spex && s.data.title === title)
-      )
+      .map(({ spex, title }) => {
+        const found = collection.find(s => s.data.spex === spex && s.data.title === title);
+        if (!found) {
+          console.warn(`[favoriter] Song not found: spex="${spex}" title="${title}"`);
+        }
+        return found;
+      })
       .filter(Boolean);
   });
 

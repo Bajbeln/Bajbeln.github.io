@@ -6,13 +6,13 @@ order: 1
 permalink: false
 ---
 **A**
-- Hur ska jag nånsin kunna ta
+— Hur ska jag nånsin kunna ta
 **B**
 exa...
-- Männen andras trygghet ses
+— Männen andras trygghet ses
 berö...
 **C**
-- Var finns hoppet för en framtid?
+— Var finns hoppet för en framtid?
 
 **ABC**
 När ska min själ fä vila?
@@ -21,11 +21,11 @@ Dränkta i ett hav av stress.
 En latrintunna av ensamhet.
 
 **D**
-- Jag ser hur löneslavar tvingas sväI...
+— Jag ser hur löneslavar tvingas sväI...
 **E**
-- Ta ännu ett lån du ej har..
+— Ta ännu ett lån du ej har..
 **F**
-- Råd mig, hur ska jag orka
+— Råd mig, hur ska jag orka
 kämpa...
 
 **DEF**

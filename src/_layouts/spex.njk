@@ -23,8 +23,10 @@
   <br><br>
 
   {% if uppsattning %}
+    {% set _prefix = page.url | replace("/", "") %}
     {% for u in uppsattning %}
-      <h3 class="uppsattning-heading">{{ u.label }}</h3>
+      {% set _sectionId = u.id | replace(_prefix ~ "-", "") | replace("-", "_") %}
+      <h2 class="uppsattning-heading" id="{{ _sectionId }}">{{ u.label }}</h2>
       {% set groupSongs = collections.songs | songsForSpex(u.id) %}
       {% for song in groupSongs %}{{ song | renderSong | safe }}{% endfor %}
       <br>
@@ -84,19 +86,20 @@
       document.body.removeChild(ta);
     }
 
-    // Open and scroll to a song when the page loads with a #song-* hash
+    // Open and scroll to a song or production section when the page loads with a hash
     document.addEventListener("DOMContentLoaded", function () {
       var hash = location.hash;
       if (hash && hash.length > 1) {
-        var btn = document.getElementById(hash.slice(1));
-        if (btn && btn.classList.contains("collapsible")) {
-          setTimeout(function () {
-            btn.scrollIntoView({ behavior: "smooth", block: "start" });
-            btn.style.backgroundColor = "#ffd54f";
-            setTimeout(function () { btn.style.backgroundColor = ""; }, 2000);
-            btn.click();
-          }, 100);
-        }
+        var el = document.getElementById(hash.slice(1));
+        if (!el) return;
+        setTimeout(function () {
+          el.scrollIntoView({ behavior: "smooth", block: "start" });
+          if (el.classList.contains("collapsible")) {
+            el.style.backgroundColor = "#ffd54f";
+            setTimeout(function () { el.style.backgroundColor = ""; }, 2000);
+            el.click();
+          }
+        }, 100);
       }
     });
   </script>

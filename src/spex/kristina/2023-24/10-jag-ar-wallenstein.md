@@ -24,7 +24,7 @@ Att Wallenstein är här
 Om du nu tänker att min plan
 Har brist på fantasi
 Var tyst och låt mig lura dig
-- Med filosofi
+— Med filosofi
 
 Wenn mein ding ist dein ding
 Ist das das ding an sich
