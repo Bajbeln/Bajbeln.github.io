@@ -31,7 +31,7 @@
       <br>
       <div class="uppsattning-header">
         <h2 class="uppsattning-heading" id="{{ _sectionId }}">{{ u.label }}</h2>
-        <button class="uppsattning-link-btn" onclick="copyUppLink(this, '{{ _sectionId }}')" aria-label="Kopiera länk till {{ u.label }}"><img src="/assets/images/spex-copy-link-button.png" class="song-link-icon" alt=""></button>
+        <button class="uppsattning-link-btn" onclick="copyUppLink(this, '{{ _sectionId }}')" aria-label="Kopiera länk till {{ u.label }}"><img src="/assets/images/song-link-button.png" class="song-link-icon" alt=""></button>
       </div>
       <br>
       {% set groupSongs = collections.songs | songsForSpex(u.id) %}
@@ -67,8 +67,8 @@
       var img = btn.querySelector("img");
       function feedback() {
         if (img) {
-          img.src = "/assets/images/spex-copy-link-feedback.png";
-          setTimeout(function () { img.src = "/assets/images/spex-copy-link-button.png"; }, 1500);
+          img.src = "/assets/images/song-link-feedback.png";
+          setTimeout(function () { img.src = "/assets/images/song-link-button.png"; }, 1500);
         }
       }
       if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -87,8 +87,8 @@
 
       function feedback() {
         if (img) {
-          img.src = "/assets/images/spex-copy-link-feedback.png";
-          setTimeout(function () { img.src = "/assets/images/spex-copy-link-button.png"; }, 1500);
+          img.src = "/assets/images/song-link-feedback.png";
+          setTimeout(function () { img.src = "/assets/images/song-link-button.png"; }, 1500);
         }
       }
 

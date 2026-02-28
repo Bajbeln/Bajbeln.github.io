@@ -5,11 +5,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // Inject favicon links if not already present
     if (!document.querySelector('link[rel="icon"][type="image/png"]')) {
       const faviconLinks = [
-        { rel: 'icon', type: 'image/png', href: '/assets/images/icons/favicon-96x96.png', sizes: '96x96' },
-        { rel: 'icon', type: 'image/svg+xml', href: '/assets/images/icons/favicon.svg' },
-        { rel: 'shortcut icon', href: '/assets/images/icons/favicon.ico' },
-        { rel: 'apple-touch-icon', sizes: '180x180', href: '/assets/images/icons/apple-touch-icon.png' },
-        { rel: 'manifest', href: '/assets/images/site.webmanifest' },
+        { rel: 'icon', type: 'image/png', href: '/assets/images/manifest/favicon-96x96.png', sizes: '96x96' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/assets/images/manifest/icons/favicon.svg' },
+        { rel: 'shortcut icon', href: '/assets/images/manifest/favicon.ico' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/assets/images/manifest/apple-touch-icon.png' },
+        { rel: 'manifest', href: '/site.webmanifest' },
       ];
       faviconLinks.forEach(attrs => {
         const link = document.createElement('link');
