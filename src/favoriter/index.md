@@ -7,7 +7,7 @@ accentBorderColor: "rgb(226, 185, 22)"
 permalink: /favoriter/
 songs:
   # - spex: spextitel
-  #   title: "Nr. Sångtitel"
+  #   title: "[AAA N] Sångtitel"
   - spex: krook
     title: "[KRO 6] Nu ska vi festa"
   - spex: leonardo-1993
