@@ -1,5 +1,5 @@
 ---
-title: "[FLO 13] Metrologisa<!-- [sic!] -->"
+title: "[FLO 13] Metrologisa"
 singer: "Barry, Byron, Victoria & Elisabeth sjunger"
 melody: "Svordomsvisan – Magnus och Brasse"
 spex: florence-2025
