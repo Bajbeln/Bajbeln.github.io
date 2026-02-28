@@ -216,7 +216,8 @@ a.button:hover {
 button.copyButton,
 button.random,
 button.random-page,
-button.song-link-btn {
+button.song-link-btn,
+button.uppsattning-link-btn {
   border: 2px outset var(--purple);
   text-decoration: none;
 }
@@ -247,6 +248,36 @@ button.copyButton {
   border-color: var(--purple);
   color: white;
   font-size: 14px;
+}
+
+/* Uppsättning heading + copy-link button, centered as a pair */
+.uppsattning-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.uppsattning-header .uppsattning-heading {
+  margin: 0;
+}
+
+button.uppsattning-link-btn {
+  flex: 0 0 auto;
+  background-color: var(--purple);
+  border-color: var(--purple);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+button.uppsattning-link-btn:hover {
+  background-color: var(--purple-dim);
 }
 
 /* Räändom button - front page */

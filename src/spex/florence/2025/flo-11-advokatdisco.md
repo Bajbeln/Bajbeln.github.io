@@ -6,14 +6,11 @@ spex: florence-2025
 order: 3
 permalink: false
 ---
-**Kör**
-Oh-oh, oh-oh
+**Kör:** Oh-oh, oh-oh
 Oh-oh, oh-oh
 Ooh-ooh, ooh-ooh
-**Barry + kör**
-Gör mig till er advokat
-**Barry**
-Jag kan se på er, vad det är som sker
+**Barry + kör:** Gör mig till er advokat
+**Barry:** Jag kan se på er, vad det är som sker
 Ja, ni hoppades på mer än detta
 Trots denna incident,
 har inga broar bränts
@@ -44,8 +41,7 @@ Jag ser alltid objektivt
 Fram tills dess att,
 någon drar fram några lax
 
-**Barry + kör**
-Jag är proffs på juridik
+**Barry + kör:** Jag är proffs på juridik
 Går över lik
 I Gucci-skor
 Ni har chansen – nyttja den

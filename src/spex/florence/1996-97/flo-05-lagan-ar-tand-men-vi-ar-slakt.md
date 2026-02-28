@@ -6,8 +6,7 @@ spex: florence-1996-97
 order: 10
 permalink: false
 ---
-**Flo**
-Du for ut i kriget mot nån vild despot
+**Flo:** Du for ut i kriget mot nån vild despot
 Så att vi skildes åt, jag föll i gråt
 Jag gick där ensam kvar och trånade
 Så att jag dånade emellanåt
@@ -21,15 +20,12 @@ En av de mer promiskuösa
 Blodskam, har bibeln sagt, går faktiskt inte an
 Vi har fått ett problem att lösa
 
-**Ed**
-Om testamentet skulle stämma
+**Ed:** Om testamentet skulle stämma
 Hamnar vi i ett dilemma
-**Båda**
-Nu när vi vet våra känslor för varann
+**Båda:** Nu när vi vet våra känslor för varann
 Har varit grovt incestuösa
 
-**Ed**
-Skjuta ryssar påstås vara lärorikt
+**Ed:** Skjuta ryssar påstås vara lärorikt
 Dessutom ärorikt, en riktig sport
 Men jag ligger med de andra slavarna
 I skyttegravar och längtar bort
@@ -43,10 +39,8 @@ Vet inte alls vad jag ska göra
 Den man är släkt med, kan inte komma ifrån
 Är det rent brottsligt att förföra
 
-**Flo**
-Att va ihop är inte etiskt
+**Flo:** Att va ihop är inte etiskt
 Ifall man liknar nån genetiskt
-**Båda**
-Fast våra kroppar
+**Båda:** Fast våra kroppar
 Kokar över av hormon
 Så får vi se men inte röra

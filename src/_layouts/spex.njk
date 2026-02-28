@@ -26,7 +26,12 @@
     {% set _prefix = page.url | replace("/", "") %}
     {% for u in uppsattning %}
       {% set _sectionId = u.id | replace(_prefix ~ "-", "") | replace("-", "_") %}
-      <h2 class="uppsattning-heading" id="{{ _sectionId }}">{{ u.label }}</h2>
+      <br>
+      <div class="uppsattning-header">
+        <h2 class="uppsattning-heading" id="{{ _sectionId }}">{{ u.label }}</h2>
+        <button class="uppsattning-link-btn" onclick="copyUppLink(this, '{{ _sectionId }}')" aria-label="Kopiera länk till {{ u.label }}"><img src="/assets/images/spex-copy-link-button.png" class="song-link-icon" alt=""></button>
+      </div>
+      <br>
       {% set groupSongs = collections.songs | songsForSpex(u.id) %}
       {% for song in groupSongs %}{{ song | renderSong | safe }}{% endfor %}
       <br>
@@ -52,6 +57,23 @@
           contentDiv.style.maxHeight = contentDiv.scrollHeight + "px";
         }
       });
+    }
+
+    // Copy a direct anchor link to an uppsättning section
+    function copyUppLink(btn, id) {
+      var url = location.href.split("#")[0] + "#" + id;
+      var img = btn.querySelector("img");
+      function feedback() {
+        if (img) {
+          img.src = "/assets/images/spex-copy-link-feedback.png";
+          setTimeout(function () { img.src = "/assets/images/spex-copy-link-button.png"; }, 1500);
+        }
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(feedback).catch(function () { fallbackCopy(url); feedback(); });
+      } else {
+        fallbackCopy(url); feedback();
+      }
     }
 
     // Copy a direct anchor link to a specific song
