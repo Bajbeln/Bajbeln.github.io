@@ -5,14 +5,11 @@
 # Use this layout when two characters sing parallel lines
 # simultaneously (side by side on stage).
 #
-# Uses the {% cols %} shortcode — markdown works normally inside
-# (bold, italic, stanza breaks, etc.). No <b> or <br> needed.
+# Uses raw HTML <div class="row"> / <div class="column">.
+# Inside the divs, use HTML tags — NOT markdown syntax.
+# (<b>Name:</b> not **Name:**, <br> not newlines)
 #
-# Separate the two columns with:   <!-- col -->
-#
-# Use <!-- br:N --> to push a line down N rows for vertical
-# alignment between columns. Surrounding blank lines are
-# consumed automatically.
+# Content outside the divs is regular markdown.
 # ============================================================
 
 title: "N. Exempelsång med två kolumner"
@@ -22,20 +19,23 @@ spex: spextitel
 order: 2
 permalink: false
 ---
-{% cols %}
-**Talare A:**
-Rad ett, kolumn vänster
-
-Rad tre, kolumn vänster
-
-Rad fem, kolumn vänster
-<!-- col -->
-**Talare B:**
-<!-- br:1 -->
-Rad två, kolumn höger
-<!-- br:1 -->
-Rad fyra, kolumn höger
-{% endcols %}
+<div class="row">
+  <div class="column">
+    <b>Talare A:</b><br>
+    Rad ett, kolumn vänster<br>
+    <br>
+    Rad tre, kolumn vänster<br>
+    <br>
+    Rad fem, kolumn vänster
+  </div>
+  <div class="column">
+    <b>Talare B:</b><br>
+    <br>
+    Rad två, kolumn höger<br>
+    <br>
+    Rad fyra, kolumn höger
+  </div>
+</div>
 
 Här börjar text utanför kolumnerna (vanlig markdown igen).
 Båda sjunger nu på vanligt vis.

@@ -13,7 +13,7 @@ Som vet att livets mening
 Med orkaner, sol och kulingbyar
 Dimma, regn och klara skyar
 Och det bästa vi vet
-År, till vaktens förtret
+Är, till vaktens förtret
 Att församlas här i hemlighet
 
 Närhelst som det blir åska

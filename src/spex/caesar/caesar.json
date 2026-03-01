@@ -1,5 +1,8 @@
 {
   "color": "rgb(214, 254, 215)",
   "accentColor": "rgb(119, 208, 94)",
-  "accentBorderColor": "rgb(119, 187, 60)"
+  "accentBorderColor": "rgb(119, 187, 60)",
+  "darkColor": "rgb(15, 35, 15)",
+  "darkAccentColor": "rgb(40, 95, 30)",
+  "darkAccentBorderColor": "rgb(35, 80, 25)"
 }

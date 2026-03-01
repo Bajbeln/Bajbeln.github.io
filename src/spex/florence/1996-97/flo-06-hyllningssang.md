@@ -20,7 +20,7 @@ Att Florence kan det mesta
 Hon botar raskt en patient
 Och sedan tar hon nästa
 
-Har någon sprängt dig med trocyl
+Har någon sprängt dig med trotyl
 Så ger hon dig två magnecyl
 Det finns ingen annan som har sådan pejl
 På plåstret ska sitta som Nightingale

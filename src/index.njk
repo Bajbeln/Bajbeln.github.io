@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bajbeln</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="manifest" href="/manifest.json">
+  <script src="/scripts/songIndexCache.js" defer></script>
+  <script src="/scripts/settings.js" defer></script>
+  <script src="/scripts/pagescript.js" defer></script>
+</head>
+
+<body>
+  <div id="main_page_header"></div>
+
+  <a href="/">
+    <img src="/assets/images/logga.png" width="180" alt="Spexloggan" class="spex-logo">
+  </a>
+  <h1><a href="/"> Krischanstaspääxets<br>Sajber-Bajbel</a></h1>
+
+  <button class="random" aria-label="Välj en slumpmässig sång">Räändom</button>
+  <br>
+
+  {% for entry in spexlist %}
+  <a href="{{ entry.url }}" class="button">{% if entry.italic %}<i>{{ entry.label }}</i>{% else %}{{ entry.label }}{% endif %}</a>
+  <br>
+  {% endfor %}
+</body>
+
+<script>
+  // Load main_page_header.html into the div
+  fetch('/partials/main_page_header.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('main_page_header').innerHTML = data;
+
+      document.getElementById('search-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const searchTerm = document.getElementById('search-input').value.trim().toLowerCase();
+        if (!searchTerm) {
+          alert("Please enter a search term.");
+          return;
+        }
+        getSongIndex()
+          .then(data => {
+            const match = data.find(song => song.title.toLowerCase().includes(searchTerm));
+            if (match) {
+              window.location.href = `${match.page}?search=${encodeURIComponent(searchTerm)}`;
+            } else {
+              alert("No matching song found.");
+            }
+          })
+          .catch(error => {
+            console.error('Error fetching song index:', error);
+            alert("Could not load the song index file.");
+          });
+      });
+    })
+    .catch(error => console.error('Error loading main_page_header.html:', error));
+
+  // Random
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector('.random').addEventListener("click", () => {
+      getSongIndex()
+        .then(data => {
+          const randomSong = data[Math.floor(Math.random() * data.length)];
+          window.location.href = `${randomSong.page}?search=${encodeURIComponent(randomSong.title)}`;
+        })
+        .catch(error => {
+          console.error('Error fetching song index:', error);
+          alert("Could not load the song index file.");
+        });
+    });
+  });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    if (document.cookie.includes("readingMode=true")) {
+      addReadingMode();
+    }
+  });
+</script>
+
+<!-- Footer -->
+<script src="/scripts/footer.js" defer></script>
+<div id="footer-container"></div>
+
+</html>

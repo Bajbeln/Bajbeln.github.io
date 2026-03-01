@@ -31,7 +31,7 @@ Krischanstaspääxets Sajber-Bajbel is a static site that serves as a searchable
 │   │   ├── <spex-name>/        # Multi-production spex (återuppsättning)
 │   │   │   ├── index.md        # Hub page (uppsattning list, no spex field)
 │   │   │   ├── <year>/
-│   │   │   │   ├── index.md    # Production page (spex: name-year, permalink: /name_year/)
+│   │   │   │   ├── index.md    # Production page (spex: name-year, permalink: false)
 │   │   │   │   ├── 01-song.md
 │   │   │   │   └── ...
 │   │   │   └── ...
@@ -191,7 +191,7 @@ Början på andra strofen
 
 ### Speaker labels
 
-Use markdown bold on its own line, with or without a trailing colon depending on situation: (tveksamt, ändrar kanske)
+Use markdown bold on its own line, with or without a trailing colon depending on situation:
 
 ```
 **Gorm**
@@ -235,14 +235,14 @@ For songs where two characters sing simultaneously, use raw HTML `<div class="ro
   </div>
   <div class="column">
     <b>Karaktär B:</b><br>
-    <br>
-    Sjunger sin vers
+    <br><br><br>
+    Sjunger sin vers (indraget tre rader)
   </div>
 </div>
 ```
 
 - Inside the divs, use HTML tags — **not** markdown syntax (`<b>Name:</b>` not `**Name:**`, `<br>` for line breaks).
-- A blank line between lyrics = an extra `<br>`.
+- A stanza break between lyrics = an extra `<br>`.
 - Vertical offset (pushing one column down): use multiple `<br>` tags at the start of that column's content.
 - Text outside the divs is regular markdown as usual.
 
@@ -316,14 +316,14 @@ Colors come from `src/spex/kristina/kristina.json` and cascade into all year sub
 
 ### Production page — `src/spex/{name}/{year}/index.md`
 
-Each production has its own page with a `spex` field matching the production id. The `permalink` uses an underscore to separate name and year:
+Each production has its own page with a `spex` field matching the production id. `permalink: false` — production pages have no standalone URL; songs are rendered on the hub page only.
 
 ```yaml
 ---
 layout: spex
 title: Kristina 2001 (KRI)
 spex: kristina-2001
-permalink: /kristina_2001/
+permalink: false
 ---
 ```
 
@@ -335,11 +335,11 @@ No color fields needed — they are inherited from the parent `kristina.json`.
 src/spex/kristina/
 ├── index.md                          # hub: uppsattning list, no spex field
 ├── 2023-24/
-│   ├── index.md                      # spex: kristina-2023-24, permalink: /kristina_2023-24/
+│   ├── index.md                      # spex: kristina-2023-24, permalink: false
 │   ├── 01-det-ar-synd.md             # spex: kristina-2023-24
 │   └── ...
 └── 2001/
-    ├── index.md                      # spex: kristina-2001, permalink: /kristina_2001/
+    ├── index.md                      # spex: kristina-2001, permalink: false
     ├── kri-01-allting-kan-ga-itu.md  # spex: kristina-2001
     └── ...
 ```
@@ -411,7 +411,7 @@ Collapsible behaviour and hash-navigation are handled by inline `<script>` in th
 
 Ready-to-copy templates live in:
 
-- `src/spex/_template/` — single-production spex
+- `src/spex/_template_single/` — single-production spex
 - `src/spex/_template_multi/` — multi-production spex (hub + year subfolder)
 
 Copy the relevant folder, rename it and the `.json` file inside, and fill in the placeholders. Templates include comments explaining every field.

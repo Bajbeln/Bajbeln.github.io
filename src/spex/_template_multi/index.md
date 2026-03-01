@@ -10,7 +10,7 @@ layout: spex
 title: Spexnamnet (ABB) # Shown as the page heading. Include abbreviation but NOT year (covers all years).
 # Colors live in {name}.json in this folder — create that file with color/accentColor/accentBorderColor
 # All production subpages inherit colors from that file automatically.
-permalink: false # URL for the hub page — short and URL-safe, no year
+permalink: /spex-name-multi/ # URL for the hub page — short and URL-safe, no year
 
 # List of productions in display order (newest first recommended).
 # Each id must match the spex: field in that production's song files
