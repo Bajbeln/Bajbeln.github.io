@@ -12,11 +12,14 @@
 - Ska svartvit inställning vara direkt tillgänglig, eller bland övriga inställningar?
 - Share-knapp istället för kopiera länk? (kanske inte)
 - Kanske ett konto-system i framtiden för favoriter-system och röstsystem
+- Flytta settings-knapp på sidorna upp så att den inte överlappar på mobil
 
 ## Stil
 - ändra storlek på räändom-knapp både i start och sidorna
 - Se över alla färgerna på alla sidorna
 - Öka storlek på spexsidknapparna
+- Minska textstorleken på låttexterna liite?
+- Ändra "select"-färgen lite?
 
 ## Att lägga till
 - [CXI 6] Invokation till Pelle Andersson
@@ -48,4 +51,7 @@
 - Fixa utseendet på de nya sidorna
 - Kontrollera alla nya spexsidor
 - Ska enkeluppsättningar-spex vara strukturerad som en uppsättning av spexet?
+- Expandera alla knappen verkar inte ha rätt borders på mobil iaf
+- Skapa en valbar faktaruta-popup för varje spexsida
+- Skapa en användarmanual?
 
