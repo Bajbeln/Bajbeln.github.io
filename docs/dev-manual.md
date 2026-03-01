@@ -57,6 +57,13 @@ Krischanstaspääxets Sajber-Bajbel is a static site that serves as a searchable
 
 ## Local development
 
+### Prerequisites
+
+- **Node.js 18+** (Node.js 20 recommended — that's what CI uses). Download from [nodejs.org](https://nodejs.org/).
+- **npm** — bundled with Node.js, no separate install needed.
+
+### Commands
+
 ```
 npm install        # First time only
 npm run start      # Build + serve with live reload at localhost:8080
@@ -214,26 +221,36 @@ Use markdown italic:
 _(Alla kliver in på scenen)_
 ```
 
-### Raw HTML in lyrics
+### Two-column layouts
 
-markdown-it is configured with `html: true`, so raw HTML is allowed when needed (e.g. a two-column layout):
+For songs where two characters sing simultaneously, use raw HTML `<div class="row">` / `<div class="column">` directly in the `.md` file. markdown-it is configured with `html: true` so raw HTML passes through unchanged.
 
 ```html
 <div class="row">
   <div class="column">
-
-**Karaktär A**
-Sjunger sin vers
-
+    <b>Karaktär A:</b><br>
+    Sjunger sin vers<br>
+    <br>
+    Andra strofen
   </div>
   <div class="column">
-
-**Karaktär B**
-Sjunger sin vers
-
+    <b>Karaktär B:</b><br>
+    <br>
+    Sjunger sin vers
   </div>
 </div>
 ```
+
+- Inside the divs, use HTML tags — **not** markdown syntax (`<b>Name:</b>` not `**Name:**`, `<br>` for line breaks).
+- A blank line between lyrics = an extra `<br>`.
+- Vertical offset (pushing one column down): use multiple `<br>` tags at the start of that column's content.
+- Text outside the divs is regular markdown as usual.
+
+The `.row` and `.column` CSS classes are defined in `style.css` (flexbox, 50% each).
+
+### Raw HTML in lyrics
+
+markdown-it is configured with `html: true`, so raw HTML is allowed when needed for other edge cases.
 
 ---
 

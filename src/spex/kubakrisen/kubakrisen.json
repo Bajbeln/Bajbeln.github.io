@@ -1,3 +1,5 @@
 {
-  "color": "rgb(250, 175, 175)"
+  "color": "rgb(250, 175, 175)",
+  "accentColor": "rgb(210, 100, 100)",
+  "accentBorderColor": "rgb(225, 130, 130)"
 }

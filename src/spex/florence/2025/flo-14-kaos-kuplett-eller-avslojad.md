@@ -1,7 +1,7 @@
 ---
 title: "[FLO 14] KAOS-kuplett eller Avslöjad!"
 singer: "Nanny, Harriet & Fred sjunger"
-melody: "Walking on sunshine – Katarina and the waves"
+melody: "Walking on sunshine – Katrina and the Waves"
 spex: florence-2025
 order: 9
 permalink: false

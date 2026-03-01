@@ -20,7 +20,7 @@ Men till min förtret
 Är min far föråldrad och snål
 
 Och därför får jag ej som jag vill
-Så lämge han finns till
+Så länge han finns till
 
 _(Refräng, båda:)_
 Men på gubben Bumblebottom

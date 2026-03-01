@@ -22,7 +22,7 @@ Jag svimmar
 
 Tål ingen mat som är fet eller salt
 Ger mig gaser och hudutslag
-Får blåskartarr om jag sitter för kallt
+Får blåskatarr om jag sitter för kallt
 Och i drag, åååh
 
 Nu när jag är pinsamt försenad

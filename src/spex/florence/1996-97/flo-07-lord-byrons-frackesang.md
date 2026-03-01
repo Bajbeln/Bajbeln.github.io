@@ -7,7 +7,7 @@ order: 17
 permalink: false
 ---
 Hej på er, goddag, Lord Byron heter jag
-jag ska berätta för er om min situation
+Jag ska berätta för er om min situation
 Med gul och vaxig hy, jag sitter som staty
 På British Museum är jag en huvudattraktion
 
@@ -23,7 +23,7 @@ När jag vaknade upp för mig själv
 Utan att nån var där
 För min existens
 Fanns ingen som helst evidens
-Ait vara död poet kan bli en ganska bra affär
+Att vara död poet kan bli en ganska bra affär
 
 För grunden till min poetik
 Är ekonomisk politik

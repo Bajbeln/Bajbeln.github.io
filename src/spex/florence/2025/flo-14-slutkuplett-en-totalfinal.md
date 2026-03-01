@@ -30,7 +30,7 @@ Vi förlora arvet
 **Florence:** För jag fick alla pengar
 
 **Alla:** Trots allt vårt hårda slit
-Livet är  inte likadant
+Livet är inte likadant
 Våran plan tog oss hit
 Det är så sant
 Och allt på British museum

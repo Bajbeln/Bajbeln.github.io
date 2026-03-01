@@ -19,7 +19,8 @@
 - Se över alla färgerna på alla sidorna
 - Öka storlek på spexsidknapparna
 - Minska textstorleken på låttexterna liite?
-- Ändra "select"-färgen lite?
+- Ändra "select"-färgen lite - tänker tona ner den eller göra till en svagare variant av originalknappens färg
+- Gör flera sidor mer läsbara - favoriter (se `/docs/page-rating.md`)
 
 ## Att lägga till
 - [CXI 6] Invokation till Pelle Andersson
@@ -49,9 +50,12 @@
 - Migrera sökindex (automatisera)
 - Kunna toggla mellan att söka på låttitel eller sångtext och kanske medodi, spex, sångare
 - Fixa utseendet på de nya sidorna
-- Kontrollera alla nya spexsidor
+- Kontrollera alla nya spexsidor - texten måste jämföras mot primärkällan?
 - Ska enkeluppsättningar-spex vara strukturerad som en uppsättning av spexet?
 - Expandera alla knappen verkar inte ha rätt borders på mobil iaf
 - Skapa en valbar faktaruta-popup för varje spexsida
-- Skapa en användarmanual?
-
+- Skapa en en popup på start-sidan som guidar var man kan göra på sidan
+- När migreringen är klar - gör det möjligt att ladda ner sångfilerna och originalfilerna
+- Har vi mer vi vill hosta på hemsidan?
+- Finns det ett bättre sätt att göra flera kolumner i .md? - försökte byta system men gick inte så bra att få dem even
+- Stats-räknare på första sidan? Ex antal kupletter, antal uppsättningar

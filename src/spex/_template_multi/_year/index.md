@@ -12,5 +12,5 @@ title: Spexnamnet År (ABB) # Shown as the page heading. Include year and abbrev
 # Colors inherited from {name}.json in the parent folder — no need to set them here.
 spex: spextitel-2024 # Must match the corresponding id in the hub page's uppsattning list,
 # and the spex: field in all song files for this production.
-permalink: false # Permalink uses an underscore between name and year (no slash)
+permalink: false
 ---

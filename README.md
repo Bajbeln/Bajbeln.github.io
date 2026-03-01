@@ -10,12 +10,16 @@ Låtarna finns som filer i `/spex`, originaldokumenten de är tagna ifrån finns
 ## Lägga till ett spex
 För att lägga till ett spex, utgå från mallen (`spex_sample`) som finns i mappen spex genom att kopiera den.
 
-Lägg sedan till låtarna i `songIndex.json` för sökfuktionaliteten och spexet i `index.html` så att den är tillgänglig från förstasidan.
+Lägg sedan till låtarna i `songIndex.json` för sökfuktionaliteten och länk till spexsidan i `index.html` så att den är tillgänglig från förstasidan. Lägg även gärna till källfilen i `/assets/song_files` för att underlätta för framtida utvecklare.
 
 ## För utvecklare
 En preliminär utvecklarmanual finns här: `docs/dev-manual.md`
+
+Kräver **Node.js 18 eller nyare** (rekommenderat: 20). npm ingår i Node.js.
+
 För att köra igång appen kör:
-```yaml
+```
+npm install   # första gången
 npm run start
 ```
 

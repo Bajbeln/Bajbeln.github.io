@@ -6,7 +6,7 @@ spex: florence-1996-97
 order: 4
 permalink: false
 ---
-**Flo.** Den värme jag känner
+**Flo.:** Den värme jag känner
 Får mig att förstå
 Att vi två är vänner
 Ja, mycket mer än så

@@ -26,6 +26,20 @@ module.exports = function (eleventyConfig) {
   // Use the same markdown-it instance globally
   eleventyConfig.setLibrary("md", mdLib);
 
+  // {% cols %}left column markdown<!-- col -->right column markdown{% endcols %}
+  // Renders two (or more) side-by-side columns. Split columns with <!-- col -->.
+  // Full markdown (bold, italic, stanzas) works inside each column.
+  eleventyConfig.addPairedShortcode("cols", function (content) {
+    const parts = content.split("<!-- col -->").map(p => p.trim());
+    const cols = parts.map(p => {
+      // <!-- br:N --> → N <br> tags; surrounding newlines consumed so breaks:true
+      // doesn't add extra soft-break <br> on either side.
+      const processed = p.replace(/\n?<!--\s*br:(\d+)\s*-->\n?/g, (_, n) => "<br>".repeat(+n));
+      return `<div class="column">\n${mdLib.render(processed)}\n</div>`;
+    }).join("\n");
+    return `<div class="row">\n${cols}\n</div>`;
+  });
+
   // {% song "Title", "Singer", "Melody" %}
   // Renders a collapsible song block with a direct-link button.
   eleventyConfig.addPairedShortcode("song", function (content, title, singer, melody) {

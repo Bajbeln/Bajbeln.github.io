@@ -1,6 +1,6 @@
 ---
 title: "[FLO 4] Värdelös flirt"
-singer: "Fred ocb Helga sjunger"
+singer: "Fred och Helga sjunger"
 melody: "Dinah"
 spex: florence-1996-97
 order: 8
