@@ -2,24 +2,17 @@
 /* colors used for site */
 
 :root {
-  --purple:              #9a5587;
-  --purple-dim:          #aa4b8fce;
-  --purple-dark:         #7a3d68;
-  --bg:                  #d2e7fa;
-  --blue-card:           #7ba4dbe0;
-  --blue-search:         #8ac9e4;
-  --blue-search-hover:   #70b6d0;
-  --yellow-hover:        #f4ce347e;
-  --yellow:              #fcdb59;
-  --yellow-border:       #edd599;
-  --radius-pill:         34px;
-  --radius-pill-spex:    30px;
-  --radius-content:      27px;
-  --padding-pill:        14.7px;
-  --padding-pill-spex:   13px;
-  --size-btn-round:      45px;
+  --purple:           #9a5587;
+  --purple-dim:       #aa4b8fce;
+  --bg:               #d2e7fa;
+  --blue-card:        #7ba4dbe0;
+  --blue-search:      #8ac9e4;
+  --blue-search-hover:#70b6d0;
+  --yellow-hover:     #f4ce347e;
+  --yellow:           #fcdb59;
+  --yellow-border:    #edd599;
   --font-size-base:         17.9px;
-  --font-size-icon:         30px;
+  --font-size-button:       18.2px;
   --font-size-spex-title:   1.5em;
   --font-size-uppsattning:  1.5em;
 }
@@ -96,6 +89,10 @@ td, th{
   display: inline-block;
 }
 
+.topnav .search-container {
+  float: none;
+}
+
 /* Container for search bar */
 .search-container {
   position: relative;
@@ -109,13 +106,15 @@ td, th{
   width: 100%;
   max-width: 400px;
   min-width: 230px;
+  padding: 12px 20px;
   border: 2px solid #ddd;
+  border-radius: 17.9px;
   outline: none;
   transition: all 0.3s ease-in-out;
   box-sizing: border-box;
   text-align: left;
-  border-radius: var(--radius-pill);
-  padding: var(--padding-pill);
+  border-radius: 34px;
+  padding: 14.7px;
   font-size: var(--font-size-base);
 }
 
@@ -163,8 +162,8 @@ td, th{
   font-size: var(--font-size-base);
   border-color: var(--blue-card);
   color:white;
-  border-radius: var(--radius-pill);
-  padding: var(--padding-pill);
+  border-radius: 34px;
+  padding: 14.7px;
   margin: 1px;
 }
 
@@ -174,7 +173,7 @@ td, th{
 }
 
 /* For collapsible when opening */
-.song-body {
+.content {
   background-color: var(--blue-card);
   max-height: 0;
   overflow: hidden;
@@ -182,52 +181,12 @@ td, th{
   font-size: var(--font-size-base);
   line-height: 1.6;
   color:white;
-  border-radius: var(--radius-content);
+  border-radius: 27px;
   margin: 1.3px auto;
   padding: 0 8px;
   max-width: 600px;
   display: block;
   width: 96%;
-}
-
-/*   song blocks (Eleventy-generated pages)  */
-
-.song-header {
-  display: flex;
-  width: fit-content;
-  margin: 1px auto;
-  gap: 2px;
-}
-
-/* Override individual margin/radius so the two buttons sit flush */
-.song-header .collapsible {
-  flex: 1;
-  margin: 0;
-  border-radius: var(--radius-content) 0 0 var(--radius-content);
-}
-
-.btn-song-link {
-  flex: 0 0 auto;
-  border-radius: 0 var(--radius-content) var(--radius-content) 0;
-  padding: 0 12px;
-  align-self: stretch;
-  transition: opacity 0.15s;
-  border: 2px outset var(--purple);
-  background-color: var(--yellow);
-  border-color: var(--yellow-border);
-  color: brown;
-  font-weight: 900;
-}
-
-.song-link-icon {
-  height: 27px;
-  width: 23px;
-  display: block;
-}
-
-.btn-song-link:hover {
-  background-color: var(--yellow-hover);
-  opacity: 1;
 }
 
 /*   buttons  */
@@ -236,13 +195,13 @@ button {
   cursor: pointer;
 }
 
-/* For clickable text — spex list on front page */
+/* For clickable text */
 a.button {
   border: 2px outset var(--purple);
   color: white;
   text-decoration: none;
-  padding: var(--padding-pill);
-  border-radius: var(--radius-pill);
+  padding: 14.7px;
+  border-radius: 34px;
   display: inline-block;
   background-color: var(--purple);
   margin: 1.3px;
@@ -253,93 +212,47 @@ a.button:hover {
   background-color: var(--yellow-hover);
 }
 
-/* Räändom button — front page */
-button.btn-random-home {
+/* Action button base */
+button.copyButton,
+button.random,
+button.random-page,
+button.song-link-btn,
+button.uppsattning-link-btn {
   border: 2px outset var(--purple);
+  text-decoration: none;
+}
+
+/* Yellow action buttons */
+button.random,
+button.random-page,
+button.song-link-btn {
   background-color: var(--yellow);
   border-color: var(--yellow-border);
   color: brown;
   font-weight: 900;
-  border-radius: var(--radius-pill);
-  padding: var(--padding-pill);
+}
+
+/* Pill-shaped action buttons */
+button.copyButton,
+button.random,
+button.random-page {
+  border-radius: 24px;
+  padding: 11px;
   display: inline-block;
   margin: 1px;
-  margin-bottom: 11px;
-  font-size: var(--font-size-base);
 }
 
-/* === Pill buttons — spex page header === */
-
-/* Base: shape and size */
-button.btn-copy,
-button.btn-random {
-  border-radius: var(--radius-pill-spex);
-  padding: var(--padding-pill-spex);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1px;
-  border: 2px outset;
-  vertical-align: middle;
-  cursor: pointer;
-}
-
-/* Purple variant — "Kopiera länk" */
-button.btn-copy {
+/* Spex-link button (copy spex page link) */
+button.copyButton {
   background-color: var(--purple);
   border-color: var(--purple);
   color: white;
   font-size: 14px;
-}
-
-/* Yellow variant — "Räändom" */
-button.btn-random {
-  background-color: var(--yellow);
-  border-color: var(--yellow-border);
-  color: brown;
-  font-weight: 900;
-  font-size: 15px;
-  margin-left: 3px;
-}
-
-/* === Round buttons — spex page header === */
-
-/* Base: shape and size */
-button.btn-toggle-all,
-button.btn-production-link {
-  border-radius: 50%;
-  width: var(--size-btn-round);
-  height: var(--size-btn-round);
-  padding: 4px;
-  display: inline-flex;
+   display: inline-flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  border: 2px outset;
-}
-
-/* Yellow variant — collapse/expand all */
-button.btn-toggle-all {
-  background-color: var(--yellow);
-  border-color: var(--yellow-border);
-  color: brown;
   vertical-align: middle;
-  margin-left: 1px;
-}
-
-button.btn-toggle-all:hover {
-  background-color: var(--yellow-hover);
-}
-
-/* Purple variant — link icon */
-button.btn-production-link {
-  flex: 0 0 auto;
-  background-color: var(--purple);
-  border-color: var(--purple);
-}
-
-button.btn-production-link:hover {
-  background-color: var(--purple-dim);
 }
 
 /* Uppsättning heading + copy-link button, centered as a pair */
@@ -352,6 +265,62 @@ button.btn-production-link:hover {
 
 .uppsattning-header .uppsattning-heading {
   margin: 0;
+}
+
+button.uppsattning-link-btn {
+  flex: 0 0 auto;
+  background-color: var(--purple);
+  border-color: var(--purple);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  padding: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+button.uppsattning-link-btn:hover {
+  background-color: var(--purple-dim);
+}
+
+button.toggle-all-btn {
+  background-color: var(--yellow);
+  border-color: var(--yellow-border);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-left: 1px;
+  color: brown;
+}
+
+button.toggle-all-btn:hover {
+  background-color: var(--yellow-hover);
+}
+
+/* Räändom button - front page */
+button.random {
+  font-size: var(--font-size-base);
+  height: 49px;
+  margin-bottom: 11px;
+}
+
+/* Räändom button - spex page */
+button.random-page {
+  font-size: 15px;
+  margin-left: 3px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  vertical-align: middle;
 }
 
 /*   settings  */
@@ -367,7 +336,7 @@ button.btn-production-link:hover {
   border: none;
   background-color: transparent;
   color: var(--purple-dim);
-  font-size: var(--font-size-icon);
+  font-size: 30px;
   cursor: pointer;
 }
 
@@ -394,13 +363,21 @@ button.btn-production-link:hover {
       opacity: 1;}
 }
 
-#reading-mode-button,
+#reading-mode-button{
+  padding-top: 10px;
+  border: none;
+  background-color: transparent;
+  color: var(--purple-dim);
+  font-size: 30px;
+  cursor: pointer;
+}
+
 #dark-mode-button {
   padding-top: 10px;
   border: none;
   background-color: transparent;
   color: var(--purple-dim);
-  font-size: var(--font-size-icon);
+  font-size: 30px;
   cursor: pointer;
 }
 
@@ -449,8 +426,8 @@ body.dark-mode footer {
 
 /* Button background needs a darker purple than text links */
 body.dark-mode a.button {
-  background-color: var(--purple-dark);
-  border-color:     var(--purple-dark);
+  background-color: #7a3d68;
+  border-color:     #7a3d68;
   color: white;
 }
 
@@ -463,6 +440,45 @@ body.dark-mode .search-container input[type="text"] {
 
 body.dark-mode .search-container input[type="text"]::placeholder {
   color: white;
+}
+
+/*   misc.  */
+
+/* experimental */
+
+/*   song blocks (Eleventy-generated pages)  */
+
+.song-header {
+  display: flex;
+  width: fit-content;
+  margin: 1px auto;
+  gap: 2px;
+}
+
+/* Override individual margin/radius so the two buttons sit flush */
+.song-header .collapsible {
+  flex: 1;
+  margin: 0;
+  border-radius: 27px 0 0 27px;
+}
+
+.song-link-btn {
+  flex: 0 0 auto;
+  border-radius: 0 27px 27px 0;
+  padding: 0 12px;
+  align-self: stretch;
+  transition: opacity 0.15s;
+}
+
+.song-link-icon {
+  height: 27px;
+  width: 23px;
+  display: block;
+}
+
+.song-link-btn:hover {
+  background-color: var(--yellow-hover);
+  opacity: 1;
 }
 
 /* för att invertera färg på loggorna i dark mode */

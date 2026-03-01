@@ -18,7 +18,7 @@ function toggleReadingMode() {
 }
 
 function addReadingMode() {
-  let content = Array.from(document.getElementsByClassName("song-body"));
+  let content = Array.from(document.getElementsByClassName("content"));
   content.forEach(el => el.classList.add("reading-mode"));
 
   let buttons = Array.from(document.getElementsByClassName("collapsible"));
@@ -29,7 +29,7 @@ function addReadingMode() {
 }
 
 function removeReadingMode() {
-  let content = Array.from(document.getElementsByClassName("song-body"));
+  let content = Array.from(document.getElementsByClassName("content"));
   content.forEach(el => el.classList.remove("reading-mode"));
 
   let buttons = Array.from(document.getElementsByClassName("collapsible"));

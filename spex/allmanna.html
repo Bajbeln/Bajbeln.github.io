@@ -21,13 +21,13 @@
   
   <!-- Copy link-button -->
   <body>
-    <button class="btn-copy" onclick="copyLink()" aria-label="Kopiera länk till sida"> Kopiera länk</button><br><br>
+    <button class="copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida"> Kopiera länk</button><br><br>
   </body>
   
     <!-- Song sample -->
   <!-- 
   <button type="button" class="collapsible" aria-label="Visa eller dölj Sångtitel">Sångtitel</button>
-  <div class="song-body">
+  <div class="content">
     <p><i>SJUNGS_AV</i><br>
     <i>MELODI</i><br><br>
       SÅNGTEXT
@@ -46,7 +46,7 @@
   <body>
   <!-- Place for songs -->
   <button type="button" class="collapsible" aria-label="Visa eller dölj 1. Krischansta Spääxsignatur">1. Krischansta Spääxsignatur</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Min gode vän Joel</i><br><br>
       Vi kommer från spexet, vi är Krischans gäng<br>
       Vi trallar alltid på en glad refräng<br>
@@ -63,7 +63,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 2. Bonza">2. Bonza</button>
-  <div class="song-body">
+  <div class="content">
       <br>Bam barabam barabam barabambam Bonza!<br>
       Bam barabam barabam barabam<br>
       Bam barabam bam bam<br>
@@ -86,7 +86,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 3. Champinjoner">3. Champinjoner</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Sailing</i><br><br>
       Champinjoner, champinjoner<br>
       Champinjoner, champinjon<br>
@@ -96,7 +96,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 4. Sädesfälten">4. Sädesfälten</button>
-  <div class="song-body"><br>
+  <div class="content"><br>
       När sädesfälten böja sig för vinden<br>
       Står Johan Walde där och böjer dem tillbaks<br>
       Han böjer fält
@@ -104,7 +104,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 5. Uppå källarbacken">5. Uppå källarbacken</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Uppå källarbacken</i><br><br>
       Uppå källarbacken<br>
       Uppå källarbacken<br>
@@ -124,7 +124,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 6. Hej bonnapauga, kort version">6. Hej bonnapauga, kort version</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Hej Bonnapauga</i><br><br>
       Hej bonnapauga!<br>
       Nu djälvar<br>
@@ -133,7 +133,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 7. Skandal">7. Skandal</button>
-  <div class="song-body">
+  <div class="content">
     <p><i>(Sjunges vackert)</i><br>
       <i>Mel. Amazing Grace</i><br><br>
         Skandal, skandal, skandal, skandal<br>
@@ -144,7 +144,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 8. Sista sidan i tidningen">8. Sista sidan i tidningen</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Elektricitetsvisan</i><br><br>
       Denna visa är väldigt lång<br>
       Man kan faktiskt undra va de<br>
@@ -164,7 +164,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 9. Cogito Ergo Sum">9. Cogito Ergo Sum</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Lilla punschvisan</i><br><br>
       Jag tänker<br>
       Jag existerar<br>
@@ -179,7 +179,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 10. Perikles sammanfattningssång">10. Perikles sammanfattningssång</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Stens megamix</i><br><br>
       Jag har ett Perikles<br>
       Hag heter Perikles<br>
@@ -190,7 +190,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 11. Det var bättre i hörnan">11. Det var bättre i hörnan</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Meil merivood on vabad, refräng</i><br><br>
       Ja, skål för denna hörnan<br>
       Ja, skål du gamle vän<br>
@@ -200,7 +200,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 12. The Philosopher's Song">12. The Philosopher's Song</button>
-  <div class="song-body">
+  <div class="content">
       <br>Immanuel Kant was a real piss-ant<br>
       Who was very rarely stable<br>
       Heidegger, Heidegger was a boozy beggar<br>
@@ -227,7 +227,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 13. Fågelskådarvisan">13. Fågelskådarvisan</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Flottarkärlek</i><br><br>
       Jag var full en gång för länge sen, på knäna kröp jag hem<br>
       Och jag kröp hem på mina knän när jag var full<br>
@@ -269,7 +269,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 14. Två sjömän och en teknolog">14. Två sjömän och en teknolog</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. En sjöman älskar havets våg</i><br><br>
       Två sjömän och en teknolog<br>
       Av bord gjorde ved<br>
@@ -283,7 +283,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 15. En liten jungman">15. En liten jungman</button>
-  <div class="song-body">
+  <div class="content">
       <br>(<i>Ropas</i>) Lanterna om styrbord -- Åtta glas<br>
       <br>
       Det stod en liten ljungman<br>
@@ -298,7 +298,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 16. I min ungdom">16. I min ungdom</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Det vær en lørdag aften</i><br><br>
       Se Biscmarck var en starker karl<br>
       Och Tyskland blev hans lön<br>
@@ -315,7 +315,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 17. Jan Eric Larsson">17. Jan Eric Larsson</button>
-  <div class="song-body">
+  <div class="content">
     <p><i>(Alla utom Jan Eric Larsson sjunger)</i><br>
     <i>Mel. Liljekonvaljer</i><br><br>
       Jan Eric Larsson fullast är på festen<br>
@@ -326,7 +326,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 18. Pripps Royal">18. Pripps Royal</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Lambeth Walk</i><br><br>
       En flaska det varit öl uti<br>
       Folkölet Royal från Pripps bryggeri<br>
@@ -341,7 +341,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 19. Kolla numret i psalmboken!">19. Kolla numret i psalmboken!</button>
-  <div class="song-body">
+  <div class="content">
     <br>
       Hosianna Davids son<br>
       Välsignad vare han<br>
@@ -350,7 +350,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 20. Som en majdag">20. Som en majdag</button>
-  <div class="song-body">
+  <div class="content">
     <br>
       Som en majdag så skön och som solen så varm<br>
       Är den svenske godtemplarens klappande barm<br>
@@ -369,7 +369,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 21. Nu ska vi på huvet runka">21. Nu ska vi på huvet runka</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Amanda Lundbom</i><br><br>
       Nu skall vi på huvet runka<br>
       Hej, skuttiplutt, tjodelittan, unka<br>
@@ -384,7 +384,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 22. Gånglåt från Lackalänga">22. Gånglåt från Lackalänga</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Horgalåten</i><br><br>
       Uti Lackalänga är det sorgeligt<br>
       Då är det sorgeligt<br>
@@ -405,7 +405,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 23. Eisgekültes Coca-cola">23. Eisgekültes Coca-cola</button>
-  <div class="song-body">
+  <div class="content">
     <br>
       In Hannover an der Leine<br>
       Haffengasse nummer 8<br>
@@ -430,7 +430,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 24. Handikappvisan">24. Handikappvisan</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Fråga Hasse Alfredsson</i><br><br>
       Han ska inte hänga lapp<br>
       Bara för att han har käpp<br>
@@ -463,7 +463,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 25. Karl den XII bussars snapsvisa">25. Karl den XII bussars snapsvisa</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Ur spexet Karl XII</i><br><br>
       Hör hur han ropar<br>
       Kallar och ber<br>
@@ -477,7 +477,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 25. Nananinanina">25. Nananinanina</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Nananinanina</i><br><br>
       Nananinanina<br>
       Nananinanina<br>
@@ -491,7 +491,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 26. Swing Low, Sweet Chariot">26. Swing Low, Sweet Chariot</button>
-  <div class="song-body">
+  <div class="content">
     <br>
       Swing low, sweet chariot<br>
       Coming for to carry me home<br>
@@ -508,7 +508,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 27. Jag gillar punschen">27. Jag gillar punschen</button>
-  <div class="song-body">
+  <div class="content">
     <br>
       Det var en gång jag tänkte att punschen övergiva<br>
       Men det står inte till så länge jag får leva<br>
@@ -523,7 +523,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 28. Ronneby ">28. Ronneby </button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Let it Be</i><br><br>
       Jag drömmer om min hembygd<br>
       Marken, stenarna där barn jag lekt<br>
@@ -546,7 +546,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 29. Pronomenångest">29. Pronomenångest</button>
-  <div class="song-body">
+  <div class="content">
     <p><i>(Pedagogen "Einstein" och medhjälparen "Kungen" sjunger)</i><br>
     <i>Mel. Du är där...</i><br><br>
       <b>Einstein:</b><br>
@@ -600,7 +600,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 30. Tiger rag">30. Tiger rag</button>
-  <div class="song-body">
+  <div class="content">
       <br>
         Where's that tiger? Where's that tiger?<br>
         Where's that tiger? Where's that tiger?<br>
@@ -617,7 +617,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 31. Tigerragg">31. Tigerragg</button>
-  <div class="song-body">
+  <div class="content">
       <br>
         Var är tigern? Var är tigern?<br>
         Var är tigern? Var är tigern?<br>
@@ -633,7 +633,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 32. Geografivisan">32. Geografivisan</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Fritt efter Min gode vän Joel, typ</i><br><br>
       Kilimanjaro, det är en bergstopp<br>
       Kebnekajse, det är en svensktopp<br>
@@ -647,7 +647,7 @@
   </div>
   
   <button type="button" class="collapsible" aria-label="Visa eller dölj 33. Tjugga">33. Tjugga</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Moster Ingeborg ungefär</i><br><br>
       Da drüben stehn die Autos<br>
       Wie heissen Helmut Kohl<br>
@@ -657,7 +657,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 34. Rubberface">34. Rubberface</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Tyrolerhatt</i><br><br>
       Jag borde köpa mej ett rubberface<br>
       Bara därför att liva upp ert place<br>
@@ -668,7 +668,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 35. Skuldvisan">35. Skuldvisan</button>
-  <div class="song-body">
+  <div class="content">
     <p><i>(Pojkar och flickor sjunger, fast flickorna brukar ändra ett ord)</i><br>
     <i>Mel.? - Jajemen!</i><br><br>
       Alla har vi skulder<br>
@@ -682,7 +682,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 36. Förfrysningsvisan">36. Förfrysningsvisan</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. My darling Clementine, nästan</i><br><br>
       <i>(Djupt)</i><br>
       Jag har en stor en, jag har en tung en<br>
@@ -697,7 +697,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 37. Sexmästeriet">37. Sexmästeriet</button>
-  <div class="song-body">
+  <div class="content">
     <p><i>(Alla utom gruppen med samma namn sjunger)</i><br>
     <i>Mel. Hava Nagila</i><br><br>
       Sexmästeriet, sexmästeriet<br>
@@ -712,7 +712,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 38. Snappissång">38. Snappissång</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>(Mel. Århus Tappensteg)</i><br><br>
       <b>Alla:</b> Ryck upp dig och förtreten svälj<br>
       Nu ska vi gå på Snappisbal<br>
@@ -894,7 +894,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 39. Pepparshot">39. Pepparshot</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>(Mel. Måndag gör jag ingenting)</i><br><br>
       Pepparshot, en pepparshot<br>
       Liknar snus upplöst i spott<br>
@@ -909,7 +909,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 40. Laputa">40. Laputa</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Pripps Royal</i><br><br>
       En påse bröd det varit bröd uti<br>
       Brödet Laputa uti toppens mitt<br>
@@ -923,7 +923,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 41. Drottningens punschvisa">41. Drottningens punschvisa</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Drottningens kortis ur Linné</i><br><br>
       Jag dricker hellre whisky än en konjakt<br>
       Jag dricker hellre konjak än en punsch<br>
@@ -935,7 +935,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 42. När jag tar mig en sup">42. När jag tar mig en sup</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Dover-Calais</i><br><br>
       När jag tar mig en sup<br>
       Blir jag ointressant och djup<br>
@@ -950,7 +950,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 43. Ferneritets kampsång">43. Ferneritets kampsång</button>
-  <div class="song-body">
+  <div class="content">
     <p><i>(Rätt- och felkarnevelen Tjogotio)</i><br>
     <i>Mel. Snapphaneklanen (Skall sjungas på skånska)</i><br><br>
       Våra halsar smakar som skiet<br>
@@ -966,7 +966,7 @@
   </body>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 44. Kukens håvjävel">44. Kukens håvjävel</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Våran håv</i><br><br>
       <i>En bland spääxare mycket populär bastulek är<br>
         att sjunga en variant av Våran Håv med några<br>
@@ -990,7 +990,7 @@
   </body>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 45. Hot stuff (A.K.A. Var tyst och klä av dig-sången)">45. Hot stuff (A.K.A. Var tyst och klä av dig-sången)</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Hot stuff</i><br><br>
       Sittnin' here eatin' my heart out waitin'<br>
       Waitin' for some love to call<br>
@@ -1007,7 +1007,7 @@
   </body>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 46. Dekorens låt">46. Dekorens låt</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>mel. Les Champs-Élysées</i><br><br>
     Åh byta dekor!<br>
     Åh byta dekor!<br>
@@ -1027,7 +1027,7 @@
   </body>
   
   <button type="button" class="collapsible" aria-label="Visa eller dölj 47. Glada älgar">47. Glada älgar</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Orginalmelodi, James &
     Karin</i><br><br>
     Här var det hi,<br>
@@ -1039,7 +1039,7 @@
 
   
   <button type="button" class="collapsible" aria-label="Visa eller dölj 48. Hagawaga (alt. Hääawääga)">48. Hagawaga (alt. Hääawääga)</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Raketen</i><br><br>
     Hagawaga, hagawaga, hagawaga, hagawaga, etc. (<i>accelererande</i>)<br>
     ... åååååååååh SPÄÄXA!!!
@@ -1048,7 +1048,7 @@
 
   
   <button type="button" class="collapsible" aria-label="Visa eller dölj 49. Bandet bakom scen">49. Bandet bakom scen</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Hava Nagila</i><br><br>
     //: Ha sex med bandet, ha sex med<br>
     bandet, ha sex med bandet –<br>
@@ -1062,7 +1062,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 50. Strul med tekniken">50. Strul med tekniken</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Bandet bakom scen</i><br><br>
     //: Strul med tekniken, strul med<br>
     tekniken, strul med tekniken –<br>
@@ -1076,7 +1076,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 51. Syets låt">51. Syets låt</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Holding Out for a Hero – Bonnie Tyler</i><br><br>
     Byta kostymer! Att stå och knäppa en skjorta<br>
     medan tiden är knapp<br>
@@ -1093,7 +1093,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj 52. Sminkets låt">52. Sminkets låt</button>
-  <div class="song-body">
+  <div class="content">
     <br><i>Mel. Sudda sudda</i><br><br>
     Sminka, sminka, sminka, sminka om ett litet fejs!<br>
     Sminka, sminka, sminka, sminka om ett litet fejs!<br>
@@ -1143,7 +1143,7 @@
         color:rgb(255, 255, 255);
       }
   
-      .song-body {
+      .content {
         background-color: rgb(149, 205, 139);
         color:rgb(255, 255, 255);
       }
