@@ -13,9 +13,9 @@
   <script src="/scripts/settings.js" defer></script>
   {% if color or accentColor or accentBorderColor or darkColor %}<style>
     {% if color %}body { background-color: {{ color }}; }{% endif %}
-    {% if accentColor %}.collapsible, .content { background-color: {{ accentColor }}; }{% endif %}
-    {% if accentBorderColor %}.collapsible, .content { border-color: {{ accentBorderColor }}; }{% endif %}
-    {% if accentColor %}body.dark-mode .collapsible, body.dark-mode .content { background-color: {{ darkAccentColor or '#2d3a5e' }}; border-color: {{ darkAccentBorderColor or darkAccentColor or '#2d3a5e' }}; }{% endif %}
+    {% if accentColor %}.collapsible, .content, button.song-link-btn { background-color: {{ accentColor }}; }{% endif %}
+    {% if accentBorderColor %}.collapsible, .content, button.song-link-btn { border-color: {{ accentBorderColor }}; }{% endif %}
+    {% if accentColor %}body.dark-mode .collapsible, body.dark-mode .content, body.dark-mode button.song-link-btn { background-color: {{ darkAccentColor or '#2d3a5e' }}; border-color: {{ darkAccentBorderColor or darkAccentColor or '#2d3a5e' }}; }{% endif %}
     {% if darkColor %}body.dark-mode { background-color: {{ darkColor }}; }{% endif %}
   </style>{% endif %}
 </head>

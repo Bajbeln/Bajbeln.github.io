@@ -160,7 +160,7 @@ td, th{
 .collapsible {
   background-color: var(--blue-card);
   font-size: var(--font-size-base);
-  border-color: var(--blue-card);
+  border: 2px outset var(--blue-card);
   color:white;
   border-radius: 34px;
   padding: 14.7px;
@@ -224,21 +224,29 @@ button.uppsattning-link-btn {
 
 /* Yellow action buttons */
 button.random,
-button.random-page,
-button.song-link-btn {
+button.random-page {
   background-color: var(--yellow);
   border-color: var(--yellow-border);
   color: brown;
   font-weight: 900;
 }
 
+/* Song-link button matches the collapsible song button */
+button.song-link-btn {
+  background-color: var(--blue-card);
+  border-color: var(--blue-card);
+  color: white;
+}
+
 /* Pill-shaped action buttons */
 button.copyButton,
-button.random,
 button.random-page {
   border-radius: 24px;
-  padding: 11px;
-  display: inline-block;
+  height: 44px;
+  padding: 0 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin: 1px;
 }
 
@@ -307,8 +315,12 @@ button.toggle-all-btn:hover {
 
 /* Räändom button - front page */
 button.random {
-  font-size: var(--font-size-base);
+  border-radius: 24px;
   height: 49px;
+  padding: 0 11px;
+  display: inline-block;
+  margin: 1px;
+  font-size: var(--font-size-base);
   margin-bottom: 11px;
 }
 
@@ -405,6 +417,7 @@ button.reading-mode{
 footer {
   color: var(--purple);
   padding: 70px;
+  line-height: 1.4;
 }
 
 /*   dark mode  */
