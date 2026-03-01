@@ -12,7 +12,7 @@ Krischanstaspääxets Sajber-Bajbel is a static site that serves as a searchable
 | Templating | Nunjucks (`.njk`) |
 | Markdown renderer | markdown-it 14 (`html: true`, `breaks: true`) |
 | Hosting | GitHub Pages, deployed from the `_site/` output |
-| Build trigger | Currently manual (`workflow_dispatch`) |
+| Build trigger | Automatic (`GitHub actions`) |
 
 ---
 
@@ -36,22 +36,22 @@ Krischanstaspääxets Sajber-Bajbel is a static site that serves as a searchable
 │   │   │   │   └── ...
 │   │   │   └── ...
 │   │   └── ...
-│   └── favoriter/
-│       └── index.md            # Favoriter page
+│   ├── favoriter/
+│   │   └── index.md            # Favoriter page
+│   └── songIndex.json.njk      # Generates /songIndex.json from the songs collection
 ├── spex/                       # Legacy plain-HTML spex files (passthrough, untouched)
 ├── scripts/                    # JS for the browser (pagescript, searchscript, etc.)
 ├── assets/                     # Images and other static assets
 ├── partials/                   # HTML partials fetched at runtime (footer, etc.)
 ├── style.css
 ├── index.html                  # Site front page (passthrough)
-├── songIndex.json              # Used by the search/random feature
 ├── eleventy.config.js          # Eleventy config: shortcodes, filters, passthrough
 ├── package.json
 └── .github/workflows/
     └── deploy_try.yml          # GitHub Actions deploy workflow
 ```
 
-**Output:** Eleventy writes everything to `_site/`. All files under `spex/`, `scripts/`, `assets/`, `partials/`, `style.css`, `index.html`, `manifest.json`, and `songIndex.json` are passthrough-copied so old URLs continue to work.
+**Output:** Eleventy writes everything to `_site/`. All files under `spex/`, `scripts/`, `assets/`, `partials/`, `style.css`, `index.html`, and `manifest.json` are passthrough-copied so old URLs continue to work. `songIndex.json` is generated automatically by `src/songIndex.json.njk` — it is not passthrough-copied from the repo root.
 
 ---
 
@@ -109,11 +109,14 @@ src/spex/<spex-name>/<spex-name>.json
 {
   "color": "rgb(R, G, B)",
   "accentColor": "rgb(R, G, B)",
-  "accentBorderColor": "rgb(R, G, B)"
+  "accentBorderColor": "rgb(R, G, B)",
+  "spexPageUrl": "/spex-name/"
 }
 ```
 
 Eleventy's directory data cascade automatically applies these values to every file in the folder (and subfolders). `accentColor` and `accentBorderColor` are optional; omitting them falls back to the global defaults in `style.css`.
+
+`spexPageUrl` is the URL of the spex hub page and is **required** — it is used by `src/songIndex.json.njk` to populate the `page` field for each song in `songIndex.json` (used by the search and random features). For multi-production spex it goes in the parent `{name}.json` only and cascades into all year subfolders.
 
 To override the dark mode colors, add any of these optional fields:
 
@@ -372,6 +375,19 @@ The `songsFromList` filter looks up each entry in the `songs` collection and ren
 ### Collections
 
 `eleventy.config.js` registers a `songs` collection containing every `.md` file under `src/spex/**` that has an `order` frontmatter field. Index files (which have no `order`) are excluded.
+
+### songIndex.json
+
+`src/songIndex.json.njk` is an Eleventy template that generates `/songIndex.json` at build time. It iterates over the `songs` collection (sorted by `spex`) and outputs a JSON array:
+
+```json
+[
+  {"title": "[XXX 1] Sångtitel", "page": "/spex-name/"},
+  ...
+]
+```
+
+Each song's `page` value comes from `spexPageUrl` in the spex's `{name}.json`. The file is consumed by `scripts/searchscript.js` (the `?search=` feature) and the random-song button. No manual editing of `songIndex.json` is needed — adding songs to the `songs` collection automatically includes them on the next build.
 
 ### Filters
 

@@ -1,7 +1,7 @@
 ---
 layout: spex
 title: Karl Martell (KAR)
-permalink: /karl-martell/
+permalink: /martell/
 uppsattning:
   - id: karl-martell-2011-12
     label: "Karl Martell 2011/12 (KAR)"

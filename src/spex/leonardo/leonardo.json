@@ -1,5 +1,6 @@
 {
   "color": "rgb(253, 239, 201)",
   "accentColor": "rgb(207, 174, 126)",
-  "accentBorderColor": "rgb(233, 189, 123)"
+  "accentBorderColor": "rgb(233, 189, 123)",
+  "spexPageUrl": "/leonardo/"
 }

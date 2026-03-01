@@ -1,5 +1,6 @@
 {
   "color": "rgb(241, 217, 253)",
   "accentColor": "hsl(306, 54%, 72%)",
-  "accentBorderColor": "rgb(231, 184, 241)"
+  "accentBorderColor": "rgb(231, 184, 241)",
+  "spexPageUrl": "/kleopatra/"
 }

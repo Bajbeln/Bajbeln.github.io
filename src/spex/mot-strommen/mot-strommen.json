@@ -1,5 +1,6 @@
 {
   "color": "rgb(149, 180, 245)",
   "accentColor": "rgb(60, 100, 185)",
-  "accentBorderColor": "rgb(80, 120, 200)"
+  "accentBorderColor": "rgb(80, 120, 200)",
+  "spexPageUrl": "/mot-strommen/"
 }

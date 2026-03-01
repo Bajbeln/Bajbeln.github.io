@@ -32,7 +32,7 @@ Experimentell migrering till ny sidstruktur.
 
 Korrläsning av alla spex (på gång)
 
-Sökfunktionen ger fel ibland, oftast beror det på att titeln inte skrivits in rätt i songIndex eller i spexsidan. Kontrollera då så att de två överensstämmer med varandra. (Gäller ej i ny struktur)
+Sökfunktionen ger fel ibland, oftast beror det på att titeln inte skrivits in rätt i songIndex eller i spexsidan. Kontrollera då så att de två överensstämmer med varandra. (Fel i songIndex gäller ej i ny struktur)
 
 ## Tack till
 - Kodning har gjorts av Joel Takahashi Olsson, Jacob Annefors och Johan Furuhjelm.

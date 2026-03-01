@@ -1,5 +1,6 @@
 {
   "color": "rgb(178, 188, 253)",
   "accentColor": "rgb(90, 107, 215)",
-  "accentBorderColor": "rgb(128, 143, 230)"
+  "accentBorderColor": "rgb(128, 143, 230)",
+  "spexPageUrl": "/nobel/"
 }

@@ -1,5 +1,6 @@
 {
   "color": "rgb(238, 233, 190)",
   "accentColor": "rgb(170, 155, 75)",
-  "accentBorderColor": "rgb(195, 180, 100)"
+  "accentBorderColor": "rgb(195, 180, 100)",
+  "spexPageUrl": "/eiffel/"
 }

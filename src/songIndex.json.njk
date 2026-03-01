@@ -1,0 +1,10 @@
+---
+permalink: /songIndex.json
+eleventyExcludeFromCollections: true
+---
+[
+{%- set sorted = collections.songs | sort(false, false, "data.spex") %}
+{%- for song in sorted %}
+  {"title":{{ song.data.title | dump | safe }},"page":{{ song.data.spexPageUrl | dump | safe }}}{% if not loop.last %},{% endif %}
+{%- endfor %}
+]

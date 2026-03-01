@@ -1,5 +1,6 @@
 {
   "color": "rgb(192, 236, 247)",
   "accentColor": "rgb(90, 185, 215)",
-  "accentBorderColor": "rgb(130, 208, 233)"
+  "accentBorderColor": "rgb(130, 208, 233)",
+  "spexPageUrl": "/nisse/"
 }

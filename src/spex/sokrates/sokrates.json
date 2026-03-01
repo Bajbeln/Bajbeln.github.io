@@ -1,5 +1,6 @@
 {
   "color": "rgb(238, 222, 193)",
   "accentColor": "rgb(185, 155, 110)",
-  "accentBorderColor": "rgb(205, 175, 130)"
+  "accentBorderColor": "rgb(205, 175, 130)",
+  "spexPageUrl": "/sokrates/"
 }

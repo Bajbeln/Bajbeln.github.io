@@ -1,5 +1,6 @@
 {
-    "color": "rgb(177, 235, 165)",
-    "accentColor": "rgb(90, 175, 65)",
-    "accentBorderColor": "rgb(120, 200, 90)"
+  "color": "rgb(177, 235, 165)",
+  "accentColor": "rgb(90, 175, 65)",
+  "accentBorderColor": "rgb(120, 200, 90)",
+  "spexPageUrl": "/linne/"
 }

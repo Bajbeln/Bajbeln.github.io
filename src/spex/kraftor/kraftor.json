@@ -1,5 +1,6 @@
 {
   "color": "rgb(255, 235, 210)",
   "accentColor": "rgb(215, 130, 80)",
-  "accentBorderColor": "rgb(195, 110, 60)"
+  "accentBorderColor": "rgb(195, 110, 60)",
+  "spexPageUrl": "/kraftor/"
 }

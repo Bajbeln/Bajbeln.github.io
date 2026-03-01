@@ -1,5 +1,5 @@
 # TODO
-- OBS jag (Joel) testar att migrera sidan från ren html till eleventy - de nya filerna finns i /src
+- OBS jag (Joel) testar att migrera sidan från ren html till eleventy - se nedan under experimentellt
 
 ## Buggfixar
 - Fixa sökfunktionen — svårt för ensiffriga låtnummer
@@ -46,9 +46,8 @@
 - går det att göra någon favoriter/spara-funktion? helst utan inloggning
 ### Migrering av sida
 - Migrera hela sidan till eleventy med låtar i .md-filer och njk för sidorna (se /src) - behöver bara kvalitetskontrollera nu
-- Migrera sökindex (automatisera)
-- Kunna toggla mellan att söka på låttitel eller sångtext och kanske medodi, spex, sångare
-- Fixa utseendet på de nya sidorna
+- Kunna toggla mellan att söka på låttitel eller sångtext och kanske medlodi, spex, sångare
+- Fixa utseendet på de nya sidorna - mestadels fixat
 - Kontrollera alla nya spexsidor - texten måste jämföras mot primärkällan?
 - Ska enkeluppsättningar-spex vara strukturerad som en uppsättning av spexet?
 - Expandera alla knappen verkar inte ha rätt borders på mobil iaf

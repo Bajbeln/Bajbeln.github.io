@@ -1,5 +1,6 @@
 {
   "color": "rgb(202, 221, 248)",
   "accentColor": "rgb(100, 145, 210)",
-  "accentBorderColor": "rgb(150, 188, 232)"
+  "accentBorderColor": "rgb(150, 188, 232)",
+  "spexPageUrl": "/martell/"
 }

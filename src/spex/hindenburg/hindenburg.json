@@ -1,5 +1,6 @@
 {
   "color": "rgb(229, 244, 235)",
   "accentColor": "hsl(230, 77%, 77%)",
-  "accentBorderColor": "rgb(144, 184, 232)"
+  "accentBorderColor": "rgb(144, 184, 232)",
+  "spexPageUrl": "/hindenburg/"
 }
