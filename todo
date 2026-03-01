@@ -16,7 +16,7 @@
 ## Stil
 - ändra storlek på räändom-knapp både i start och sidorna
 - Se över alla färgerna på alla sidorna
-- Återställ borders på knappar
+- Öka storlek på spexsidknapparna
 
 ## Att lägga till
 - [CXI 6] Invokation till Pelle Andersson
@@ -36,8 +36,6 @@
 - Navigera till nästa/förra spex-knapp
 - Skrolla ner till sången (titeln uppe) vid träff
 - ska vi länka till spääxet?
-- Stäng alla/expandera på alla på sida-knapp?
-- Stilisera pop-up vid sökning
 - border i textrutorna i reading mode
 
 ## Experimentellt
@@ -50,7 +48,4 @@
 - Fixa utseendet på de nya sidorna
 - Kontrollera alla nya spexsidor
 - Ska enkeluppsättningar-spex vara strukturerad som en uppsättning av spexet?
-- Kanske lägga en fördröjning på expandera alla-knappen
-- Gör kopiera låtlänk-knappen till samma färg som resten av bar
-- Fixa borders på expandera alla-knapp
 
