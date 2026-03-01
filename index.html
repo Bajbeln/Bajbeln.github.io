@@ -20,7 +20,7 @@
   </a> 
   <h1><a href="/"> Krischanstaspääxets<br>Sajber-Bajbel</a></h1>
   
-  <button class="random" aria-label="Välj en slumpmässig sång">Räändom</button>
+  <button class="btn-random-home" aria-label="Välj en slumpmässig sång">Räändom</button>
   <br>
   
   <a href="/spex/favoriter" class="button"><i>Favoriter</i></a>
@@ -228,7 +228,7 @@
 
     //Random
     document.addEventListener("DOMContentLoaded", function() {
-      document.querySelector('.random').addEventListener("click", () => {
+      document.querySelector('.btn-random-home').addEventListener("click", () => {
         getSongIndex()
           .then(data => {
             //random song

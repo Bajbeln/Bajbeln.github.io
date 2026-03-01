@@ -24,13 +24,13 @@
     
     <!-- Copy link-button -->
       <body>
-      <button class="copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida"> Kopiera länk</button><br><br>
+      <button class="btn-copy" onclick="copyLink()" aria-label="Kopiera länk till sida"> Kopiera länk</button><br><br>
     </body>
     
       <!-- Song sample -->
     <!-- 
     <button type="button" class="collapsible" aria-label="Visa eller dölj Sångtitel">Sångtitel</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>SJUNGS_AV</i><br>
       <i>MELODI</i><br><br>
         SÅNGTEXT
@@ -64,7 +64,7 @@
     
       <body>
         <button type="button" class="collapsible" aria-label="Visa eller dölj 1. Öppningskuplett">1. Öppningskuplett</button>
-        <div class="content">
+        <div class="song-body">
         <p><i>(Alla sjunger)</i><br>
         <i>Mel: River deep, Mountain high</i><br><br>
             Femtonhundra-åttioett, där har vi Brahe <br>
@@ -82,7 +82,7 @@
         </div>
 
         <button type="button" class="collapsible" aria-label="Visa eller dölj 2. Rymdmekanik">2. Rymdmekanik</button>
-        <div class="content">
+        <div class="song-body">
         <p><i>(Tycho och Kepler sjunger)</i><br>
         <i>Mel: Cantina band</i><br><br>
 
@@ -116,7 +116,7 @@
         </div>
 
         <button type="button" class="collapsible" aria-label="Visa eller dölj 3. Aktfinal 1">3. Aktfinal 1</button>
-        <div class="content">
+        <div class="song-body">
         <p><i>(Sofie sjunger duett med Sofie)</i><br>
         <i>Mel: What I’ve been looking for</i><br><br>
         Jag kan inte tro <br>
@@ -166,7 +166,7 @@
         </div>
 
         <button type="button" class="collapsible" aria-label="Visa eller dölj 4. Kristines cravings (Höst)">4. Kristines cravings (Höst)</button>
-        <div class="content">
+        <div class="song-body">
         <p><i>(Kristine sjunger)</i><br>
         <i>Mel: Holding out for a hero</i><br><br>
         Mat-mat, mat-mat <br>
@@ -213,7 +213,7 @@
         </div>
 
         <button type="button" class="collapsible" aria-label="Visa eller dölj 5. Kristines cravings (Vår)">5. Kristines cravings (Vår)</button>
-        <div class="content">
+        <div class="song-body">
         <p><i>(Kristine sjunger)</i><br>
         <i>Mel: Snacket på stan </i><br><br>
         Jag ser det framför mig <br>
@@ -261,7 +261,7 @@
         </div>
 
         <button type="button" class="collapsible" aria-label="Visa eller dölj 6. Jag vill busa (Höst)">6. Jag vill busa (Höst)</button>
-        <div class="content">
+        <div class="song-body">
         <p><i>(Älgen sjunger)</i><br>
         <i>Mel: Olyckans sång</i><br><br>
             En älg som kan sjunga? Kalla mig bisarr <br>
@@ -293,7 +293,7 @@
         </div>
 
         <button type="button" class="collapsible" aria-label="Visa eller dölj 7. En ballad om människor och älgar (Vår)">7. En ballad om människor och älgar (Vår)</button>
-        <div class="content">
+        <div class="song-body">
         <p><i>(Älgen sjunger)</i><br>
         <i>Mel: Fuck you</i><br><br>
         Människor, jag förstår mig inte på, de gåvor ni skänker <br>
@@ -336,7 +336,7 @@
         </div>
 
         <button type="button" class="collapsible" aria-label="Visa eller dölj 8. Pausfinal">8. Pausfinal</button>
-        <div class="content">
+        <div class="song-body">
         <p><i>Alla sjunger</i><br>
         <i>Mel: Call me</i><br><br>
             Vi ska dra till Prag tillsammans <br>
@@ -369,7 +369,7 @@
         </div>
 
         <button type="button" class="collapsible" aria-label="Visa eller dölj 9. Jag är smart">9. Jag är smart</button>
-        <div class="content">
+        <div class="song-body">
         <p><i>Tycho sjunger</i><br>
         <i>Mel: Real gone</i><br><br>
             Jag har tappat mitt sting, panik runt omkring <br>
@@ -420,7 +420,7 @@
         </div>
 
         <button type="button" class="collapsible" aria-label="Visa eller dölj 10. Vi ska bunkra">10. Vi ska bunkra</button>
-        <div class="content">
+        <div class="song-body">
         <p><i>Trädgårdsmästaren, Sofie, Inge sjunger, Fredrik bompar</i><br>
         <i>Mel: Mr Blue sky</i><br><br>
         Utan någon mataffär, <br>
@@ -465,7 +465,7 @@
         </div>
 
         <button type="button" class="collapsible" aria-label="Visa eller dölj 11. Jeppes skämt">11. Jeppes skämt</button>
-        <div class="content">
+        <div class="song-body">
         <p><i>Jeppe sjunger</i><br>
         <i>Mel: En man i byrån</i><br><br>
         Jag är narr i danska hovet <br>
@@ -503,7 +503,7 @@
         </div>
 
         <button type="button" class="collapsible" aria-label="Visa eller dölj 12. Fredriks presentation">12. Fredriks presentation</button>
-        <div class="content">
+        <div class="song-body">
         <p><i>Fredrik och Novastella sjunger</i><br>
         <i>Mel: Wallace & Gromit</i><br><br>
             <b>Fredrik:</b> Jag heter Fredrik den andre<br>
@@ -539,7 +539,7 @@
         </div>
 
         <button type="button" class="collapsible" aria-label="Visa eller dölj 13. Slutkuplett (Höst)">13. Slutkuplett (Höst)</button>
-        <div class="content">
+        <div class="song-body">
         <p><i>Alla sjunger</i><br>
         <i>Mel: Tusen och en natt</i><br><br>
             Efter all intrig och allt på spel <br>
@@ -568,7 +568,7 @@
     </body>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj 14. Slutkuplett (Vår)">14. Slutkuplett (Vår)</button>
-        <div class="content">
+        <div class="song-body">
         <p><i>Alla sjunger</i><br>
         <i>Mel: Tusen och en natt</i><br><br>
         <b>Fredrik:</b> Det började bra, nästan intressant <br>
@@ -653,7 +653,7 @@
             background-color: rgb(155, 140, 211);
         }
 
-        .content {
+        .song-body {
             border-color: rgb(164, 148, 216);
             background-color: rgb(155, 140, 211);
         }

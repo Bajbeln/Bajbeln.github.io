@@ -13,16 +13,16 @@
   <script src="/scripts/settings.js" defer></script>
   {% if color or accentColor or accentBorderColor or darkColor %}<style>
     {% if color %}body { background-color: {{ color }}; }{% endif %}
-    {% if accentColor %}.collapsible, .content { background-color: {{ accentColor }}; }{% endif %}
-    {% if accentBorderColor %}.collapsible, .content { border-color: {{ accentBorderColor }}; }{% endif %}
-    {% if accentColor %}body.dark-mode .collapsible, body.dark-mode .content { background-color: {{ darkAccentColor or '#2d3a5e' }}; border-color: {{ darkAccentBorderColor or darkAccentColor or '#2d3a5e' }}; }{% endif %}
+    {% if accentColor %}.collapsible, .song-body { background-color: {{ accentColor }}; }{% endif %}
+    {% if accentBorderColor %}.collapsible, .song-body { border-color: {{ accentBorderColor }}; }{% endif %}
+    {% if accentColor %}body.dark-mode .collapsible, body.dark-mode .song-body { background-color: {{ darkAccentColor or '#2d3a5e' }}; border-color: {{ darkAccentBorderColor or darkAccentColor or '#2d3a5e' }}; }{% endif %}
     {% if darkColor %}body.dark-mode { background-color: {{ darkColor }}; }{% endif %}
   </style>{% endif %}
 </head>
 <body>
   <h2>{{ title }}</h2>
-  <button class="copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
-  <button class="toggle-all-btn" id="toggleAllBtn" onclick="toggleAll()" aria-label="Expandera/kollapsa alla sånger">
+  <button class="btn-copy" onclick="copyLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
+  <button class="btn-toggle-all" id="toggleAllBtn" onclick="toggleAll()" aria-label="Expandera/kollapsa alla sånger">
     <svg class="icon-expand" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
       <polyline points="3,4 10,10 17,4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
       <polyline points="3,11 10,17 17,11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -44,7 +44,7 @@
       <br>
       <div class="uppsattning-header">
         <h2 class="uppsattning-heading" id="{{ _sectionId }}">{{ u.label }}</h2>
-        <button class="uppsattning-link-btn" onclick="copyUppLink(this, '{{ _sectionId }}')" aria-label="Kopiera länk till {{ u.label }}"><img src="/assets/images/song-link-button.png" class="song-link-icon" alt=""></button>
+        <button class="btn-production-link" onclick="copyUppLink(this, '{{ _sectionId }}')" aria-label="Kopiera länk till {{ u.label }}"><img src="/assets/images/song-link-button.png" class="song-link-icon" alt=""></button>
       </div>
       <br>
       {% set groupSongs = collections.songs | songsForSpex(u.id) %}
@@ -65,7 +65,7 @@
       coll[i].addEventListener("click", function () {
         this.classList.toggle("active");
         var block = this.closest(".song-block");
-        var contentDiv = block ? block.querySelector(".content") : this.nextElementSibling;
+        var contentDiv = block ? block.querySelector(".song-body") : this.nextElementSibling;
         if (contentDiv.style.maxHeight) {
           contentDiv.style.maxHeight = null;
         } else {
@@ -83,7 +83,7 @@
     function updateToggleBtn() {
       var btn = document.getElementById("toggleAllBtn");
       if (!btn) return;
-      var anyOpen = Array.from(document.querySelectorAll(".song-block .content")).some(function (c) {
+      var anyOpen = Array.from(document.querySelectorAll(".song-block .song-body")).some(function (c) {
         return !!c.style.maxHeight;
       });
       btn.querySelector(".icon-expand").style.display = anyOpen ? "none" : "";
@@ -93,11 +93,11 @@
     function toggleAll() {
       var blocks = document.querySelectorAll(".song-block");
       var anyOpen = Array.from(blocks).some(function (block) {
-        var c = block.querySelector(".content");
+        var c = block.querySelector(".song-body");
         return c && !!c.style.maxHeight;
       });
       blocks.forEach(function (block) {
-        var contentDiv = block.querySelector(".content");
+        var contentDiv = block.querySelector(".song-body");
         var btn = block.querySelector(".collapsible");
         if (!contentDiv) return;
         if (anyOpen && contentDiv.style.maxHeight) {

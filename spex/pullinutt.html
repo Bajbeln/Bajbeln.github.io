@@ -24,13 +24,13 @@
     
     <!-- Copy link-button -->
       <body>
-      <button class="copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida"> Kopiera länk</button><br><br>
+      <button class="btn-copy" onclick="copyLink()" aria-label="Kopiera länk till sida"> Kopiera länk</button><br><br>
     </body>
     
       <!-- Song sample -->
     <!-- 
     <button type="button" class="collapsible" aria-label="Visa eller dölj Sångtitel">Sångtitel</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>SJUNGS_AV</i><br>
       <i>MELODI</i><br><br>
         SÅNGTEXT
@@ -55,7 +55,7 @@
       <body>
     <!-- Place for songs -->
     <button type="button" class="collapsible" aria-label="Visa eller dölj [PUL 1] En Vass inledning">[PUL 1] En Vass inledning</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Berättaren sjunger)</i><br>
       <i>Mel. Allmän rock</i><br><br>
         Hejsan hoppsan allihopa! Nu är vi här<br>
@@ -67,7 +67,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [PUL 1] Pullinutts sång">[PUL 1] Pullinutts sång</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Pullinutt sjunger)</i><br>
       <i>Mel. Drömslottet, Mora träsk</i><br><br>
         Jag heter Pullinutt - hej, hej<br>
@@ -105,7 +105,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [PUL 1] Jag är Gulleplutt">[PUL 1] Jag är Gulleplutt</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Gulleplutt sjunger)</i><br>
       <i>Mel. Bamses signaturmelodi</i><br><br>
         Jag är Gulleplutt<br>
@@ -136,7 +136,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [PUL 1] Jag är den kloke Jan Eric Larsson">[PUL 1] Jag är den kloke Jan Eric Larsson</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Jan Eric Larsson sjunger)</i><br>
       <i>Mel. Man cyklar för lite</i><br><br>
         Här ser ni en karl som<br>
@@ -149,7 +149,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [PUL 2] Jag är den stygga drottning Kaxa">[PUL 2] Jag är den stygga drottning Kaxa</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Drottning Kaxa sjunger)</i><br>
       <i>Mel. Kapten Karlsson</i><br><br>
         Här ser ni framför er landets fasa<br>
@@ -174,7 +174,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [PUL 2] Duett mellan en elak trollkarl och en förtrollad princessa">[PUL 2] Duett mellan en elak trollkarl och en förtrollad princessa</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Leo och Pullinutt sjunger)</i><br>
       <i>Mel. Grevens och Susannas duett ur le nozze di Figaro av W A Mozart</i><br><br>
       <div class="row">
@@ -267,7 +267,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [PUL 3] Trolle-trolle-rollen">[PUL 3] Trolle-trolle-rollen</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Trollen sjunger)</i><br>
       <i>Mel. Go Tell It on the Mountain</i><br><br>
         <b>Sputnik:</b><br>
@@ -293,7 +293,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [PUL 3] Drakens magplåga">[PUL 3] Drakens magplåga</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Draken sjunger)</i><br>
       <i>Mel. Varm korv boogie</i><br><br>
         Jag är en snäll liten drake som ser farlig ut<br>
@@ -321,7 +321,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [PUL 3] Slutsång">[PUL 3] Slutsång</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Alla sjunger)</i><br>
       <i>Mel. Tomtarnas julbal, Gullan Bornemark</i><br><br>
         <b>Pullinutt och Gulleplutt:</b><br>
@@ -375,7 +375,7 @@
     background-color: rgb(220, 187, 98);
   }
 
-  .content {
+  .song-body {
     border-color: rgb(192, 182, 68);
     background-color: rgb(220, 187, 98);
   }

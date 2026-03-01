@@ -21,13 +21,13 @@
   
   <!-- Copy link-button -->
   <body>
-    <button class="copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida"> Kopiera länk</button><br><br>
+    <button class="btn-copy" onclick="copyLink()" aria-label="Kopiera länk till sida"> Kopiera länk</button><br><br>
   </body>
   
     <!-- Song sample -->
   <!-- 
   <button type="button" class="collapsible" aria-label="Visa eller dölj Sångtitel">Sångtitel</button>
-  <div class="content">
+  <div class="song-body">
     <p><i>SJUNGS_AV</i><br>
     <i>MELODI</i><br><br>
       SÅNGTEXT
@@ -47,7 +47,7 @@
   <!-- Place for songs -->
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj [SKE 1] Livet som en spermie">[SKE 1] Livet som en spermie</button>
-  <div class="content">
+  <div class="song-body">
     <p><i>(Spermierna sjunger)</i><br>
     <i>Mel. I parfymaffären (Därför blommar mitt parfymeri)</i><br><br>
     Livet som en spermie är ganska komplicerat' knappast lätt men ack så kort<br>
@@ -79,7 +79,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj [SKE 1] ADHD-sången">[SKE 1] ADHD-sången</button>
-  <div class="content">
+  <div class="song-body">
     <p><i>(Skolbarnen sjunger)</i><br>
     <i>Mel: YMCA</i><br><br>
     <b>Anders:</b> Simon kan ej räkna till fem, jag sa<br>
@@ -116,7 +116,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj [SKE 2] Sadomasochistaria">[SKE 2] Sadomasochistaria</button>
-  <div class="content">
+  <div class="song-body">
     <p><i>(Gull-Britt, Rut och extraläraren sjunger)</i><br>
     <i>Mel. She'll be comming 'round the mountain</i><br><br>
     <b>Gull-Britt:</b> Visst är gympa och metallslöjd ganska skoj<br>
@@ -148,7 +148,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj [SKE 3] Stadigt rus">[SKE 3] Stadigt rus</button>
-  <div class="content">
+  <div class="song-body">
     <p><i>(Full student sjunger)</i><br>
     <i>Mel. Stad i ljus</i><br><br>
     Min värld var grå och mulen<br>
@@ -187,7 +187,7 @@
   </div>
 
   <button type="button" class="collapsible" aria-label="Visa eller dölj [SKE 3] Våran håv">[SKE 3] Våran håv</button>
-  <div class="content">
+  <div class="song-body">
     <p><i>(Frälsta sjunger)</i><br>
     <i>Mel. Ovan där</i><br><br>
     Var du ute sent igår<br>
@@ -257,7 +257,7 @@
     background-color: rgb(211, 121, 150);
   }
 
-  .content {
+  .song-body {
     border-color: rgb(230, 142, 161);
     background-color: rgb(221, 133, 161);
   }

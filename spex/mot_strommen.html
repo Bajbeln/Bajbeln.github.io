@@ -24,13 +24,13 @@
     
     <!-- Copy link-button -->
       <body>
-      <button class="copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida"> Kopiera länk</button><br><br>
+      <button class="btn-copy" onclick="copyLink()" aria-label="Kopiera länk till sida"> Kopiera länk</button><br><br>
     </body>
     
       <!-- Song sample -->
     <!-- 
     <button type="button" class="collapsible" aria-label="Visa eller dölj Sångtitel">Sångtitel</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>SJUNGS_AV</i><br>
       <i>MELODI</i><br><br>
         SÅNGTEXT
@@ -55,7 +55,7 @@
       <body>
     <!-- Place for songs -->
     <button type="button" class="collapsible" aria-label="Visa eller dölj [MOT 1] Kapitalisttwist">[MOT 1] Kapitalisttwist</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Morgan och Dolores sjunger)</i><br>
       <i>Mel. Under the sea</i><br><br>
         <b>M:</b> Att bli rik är rätt så enkelt<br>
@@ -150,7 +150,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [MOT 2] Pappa Edison och Dot-ter sjunger">[MOT 2] Pappa Edison och Dot-ter sjunger</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Edison och Dot sjunger)</i><br>
       <i>Mel. The money song, ur Cabaret</i><br><br>
         <b>Edison:</b> Edison är mitt namn<br>
@@ -202,7 +202,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [MOT 3] Ifrågasättande av presidentkandidats förmåga att bortskänka visan">[MOT 3] Ifrågasättande av presidentkandidats förmåga att bortskänka visan</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Bell, Morgan och Edison sjunger)</i><br>
       <i>Mel. Never mind the why and wherefore, ur HMS Pinafore</i><br><br>
         <b>Bell:</b> Kasta loss och håll i hatten<br>
@@ -265,7 +265,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [MOT 3] Edisons bitterbugg">[MOT 3] Edisons bitterbugg</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Edison sjunger)</i><br>
       <i>Mel. Jag vet en dejlig rosa</i><br><br>
         Tro ej att jag är bitter<br>
@@ -279,7 +279,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [MOT 4] Ett spännande bröllop">[MOT 4] Ett spännande bröllop</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Morgan och Dolores sjunger)</i><br>
       <i>Mel: Bad, Bad Leroy</i><br><br>
         Nu nalkas bröllopsfesten<br>
@@ -324,7 +324,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [MOT 5] Etikettkuplett">[MOT 5] Etikettkuplett</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Madame, Hebba, Siv, Göte och Groger sjunger)</i><br>
       <i>Mel. Surfin' USA</i><br><br>
       <div class="row">
@@ -406,7 +406,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [MOT 6] Toner av kontradiktioner">[MOT 6] Toner av kontradiktioner</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Dash och Louisa sjunger)</i><br>
       <i>Alla turca allegretto. Pianosonata i A-Dur, Mozart</i><br><br>
         <b>Louisa:</b><br>
@@ -564,7 +564,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [MOT 7] Curies sång">[MOT 7] Curies sång</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Marie Curie sjunger)</i><br>
       <i>Mel. Mysterious tango</i><br><br>
         Jag gör entré med välbehag<br>
@@ -602,7 +602,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [MOT 8] Aktfinal II - Sorti i anarki">[MOT 8] Aktfinal II - Sorti i anarki</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Hebba, Siv och Göte sjunger)</i><br>
       <i>Mel. Diggi-loo, diggi-ley</i><br><br>
       Blixtar och dunder<br>
@@ -671,7 +671,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [MOT 8] Patentösens patentvärk">[MOT 8] Patentösens patentvärk</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Patentösen och kunder sjunger)</i><br>
       <i>Mel. I got it from Agnes</i><br><br>
         <b>Patentös:</b> Ett nytt patent<br>
@@ -716,7 +716,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [MOT 9] Jag har byggt en telefon, är rätt fräck, och vill ha fröken i säng-kuplett (telefongozzen)">[MOT 9] Jag har byggt en telefon, är rätt fräck, och vill ha fröken i säng-kuplett (telefongozzen)</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Bell sjunger)</i><br>
       <i>Mel: Jazzgossen</i><br><br>
         Får jag lov att presentera<br>
@@ -795,7 +795,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [MOT 10] Aktfinal III">[MOT 10] Aktfinal III</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Edison och Tesla sjunger)</i><br>
       <i>Mel. Money, Money ur Cabaret</i><br><br>
         <b>Båda:</b> Om du ska förgylla en fest<br>
@@ -914,7 +914,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [MOT 11] Dashs hjältesång">[MOT 11] Dashs hjältesång</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Dash sjunger)</i><br>
       <i>Mel. Nitar och läder</i><br><br>
         Wåå-å-å-å-å-å-å-å-å-å-å-å<br>
@@ -977,7 +977,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [MOT 12] Särlekssången - fallstudie i kärlek">[MOT 12] Särlekssången - fallstudie i kärlek</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Dot och Tesla sjunger)</i><br>
       <i>Mel. Nygammal vals</i><br><br>
         <b>Tesla:</b> Direkt jag såg dig fick hjärnan fnatt<br>
@@ -1021,7 +1021,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [MOT 13] En spännande kväll">[MOT 13] En spännande kväll</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Många bröllopsgäster sjunger)</i><br>
       <i>Mel: Consider yourself</i><br><br>
         <b>Morgan:</b> En spännande kväll<br>
@@ -1059,7 +1059,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [MOT 13] Totalfinal">[MOT 13] Totalfinal</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Många sjunger)</i><br>
       <i>Mel. Night train to Memphis</i><br><br>
         <b>Alla:</b> Vilken tur för oss alla<br>
@@ -1113,7 +1113,7 @@
     </div>
 
     <button type="button" class="collapsible" aria-label="Visa eller dölj [MOT 14] Ett nästan lika spännande bröllop">[MOT 14] Ett nästan lika spännande bröllop</button>
-    <div class="content">
+    <div class="song-body">
       <p><i>(Morgan och Dolores sjunger)</i><br>
       <i>Mel. Bad, bad Leroy Brown</i><br><br>
         <b>Morgan:</b> Nu nalkas bröllopsfesten<br>

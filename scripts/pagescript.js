@@ -44,10 +44,10 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById('spex-header-container').insertAdjacentHTML('afterend', settingsHTML);
 
     // Inject random button after the "Kopiera länk" button
-    var copyButton = document.querySelector('.copyButton');
+    var copyButton = document.querySelector('.btn-copy');
     if (copyButton) {
       var randomBtn = document.createElement('button');
-      randomBtn.className = 'random-page';
+      randomBtn.className = 'btn-random';
       randomBtn.setAttribute('aria-label', 'Gå till en slumpmässig sång');
       randomBtn.textContent = 'Räändom';
       randomBtn.addEventListener('click', function() {
@@ -123,7 +123,7 @@ function fallbackCopy(text) {
 }
 
 function showCopyFeedback() {
-  const copyButton = document.querySelector('.copyButton');
+  const copyButton = document.querySelector('.btn-copy');
   if (!copyButton) return;
   
   const originalText = copyButton.textContent;
