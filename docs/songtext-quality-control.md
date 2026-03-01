@@ -37,7 +37,7 @@
 | 31 | Caesar (CAE) | | |
 | 32 | Sketchistens (FEL) | | |
 | 33 | Darwin (DAR) | | |
-| 34 | Tjogun (TJO) | | |
+| 34 | Tjogun (TJO) | **2002/03:** [TJO 12] Ieyasu expanderar: "han skända döda kor" — troligt OCR-fel för "skändar" (jfr 2009-versionen); [TJO 12] Rid i natt: "Är förtiget" — troligt OCR-fel för "förtigen"; [TJO 13] Så lunka vi...: "Japansk nospelmusik" — oklart om OCR-fel eller avsiktligt; [TJO 14] Shogun: fotnot anger att Akai sjunger de feta orden, men fetstilsformatering saknas i källan — vilka ord? | |
 | 35 | Nobel (NOB) | | |
 | 36 | OS-feber i Kristianstad (OSF) | | |
 | 37 | Maria Eleonora (MAR) | | |
