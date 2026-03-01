@@ -1,5 +1,5 @@
 # Låttext - kvalitetskontroll
-(Baserat på de migrerade sidorna)
+(Automatiserat, baserat på de migrerade sidorna)
 
 | # | Spex | Textanmärkningar | Övriga anmärkningar |
 |---|------|-----------|-----------|
