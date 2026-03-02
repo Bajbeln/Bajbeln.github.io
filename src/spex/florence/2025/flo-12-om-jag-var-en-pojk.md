@@ -1,7 +1,7 @@
 ---
 title: "[FLO 12] Om jag var en pojk"
 singer: "Elisabeth & Florence sjunger"
-melody: "If I were a boy – Beyonce<!-- [sic!] -->"
+melody: "If I were a boy – Beyonce"
 spex: florence-2025
 order: 5
 permalink: false

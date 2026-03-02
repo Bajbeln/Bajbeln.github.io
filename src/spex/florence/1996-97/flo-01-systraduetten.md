@@ -22,7 +22,7 @@ Men till min förtret
 Och därför får jag ej som jag vill
 Så länge han finns till
 
-_(Refräng, båda:)_
+_Refräng, båda:_
 Men på gubben Bumblebottom
 Tycks ej gå någon nöd
 Vilket härligt liv vi fått om
@@ -44,4 +44,4 @@ Med att allt blir löst av ett arv
 För far vår pappa till sankte Per
 Försvinner allt besvär
 
-_(Refräng (båda))_
+_Refräng (båda)_

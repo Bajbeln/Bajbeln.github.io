@@ -13,29 +13,10 @@ Nu ska ni få möta äkta britter
 
 <div class="row">
   <div class="column">
-
-**Vincent:**
-Vad här är trist
-När jag har fest
-Och mina döttrar
-Gör min tillvaro till pest
-**Barry:**
-Jag gillar bäst
-Komplexitet
-En rent estetiskt
-Ordaletisk exeget
-
+<b>Vincent:</b><br>Vad här är trist<br>När jag har fest<br>Och mina döttrar<br>Gör min tillvaro till pest<br><b>Barry:</b><br>Jag gillar bäst<br>Komplexitet<br>En rent estetiskt<br>Ordaletisk exeget
   </div>
   <div class="column">
-
-**Övriga:**
-Vilken skön atmosfär
-Tänk att va miljonär
-
-**Övriga:**
-Tala väder och vind
-Det kan även en blind
-
+<b>Övriga:</b><br>Vilken skön atmosfär<br>Tänk att va miljonär<br><br><br><b>Övriga:</b><br>Tala väder och vind<br>Det kan även en blind
   </div>
 </div>
 

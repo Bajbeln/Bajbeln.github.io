@@ -58,22 +58,10 @@ Som jag alltid gjort
 
 <div class="row">
   <div class="column">
-
-**Anne**
-Din själ fylls av längtan
-Och taskig lyrik
-Jag hoppas dom hängt han
-I närmaste spik
-
+<b>Anne</b><br>Din själ fylls av längtan<br>Och taskig lyrik<br>Jag hoppas dom hängt han<br>I närmaste spik
   </div>
   <div class="column">
-
-**Harriet**
-Din snopp ger dig trängtan
-Och taskig etik
-Jag borde ha slängt han
-I närmaste vik
-
+<b>Harriet</b><br>Din snopp ger dig trängtan<br>Och taskig etik<br>Jag borde ha slängt han<br>I närmaste vik
   </div>
 </div>
 

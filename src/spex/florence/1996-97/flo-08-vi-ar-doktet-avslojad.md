@@ -30,60 +30,22 @@ Och tagen på en gärning som är bar
 
 <div class="row">
   <div class="column">
-
-**Nanny:**
-Jävlar, jävlar
-Det är risk för
-Liv och hälsa
-Att ha en sådan
-Otur som jag har
-
+<b>Nanny:</b><br>Jävlar, jävlar<br>Det är risk för<br>Liv och hälsa<br>Att ha en sådan<br>Otur som jag har
   </div>
   <div class="column">
-
-**Harriet:**
-Jävlar, jävlar
-Det är lindrigt
-Sagt penibelt
-Att ha en sådan
-Otur som jag har
-
+<b>Harriet:</b><br>Jävlar, jävlar<br>Det är lindrigt<br>Sagt penibelt<br>Att ha en sådan<br>Otur som jag har
   </div>
   <div class="column">
-
-**Fred:**
-Jävlar, jävlar
-Det är faktiskt
-Jättetradigt
-Sån
-Otur som jag har
-
+<b>Fred:</b><br>Jävlar, jävlar<br>Det är faktiskt<br>Jättetradigt<br>Sån<br>Otur som jag har
   </div>
 </div>
-
+<br>
 <div class="row">
   <div class="column">
-
-**Harriet:**
-För att ärva pappas
-Pengar krävdes blott
-Ett diskret och vanligt
-Ett enkelt litet brott
-Kan man tänka sig så
-Illa som det har gått
-Jag är avslöjad här och nu
-
+<b>Harriet:</b><br>För att ärva pappas<br>Pengar krävdes blott<br>Ett diskret och vanligt<br>Ett enkelt litet brott<br>Kan man tänka sig så<br>Illa som det har gått<br>Jag är avslöjad här och nu
   </div>
   <div class="column">
-
-**De andra:**
-Jag kom på jag
-Måste gå nu, jag har
-Faktiskt ganska brått
-
-Det var oturligt
-Att bli avslöjad nu
-
+<b>De andra:</b><br><br>Jag kom på jag<br>Måste gå nu, jag har<br>Faktiskt ganska brått<br><br>Det var oturligt<br>Att bli avslöjad nu
   </div>
 </div>
 
@@ -92,34 +54,10 @@ Och tagen på en gärning som är bar
 
 <div class="row">
   <div class="column">
-
-**Fred:**
-Fan med, jävlar
-Fan med, jävlar
-**Harriet:**
-Jag har hamnat i en knipa
-För min pappas extra son
-**Fred:**
-Fan med, jävlar
-Fan med, jävlar
-Det är orättvist och taskigt
-Jag vill bara härifrån
-
+<b>Fred:</b><br>Fan med, jävlar<br>Fan med, jävlar<br><b>Harriet:</b><br>Jag har hamnat i en knipa<br>För min pappas extra son<br><b>Fred:</b><br>Fan med, jävlar<br>Fan med, jävlar<br>Det är orättvist och taskigt<br>Jag vill bara härifrån
   </div>
   <div class="column">
-
-**De andra:**
-Aj då, pinsamt
-Aj då, pinsamt
-**De andra:**
-Jag har hamnat i en knipa
-För sir Vincents extra son
-**De andra:**
-Usch då, pinsamt
-Usch då, pinsamt
-Det är tämligen penibelt
-Jag vill bara härifrån
-
+<b>De andra:</b><br>Aj då, pinsamt<br>Aj då, pinsamt<br><b>De andra:</b><br>Jag har hamnat i en knipa<br>För sir Vincents extra son<br><b>De andra:</b><br>Usch då, pinsamt<br>Usch då, pinsamt<br>Det är tämligen penibelt<br>Jag vill bara härifrån
   </div>
 </div>
 
