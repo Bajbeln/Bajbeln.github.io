@@ -43,16 +43,10 @@ Vilken svår situation
 
 <div class="row">
   <div class="column">
-
-**H**
-Jag ska ta mig en titt sen
-
+<b>H</b><br>Jag ska ta mig en titt sen
   </div>
   <div class="column">
-
-**F**
-Jag ska ta dig på titsen
-
+<b>F</b><br>Jag ska ta dig på titsen
   </div>
 </div>
 

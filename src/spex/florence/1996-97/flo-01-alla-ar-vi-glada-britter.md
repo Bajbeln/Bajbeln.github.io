@@ -13,28 +13,10 @@ Nu ska ni få möta äkta britter
 
 <div class="row">
   <div class="column">
-
-**Vincent**
-Vad här är trist
-När jag har fest
-Och mina döttrar
-Gör min tillvaro till pest
-Se lite regn
-Och sen en storm
-Ett litet åskväder
-Från öst börjar ta form
-
+<b>Vincent</b><br>Vad här är trist<br>När jag har fest<br>Och mina döttrar<br>Gör min tillvaro till pest<br>Se lite regn<br>Och sen en storm<br>Ett litet åskväder<br>Från öst börjar ta form
   </div>
   <div class="column">
-
-**Övriga**
-Vilken skön atmosfär
-Tänk att va miljonär
-
-
-Tala väder och vind
-Det kan även en blind
-
+<b>Övriga</b><br>Vilken skön atmosfär<br>Tänk att va miljonär<br><br><br>Tala väder och vind<br>Det kan även en blind
   </div>
 </div>
 
@@ -53,31 +35,10 @@ Både vid kalas och när vi deppar
 
 <div class="row">
   <div class="column">
-
-**Barry**
-En advokat
-
-Med full kontroll
-Kan vränga ord så
-Hela släkten fattar noll
-
-Jag gillar bäst
-Komplexitet
-En rent estetiskt
-Ordatletisk lagpoet
-
+<b>Barry</b><br>En advokat<br><br>Med full kontroll<br>Kan vränga ord så<br>Hela släkten fattar noll<br><br>Jag gillar bäst<br>Komplexitet<br>En rent estetiskt<br>Ordatletisk lagpoet
   </div>
   <div class="column">
-
-**Övriga**
-Dricka te alltid le
-Är vi vana vid
-Idka sport i vita kläder
-
-Skrattar högt åt
-En Black Adder
-Hahahaha
-
+<b>Övriga</b><br>Dricka te alltid le<br>Är vi vana vid<br>Idka sport i vita kläder<br><br>Skrattar högt åt<br>En Black Adder<br>Hahahaha
   </div>
 </div>
 

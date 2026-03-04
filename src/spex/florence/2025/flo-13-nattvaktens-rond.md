@@ -18,7 +18,7 @@ Vaktar varje, liten,
 dammig grej, stör mig ej,
 Englands Bond, nu går jag min rond
 
-_(Paus för förflyttning av folk)_
+\*Paus för förflyttning av folk\*
 
 **Nanny:** Måste vinna jakten,
 smyger lätt bort ifrån vakten.

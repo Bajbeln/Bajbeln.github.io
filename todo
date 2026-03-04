@@ -1,5 +1,4 @@
 # TODO
-- OBS jag (Joel) testar att migrera sidan från ren html till eleventy - se nedan under experimentellt
 
 ## Buggfixar
 - Fixa sökfunktionen — svårt för ensiffriga låtnummer
@@ -43,21 +42,29 @@
 
 ## Experimentellt
 - refaktorisera css - påbörjad
+- Expandera alla-knapp - som på de experimentella sidorna.
 - går det att göra någon favoriter/spara-funktion? helst utan inloggning
-### Migrering av sida
-- Migrera hela sidan till eleventy med låtar i .md-filer och njk för sidorna (se /src) - behöver bara kvalitetskontrollera nu
+
+### Migrering av sida OBS
+- OBS (Test-)migrering av sidan just nu pausad, lyckas inte hitta någon snygg lösning som både kör automatisk <br> och jämna flerkolumnssektioner. Den implementation jag körde innan (i filerna i /src) hanterade <br> snyggt, men krävde html och manuella <br> för flerkolumnssektioner.
+
+### Migrering av sida - inte aktuella nu när migreringen är pausad
 - Kunna toggla mellan att söka på låttitel eller sångtext och kanske medlodi, spex, sångare
-- Fixa utseendet på de nya sidorna - mestadels fixat
-- Kontrollera alla nya spexsidor - texten måste jämföras mot primärkällan?
+- Kontrollera alla nya spexsidor
 - Ska enkeluppsättningar-spex vara strukturerad som en uppsättning av spexet?
 - Expandera alla knappen verkar inte ha rätt borders på mobil iaf
 - Skapa en valbar faktaruta-popup för varje spexsida
-- Skapa en en popup på start-sidan som guidar var man kan göra på sidan
-- När migreringen är klar - gör det möjligt att ladda ner sångfilerna och originalfilerna
+- Skapa en en info-popup på startsidan som guidar var man kan göra på sidan
 - Har vi mer vi vill hosta på hemsidan?
-- Finns det ett bättre sätt att göra flera kolumner i .md? - försökte byta system men gick inte så bra att få dem even
 - Stats-räknare på första sidan? Ex antal kupletter, antal uppsättningar
-- Fixa så att den senaste uppsättningen av ett spex på förstasidan leder till toppen av spexsidan (automatiskt?)
+- Öka radavstånd i nya textsidor?
 
-## om experimentellt inte går igenom
+Stod tidigare i `README.md` under på gång:
+Experimentell migrering till ny sidstruktur. 
+
+- Fördelar för användare: Nya funktioner som att kunna kopiera länk till enskild låt, potentiella nya funktioner som att kunna välja att söka efter låttext. Kortare länkar! `bajbeln.github.io/spex/leonardo/` blir `bajbeln.github.io/leonardo/`
+
+- För utvecklare: Betydligt lättare att underhålla. Alla låtar är i sina egna .md-filer och byggs sedan ihop till sidor efter ett fåtal mallar - en justering i mallen påverkar alla sidorna. En korrigering i en av originalsångerna speglas direkt till korresponderande sång i favoriter-sidan. Lättare att underhålla då sångfilerna har automatisk radbrytning. Förhoppningsvis färre manuella steg genom automatisk tilläggning i startsida och i sökindex. Mer strukturerat än innan då allt för ett visst spex låg i samma fil - nu ligger de i samma mapp. Borde underlätta en eventuell övergång till en dynamisk sida.
+
+### om experimentellt inte går igenom
 - flytta kollapsa alla-knapp till header
