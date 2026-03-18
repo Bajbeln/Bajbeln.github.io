@@ -30,7 +30,7 @@
 
 ## Kvalitetssäkring
 - Korrläs alla spex - automatiskt flaggade "fel" finns i `/docs/songtext-quality-control`
-- Ersätt låtnummer med hänvisningar till bajbelsidor för Kristina 2023/24, Tycho Brahe 2024/25 och Öresundsbron 2025
+- Ersätt låtnummer med hänvisningar till bajbelsidor för Kristina 2023/24 och Tycho Brahe 2024/25
 
 ## Idéer
 - Tjockare logga i icon (inte på sidorna)

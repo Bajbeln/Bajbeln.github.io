@@ -1,5 +1,5 @@
 ---
-title: "4. Connys färdlåt"
+title: "[BRO 2] Connys färdlåt"
 singer: "CONNY och de andra kritikerna sjunger"
 melody: "Gå & fiska! – Gyllene tider"
 spex: oresundsbron

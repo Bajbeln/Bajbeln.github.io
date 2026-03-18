@@ -1,5 +1,5 @@
 ---
-title: "7. Carl Bildt This City"
+title: "[BRO 3] Carl Bildt This City"
 singer: "Carl Bildt sjunger"
 melody: "We Built This City – Starship"
 spex: oresundsbron

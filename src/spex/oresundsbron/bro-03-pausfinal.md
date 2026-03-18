@@ -1,5 +1,5 @@
 ---
-title: "8. Pausfinal"
+title: "[BRO 3] Pausfinal"
 singer: "Carl Bildt, DK:s statsminister, Conny, Mr. Ferry, kritikerna, landstinget & byggarbetarna sjunger"
 melody: "In The Navy – Village People"
 spex: oresundsbron

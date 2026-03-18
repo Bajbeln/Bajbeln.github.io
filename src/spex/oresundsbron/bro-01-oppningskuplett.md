@@ -1,5 +1,5 @@
 ---
-title: "1. Öppningskuplett"
+title: "[BRO 1] Öppningskuplett"
 singer: "MANNE MOSESSON sjunger"
 melody: "Burning Love – Elvis Presley"
 spex: oresundsbron
