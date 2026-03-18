@@ -1,5 +1,5 @@
 ---
-title: "8. Kvittetten"
+title: "[HCA 6] Kvittetten"
 melody: "Barcelona – Freddy Mercury, Montserrat Caballé"
 spex: hc-andersen
 order: 8

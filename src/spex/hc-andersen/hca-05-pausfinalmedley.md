@@ -1,5 +1,5 @@
 ---
-title: "6. Pausfinalen"
+title: "[HCA 5] Pausfinalmedley"
 melody: "Växeln hallå – Janne Lucas"
 spex: hc-andersen
 order: 6

@@ -1,5 +1,5 @@
 ---
-title: "9. Märtas Klagosång"
+title: "[HCA 6] Märtas klagosång"
 melody: "To win my love – Anna Maria Espinosa"
 spex: hc-andersen
 order: 9

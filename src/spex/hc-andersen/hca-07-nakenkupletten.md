@@ -1,5 +1,5 @@
 ---
-title: "10. Nakenkupletten"
+title: "[HCA 7] Nakenkupletten"
 melody: "Don't stop me now – Queen"
 spex: hc-andersen
 order: 10

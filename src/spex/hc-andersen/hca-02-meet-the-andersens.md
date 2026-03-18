@@ -1,5 +1,5 @@
 ---
-title: "2. Meet the Andersens"
+title: "[HCA 2] Meet the Andersens"
 melody: "Vad hände sen? – Stefan Demert"
 spex: hc-andersen
 order: 2
