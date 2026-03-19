@@ -1,5 +1,5 @@
 ---
-title: "14. Slutkuplett (Vår)"
+title: "[BRA 9] Slutkuplett (vt25)"
 singer: "Alla sjunger"
 melody: "Tusen och en natt"
 spex: tycho

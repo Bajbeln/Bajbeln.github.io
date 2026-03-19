@@ -1,5 +1,5 @@
 ---
-title: "13. Slutkuplett (Höst)"
+title: "[BRA 8] Slutkuplett (ht24)"
 singer: "Alla sjunger"
 melody: "Tusen och en natt"
 spex: tycho

@@ -1,5 +1,5 @@
 ---
-title: "2. Rymdmekanik"
+title: "[BRA 1] Rymdmekanik"
 singer: "Tycho och Kepler sjunger"
 melody: "Cantina band"
 spex: tycho

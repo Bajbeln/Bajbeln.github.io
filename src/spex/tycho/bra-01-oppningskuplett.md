@@ -1,5 +1,5 @@
 ---
-title: "1. Öppningskuplett"
+title: "[BRA 1] Öppningskuplett"
 singer: "Alla sjunger"
 melody: "River deep, Mountain high"
 spex: tycho

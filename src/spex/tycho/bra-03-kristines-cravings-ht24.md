@@ -1,5 +1,5 @@
 ---
-title: "4. Kristines cravings (Höst)"
+title: "[BRA 3] Kristines cravings (ht24)"
 singer: "Kristine sjunger"
 melody: "Holding out for a hero"
 spex: tycho

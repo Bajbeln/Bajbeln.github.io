@@ -1,5 +1,5 @@
 ---
-title: "7. En ballad om människor och älgar (Vår)"
+title: "[BRA 5] En ballad om människor och älgar (vt25)"
 singer: "Älgen sjunger"
 melody: "Fuck you"
 spex: tycho

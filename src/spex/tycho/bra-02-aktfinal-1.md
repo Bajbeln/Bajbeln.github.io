@@ -1,5 +1,5 @@
 ---
-title: "3. Aktfinal 1"
+title: "[BRA 2] Aktfinal 1"
 singer: "Sofie sjunger duett med Sofie"
 melody: "What I've been looking for"
 spex: tycho

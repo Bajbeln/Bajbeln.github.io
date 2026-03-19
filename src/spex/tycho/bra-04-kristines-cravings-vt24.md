@@ -1,5 +1,5 @@
 ---
-title: "5. Kristines cravings (Vår)"
+title: "[BRA 4] Kristines cravings (vt24)"
 singer: "Kristine sjunger"
 melody: "Snacket på stan"
 spex: tycho

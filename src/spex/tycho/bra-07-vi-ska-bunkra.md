@@ -1,5 +1,5 @@
 ---
-title: "10. Vi ska bunkra"
+title: "[BRA 7] Vi ska bunkra"
 singer: "Trädgårdsmästaren, Sofie, Inge sjunger, Fredrik bompar"
 melody: "Mr Blue sky"
 spex: tycho

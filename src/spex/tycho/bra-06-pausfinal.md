@@ -1,5 +1,5 @@
 ---
-title: "8. Pausfinal"
+title: "[BRA 6] Pausfinal"
 singer: "Alla sjunger"
 melody: "Call me"
 spex: tycho

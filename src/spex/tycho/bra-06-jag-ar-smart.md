@@ -1,5 +1,5 @@
 ---
-title: "9. Jag är smart"
+title: "[BRA 6] Jag är smart"
 singer: "Tycho sjunger"
 melody: "Real gone"
 spex: tycho
