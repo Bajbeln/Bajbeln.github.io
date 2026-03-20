@@ -19,13 +19,13 @@ Undran och skräck jag känner
 Ska jag ta'n?
 
 Jag undrar
-Den där tvålen, killar.
+Den där tvålen, killar,
 ni vill att jag når den, killar
 Ska jag på ryggen kröka,
 och försöka ta min tvål?
 
 Dessa stora starka karlar
-har nyss gjort mig till sin vätt
+har nyss gjort mig till sin vän
 Men nu grumlas denna lycka
 av nån'ting jag har på känn
 
@@ -58,11 +58,11 @@ Mycket att överväga,
 **P:** Vad ska man tro
 **K:** Ta din tvål!
 **P:** Är det dumt?
-**K:** Nej nejnej!
+**K:** Nej nej nej!
 **P:** Nånting sånt?
 **K:** Ja, ja, ja!
 **P:** Gör det ont?
-**K:** Nejnejnej!
+**K:** Nej nej nej!
 **K:** Det är knappast att det känns
 
 Så säg mig
@@ -78,4 +78,5 @@ Vad man kan ha det skojsigt!
 **K1:** Helt otroligt,
 **K2:** Manligt roligt,
 **K3:** Lite gojsigt,
-**Alla:** Härligt, skönt och sexigt med en tvål!
+**Alla:** Härligt, skönt och sexigt
+med en tvål!

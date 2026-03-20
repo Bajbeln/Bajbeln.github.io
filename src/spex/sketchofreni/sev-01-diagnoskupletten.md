@@ -11,13 +11,13 @@ Nu ska jag bota sjuka
 Din dumma gås
 Här är din diagnos, lilla gumman!
 
-EEG - jag ser dina tankar
-EKG - ditt hjärta det bankar
-PMS - det får dig allt för lätt ur balans
+EEG &ndash; jag ser dina tankar
+EKG &ndash; ditt hjärta det bankar
+PMS &ndash; det får dig allt för lätt ur balans
 
-TBC - gå inte till lekis
-LSD - så blir du på dekis
-CSN - de ger dig ingen ärlig chans
+TBC &ndash; gå inte till lekis
+LSD &ndash; så blir du på dekis
+CSN &ndash; de ger dig ingen ärlig chans
 
 Har du problem med nåt litet eksem
 Eller kliar det var du än går?
@@ -29,13 +29,13 @@ Schizofreni, tillsammans är ni två,
 Lobotomi, man kan va glad ändå,
 hål i huvet!
 
-LW - du sover i parken
-BSE - du handlar i charken
-HIV - intimumgänge med en chimpans
+LVU &ndash; du sover i parken
+BSE &ndash; du handlar i charken
+HIV &ndash; intimumgänge med en chimpans
 
-BVC - de väger och mäter
-OLW - du är vad du äter
-BMI - där har du ingen ärlig chans
+BVC &ndash; de väger och mäter
+OLW &ndash; du är vad du äter
+BMI &ndash; där har du ingen ärlig chans
 
 Du ska få se
 Det brukar vara diarré!

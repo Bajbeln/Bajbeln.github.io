@@ -41,7 +41,7 @@
 | 35 | Nobel (NOB) | | |
 | 36 | OS-feber i Kristianstad (OSF) | | |
 | 37 | Maria Eleonora (MAR) | | |
-| 38 | Sketchofreni (SEV) | | |
+| 38 | Sketchofreni (SEV) | Korrekturläst och rättad | |
 | 39 | Carl von Linné (CvL) | | |
 | 40 | Finlands Bryggeri (FIN) | | |
 | 41 | Carl XI (CXI) | | |

@@ -6,14 +6,14 @@ spex: sketchofreni
 order: 2
 permalink: false
 ---
-_Knarkarinnan:_
+**Knarkarinnan:**
 Du som tycker din dag är grå
 jorden snurrar sitt varv ändå
 bryr sig inte så mycket om
 vem som gick och kom
-snart så skirrer en sol igen
+snart så skiner en sol igen
 på en blommande äng
-varma världar från länge sen
+varma vindar från länge sen
 spelar upp en refräng
 
 Fyra juggar och en påse kola
@@ -25,10 +25,10 @@ våga skratta och våga chansa
 fyra juggar och en påse kola
 spela freestyle med fräck musik
 
-_Alla:_
+**Alla:**
 lalalala....
 
-_Jugge 1&2:_
+**Jugge 1&2:**
 Du som har gått och väntat så
 all din längtan den ska du nå
 blicka framåt och du ska se
@@ -38,7 +38,7 @@ reser hela vårt gäng
 varma vindar i sommaren
 spelar upp vår refräng
 
-_Alla:_
+**Alla:**
 Fyra juggar och en påse kola
 spela freestyle med fräck musik
 fyra juggar och en påse kola

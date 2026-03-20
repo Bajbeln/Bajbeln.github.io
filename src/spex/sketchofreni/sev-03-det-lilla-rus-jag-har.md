@@ -20,7 +20,7 @@ Arvet jag fick av far
 Finns inte längre kvar
 Mitt socialbidrag
 Finns inte längre kvar
-Det lilla rus jag
+Det lilla rus jag har
 Finns inte längre kvar
 Inte kvar, kvar, kvar
 Inte kvar

@@ -21,7 +21,7 @@ Jag ska ta mitt liv
 Cirkelsåg och kniv
 Oh, vad underbart
 Avskedsbrevet klart:
-Mamma. pappa hej!
+Mamma, pappa hej!
 Jag ska dränka mig!
 Nu ska jag gå och dränka mig
 
@@ -29,17 +29,17 @@ Inget hyckleri, nej
 Nu ska jag sätta i mig
 Nåt med nötter i
 Trots min allergi
-Sectan ska jag blanda
+Sedan ska jag blanda
 Juice och cyanider
-Så kallad suicider
+Så kallad sui-cider
 Oj, vad det är skoj
 
 Sprit och Stesolid
 Så vilar jag i frid
 Snara och pistol
-Filmjölk från i sol
+Filmjölk från i fjol
 Massa Panodil
 Långdistansmissil
 Handgranat och svärd
 Hejdå grymma värld
-Ajöss, farväl och grymma värld
+Ajöss, farväl du grymma värld
