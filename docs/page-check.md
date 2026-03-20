@@ -60,6 +60,6 @@
 | 54 | MTV (MTV) | | |
 | 55 | Lincoln (LIN) | | |
 | 56 | Kapten Krook (KRO) | | |
-| 57 | Gyttjeblottning (GYT) | | |
+| 57 | Gyttjeblottning (GYT) | Korrekturläst och rättad | |
 | 58 | Christian IV (CIV) | | |
 | — | *Allmänna* (ALL) | | |
