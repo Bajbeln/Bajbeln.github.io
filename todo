@@ -2,7 +2,7 @@
 
 ## Buggfixar
 - Fixa sökfunktionen — svårt för ensiffriga låtnummer
-- Fixa stalin-10
+- stalin-10 måste kontrolleras
 - Undersök radbrytning vid långa rader i flerspaltsläge
 
 ## Funktioner
@@ -21,10 +21,8 @@
 - Gör flera sidor mer läsbara - favoriter (se `/docs/page-rating.md`)
 
 ## Att lägga till
-- [CXI 6] Invokation till Pelle Andersson
-- [E14 2] Aktfinal I
-- [E14 6] Usch då vad vi är rädda för varandra
-- CIV 2010 *(oklart om det ska med)*
+- [CXI 6] Invokation till Pelle Andersson - måste kontrolleras (radbryt, finns i del2)
+- CIV 2010 - finns det ens?
 - Screenshots är smått inaktuella
 - Knapp/guide för att lägga till sidan på hemskärmen alternativt app
 
