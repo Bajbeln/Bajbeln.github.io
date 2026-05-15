@@ -5,7 +5,7 @@
 |---|------|---------|---------|-----------|
 | — | *Favoriter* | för ljus | ok | |
 | 1 | Florence (FLO) | ok | ok | |
-| 2 | Öresundsbron (BRO) | | | |
+| 2 | Öresundsbron (BRO) | ok | ok | |
 | 3 | Tycho Brahe (BRA) | | | |
 | 4 | H.C. Andersen (HCA) | | | |
 | 5 | Kristina (KRI) | | | |
