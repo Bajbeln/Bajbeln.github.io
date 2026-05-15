@@ -1,10 +1,10 @@
 # Färgbetyg
-(Baserat på de migrerade sidorna)
+(OBS! Baserat på de migrerade sidorna)
 
 | # | Spex | Knappfärg | Bakgrundsfärg | Övriga anmärkningar |
 |---|------|---------|---------|-----------|
-| — | *Favoriter* | För ljus | Ok | |
-| 1 | Florence (FLO) | | | |
+| — | *Favoriter* | för ljus | ok | |
+| 1 | Florence (FLO) | ok | ok | |
 | 2 | Öresundsbron (BRO) | | | |
 | 3 | Tycho Brahe (BRA) | | | |
 | 4 | H.C. Andersen (HCA) | | | |

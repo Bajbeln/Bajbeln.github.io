@@ -2,7 +2,6 @@
 
 ## Buggfixar
 - Fixa sökfunktionen — svårt för ensiffriga låtnummer
-- stalin-10 måste kontrolleras
 - Undersök radbrytning vid långa rader i flerspaltsläge
 
 ## Funktioner
@@ -15,8 +14,7 @@
 
 ## Stil
 - ändra storlek på räändom-knapp både i start och sidorna
-- Se över alla färgerna på alla sidorna
-- Öka storlek på spexsidknapparna
+- Se över alla färgerna på alla sidorna - inkl de nya sidorna
 - Ändra "select"-färgen lite - tänker tona ner den eller göra till en svagare variant av originalknappens färg
 - Gör flera sidor mer läsbara - favoriter (se `/docs/page-rating.md`)
 
@@ -25,6 +23,7 @@
 - CIV 2010 - finns det ens?
 - Screenshots är smått inaktuella
 - Knapp/guide för att lägga till sidan på hemskärmen alternativt app
+- stalin-10 måste kontrolleras
 
 ## Kvalitetssäkring
 - Korrläs alla spex - automatiskt flaggade "fel" finns i `/docs/songtext-quality-control`
@@ -66,3 +65,6 @@ Experimentell migrering till ny sidstruktur.
 
 ### om experimentellt inte går igenom
 - flytta kollapsa alla-knapp till header
+
+## att göra - joel
+- gå igenom look och färger för nya sizor
