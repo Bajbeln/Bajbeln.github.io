@@ -296,7 +296,9 @@ button.uppsattning-link-btn:hover {
 
 button.toggle-all-btn {
   background-color: var(--yellow);
-  border-color: var(--yellow-border);
+  border: 2px outset var(--yellow-border);
+  -webkit-appearance: none;
+  appearance: none;
   border-radius: 50%;
   width: 49px;
   height: 49px;
