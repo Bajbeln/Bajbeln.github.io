@@ -1,6 +1,6 @@
 # Bajbeln – Developer Manual
 
-Krischanstaspääxets Sajber-Bajbel is a static site that serves as a searchable archive of spex lyrics. This manual covers the Eleventy-based build system used to generate it.
+Krischanstaspääxets Sajber-Bajbel är en statisk sida för spääxets sångtexter. Här finns information om Eleventy-baserade systemet för sidan.
 
 ---
 
