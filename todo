@@ -7,20 +7,21 @@
 ## Funktioner
 - Expanderbar inuti expanderbar (se Pausfinalen HC A)
 - Abstrahera sök och randomize
-- Share-knapp istället för kopiera länk? (kanske inte)
 - Kanske ett konto-system i framtiden för favoriter-system och röstsystem
 - Flytta settings-knapp på sidorna upp så att den inte överlappar på mobil
+- Info-ruta om varje spex?
 
 ## Stil
 - ändra storlek på räändom-knapp både i start och sidorna
 - Se över alla färgerna på alla sidorna - inkl de nya sidorna
 - Ändra "select"-färgen lite - tänker tona ner den eller göra till en svagare variant av originalknappens färg
 - Gör flera sidor mer läsbara - favoriter (se `/docs/page-rating.md`)
+- gå igenom look och färger för nya sidor
+- återställa avståndet mellan låtboxarna som i gamla?
 
 ## Att lägga till
 - [CXI 6] Invokation till Pelle Andersson - måste kontrolleras (radbryt, finns i del2)
 - CIV 2010 - finns det ens?
-- Screenshots är smått inaktuella
 - Knapp/guide för att lägga till sidan på hemskärmen alternativt app
 - stalin-10 måste kontrolleras
 
@@ -34,7 +35,6 @@
 - border i textrutorna i reading mode
 
 ## Experimentellt
-- refaktorisera css - påbörjad
 - går det att göra någon favoriter/spara-funktion? helst utan inloggning
 
 ### Migrering av sida OBS
@@ -53,7 +53,3 @@ Experimentell migrering till ny sidstruktur.
 - Fördelar för användare: Nya funktioner som att kunna kopiera länk till enskild låt, potentiella nya funktioner som att kunna välja att söka efter låttext. Kortare länkar! `bajbeln.github.io/spex/leonardo/` blir `bajbeln.github.io/leonardo/`
 
 - För utvecklare: Betydligt lättare att underhålla. Alla låtar är i sina egna .md-filer och byggs sedan ihop till sidor efter ett fåtal mallar - en justering i mallen påverkar alla sidorna. En korrigering i en av originalsångerna speglas direkt till korresponderande sång i favoriter-sidan. Lättare att underhålla då sångfilerna har automatisk radbrytning. Förhoppningsvis färre manuella steg genom automatisk tilläggning i startsida och i sökindex. Mer strukturerat än innan då allt för ett visst spex låg i samma fil - nu ligger de i samma mapp. Borde underlätta en eventuell övergång till en dynamisk sida.
-
-## att göra - joel
-- gå igenom look och färger för nya sizor
-- återställa avståndet mellan låtboxarna som i gamla?

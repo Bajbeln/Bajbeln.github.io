@@ -23,14 +23,14 @@
     ],
     "screenshots": [
         {
-            "src": "/assets/images/manifest/screenshot_old.png",
-            "sizes": "1879x868",
+            "src": "/assets/images/manifest/screenshot.png",
+            "sizes": "2692x1558",
             "type": "image/png",
             "form_factor": "wide"
         },
         {
-            "src": "/assets/images/manifest/screenshot_narrow_old.png",
-            "sizes": "645x859",
+            "src": "/assets/images/manifest/screenshot_narrow.png",
+            "sizes": "958x1550",
             "type": "image/png",
             "form_factor": "narrow"
         }
