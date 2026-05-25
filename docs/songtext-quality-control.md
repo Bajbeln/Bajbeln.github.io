@@ -12,13 +12,13 @@
 | 6 | Kräftor Kräva Dessa Drycker! (KRÄ) | ok - fixat | |
 | 7 | Hilma af Klint (HIL) | ok - fixat | |
 | 8 | Loshultskuppen (LOS) | ok | |
-| 9 | Sketchostrof (ROF) | [ROF 3] Skolis kurviosa exposé: "kuviosa" i brödtext — troligt OCR-fel för "kurviosa" ('r' tolkades som 'v'). | |
+| 9 | Sketchostrof (ROF) | ok | |
 | 10 | Erik XIV (E14) | **1995/96:** [E14 2] Aktfinal I och [E14 6] Usch då vad vi är rädda för varandra saknar låttext — källfilen (HTML) hade redan platshållartext (SJUNGS_AV/MELODI/SÅNGTEXT), inga lyrics existerar i källan. [E14 7] Aktfinal III: "Stiick!!"→"Stick!!". **2004/05:** [E14 12] Antikärleksduett: "Henna" i talarmarkering — troligt "Hebba" (inkonsekvent med övriga förekomster). [E14 13] Om kungen dog: svårt garblerade passager: "kuttrasju" (oklart), "kexchokla'" (nonsens), "fulingarna" (oklart) — kräver granskning mot originalkälla. [E14 14] Vi möbelerar om: "schläsong"→"schäslong". **2021:** Inga anmärkningar. | |
 | 11 | Lafayette (LAF) | Inga anmärkningar. | |
 | 12 | Eva Ekeblad (EVA) | ok | |
 | 13 | Leonardo (LEO) | ok | |
-| 14 | Synden i Mölle (SIM) | Många OCR-fel.[SIM 2] Vem kan skiljas...: "Agda 1illa"→"Agda Lilla" (siffra '1' för 'L'), "kommery"→"kommer". [SIM 3] Varning för synd: "Gøbriel Stenzelíus"→"Gabriel Stenzelius" (ø och accent), "snusþ"→"snusk" (þ-tecken), "]ag"→"Jag". [SIM 5] Revolutionsromantik: "fean-Claude"→"Jean-Claude", "1åg"→"låg". [SIM 6] Nock är nock: "Syksester"→"Sylvester". | |
-| 15 | Sketchofori (SKO) | Flera OCR-fel. [SKO 1] Ett tragiskt liv: "paträrkatet"→"patriarkatet"; "imaginaltastisk" — garblerat, oklart. [SKO 3] Rop på hjälp till självhjälp: "þckte"→"Tyckte" (þ-tecken). [SKO 3] Starriga parallella älskare: "jagkunde"→"jag kunde", "willåka"→"vill åka". [SKO 4/5] "fâvara" (×2) → "få vara". | |
+| 14 | Synden i Mölle (SIM) | ok - fixat | |
+| 15 | Sketchofori (SKO) | ok - fixat | |
 | 16 | Katarina den stora (KAT) | [KAT 2] Patriarkernas introduktionssång: filen innehåller bara en textrad — troligt ofullständig migrering. [KAT 6] Trakasserier i den treeniga trons tribunal: allvarliga namninkonsistenser: "Fossmovitj" skrivs också "Fossmoaitj" och "Fossmouitj"; "Gavin" skrivs "Gaain" i flera rader; "Patriarken" skrivs "Patetrik" — kräver manuell granskning mot originalkälla. | |
 | 17 | Hindenburg (HIN) | Flera OCR-fel. [HIN 1] Flyg med oss: "Frankliru"→"Franklin"; "Flukta mot skeppel" — "skeppel" oklart. [HIN 1] En stadsmansgöring...: "du och jug" — "jug" möjligen dialektalt eller OCR-fel. [HIN 3] Cargocult: "stenig åkec"→"åker", "sklijer"→"skiljer". [HIN 5] Dödens vind...: "tross-stunp" — oklart ord, troligt OCR-fel. [HIN 6] Slutslask: "pä"→"på", "vâr"→"vår" (teckenkodning). | |
 | 18 | Kleopatra (KLE) | Flera OCR-fel. [KLE 1] Kleopatras introduktionskomplott: "gär iland"→"går i land", "Jagär"→"Jag är". [KLE 2] Broman empire: "inte Caesar:" som talarmarkering — troligt OCR-fel för karaktärsnamn. [KLE 3] Det är insidan som räknas: "samtidf"→"samtid". [KLE 4] Kuplett om mordvapen: "Den stora sfund" — oklart, möjligen "grund" eller "stund". [KLE 4] Nu dör jag visst: "hiärta"→"hjärta", "g¡ort"→"gjort". [KLE 4] Tjära på ett skrov: "Bourdeux"→"Bordeaux". [KLE 6] Nu är hon faktiskt dödad faktiskt: "Encla tragedin" — oklart, troligt OCR-fel. [KLE 8] Anatomtom bossa: "fortplantningsstmktur"→"struktur". | |
