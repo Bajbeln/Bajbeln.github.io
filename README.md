@@ -8,7 +8,9 @@ Spexen finns som filer i `/src/spex`, där kupletterna finns som .md-filer. orig
 
 
 ## Lägga till ett spex
-Kopiera mallen `/spex/spex-sample.html` och anpassa den för ditt spex. Lägg sedan in spexet i `src/_data/spexlist.json` så att det dyker upp på startsidan. 
+Kopiera mall-mappen `/src/spex/_template_single` för enkeluppsättningsspääx eller `/src/spex/_template_multi` för fleruppsättningsspääx och anpassa den för spääxet i fråga. 
+
+Lägg sedan in spexet i `src/_data/spexlist.json` så att det dyker upp på startsidan. 
 
 Glöm inte att du gärna får lägga till källfilen i `assets/song_files`.
 
