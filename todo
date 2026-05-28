@@ -28,7 +28,6 @@
 ## Idéer
 - Tjockare logga i icon (inte på sidorna)
 - Skrolla ner till sången (titeln uppe) vid träff
-- border i textrutorna i reading mode
 
 ### Migrering av sida OBS
 - OBS (Test-)migrering av sidan just nu pausad, lyckas inte hitta någon snygg lösning som både kör automatisk <br> och jämna flerkolumnssektioner. Den implementation jag körde innan (i filerna i /src) hanterade <br> snyggt, men krävde html och manuella <br> för flerkolumnssektioner.
