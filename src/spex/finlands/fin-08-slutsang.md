@@ -13,7 +13,7 @@ Nu får det bli bröllop och det hastar
 **Pekka:** Svensken blev till slut min vän
 Och vi slipper slå igen
 Låt oss fira, nu går vi och bastar
-**Wow:** Strunt i Målar-Micke, han var ändå en gris
+**WoW:** Strunt i Målar-Micke, han var ändå en gris
 Vi vill gärna trösta dig på vårt lilla vis
 **Ulla:** Jag kan inte välja karl
 Vi får bli ett udda par

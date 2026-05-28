@@ -9,7 +9,7 @@ permalink: false
 
 **Nobel:**
 Ta mig nu till äkta
-Så jag slippersmäkta
+Så jag slipper smäkta
 Och jag gör dig inte besviken
 Med en vältrimmad kropp
 Som presterar på topp
@@ -45,7 +45,7 @@ Till en sådan bra affär kan ingen säga nej
 **Nobel:**
 Lilla söta Berta
 Dig ger jag mitt hjärta
-Låt oss prova på ronrantiken
+Låt oss prova på romantiken
 Det blir riktigt kul
 För du är inte ful
 När jag nu ska växla ringar med dig

@@ -11,8 +11,8 @@ Krischanstaspääxets Sajber-Bajbel är en statisk webbsida för spääxets sån
 | Statisk sidoskapare | [Eleventy](https://www.11ty.dev/) 3.x |
 | Mallar | Nunjucks (`.njk`) |
 | Markdown-renderare | markdown-it 14 (`html: true`, `breaks: true`) |
-| Värd | GitHub Pages, distribueras från `_site/` |
-| Byggtrigger | Automatisk (GitHub Actions) |
+| Host | GitHub Pages, distribueras från `_site/` |
+| Build trigger | Automatisk (GitHub Actions) |
 
 ---
 
@@ -57,7 +57,7 @@ Krischanstaspääxets Sajber-Bajbel är en statisk webbsida för spääxets sån
 
 ## Lokal utveckling
 
-### Förutsättningar
+### Krav
 
 - **Node.js 18+** (Node.js 20 rekommenderas — det är vad CI använder). Ladda ner från [nodejs.org](https://nodejs.org/).
 - **npm** — följer med Node.js, ingen separat installation krävs.
