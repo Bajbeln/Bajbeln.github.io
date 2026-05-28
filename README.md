@@ -20,9 +20,10 @@ npm run start
 ```
 
 ## På gång & kända fel (mer på `todo`)
-Korrläsning av alla spex (på gång)
+- Korrläsning av alla spex (på gång)
+- Migrering till ny sidstruktur (på gång)
 
-Sökfunktionen ger fel ibland, oftast beror det på att titeln inte skrivits in rätt i songIndex eller i spexsidan. Kontrollera då så att de två överensstämmer med varandra.
+- Sökfunktionen ger fel ibland, oftast beror det på att titeln inte skrivits in rätt i songIndex eller i spexsidan. Kontrollera då så att de två överensstämmer med varandra.
 
 ## Tack till
 - Kodning har gjorts av Joel Takahashi Olsson, Jacob Annefors och Johan Furuhjelm.

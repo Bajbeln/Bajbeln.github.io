@@ -8,7 +8,7 @@
 - Expanderbar inuti expanderbar (se Pausfinalen HC A)
 - Abstrahera sök och randomize
 - Kanske ett konto-system i framtiden för favoriter-system och röstsystem
-- Flytta settings-knapp på sidorna upp så att den inte överlappar på mobil
+- Flytta settings-knapp på sidorna upp så att den inte överlappar på mobil (?)
 - Info-ruta om varje spex?
 
 ## Stil
@@ -16,28 +16,25 @@
 - Gör flera sidor mer läsbara - favoriter (se `/docs/page-rating.md`)
 
 ## Att lägga till
-- [CXI 6] Invokation till Pelle Andersson - måste kontrolleras (radbryt, finns i del2)
 - CIV 2010 - finns det ens?
 - Knapp/guide för att lägga till sidan på hemskärmen alternativt app
-- stalin-10 måste kontrolleras
 
 ## Kvalitetssäkring
 - Korrläs alla spex - automatiskt flaggade "fel" finns i `/docs/songtext-quality-control`
+- [CXI 6] Invokation till Pelle Andersson - måste kontrolleras (radbryt, finns i del2)
 - Ersätt låtnummer med hänvisningar till bajbelsidor för Kristina 2023/24
+- stalin-10 måste kontrolleras
 
 ## Idéer
 - Tjockare logga i icon (inte på sidorna)
-- Skrolla ner till sången (titeln uppe) vid träff
 
 ### Migrering av sida
 - Nu (260528) har jag (Joel) testat med att återuppta migreringen då kolumner kan fås någorlunda okej. Måste dock kolla igenom alla spexsidorna. OCR-felen som rättats på de gamla sidorna måste föras över till de nya sidorna.
 
 ### Migrering av sida - inte aktuella nu när migreringen är pausad
-- Kunna toggla mellan att söka på låttitel eller sångtext och kanske medlodi, spex, sångare
-- Kontrollera alla nya spexsidor
+- Kontrollera alla nya spexsidor mot källa (pdf:er)
 - Expandera alla knappen verkar inte ha rätt borders på mobil iaf
 - Skapa en valbar faktaruta-popup för varje spexsida
-- Öka radavstånd i nya textsidor?
 
 Stod tidigare i `README.md` under på gång:
 Experimentell migrering till ny sidstruktur. 
@@ -45,5 +42,3 @@ Experimentell migrering till ny sidstruktur.
 - Fördelar för användare: Nya funktioner som att kunna kopiera länk till enskild låt, potentiella nya funktioner som att kunna välja att söka efter låttext. Kortare länkar! `bajbeln.github.io/spex/leonardo/` blir `bajbeln.github.io/leonardo/`
 
 - För utvecklare: Betydligt lättare att underhålla. Alla låtar är i sina egna .md-filer och byggs sedan ihop till sidor efter ett fåtal mallar - en justering i mallen påverkar alla sidorna. En korrigering i en av originalsångerna speglas direkt till korresponderande sång i favoriter-sidan. Lättare att underhålla då sångfilerna har automatisk radbrytning. Förhoppningsvis färre manuella steg genom automatisk tilläggning i startsida och i sökindex. Mer strukturerat än innan då allt för ett visst spex låg i samma fil - nu ligger de i samma mapp. Borde underlätta en eventuell övergång till en dynamisk sida.
-
-- OBS notera att ocr-fixar har bara gjorts på de äldre html-sidorna, och behöver föras över till de nya eleventy-sidorna om det skulle vara aktuellt.
