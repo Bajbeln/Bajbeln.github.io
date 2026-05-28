@@ -24,7 +24,7 @@ Kanske slutprodukten verkar något inkomplett
 Jag skapar flygplan
 Jag gör ubåtar
 Och stalinorgeln som jag byggt är originell
-Men den är inte rikHgt klar än
+Men den är inte riktigt klar än
 Det är några saker kvar, men
 Kanske nästa vecka finns den, som modell
 

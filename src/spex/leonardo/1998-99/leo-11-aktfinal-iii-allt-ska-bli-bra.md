@@ -37,7 +37,7 @@ Till ljuv romans
 **Båda:** När på en otäckt listig plan vi vred
 Lurad blev Maffiavelli med besked
 Hon tror att allt är klart
-Men llir väl märka snart
+Men blir väl märka snart
 Att hennes spel
 Har gått helt fel
 

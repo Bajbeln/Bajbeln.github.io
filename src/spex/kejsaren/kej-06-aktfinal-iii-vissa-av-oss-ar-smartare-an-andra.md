@@ -14,26 +14,22 @@ Att säga du glömt den nån annanstans
 **Kej:** Eller också där
 **YS:** Den ska rädda Kinas land
 
-<div class="row">
-  <div class="column">
-    <b>YS:</b><br>
-    För en kommunist<br>
-    Med arbetarlist<br>
-    Segrar till sist
-  </div>
-  <div class="column">
-    <b>K, LS:</b><br>
-    Det kan sägas visst<br>
-    Att hamna i klist-<br>
-    ret är en brist
-  </div>
-  <div class="column">
-    <b>MJ:</b><br>
-    Ont i knopp, kropp<br>
-    Ett hopp<br>
-    En dropp-flopp
-  </div>
-</div>
+::: cols
+**YS:**
+För en kommunist
+Med arbetarlist
+Segrar till sist
+::: col
+**K, LS:**
+Det kan sägas visst
+Att hamna i klist-
+ret är en brist
+::: col
+**MJ:**
+Ont i knopp, kropp
+Ett hopp
+En dropp-flopp
+:::
 
 **MJ:** Är fyllerist
 
@@ -42,53 +38,45 @@ Att säga du glömt den nån annanstans
 **LS:** Kan bli fläck så blöt
 **Kej:** Jag vill hellre ha det torrt
 
-<div class="row">
-  <div class="column">
-    <b>YS:</b><br>
-    Slut på folkförakt<br>
-    I härskarens takt<br>
-    I denna trakt
-  </div>
-  <div class="column">
-    <b>K, LS:</b><br>
-    Om vår kejsarmakt<br>
-    Min dumhet förlagt<br>
-    Så blir det slakt
-  </div>
-  <div class="column">
-    <b>MJ:</b><br>
-    Ont i knopp, kropp<br>
-    Ett hopp<br>
-    En dropp-flopp
-  </div>
-</div>
+::: cols
+**YS:**
+Slut på folkförakt
+I härskarens takt
+I denna trakt
+::: col
+**K, LS:**
+Om vår kejsarmakt
+Min dumhet förlagt
+Så blir det slakt
+::: col
+**MJ:**
+Ont i knopp, kropp
+Ett hopp
+En dropp-flopp
+:::
 
 **MJ:** |: Slut på min akt
 **LKY:** I racertakt :|
 
-<div class="row">
-  <div class="column">
-    <b>MJ:</b> Aj, aj, aj...<br>
-    Någon<br>
-    <br>
-    Min hjärna har malt<br>
-    Sen jag obetänksamt<br>
-    <br>
-    Rusdrycken svalt<br>
-    Tankar hoppar<br>
-    Som laxar i älv<br>
-    Vill trolla bort mig själv
-  </div>
-  <div class="column">
-    <br>
-    <b>LS:</b> Ha<br>
-    <b>K:</b> En<br>
-    <b>YS:</b> Stämpel<br>
-    <b>LS:</b> Är<br>
-    <b>K:</b> En<br>
-    <b>YS:</b> Praktgrej
-  </div>
-</div>
+::: cols
+**MJ:** Aj, aj, aj...
+Någon
+
+Min hjärna har malt
+Sen jag obetänksamt
+
+Rusdrycken svalt
+Tankar hoppar
+Som laxar i älv
+Vill trolla bort mig själv
+::: col
+**LS:** Ha
+**K:** En
+**YS:** Stämpel
+**LS:** Är
+**K:** En
+**YS:** Praktgrej
+:::
 
 **Kej:** Är det nu mitt fel
 **MJ:** Mina öron töjdes ut

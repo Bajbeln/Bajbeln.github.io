@@ -9,7 +9,7 @@ permalink: false
 Jag är Niccoló Maffiavelli
 Och ve den som tror att jag ger upp
 De ska krossas när jag ikväll i
-Påvepalatset genomför min krpp
+Påvepalatset genomför min kropp
 
 Jag har mördat och intrigerat
 För att uppnå min ambition

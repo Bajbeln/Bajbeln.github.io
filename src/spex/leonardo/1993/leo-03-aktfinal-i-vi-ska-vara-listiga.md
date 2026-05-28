@@ -14,7 +14,7 @@ Då vi har ingått i en kärlekspakt
 **Gio:** Ja, jag vill ha dig, ta i dig
 **Mona:** Blir det inte bra, säj?
 För min fars grej...
-**Gin:** Hans grej?
+**Gio:** Hans grej?
 **Mona:** Den måste bytas ut
 Så om vi byter först
 **Gio:** Åh, min kärlekstörst!

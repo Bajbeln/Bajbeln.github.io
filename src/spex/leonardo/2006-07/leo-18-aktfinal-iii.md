@@ -1,14 +1,12 @@
 ---
 title: "[LEO 18] Aktfinal III"
-singer: "(Gioaanni, Mona och Frk Maffianelli sjunger)"
+singer: "(Giovanni, Mona och Frk Maffianelli sjunger)"
 melody: "Ding Dong, Merrily on High"
 spex: leonardo-2006-07
 order: 6
 permalink: false
 ---
-<div class="row">
-<div class="column">
-
+::: cols
 **Giovanni o Mona:**
 Si så där, då var det klart
 Vår plan den är förseglad
@@ -37,10 +35,7 @@ Ja-a-a-a-a-ag
 Ä-ä-ä-ä-ä-är
 Vi-i-i-i, och kärleken
 Den sanna lyckan äro:/
-
-</div>
-<div class="column">
-
+::: col
 **Frk Maffiavelli:**
 Nyckeln till vår plan jag har
 Med den jag skiftar makten
@@ -63,6 +58,4 @@ Och stanna i vår ägo
 ja nu ska påvemakten, påvemakten
 bli vår, äntligen
 och stanna, stanna i vår ägo:/
-
-</div>
-</div>
+:::

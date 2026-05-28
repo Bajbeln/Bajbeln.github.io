@@ -32,9 +32,7 @@ När jag spräcker din läpp kommer
 Tänderna att ramla ut åt
 Alla håll
 
-<div class="row">
-  <div class="column">
-
+::: cols
 **Gustav**
 
 Pong
@@ -52,9 +50,7 @@ I magen, ja
 Nä, nu skjuter jag dig för böveln
 I röven
 Den där
-  </div>
-  <div class="column">
-
+::: col
 **Wallenstein**
 Du har ett huvud som en ping
 
@@ -70,8 +66,7 @@ Hem till mamma
 
 Ja spring dit nu
 Med detsamma
-  </div>
-</div>
+:::
 
 **Gustav**
 Det ska bli mig ett nöje att göra dig
@@ -85,9 +80,7 @@ Ska besegla ditt öde din proletär
 Får du en krona för varje hack jag skär
 Kommer du snart va miljonär
 
-<div class="row">
-  <div class="column">
-
+::: cols
 **Gustav**
 Du din larviga lilla mask
 Kan ta och kräla
@@ -96,9 +89,7 @@ Upp och ner och in och ut
 Upp och ner och in och ut
 Upp och ner och in och ut
 In och ut och in
-  </div>
-  <div class="column">
-
+::: col
 **Wallenstein**
 
 Du din
@@ -106,20 +97,15 @@ Störda
 Körda
 Baga-
 tell
-  </div>
-</div>
+:::
 
-<div class="row">
-  <div class="column">
-
+::: cols
 Du ska
 Få en
 Jädra
 Jätte-
 smäll
-  </div>
-  <div class="column">
-
+::: col
 Bered dig på en duell
 Då jag kan börja
 Hugga hacka lugga nacka
@@ -127,8 +113,7 @@ Tugga smacka kackerlacka
 Hugga hacka lugga nacka
 Tugga smacka kackerlacka
 Tugga tugga tugg
-  </div>
-</div>
+:::
 
 **Gustav**
 Idiot, jag ska lära dig veta hut

@@ -10,7 +10,7 @@ Var sommar'n -32
 Uti Paris jag bodde
 Vid Place de la Concorde
 Vi var ett vackert gäng
-Jag, fean-Claude och Solenne
+Jag, Jean-Claude och Solenne
 Vår egna bataljon
 I folkets revolution
 Mot kungar och patrask
@@ -28,7 +28,7 @@ Ja, ner med monarkin!
 Reaktionära svin!
 Nu ska ni allt få sma-
 -ka på demokratin
-la, där 1åg Seine så brun
+Ja, där låg Seine så brun
 Och bakom avenyn
 Låg vår Pariskommun
 Den vackraste jag sett!

@@ -29,8 +29,8 @@
 - Tjockare logga i icon (inte på sidorna)
 - Skrolla ner till sången (titeln uppe) vid träff
 
-### Migrering av sida OBS
-- OBS (Test-)migrering av sidan just nu pausad, lyckas inte hitta någon snygg lösning som både kör automatisk <br> och jämna flerkolumnssektioner. Den implementation jag körde innan (i filerna i /src) hanterade <br> snyggt, men krävde html och manuella <br> för flerkolumnssektioner.
+### Migrering av sida
+- Nu (260528) har jag (Joel) testat med att återuppta migreringen då kolumner kan fås någorlunda okej. Måste dock kolla igenom alla spexsidorna. OCR-felen som rättats på de gamla sidorna måste föras över till de nya sidorna.
 
 ### Migrering av sida - inte aktuella nu när migreringen är pausad
 - Kunna toggla mellan att söka på låttitel eller sångtext och kanske medlodi, spex, sångare

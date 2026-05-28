@@ -22,7 +22,7 @@ permalink: false
 Om du inte lägger av så blir det krig!
 
 **K:** Äh, au snackar bara strunt och fìffel och båg
-**C:** Nej, jag rnenar allvar jag ska klå dig, ditt fä
+**C:** Nej, jag menar allvar jag ska klå dig, ditt fä
 
 **K:** Av dig gör jag köttfärs och slår in i pirog
 **C:** Och av bara farten ska jag bränna ner Wä

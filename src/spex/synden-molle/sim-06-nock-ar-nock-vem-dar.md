@@ -15,7 +15,7 @@ bort från mölle-marken
 — Ja de ska kastas bort från denna stad
 **Penelope:** -lat
 **Mormor:** - Klart.
-**Syksester:** -la!
+**Sylvester:** -la!
 
 **Alla:** - Nu kämpar vi tillbaka, så att det
 börjar knaka,

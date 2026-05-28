@@ -26,7 +26,7 @@ I världens främsta nation
 känd för för erotik och inflation
 
 Kan vi säkerställa näring för idag?
-Ska vi inte snacka ingenjörskonst, du och jug?
+Ska vi inte snacka ingenjörskonst, du och jag?
 Kom till min kvarterskrog
 Vi blir kvar till stängning
 När vi häver öl och äter knödel blundar jag och tänker:

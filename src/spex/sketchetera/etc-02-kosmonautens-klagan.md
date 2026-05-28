@@ -48,26 +48,21 @@ bestämmer oavsett
 och jag vill bli: den som delar ut prao
 till håglösa femteklassare
 
-<div class="row">
-  <div class="column">
-    Jag vill bli Syo<br>
-    och Gud vet<br>
-    att Syon jämt har rätt<br>
-    Jag vill bli!<br>
-    <br>
-    Jag vill bli!<br>
-    <br>
-    Jag vill bli!<br>
-    Jag vill bli!
-  </div>
-  <div class="column">
-    <br>
-    <br>
-    (<b>Kör:</b> Alltid rätt)<br>
-    <br>
-    (En Syo väljer rätt)<br>
-    (Alltid rätt)<br>
-    (En Syo väl-)<br>
-    (jer rätt)
-  </div>
-</div>
+::: cols
+Jag vill bli Syo
+och Gud vet
+att Syon jämt har rätt
+Jag vill bli!
+
+Jag vill bli!
+
+Jag vill bli!
+Jag vill bli!
+::: col
+(**Kör:** Alltid rätt)
+
+(En Syo väljer rätt)
+(Alltid rätt)
+(En Syo väl-)
+(jer rätt)
+:::

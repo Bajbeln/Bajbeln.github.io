@@ -14,25 +14,22 @@ Hon har dunstat
 Hon är försvunnen
 _(Talas)_ Kanske är hon uppbrunnen
 
-<div class="row">
-  <div class="column">
-    <b>Conny:</b><br>
-    Min flicka är väck<br>
-    Han är inte här<br>
-    Och mitt liv är en misär<br>
-    Han kanske gått bort<br>
-    Och det vore hemskt<br>
-    Å var är min hjärtas kär?
-  </div>
-  <div class="column">
-    <b>De andra:</b><br>
-    Väck, väck, väck<br>
-    Väck, väck, väck<br>
-    Och vårt liv är en misär<br>
-    Bort, bort, bort<br>
-    Aj, aj, aj
-  </div>
-</div>
+::: cols
+**Conny:**
+Min flicka är väck
+Han är inte här
+Och mitt liv är en misär
+Han kanske gått bort
+Och det vore hemskt
+Å var är min hjärtas kär?
+::: col
+**De andra:**
+Väck, väck, väck
+Väck, väck, väck
+Och vårt liv är en misär
+Bort, bort, bort
+Aj, aj, aj
+:::
 
 _Refräng, alla:_
 Det är trist, det är trist så här isär!
@@ -50,29 +47,26 @@ När jag hade henne här
 Men nu har jag försuttit chansen
 _(Talas)_ Sålde'na för två gulden
 
-<div class="row">
-  <div class="column">
-    <b>Slugo:</b><br>
-    Det är inte kul<br>
-    Att va utan tjej<br>
-    <b>Benny:</b><br>
-    Han kanske längtar efter mig<br>
-    <b>Slugo:</b><br>
-    Den känns i min kropp<br>
-    Ifrån tå till topp<br>
-    <b>Benny:</b><br>
-    Å om jag kunde hitta dig!<br>
-    <br>
-    <i>Refräng</i>
-  </div>
-  <div class="column">
-    <b>De andra:</b><br>
-    Kul, kul, kul<br>
-    Tjej, tjej, tjej<br>
-    <b>De andra:</b><br>
-    De kanske längtar efter oss<br>
-    <b>De andra:</b><br>
-    Kropp, kropp, kropp<br>
-    Snopp, snopp, snopp
-  </div>
-</div>
+::: cols
+**Slugo:**
+Det är inte kul
+Att va utan tjej
+**Benny:**
+Han kanske längtar efter mig
+**Slugo:**
+Den känns i min kropp
+Ifrån tå till topp
+**Benny:**
+Å om jag kunde hitta dig!
+
+*Refräng*
+::: col
+**De andra:**
+Kul, kul, kul
+Tjej, tjej, tjej
+**De andra:**
+De kanske längtar efter oss
+**De andra:**
+Kropp, kropp, kropp
+Snopp, snopp, snopp
+:::

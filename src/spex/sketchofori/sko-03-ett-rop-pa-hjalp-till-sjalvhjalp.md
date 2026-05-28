@@ -10,7 +10,7 @@ har jag haft det hårt
 valet av utbildning
 visade sig svårt
 Filosofiska studier
-þckte jag va' trist
+Tyckte jag va' trist
 Tappade snart tron
 Och blev nihilist
 

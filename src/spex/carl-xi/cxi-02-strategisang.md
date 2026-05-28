@@ -6,50 +6,46 @@ spex: carl-xi
 order: 2
 permalink: false
 ---
-<div class="row">
-  <div class="column">
-    <b>Coyet:</b><br>
-    Min strategi<br>
-    Består uti<br>
-    Att vår kung Kalles frieri<br>
-    Får som effekt<br>
-    Att han blir släkt<br>
-    Med Krischan och vi har<br>
-    Fred direkt<br>
-    Artilleri och infanteri<br>
-    Är fåfängt manligt fåneri<br>
-    Nej, kvinnlig list är mer min<br>
-    melodi
-  </div>
-  <div class="column">
-    <b>Gyllenstierna:</b><br>
-    <br>
-    I krig är det, som alla vet,<br>
-    Ingen finess att va diskret<br>
-    Visst, kvinnlig list<br>
-    Kan ge en frist.<br>
-    Men ack, till sist krävs att<br>
-    En dristig livsgardist<br>
-    Med iskallt stål<br>
-    Och glödhett bly<br>
-    Får dansken fly<br>
-    Hem till sin by
-  </div>
-  <div class="column">
-    <b>Kalle:</b><br>
-    <br>
-    Och hon, babushka<br>
-    Mesetant<br>
-    Och han bidibi,<br>
-    Fefefjant<br>
-    Men jag kaplonka, fakka,<br>
-    jättepistol<br>
-    Kaboom, kaboom,<br>
-    Ba så jädra cool<br>
-    Så dom va göö gaa, väck<br>
-    Men jag oano, shugadi, fräck
-  </div>
-</div>
+::: cols
+**Coyet:**
+Min strategi
+Består uti
+Att vår kung Kalles frieri
+Får som effekt
+Att han blir släkt
+Med Krischan och vi har
+Fred direkt
+Artilleri och infanteri
+Är fåfängt manligt fåneri
+Nej, kvinnlig list är mer min
+melodi
+::: col
+**Gyllenstierna:**
+
+I krig är det, som alla vet,
+Ingen finess att va diskret
+Visst, kvinnlig list
+Kan ge en frist.
+Men ack, till sist krävs att
+En dristig livsgardist
+Med iskallt stål
+Och glödhett bly
+Får dansken fly
+Hem till sin by
+::: col
+**Kalle:**
+
+Och hon, babushka
+Mesetant
+Och han bidibi,
+Fefefjant
+Men jag kaplonka, fakka,
+jättepistol
+Kaboom, kaboom,
+Ba så jädra cool
+Så dom va göö gaa, väck
+Men jag oano, shugadi, fräck
+:::
 
 _(Alla sjunger därefter ovanstående ungefär samtidigt)_
 

@@ -14,7 +14,7 @@ Har du älskat med en get
 Då kan jag lova att han vet
 Men ta det kallt
 
-**Sally oclt Sylaester:**
+**Sally och Sylvester:**
 Synder kan så lätt förlåtas
 Om du betalar bra
 
@@ -27,7 +27,7 @@ Härligt, häiligt
 och saligt, saligt
 Synd är lagligt
 
-**Rolterto:**
+**Roberto:**
 _(pratas)_ bara du betalar för't
 
 **Sandra:**

@@ -12,7 +12,7 @@ Sylaester: Äcket!
 Kung Gustav V: Sigfrid?
 Gabriel Stenzelius: Otukt!
 
-Gøbriel Stenzelíus:
+Gabriel Stenzelius:
 Idag har vi bevittnat ett syndafall i
 proportion med Edens lustgård,
 här i vårt eget Mölle!
@@ -29,14 +29,14 @@ Att på vårt dambad
 man nu kan skåda
 Sveriges konung i underdräkt
 
-Skam, synd, snusk, äckel hädelse, otukt!
-Skam, synd, snusþ äckel, hädelse, otukt!
+Skam, synd, snusk, äckel, hädelse, otukt!
+Skam, synd, snusk, äckel, hädelse, otukt!
 
 Varning för synd, synd, synd, synd!
 Varning för synd, synd, synd, synd!
 
-lagtror jag svimmar (jag tror jag svimmar)
-]ag tror jag rodnar (jagtror jag rodnar)
+Jag tror jag svimmar (jag tror jag svimmar)
+Jag tror jag rodnar (jagtror jag rodnar)
 Kan det va'brott mot Kristenlag?
 Men ett sånt rykte (men detta rykte)
 Ett syndens fäste (ett glädjenäste)

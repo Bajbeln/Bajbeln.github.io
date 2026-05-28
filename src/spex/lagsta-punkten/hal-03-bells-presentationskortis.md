@@ -13,7 +13,7 @@ För alla världens skatter tar vi britter i förvar
 
 Se den kända arkeologen!
 Mitt namn är Gertrude Bell
-Om du fuåryar mina landsmän
+Om du frågar mina landsmän
 är jag inte kriminell
 trots att jag plundrar gravar,
 idkar helgerån

@@ -13,7 +13,7 @@ Bara för att han har bandage
 Han ska le, han ska le, han ska le, han ska le
 Fast ett förvridet ryck han får
 När han fram på kryckan går
-Haan nog ändå lyckan når
+Han nog ändå lyckan når
 Han ska le, han ska le, han ska le, han ska le
 Ja, inget jävla daltande
 För att han är haltande

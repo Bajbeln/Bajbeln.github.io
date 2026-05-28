@@ -13,7 +13,7 @@ permalink: false
 **Rut:** Pumpa läns!
 **Gull-Britt:** Men när de rabblat Skånes städer
 Och gått hem till sina fäder
-Klär vi oss i lack och läder - knn på den
+Klär vi oss i lack och läder - känn på den
 **Rut:** Jajemän!
 
 **Alla:** Vi sjunger aj, aj! Jippi, jippi! Aj! Jippi! Aj!

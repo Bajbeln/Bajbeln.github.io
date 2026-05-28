@@ -6,61 +6,55 @@ spex: lagsta-punkten
 order: 2
 permalink: false
 ---
-<div class="row">
-  <div class="column">
-    <b>de la Gardie (försångare)</b><br>
-    Titta hit<br>
-    på min skrud<br>
-    Av äkta<br>
-    buffelhud<br>
-    Hövding här<br>
-    och jag styr<br>
-    På kontors-<br>
-    äventyr
-  </div>
-  <div class="column">
-    <b>Apacherna (svarar):</b><br>
-    Titta hit<br>
-    På hans skrud<br>
-    av äkta<br>
-    buffelhud<br>
-    Hövding här<br>
-    och han styr<br>
-    på kontors-<br>
-    äventyr
-  </div>
-</div>
+::: cols
+**de la Gardie (försångare)**
+Titta hit
+på min skrud
+Av äkta
+buffelhud
+Hövding här
+och jag styr
+På kontors-
+äventyr
+::: col
+**Apacherna (svarar):**
+Titta hit
+På hans skrud
+av äkta
+buffelhud
+Hövding här
+och han styr
+på kontors-
+äventyr
+:::
 
 **Apacherna:**
 Skåda vår hövding Magnus De la Gardie
-Patriarken lever som han lär
+Patriarken, lever som han lär
 Ugh! Ha!
 Skåda vår hövding Magnus De la Gardie
-Patriarkery lever som han lär
+Patriarken, lever som han lär
 
-<div class="row">
-  <div class="column">
-    <b>de la Gardie (försångare):</b><br>
-    Det var dags<br>
-    pröva nytt<br>
-    Därför jag<br>
-    kultur bytt<br>
-    <b>Apache:</b><br>
-    Vilken mary hör hans tjut<br>
-    <b>de la Gardie (försångare):</b><br>
-    Fattar jämt<br>
-    rätt beslut
-  </div>
-  <div class="column">
-    <b>Apacherna (svarar)</b><br>
-    Det var dags<br>
-    pröva nytt<br>
-    därför vi<br>
-    kultur bytt<br>
-    <br>
-    <b>[de la Gardie ylar]</b><br>
-    <b>Apacherna (svarar):</b><br>
-    fattar jämt<br>
-    rätt beslut
-  </div>
-</div>
+::: cols
+**de la Gardie (försångare):**
+Det var dags
+pröva nytt
+Därför jag
+kultur bytt
+**Apache:**
+Vilken mary hör hans tjut
+**de la Gardie (försångare):**
+Fattar jämt
+rätt beslut
+::: col
+**Apacherna (svarar)**
+Det var dags
+pröva nytt
+därför vi
+kultur bytt
+
+**[de la Gardie ylar]**
+**Apacherna (svarar):**
+fattar jämt
+rätt beslut
+:::

@@ -118,30 +118,27 @@ Ta en annan flicka!
 Lock och pock ger mig skrämselhicka
 Och jag går amok!
 
-<div class="row">
-  <div class="column">
-    <b>Louisa:</b><br>
-    Om vi stod, du och jag,<br>
-    Vid var sin antipod<br>
-    Vore du för när<br>
-    En flod börjar flyta<br>
-    Om du skaffar dig mod<br>
-    Att be mig ha dig kär<br>
-    Så dra! Det är<br>
-    Det enda jag av dig begär
-  </div>
-  <div class="column">
-    <b>Dash:</b><br>
-    Sluta nu att va så bister<br>
-    Du som annars saknar brister<br>
-    Ovan dina fina vrister<br>
-    Stramar kjolen, som med klister,<br>
-    Kring ditt underbara ister<br>
-    Oh, jag dör om jag dig mister här!<br>
-    Ett "ja" ! Det är<br>
-    Det enda jag av dig begär
-  </div>
-</div>
+::: cols
+**Louisa:**
+Om vi stod, du och jag,
+Vid var sin antipod
+Vore du för när
+En flod börjar flyta
+Om du skaffar dig mod
+Att be mig ha dig kär
+Så dra! Det är
+Det enda jag av dig begär
+::: col
+**Dash:**
+Sluta nu att va så bister
+Du som annars saknar brister
+Ovan dina fina vrister
+Stramar kjolen, som med klister,
+Kring ditt underbara ister
+Oh, jag dör om jag dig mister här!
+Ett "ja" ! Det är
+Det enda jag av dig begär
+:::
 
 _På våren ersattes de markerade stroferna enligt följande:_
 

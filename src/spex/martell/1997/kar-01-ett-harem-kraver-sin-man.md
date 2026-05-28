@@ -12,28 +12,25 @@ Benasir: När vi håglöst hasat runt och bara slappat i
 En hel vecka drabbas vi av apati
 Andra trivs, men knappast vi
 
-<div class="row">
-  <div class="column">
-    <b>Jamina:</b><br>
-    När min gullesnutt-kalifen är<br>
-    Hemma känner jag mig mera kär<br>
-    Än så här<br>
-    <br>
-    <b>Gretchen:</b><br>
-    För att ha riktigt roligt som regata<br>
-    Vill jag ha en man att hata<br>
-  </div>
-  <div class="column">
-    <b>Övriga:</b><br>
-    Tradet, urtrist<br>
-    Mesigt<br>
-    Stendött<br>
-    <br>
-    <b>Övriga:</b><br>
-    Megatöligt<br>
-    Och bautasegt
-  </div>
-</div>
+::: cols
+**Jamina:**
+När min gullesnutt-kalifen är
+Hemma känner jag mig mera kär
+Än så här
+
+**Gretchen:**
+För att ha riktigt roligt som regata
+Vill jag ha en man att hata
+::: col
+**Övriga:**
+Tradet, urtrist
+Mesigt
+Stendött
+
+**Övriga:**
+Megatöligt
+Och bautasegt
+:::
 
 **Korken:** Att va bimbo och ej trilskas
 Gör att män blir härligt pilska

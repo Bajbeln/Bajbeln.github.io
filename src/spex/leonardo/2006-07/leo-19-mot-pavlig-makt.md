@@ -41,9 +41,7 @@ Blir för mig ett extra elfte bud
 **Julius:** Och mot ett celibatskontrakt
 **Medici:** Och du min man i vit skrud
 
-<div class="row">
-<div class="column">
-
+::: cols
 **Julius:**
 Jag byter min oblat
 Mot livskamrat
@@ -56,10 +54,7 @@ Blott dig jag får
 En framtid ljus
 
 För dig och mig
-
-</div>
-<div class="column">
-
+::: col
 **Medici:**
 Du blir min kandidat
 Till livskamrat
@@ -72,6 +67,4 @@ Dit vi nu når
 
 I andligt rus
 För dig och mig
-
-</div>
-</div>
+:::

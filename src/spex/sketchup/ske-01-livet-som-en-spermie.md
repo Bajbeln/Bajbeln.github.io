@@ -13,7 +13,7 @@ Har man tappat bort sin flytväst eller saknar badring är det lätt att man sk�
 Detta är en grym och farlig sport
 
 Somliga går runt och tror, helt felaktigt, att var och en av oss är likadan
-Men det är helt galet, se på Kalle, Stina, Eflrma, Anna Book och Långe Jan
+Men det är helt galet, se på Kalle, Stina, Emma, Anna Book och Långe Jan
 Någon kan ha anlag för två feta skinkor och nån annan kan bli Mamma Scan
 Jag vill bli ihop med Gunde Svan
 

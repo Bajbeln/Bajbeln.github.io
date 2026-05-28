@@ -45,25 +45,22 @@ Den bomben är tung
 
 Solo
 
-<div class="row">
-  <div class="column">
-    <b>Kennedy</b><br>
-    <br>
-    Ån ah<br>
-    B Femtitvå åh<br>
-    B Femtitvå åh<br>
-    B Femtitvå åh<br>
-    B Femtitvå åh<br>
-    Den bomben är tung
-  </div>
-  <div class="column">
-    <b>Chrustjev</b><br>
-    <br>
-    Gå Gå<br>
-    Gå John gå gå<br>
-    Gå John gå gå<br>
-    Gå John gå gå<br>
-    Gå John gå gå<br>
-    Var inte dum
-  </div>
-</div>
+::: cols
+**Kennedy**
+
+Ån ah
+B Femtitvå åh
+B Femtitvå åh
+B Femtitvå åh
+B Femtitvå åh
+Den bomben är tung
+::: col
+**Chrustjev**
+
+Gå Gå
+Gå John gå gå
+Gå John gå gå
+Gå John gå gå
+Gå John gå gå
+Var inte dum
+:::

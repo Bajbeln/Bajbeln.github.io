@@ -80,22 +80,18 @@ Jag är Imam, Imam,
 Abu, Abu
 Påve, påve
 
-<div class="row">
-  <div class="column">
-    <b>Abu:</b><br>
-    Jag är Abu<br>
-    Jag är Abu
-  </div>
-  <div class="column">
-    <b>Imam:</b><br>
-    Jag är Imam<br>
-    Jag är Imam
-  </div>
-  <div class="column">
-    <b>Påven:</b><br>
-    Jag är Påve<br>
-    Jag är Påve
-  </div>
-</div>
+::: cols
+**Abu:**
+Jag är Abu
+Jag är Abu
+::: col
+**Imam:**
+Jag är Imam
+Jag är Imam
+::: col
+**Påven:**
+Jag är Påve
+Jag är Påve
+:::
 
 **Plectrude:** Nu är det nog!

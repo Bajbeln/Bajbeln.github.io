@@ -50,21 +50,18 @@ Slips till balconette
 Parfym och våtservetter
 Mot kroppsodör och svett
 
-<div class="row">
-  <div class="column">
-    <b>Gredelin:</b><br>
-    Fatta piken!<br>
-    Det blir dealen<br>
-    När vi tar<br>
-    När vi tar
-  </div>
-  <div class="column">
-    <b>De andra:</b><br>
-    <br>
-    <br>
-    vi tar makten i vår värld<br>
-    vi tar makten i vår värld
-  </div>
-</div>
+::: cols
+**Gredelin:**
+Fatta piken!
+Det blir dealen
+När vi tar
+När vi tar
+::: col
+**De andra:**
+
+
+vi tar makten i vår värld
+vi tar makten i vår värld
+:::
 
 Vi tar makten i vår värld!

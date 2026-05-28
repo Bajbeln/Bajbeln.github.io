@@ -104,42 +104,39 @@ Supa är kul, supa är kul,
 supa är kul, förbjud inte
 Alkohol
 
-<div class="row">
-  <div class="column">
-    <b>Engström:</b><br>
-    Säg nej, säg nej-<br>
-    <br>
-    Nej till förbud-<br>
-    <br>
-    förbud<br>
-    för<br>
-    supa<br>
-    <br>
-    supa<br>
-    <br>
-    supa<br>
-    <br>
-    förbjud inte<br>
-    Alkohol
-  </div>
-  <div class="column">
-    <br>
-    <b>Quist:</b><br>
-    Säg ja till för-<br>
-    <br>
-    Säg ja till<br>
-    förbud<br>
-    för<br>
-    <br>
-    totalt<br>
-    <br>
-    totalt<br>
-    <br>
-    total-<br>
-    förbud emot<br>
-    Alkohol
-  </div>
-</div>
+::: cols
+**Engström:**
+Säg nej, säg nej-
+
+Nej till förbud-
+
+förbud
+för
+supa
+
+supa
+
+supa
+
+förbjud inte
+Alkohol
+::: col
+
+**Quist:**
+Säg ja till för-
+
+Säg ja till
+förbud
+för
+
+totalt
+
+totalt
+
+total-
+förbud emot
+Alkohol
+:::
 
 \*pling\*
 **Publiken:**

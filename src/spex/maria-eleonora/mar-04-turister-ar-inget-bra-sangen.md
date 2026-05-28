@@ -67,30 +67,27 @@ När man ser en klen japan
 Naturligtvis så är han militant
 vegan
 
-<div class="row">
-  <div class="column">
-    <b>Stånden:</b><br>
-    Varje tysk turist<br>
-    Försöker sno en älg<br>
-    Och var svensk är trist<br>
-    Som super varje helg<br>
-    Dom har inget hår<br>
-    Men jättebreda lår<br>
-    Och alla vet ändå att dom<br>
-    har tretton tår
-  </div>
-  <div class="column">
-    <b>Moster:</b><br>
-    Jag vet<br>
-    Att det<br>
-    Blir bra<br>
-    Publicitet<br>
-    Som ni<br>
-    Förstår<br>
-    <b>Conny:</b><br>
-    Dom gluttar på mitt får!
-  </div>
-</div>
+::: cols
+**Stånden:**
+Varje tysk turist
+Försöker sno en älg
+Och var svensk är trist
+Som super varje helg
+Dom har inget hår
+Men jättebreda lår
+Och alla vet ändå att dom
+har tretton tår
+::: col
+**Moster:**
+Jag vet
+Att det
+Blir bra
+Publicitet
+Som ni
+Förstår
+**Conny:**
+Dom gluttar på mitt får!
+:::
 
 **Conny:** Dom synar mina ston
 Och dom kollar min kalkon

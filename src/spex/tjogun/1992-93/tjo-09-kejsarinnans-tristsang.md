@@ -7,53 +7,57 @@ order: 9
 permalink: false
 ---
 
-<div class="row">
-  <div class="column">
-<b>Minolta:</b><br>
-Här är så trist<br>
-Här är så trist<br>
-Så jättetrist<br>
-<br><br><br>
-Jag längtar bort<br>
-Låt det va torrt<br>
-En tråkig sort<br>
-<br>
-(<i>Jammar fritt</i>)<br>
-Om det bara kunde hända<br>
-nåt nån gång, nåt...nåt<br>
-Här är så trist<br>
-Origami<br>
-Dum poesi<br>
-<br>
-(<i>Ännu intensivare jam</i>)<br>
-Jag vill ha äventyr med<br>
-fart och fläkt och<br>
-killar utan kläder...med...<br>
-Här är så trist<br>
-Här är så trist<br>
+::: cols
+**Minolta:**
+Här är så trist
+Här är så trist
 Så jättetrist
-  </div>
-  <div class="column">
-<b>Hovgeishorna:</b><br>
-Vi målar vaser<br>
-Och parasoll<br>
-Vi sprider kravaller<br>
-Och fnittrar och flamsar<br>
-Och sjunger gälla sånger i falsett<br>
-<br>
-Vi vattnar blommor<br>
-Vi kokar te<br>
-Vi knypplar dukar och dammar och bakar<br>
-Och nån gång slår vi loss och kokar knäck<br>
-<br><br><br>
-Vi viker papper<br>
-Vi läser dikt<br>
-Vi målar naglar och pudrar och sminkar<br>
-Och noppar kejsarinnans ögonbryn<br>
-<br><br><br><br>
-Vi målar vaser<br>
-Och parasoll<br>
-Vi sprider skvaller och fnittrar och flamsar<br>
+
+
+
+Jag längtar bort
+Låt det va torrt
+En tråkig sort
+
+(*Jammar fritt*)
+Om det bara kunde hända
+nåt nån gång, nåt...nåt
+Här är så trist
+Origami
+Dum poesi
+
+(*Ännu intensivare jam*)
+Jag vill ha äventyr med
+fart och fläkt och
+killar utan kläder...med...
+Här är så trist
+Här är så trist
+Så jättetrist
+::: col
+**Hovgeishorna:**
+Vi målar vaser
+Och parasoll
+Vi sprider kravaller
+Och fnittrar och flamsar
 Och sjunger gälla sånger i falsett
-  </div>
-</div>
+
+Vi vattnar blommor
+Vi kokar te
+Vi knypplar dukar och dammar och bakar
+Och nån gång slår vi loss och kokar knäck
+
+
+
+Vi viker papper
+Vi läser dikt
+Vi målar naglar och pudrar och sminkar
+Och noppar kejsarinnans ögonbryn
+
+
+
+
+Vi målar vaser
+Och parasoll
+Vi sprider skvaller och fnittrar och flamsar
+Och sjunger gälla sånger i falsett
+:::

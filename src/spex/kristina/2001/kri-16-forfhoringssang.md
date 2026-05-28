@@ -6,9 +6,7 @@ spex: kristina-2001
 order: 16
 permalink: false
 ---
-<div class="row">
-  <div class="column">
-
+::: cols
 **(Rudbeck)**
 Se den store detektiven närma sig sitt mål.
 
@@ -16,9 +14,7 @@ Nu så ska jag förhöra
 Med min tunga noggrant smord
 Alla ämnen beröra
 Och lösa detta mord
-  </div>
-  <div class="column">
-
+::: col
 **(Maria Eleonora)**
 
 Nu går jag på offensiven för att få en ny gemål
@@ -26,8 +22,7 @@ Nu så ska jag förföra
 Med min tunga noggrant smord
 Alla ställen beröra
 Och viska ömma ord
-  </div>
-</div>
+:::
 
 Jag ska nog dig bevaka
 Och få dig ur balans
@@ -40,9 +35,7 @@ Jag tror nog att vi är på samma frekvens
 Hon/Han ger med dig med ens
 När jag förhör/förför
 
-<div class="row">
-  <div class="column">
-
+::: cols
 Nu ska Rudbeck ställa allting till rätta
 
 Men jag jobbar ju med din före detta
@@ -51,9 +44,7 @@ Vad gjorde du på mordkvällen?
 
 Nej, nu blir jag generad
 Det känns konstigt i mitt bröst
-  </div>
-  <div class="column">
-
+::: col
 Mama mia!
 
 Snälla, fria!
@@ -63,8 +54,7 @@ Lille Olle-Rudde-gubben, nu ska du bli min!
 Vad gör du ikväll?
 Ge mig lite kärlek, ställ en
 annan fråga är du snäll.
-  </div>
-</div>
+:::
 
 Jag blir passionerad
 På min ålderns höst
@@ -83,22 +73,15 @@ När jag förförs/förför
 
 _(solo, dans, hångel, &c.)_
 
-<div class="row">
-  <div class="column">
-
+::: cols
 Rufsa, bufsa och nufsa
 Fluffigull, hå och hej!
-  </div>
-  <div class="column">
-
+::: col
 Å å å å å å å å å å å
 å å å å
 Vad jag älskar dej!
-  </div>
-  <div class="column">
-
+::: col
 Nu ska vi gå hem
 till mitt lilla tält och sen
 hånglas och kramas och så
-  </div>
-</div>
+:::

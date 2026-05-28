@@ -27,7 +27,7 @@ Brim brum, åh ge mig andrum.
 En superstjärna är vad jag är, yeah.
 Flip flop, se min snygga kropp.
 Redo för ett sommardopp.
-Det finns, ingenting, som kary skrämma
+Det finns, ingenting, som kan, skrämma
 mig, Modig som ett lejon oh vilken jävla
 grej!
 Och sen Pang Boom! jag regerar hela dan.
@@ -37,10 +37,10 @@ Jag tror vi kör på en till refräng. yeah
 Brummar och jag trummar
 Dansar och jag tramsar.
 Pladdrar och sladdrar, yeah, yeah.
-Yeah, jag shoppar och jagboppar
+Yeah, jag shoppar och jag boppar
 Jag rullar och jag tullar.
 Yeah, jag känner och jag ränner
-Jag skrattar och jagrcttat
+Jag skrattar och jag rattar
 Ja jag dansar och jag tramsar
 Sjunger och jag flamsar.
 Krims krams!

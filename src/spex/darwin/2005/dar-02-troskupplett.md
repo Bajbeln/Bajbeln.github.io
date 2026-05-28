@@ -48,40 +48,34 @@ Så att han dör ungefär som beställt
 Inget snack och inget prat
 Vi ger alltid resultat
 
-<div class="row">
-  <div class="column">
-    <b>Troende:</b><br>
-    Kan kidnappa<br>
-    <br>
-    Vi kan nita<br>
-    <br>
-    Vi kan skjuta
-  </div>
-  <div class="column">
-    <b>Agnostiker:</b><br>
-    <br>
-    Eller sjappa<br>
-    <br>
-    Eller smita<br>
-    <br>
-    Eller kuta
-  </div>
-</div>
+::: cols
+**Troende:**
+Kan kidnappa
+
+Vi kan nita
+
+Vi kan skjuta
+::: col
+**Agnostiker:**
+
+Eller sjappa
+
+Eller smita
+
+Eller kuta
+:::
 
 **Bägge:**
 Eller sluta
 Kom till oss vi ger full valuta
 
-<div class="row">
-  <div class="column">
-    <b>Troende:</b><br>
-    *För det finns sanningar...
-  </div>
-  <div class="column">
-    <b>Agnostiker:</b><br>
-    *För å ena sidan...
-  </div>
-</div>
+::: cols
+**Troende:**
+*För det finns sanningar...
+::: col
+**Agnostiker:**
+*För å ena sidan...
+:::
 
 **Bägge:**
 Åh, vilken höjdare

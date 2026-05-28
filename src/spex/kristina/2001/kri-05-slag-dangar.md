@@ -28,9 +28,7 @@ På din grav
 Tänderna att sprida sig åt
 Alla håll
 
-<div class="row">
-  <div class="column">
-
+::: cols
 **Gustav**
 
 Pong
@@ -48,9 +46,7 @@ Min värja, ja
 Nä, nu skjuter jag dig för böveln
 I röveln
 Den där
-  </div>
-  <div class="column">
-
+::: col
 **Wallenstein**
 Du har ett huvud som en ping
 
@@ -67,8 +63,7 @@ Till Häckefjäll
 
 Jag är faktiskt brorsa
 Med Wilhelm Tell
-  </div>
-</div>
+:::
 
 **Gustav:** Det ska bli mig ett nöje att göra dig
 Till ett åtlöje värdigt en sann plebej
@@ -80,9 +75,7 @@ Ska besegla ditt öde din proterär
 Fick du en enda spänn för vart hack jsg skär
 Blev du snart en multimiljonär
 
-<div class="row">
-  <div class="column">
-
+::: cols
 **Gustav**
 Du din larviga lilla mask
 Upp och ner och och in och ut och
@@ -96,9 +89,7 @@ Få en
 Jävla
 Jätte-
 smäll
-  </div>
-  <div class="column">
-
+::: col
 **Wallenstein**
 
 Du din
@@ -114,8 +105,7 @@ Tugga smacka kackerlacka
 Hugga hacka lugga nacka
 Tugga smacka kackerlacka
 Tugga tugga tugg
-  </div>
-</div>
+:::
 
 **Gustav:** Idiot, jag ska lära dig veta hut
 Och med snor ska jag fylla din stora trut

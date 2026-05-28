@@ -10,7 +10,7 @@ Vi känner oss så spänd4 och hoppet i oss tända.
 Om Mölle sätts på kartan av vår käre Gustav V
 Så blir det bra nog kommer ni se.
 
-**Lind:** Det här lär bli strålande för affärerna Agda 1illa.
+**Lind:** Det här lär bli strålande för affärerna Agda lilla.
 **Agda:** Åh tror snälle grosshandlaren verkligen det!
 
 Nu är det nåt som händer, pà Mölles berg och stränder.
@@ -30,4 +30,4 @@ Vi hoppar runt i glädje just som lyckan mot oss ler.
 Mitt värdshus blir en världssuccé, och iag får sälja mer och mer,
 En framgång så långt ögat se¡, turisterna blir fler och fler.
 Lyckan mot oss alla ler, i Mölles vackra hamnkvarter.
-Mölles tid är kommery tillslut
+Mölles tid är kommen, tillslut

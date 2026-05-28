@@ -48,19 +48,16 @@ Och dina blommor har jag tröttnat duktigt på
 
 _(Respektive sista vers samtidigt, med sluten:)_
 
-<div class="row">
-  <div class="column">
-    <b>Linné:</b><br>
-    Och säg genast till<br>
-    När du är klar med den<br>
-    Så tar vi nästa då<br>
-    Se så - gå på!
-  </div>
-  <div class="column">
-    <b>Linné d.y:</b><br>
-    Och dina blommar<br>
-    Har jag tröttnat<br>
-    Duktigt på<br>
-    Och så - Hallå!
-  </div>
-</div>
+::: cols
+**Linné:**
+Och säg genast till
+När du är klar med den
+Så tar vi nästa då
+Se så - gå på!
+::: col
+**Linné d.y:**
+Och dina blommar
+Har jag tröttnat
+Duktigt på
+Och så - Hallå!
+:::

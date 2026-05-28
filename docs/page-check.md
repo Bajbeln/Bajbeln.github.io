@@ -1,5 +1,5 @@
 # Sidgranskning
-(Manuell kontroll av maskinkonverterade sidor)
+(Manuell kontroll av maskinkonverterade sidor, html -> 11ty)
 
 | # | Spex | Status? | Anmärkningar |
 |---|------|------|--------------|

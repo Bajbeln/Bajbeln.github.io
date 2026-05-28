@@ -23,26 +23,23 @@ Fanny: Här vill jag va din fru och leva
 Charles: Jag är Adam och du är min Eva
 Båda: Vår lustgård och hemvist, låt de va - Kristianstad
 
-<div class="row">
-  <div class="column">
-    <b>Charles:</b><br>
-    Vi sågs på ett torg i Kristianstad<br>
-    Det kändes underbart<br>
-    Då plötsligt stod det klart för mig<br>
-    Vi kan stanna kvar som ett par i Kristianstad<br>
-    Här fann jag hopp och tro<br>
-    Nu vill jag sätta bo med dig
-  </div>
-  <div class="column">
-    <b>Fanny:</b><br>
-    Kristianstad<br>
-    Här fann jag<br>
-    Den vän jag vill ha<br>
-    Och nu är det du<br>
-    Och så jag<br>
-    Som det ska va
-  </div>
-</div>
+::: cols
+**Charles:**
+Vi sågs på ett torg i Kristianstad
+Det kändes underbart
+Då plötsligt stod det klart för mig
+Vi kan stanna kvar som ett par i Kristianstad
+Här fann jag hopp och tro
+Nu vill jag sätta bo med dig
+::: col
+**Fanny:**
+Kristianstad
+Här fann jag
+Den vän jag vill ha
+Och nu är det du
+Och så jag
+Som det ska va
+:::
 
 **Båda:** Kristianstad - här kan vi leva fina livet
 Många tvekar i sina, men vi vet

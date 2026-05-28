@@ -49,4 +49,4 @@ och Vä blir skånes or-i-go
 
 Så ta dig några spadtag
 Och släpp ditt huvudbry
-Vi ska bli större Ãn Ronneby
+Vi ska bli större Än Ronneby

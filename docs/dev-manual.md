@@ -1,108 +1,108 @@
-# Bajbeln – Developer Manual
+# Bajbeln – Teknisk manual
 
-Krischanstaspääxets Sajber-Bajbel är en statisk sida för spääxets sångtexter. Här finns information om Eleventy-baserade systemet för sidan.
+Krischanstaspääxets Sajber-Bajbel är en statisk webbsida för spääxets sångtexter. Här finns information om det Eleventy-baserade systemet för sidan.
 
 ---
 
-## Tech stack
+## Teknisk stack
 
-| Thing | Detail |
+| Komponent | Detalj |
 |---|---|
-| Static site generator | [Eleventy](https://www.11ty.dev/) 3.x |
-| Templating | Nunjucks (`.njk`) |
-| Markdown renderer | markdown-it 14 (`html: true`, `breaks: true`) |
-| Hosting | GitHub Pages, deployed from the `_site/` output |
-| Build trigger | Automatic (`GitHub actions`) |
+| Statisk sidoskapare | [Eleventy](https://www.11ty.dev/) 3.x |
+| Mallar | Nunjucks (`.njk`) |
+| Markdown-renderare | markdown-it 14 (`html: true`, `breaks: true`) |
+| Värd | GitHub Pages, distribueras från `_site/` |
+| Byggtrigger | Automatisk (GitHub Actions) |
 
 ---
 
-## Repo structure
+## Repostruktur
 
 ```
 /
-├── src/                        # Eleventy input directory
+├── src/                        # Eleventys ingångskatalog
 │   ├── _layouts/
-│   │   └── spex.njk            # Layout for all spex pages
+│   │   └── spex.njk            # Layout för alla spexsidor
 │   ├── spex/
-│   │   ├── <spex-name>/        # Single-production spex
-│   │   │   ├── index.md        # Spex page (spex: name, permalink: /name/)
-│   │   │   ├── 01-song-name.md
+│   │   ├── <spex-namn>/       # Spex med en produktionsomgång
+│   │   │   ├── index.md        # Spexsida (spex: namn, permalink: /namn/)
+│   │   │   ├── 01-latnamn.md
 │   │   │   └── ...
-│   │   ├── <spex-name>/        # Multi-production spex (återuppsättning)
-│   │   │   ├── index.md        # Hub page (uppsattning list, no spex field)
-│   │   │   ├── <year>/
-│   │   │   │   ├── index.md    # Production page (spex: name-year, permalink: false)
-│   │   │   │   ├── 01-song.md
+│   │   ├── <spex-namn>/       # Spex med flera uppsättningar
+│   │   │   ├── index.md        # Navsida (uppsattning-lista, inget spex-fält)
+│   │   │   ├── <ar>/ 
+│   │   │   │   ├── index.md    # Produktionssida (spex: namn-år, permalink: false)
+│   │   │   │   ├── 01-lat.md
 │   │   │   │   └── ...
 │   │   │   └── ...
 │   │   └── ...
 │   ├── favoriter/
-│   │   └── index.md            # Favoriter page
-│   └── songIndex.json.njk      # Generates /songIndex.json from the songs collection
-├── spex/                       # Legacy plain-HTML spex files (passthrough, untouched)
-├── scripts/                    # JS for the browser (pagescript, searchscript, etc.)
-├── assets/                     # Images and other static assets
-├── partials/                   # HTML partials fetched at runtime (footer, etc.)
+│   │   └── index.md            # Favoritsida
+│   └── songIndex.json.njk      # Genererar /songIndex.json från songs-samlingen
+├── spex/                       # Äldre HTML-filer för spex (genomkopplas, orörda)
+├── scripts/                    # JavaScript för webbläsaren (pagescript, searchscript, mm)
+├── assets/                     # Bilder och andra statiska resurser
+├── partials/                   # HTML-delar som hämtas vid körning (footer, mm)
 ├── style.css
-├── index.html                  # Site front page (passthrough)
-├── eleventy.config.js          # Eleventy config: shortcodes, filters, passthrough
+├── index.html                  # Startsida (genomkopplas)
+├── eleventy.config.js          # Eleventy-konfig: shortcodes, filter, genomkoppling
 ├── package.json
 └── .github/workflows/
-    └── deploy_try.yml          # GitHub Actions deploy workflow
+    └── deploy_try.yml          # GitHub Actions-distribueringsflöde
 ```
 
-**Output:** Eleventy writes everything to `_site/`. All files under `spex/`, `scripts/`, `assets/`, `partials/`, `style.css`, `index.html`, and `manifest.json` are passthrough-copied so old URLs continue to work. `songIndex.json` is generated automatically by `src/songIndex.json.njk` — it is not passthrough-copied from the repo root.
+**Utdata:** Eleventy skriver allt till `_site/`. Alla filer under `spex/`, `scripts/`, `assets/`, `partials/`, `style.css`, `index.html` och `manifest.json` genomkopplas så att gamla URL:er fortsätter att fungera. `songIndex.json` genereras automatiskt av `src/songIndex.json.njk` — den kopieras inte genom från rotkatalogen.
 
 ---
 
-## Local development
+## Lokal utveckling
 
-### Prerequisites
+### Förutsättningar
 
-- **Node.js 18+** (Node.js 20 recommended — that's what CI uses). Download from [nodejs.org](https://nodejs.org/).
-- **npm** — bundled with Node.js, no separate install needed.
+- **Node.js 18+** (Node.js 20 rekommenderas — det är vad CI använder). Ladda ner från [nodejs.org](https://nodejs.org/).
+- **npm** — följer med Node.js, ingen separat installation krävs.
 
-### Commands
+### Kommandon
 
 ```
-npm install        # First time only
-npm run start      # Build + serve with live reload at localhost:8080
-npm run build      # One-off build into _site/
+npm install        # Endast första gången
+npm run start      # Bygg + server med live-uppdatering på localhost:8080
+npm run build      # Enstaka bygg till _site/
 ```
 
 ---
 
-## Adding a new spex
+## Lägga till ett nytt spex
 
-### 1. Create the directory
+### 1. Skapa katalogen
 
 ```
-src/spex/<spex-name>/
+src/spex/<spex-namn>/
 ```
 
-Use a lowercase, hyphenated name with Swedish characters replaced: å→a, ä→a, ö→o. This name is also the `spex` identifier used in frontmatter.
+Använd små bokstäver, bindestreck och ersätt svenska tecken: å→a, ä→a, ö→o. Detta namn är också `spex`-identifieraren som används i frontmatter.
 
-### 2. Create `index.md`
+### 2. Skapa `index.md`
 
 ```yaml
 ---
 layout: spex
 title: Spextitel År (XXX)
-permalink: /spex-name/
-spex: spex-name
+permalink: /spex-namn/
+spex: spex-namn
 ---
 ```
 
-The body of `index.md` is intentionally left empty. The layout renders all songs automatically via the `spex` identifier.
+Innehållet i `index.md` lämnas avsiktligt tomt. Layouten renderar alla låtar automatiskt via `spex`-identifieraren.
 
-For spex with multiple productions, see [Spex with multiple productions](#spex-with-multiple-productions-uppsättningar).
+För spex med flera uppsättningar, se [Spex med flera uppsättningar](#spex-med-flera-uppsättningar).
 
-### 2b. Create `{name}.json` (colors)
+### 2b. Skapa `{namn}.json` (färger)
 
-Colors are stored in a separate JSON data file named after the folder:
+Färger lagras i en separat JSON-datafil med samma namn som mappen:
 
 ```
-src/spex/<spex-name>/<spex-name>.json
+src/spex/<spex-namn>/<spex-namn>.json
 ```
 
 ```json
@@ -110,15 +110,15 @@ src/spex/<spex-name>/<spex-name>.json
   "color": "rgb(R, G, B)",
   "accentColor": "rgb(R, G, B)",
   "accentBorderColor": "rgb(R, G, B)",
-  "spexPageUrl": "/spex-name/"
+  "spexPageUrl": "/spex-namn/"
 }
 ```
 
-Eleventy's directory data cascade automatically applies these values to every file in the folder (and subfolders). `accentColor` and `accentBorderColor` are optional; omitting them falls back to the global defaults in `style.css`.
+Eleventys katalogdata-kaskad tillämpar automatiskt dessa värden på alla filer i mappen (och undermappar). `accentColor` och `accentBorderColor` är valfria; om de utelämnas används standardvärdena i `style.css`.
 
-`spexPageUrl` is the URL of the spex hub page and is **required** — it is used by `src/songIndex.json.njk` to populate the `page` field for each song in `songIndex.json` (used by the search and random features). For multi-production spex it goes in the parent `{name}.json` only and cascades into all year subfolders.
+`spexPageUrl` är URL:en till spexets navsida och är **obligatorisk** — den används av `src/songIndex.json.njk` för att fylla `page`-fältet för varje låt i `songIndex.json` (används av sök- och slumpfunktionerna). För spex med flera uppsättningar placeras den endast i den överordnade `{namn}.json` och kaskaderas ner till alla års-undermappar.
 
-To override the dark mode colors, add any of these optional fields:
+För att åsidosätta färgerna i mörkt läge, lägg till några av dessa valfria fält:
 
 ```json
 {
@@ -131,49 +131,49 @@ To override the dark mode colors, add any of these optional fields:
 }
 ```
 
-If omitted, dark mode falls back to the global defaults (`#1a1a2e` for the body, `#2d3a5e` for collapsibles/content).
+Om de utelämnas använder mörkt läge de globala standardvärdena (`#1a1a2e` för bakgrunden, `#2d3a5e` för ihopfällbara element/innehåll).
 
-### 3. Create one `.md` file per song
+### 3. Skapa en `.md`-fil per låt
 
-The file naming convention depends on the song title format:
+Namnkonventionen för filer beror på låttitelns format:
 
-- **Title starts with `[ABB N]`** (e.g. `[KRI 1] Allting kan gå itu`):
-  → `{abbrev}-{NN}-{slug}.md`, where abbrev is lowercase with no special chars (ä→a, ö→o, etc.)
-  → e.g. `kri-01-allting-kan-ga-itu.md`
+- **Titel börjar med `[FÖRK N]`** (t.ex. `[KRI 1] Allting kan gå itu`):
+  → `{forkortning}-{NN}-{slug}.md`, där forkortning är små bokstäver utan specialtecken (ä→a, ö→o, etc.)
+  → t.ex. `kri-01-allting-kan-ga-itu.md`
 
-- **Title starts with a number** (e.g. `1. Öppningskuplett`):
+- **Titel börjar med en siffra** (t.ex. `1. Öppningskuplett`):
   → `{NN}-{slug}.md`
-  → e.g. `01-oppningskuplett.md`
+  → t.ex. `01-oppningskuplett.md`
 
-`NN` is always two-digit zero-padded.
+`NN` är alltid tvåsiffrig med inledande nolla.
 
 ```yaml
 ---
-title: "[XXX N] Sångtitel"       # or "N. Sångtitel"
-singer: "Sjungs av Rollfigur"    # optional
-melody: "Låttitel – Artist"      # optional
-spex: spex-name                  # must match the spex identifier in index.md
-order: 1                         # determines sort order on the page
-permalink: false                 # always false for individual song files
+title: "[XXX N] Låttitel"       # eller "N. Låttitel"
+singer: "Sjungs av Rollfigur"    # valfritt
+melody: "Melodin – Artist"       # valfritt
+spex: spex-namn                  # måste matcha spex-identifieraren i index.md
+order: 1                        # bestämmer sorteringsordning på sidan
+permalink: false                # alltid false för enskilda låt-filer
 ---
-Lyricstext här
+Låttext här
 ```
 
-- `title` — shown on the collapsible button and used to derive the anchor ID (see [Song IDs](#song-ids))
-- `singer` — displayed in italics below the button if present
-- `melody` — displayed as "Mel. …" in italics if present
-- `order` — integer, determines the display order; must be unique within a spex
-- `permalink: false` — prevents Eleventy from writing the song file as its own HTML page
+- `title` — visas på den ihopfällbara knappen och används för att skapa ankarlänkar (se [Låt-ID:n](#låt-Idn))
+- `singer` — visas i kursiv under knappen om det finns
+- `melody` — visas som "Mel. …" i kursiv om det finns
+- `order` — heltal som bestämmer visningsordningen; måste vara unikt inom ett spex
+- `permalink: false` — förhindrar att Eleventy skriver låtfilen som en egen HTML-sida
 
 ---
 
-## Lyric formatting
+## Formatering av låttexter
 
-markdown-it is configured with `breaks: true`, which means **every line break in the source becomes a `<br>` in the output**. A blank line creates a new paragraph (stanza break).
+markdown-it är konfigurerad med `breaks: true`, vilket innebär att **varje radbrytning i källan blir en `<br>` i utdata**. En tom rad skapar ett nytt stycke (versbrytning).
 
-### Line breaks within a stanza
+### Radbrytningar inom en vers
 
-Just press Enter. No special syntax needed.
+Tryck bara på Enter. Ingen specialsyntax krävs.
 
 ```
 Första raden
@@ -181,20 +181,20 @@ Andra raden
 Tredje raden
 ```
 
-### Stanza breaks
+### Versbrytningar
 
-Leave a blank line between stanzas.
+Lämna en tom rad mellan verserna.
 
 ```
-Slutet på första strofen
+Slutet på första verset
 Sista raden
 
-Början på andra strofen
+Början på andra verset
 ```
 
-### Speaker labels
+### Talarutdrag
 
-Use markdown bold on its own line, with or without a trailing colon depending on situation:
+Använd markdown **fet** på en egen rad, med eller utan kolon i slutet beroende på sammanhang:
 
 ```
 **Gorm**
@@ -207,79 +207,81 @@ tiden den är mogen
 Inkomst dubblera
 ```
 
-### Dialogue dashes
+### Tankstreck för dialog
 
-For inline dialogue, use an em dash `—` at the start of the line. Never use `- ` (renders as a bullet list) or `\-`:
+För dialog i löpande text, använd ett tankstreck `—` i början av raden. Använd aldrig `- ` (renderas som en punktlista) eller `\-`:
 
 ```
 — Sjung med oss!
 — Javisst, det gör vi!
 ```
 
-### Stage directions
+### Scenanvisningar
 
-Use markdown italic:
+Använd markdown *kursiv*:
 
 ```
 _(Alla kliver in på scenen)_
 ```
 
-### Two-column layouts
+### Flerkolumnslayout
 
-For songs where two characters sing simultaneously, use raw HTML `<div class="row">` / `<div class="column">` directly in the `.md` file. markdown-it is configured with `html: true` so raw HTML passes through unchanged.
+För låtar där karaktärer sjunger samtidigt, använd syntaxen `::: cols` för fenced-div:
 
-```html
-<div class="row">
-  <div class="column">
-    <b>Karaktär A:</b><br>
-    Sjunger sin vers<br>
-    <br>
-    Andra strofen
-  </div>
-  <div class="column">
-    <b>Karaktär B:</b><br>
-    <br><br><br>
-    Sjunger sin vers (indraget tre rader)
-  </div>
-</div>
-```
+````
+::: cols
+**Karaktär A:**
+Sjunger sin vers
 
-- Inside the divs, use HTML tags — **not** markdown syntax (`<b>Name:</b>` not `**Name:**`, `<br>` for line breaks).
-- A stanza break between lyrics = an extra `<br>`.
-- Vertical offset (pushing one column down): use multiple `<br>` tags at the start of that column's content.
-- Text outside the divs is regular markdown as usual.
+Andra strofen
+::: col
+**Karaktär B:**
 
-The `.row` and `.column` CSS classes are defined in `style.css` (flexbox, 50% each).
 
-### Raw HTML in lyrics
+Sjunger sin vers (indrag med två rader)
+:::
+````
 
-markdown-it is configured with `html: true`, so raw HTML is allowed when needed for other edge cases.
+- `::: cols` öppnar raden, `::: col` separerar kolumner, `:::` stänger raden.
+- Full markdown fungerar inne i varje kolumn — använd `**fet**` för talarutdrag, tomma rader för versbrytningar, enstaka radbrytningar för radbrytningar inom en vers.
+- **Vertikal justering:** tomma rader i en kolumn flyttar ned efterföljande innehåll. Varje tom rad motsvarar en rads mellanrum.
+- För tre eller fler kolumner, lägg till fler `::: col`-separatorer.
+- Text utanför blocket är vanlig markdown.
+- Lämna en tom rad efter `:::` för att få ett normalt versbrytningsmellanrum före nästa innehåll.
+
+CSS-klasserna `.row` och `.column` är definierade i `style.css` (flexbox, 50% var). Regeln för `::: cols`-block är implementerad i `eleventy.config.js` — inget npm-paket krävs.
+
+**Anmärkning om mellanrum:** Inne i kolumner producerar tomma rader och radbrytningar samma visuella radavstånd som överallt annars i låten. En tom rad = en tom rads mellanrum. Detta är konsekvent med vanlig låtformatering utanför kolumner.
+
+### Raw HTML i låttexter
+
+markdown-it är konfigurerad med `html: true`, så raw HTML är tillåten när det behövs för andra specialfall.
 
 ---
 
-## Song IDs
+## Låt-ID:n
 
-Each song gets an HTML `id` attribute derived from its `title` by the `slugify()` function in `eleventy.config.js`:
+Varje låt får ett HTML-`id`-attribut som härleds från dess `title` av funktionen `slugify()` i `eleventy.config.js`:
 
-- lowercased
+- Görs om till små bokstäver
 - å→a, ä→a, ö→o
-- remaining accents stripped
-- non-word characters removed
-- spaces and repeated hyphens collapsed to a single `-`
+- Övriga accenttecken tas bort
+- Ickе-ordkaraktärer tas bort
+- Mellanslag och upprepade bindestreck komprimeras till ett enda `-`
 
-Example: `"[LOS 3] Snillrika nyrika snillen"` → `los-3-snillrika-nyrika-snillen`
+Exempel: `"[LOS 3] Snillrika nyrika snillen"` → `los-3-snillrika-nyrika-snillen`
 
-This ID is used for anchor links: `https://bajbeln.github.io/loshultskuppen/#los-3-snillrika-nyrika-snillen`
+Detta ID används för ankarlänkar: `https://bajbeln.github.io/loshultskuppen/#los-3-snillrika-nyrika-snillen`
 
-When the page loads with a hash in the URL, the layout automatically opens and scrolls to the matching song.
+När sidan laddas med en hash i URL:en öppnar layouten automatiskt och rullar till den matchande låten.
 
 ---
 
-## Theming
+## Teman
 
-Each spex page's background and accent colors are set in `{name}.json` (see [step 2b above](#2b-create-namejson-colors)). The layout injects these as an inline `<style>` block.
+Varje spexsidas bakgrunds- och accentfärger ställs in i `{namn}.json` (se [steg 2b ovan](#2b-skapa-namnjson-färger)). Layouten injectar dessa som ett inbäddat `<style>`-block.
 
-| Field | Sets | Dark mode default |
+| Fält | Sätter | Standard i mörkt läge |
 |---|---|---|
 | `color` | `body { background-color }` | `#1a1a2e` (via `style.css`) |
 | `accentColor` | `.collapsible, .content { background-color }` | `#2d3a5e` |
@@ -288,19 +290,19 @@ Each spex page's background and accent colors are set in `{name}.json` (see [ste
 | `darkAccentColor` | `body.dark-mode .collapsible, .content { background-color }` | — |
 | `darkAccentBorderColor` | `body.dark-mode .collapsible, .content { border-color }` | — |
 
-The `dark*` fields are optional. When a spex has `accentColor` set, the layout automatically injects dark mode overrides using the defaults above — unless the corresponding `dark*` field is provided.
+`dark*`-fälten är valfria. När ett spex har `accentColor` inställt injectar layouten automatiskt mörkt läges-overskridningar med standardvärdena ovan — om inte motsvarande `dark*`-fält är angivna.
 
-Colors are **not** set in `index.md` frontmatter. They live in `{name}.json` and are inherited by all files in the folder via Eleventy's directory data cascade. For multi-production spex, the `{name}.json` in the parent folder cascades into all year subfolders automatically.
+Färger ställs **inte** in i `index.md` frontmatter. De finns i `{namn}.json` och ärvs av alla filer i mappen via Eleventys katalogdata-kaskad. För spex med flera uppsättningar kaskaderar `{namn}.json` i överordnad mapp automatiskt ner till alla års-undermappar.
 
 ---
 
-## Spex with multiple productions (uppsättningar)
+## Spex med flera uppsättningar
 
-When a spex title has been performed in multiple years, there is a two-level structure: a **hub page** that lists all productions, and a separate **production page** for each year.
+När en spextitel har uppförts flera år finns en två-nivåstruktur: en **navsida** som listar alla uppsättningar, och en separat **produktionssida** för varje år.
 
-### Hub page — `src/spex/{name}/index.md`
+### Navsida — `src/spex/{namn}/index.md`
 
-Has an `uppsattning` list and no `spex` field. Renders all productions on one page, each under its own heading.
+Har en `uppsattning`-lista och inget `spex`-fält. Renderar alla produktioner på en sida, var och en under en `<h2>`-rubrik.
 
 ```yaml
 ---
@@ -315,11 +317,11 @@ uppsattning:
 ---
 ```
 
-Colors come from `src/spex/kristina/kristina.json` and cascade into all year subfolders automatically.
+Färger kommer från `src/spex/kristina/kristina.json` och kaskaderar automatiskt ner till alla års-undermappar.
 
-### Production page — `src/spex/{name}/{year}/index.md`
+### Produktionssida — `src/spex/{namn}/{ar}/index.md`
 
-Each production has its own page with a `spex` field matching the production id. `permalink: false` — production pages have no standalone URL; songs are rendered on the hub page only.
+Varje produktion har sin egen sida med ett `spex`-fält som matchar produktions-ID:t. `permalink: false` — produktionssidor har ingen egen URL; låtar renderas endast på navsidan.
 
 ```yaml
 ---
@@ -330,13 +332,13 @@ permalink: false
 ---
 ```
 
-No color fields needed — they are inherited from the parent `kristina.json`.
+Inga färgfält krävs — de ärvs från den överordnade `kristina.json`.
 
-### File structure
+### Filstruktur
 
 ```
 src/spex/kristina/
-├── index.md                          # hub: uppsattning list, no spex field
+├── index.md                          # nav: uppsattning-lista, inget spex-fält
 ├── 2023-24/
 │   ├── index.md                      # spex: kristina-2023-24, permalink: false
 │   ├── 01-det-ar-synd.md             # spex: kristina-2023-24
@@ -349,9 +351,9 @@ src/spex/kristina/
 
 ---
 
-## The Favoriter page
+## Favoritsidan
 
-`src/favoriter/index.md` uses its own layout (`favoriter`) and lists hand-picked songs from any spex by their `spex` identifier and exact `title` string:
+`src/favoriter/index.md` använder en egen layout (`favoriter`) och listar handplockade låtar från vilket spex som helst via deras `spex`-identifierare och exakta `title`-sträng:
 
 ```yaml
 ---
@@ -366,79 +368,82 @@ songs:
 ---
 ```
 
-The `songsFromList` filter looks up each entry in the `songs` collection and renders the songs in the listed order.
+Filtret `songsFromList` letar upp varje post i `songs`-samlingen och renderar låtarna i den angivna ordningen.
 
 ---
 
-## How it all fits together
+## Hur allt hänger ihop
 
-### Collections
+### Samlingar
 
-`eleventy.config.js` registers a `songs` collection containing every `.md` file under `src/spex/**` that has an `order` frontmatter field. Index files (which have no `order`) are excluded.
+`eleventy.config.js` registrerar en `songs`-samling som innehåller alla `.md`-filer under `src/spex/**` som har ett `order`-fält i frontmatter. Indexfiler (som inte har `order`) exkluderas.
 
 ### songIndex.json
 
-`src/songIndex.json.njk` is an Eleventy template that generates `/songIndex.json` at build time. It iterates over the `songs` collection (sorted by `spex`) and outputs a JSON array:
+`src/songIndex.json.njk` är en Eleventy-mall som genererar `/songIndex.json` vid byggtid. Den itererar över `songs`-samlingen (sorterad efter `spex`) och skriver ut en JSON-array:
 
 ```json
 [
-  {"title": "[XXX 1] Sångtitel", "page": "/spex-name/"},
+  {"title": "[XXX 1] Låttitel", "page": "/spex-namn/"},
   ...
 ]
 ```
 
-Each song's `page` value comes from `spexPageUrl` in the spex's `{name}.json`. The file is consumed by `scripts/searchscript.js` (the `?search=` feature) and the random-song button. No manual editing of `songIndex.json` is needed — adding songs to the `songs` collection automatically includes them on the next build.
+Varje låts `page`-värde kommer från `spexPageUrl` i spexets `{namn}.json`. Filen används av `scripts/searchscript.js` (funktionen `?search=`) och slump-låt-knappen. Ingen manuell redigering av `songIndex.json` krävs — att lägga till låtar i `songs`-samlingen inkludera dem automatiskt vid nästa bygg.
 
-### Filters
+### Filter
 
-| Filter | Purpose |
+| Filter | Syfte |
 |---|---|
-| `songsForSpex(collection, spexName)` | Returns all songs for a given `spex` id, sorted by `order` |
-| `songsFromList(collection, songList)` | Returns specific songs by `{spex, title}` pairs, preserving list order |
-| `renderSong(song)` | Renders a song collection item as an HTML song-block string |
+| `songsForSpex(collection, spexName)` | Returnerar alla låtar för ett givet `spex`-ID, sorterade efter `order` |
+| `songsFromList(collection, songList)` | Returnerar specifika låtar via `{spex, title}`-par, bevarar listordning |
+| `renderSong(song)` | Renderar en låt från samlingen som en HTML-låtblock-sträng |
 
-### Layout flow (`src/_layouts/spex.njk`)
+### Layoutflöde (`src/_layouts/spex.njk`)
 
-1. If the page has `uppsattning` (hub page): iterate over productions in list order, render each group under an `<h2>` heading using `songsForSpex(u.id)`.
-2. If the page has `spex` (single-production or individual production page): query `songsForSpex(spex)` and render all songs.
-3. Otherwise: render `{{ content | safe }}` (fallback, not normally used).
+1. Om sidan har `uppsattning` (navsida): iterera över produktioner i listordning, rendera varje grupp under en `<h2>`-rubrik med `songsForSpex(u.id)`.
+2. Om sidan har `spex` (enkelproduktions- eller enskild produktionssida): fråga `songsForSpex(spex)` och rendera alla låtar.
+3. Annars: rendera `{{ content | safe }}` (fallback, används normalt inte).
 
-Each song is rendered as:
+Varje låt renderas som:
 
 ```html
 <div class="song-block">
   <div class="song-header">
-    <button class="collapsible" id="<slug>">Sångtitel</button>
+    <button class="collapsible" id="<slug>">Låttitel</button>
     <button class="song-link-btn" onclick="copySongLink('<slug>')">…</button>
   </div>
   <div class="content">
-    <br><i>(Singer)</i><br>
+    <br>
+    <i>(Singer)</i><br>
     <i>Mel. Melody</i><br>
-    <!-- rendered markdown body -->
+    <br>
+    <!-- renderad markdown-body -->
+    <br><br>
   </div>
 </div>
 ```
 
-Collapsible behaviour and hash-navigation are handled by inline `<script>` in the layout.
+Beteendet för ihopfällbara element och hash-navigering hanteras av inbäddat `<script>` i layouten.
 
 ---
 
-## Templates
+## Mallar
 
-Ready-to-copy templates live in:
+Färdiga mallar för kopiering finns i:
 
-- `src/spex/_template_single/` — single-production spex
-- `src/spex/_template_multi/` — multi-production spex (hub + year subfolder)
+- `src/spex/_template_single/` — spex med en produktionsomgång
+- `src/spex/_template_multi/` — spex med flera uppsättningar (nav + års-undermapp)
 
-Copy the relevant folder, rename it and the `.json` file inside, and fill in the placeholders. Templates include comments explaining every field.
+Kopiera den relevanta mappen, döp om den och `.json`-filen inne i den, och fyll i platshållarna. Mallarna inkluderar kommentarer som förklarar varje fält.
 
 ---
 
-## Deployment
+## Distribution
 
-The workflow at `.github/workflows/deploy_try.yml` builds the site with `npm run build` and deploys `_site/` to GitHub Pages.
+Arbetsflödet i `.github/workflows/deploy_try.yml` bygger sidan med `npm run build` och distribuerar `_site/` till GitHub Pages.
 
-**GitHub Pages deployment.** Automatic deploys on every push to `main` is set to on by these lines in `deploy_try.yml`:
+**GitHub Pages-distribution.** Automatisk distribution vid varje push till `main` aktiveras av dessa rader i `deploy_try.yml`:
 
 ```yaml
 on:
@@ -446,4 +451,4 @@ on:
     branches: [main]
 ```
 
-To activate the deployment: go to the repository on GitHub → Settings → Pages → Source: → set to GitHub Actions.
+För att aktivera distributionen: gå till repositoryt på GitHub → Inställningar → Pages → Källa: → ställ in på GitHub Actions.

@@ -46,6 +46,6 @@ endel, så ingen halva blir för lång
 **Lisa:** Köp en till
 **Luther:** Sväng och sträck på dina ben
 **Roberta:** Men kom sery hit igen
-**Gioaanni:** Se på upp-lösningen
+**Giovanni:** Se på upp-lösningen
 **Julius:** Vilket kaos!
 **Alla:** Det är dags för paus!

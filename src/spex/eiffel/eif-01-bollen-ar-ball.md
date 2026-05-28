@@ -21,20 +21,17 @@ En seger som är rättvis och klok och rationell
 Och vi tål inte nån protest
 För vi är juryn, vi vet bäst
 
-<div class="row">
-  <div class="column">
-    <b>Gubbarna:</b><br>
-    Det vi gör och vet vi att vi gör<br>
-    Vi vet allt bättre än nån annan<br>
-    För vi vet bäst
-  </div>
-  <div class="column">
-    <b>Sarah:</b><br>
-    Ja, vi är faktiskt<br>
-    Dom som<br>
-    Vet bäst
-  </div>
-</div>
+::: cols
+**Gubbarna:**
+Det vi gör och vet vi att vi gör
+Vi vet allt bättre än nån annan
+För vi vet bäst
+::: col
+**Sarah:**
+Ja, vi är faktiskt
+Dom som
+Vet bäst
+:::
 
 **Alla:**
 En boll har klassisk symmetri
@@ -52,20 +49,17 @@ Då tar hon med sig pudeln och åker till Paris
 Hon får en skojig pappershatt
 Och särskild pensionärsrabatt
 
-<div class="row">
-  <div class="column">
-    <b>Gubbarna:</b><br>
-    Och alla barnbarnen och deras<br>
-    Kusiner och vänner och hundar<br>
-    Får varsin glass
-  </div>
-  <div class="column">
-    <b>Sarah:</b><br>
-    Och alla<br>
-    Barnbarnen<br>
-    Får en glass
-  </div>
-</div>
+::: cols
+**Gubbarna:**
+Och alla barnbarnen och deras
+Kusiner och vänner och hundar
+Får varsin glass
+::: col
+**Sarah:**
+Och alla
+Barnbarnen
+Får en glass
+:::
 
 **Alla:**
 Bollen blir en sensation

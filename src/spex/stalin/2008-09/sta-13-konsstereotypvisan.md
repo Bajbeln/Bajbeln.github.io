@@ -6,32 +6,30 @@ spex: stalin-2008-09
 order: 1
 permalink: false
 ---
-<div class="row">
-  <div class="column">
-    <b>Money:</b><br>
-    Hör nu, vad blir det för nåt?<br>
-    <br>
-    Men du, kan det va en tjej?<br>
-    <br>
-    Hör på, det är nog en man<br>
-    <br>
-    Men åh, tänk om vi tar fel<br>
-    <br>
-    Ingen kommer ju ihåg<br>
-    Om vi anställde en påg
-  </div>
-  <div class="column">
-    <b>Churchill:</b><br>
-    <br><br>
-    Det är ingen som förstått<br>
-    <br>
-    Om hon är gay<br>
-    <br>
-    Tror du att det är en han?<br>
-    <br>
-    Snart får jag spel!
-  </div>
-</div>
+::: cols
+**Money:**
+Hör nu, vad blir det för nåt?
+
+Men du, kan det va en tjej?
+
+Hör på, det är nog en man
+
+Men åh, tänk om vi tar fel
+
+Ingen kommer ju ihåg
+Om vi anställde en påg
+::: col
+**Churchill:**
+
+
+Det är ingen som förstått
+
+Om hon är gay
+
+Tror du att det är en han?
+
+Snart får jag spel!
+:::
 
 **Båda:**
 Kvinnan ska sitta vackert och vara tyst
@@ -40,32 +38,30 @@ Mannen ska vråla högljutt och dricka öl
 sedan ska han däcka tidigt i en vattenpöl
 som en riktig knöl
 
-<div class="row">
-  <div class="column">
-    <b>Money:</b><br>
-    Jag vill gärna se allt klart<br>
-    <br>
-    Och allt löser sig så lätt<br>
-    <br>
-    Det är ingen som förstår<br>
-    <br>
-    Jag vet, och jag är så trött på de'<br>
-    <br>
-    Är det inte svårt så säg<br>
-    Kan det kanske vara en tjej?
-  </div>
-  <div class="column">
-    <b>Churchill:</b><br>
-    <br><br>
-    Könet ska vara uppenbart<br>
-    <br>
-    Om man ser rätt<br>
-    <br>
-    Hur kasst alltihopa går<br>
-    <br>
-    Jag håller me'!
-  </div>
-</div>
+::: cols
+**Money:**
+Jag vill gärna se allt klart
+
+Och allt löser sig så lätt
+
+Det är ingen som förstår
+
+Jag vet, och jag är så trött på de'
+
+Är det inte svårt så säg
+Kan det kanske vara en tjej?
+::: col
+**Churchill:**
+
+
+Könet ska vara uppenbart
+
+Om man ser rätt
+
+Hur kasst alltihopa går
+
+Jag håller me'!
+:::
 
 **Båda:**
 Mannen ska svettas mycket och va' snygg

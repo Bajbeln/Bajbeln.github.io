@@ -21,7 +21,7 @@ Ty densamma har jag glömt att stoppa opp
 
 _(Omkvälde)_
 
-Jag var här en gång för länge senm men nu så är jag där
+Jag var här en gång för länge sen, men nu så är jag där
 Och på min spis har jag hängt upp ett luftgevär
 I från pipan sprutar dymoremsor med en jäkla fart
 Och i från kolven datapapper - tänk vad smart!

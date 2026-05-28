@@ -39,20 +39,17 @@ Testa den så att den är funktionell
 
 **Mosanna:** Är den tredimensionell?
 
-<div class="row">
-  <div class="column">
-    <b>Fabian:</b> Ser man en ritning där måtten är tydliga<br>
-    Handstilen läslig och siffrorna prydliga<br>
-    Och alla vinklar beräknats korrekt,<br>
-    Vet man att den är gjord av en arkitekt
-  </div>
-  <div class="column">
-    <b>MA:</b> Jösses vad fräckt han är arkitekt<br>
-    Jösses vad fräckt, han är arkitekt<br>
-    Jösses vad fräckt, han är arkitekt<br>
-    — Av en arkitekt
-  </div>
-</div>
+::: cols
+**Fabian:** Ser man en ritning där måtten är tydliga
+Handstilen läslig och siffrorna prydliga
+Och alla vinklar beräknats korrekt,
+Vet man att den är gjord av en arkitekt
+::: col
+**MA:** Jösses vad fräckt han är arkitekt
+Jösses vad fräckt, han är arkitekt
+Jösses vad fräckt, han är arkitekt
+— Av en arkitekt
+:::
 
 **Fabian:** Du gör upp en budget och snålar med penningar
 Inköpen följer din uppgjorda mall
@@ -71,17 +68,14 @@ När du till sist håller invigningstal
 
 **Mosanna:** Vilken fyllig manual
 
-<div class="row">
-  <div class="column">
-    <b>Fabian:</b> Ser man en spira som strävar mot höjderna<br>
-    Skänker en försmak av himmelska fröjderna<br>
-    Och som är proportionerligt perfekt<br>
-    Vet man att den är byggd av en arkitekt
-  </div>
-  <div class="column">
-    <b>MA:</b> Jösses vad fräckt han är arkitekt<br>
-    Jösses vad fräckt, han är arkitekt<br>
-    Jösses vad fräckt, han är arkitekt<br>
-    — Av en arkitekt
-  </div>
-</div>
+::: cols
+**Fabian:** Ser man en spira som strävar mot höjderna
+Skänker en försmak av himmelska fröjderna
+Och som är proportionerligt perfekt
+Vet man att den är byggd av en arkitekt
+::: col
+**MA:** Jösses vad fräckt han är arkitekt
+Jösses vad fräckt, han är arkitekt
+Jösses vad fräckt, han är arkitekt
+— Av en arkitekt
+:::

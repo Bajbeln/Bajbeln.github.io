@@ -18,47 +18,44 @@ Det är kanon.
 
 **Båda:** Vinna, vinna, vinna...
 
-<div class="row">
-  <div class="column">
-    <b>Tesla:</b><br>
-    Allra bäst är växel-<br>
-    ström<br>
-    Vinna, vinna, vinna...<br>
-    <br>
-    <br>
-    vaka får du över ditt lilla<br>
-    sorgliga patent<br>
-    <br>
-    Må va hänt.<br>
-    <br>
-    Allra bäst är växel-<br>
-    ström<br>
-    Vinna, vinna, vinna<br>
-    <br>
-    <br>
-    Tornar problemen upp sig<br>
-    kan du vänta dig en känga ifrån mig
-  </div>
-  <div class="column">
-    <b>Edison:</b><br>
-    vinna, vinna, vinna...<br>
-    kassa blir dina förtjänster<br>
-    i kampen mot min mördande strömkonkurrens<br>
-    <br>
-    Allra bäst är min lik-<br>
-    ström<br>
-    <br>
-    Dissident!<br>
-    <br>
-    <br>
-    Spak blir du nog må du tro<br>
-    i min alldeles förtjusande<br>
-    framgångsmaskin<br>
-    <br>
-    Allra bäst är min lik-<br>
-    ström
-  </div>
-</div>
+::: cols
+**Tesla:**
+Allra bäst är växel-
+ström
+Vinna, vinna, vinna...
+
+
+vaka får du över ditt lilla
+sorgliga patent
+
+Må va hänt.
+
+Allra bäst är växel-
+ström
+Vinna, vinna, vinna
+
+
+Tornar problemen upp sig
+kan du vänta dig en känga ifrån mig
+::: col
+**Edison:**
+vinna, vinna, vinna...
+kassa blir dina förtjänster
+i kampen mot min mördande strömkonkurrens
+
+Allra bäst är min lik-
+ström
+
+Dissident!
+
+
+Spak blir du nog må du tro
+i min alldeles förtjusande
+framgångsmaskin
+
+Allra bäst är min lik-
+ström
+:::
 
 **Båda:** Jag ska ge dig mer än du tål
 sen utbringa skål för mitt monopol
@@ -87,33 +84,30 @@ får egen fabrik med plats för praktik
 för den som får omskola sig,
 blir springpojke hos mej.
 
-<div class="row">
-  <div class="column">
-    <b>Tesla:</b><br>
-    Kackerlacka!<br>
-    <br>
-    Parasit!<br>
-    <br>
-    Du e ju helt senil o lomhörd!<br>
-    <br>
-    Exkrement!<br>
-    <br>
-    Din likström är undermålig!
-  </div>
-  <div class="column">
-    <b>Edison:</b><br>
-    <br>
-    Borgarbracka!<br>
-    <br>
-    Helsingkronit!<br>
-    <br>
-    Du e en debil och dum nörd!<br>
-    <br>
-    Malmöstudent!<br>
-    <br>
-    Din skalle e helt ihålig!
-  </div>
-</div>
+::: cols
+**Tesla:**
+Kackerlacka!
+
+Parasit!
+
+Du e ju helt senil o lomhörd!
+
+Exkrement!
+
+Din likström är undermålig!
+::: col
+**Edison:**
+
+Borgarbracka!
+
+Helsingkronit!
+
+Du e en debil och dum nörd!
+
+Malmöstudent!
+
+Din skalle e helt ihålig!
+:::
 
 **Båda:** \* för din teknik!
 

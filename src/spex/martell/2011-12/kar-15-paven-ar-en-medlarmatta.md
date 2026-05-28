@@ -100,19 +100,16 @@ Vem är du?
 **Alla utom Påven:**
 Du gör ju allt värre
 
-<div class="row">
-  <div class="column">
-    <b>Påven</b><br>
-    Aldrig<br>
-    mer mer besvär<br>
-    Tur för er att<br>
-    er Påve var här!
-  </div>
-  <div class="column">
-    <b>Alla andra:</b><br>
-    Bara<br>
-    mer mer besvär<br>
-    Vad gör det att<br>
-    vår Påve var här?
-  </div>
-</div>
+::: cols
+**Påven**
+Aldrig
+mer mer besvär
+Tur för er att
+er Påve var här!
+::: col
+**Alla andra:**
+Bara
+mer mer besvär
+Vad gör det att
+vår Påve var här?
+:::

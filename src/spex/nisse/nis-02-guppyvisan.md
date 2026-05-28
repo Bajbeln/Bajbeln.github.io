@@ -14,18 +14,15 @@ Lyssna nu noga så ska ni få höra
 
 Simma och simma och rimma
 
-<div class="row">
-  <div class="column">
-    Som dumma fiskar har vi svårt att hinna<br>
-    Sjunga är svårt utan lunga<br>
-    Men tänderna kan användas som stöd
-  </div>
-  <div class="column">
-    Simma och simma och rimma<br>
-    Som dumma fiskar har vi svårt att hinna<br>
-    Sjunga är svårt utan mun
-  </div>
-</div>
+::: cols
+Som dumma fiskar har vi svårt att hinna
+Sjunga är svårt utan lunga
+Men tänderna kan användas som stöd
+::: col
+Simma och simma och rimma
+Som dumma fiskar har vi svårt att hinna
+Sjunga är svårt utan mun
+:::
 
 Jag är sopran
 Jag är tenor
@@ -45,18 +42,15 @@ Det kan det säkert, du glömde i frysen
 
 Glömmer att jag med bussen
 
-<div class="row">
-  <div class="column">
-    Så jag får simma runt i vattenpussen<br>
-    Missar att jag ska med hissar<br>
-    Så jag får gå i trapporna men
-  </div>
-  <div class="column">
-    Glömmer och glömmer och drömmer<br>
-    Så han får simma runt i vattenpussen<br>
-    Missar och pissar på tån
-  </div>
-</div>
+::: cols
+Så jag får simma runt i vattenpussen
+Missar att jag ska med hissar
+Så jag får gå i trapporna men
+::: col
+Glömmer och glömmer och drömmer
+Så han får simma runt i vattenpussen
+Missar och pissar på tån
+:::
 
 Vem är det där?
 Jag är nog kär

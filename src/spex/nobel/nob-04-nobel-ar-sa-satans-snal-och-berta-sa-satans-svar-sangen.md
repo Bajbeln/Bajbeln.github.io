@@ -82,28 +82,25 @@ Som du vet kvinnor kan
 Leva utan en man
 Så giftermål är inte min grej
 
-<div class="row">
-  <div class="column">
-    <b>Nobel:</b><br>
-    Jag är skitsnygg<br>
-    och ball<br>
-    Klart jag fått<br>
-    dig på fall<br>
-    Så bra att du<br>
-    vill gifta dig!<br>
-    <br>
-    Nej?
-  </div>
-  <div class="column">
-    <b>Bertha:</b><br>
-    Du är inte<br>
-    så ball<br>
-    Får mig ald-<br>
-    rig på fall<br>
-    Hellre så för-<br>
-    giftar jag mig<br>
-    Nej!<br>
-    <br>
-    Nej! Nej!
-  </div>
-</div>
+::: cols
+**Nobel:**
+Jag är skitsnygg
+och ball
+Klart jag fått
+dig på fall
+Så bra att du
+vill gifta dig!
+
+Nej?
+::: col
+**Bertha:**
+Du är inte
+så ball
+Får mig ald-
+rig på fall
+Hellre så för-
+giftar jag mig
+Nej!
+
+Nej! Nej!
+:::

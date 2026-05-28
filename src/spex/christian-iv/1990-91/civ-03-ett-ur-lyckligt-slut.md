@@ -7,53 +7,50 @@ order: 10
 permalink: false
 ---
 
-<div class="row">
-  <div class="column">
-    <b>Kirsten:</b><br>
-    <br>
-    Se hit och fäst era blickar<br>
-    På en läckerbit<br>
-    Jag är en välpumpad flicka<br>
-    Sexigt klädd med flit<br>
-    Ja, jag blir alldeles darrig<br>
-    När jag ser en man<br>
-    Då klär jag om och av mej för<br>
-    Att visa vad jag kan<br>
-    <br>
-    <br>
-    Jag heter Munk men är sällsynt<br>
-    Liderlig ändå<br>
-    Jag letar efter en man här<br>
-    Ja, jag tar gärna två<br>
-    Får jag blott en, ska<br>
-    Han va stor och tung<br>
-    Ja, jag vill ha en väldig man<br>
-    Så ge mej Danmarks kung<br>
-    <br>
-    En man en kung
-  </div>
-  <div class="column">
-    <b>Alla män:</b><br>
-    Titta en tjej som kommer ur ett paket!<br>
-    <br>
-    <br>
-    Hur kom hon dit<br>
-    Hon är en läckerbit<br>
-    Se vad<br>
-    Hon kan<br>
-    Kan hon få plats<br>
-    I en spann<br>
-    <br>
-    Vem är hon som sätter blodet i svang?<br>
-    <br>
-    <br>
-    Men tänk ändå<br>
-    Ja, tänk att henne få<br>
-    Tänk om<br>
-    En ung<br>
-    Tjej fick ta mej<br>
-    På min pung<br>
-    <br>
-    En man en kung
-  </div>
-</div>
+::: cols
+**Kirsten:**
+
+Se hit och fäst era blickar
+På en läckerbit
+Jag är en välpumpad flicka
+Sexigt klädd med flit
+Ja, jag blir alldeles darrig
+När jag ser en man
+Då klär jag om och av mej för
+Att visa vad jag kan
+
+
+Jag heter Munk men är sällsynt
+Liderlig ändå
+Jag letar efter en man här
+Ja, jag tar gärna två
+Får jag blott en, ska
+Han va stor och tung
+Ja, jag vill ha en väldig man
+Så ge mej Danmarks kung
+
+En man en kung
+::: col
+**Alla män:**
+Titta en tjej som kommer ur ett paket!
+
+
+Hur kom hon dit
+Hon är en läckerbit
+Se vad
+Hon kan
+Kan hon få plats
+I en spann
+
+Vem är hon som sätter blodet i svang?
+
+
+Men tänk ändå
+Ja, tänk att henne få
+Tänk om
+En ung
+Tjej fick ta mej
+På min pung
+
+En man en kung
+:::

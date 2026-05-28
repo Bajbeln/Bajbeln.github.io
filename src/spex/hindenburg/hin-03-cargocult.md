@@ -15,7 +15,7 @@ Vi ska till Amerikatt
 
 Vi utvandrar från Sverige - från hunger, nöd och kris.
 Mot bördig jord och rikedom, ett skatteparadis.
-Vi flyr från stenig åkec och lämnar våran skuld,
+Vi flyr från stenig åker, och lämnar våran skuld,
 Åh Karina! Sanden blir till guld!
 
 Vi ska till Amerikatt

@@ -6,7 +6,7 @@ order: 3
 permalink: false
 ---
 **A**
-Jag önskar att jagkunde få en partner
+Jag önskar att jag kunde få en partner
 som har både Volvo och stil
 Håller av mig men på MFF, ohhh Himmelsblå
 Jag hoppar aldrig av men bungeejump
@@ -17,7 +17,7 @@ oh.
 
 Jag vill ha någon kär
 Som håller blåvitt kär
-Och som villåka runt i stan och i min
+Och som vill åka runt i stan och i min
 Volvo
 **M**
 Som gillar äventyr

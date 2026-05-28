@@ -24,19 +24,16 @@ För vårt kära fosterland är viktigt att försvara.
 Och om dina bunkrar inte hinner att bli klara
 Kommer vi sitta här med rumporna bara.
 
-<div class="row">
-  <div class="column">
-    Jag skrev fel i min kalender<br>
-    Vi kan väl bygga en i sänder<br>
-    Kan få hjälp från andra länder<br>
-    Jag har bara två händer
-  </div>
-  <div class="column">
-    Hör inte hit<br>
-    Har inte tid<br>
-    Dom är i krig
-  </div>
-</div>
+::: cols
+Jag skrev fel i min kalender
+Vi kan väl bygga en i sänder
+Kan få hjälp från andra länder
+Jag har bara två händer
+::: col
+Hör inte hit
+Har inte tid
+Dom är i krig
+:::
 
 Ni förstår jag har den olustiga tanken att mitt regemente läggs ner
 Om jag inte får nåt lån på banken kommer det inte finnas mer.
@@ -47,29 +44,26 @@ Hela din armé kan ejbestå av en tjej
 I denna stora fråga kan du inte säga nej
 Fatta det är my way or the highway
 
-<div class="row">
-  <div class="column">
-    Men mina tänder måste lagas<br>
-    Och min farmor ska begravas<br>
-    Min budget måste åtstramas<br>
-    Kan ni inte övertalas?<br>
-    <br>
-    Det har regnat hela våren<br>
-    Jag har sparkat halva kåren<br>
-    O jag börjar bli till åren<br>
-    Kan vi hyra nån från Polen?<br>
-    <br>
-    OKEJ
-  </div>
-  <div class="column">
-    Inga men!<br>
-    Nu igen?<br>
-    Vi tar det sen<br>
-    NEJ!<br>
-    <br>
-    Äh lite klet<br>
-    Jo jag vet<br>
-    O lite fet<br>
-    NEJ!
-  </div>
-</div>
+::: cols
+Men mina tänder måste lagas
+Och min farmor ska begravas
+Min budget måste åtstramas
+Kan ni inte övertalas?
+
+Det har regnat hela våren
+Jag har sparkat halva kåren
+O jag börjar bli till åren
+Kan vi hyra nån från Polen?
+
+OKEJ
+::: col
+Inga men!
+Nu igen?
+Vi tar det sen
+NEJ!
+
+Äh lite klet
+Jo jag vet
+O lite fet
+NEJ!
+:::

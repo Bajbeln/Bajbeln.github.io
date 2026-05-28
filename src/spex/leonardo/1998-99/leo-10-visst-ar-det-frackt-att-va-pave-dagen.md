@@ -22,7 +22,7 @@ Visst är det fräckt att vara påve, lille vän?
 **Roberta:**
 Men ifall människorna struntar i ditt påbud
 Och inte bryr sig om att du har på en snygg skrud
-Dom pekar finger åt din mössa och snor d¡n kollekt
+Dom pekar finger åt din mössa och snor din kollekt
 Dom skriver nidvisor och skrattar åt din gud
 Att vara påve verkar faktiskt ganska tråkigt
 En massa plikter, alla tjarar, det blir bråkigt

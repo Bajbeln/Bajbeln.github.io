@@ -41,14 +41,13 @@ Du har en febertopp
 Vilken svår situation
 **Båda:** Lägg dig på britsen
 
-<div class="row">
-  <div class="column">
-<b>H</b><br>Jag ska ta mig en titt sen
-  </div>
-  <div class="column">
-<b>F</b><br>Jag ska ta dig på titsen
-  </div>
-</div>
+::: cols
+**H**
+Jag ska ta mig en titt sen
+::: col
+**F**
+Jag ska ta dig på titsen
+:::
 
 **Båda:** Den behandlingen är vitsen
 Med en lyckad relation

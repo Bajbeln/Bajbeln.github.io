@@ -27,49 +27,41 @@ Men på er vill jag
 Om jag kan, ett kort moment, få
 Bara ta (bara ta, bara ta)
 
-<div class="row">
-  <div class="column">
-    I mitt telefonlaboratorium<br>
-    Gör jag fräcka experiment<br>
-    Dess fundament<br>
-    Är min talent<br>
-    Jag är succéidéproducent<br>
-    Potensen i Morgans imperium<br>
-    Har mig som sin exponent<br>
-    Och kronan på mitt livsverk blir nu ett patentdokument
-  </div>
-  <div class="column">
-    <br>
-    <i>Alt:<br>
-      I mitt gebit<br>
-      Är jag elit<br>
-      Med aptit uppå kvinnor och sprit
-    </i>
-  </div>
-</div>
+::: cols
+I mitt telefonlaboratorium
+Gör jag fräcka experiment
+Dess fundament
+Är min talent
+Jag är succéidéproducent
+Potensen i Morgans imperium
+Har mig som sin exponent
+Och kronan på mitt livsverk blir nu ett patentdokument
+::: col
+<i>Alt:
+I mitt gebit
+Är jag elit
+Med aptit uppå kvinnor och sprit
+</i>
+:::
 
 Här, förstår ni, finns det grejer
 Kom, vill fröken se min apparat?
 Den e' nå't som alla tjejer
 Gillar, pöbel som aristokrat
 
-<div class="row">
-  <div class="column">
-    <br>
-    Denna vill jag ta patent på<br>
-    Men på er vill jag<br>
-    Om jag kan, ett kort moment, få<br>
-    Bara ta (bara ta, bara ta)
-  </div>
-  <div class="column">
-    <i>Alt:<br>
-      Jag blir upptänd utav åtrå<br>
-      Hör min propå<br>
-      Får jag inte Er med smör på<br>
-      Kan jag ta Er rå (utan någonting på)
-    </i>
-  </div>
-</div>
+::: cols
+Denna vill jag ta patent på
+Men på er vill jag
+Om jag kan, ett kort moment, få
+Bara ta (bara ta, bara ta)
+::: col
+<i>Alt:
+Jag blir upptänd utav åtrå
+Hör min propå
+Får jag inte Er med smör på
+Kan jag ta Er rå (utan någonting på)
+</i>
+:::
 
 Skriv nu en patentblankett å'
 följ sen med mig på en tête à tête

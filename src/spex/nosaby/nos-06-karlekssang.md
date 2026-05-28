@@ -33,20 +33,17 @@ Gör kvinnans fysik fulländad
 Den optimala passionen
 Livsekvationernas graf
 
-<div class="row">
-  <div class="column">
-    <b>John Milner:</b> Får jag räkna formeln för din kropp?<br>
-    Kom intill mig helt kloss<br>
-    Din derivata är på topp<br>
-    Låt oss börja knopp-<br>
-    a av oss
-  </div>
-  <div class="column">
-    <b>Albertina:</b><br>
-    Kom och räkna formeln för min kropp!<br>
-    Kom intill mig helt kloss<br>
-    Min derivata är på topp<br>
-    Låt os börja knopp-<br>
-    -a av oss
-  </div>
-</div>
+::: cols
+**John Milner:** Får jag räkna formeln för din kropp?
+Kom intill mig helt kloss
+Din derivata är på topp
+Låt oss börja knopp-
+a av oss
+::: col
+**Albertina:**
+Kom och räkna formeln för min kropp!
+Kom intill mig helt kloss
+Min derivata är på topp
+Låt os börja knopp-
+-a av oss
+:::

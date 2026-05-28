@@ -6,9 +6,7 @@ spex: leonardo-1993
 order: 13
 permalink: false
 ---
-<div class="row">
-<div class="column">
-
+::: cols
 **Mona+Maffiavelli:**
 Dags att smyga tyst och lätt
 På ett högst försiktigt sätt
@@ -44,10 +42,7 @@ Inget gastande
 Som gör att grannar kommer hastande
 För vårt hemfridsantastande
 Är rättsligt tämligen belastande
-
-</div>
-<div class="column">
-
+::: col
 **Lisa+Bob+Julius:**
 In i hemmets lugna vrå
 Tyst vi smyger lätt på tå
@@ -81,6 +76,4 @@ Nu är det dags att ge sig av
 För om vi stannar kommer Leonardo hastande
 Och fast han e som pastan degig i sin hjärna
 Vi ej gärna kunna unna oss nåt rastande
-
-</div>
-</div>
+:::

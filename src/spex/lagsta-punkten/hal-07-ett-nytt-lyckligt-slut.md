@@ -10,7 +10,7 @@ permalink: false
 
 **Kirsten:** Se hit och fäst era blickar
 på en läckerbit
-jagtu en välpumpad flicka
+jag är en välpumpad flicka
 sexigt klädd med flit
 Ja, jag blir alldeles darrig,
 när jag ser en man

@@ -6,46 +6,51 @@ spex: linne-2005
 order: 4
 permalink: false
 ---
-<div class="row">
-  <div class="column">
-    <b>Carl d.y:</b>
-    Hör på mej!
-    <br><br><br>
-    Hör på mej!
-    <br><br><br>
-    Hör på mej!
-    <br><br><br>
-    Hör på mej!
-    <br><br><br>
-    Hör på mig,<br>
-    älskling!<br>
-  </div>
-  <div class="column">
-    <b>Louise:</b>
-    <i>(Slår händerna för öronen)</i><br>
-    Nej, jag vågar inte; tänk om<br>
-    du skulle säga något snuskigt<br>
-    så att jag kanske<br>
-    hör<br>
-    något sådant som jag aldrig<br>
-    fått höra om -- det blir<br>
-    genant när jag ej vet hur man<br>
-    gör<br>
-    och då tror du bara jag är<br>
-    töntig och konstig och tycker<br>
-    jag är ful så det<br>
-    stör<br>
-    så nu vågar jag inte ta ner mina<br>
-    händer, kanske händer<br>
-    nåt som det inte<br>
-    bör<br>
-    <br>
-    Kärlek är ett löfte och ett hot<br>
-    <br>
-    <br>
-    Men nu kan jag inte stå emot<br>
-  </div>
-</div>
+::: cols
+**Carl d.y:**
+Hör på mej!
+
+
+
+Hör på mej!
+
+
+
+Hör på mej!
+
+
+
+Hör på mej!
+
+
+
+Hör på mig,
+älskling!
+::: col
+**Louise:**
+*(Slår händerna för öronen)*
+Nej, jag vågar inte; tänk om
+du skulle säga något snuskigt
+så att jag kanske
+hör
+något sådant som jag aldrig
+fått höra om -- det blir
+genant när jag ej vet hur man
+gör
+och då tror du bara jag är
+töntig och konstig och tycker
+jag är ful så det
+stör
+så nu vågar jag inte ta ner mina
+händer, kanske händer
+nåt som det inte
+bör
+
+Kärlek är ett löfte och ett hot
+
+
+Men nu kan jag inte stå emot
+:::
 
 **Båda:**
 För vi är kära, du och jag
@@ -63,17 +68,14 @@ Vi står oss lösa idag
 För alltid; bara du och jag
 För alltid börjar nu
 
-<div class="row">
-  <div class="column">
-    <b>Carl d.y:</b><br>
-    Farsan är så jobbig<br>
-    Han ska jämt hålla på
-  </div>
-  <div class="column">
-    <b>Louise:</b><br>
-    idag
-  </div>
-</div>
+::: cols
+**Carl d.y:**
+Farsan är så jobbig
+Han ska jämt hålla på
+::: col
+**Louise:**
+idag
+:::
 
 **Båda:** Men jag vill bara få hålla av
 Och till din/min mors förtret blir det
@@ -101,17 +103,14 @@ Vi slår oss lösa idag
 För alltid; bara du och jag
 För alltid börjar nu
 
-<div class="row">
-  <div class="column">
-    <b>Carl d.y:</b><br>
-    Farsan är så jobbig<br>
-    Han ska jämt hålla på
-  </div>
-  <div class="column">
-    <b>Louise:</b><br>
-    idag
-  </div>
-</div>
+::: cols
+**Carl d.y:**
+Farsan är så jobbig
+Han ska jämt hålla på
+::: col
+**Louise:**
+idag
+:::
 
 **Båda:** Men nu så vill jag få hålla av
 Och till din/min mors förtret blir det

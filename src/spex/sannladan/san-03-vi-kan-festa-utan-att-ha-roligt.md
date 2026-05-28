@@ -26,46 +26,39 @@ Förbannar och kallar kyparen bög
 **Nietzche:** Framåt klockan två
 Så ska jag stå och vara oförskämd i baren
 
-<div class="row">
-  <div class="column">
-    <b>Marx:</b><br>
-    Svina ner min frack<br>
-    Med glass och punsch<br>
-    Så att jag måste köpa ny<br>
-    <br>
-    När jag kastas ut
-  </div>
-  <div class="column">
-    <br><br>
-    <b>Övriga:</b><br>
-    För vi ska festa<br>
-    Äta, skita, pissa, spy<br>
-    Jag kastas ut
-  </div>
-</div>
+::: cols
+**Marx:**
+Svina ner min frack
+Med glass och punsch
+Så att jag måste köpa ny
+
+När jag kastas ut
+::: col
+**Övriga:**
+För vi ska festa
+Äta, skita, pissa, spy
+Jag kastas ut
+:::
 
 **Alla:** Jag lägger mig och sover sött i närmsta rännsten
 
-<div class="row">
-  <div class="column">
-    <b>Bas (Strindberg):</b><br>
-    Och när jag vaknar sen<br>
-    Så minns jag noll<br>
-    Det känns<br>
-    Som skallen sprängs i bitar<br>
-    Och består av bly<br>
-    Av skållhett bly, det värker och
-  </div>
-  <div class="column">
-    <b>Övriga:</b><br>
-    Och när jag vaknar<br>
-    Så minns jag inget<br>
-    Jag märker bara<br>
-    Att hela skallen dunkar<br>
-    Och består av bly<br>
-    Som står och kokar
-  </div>
-</div>
+::: cols
+**Bas (Strindberg):**
+Och när jag vaknar sen
+Så minns jag noll
+Det känns
+Som skallen sprängs i bitar
+Och består av bly
+Av skållhett bly, det värker och
+::: col
+**Övriga:**
+Och när jag vaknar
+Så minns jag inget
+Jag märker bara
+Att hela skallen dunkar
+Och består av bly
+Som står och kokar
+:::
 
 **Alla:** Det känns som halsen är ett dike fullt med diesel
 Hela kroppen full av dy

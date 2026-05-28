@@ -29,7 +29,7 @@ Ett glas blir tröst i stor misär
 
 Hösten bär en ny säsong
 Vi lämnar nu vår vätkokong
-Tåget pä vâr spääxperrong
+Tåget på vår spääxperrong
 Går snart från vår environg
 Showen slut med denna sång
 Ack du sköna gasballong

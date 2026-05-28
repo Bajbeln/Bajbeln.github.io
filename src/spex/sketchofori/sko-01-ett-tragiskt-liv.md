@@ -29,7 +29,7 @@ En latrintunna av ensamhet.
 kämpa...
 
 **DEF**
-Krossad av paträrkatet(/kapitalet)
+Krossad av patr'arkatet(/kapitalet)
 En sargad och torterad själ.
 Bedövning är värt enda val.
 I en omvärld, så mörk och kall.

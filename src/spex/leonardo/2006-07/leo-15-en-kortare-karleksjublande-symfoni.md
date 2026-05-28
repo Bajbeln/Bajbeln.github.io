@@ -21,7 +21,7 @@ När dina öron blir röda får jag lust att kyssa dom
 Vad va det där för kärleksårstider som du yra om?
 
 **Giovanni:**
-Det känns som att glida ner i en vann bassäng
+Det känns som att glida ner i en varm bassäng
 Som att rulla runt flera varv på en sommaräng
 Som att ta en heldagssovmorgon i sin säng
 Och när vi riktigt näck é

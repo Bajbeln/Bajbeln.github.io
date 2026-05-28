@@ -17,14 +17,14 @@ Jag kan på samveten
 Och känslosträngar spela
 Och så säga något fint
 Om stackars barn i Venezuela
-Allt det och rnyckct mera
+Allt det och mycket mera
 Gör jag utan att ens
 Darra på min manschett
 
 Jag är en påläggskvinna
 Som får folk att sluta kriga
 Bara för att slippa från mitt tjat
-Jag har aldrig lärt rnig
+Jag har aldrig lärt mig
 Niga vackert eller tiga
 Och kan va förbannat obstinat
 Om ditt land har vatt elakt
@@ -38,7 +38,7 @@ Kom nu hit
 Och var en lydig gosse
 Så ska du se hur en rikLig sosse-
 kvinna hon kan lösa kriser
-Med ouhärdligt präktig folkhemsretorik
+Med outhärdligt präktig folkhemsretorik
 Så kom och sätt er i ringen
 Och håll varandras händer
 Och sjung "We shall overcome!
@@ -50,13 +50,13 @@ _(solo, dans)_
 
 Jag är smidig som en vidja
 När det rör min politik
-lnget är ideologi men allt taktik
+Inget är ideologi men allt taktik
 Så i England är jag rojalist
 Men på den andra sidan vattnet
 Är jag helt för republik
 För det är sâ här
 Att vill man göra karriär
-Ska man ha revolionärimage
+Ska man ha revolutionärimage
 Men säga laissez faire
 Där har ni receptet på hur lätt man blir en
 Medlarpionjär!

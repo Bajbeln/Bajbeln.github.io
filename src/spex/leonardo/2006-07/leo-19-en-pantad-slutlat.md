@@ -31,7 +31,7 @@ Det blev fin och så,
 men inte särskilt likt (Michelangelo: Det var ett jäkla tjat)
 Vem bryr sig om ett tusen år
 Blir kanske snyggt
-Ju längre ticlen går
+Ju längre tiden går
 **Sandra:** Och allt blir mörkt
 och svart och tyst
 när vi har dratt ridån

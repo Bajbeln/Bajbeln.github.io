@@ -42,35 +42,32 @@ Sa jag till denna tjej, men hon sa nej
 **Nobel & Le Non:** Jag gör allting för pengar, inget snack
 När checken banken äntrar, går vi till attack
 
-<div class="row">
-  <div class="column">
-    <b>Oscar:</b><br>
-    Min här, står där<br>
-    De är mest till besvär<br>
-    De hjälper aldrig min karriär<br>
-    Här, där, var ska jag vara när<br>
-    Herr Nobel, spränger sin, mackapär<br>
-    I Sver-<br>
-    ige är jag pionjären<br>
-    är liksom Fred Astair en<br>
-    extraordinär<br>
-    Men här jag är<br>
-    En konferenciär<br>
-    För er här
-  </div>
-  <div class="column">
-    <b>Nobel & Le Non:</b><br>
-    Kung Oscar måste va där/här<br>
-    Kung Oscar får ej va här/där<br>
-    Kung Oscar får ej va här/där<br>
-    Kung Oscar får ej va här/där<br>
-    Då kommer det bli besvär<br>
-    Karriären<br>
-    Sätts på tvären<br>
-    Usch, misären<br>
-    Ja, kungen får se till att vara här/där<br>
-    Ja, kungen får se till att vara här/där<br>
-    Kung Oscar måste<br>
-    Va här/där
-  </div>
-</div>
+::: cols
+**Oscar:**
+Min här, står där
+De är mest till besvär
+De hjälper aldrig min karriär
+Här, där, var ska jag vara när
+Herr Nobel, spränger sin, mackapär
+I Sver-
+ige är jag pionjären
+är liksom Fred Astair en
+extraordinär
+Men här jag är
+En konferenciär
+För er här
+::: col
+**Nobel & Le Non:**
+Kung Oscar måste va där/här
+Kung Oscar får ej va här/där
+Kung Oscar får ej va här/där
+Kung Oscar får ej va här/där
+Då kommer det bli besvär
+Karriären
+Sätts på tvären
+Usch, misären
+Ja, kungen får se till att vara här/där
+Ja, kungen får se till att vara här/där
+Kung Oscar måste
+Va här/där
+:::

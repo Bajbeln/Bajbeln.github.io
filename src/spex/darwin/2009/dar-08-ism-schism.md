@@ -36,15 +36,12 @@ Jag har rätt och du har fel!
 Nej! Nej, nej, nej, nej, nej, nej, nej, nej, nej, nej, nej
 Nej, din tro är helt barock, men nu får det va nock!
 
-<div class="row">
-  <div class="column">
-    <b>Påven:</b><br>
-    Livets vagga stod hos gud!<br>
-    Livets vagga stod hos... gud!
-  </div>
-  <div class="column">
-    <b>Darwin:</b><br>
-    Jag ska ragga upp en brud!<br>
-    Jag ska ragga upp en... brud!
-  </div>
-</div>
+::: cols
+**Påven:**
+Livets vagga stod hos gud!
+Livets vagga stod hos... gud!
+::: col
+**Darwin:**
+Jag ska ragga upp en brud!
+Jag ska ragga upp en... brud!
+:::

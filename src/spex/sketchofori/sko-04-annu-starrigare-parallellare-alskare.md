@@ -5,9 +5,7 @@ spex: sketchofori
 order: 5
 permalink: false
 ---
-<div class="row">
-  <div class="column">
-
+::: cols
 _Mel. Wrecking ball_
 
 Var fredagskväll är jag helt sjalv
@@ -40,10 +38,7 @@ Men jag står ensam varje dag. Vem är du:et
 i mitt du och jag? Utan kärlek blir jag trött
 och svag. Så nu står jag häç sjä-ä-lv,
 Helt själv, jag ä-är själv.
-
-  </div>
-  <div class="column">
-
+::: col
 _Mel. Set fire to the rain_
 
 Jag har - ett kall
@@ -83,6 +78,4 @@ Men jag står ensam kvar, varje dag Vem
 Så nu står jag här själv,
 inget rimmar på själv, utom älv
 jag-är själv.
-
-  </div>
-</div>
+:::

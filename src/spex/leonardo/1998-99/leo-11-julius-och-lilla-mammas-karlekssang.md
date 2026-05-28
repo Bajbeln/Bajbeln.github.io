@@ -8,7 +8,7 @@ permalink: false
 ---
 **LM:** Ensam har jag levt mitt liv i många år
 Makt och pengar den passion som jag förstår
-Jag styrt mitt bankimperium och iag har gått över lik
+Jag styrt mitt bankimperium och jag har gått över lik
 inte brytt mig om kärlek och erotik
 
 **Julius:** Jag har levt mitt liv i ett strikt celibat

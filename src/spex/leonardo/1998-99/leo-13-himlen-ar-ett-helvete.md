@@ -7,7 +7,7 @@ order: 7
 permalink: false
 ---
 När jag ser bakåt på dom år jag levat
-Den första tiden tycks så hårligt ljus
+Den första tiden tycks så härligt ljus
 Tre år i glädje, sedan kom min syster
 Med skräck och pina till vårt enkla hus
 
@@ -27,12 +27,12 @@ En tid därefter såg man henne öppna
 Relikbutik för handel med skelett
 
 Som kulmen på en karrär av illdåd
-Beseglades min egen bisha lott
+Beseglades min egen bistra lott
 När hon bestämt sig för att gripa makten
-Var innanmiitet mitt ett rnin¡re blott
+Var innanmätet mitt ett minne blott
 
 Man tror att liv i himlen är nåt särskilt
 Och att där spelas harpa dagen lång
-Men ack, så grymt slår ödets slag mot sjäten
+Men ack, så grymt slår ödets slag mot själen
 Här uppe hör jag bara countrysång (dagen lång)
 _(Repeat and fade out ad lib.)_

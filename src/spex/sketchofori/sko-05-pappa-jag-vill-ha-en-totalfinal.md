@@ -42,7 +42,7 @@ När vi sjungit färdigt vår totalfinal!
 Hoppas att ni riktigt njuter
 När vi sjungit färdigt vår totalfinal!
 Kommer vi slänga ut er!
-Vilken ära att fâvara
+Vilken ära att få vara
 Eran underhållningsskara
 Nu så är vi nästan klara
 Först ska vi bara...

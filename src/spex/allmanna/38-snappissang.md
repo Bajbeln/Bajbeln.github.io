@@ -15,87 +15,57 @@ Fram frack och klänning omigen
 Men först av allt betalar vi
 Femhundraåtti spänn (-åtti spänn)
 
-<div class="row">
-<div class="column">
-
+::: cols
 **Tenorer**
 Att förbereda sig är lugnt.
 Jag fyller på min plunta. Punkt
-
-</div>
-<div class="column">
-
+::: col
 **Övriga**
 La, la, la etc.
-
-</div>
-</div>
+:::
 
 **Alla**
 Men flickvännen vill göra sig fin
 I timmavis får vi lida pin
 
-<div class="row">
-<div class="column">
-
+::: cols
 **Tjejer**
 Men nu så är jag
 Nerbantad och supermejkad
 Går från frissan som en fejkad
 Snygg blondin
-
-</div>
-<div class="column">
-
+::: col
 **Killar**
 Jag tröstar mig med
 Vin
 En korkad men rätt
 Snygg blondin
+:::
 
-</div>
-</div>
-
-<div class="row">
-<div class="column">
-
+::: cols
 **Tenorer**
 På Ordens får man en medalj
 Och häller kaffe i sitt svalg
-
-</div>
-<div class="column">
-
+::: col
 La, la, la etc.
-
-</div>
-</div>
+:::
 
 **Alla**
 Man lyssnar på hur Sara gör
 När hon är full och pojkar förför
 För hon blir kommendör
 
-<div class="row">
-<div class="column">
-
+::: cols
 **Tjejer**
 Jag väntar med stor iver
 Hungern i min mage river
 Så jag dör
-
-</div>
-<div class="column">
-
+::: col
 Nu är jag hungrig
 Så jag dör
+:::
 
-</div>
-</div>
-
-<div class="row">
-<div class="column">
-
+::: cols
 **Tjejer**
 Suck, suck, etc.
 
@@ -110,10 +80,7 @@ Att dricka sig full
 Dum, dum etc.
 
 Nu så börjar sexan
-
-</div>
-<div class="column">
-
+::: col
 **Tenorer**
 Gud vilka eviga tal som man måste höra
 Nu är jag kissnödig men vågar inte störa
@@ -129,10 +96,7 @@ Dansar som en Fred Astaire
 Min bordsdam klamrar sig krampaktigt fast kring halsen
 Oj, hade du foten där
 JA!
-
-</div>
-<div class="column">
-
+::: col
 **Basar**
 Äta, skita
 Pissa spy och
@@ -148,9 +112,7 @@ Dum, dum
 etc.
 
 JA!
-
-</div>
-</div>
+:::
 
 **Alla**
 Jag tränger mig främst i kön
@@ -166,21 +128,14 @@ Där finns det bar och mera mat
 Fast vi är slut egentligen
 Vi festar desperat
 
-<div class="row">
-<div class="column">
-
+::: cols
 **Tenorer**
 Och saknar vi en grillad galt
 Vi ökar vår promillehalt
-
-</div>
-<div class="column">
-
+::: col
 **Övriga**
 La, la etc.
-
-</div>
-</div>
+:::
 
 **Alla**
 När bandet spelar upp
@@ -188,9 +143,7 @@ Får man fnatt
 Och dansar som man vore besatt
 Fast kroppen är rätt matt
 
-<div class="row">
-<div class="column">
-
+::: cols
 **Tjejer**
 Man kommer bra i magen
 Fastän dagen
@@ -203,10 +156,7 @@ Vi snubblar när vi
 Hemåt går
 Vi ses på Snappis
 Nästa år
-
-</div>
-<div class="column">
-
+::: col
 **Killar**
 
 Nu blir snart
@@ -219,6 +169,4 @@ Ruskigt mår
 Hemåt går
 
 Nästa år
-
-</div>
-</div>
+:::

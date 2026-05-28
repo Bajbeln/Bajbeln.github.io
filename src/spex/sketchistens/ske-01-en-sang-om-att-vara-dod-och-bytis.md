@@ -27,7 +27,7 @@ Mig och min doe-kör
 _(Do do do do)_
 
 På bårhuset i mörkret, bidar jag min
-rid
+tid
 Anmäl mig som saknad så att min
 själ får frid
 

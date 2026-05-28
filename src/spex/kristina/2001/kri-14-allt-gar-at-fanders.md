@@ -28,9 +28,7 @@ Tecknar nu kroki
 Han som sköt pistol
 Dansar runt i kjol
 
-<div class="row">
-  <div class="column">
-
+::: cols
 **Axel:**
 De är fjollor
 Dessa fjollor
@@ -39,9 +37,7 @@ fållor
 Spenslig kropp ses
 Hos den råmes
 Som här hoppar på tå i tights
-  </div>
-  <div class="column">
-
+::: col
 **Louise:**
 Vuxna män i taft och tyll
 Långt ifrån en svensk idyll
@@ -50,8 +46,7 @@ Om så än med rumpan bar
 Ska man bära klädedräkt
 Bör det va nåt riktigt fräck
 Inte hoppa på tå i tights
-  </div>
-</div>
+:::
 
 **Axel:** Styrkan har blivit vek
 Tror visst att krig är en lek

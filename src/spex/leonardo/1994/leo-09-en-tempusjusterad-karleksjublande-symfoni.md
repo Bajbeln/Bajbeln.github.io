@@ -6,12 +6,12 @@ spex: leonardo-1994
 order: 1
 permalink: false
 ---
-**Gio:** När jag fick se dig btev jag förlägen
+**Gio:** När jag fick se dig blev jag förlägen
 Och mina fötter stod dumt i vägen
 Men när du log blir mitt inre bubbligt som av kolsyra
 Kan det va kärleken som drabbat mig med sin våryra?
 
-**Mona:** När du glor så dår blir jag pirrig
+**Mona:** När du glor så där blir jag pirrig
 Du är så gullig när du är virrig
 När dina öron blir röda får jag lust att kyssa dom
 Vad va det där för kärleksårstider som du yra om?
@@ -39,47 +39,33 @@ Ska vi gå nakna, för man fryser inte när man är kär!
 Just du är en på flera miljoner
 Kom låt oss klä vår kärlek i toner
 
-<div class="row">
-<div class="column">
-
+::: cols
 **Giovanni:**
 Du ger mig kraft att sjunga!
 Fyller luft i min lunga!
 Sätter sprätt på min tunga!
 Låt oss bli en flock!
-
-</div>
-<div class="column">
-
+::: col
 **Mona:**
 Sjunga gör mig glad!
 Lungan gillar jag!
 Tungan den är bra!
 Låt oss bli en flock!
-
-</div>
-</div>
+:::
 
 **Båda:** Med dig kan inga toner bli trista
 Din är den sång som toppar min lista
 
-<div class="row">
-<div class="column">
-
+::: cols
 **Mona:**
 Klangen håller mig fångad!
 Hettan gör mig förångad!
 Som att plötsligt bli fångad!
 Vilken hjärtekrock!
-
-</div>
-<div class="column">
-
+::: col
 **Giovanni:**
 Fångad attraktion!
 Ångande passion!
 Stångad av en ton!
 Vilken hjärtekrock!
-
-</div>
-</div>
+:::

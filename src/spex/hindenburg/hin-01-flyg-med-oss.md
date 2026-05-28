@@ -24,8 +24,8 @@ på vår jungfrufärd
 Badar i skumpa och lever i flärd
 Överklass vet minsann hur man ska trivas
 Hur livet ska levas och tiden fördrivas
-Flukta mot skeppel det bär på succé
-En hälsning till Frankliru snart gör vi entré
+Flukta mot skeppet, det bär på succé
+En hälsning till Franklin, snart gör vi entré
 Inget kan stoppavär große parad
 Samlas och sjung i vår kavalkad...
 Så flyg med oss!
