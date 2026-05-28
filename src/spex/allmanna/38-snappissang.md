@@ -68,7 +68,7 @@ Så jag dör
 ::: cols
 **Tjejer**
 Suck, suck, etc.
-
+<br>
 Sedan så ses vi
 På herrtoaletten
 Kluck, kluck etc.
@@ -79,6 +79,7 @@ Att dricka sig full
 Är en nordisk rit
 Dum, dum etc.
 
+<br>
 Nu så börjar sexan
 ::: col
 **Tenorer**
@@ -90,7 +91,7 @@ JA!
 Där är det party och brudar och festlig stämning
 Whisky och grogg sköljer bort varje spår av hämning
 La, la, la etc.
-
+<br>
 Jag svävar fram över golvet i wienervalsen
 Dansar som en Fred Astaire
 Min bordsdam klamrar sig krampaktigt fast kring halsen
@@ -107,10 +108,10 @@ JA!
 Pissa, spy och
 La, la
 etc.
-
+<br>
 Dum, dum
 etc.
-
+<br>
 JA!
 :::
 
