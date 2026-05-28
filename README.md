@@ -8,7 +8,9 @@ Spexen finns som filer i `/src/spex`, där kupletterna finns som .md-filer. orig
 
 
 ## Lägga till ett spex
-Kopiera mallen `/spex/spex-sample.html` och anpassa den för ditt spex. Lägg sedan in spexet i `index.html` Glöm inte att du gärna får lägga till källfilen i `assets/song_files`
+Kopiera mallen `/spex/spex-sample.html` och anpassa den för ditt spex. Lägg sedan in spexet i `src/_data/spexlist.json` så att det dyker upp på startsidan. 
+
+Glöm inte att du gärna får lägga till källfilen i `assets/song_files`.
 
 ## För utvecklare
 Kräver **Node.js 18 eller nyare** (rekommenderat: 20). npm ingår i Node.js.
