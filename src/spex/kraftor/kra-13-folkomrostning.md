@@ -73,11 +73,8 @@ Aaaah, rösta
 (Yeah, yeah, yeah)
 
 (Yeah, yeah, yeah, yeah)
-
-
-
-**Bratt & Graaf:**
-(Idag)
+<br><br>
+**Bratt & Graaf:** (Idag)
 
 (Yeah, yeah, yeah)
 (Lägg din röst nu)

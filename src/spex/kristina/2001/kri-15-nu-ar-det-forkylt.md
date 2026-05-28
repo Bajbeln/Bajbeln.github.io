@@ -1,6 +1,6 @@
 ---
 title: "[KRI 11] Nu är det förkylt"
-singer: "Carthesius"
+singer: "Carthesius sjunger"
 melody: "Jennie, Jennie"
 spex: kristina-2001
 order: 15

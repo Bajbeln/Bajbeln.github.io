@@ -1,27 +1,24 @@
 ---
 layout: spex
 title: Favoriter
-color: "rgb(252, 246, 218)"
-accentColor: "rgb(250, 203, 18)"
-accentBorderColor: "rgb(226, 185, 22)"
 permalink: /favoriter/
 songs:
   # - spex: spextitel
   #   title: "[AAA N] Sångtitel"
   - spex: krook
-    title: "[KRO 6] Nu ska vi festa"
+    title: "[KRO 4] Nu ska vi festa"
   - spex: leonardo-1993
     title: "[LEO 4] Lisas presentationssång"
   - spex: christian-iv-1990-91
     title: "[CIV 6] Ett lyckligt slut (Kirsten Munks förlängda presentationssång)"
   - spex: tjogun-1987
     title: "[TJO 3] Jag är Akai"
-  - spex: martell-2011-12
+  - spex: karl-martell-2011-12
     title: "[KAR 17] Nu ska visst alla döda Kalle"
   - spex: florence-1996-97
     title: "[FLO 6] Hyllningssång"
   - spex: sketchistens
-    title: "[FEL 2] En sång om en som är gla och gi'o"
+    title: "[SKE 2] En sång om en som är gla och gi'o"
   - spex: sketchup
     title: "[SKE 3] Våran håv"
   - spex: sketchostrof
@@ -40,6 +37,6 @@ songs:
     title: "[TJO 11] Vilka har giftet?"
   - spex: leonardo-1993
     title: "[LEO 2] Michelangelos presentationssång"
-  - spex: martell-1997
+  - spex: karl-martell-1997
     title: "[KAR 6] Aktfinalsslakt"
 ---

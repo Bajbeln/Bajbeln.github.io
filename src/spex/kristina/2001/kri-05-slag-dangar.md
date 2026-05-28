@@ -58,6 +58,7 @@ Ping
 
 Boll
 
+
 Pajas ska du sticka
 Till Häckefjäll
 
@@ -72,7 +73,7 @@ Får du hörs mitt yippie-kay-ey
 
 **Wallenstein:** Nej, men varpa, kanon och salongsgevär
 Ska besegla ditt öde din proterär
-Fick du en enda spänn för vart hack jsg skär
+Fick du en enda spänn för vart hack jag skär
 Blev du snart en multimiljonär
 
 ::: cols

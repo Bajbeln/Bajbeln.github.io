@@ -121,8 +121,7 @@ supa
 förbjud inte
 Alkohol
 ::: col
-
-**Quist:**
+<br>**Quist:**
 Säg ja till för-
 
 Säg ja till

@@ -92,6 +92,7 @@ In och ut och in
 ::: col
 **Wallenstein**
 
+
 Du din
 Störda
 Körda
@@ -100,6 +101,8 @@ tell
 :::
 
 ::: cols
+
+<br>
 Du ska
 Få en
 Jädra

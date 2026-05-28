@@ -40,7 +40,9 @@ Nu ska Rudbeck ställa allting till rätta
 
 Men jag jobbar ju med din före detta
 
+
 Vad gjorde du på mordkvällen?
+
 
 Nej, nu blir jag generad
 Det känns konstigt i mitt bröst
@@ -77,6 +79,7 @@ _(solo, dans, hångel, &c.)_
 Rufsa, bufsa och nufsa
 Fluffigull, hå och hej!
 ::: col
+<br>
 Å å å å å å å å å å å
 å å å å
 Vad jag älskar dej!

@@ -244,14 +244,14 @@ Sjunger sin vers (indrag med två rader)
 
 - `::: cols` öppnar raden, `::: col` separerar kolumner, `:::` stänger raden.
 - Full markdown fungerar inne i varje kolumn — använd `**fet**` för talarutdrag, tomma rader för versbrytningar, enstaka radbrytningar för radbrytningar inom en vers.
-- **Vertikal justering:** tomma rader i en kolumn flyttar ned efterföljande innehåll. Varje tom rad motsvarar en rads mellanrum.
+- **Vertikal justering:** Använd explicita `<br>`-rader (inte tomma rader) för att flytta ned innehåll i toppen av en kolumn. Tomma rader i toppen av en kolumn fungerar opålitligt — de trimmeras bort av kolumnregeln. Varje `<br>`-rad på en egen rad ger ungefär två raders nedflyttning. Mitt i en kolumn (för avstånd mellan strofer) fungerar tomma rader som vanligt.
 - För tre eller fler kolumner, lägg till fler `::: col`-separatorer.
 - Text utanför blocket är vanlig markdown.
 - Lämna en tom rad efter `:::` för att få ett normalt versbrytningsmellanrum före nästa innehåll.
 
 CSS-klasserna `.row` och `.column` är definierade i `style.css` (flexbox, 50% var). Regeln för `::: cols`-block är implementerad i `eleventy.config.js` — inget npm-paket krävs.
 
-**Anmärkning om mellanrum:** Inne i kolumner producerar tomma rader och radbrytningar samma visuella radavstånd som överallt annars i låten. En tom rad = en tom rads mellanrum. Detta är konsekvent med vanlig låtformatering utanför kolumner.
+**Anmärkning om mellanrum:** Inne i kolumner producerar tomma rader och radbrytningar samma visuella radavstånd som överallt annars i låten. En tom rad = en tom rads mellanrum. **Undantag: i toppen av en kolumn** trimmeras tomma rader bort — använd `<br>` på en egen rad istället för att skjuta ned text vid kolumnstart.
 
 ### Raw HTML i låttexter
 
