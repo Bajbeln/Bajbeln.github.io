@@ -353,13 +353,16 @@ src/spex/kristina/
 
 ## Favoritsidan
 
-`src/favoriter/index.md` använder en egen layout (`favoriter`) och listar handplockade låtar från vilket spex som helst via deras `spex`-identifierare och exakta `title`-sträng:
+`src/favoriter/index.md` använder `layout: spex` med en `songs`-lista i frontmatter för att lista handplockade låtar från vilket spex som helst via deras `spex`-identifierare och exakta `title`-sträng. Färger hämtas från `src/favoriter/favoriter.json`:
 
 ```yaml
 ---
-layout: favoriter
+layout: spex
 title: Favoriter
 color: "rgb(252, 246, 218)"
+accentColor: "rgb(250, 203, 18)"
+accentBorderColor: "rgb(226, 185, 22)"
+permalink: /favoriter/
 songs:
   - spex: oresundsbron
     title: "1. Öppningskuplett"
@@ -368,7 +371,7 @@ songs:
 ---
 ```
 
-Filtret `songsFromList` letar upp varje post i `songs`-samlingen och renderar låtarna i den angivna ordningen.
+Layouten `spex.njk` letar upp varje post i `songs`-samlingen via filtret `songsFromList` och renderar låtarna i den angivna ordningen.
 
 ---
 
@@ -389,7 +392,9 @@ Filtret `songsFromList` letar upp varje post i `songs`-samlingen och renderar l�
 ]
 ```
 
-Varje låts `page`-värde kommer från `spexPageUrl` i spexets `{namn}.json`. Filen används av `scripts/searchscript.js` (funktionen `?search=`) och slump-låt-knappen. Ingen manuell redigering av `songIndex.json` krävs — att lägga till låtar i `songs`-samlingen inkludera dem automatiskt vid nästa bygg.
+Varje låts `page`-värde kommer från `spexPageUrl` i spexets `{namn}.json`. Filen används av `scripts/searchscript.js` (funktionen `?search=`) och slump-låt-knappen.
+
+**Migreringsnotis:** För närvarande finns det också en äldre `songIndex.json` i rotkatalogen som genomkopplas via `eleventy.config.js` (med kommentaren `// remove this to enable search and random to new pages`). När migrationen är klar bör denna rad tas bort så att den genererade filen från `src/songIndex.json.njk` används uteslutande. Ingen manuell redigering av den genererade `songIndex.json` krävs — att lägga till låtar i `songs`-samlingen inkludera dem automatiskt vid nästa bygg.
 
 ### Filter
 
@@ -401,9 +406,10 @@ Varje låts `page`-värde kommer från `spexPageUrl` i spexets `{namn}.json`. Fi
 
 ### Layoutflöde (`src/_layouts/spex.njk`)
 
-1. Om sidan har `uppsattning` (navsida): iterera över produktioner i listordning, rendera varje grupp under en `<h2>`-rubrik med `songsForSpex(u.id)`.
-2. Om sidan har `spex` (enkelproduktions- eller enskild produktionssida): fråga `songsForSpex(spex)` och rendera alla låtar.
-3. Annars: rendera `{{ content | safe }}` (fallback, används normalt inte).
+1. Om sidan har `songs` (t.ex. favoritsidan): rendera den angivna listan av låtar via `songsFromList`.
+2. Om sidan har `uppsattning` (navsida): iterera över produktioner i listordning, rendera varje grupp under en `<h2>`-rubrik med `songsForSpex(u.id)`.
+3. Om sidan har `spex` (enkelproduktions- eller enskild produktionssida): fråga `songsForSpex(spex)` och rendera alla låtar.
+4. Annars: rendera `{{ content | safe }}` (fallback, används normalt inte).
 
 Varje låt renderas som:
 
