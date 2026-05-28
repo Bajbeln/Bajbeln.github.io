@@ -505,6 +505,10 @@ footer {
    SONG BLOCKS (Eleventy-generated pages)
    ======================================== */
 
+.song-block {
+  margin-bottom: var(--spacing-sm);
+}
+
 .song-header {
   display: flex;
   width: fit-content;
