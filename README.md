@@ -2,7 +2,7 @@
 Tillgänglig på [bajbeln.github.io](https://bajbeln.github.io/)
 
 ## Låtar
-Låtarna finns som filer i `/spex`, originaldokumenten de är tagna ifrån finns i `/assets/song_files`
+Spexen finns som filer i `/src/spex`, där kupletterna finns som .md-filer. originaldokumenten de är tagna ifrån finns i `/assets/song_files`
 
 ## Kontakt
 
@@ -22,8 +22,6 @@ npm run start
 ## På gång & kända fel (mer på `todo`)
 - Korrläsning av alla spex (på gång)
 - Migrering till ny sidstruktur (på gång)
-
-- Sökfunktionen ger fel ibland, oftast beror det på att titeln inte skrivits in rätt i songIndex eller i spexsidan. Kontrollera då så att de två överensstämmer med varandra.
 
 ## Tack till
 - Kodning har gjorts av Joel Takahashi Olsson, Jacob Annefors och Johan Furuhjelm.
