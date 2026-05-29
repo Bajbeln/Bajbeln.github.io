@@ -1,6 +1,6 @@
 ---
 title: "[HÅL 5] Jag är fet och full igen (igen!)"
-singer: "(Christian IV sjunger)"
+singer: "Christian IV sjunger"
 melody: "La donna é mobile, ur Rigoletto"
 spex: lagsta-punkten
 order: 10

@@ -1,6 +1,6 @@
 ---
 title: "[LEO 12] Hur kul är det att bli uppstoppad av sin syster?"
-singer: "(Den döde Maffiavelli sjunger)"
+singer: "Den döde Maffiavelli sjunger"
 melody: "Prisoners in paradise"
 spex: leonardo-1998-99
 order: 5

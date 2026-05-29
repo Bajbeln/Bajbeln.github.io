@@ -1,6 +1,6 @@
 ---
 title: "[PUN 6] Anti-klimax eller Anti-klimakterie-sång"
-singer: "(Karthagiterna och Hamilkar sjunger)"
+singer: "Karthagiterna och Hamilkar sjunger"
 melody: "Laker girls cheer ur Spamalot"
 spex: karthago
 order: 8

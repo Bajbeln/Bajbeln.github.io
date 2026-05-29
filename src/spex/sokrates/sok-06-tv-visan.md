@@ -1,6 +1,6 @@
 ---
 title: "[SOK 6] TV-Visan"
-singer: "(Platon, Ambrosia och Aristoteles sjunger)"
+singer: "Platon, Ambrosia och Aristoteles sjunger"
 melody: "Alexander's Ragtime Band"
 spex: sokrates
 order: 12

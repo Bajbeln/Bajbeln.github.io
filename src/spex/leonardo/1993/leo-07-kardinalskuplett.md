@@ -1,6 +1,6 @@
 ---
 title: "[LEO 7] Kardinalskuplett"
-singer: "(Julius och kardinalerna sjunger)"
+singer: "Julius och kardinalerna sjunger"
 melody: "Knights of the Round Table av Monty Python"
 spex: leonardo-1993
 order: 16

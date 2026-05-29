@@ -1,6 +1,6 @@
 ---
 title: "[LEO 9] En tempusjusterad kärleksjublande symfoni"
-singer: "(Giovanni och Mona sjunger)"
+singer: "Giovanni och Mona sjunger"
 melody: "De sista entusiasterna av P. Ramel"
 spex: leonardo-1994
 order: 1

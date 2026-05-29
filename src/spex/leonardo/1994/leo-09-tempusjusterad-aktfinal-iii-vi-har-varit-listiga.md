@@ -1,6 +1,6 @@
 ---
 title: "[LEO 9] Tempusjusterad Aktfinal III Vi har varit listiga"
-singer: "(Mona och Giovanni sjunger)"
+singer: "Mona och Giovanni sjunger"
 melody: "I'm so Excited"
 spex: leonardo-1994
 order: 2

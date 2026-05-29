@@ -1,6 +1,6 @@
 ---
 title: "[EIF 1] Bollen är ball"
-singer: "(Juryn sjunger)"
+singer: "Juryn sjunger"
 melody: "Divertimento K 253, W.A. Mozart"
 spex: eiffel
 order: 2

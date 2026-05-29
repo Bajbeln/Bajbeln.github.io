@@ -1,6 +1,6 @@
 ---
 title: "[LEO 1] Inledningssång"
-singer: "(Maffavelli och Lilla mamma sjunger)"
+singer: "Maffavelli och Lilla mamma sjunger"
 melody: "Sweet Georgia Brown"
 spex: leonardo-1993
 order: 2

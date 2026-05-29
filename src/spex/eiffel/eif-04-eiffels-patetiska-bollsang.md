@@ -1,6 +1,6 @@
 ---
 title: "[EIF 4] Eiffels patetiska bollsång"
-singer: "(Eiffel sjunger)"
+singer: "Eiffel sjunger"
 melody: "All I Have To Do Is Dream"
 spex: eiffel
 order: 8

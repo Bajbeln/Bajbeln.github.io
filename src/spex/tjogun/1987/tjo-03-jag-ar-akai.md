@@ -1,6 +1,6 @@
 ---
 title: "[TJO 3] Jag är Akai"
-singer: "(Akai sjunger)"
+singer: "Akai sjunger"
 melody: "Högt över havet"
 spex: tjogun-1987
 order: 7

@@ -1,6 +1,6 @@
 ---
 title: "[TJO 5] En Verdi avslutning på Shogun"
-singer: "(Alla sjunger)"
+singer: "Alla sjunger"
 melody: "Ur Trubaduren av kompositören med samma namn"
 spex: tjogun-1987
 order: 13

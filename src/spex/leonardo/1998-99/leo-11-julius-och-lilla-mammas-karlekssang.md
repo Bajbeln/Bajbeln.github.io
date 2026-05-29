@@ -1,6 +1,6 @@
 ---
 title: "[LEO 11] Julius och lilla Mammas kärlekssång"
-singer: "(Julius och lilla Mamma sjunger)"
+singer: "Julius och lilla Mamma sjunger"
 melody: "Desafinado"
 spex: leonardo-1998-99
 order: 4

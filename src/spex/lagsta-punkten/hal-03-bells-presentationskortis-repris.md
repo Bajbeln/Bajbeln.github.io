@@ -1,6 +1,6 @@
 ---
 title: "[HÅL 3] Bells presentationskortis (repris)"
-singer: "(Gertrude Bell sjunger)"
+singer: "Gertrude Bell sjunger"
 melody: "It's a long way to Tipperary, trad"
 spex: lagsta-punkten
 order: 5

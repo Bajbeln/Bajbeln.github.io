@@ -1,6 +1,6 @@
 ---
 title: "[LEO 15] En kortare kärleksjublande symfoni"
-singer: "(Giovanni och Mona sjunger)"
+singer: "Giovanni och Mona sjunger"
 melody: "De sista entusiasterna"
 spex: leonardo-2006-07
 order: 2

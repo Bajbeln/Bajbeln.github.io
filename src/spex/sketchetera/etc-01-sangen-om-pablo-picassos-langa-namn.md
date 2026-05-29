@@ -1,6 +1,6 @@
 ---
 title: "[ETC 1] Sången om Pablo Picassos långa namn och hur himla otympligt det är att signera tavlor (eller hangarfartyg) med det*"
-singer: "(Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso sjunger)"
+singer: "Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso sjunger"
 melody: "Karma Chameleon, Culture Club"
 spex: sketchetera
 order: 1

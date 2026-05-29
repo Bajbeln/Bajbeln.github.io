@@ -1,6 +1,6 @@
 ---
 title: "[LEO 15] Inledningssång à la 2007"
-singer: "(Maffiavelli och Fru Medici sjunger)"
+singer: "Maffiavelli och Fru Medici sjunger"
 melody: "Sweet Georgia Brown"
 spex: leonardo-2006-07
 order: 1

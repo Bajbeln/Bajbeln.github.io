@@ -1,6 +1,6 @@
 ---
 title: "[SAN 3] Vi kan festa utan att ha roligt"
-singer: "(Nietzche, Strindberg, Marx och Schopenhauer sjunger)"
+singer: "Nietzche, Strindberg, Marx och Schopenhauer sjunger"
 melody: "Soldatkören ur Faust av Gounod"
 spex: sannladan
 order: 7

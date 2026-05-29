@@ -1,6 +1,6 @@
 ---
 title: "[PUN 5] Alla kastar skit på Salambo"
-singer: "(Sctlambo, Generalerna, Clodia och Tanit sjunger)"
+singer: "Sctlambo, Generalerna, Clodia och Tanit sjunger"
 melody: "1985, Patrik Isaksson"
 spex: karthago
 order: 6

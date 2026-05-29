@@ -1,6 +1,6 @@
 ---
 title: "[LEO 12] Totalfinal"
-singer: "(Alla sjunger)"
+singer: "Alla sjunger"
 melody: "Mickey Mouse Club"
 spex: leonardo-1998-99
 order: 6

@@ -1,6 +1,6 @@
 ---
 title: "[PUN 8] Kors! Är det fest eller? (Spääxfinal)"
-singer: "(Alla sjunger)"
+singer: "Alla sjunger"
 melody: "Eiffeltornet, Ted Mellangärdestad"
 spex: karthago
 order: 11

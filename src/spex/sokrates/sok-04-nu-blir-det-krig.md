@@ -1,6 +1,6 @@
 ---
 title: "[SOK 4] Nu blir det krig"
-singer: "(Leonidas och atenarna sjunger)"
+singer: "Leonidas och atenarna sjunger"
 melody: "The Look"
 spex: sokrates
 order: 8

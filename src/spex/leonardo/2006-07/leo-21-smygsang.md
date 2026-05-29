@@ -1,6 +1,6 @@
 ---
 title: "[LEO 21] Smygsång"
-singer: "(Mona, Maffiavelli, Julius, Roberto och Lisa sjunger)"
+singer: "Mona, Maffiavelli, Julius, Roberto och Lisa sjunger"
 melody: "Jehu"
 spex: leonardo-2006-07
 order: 9

@@ -1,6 +1,6 @@
 ---
 title: "[SOK 1] Aristoteles och Platons grälsång"
-singer: "(Platon och Aristoteles sjunger)"
+singer: "Platon och Aristoteles sjunger"
 melody: "Omåomigen"
 spex: sokrates
 order: 2

@@ -1,6 +1,6 @@
 ---
 title: "[FIN 5] Utters tal"
-singer: "(Utter sjunger)"
+singer: "Utter sjunger"
 melody: "Du måste finnas"
 spex: finlands
 order: 6

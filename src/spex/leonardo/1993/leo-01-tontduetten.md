@@ -1,6 +1,6 @@
 ---
 title: "[LEO 1] Töntduetten"
-singer: "(Lilla mamma och Giovanni sjunger)"
+singer: "Lilla mamma och Giovanni sjunger"
 melody: "Bäst att ta sig ett glas"
 spex: leonardo-1993
 order: 3

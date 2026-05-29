@@ -1,6 +1,6 @@
 ---
 title: "[SOK 8] Trög-sången"
-singer: "(Sokrates sjunger)"
+singer: "Sokrates sjunger"
 melody: "Je ne regrette rien"
 spex: sokrates
 order: 15

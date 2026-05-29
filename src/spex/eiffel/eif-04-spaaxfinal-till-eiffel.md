@@ -1,6 +1,6 @@
 ---
 title: "[EIF 4] Spääxfinal till Eiffel"
-singer: "(Många glada sjunger)"
+singer: "Många glada sjunger"
 melody: "So Long, Mom (Tom Lehrer)"
 spex: eiffel
 order: 9

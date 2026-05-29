@@ -1,6 +1,6 @@
 ---
 title: "[SAN 4] Gudasång"
-singer: "(Herren och Allah sjunger)"
+singer: "Herren och Allah sjunger"
 melody: "Keep Young and Beautiful"
 spex: sannladan
 order: 8

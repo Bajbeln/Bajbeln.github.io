@@ -1,6 +1,6 @@
 ---
 title: "[LEO 8] Högdramatik"
-singer: "(Många sjunger)"
+singer: "Många sjunger"
 melody: "Toccata i d-moll av J.S. Bach"
 spex: leonardo-1993
 order: 18

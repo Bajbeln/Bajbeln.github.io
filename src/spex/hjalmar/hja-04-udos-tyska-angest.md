@@ -1,6 +1,6 @@
 ---
 title: "[HJA 4] Udos tyska ångest"
-singer: "(Udo Beier sjunger)"
+singer: "Udo Beier sjunger"
 melody: "Highlights ur finalen till Haydns trumpetkonsert"
 spex: hjalmar
 order: 7

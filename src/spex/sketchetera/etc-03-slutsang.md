@@ -1,6 +1,6 @@
 ---
 title: "[ETC 3] Slutsång etc."
-singer: "(Alla-alla sjunger)"
+singer: "Alla-alla sjunger"
 melody: "Eleanor, The Turtles"
 spex: sketchetera
 order: 4

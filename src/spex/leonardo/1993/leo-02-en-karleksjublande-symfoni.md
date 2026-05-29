@@ -1,6 +1,6 @@
 ---
 title: "[LEO 2] En kärleksjublande symfoni"
-singer: "(Giovanni och Mona sjunger)"
+singer: "Giovanni och Mona sjunger"
 melody: "De sista entusiasterna av P. Ramel"
 spex: leonardo-1993
 order: 6

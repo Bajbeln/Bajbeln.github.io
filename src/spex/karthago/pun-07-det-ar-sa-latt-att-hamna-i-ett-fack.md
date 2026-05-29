@@ -1,6 +1,6 @@
 ---
 title: "[PUN 7] Det är så lätt att hamna i ett fack"
-singer: "(De tre legoknektarna Brio, Duplo och Pløymobil sjunger)"
+singer: "De tre legoknektarna Brio, Duplo och Pløymobil sjunger"
 melody: "I am the very model of a modern Major-General, ur The Pirates of Penzance, Gilbert & Sullivan"
 spex: karthago
 order: 9

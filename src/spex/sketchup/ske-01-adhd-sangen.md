@@ -1,6 +1,6 @@
 ---
 title: "[SKE 1] ADHD-sången"
-singer: "(Skolbarnen sjunger)"
+singer: "Skolbarnen sjunger"
 melody: "YMCA"
 spex: sketchup
 order: 2

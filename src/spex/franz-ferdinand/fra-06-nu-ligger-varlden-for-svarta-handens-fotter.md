@@ -1,6 +1,6 @@
 ---
 title: "[FRA 6] Nu ligger världen för Svarta Handens fötter"
-singer: "(Svarta Handen sjunger)"
+singer: "Svarta Handen sjunger"
 melody: "We Do (The Stonecutters' Song) – ur The Simpsons"
 spex: franz-ferdinand
 order: 13

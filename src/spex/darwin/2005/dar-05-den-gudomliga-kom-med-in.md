@@ -31,8 +31,7 @@ skaparen av allt
 ::: col
 **Gud:**
 Hjärtat ska slå ett extra slag
-
-
+<br>
 **Gud:**
 Är jag!
 :::

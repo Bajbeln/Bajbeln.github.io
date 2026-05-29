@@ -1,6 +1,6 @@
 ---
 title: "[LEO 7] Julius och Lilla mammas kärlekssång"
-singer: "(Julius och Lilla mamma sjunger)"
+singer: "Julius och Lilla mamma sjunger"
 melody: "Diamonds are a Girl's Best Friend"
 spex: leonardo-1993
 order: 15

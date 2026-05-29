@@ -1,6 +1,6 @@
 ---
 title: "[SKE 3] Stadigt rus"
-singer: "(Full student sjunger)"
+singer: "Full student sjunger"
 melody: "Stad i ljus"
 spex: sketchup
 order: 4

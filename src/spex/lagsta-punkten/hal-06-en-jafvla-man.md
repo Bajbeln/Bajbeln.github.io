@@ -1,6 +1,6 @@
 ---
 title: "[HÅL 6] En jäfvla man som kan många konster"
-singer: "(Ågust Strindberg [sic] sjunger)"
+singer: "Ågust Strindberg [sic] sjunger"
 melody: "Ikaros, Björn Afzelius"
 spex: lagsta-punkten
 order: 11

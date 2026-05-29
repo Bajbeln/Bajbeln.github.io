@@ -1,6 +1,6 @@
 ---
 title: "[HJA 5] Ditt jävla as jag hatar dina inälvor"
-singer: "(Dr Klas och Conny sjunger)"
+singer: "Dr Klas och Conny sjunger"
 melody: "Anything you can do ur Annie get your gun"
 spex: hjalmar
 order: 9

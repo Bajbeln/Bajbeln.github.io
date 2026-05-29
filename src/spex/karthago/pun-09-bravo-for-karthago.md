@@ -1,6 +1,6 @@
 ---
 title: "[PUN 9] Bravo för Karthago"
-singer: "(Tanit och Salambo sjunger)"
+singer: "Tanit och Salambo sjunger"
 melody: "Umbrella, The Baseballs"
 spex: karthago
 order: 12

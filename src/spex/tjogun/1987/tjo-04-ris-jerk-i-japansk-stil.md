@@ -1,6 +1,6 @@
 ---
 title: "[TJO 4] Ris-jerk i japansk stil"
-singer: "(Low Noise Tokugawa sjunger)"
+singer: "Low Noise Tokugawa sjunger"
 melody: "Japansk Nospelmusik"
 spex: tjogun-1987
 order: 11

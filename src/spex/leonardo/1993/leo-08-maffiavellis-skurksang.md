@@ -1,6 +1,6 @@
 ---
 title: "[LEO 8] Maffiavellis skurksång"
-singer: "(Maffiavelli sjunger)"
+singer: "Maffiavelli sjunger"
 melody: "Habaneran ur Carmen av Bizet"
 spex: leonardo-1993
 order: 17

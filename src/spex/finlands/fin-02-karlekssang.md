@@ -1,6 +1,6 @@
 ---
 title: "[FIN 2] Kärlekssång"
-singer: "(Einar och Sirkka sjunger)"
+singer: "Einar och Sirkka sjunger"
 melody: "Tango, tango"
 spex: finlands
 order: 3

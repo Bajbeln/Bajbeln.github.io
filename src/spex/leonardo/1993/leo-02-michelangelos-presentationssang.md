@@ -1,6 +1,6 @@
 ---
 title: "[LEO 2] Michelangelos presentationssång"
-singer: "(Michelangelo sjunger)"
+singer: "Michelangelo sjunger"
 melody: "Marseljäsen"
 spex: leonardo-1993
 order: 5

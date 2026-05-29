@@ -1,6 +1,6 @@
 ---
 title: "[TJO 1] Homofili visa"
-singer: "(Broder Fikus sjunger)"
+singer: "Broder Fikus sjunger"
 melody: "Vi er røde, vi er hvide"
 spex: tjogun-1987
 order: 1

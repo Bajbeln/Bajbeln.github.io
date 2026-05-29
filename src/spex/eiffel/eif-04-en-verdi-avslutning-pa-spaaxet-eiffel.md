@@ -1,6 +1,6 @@
 ---
 title: "[EIF 4] En Verdi avslutning på spääxet Eiffel"
-singer: "(Alla sjunger)"
+singer: "Alla sjunger"
 melody: "Zigenarkören ur Trubaduren av kompositören med samma namn"
 spex: eiffel
 order: 10

@@ -1,6 +1,6 @@
 ---
 title: "[SOK 9] Det var mycket bättre förr"
-singer: "(Ambrosia, Platon och Aristoteles sjunger)"
+singer: "Ambrosia, Platon och Aristoteles sjunger"
 melody: "Auld Lang Syne"
 spex: sokrates
 order: 19

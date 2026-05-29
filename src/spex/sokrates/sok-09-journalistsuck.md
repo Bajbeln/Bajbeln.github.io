@@ -1,6 +1,6 @@
 ---
 title: "[SOK 9] Journalistsuck"
-singer: "(Journalisterna sjunger)"
+singer: "Journalisterna sjunger"
 melody: "Sixteen Tons"
 spex: sokrates
 order: 18

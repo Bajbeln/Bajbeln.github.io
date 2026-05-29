@@ -1,6 +1,6 @@
 ---
 title: "[TJO 2] Shogun är död"
-singer: "(Hifi och konkubinerna sjunger)"
+singer: "Hifi och konkubinerna sjunger"
 melody: "Stetsonhatt"
 spex: tjogun-1987
 order: 6

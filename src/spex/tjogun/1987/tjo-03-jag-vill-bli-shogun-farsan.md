@@ -1,6 +1,6 @@
 ---
 title: "[TJO 3] Jag vill bli shogun, farsan"
-singer: "(Sony sjunger)"
+singer: "Sony sjunger"
 melody: "Konfirmationspresenten"
 spex: tjogun-1987
 order: 8

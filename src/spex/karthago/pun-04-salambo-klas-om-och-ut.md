@@ -1,6 +1,6 @@
 ---
 title: "[PUN 4] Salambo kläs om och ut"
-singer: "(Generalerna sjunger)"
+singer: "Generalerna sjunger"
 melody: "Masculine Women, Feminine Men"
 spex: karthago
 order: 5

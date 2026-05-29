@@ -1,6 +1,6 @@
 ---
 title: "[HÅL 1] Utgrävarvisa"
-singer: "(Sven Hedin och Hertha Fact* sjunger)"
+singer: "Sven Hedin och Hertha Fact* sjunger"
 melody: "Tobakshandlarvisa, Benny Anderssons orkester"
 spex: lagsta-punkten
 order: 1

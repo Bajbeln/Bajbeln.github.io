@@ -1,6 +1,6 @@
 ---
 title: "[HÅL 7] Hellre ett hål i marken än tio i handen"
-singer: "(Alla-Alla sjunger)"
+singer: "Alla-Alla sjunger"
 melody: "Trettiofyran, Per Myhrberg"
 spex: lagsta-punkten
 order: 13

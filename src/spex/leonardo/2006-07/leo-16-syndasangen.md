@@ -1,6 +1,6 @@
 ---
 title: "[LEO 16] Syndasången"
-singer: "(Roberto och syndarna sjunger)"
+singer: "Roberto och syndarna sjunger"
 melody: "Härligt, härligt men farligt, farligt"
 spex: leonardo-2006-07
 order: 3

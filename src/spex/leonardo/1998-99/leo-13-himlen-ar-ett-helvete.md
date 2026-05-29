@@ -1,6 +1,6 @@
 ---
 title: "[LEO 13] Himlen är ett helvete"
-singer: "(Döde Maffiavelli sjunger, bandet körar)"
+singer: "Döde Maffiavelli sjunger, bandet körar"
 melody: "Sam Hill"
 spex: leonardo-1998-99
 order: 7

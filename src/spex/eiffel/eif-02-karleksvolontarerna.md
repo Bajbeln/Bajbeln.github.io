@@ -1,6 +1,6 @@
 ---
 title: "[EIF 2] Kärleksvolontärerna"
-singer: "(Carnegie och Fifi sjunger)"
+singer: "Carnegie och Fifi sjunger"
 melody: "It's Not Unusual"
 spex: eiffel
 order: 3

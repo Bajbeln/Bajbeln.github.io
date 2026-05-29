@@ -1,6 +1,6 @@
 ---
 title: "[TJO 1] Jag vill bli döpt och rik"
-singer: "(Toyota, Datsun och Daihatsu sjunger)"
+singer: "Toyota, Datsun och Daihatsu sjunger"
 melody: "Söva bakom röva"
 spex: tjogun-1987
 order: 2

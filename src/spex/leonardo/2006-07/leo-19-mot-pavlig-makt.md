@@ -1,6 +1,6 @@
 ---
 title: "[LEO 19] Mot påvlig makt"
-singer: "(Julius och Fru Medici sjunger)"
+singer: "Julius och Fru Medici sjunger"
 melody: "A Whole New World"
 spex: leonardo-2006-07
 order: 7

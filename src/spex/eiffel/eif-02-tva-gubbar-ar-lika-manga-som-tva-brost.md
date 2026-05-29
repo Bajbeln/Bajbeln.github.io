@@ -1,6 +1,6 @@
 ---
 title: "[EIF 2] Två gubbar är lika många som två bröst"
-singer: "(Fröken Sverige, Gounod och Dumas d.y. sjunger)"
+singer: "Fröken Sverige, Gounod och Dumas d.y. sjunger"
 melody: "One Note Samba"
 spex: eiffel
 order: 5

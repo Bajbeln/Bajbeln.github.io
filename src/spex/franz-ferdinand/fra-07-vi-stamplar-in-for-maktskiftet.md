@@ -1,6 +1,6 @@
 ---
 title: "[FRA 7] Vi stämplar in för maktskiftet"
-singer: "(Gisela, Valerie och Mata Hari sjunger)"
+singer: "Gisela, Valerie och Mata Hari sjunger"
 melody: "Wuthering Heights – The Puppini Sisters"
 spex: franz-ferdinand
 order: 14

@@ -1,6 +1,6 @@
 ---
 title: "[TJO 4] Sexduellen"
-singer: "(Sanyo och Chinon sjunger)"
+singer: "Sanyo och Chinon sjunger"
 melody: "Riot in Cellblock Number Nine"
 spex: tjogun-1987
 order: 10

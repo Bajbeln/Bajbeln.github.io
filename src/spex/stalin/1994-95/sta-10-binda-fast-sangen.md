@@ -59,9 +59,7 @@ Den spionen skall ångra aktionen så bind henne hårt!
 
 
 
-
-
-
+<br><br><br><br>
 Jag skall binda henne hårt
 Henne hårt
 
@@ -73,21 +71,23 @@ Länge och svårt
 
 
 
-
 Men jag älskar
 Henne
 Mycket
+
 Jag
 Kan
 Inte klara
 Trycket
 
 
-
+<br><br><br><br>
 Lita bara
+
 Du på mich!
 
-
+<br><br><br><br>
 Ach, mein Leibling
+
 Jag befriar dich
 :::

@@ -1,6 +1,6 @@
 ---
 title: "[HÅL 4] Lilla ämbetsverket på prärien"
-singer: "(Magnus de la Gardie och Länstyrelseapacherna sjunger)"
+singer: "Magnus de la Gardie och Länstyrelseapacherna sjunger"
 melody: "Rawhide, Frankie Laine"
 spex: lagsta-punkten
 order: 7

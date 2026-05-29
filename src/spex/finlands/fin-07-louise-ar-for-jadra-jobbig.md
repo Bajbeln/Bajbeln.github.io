@@ -1,6 +1,6 @@
 ---
 title: "[FIN 7] Louise är för jädra jobbig"
-singer: "(Elsa, Pekka och Louise sjunger)"
+singer: "Elsa, Pekka och Louise sjunger"
 melody: "Sofia dansar go-go"
 spex: finlands
 order: 9

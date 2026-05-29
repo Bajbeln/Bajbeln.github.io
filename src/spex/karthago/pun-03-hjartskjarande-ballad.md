@@ -1,6 +1,6 @@
 ---
 title: "[PUN 3] En hjärtskärande ballad om att bli lämnad när allt man vill är att ligga med sin syster"
-singer: "(Clodia sjunger)"
+singer: "Clodia sjunger"
 melody: "Teddybjörnen Fredriksson, Lasse Berghagen"
 spex: karthago
 order: 4

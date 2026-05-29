@@ -1,6 +1,6 @@
 ---
 title: "[O 6] Universalvocalsången"
-singer: "(Nobel, Conny & Mässdeltagarna sjunger)"
+singer: "Nobel, Conny & Mässdeltagarna sjunger"
 melody: "Do-Re-Mi, ur Sound of Music"
 spex: rosetta
 order: 11

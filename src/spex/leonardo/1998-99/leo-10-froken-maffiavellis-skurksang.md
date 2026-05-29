@@ -1,6 +1,6 @@
 ---
 title: "[LEO 10] Fröken Maffiavellis skurksång"
-singer: "(Fröken Maffiavelli sjunger)"
+singer: "Fröken Maffiavelli sjunger"
 melody: "Habaneran ur Carmen"
 spex: leonardo-1998-99
 order: 1

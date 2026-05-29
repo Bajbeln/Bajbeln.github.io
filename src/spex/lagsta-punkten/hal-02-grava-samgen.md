@@ -1,6 +1,6 @@
 ---
 title: "[HÅL 2] Gräva-såmgen (Krysset markerar skatten)"
-singer: "(Hedin, Hertha, de la Gardie, Conny och Hebba sjunger)"
+singer: "Hedin, Hertha, de la Gardie, Conny och Hebba sjunger"
 melody: "Dig a little deeper, ur The Princess and the frog"
 spex: lagsta-punkten
 order: 3

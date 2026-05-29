@@ -1,6 +1,6 @@
 ---
 title: "[LEO 3] Jag ska bli påve-sång"
-singer: "(Julius sjunger)"
+singer: "Julius sjunger"
 melody: "Wait 'til the Midnight Hour"
 spex: leonardo-1993
 order: 8

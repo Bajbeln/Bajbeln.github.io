@@ -1,6 +1,6 @@
 ---
 title: "[PUN 2] Rådet röstar"
-singer: "(Diodorius, Generalerna och Salambo sjunger)"
+singer: "Diodorius, Generalerna och Salambo sjunger"
 melody: 'Temat till "Nalle har ett stort blått hus"'
 spex: karthago
 order: 2

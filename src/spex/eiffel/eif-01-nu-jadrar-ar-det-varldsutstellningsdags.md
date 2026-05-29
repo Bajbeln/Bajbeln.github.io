@@ -1,6 +1,6 @@
 ---
 title: "[EIF 1] Nu jädrar är det världsutställningsdags"
-singer: "(En massa utställningsaktiva sjunger)"
+singer: "En massa utställningsaktiva sjunger"
 melody: "Fat Sam's Grand Slam ur Bugsy Malone"
 spex: eiffel
 order: 1

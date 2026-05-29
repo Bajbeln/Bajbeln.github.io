@@ -1,6 +1,6 @@
 ---
 title: "[LEO 17] Aktfinal II"
-singer: "(Julius, Roberto och Lisa sjunger)"
+singer: "Julius, Roberto och Lisa sjunger"
 melody: "Michelangelo"
 spex: leonardo-2006-07
 order: 5

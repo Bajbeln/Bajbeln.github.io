@@ -1,6 +1,6 @@
 ---
 title: "[SKE 3] Våran håv"
-singer: "(Frälsta sjunger)"
+singer: "Frälsta sjunger"
 melody: "Ovan där"
 spex: sketchup
 order: 5

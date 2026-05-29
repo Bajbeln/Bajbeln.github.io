@@ -1,6 +1,6 @@
 ---
 title: "[FRA 3] Har'i nånsin sett en stjärna som mig?"
-singer: "(Mata Hari sjunger)"
+singer: "Mata Hari sjunger"
 melody: "King Herod's sång – ur Jesus Christ Superstar"
 spex: franz-ferdinand
 order: 7

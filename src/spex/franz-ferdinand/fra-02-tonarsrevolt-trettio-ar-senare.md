@@ -1,6 +1,6 @@
 ---
 title: "[FRA 2] Tonårsrevolt trettio år senare"
-singer: "(Gisela och Valerie Habsburg sjunger)"
+singer: "Gisela och Valerie Habsburg sjunger"
 melody: "You Can't Hurry Love – The Supremes"
 spex: franz-ferdinand
 order: 5

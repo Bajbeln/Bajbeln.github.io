@@ -1,6 +1,6 @@
 ---
 title: "[LEO 5] Vi är smarta, vi tre!"
-singer: "(Lisa, Roberto och Julius sjunger)"
+singer: "Lisa, Roberto och Julius sjunger"
 melody: "To Life!"
 spex: leonardo-1993
 order: 11

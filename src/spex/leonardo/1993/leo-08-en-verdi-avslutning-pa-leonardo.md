@@ -1,6 +1,6 @@
 ---
 title: "[LEO 8] En Verdi avslutning på Leonardo"
-singer: "(Alla sjunger)"
+singer: "Alla sjunger"
 melody: "Zigenarkören ur Verdis Trubaduren"
 spex: leonardo-1993
 order: 20

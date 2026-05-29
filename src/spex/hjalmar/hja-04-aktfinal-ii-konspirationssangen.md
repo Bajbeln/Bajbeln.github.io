@@ -1,6 +1,6 @@
 ---
 title: "[HJA 4] Aktfinal II - Konspirationssången"
-singer: "(Hjalle, Jörgen och Maggot sjunger)"
+singer: "Hjalle, Jörgen och Maggot sjunger"
 melody: "Underbart spännande ställen ur Dr Doolittle"
 spex: hjalmar
 order: 8

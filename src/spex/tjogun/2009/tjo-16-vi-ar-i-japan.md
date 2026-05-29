@@ -1,6 +1,6 @@
 ---
 title: "[TJO 16] Vi är i Japan"
-singer: "(Syster Krokus och Broder Fikus sjunger)"
+singer: "Syster Krokus och Broder Fikus sjunger"
 melody: "I ditt bagage"
 spex: tjogun-2009
 order: 1

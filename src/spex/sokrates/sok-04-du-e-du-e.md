@@ -1,6 +1,6 @@
 ---
 title: "[SOK 4] Du e, du e"
-singer: "(Icatuna och Aristoteles sjunger)"
+singer: "Icatuna och Aristoteles sjunger"
 melody: "It Don't Mean a Thing"
 spex: sokrates
 order: 7

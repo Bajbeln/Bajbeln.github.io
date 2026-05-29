@@ -1,6 +1,6 @@
 ---
 title: "[ETC 3] Sången om Studentupproret i Lund 1793 (såsom det är nedtecknat i Wikipedias historieböcker)"
-singer: "(Malmberg och studenterna sjunger)"
+singer: "Malmberg och studenterna sjunger"
 melody: "The last Saskatchewan pirate, The Arrogant Worms"
 spex: sketchetera
 order: 3

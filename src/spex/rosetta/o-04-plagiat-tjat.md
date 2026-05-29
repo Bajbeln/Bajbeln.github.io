@@ -1,6 +1,6 @@
 ---
 title: "[O 4] Plagiat-tjat"
-singer: "(Champoillion, Nobel, Young och Connt¡ sjunger)"
+singer: "Champoillion, Nobel, Young och Connt¡ sjunger"
 melody: "Surfin' U.S.A. – The Beach Boys"
 spex: rosetta
 order: 7

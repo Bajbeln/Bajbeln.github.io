@@ -1,6 +1,6 @@
 ---
 title: "[ETC 2] Kosmonautens klagan"
-singer: "(Tanja och Yuri sjunger)"
+singer: "Tanja och Yuri sjunger"
 melody: "I believe, Book of Mormon"
 spex: sketchetera
 order: 2

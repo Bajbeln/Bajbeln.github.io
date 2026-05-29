@@ -1,6 +1,6 @@
 ---
 title: "[HJA 1] Vi är olyckliga fast av olika anledningar"
-singer: "(Hjalmar och Jörgen sjunger)"
+singer: "Hjalmar och Jörgen sjunger"
 melody: "My Way"
 spex: hjalmar
 order: 2

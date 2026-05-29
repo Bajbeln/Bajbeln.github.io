@@ -1,6 +1,6 @@
 ---
 title: "[SOK 7] Triumfmarsch"
-singer: "(En massa glada greker sjunger)"
+singer: "En massa glada greker sjunger"
 melody: "Triumfmarschen ur Aida av Verdi"
 spex: sokrates
 order: 13

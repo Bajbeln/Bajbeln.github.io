@@ -1,6 +1,6 @@
 ---
 title: "[LEO 3] Aktfinal I - Vi ska vara listiga"
-singer: "(Mona och Giovanni sjunger)"
+singer: "Mona och Giovanni sjunger"
 melody: "I'm so Excited"
 spex: leonardo-1993
 order: 7

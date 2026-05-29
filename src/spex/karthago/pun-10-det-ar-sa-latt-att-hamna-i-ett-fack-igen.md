@@ -1,6 +1,6 @@
 ---
 title: "[PUN 10] Det är så lätt att hamna i ett fack igen (eller: Ett A-lag med dito kassa)"
-singer: "(Legoknektarna sjunger)"
+singer: "Legoknektarna sjunger"
 melody: "Kolla, kolla, Nattionalteatern"
 spex: karthago
 order: 13

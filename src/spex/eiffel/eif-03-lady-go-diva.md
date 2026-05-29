@@ -1,6 +1,6 @@
 ---
 title: "[EIF 3] Lady Go Diva"
-singer: "(Sarah Bernhart sjunger)"
+singer: "Sarah Bernhart sjunger"
 melody: "New York, New York"
 spex: eiffel
 order: 7

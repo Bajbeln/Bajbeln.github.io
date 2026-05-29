@@ -1,6 +1,6 @@
 ---
 title: "[PUN 2] En liten kortissång om hur bra Hamilkar är"
-singer: "(Tanit sjunger)"
+singer: "Tanit sjunger"
 melody: "Son of man, Phil Collis (ur Tarzan)"
 spex: karthago
 order: 3

@@ -1,6 +1,6 @@
 ---
 title: "[TJO 16] Ieyasu expanderar"
-singer: "(Ieyasu sjunger)"
+singer: "Ieyasu sjunger"
 melody: "Toreador ur Carmen"
 spex: tjogun-2009
 order: 2

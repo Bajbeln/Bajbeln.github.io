@@ -1,6 +1,6 @@
 ---
 title: "[FIN 5] Nu grönskar det"
-singer: "(Sång- och dansgruppen Gullivan sjunger)"
+singer: "Sång- och dansgruppen Gullivan sjunger"
 melody: "Nu grönskar det"
 spex: finlands
 order: 7

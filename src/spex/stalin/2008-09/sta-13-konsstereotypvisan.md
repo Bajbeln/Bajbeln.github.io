@@ -21,7 +21,6 @@ Om vi anställde en påg
 ::: col
 **Churchill:**
 
-
 Det är ingen som förstått
 
 Om hon är gay
@@ -52,7 +51,6 @@ Jag vet, och jag är så trött på de'
 Kan det kanske vara en tjej?
 ::: col
 **Churchill:**
-
 
 Könet ska vara uppenbart
 

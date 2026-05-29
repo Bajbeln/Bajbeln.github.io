@@ -1,6 +1,6 @@
 ---
 title: "[O 1] Ptolemaios ptruddelutt"
-singer: "(Ptolemnios och groupisarna sjunger)"
+singer: "Ptolemnios och groupisarna sjunger"
 melody: "Rock me Amadeus – Falco"
 spex: rosetta
 order: 1

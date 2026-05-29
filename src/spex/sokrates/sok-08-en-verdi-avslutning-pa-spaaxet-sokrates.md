@@ -1,6 +1,6 @@
 ---
 title: "[SOK 8] En Verdi avslutning på spääxet Sokrates"
-singer: "(Hela ensemblen sjunger)"
+singer: "Hela ensemblen sjunger"
 melody: "Zigernarkören ur Trubaduren av Verdi"
 spex: sokrates
 order: 16

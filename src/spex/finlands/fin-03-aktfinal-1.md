@@ -1,6 +1,6 @@
 ---
 title: "[FIN 3] Aktfinal 1"
-singer: "(Elsa, Pekka, Einar och Sirkka sjunger)"
+singer: "Elsa, Pekka, Einar och Sirkka sjunger"
 melody: "\"O mortale fortunato\" ur Kärleksdrycken, Donizetti"
 spex: finlands
 order: 4

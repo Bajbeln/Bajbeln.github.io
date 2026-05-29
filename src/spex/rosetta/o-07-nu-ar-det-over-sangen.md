@@ -1,6 +1,6 @@
 ---
 title: "[O 7] Nu är det Över-sången"
-singer: "(Alla sjunger)"
+singer: "Alla sjunger"
 melody: "Stanna världen en stund – G.E.S."
 spex: rosetta
 order: 12

@@ -1,6 +1,6 @@
 ---
 title: "[SOK 3] Jag är ledare för huvudstan i Grekland"
-singer: "(Perikles sjunger)"
+singer: "Perikles sjunger"
 melody: "Det är så hälsosamt och stärkande i fjällen"
 spex: sokrates
 order: 5

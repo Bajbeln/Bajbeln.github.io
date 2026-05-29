@@ -37,9 +37,7 @@ Vi knycker och stjäl den, vi rövar, vi tar den,
 Det rycker i själen, det känns som vi tar den
 Vi knycker och stjäl den, vi rövar, vi tar den,
 Det rycker i själen, det känns som vi tar den
-
-
-
+<br><br>
 Saken är biff, allt är klappat och klart, ba'
 En fråga om tid, enbart nu eller snart, för se
 Saken är biff allt, är klappat och klart, ba'

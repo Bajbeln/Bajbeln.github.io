@@ -1,6 +1,6 @@
 ---
 title: "[SOK 7] Det var bättre förr"
-singer: "(Perikles och Leonidas sjunger)"
+singer: "Perikles och Leonidas sjunger"
 melody: "Meil merivood on vabad"
 spex: sokrates
 order: 14

@@ -1,6 +1,6 @@
 ---
 title: "[HJA 1] Vi är glada Kristianstadsbor"
-singer: "(Glada Kristianstadsbor sjunger)"
+singer: "Glada Kristianstadsbor sjunger"
 melody: "The entertainer"
 spex: hjalmar
 order: 1

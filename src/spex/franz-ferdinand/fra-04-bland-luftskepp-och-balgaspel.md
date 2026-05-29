@@ -1,6 +1,6 @@
 ---
 title: "[FRA 4] Bland luftskepp och bälgaspel"
-singer: "(Greve Ferdinand von Zeppelin sjunger)"
+singer: "Greve Ferdinand von Zeppelin sjunger"
 melody: "Svensk-Norsk polka (Viggen)"
 spex: franz-ferdinand
 order: 8

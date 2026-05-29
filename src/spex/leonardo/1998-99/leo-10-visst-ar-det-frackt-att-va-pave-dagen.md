@@ -1,6 +1,6 @@
 ---
 title: "[LEO 10] Visst-är-det-fräckt-att-va-påve-dagen"
-singer: "(Julius och Roberto sjunger)"
+singer: "Julius och Roberto sjunger"
 melody: "Tico Tico"
 spex: leonardo-1998-99
 order: 2

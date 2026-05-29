@@ -1,6 +1,6 @@
 ---
 title: "[HÅL 7] Ett nytt lyckligt slut"
-singer: "(Kirsten Munk, CIV, von Salm och Hebba sjunger)"
+singer: "Kirsten Munk, CIV, von Salm och Hebba sjunger"
 melody: "Jazzbacillen, Sizo Malmqaist"
 spex: lagsta-punkten
 order: 12

@@ -1,6 +1,6 @@
 ---
 title: "[FIN 1] Vi har roligt i Frimurarna"
-singer: "(Utter och Bäver sjunger)"
+singer: "Utter och Bäver sjunger"
 melody: "Lilly the Pink"
 spex: finlands
 order: 2

@@ -1,6 +1,6 @@
 ---
 title: "[HJA 3] Kärlek på tryckeriet"
-singer: "(Jörgen och Lillemor sjunger)"
+singer: "Jörgen och Lillemor sjunger"
 melody: "Moondance"
 spex: hjalmar
 order: 6

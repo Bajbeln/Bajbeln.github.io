@@ -1,6 +1,6 @@
 ---
 title: "[TJO 19] Vi ska bygga ett japan 1"
-singer: "(Tankklanen sjunger)"
+singer: "Tankklanen sjunger"
 melody: "We're gonna build a mountain"
 spex: tjogun-2009
 order: 7

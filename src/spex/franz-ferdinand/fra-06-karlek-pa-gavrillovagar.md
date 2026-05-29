@@ -1,6 +1,6 @@
 ---
 title: "[FRA 6] Kärlek på gavrillovägar"
-singer: "(Gavrilo Princip och Mata Hari sjunger)"
+singer: "Gavrilo Princip och Mata Hari sjunger"
 melody: "I Don't Wanna Miss a Thing – Aerosmith"
 spex: franz-ferdinand
 order: 12

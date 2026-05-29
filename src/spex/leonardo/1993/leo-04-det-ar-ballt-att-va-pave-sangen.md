@@ -1,6 +1,6 @@
 ---
 title: "[LEO 4] Det-är-ballt-att-va-påve-sången"
-singer: "(Julius och Roberto sjunger)"
+singer: "Julius och Roberto sjunger"
 melody: "Get on Board"
 spex: leonardo-1993
 order: 9

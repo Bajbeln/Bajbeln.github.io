@@ -1,6 +1,6 @@
 ---
 title: "[LEO 6] Smygsång"
-singer: "(Mona, Lisa, Maffiavelli, Roberto och Julius sjunger)"
+singer: "Mona, Lisa, Maffiavelli, Roberto och Julius sjunger"
 melody: "Sats 2 ur Haydns symfoni no 94"
 spex: leonardo-1993
 order: 13

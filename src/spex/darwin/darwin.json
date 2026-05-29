@@ -1,6 +1,4 @@
 {
   "color": "rgb(245, 220, 210)",
-  "accentColor": "rgb(175, 85, 60)",
-  "accentBorderColor": "rgb(200, 115, 90)",
-  "spexPageUrl": "/darwin/"
+"spexPageUrl": "/darwin/"
 }

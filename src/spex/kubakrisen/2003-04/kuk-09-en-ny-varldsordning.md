@@ -26,15 +26,12 @@ Världen blir som en plätt
 **KGB:**
 Ditt Castro
 oh, ja.
-
-
-
+<br><br>
 Hjälp oss nu
 Han är galen
 
 **Övriga:**
-
-
+<br>
 Gick det snett
 blöt och formlös
 :::
@@ -50,8 +47,7 @@ Och när scen har blivit min,
 Tänk det är så lätt
 ::: col
 **KGB:**
-
-
+<br>
 Nä, men fy!
 Håll i hatten.
 :::
@@ -74,12 +70,10 @@ Läget spänt det ser alla
 Vi går avklätt
 För nu blir det hetta!
 ::: col
+<br><br>
 Ett sånt sätt
 Spett i ryggen
-
-
-
-
+<br><br><br>
 Rumpan bar
 För nu blir det hetta!
 :::

@@ -1,6 +1,6 @@
 ---
 title: "[EIF 3] Bollen blir till sand"
-singer: "(Fru Carnegie sjunger)"
+singer: "Fru Carnegie sjunger"
 melody: "Jag är blott en stackars kvinna"
 spex: eiffel
 order: 6

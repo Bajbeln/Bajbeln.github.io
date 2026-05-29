@@ -1,6 +1,6 @@
 ---
 title: "[HJA 5] Gammal kärlek ruttnar aldrig (den bara luktar konstigt)"
-singer: "(Storemor och Dr Klas sjunger)"
+singer: "Storemor och Dr Klas sjunger"
 melody: "They can't take that away from me"
 spex: hjalmar
 order: 10

@@ -1,6 +1,6 @@
 ---
 title: "[HÅL 5] Psykopatologisk polka"
-singer: "(Hebba sjunger)"
+singer: "Hebba sjunger"
 melody: "Were everybody knows your name (Theme from Cheers)"
 spex: lagsta-punkten
 order: 9

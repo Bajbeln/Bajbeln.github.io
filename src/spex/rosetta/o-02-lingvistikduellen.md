@@ -1,6 +1,6 @@
 ---
 title: "[O 2] Lingvistikduellen"
-singer: "(Professorerna Young och Champoillion sjunger)"
+singer: "Professorerna Young och Champoillion sjunger"
 melody: "Var nöjd med allt som livet ger, ur Djungelboken"
 spex: rosetta
 order: 4

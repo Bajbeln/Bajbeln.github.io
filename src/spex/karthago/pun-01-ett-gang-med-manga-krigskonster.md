@@ -1,6 +1,6 @@
 ---
 title: "[PUN 1] Ett gäng med många krigskonster"
-singer: "(Generalerna Hannon, Orosius och Byrsa sjunger)"
+singer: "Generalerna Hannon, Orosius och Byrsa sjunger"
 melody: "Christmas at sea, R.L. Stevenson The Longest Johns"
 spex: karthago
 order: 1

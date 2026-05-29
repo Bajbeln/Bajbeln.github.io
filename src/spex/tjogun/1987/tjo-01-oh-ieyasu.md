@@ -1,6 +1,6 @@
 ---
 title: "[TJO 1] Oh, Ieyasu!"
-singer: "(Nissan sjunger)"
+singer: "Nissan sjunger"
 melody: "Oh, Carl-Gustaf!"
 spex: tjogun-1987
 order: 3

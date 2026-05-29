@@ -1,6 +1,6 @@
 ---
 title: "[O 3] Stolt att vara britt"
-singer: "(Drottning Victoria och engelska hovet sjunger)"
+singer: "Drottning Victoria och engelska hovet sjunger"
 melody: "You can't stop the Beat ur Hairspray"
 spex: rosetta
 order: 5

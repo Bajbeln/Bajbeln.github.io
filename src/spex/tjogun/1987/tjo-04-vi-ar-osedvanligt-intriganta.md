@@ -1,6 +1,6 @@
 ---
 title: "[TJO 4] Vi är osedvanligt intriganta"
-singer: "(Sony och Akai sjunger)"
+singer: "Sony och Akai sjunger"
 melody: "Det var länge sen jag plocka några blommor"
 spex: tjogun-1987
 order: 9

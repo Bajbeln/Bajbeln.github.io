@@ -1,6 +1,6 @@
 ---
 title: "[LEO 5] Var-har-jag-nu-lagt-den-där-sången"
-singer: "(Leonardo sjunger)"
+singer: "Leonardo sjunger"
 melody: "Den lille tecknaren av P. Ramel"
 spex: leonardo-1993
 order: 12

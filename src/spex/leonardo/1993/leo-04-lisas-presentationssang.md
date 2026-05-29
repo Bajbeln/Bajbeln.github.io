@@ -1,6 +1,6 @@
 ---
 title: "[LEO 4] Lisas presentationssång"
-singer: "(Lisa och Michelangelo sjunger)"
+singer: "Lisa och Michelangelo sjunger"
 melody: "Mr Bassman"
 spex: leonardo-1993
 order: 10

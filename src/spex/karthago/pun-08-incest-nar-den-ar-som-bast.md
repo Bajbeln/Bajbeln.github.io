@@ -1,6 +1,6 @@
 ---
 title: "[PUN 8] Incest när den är som bäst"
-singer: "(Glodia och Messsalintt sjunger)"
+singer: "Glodia och Messsalintt sjunger"
 melody: "Allt syns när man är naken, BAO"
 spex: karthago
 order: 10

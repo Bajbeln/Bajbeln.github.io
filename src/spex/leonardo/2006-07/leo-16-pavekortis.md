@@ -1,6 +1,6 @@
 ---
 title: "[LEO 16] Påvekortis"
-singer: "(Julius sjunger)"
+singer: "Julius sjunger"
 melody: "Karl Alfred"
 spex: leonardo-2006-07
 order: 4

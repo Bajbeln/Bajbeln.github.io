@@ -1,6 +1,6 @@
 ---
 title: "[O 6] En monter tillställning"
-singer: "(Mässdeltagarna sjunger)"
+singer: "Mässdeltagarna sjunger"
 melody: "Some Nights – Fun"
 spex: rosetta
 order: 10

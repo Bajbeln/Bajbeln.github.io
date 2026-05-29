@@ -1,6 +1,6 @@
 ---
 title: "[SKE 2] Sadomasochistaria"
-singer: "(Gull-Britt, Rut och extraläraren sjunger)"
+singer: "Gull-Britt, Rut och extraläraren sjunger"
 melody: "She'll be comming 'round the mountain"
 spex: sketchup
 order: 3

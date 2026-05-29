@@ -1,6 +1,6 @@
 ---
 title: "[FRA 3] Vi har tyvärr ingen tax-free avdelning"
-singer: "(Gottlieb von Jagow sjunger)"
+singer: "Gottlieb von Jagow sjunger"
 melody: "Largo al Factotum – ur Barberaren i Sevilla"
 spex: franz-ferdinand
 order: 6

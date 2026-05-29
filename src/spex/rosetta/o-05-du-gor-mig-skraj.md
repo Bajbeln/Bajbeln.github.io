@@ -1,6 +1,6 @@
 ---
 title: "[O 5] Du gör mig skraj"
-singer: "(Mary Shelley och lgor sjunger)"
+singer: "Mary Shelley och lgor sjunger"
 melody: "Fairytale of New York – The Pouges"
 spex: rosetta
 order: 9

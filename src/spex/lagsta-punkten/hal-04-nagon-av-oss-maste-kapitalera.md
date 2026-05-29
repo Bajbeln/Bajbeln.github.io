@@ -1,6 +1,6 @@
 ---
 title: "[HÅL 4] Någon av oss måste kapitälera [sic]"
-singer: "(Hedin, Hertha och Ellen Fries sjunger)"
+singer: "Hedin, Hertha och Ellen Fries sjunger"
 melody: "BaBaBa, Miss Li"
 spex: lagsta-punkten
 order: 8

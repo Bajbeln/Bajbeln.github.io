@@ -1,6 +1,6 @@
 ---
 title: "[HÅL 2] Den förste Landshövdingen"
-singer: "(Magnus de la Gardie och Länstyrelseapacherna sjunger)"
+singer: "Magnus de la Gardie och Länstyrelseapacherna sjunger"
 melody: "Den sista Mohikanen, Little Gerhard"
 spex: lagsta-punkten
 order: 2

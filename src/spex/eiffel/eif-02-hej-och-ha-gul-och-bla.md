@@ -1,6 +1,6 @@
 ---
 title: "[EIF 2] Hej och hå, gul och blå!"
-singer: "(Svenskarna sjunger)"
+singer: "Svenskarna sjunger"
 melody: "Så lunka vi"
 spex: eiffel
 order: 4

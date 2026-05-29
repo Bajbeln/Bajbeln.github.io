@@ -1,6 +1,6 @@
 ---
 title: "[HÅL 3] Kungens huvud ska rulla (Teatersällskapets sång)"
-singer: "(Christian IV, Kirsten Munk, von Salm, Conny och Hebba sjunger)"
+singer: "Christian IV, Kirsten Munk, von Salm, Conny och Hebba sjunger"
 melody: "Dammit, Janet, ur Rocky Horror Picture Show"
 spex: lagsta-punkten
 order: 6
@@ -36,21 +36,13 @@ han tills det tar stopp
 (Kungen)
 (Kungen)
 (Kungen)
-
-
-
+<br><br>
 (Kungen)
 (Kungen)
 (Kungen)
 
 
-
-
-
-
-
-
-
+<br><br><br><br>
 (Tjockis)
 (Tjockis)
 (Tjockis)
@@ -72,7 +64,7 @@ jag ger mig in i byggnadsbranschen
 för att jag vill kunna bo
 här i denna lägsta punkt
 ::: col
-(Dansken)
+<br>(Dansken)
 (Dansken)
 (Dansken)
 :::

@@ -1,6 +1,6 @@
 ---
 title: "[LEO 19] En pantad slutlåt"
-singer: "(Alla sjunger)"
+singer: "Alla sjunger"
 melody: "Returpack-reklamlåten av Artister i samverkan"
 spex: leonardo-2006-07
 order: 8
