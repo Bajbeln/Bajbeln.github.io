@@ -12,8 +12,9 @@ Dags att smyga tyst och lätt
 På ett högst försiktigt sätt
 Nu när planen utförts rätt
 Slår vi till reträtt
+<br>
 
-Mona:
+**Mona:**
 Oaah!
 **Maffiavelli:**
 Tyst! Ditt gastande
@@ -32,7 +33,7 @@ Ut ur hemmets lugna vrå
 Tyst vi smyger lätt på tå
 Så att ingen ska förstå
 Vad vi hittat på
-
+<br>
 Nu är det dags att ge sig av
 För om vi stannar kommer Leonardo hastande
 Och fast han e som pastan degig i sin hjärna
@@ -43,14 +44,15 @@ Som gör att grannar kommer hastande
 För vårt hemfridsantastande
 Är rättsligt tämligen belastande
 ::: col
+<br><br>
 **Lisa+Bob+Julius:**
 In i hemmets lugna vrå
 Tyst vi smyger lätt på tå
 Så att ingen ska förstå
 Vad vi hittar på
-Bob:
+**Bob:**
 Oaah!
-Julius:
+**Julius:**
 Tyst! Ditt gastande
 Gör så att dina grannar kommer hastande
 Och vårt hemfridsantastande
@@ -61,7 +63,7 @@ Dags att smyga tyst och lätt
 På ett högst försiktigt sätt
 Sen när planen utförts rätt
 Slår vi till reträtt
-
+<br><br><br>
 Så tyst vi mumlar. Ingen rumlar
 Eller tumlar runt för fullt och skapar ljud
 Vi skrider varsamt framåt

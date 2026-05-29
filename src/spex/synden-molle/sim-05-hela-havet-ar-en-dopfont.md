@@ -1,7 +1,7 @@
 ---
 title: "[SIM 5] Hela havet är en dopfont"
 melody: "Du borde köpa dig en tyrolerhatt"
-spex: synden-i-molle
+spex: synden-molle
 order: 8
 permalink: false
 ---

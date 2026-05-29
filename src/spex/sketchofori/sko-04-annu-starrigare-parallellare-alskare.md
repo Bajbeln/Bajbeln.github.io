@@ -18,6 +18,10 @@ Nån som följer min mall
 Kan sånt som är svårt, och kan jobba hårt
 Ditt och mitt blir till vårt.
 
+<br>
+<br>
+<br>
+<br>
 Jag söker kärlek varje dag.
 Längtar så tills det blir du och jag.
 Singellivet ger mig hudutslag
@@ -29,6 +33,9 @@ Gillar du färgen blå?
 Vi ses, allt känns rätt. Du får ensamrätt
 Jag och du blir till ett!
 
+<br>
+<br>
+<br>
 Du kommer som ett åsknedslag!
 Fräsch som ljummet regn en sommardag!
 Sköljer över mina anletsdrag.
@@ -36,14 +43,18 @@ Vi delar en glass, vä-ä-ärldsklass!
 
 Men jag står ensam varje dag. Vem är du:et
 i mitt du och jag? Utan kärlek blir jag trött
-och svag. Så nu står jag häç sjä-ä-lv,
+och svag. Så nu står jag här sjä-ä-lv,
 Helt själv, jag ä-är själv.
 ::: col
 _Mel. Set fire to the rain_
 
+<br>
+<br>
+<br>
 Jag har - ett kall
 Hitta nån som följer min mall
-Få jo - bba hårt
+Få jo 
+- bba hårt
 Mot att ditt och mitt blir vårt
 
 Det är svårt att hitta nån som är helt
@@ -58,7 +69,7 @@ Längtar tills det blir du och jag.
 Nu vill jag ha dig här, Kom hit var du
 än är, jag är kär,
 jag svär.
-
+<br>
 Vi ses - känns rätt!
 Då kan du och jag bli ett!
 

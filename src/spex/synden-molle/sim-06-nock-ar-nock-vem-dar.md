@@ -1,7 +1,7 @@
 ---
 title: "[SIM 6] Nock är nock, vem där?"
 melody: "En heffaklump och tessla, Nalle puh"
-spex: synden-i-molle
+spex: synden-molle
 order: 9
 permalink: false
 ---

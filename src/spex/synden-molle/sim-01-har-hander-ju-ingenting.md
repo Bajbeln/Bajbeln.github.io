@@ -1,7 +1,7 @@
 ---
 title: "[SIM 1] Här händer ju ingenting"
 melody: "Tuå småfåglar på en gren"
-spex: synden-i-molle
+spex: synden-molle
 order: 1
 permalink: false
 ---

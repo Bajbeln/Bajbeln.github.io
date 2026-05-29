@@ -1,7 +1,7 @@
 ---
 title: "[SIM 2] Vem kan skiljas från vännen sin utan att turistfälla tårar"
 melody: "Closed for renovation, Little shop of horror"
-spex: synden-i-molle
+spex: synden-molle
 order: 3
 permalink: false
 ---

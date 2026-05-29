@@ -1,7 +1,7 @@
 ---
 title: "[SIM 4] Hamntag, simtag, klapp eller kiosk"
 melody: "Sh Boom, Sten och Stanley"
-spex: synden-i-molle
+spex: synden-molle
 order: 6
 permalink: false
 ---

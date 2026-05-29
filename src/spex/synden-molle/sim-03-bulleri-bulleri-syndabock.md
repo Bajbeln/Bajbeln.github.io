@@ -1,7 +1,7 @@
 ---
 title: "[SIM 3] Bulleri, bulleri syndabock!"
 melody: "Svensson, Dåliga människor"
-spex: synden-i-molle
+spex: synden-molle
 order: 4
 permalink: false
 ---

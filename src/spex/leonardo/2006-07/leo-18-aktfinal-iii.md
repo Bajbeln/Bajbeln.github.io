@@ -6,7 +6,7 @@ spex: leonardo-2006-07
 order: 6
 permalink: false
 ---
-::: cols
+
 **Giovanni o Mona:**
 Si så där, då var det klart
 Vår plan den är förseglad
@@ -25,10 +25,10 @@ Ställe och göra det
 Där, så sköna vilket
 Djuren gör där uti hagen som
 Den sanna lyckan äro
-
+::: cols
 **Giovanni o Mona:**
 Åååå...
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 /:Du-u-u-u-u
 O-o-o-o-och
 Ja-a-a-a-a-ag

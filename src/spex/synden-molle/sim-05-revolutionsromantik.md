@@ -1,7 +1,7 @@
 ---
 title: "[SIM 5] Revolutionsromantik"
 melody: "Milord, Edith Piaff"
-spex: synden-i-molle
+spex: synden-molle
 order: 7
 permalink: false
 ---

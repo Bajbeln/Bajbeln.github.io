@@ -1,7 +1,7 @@
 ---
 title: "[SIM 7] Gjuta betong på vågorna blå"
 melody: "Älskade ängel"
-spex: synden-i-molle
+spex: synden-molle
 order: 10
 permalink: false
 ---

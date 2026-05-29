@@ -1,18 +1,18 @@
 ---
 title: "[SIM 3] Varning för synd!"
 melody: "Cell block, Chicago"
-spex: synden-i-molle
+spex: synden-molle
 order: 5
 permalink: false
 ---
-Agda: Skam!
-Penelope: Synd!
-Lind: Snusk!
-Sylaester: Äcket!
-Kung Gustav V: Sigfrid?
-Gabriel Stenzelius: Otukt!
+**Agda:** Skam!
+**Penelope:** Synd!
+**Lind:** Snusk!
+**Sylaester:** Äcket!
+**Kung Gustav V:** Sigfrid?
+**Gabriel Stenzelius:** Otukt!
 
-Gabriel Stenzelius:
+**Gabriel Stenzelius:**
 Idag har vi bevittnat ett syndafall i
 proportion med Edens lustgård,
 här i vårt eget Mölle!

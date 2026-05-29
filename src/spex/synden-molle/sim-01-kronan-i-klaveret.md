@@ -1,7 +1,7 @@
 ---
 title: "[SIM 1] Kronan i klaveret"
 melody: "Splish splash, Bobby Darin"
-spex: synden-i-molle
+spex: synden-molle
 order: 2
 permalink: false
 ---
