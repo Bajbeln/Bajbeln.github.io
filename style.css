@@ -305,6 +305,12 @@ button.copyButton {
   vertical-align: middle;
 }
 
+/* Main page copy link button — same height as front-page random */
+button.copy-main {
+  height: var(--btn-height-lg);
+  white-space: nowrap;
+}
+
 /* Uppsättning link button (circular) */
 button.uppsattning-link-btn {
   display: none;

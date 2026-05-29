@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById('spex-header-container').insertAdjacentHTML('afterend', settingsHTML);
 
     // Inject random button after the "Kopiera länk" button
-    var copyButton = document.querySelector('.copyButton');
+    var copyButton = document.querySelector('.copyButton:not(.copy-main)');
     if (copyButton) {
       var randomBtn = document.createElement('button');
       randomBtn.className = 'random-page';

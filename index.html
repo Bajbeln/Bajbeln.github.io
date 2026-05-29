@@ -20,7 +20,10 @@
   </a> 
   <h1><a href="/"> Krischanstaspääxets<br>Sajber-Bajbel</a></h1>
   
-  <button class="random" aria-label="Välj en slumpmässig sång">Räändom</button>
+  <div style="display:flex;align-items:center;justify-content:center;gap:0">
+    <button class="copyButton copy-main" onclick="copyMainLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
+    <button class="random" style="margin-bottom:var(--spacing-md)" aria-label="Välj en slumpmässig sång">Räändom</button>
+  </div>
   <br>
   
   <a href="/spex/favoriter" class="button"><i>Favoriter</i></a>
@@ -251,7 +254,22 @@
         addReadingMode();
       }
     });
-    
+
+    function copyMainLink() {
+      var btn = document.querySelector('.copy-main');
+      btn.style.width = btn.offsetWidth + 'px';
+      var url = window.location.href.split("?")[0].split("#")[0];
+      var ta = document.createElement("textarea");
+      ta.value = url;
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); } catch (e) {}
+      document.body.removeChild(ta);
+      var orig = btn.textContent;
+      btn.textContent = "Kopierat!";
+      setTimeout(function() { btn.textContent = orig; }, 1500);
+    }
+
     </script>
 </body>
 
