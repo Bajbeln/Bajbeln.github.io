@@ -43,36 +43,23 @@ Kvinnokonferens
 ::: col
 **Tanterna:**
 
-
-
-
-
+<br><br><br>
 Vi kvinnor ska bli hjältinnor
 Byt tvätten mot vetorätten
-
-
-
+<br><br>
 Har insett att det går käpprätt
 Åt skogen, tiden är mogen
 
-
-
+<br>
 Nu ska vi ta över styret
 Just börjat har äventyret
-
-
+<br><br>
 Och ingenjörer
 
 Fredsarrangörer
 
 
-
-
-
-
-
-
-
+<br><br><br><br>
 Få rösträtt -vi ska få rösträtt
 Få rösträtt -vi ska få rösträtt
 :::

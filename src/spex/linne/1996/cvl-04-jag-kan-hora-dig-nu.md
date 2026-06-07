@@ -21,11 +21,7 @@ Vid din trygga arm kan jag lycklig gå
 ::: col
 **Carl d.y.**
 
-
-
-
-
-
+<br><br><br><br>
 Inte för att jag vill dig förebrå
 Men hos dig blir jag till mig såsom få
 Alla sinnena busar, hjärtat börjar slå

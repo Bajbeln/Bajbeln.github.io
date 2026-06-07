@@ -9,21 +9,13 @@ permalink: false
 ::: cols
 **Carl d.y:**
 Hör på mej!
-
-
-
+<br>
 Hör på mej!
-
-
-
+<br>
 Hör på mej!
-
-
-
+<br>
 Hör på mej!
-
-
-
+<br>
 Hör på mig,
 älskling!
 ::: col
@@ -47,7 +39,6 @@ nåt som det inte
 bör
 
 Kärlek är ett löfte och ett hot
-
 
 Men nu kan jag inte stå emot
 :::

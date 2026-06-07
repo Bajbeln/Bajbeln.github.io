@@ -58,8 +58,7 @@ När vi tar
 När vi tar
 ::: col
 **De andra:**
-
-
+<br>
 vi tar makten i vår värld
 vi tar makten i vår värld
 :::

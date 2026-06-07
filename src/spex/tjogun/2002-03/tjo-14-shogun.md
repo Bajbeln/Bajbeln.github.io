@@ -65,16 +65,12 @@ Akai:
 Shogun
 Shogun
 Shogun
-
-
+<br>
 Shogun
 Shogun
 Shogun
 
-
-
-
-
+<br><br><br>
 Med Sony som Shogun
 
 Spring spring
@@ -82,28 +78,12 @@ Spring spring
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+<br><br><br><br>
 Ska jag hjälpa till?
 
 
 
-
-
-
-
-
-
-
+<br><br>
 Så Sony klarar biffen
 
 Så smart

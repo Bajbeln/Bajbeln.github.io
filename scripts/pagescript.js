@@ -92,7 +92,7 @@ async function getSongIndex(){
 }
 
 function copyLink() {
-  const link = window.location.origin + window.location.pathname;
+  const link = window.location.origin + window.location.pathname + window.location.hash;
   
   if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(link)

@@ -12,9 +12,7 @@ permalink: false
 Här är så trist
 Här är så trist
 Så jättetrist
-
-
-
+<br><br>
 Jag längtar bort
 Låt det va torrt
 En tråkig sort
@@ -45,15 +43,11 @@ Vi vattnar blommor
 Vi kokar te
 Vi knypplar dukar och dammar och bakar
 Och nån gång slår vi loss och kokar knäck
-
-
-
+<br><br>
 Vi viker papper
 Vi läser dikt
 Vi målar naglar och pudrar och sminkar
 Och noppar kejsarinnans ögonbryn
-
-
 
 
 Vi målar vaser
