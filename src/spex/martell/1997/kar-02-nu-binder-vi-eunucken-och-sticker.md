@@ -1,7 +1,7 @@
 ---
-title: "[KAR 2] Nu binder vi blicken och sticker"
+title: "[KAR 2] Nu binder vi eunucken och sticker"
 singer: "Haremsdamerna sjunger"
-melody: "Vikingar, M. Rickfors"
+melody: "Vingar, M. Rickfors"
 spex: karl-martell-1997
 order: 3
 permalink: false
@@ -10,7 +10,7 @@ permalink: false
 **Jamina:** Det blev tomt och ensamt i slottet
 När på män vi blev renons
 **Korken:** Tråkiga eunucker
-Man får aldrig någon respons
+Man får aldrig nån respons
 **Benasir:** Sluta upp med gnäll och gnat
 Och hör på er boss
 Medelst en och annan plan

@@ -9,7 +9,8 @@ permalink: false
 
 Fläsk ger starka armar
 Snygga ben och tarmar
-Och det tjocka skelettet
+Och det tjocka fettet
+Bygger upp skelettet
 Vi mår gott, när vi fått
 Helstekt gris!
 
