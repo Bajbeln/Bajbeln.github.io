@@ -58,7 +58,7 @@
 | 52 | Prinsessan Pullinutt (PUL) | Korrekturläst och rättad av Erik i juni 2026. | |
 | 53 | Sokrates (SOK) | | |
 | 54 | MTV (MTV) | | |
-| 55 | Lincoln (LIN) | | |
+| 55 | Lincoln (LIN) | Korrekturläst och rättad av Erik i juni 2026. | Följande är egenheter som bevarats från den fysiska Bajbeln. [LIN 3] Gud, vad det är tråkigt i senaten: "De flesta satt och och sov" — dubbelt "och"; [LIN 5] Jag är Booth: "Hon är är från Sverige" — dubbelt "är"; [LIN 6] Presidenten tänker till: sångare "personerna vi bardisken" — "vi" istället för "vid". |
 | 56 | Kapten Krook (KRO) | | |
 | 57 | Gyttjeblottning (GYT) | Korrekturläst och rättad av Erik i mars 2026. | |
 | 58 | Christian IV (CIV) | | |

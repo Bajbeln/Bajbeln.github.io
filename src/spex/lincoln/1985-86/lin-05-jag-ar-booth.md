@@ -28,7 +28,7 @@ Jag läser Playboy, Piff, Raff, Ruff och Knoll & Tott
 _Refräng_
 
 Men vänta... Jag ska visa er en sak _(Visar en bild på Lind)_
-Söt va? Hon är är från Sverige, ni vet hur svenska flickor är
+Söt va? Hon är är<!-- [sic!] --> från Sverige, ni vet hur svenska flickor är
 Hon är min älskling, min idol och min passion
 Se upp, jag skjuter med min kärlekskanon
 

@@ -49,6 +49,10 @@ Anan ananan ananan ananan
 Anan ananan ananan ananas
 ::: col
 **Personerna vid baren:**
+
+
+
+
 Han sa nej
 Han sa nej
 Till en stor megastjärna som dej
@@ -58,19 +62,9 @@ Man fattar det ej
 
 
 
-
-
-
-
-
-
 Al
 Han vill ha sin näktergal
 Lala lalala lala lalala
-
-
-
-
 
 
 

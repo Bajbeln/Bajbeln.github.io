@@ -17,7 +17,7 @@ Vi gäspade allesammans, det minns jag bäst
 I salen satt det fler
 Som inte hörde på
 På salens vänstra sida var de flest
-De flesta satt och och sov
+De flesta satt och och<!-- [sic!] --> sov
 Det märktes inte då
 Att de på högra sidan började gå
 

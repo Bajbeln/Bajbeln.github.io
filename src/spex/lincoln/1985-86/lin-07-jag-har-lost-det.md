@@ -52,6 +52,9 @@ Ja, jag har löst det
 Jag har lagt samman ett och ett
 ::: col
 **Kören:**
+
+
+
 *Mel. Sånt är livet, refräng*
 Han har löst det
 Ja, han har löst det
@@ -69,10 +72,6 @@ Han grep ej galen man
 Vi är så glada att han hann
 För han är Pinkerton
 Och han är våran bäste man
-
-
-
-
 
 
 
