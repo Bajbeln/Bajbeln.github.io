@@ -12,7 +12,7 @@ Jag är Gulleplutt
 Jag är stolt och modigast i världen
 Är den ståtlige prins Gulleplutt
 Orsaken till att jag är här är den
-Undersköna princessan Pullinutt
+Undersköna prinsessan Pullinutt
 
 Hoppas att jag när jag dimpa
 Ner här så på henne impa
@@ -20,11 +20,11 @@ Att hon inte vill mej fimpa
 För då blir jag putt
 
 Jag har kommit uti friartagen
-Är kär på alla sätt och vis
+Är så kär på alla sätt och vis
 Struntar i att hon är lös i magen
 Och att det kring henne luktar fis
 
-Nu när jag är kärlekstungen
+Nu när jag är kärleksstungen
 Känner jag mej väldigt tvungen
 Att hos hennes pappa kungen
 Be om hennes hand

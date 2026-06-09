@@ -8,10 +8,11 @@ permalink: false
 ---
 
 Jag heter Pullinutt - hej, hej
-Och jag är en princessa
+Och jag är en prinsessa
 Jag är en ganska vanlig tjej
 Fast med krona på min hjässa
 Ja, jag har en kung till far
+Så det finns inget jag ej har
 Men trots att jag bor på ett slott
 Och allting här är flott
 Saknar jag nog ändå nåt

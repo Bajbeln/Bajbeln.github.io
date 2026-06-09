@@ -14,7 +14,7 @@ Han la upp en eldig rap, eldig rap, eldig rap
 Men medicin kom ur hans gap, ur hans gap
 
 **Alla:**
-Så nu är det slut med allt prutt, prutt, prutt, princessan Pullinutt
+Så nu är det slut med allt prutt, prutt, prutt, prinsessan Pullinutt
 Gifter sig genast med Gulleplutt, Gulleplutt
 Och Stryk får gifta sig med fén, sig med den goda fén
 Och alla glada blir igen, kul igen

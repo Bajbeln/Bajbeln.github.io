@@ -1,5 +1,5 @@
 ---
-title: "[PUL 2] Duett mellan en elak trollkarl och en förtrollad princessa"
+title: "[PUL 2] Duett mellan en elak trollkarl och en förtrollad prinsessa"
 singer: "Leo och Pullinutt sjunger"
 melody: "Grevens och Susannas duett ur le nozze di Figaro av W A Mozart"
 spex: pullinutt
@@ -12,8 +12,7 @@ permalink: false
 Jag är den stygge Leo
 Jag har just förtrollat dig
 Hihi. Haha. Jag har förtrollat dig
-
-
+<br>
 Du är i godisskogen
 
 Skogens chocklad är mogen
@@ -42,7 +41,7 @@ Blä!
 Med godisbitar som dessa
 Har jag förtrollat en prinsessa
 Och Gottegrisen
-Får gott som spis, sen
+Får gott om spis, sen
 När du blir en skum-figur
 Eller om jag har en riktig tur
 Du förvandlas till ett härligt rån
@@ -50,9 +49,7 @@ Du blir ett härligt rån
 Du blir ett härligt rån
 ::: col
 **Pullinutt:**
-
-
-
+<br><br>
 Min herre, ni är nog en
 Man som är elak med flit
 
@@ -64,12 +61,12 @@ Ja
 Blir jag till choklad?
 Oh, låt bli. Snälla ni, släpp mig fri!
 
-Du är ju riktigt elak.
+Du är ju riktigt elak
 Så le och kriminell
 Du gör så allt blir fel, ack
 Du är ej snäll
 
-Du är ingen vän
+Du är allt ingen vän
 
 Vad är det nu med den
 Så?

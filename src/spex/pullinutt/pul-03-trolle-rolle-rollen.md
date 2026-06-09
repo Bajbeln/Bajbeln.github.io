@@ -1,5 +1,5 @@
 ---
-title: "[PUL 3] Trolle-trolle-rollen"
+title: "[PUL 3] Trolle-rolle-rollen"
 singer: "Trollen sjunger"
 melody: "Go Tell It on the Mountain"
 spex: pullinutt
