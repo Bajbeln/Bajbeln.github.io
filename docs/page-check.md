@@ -27,7 +27,7 @@
 | 21 | Tåget över Bält (TÖB) | | |
 | 22 | Karthago (PUN) | | |
 | 23 | Den lägsta punkten (HÅL) | | |
-| 24 | Sketchetera (ETC) | | |
+| 24 | Sketchetera (ETC) | Korrekturläst och rättad av Erik i juni 2026. | |
 | 25 | Rosettastenen (O) | | |
 | 26 | Kubakrisen (KUK) | | |
 | 27 | Franz Ferdinand (FRA) | | |
@@ -41,7 +41,7 @@
 | 35 | Nobel (NOB) | | |
 | 36 | OS-feber i Kristianstad (OSF) | | |
 | 37 | Maria Eleonora (MAR) | | |
-| 38 | Sketchofreni (SEV) | Korrekturläst och rättad | |
+| 38 | Sketchofreni (SEV) | Korrekturläst och rättad av Erik i mars 2026. | |
 | 39 | Carl von Linné (CvL) | | |
 | 40 | Finlands Bryggeri (FIN) | | |
 | 41 | Carl XI (CXI) | | |
@@ -55,11 +55,11 @@
 | 49 | Eiffel (EIF) | | |
 | 50 | Charles Magnusson (CHA) | | |
 | 51 | Sannlådan (SAN) | | |
-| 52 | Prinsessan Pullinutt (PUL) | | |
+| 52 | Prinsessan Pullinutt (PUL) | Korrekturläst och rättad av Erik i juni 2026. | |
 | 53 | Sokrates (SOK) | | |
 | 54 | MTV (MTV) | | |
 | 55 | Lincoln (LIN) | | |
 | 56 | Kapten Krook (KRO) | | |
-| 57 | Gyttjeblottning (GYT) | Korrekturläst och rättad | |
+| 57 | Gyttjeblottning (GYT) | Korrekturläst och rättad av Erik i mars 2026. | |
 | 58 | Christian IV (CIV) | | |
 | — | *Allmänna* (ALL) | | |
