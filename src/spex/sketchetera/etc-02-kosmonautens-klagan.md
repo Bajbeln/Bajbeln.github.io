@@ -59,6 +59,7 @@ Jag vill bli!
 Jag vill bli!
 Jag vill bli!
 ::: col
+<br>
 (**Kör:** Alltid rätt)
 
 (En Syo väljer rätt)
