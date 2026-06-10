@@ -8,18 +8,18 @@ permalink: false
 ---
 
 **Klo:** Nu är det gjort, nu kan vi dra
-**Nisse:** Någonting riktigt, någonting viktigt, någonting bra
+**Nisse:** Nånting riktigt, nånting viktigt, nånting bra
 **Klo:** Kom, låt oss återvända så att allt blir som
 förut
 När vi änteligen har
 **Båda:** Fått ett lyckligt slut
 **Alla:** Fått ett lyckligt slut
 
-**Refräng:** Nu är det slut på spexet
+_Refräng_ Nu är det slut på spexet
 Nu är det komplett
 Dags för reträtt
 Med en slutkuplett
-Om ni på detta ej har riktigt mätt
+Om ni på detta ej har blivit riktigt mätt
 Ja, då finns det ett sätt
 För titt som tätt
 Vi halar vår ridå
@@ -32,3 +32,5 @@ Aldrig sprit mer i mitt glas
 **Bengt:** Och jag som alltid var't sopran
 Men nu så är jag bas
 **Alla:** Nu så är han bas
+
+_Refräng_

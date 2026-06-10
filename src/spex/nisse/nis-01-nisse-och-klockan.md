@@ -56,6 +56,6 @@ Fylla en ho
 Klappa ett sto
 Spika en spik
 Röka en sik
-Göra någon rik
+Göra nån rik
 Vara din vän
 Svara i telefon hos CSN _(2 ggr)_

@@ -10,16 +10,15 @@ permalink: false
 I våran fiskskål så finns det inga kanter
 Nu går vi upp med en serenad för tanter
 Gapa och stirra, det finns mer vi kan göra
-Lyssna nu noga så ska ni få höra
-
-Simma och simma och rimma
+Lyssna nu noga så ska ni nåt få höra
 
 ::: cols
+Simma och stimma och rimma
 Som dumma fiskar har vi svårt att hinna
 Sjunga är svårt utan lunga
 Men tänderna kan användas som stöd
 ::: col
-Simma och simma och rimma
+<br>Simma och stimma och rimma
 Som dumma fiskar har vi svårt att hinna
 Sjunga är svårt utan mun
 :::
@@ -38,16 +37,15 @@ Från Calcutta
 När folk tror vi andas så är det som
 Vi pruttar
 Minnet är kort, kan det vara hypofysen?
-Det kan det säkert, du glömde i frysen
-
-Glömmer att jag med bussen
+Det kan det säkert, du glömde din i frysen
 
 ::: cols
+Glömmer att jag ska med bussen
 Så jag får simma runt i vattenpussen
 Missar att jag ska med hissar
 Så jag får gå i trapporna men
 ::: col
-Glömmer och glömmer och drömmer
+<br>Glömmer och gömmer och drömmer
 Så han får simma runt i vattenpussen
 Missar och pissar på tån
 :::

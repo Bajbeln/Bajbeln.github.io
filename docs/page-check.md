@@ -51,7 +51,7 @@
 | 45 | Kejsaren av Kina (KEJ) | | |
 | 46 | Gustav III (GUS) | | |
 | 47 | Hjalmar Söderberg (HJA) | | |
-| 48 | Lille Nisses stora klocka (NIS) | | |
+| 48 | Lille Nisses stora klocka (NIS) | Korrekturläst och rättad av Erik i juni 2026. | |
 | 49 | Eiffel (EIF) | | |
 | 50 | Charles Magnusson (CHA) | | |
 | 51 | Sannlådan (SAN) | | |

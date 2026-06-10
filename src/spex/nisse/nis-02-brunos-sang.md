@@ -8,23 +8,23 @@ permalink: false
 ---
 
 Hej jag är Bruno, en kille med nävar
-Av hårdaste slag
-Sexiga damer mot mig nu ska gräva
-Jag tar ett fast tåg
+Av det hårdaste slag
+Sexiga damer mot mig nu ska sträva
+Jag tar ett fast tag
 På banken jag ville till mat låna pengar
 Mamma kan ej nås
 Men bakom mig stod det
 En kreatinkoloss
 
 Han rånade banken, jag fick massa klöver
-Till och med en Pläd
-Jag packar min, min lästid är över
+Till och med till en Pläd
+Jag packar min väska, min lästid är över
 Bort från Lund bär min färd
 Mitt guld blir till sand på det ljuva Mallorca
 En dröm som besannats, så vackert, Mallorca
 Ett Eden Mallorca har alltid va'tt för mig
 
-_(Dans)_
+_Dans_
 
 Mitt guld blev till sand på det ljuva Mallorca
 En dröm som besannats, så vackert, Mallorca
