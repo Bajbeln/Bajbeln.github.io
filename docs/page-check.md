@@ -4,7 +4,7 @@
 | # | Spex | Status? | Anmärkningar |
 |---|------|------|--------------|
 | — | *Favoriter* | | |
-| 1 | Florence (FLO) | Kollat - ok | |
+| 1 | Florence (FLO) | Kollat - ok | Följande är egenheter som bevarats från den fysiska Bajbeln. [FLO 11] Aktfinal I - Detta ska hända i Akt II: "På Krimhalvön i systerdräckt" — korrekt stavning är "systerdräkt" som i andra refrängen; [FLO 13] Metrologisa: själva titeln, samt "kulig tror ej men blåst" — menar eventuellt "kuling" som benämning på stark vind. |
 | 2 | Öresundsbron (BRO) | Kollat - ok | |
 | 3 | Tycho Brahe (BRA) | Har kollat t.o.m. #3 | |
 | 4 | H.C. Andersen (HCA) | | |
@@ -60,6 +60,6 @@
 | 54 | MTV (MTV) | | |
 | 55 | Lincoln (LIN) | Korrekturläst och rättad av Erik i juni 2026. | Följande är egenheter som bevarats från den fysiska Bajbeln. [LIN 3] Gud, vad det är tråkigt i senaten: "De flesta satt och och sov" — dubbelt "och"; [LIN 5] Jag är Booth: "Hon är är från Sverige" — dubbelt "är"; [LIN 6] Presidenten tänker till: sångare "personerna vi bardisken" — "vi" istället för "vid". |
 | 56 | Kapten Krook (KRO) | | |
-| 57 | Gyttjeblottning (GYT) | Korrekturläst och rättad av Erik i mars 2026. | |
+| 57 | Gyttjeblottning (GYT) | Korrekturläst och rättad av Erik i mars 2026. | Följande är egenheter som bevarats från den fysiska Bajbeln. [GYT 1] Julvisa: all stavning; [GYT 2] Herr Doktor Hilbert Rothwangs billiga djurförsök: "Den harr jättegullig snut" |
 | 58 | Christian IV (CIV) | | |
 | — | *Allmänna* (ALL) | | |

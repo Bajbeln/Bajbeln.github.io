@@ -60,6 +60,6 @@
 | 54 | MTV (MTV) | [MTV 1] Aktivistvisan: "Han skjuter ner och äter opp ?" och "Han går sitt jägarpass ?????" — frågetecken i källan, sannolikt osäker text; "I bländande ?? klorin ?? ??" — frågetecken i källan, text okänd. | |
 | 55 | Lincoln (LIN) | OK | Se page-check.md |
 | 56 | Kapten Krook (KRO) | [KRO 2] Stiltjesången: sångare angiven som "Transpirania" i källan — troligt "Transpiranta" (inkonsekvent med karaktärsnamnet i låttexten). [KRO 5] Pojkarna saknar...: "Han är inte här" (Conny) och "Han kanske längtar efter mig" (Benny) — "Han" troligt "Hon" (syftar på pojkarnas flickvänner). [KRO 7] Jag är Pitt: "udan sprid" — troligt "utan sprit" (typo). [KRO 9] Oh-vad-vi-älskar-varandra-sången: "Flicker:" — troligt "Flickor:" (typo). | |
-| 57 | Gyttjeblottning (GYT) | Inga anmärkningar. | |
+| 57 | Gyttjeblottning (GYT) | OK | Se page-check.md |
 | 58 | Christian IV (CIV) | **1990/91:** [CIV 2] Kons aria: "mol allen" rad 2 — otydlig fras ("betar mol allen"), möjligt OCR-fel. [CIV 3] En Verdi av slutning: "Christian:" saknar `<b>`-taggar i källan; raden "sta- / nna upp" är avsiktlig syllabisk radbrytning, bevarat. [CIV 4] Trippelpresentation: "aukustisk gitarr" rättat till "akustisk gitarr" (OCR). [CIV 5] Organisk kärlekssång: sångarnotering i källan anger "Ebba" (inte "Hebba") — kan vara korrekt artistnamn eller typo. [CIV 6] Titeln "Kisten Munks förlängda presentaionssång" rättat till "Kirsten Munks förlängda presentationssång" (OCR+typo). | |
 | — | *Allmänna* (ALL) | ok | |
