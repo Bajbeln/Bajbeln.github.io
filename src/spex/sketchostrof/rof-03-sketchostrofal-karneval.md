@@ -1,5 +1,5 @@
 ---
-title: "4. [ROF 3] Sketchostrofal karneval"
+title: "[ROF 3] Sketchostrofal karneval"
 singer: "Alla"
 melody: "Since You've Been Gone – Kelly Clarkson"
 spex: sketchostrof
