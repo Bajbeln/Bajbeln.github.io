@@ -57,13 +57,13 @@ Jag sitter och väntar
 Som jag alltid gjort
 
 ::: cols
-**Anne**
+**Anne:**
 Din själ fylls av längtan
 Och taskig lyrik
 Jag hoppas dom hängt han
 I närmaste spik
 ::: col
-**Harriet**
+**Harriet:**
 Din snopp ger dig trängtan
 Och taskig etik
 Jag borde ha slängt han

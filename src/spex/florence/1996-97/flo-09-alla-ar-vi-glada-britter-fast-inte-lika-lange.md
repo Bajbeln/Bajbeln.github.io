@@ -26,8 +26,7 @@ Ordaletisk exeget
 **Övriga:**
 Vilken skön atmosfär
 Tänk att va miljonär
-
-
+<br>
 **Övriga:**
 Tala väder och vind
 Det kan även en blind

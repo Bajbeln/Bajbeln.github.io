@@ -58,7 +58,7 @@ Pengar krävdes blott
 Ett diskret och vanligt
 Ett enkelt litet brott
 Kan man tänka sig så
-Illa som det har gått
+Illa det har gått
 Jag är avslöjad här och nu
 ::: col
 **De andra:**
@@ -73,6 +73,16 @@ Att bli avslöjad nu
 
 **Alla:** Det är skamligt, förnedrande, rysligt och nesligt
 Och tagen på en gärning som är bar
+::: cols
+**Nanny:**
+_(Som 3-delat ovan)_
+::: col
+**Harriet:**
+_(Som 3-delat ovan)_
+::: col
+**Fred:**
+_(Som 3-delat ovan)_
+:::
 
 ::: cols
 **Fred:**
