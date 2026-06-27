@@ -3,6 +3,7 @@
 ## Buggfixar
 - Fixa sökfunktionen — svårt för ensiffriga låtnummer
 - Undersök radbrytning vid långa rader i flerspaltsläge
+- Sökfunktionen skrollar inte alltid ner till och öppnar kuplettboxen rätt vid sök
 
 ## Funktioner
 - Expanderbar inuti expanderbar (se Pausfinalen HC A)
