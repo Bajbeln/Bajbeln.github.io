@@ -21,7 +21,7 @@ En bondes korståg nord-österut
 
 **Miljöaktivisten, Cyklisten, Hippien & Arkitekturupproret:**
 Fler och fler vill protestera
-Missnöjet ska vi manifestera
+Missnöjet ska vi markera
 
 **Mr. Ferry:** Staten måste sluta härja
 Vissa åker hellre färja
@@ -32,7 +32,7 @@ Vissa åker hellre färja
 Gå till Kristianstad (Oh, oh, oh)
 Stoppa ett dumt beslut
 Dom ska få, i Kristianstad! (Oh, oh, oh)
-En bondes korståg nord-österut
+Vi gör ett korståg nord-österut
 
 _(mellanspel)_
 (Dumt beslut…)
