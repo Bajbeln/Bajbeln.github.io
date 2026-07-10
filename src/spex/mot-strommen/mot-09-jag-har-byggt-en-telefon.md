@@ -37,7 +37,7 @@ Potensen i Morgans imperium
 Har mig som sin exponent
 Och kronan på mitt livsverk blir nu ett patentdokument
 ::: col
-<i>Alt:
+<br><i>Alt:
 I mitt gebit
 Är jag elit
 Med aptit uppå kvinnor och sprit
@@ -50,7 +50,7 @@ Den e' nå't som alla tjejer
 Gillar, pöbel som aristokrat
 
 ::: cols
-Denna vill jag ta patent på
+<br>Denna vill jag ta patent på
 Men på er vill jag
 Om jag kan, ett kort moment, få
 Bara ta (bara ta, bara ta)

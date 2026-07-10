@@ -55,12 +55,7 @@ Ja en nödvändig dos av
 Ooh...
 
 
-
-
-
-
-
-
+<br><br><br>
 Konversera elegant
 Slippa ses som dilettant
 Inte leva dekadent
@@ -73,12 +68,7 @@ Vett och etikett
 Ooh...
 
 
-
-
-
-
-
-
+<br><br><br>
 Fisa, rapa gör man ej
 Smaska ljudligt bör du ej
 Servitrisen nypa, nej

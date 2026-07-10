@@ -23,8 +23,7 @@ Det är kanon.
 Allra bäst är växel-
 ström
 Vinna, vinna, vinna...
-
-
+<br>
 vaka får du över ditt lilla
 sorgliga patent
 
@@ -33,8 +32,7 @@ Må va hänt.
 Allra bäst är växel-
 ström
 Vinna, vinna, vinna
-
-
+<br>
 Tornar problemen upp sig
 kan du vänta dig en känga ifrån mig
 ::: col
@@ -47,8 +45,7 @@ Allra bäst är min lik-
 ström
 
 Dissident!
-
-
+<br>
 Spak blir du nog må du tro
 i min alldeles förtjusande
 framgångsmaskin
