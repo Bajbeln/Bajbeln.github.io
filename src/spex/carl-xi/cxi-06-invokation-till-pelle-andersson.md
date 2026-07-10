@@ -26,9 +26,8 @@ Ordnar sig resten
 Allt är fixat, Gyllenstjärna
 Det finns tårta, och en tärna
 <br>
-<br>
 **Fru Coyet** Karl XI blir en toffel
-<br>
+
 **Fru Coyet** Karl XI blir ska bli Ulrikas toffel
 Och då kan vi kanske
 äntligen få fred
@@ -38,7 +37,6 @@ Vill jag lova
 Det blir fred ska ni få se
 En sån lysande idé
 <br>
-<br>
 **Fru Coyet** Har du ringen nu för det är viktigt!
 **Gyllenstjärna** Det är självklart, vem tar du mig för?
 <br>
@@ -47,8 +45,8 @@ En sån lysande idé
 Blir en gift analfabet
 Ingenting kan stoppa det
 Vi är bäst, javisst, vi vet
-<br>
-_(Carsten (kommer in och möter Kalle, som är på väg ut))_
+
+_Carsten (kommer in och möter Kalle, som är på väg ut)_
 Men titta där är nu, Gud vad jag har letat
 Bland storslagna vyer
 Och nakna statyer
@@ -56,25 +54,22 @@ Det är bråttom hör jag
 Då ska vi väl börja
 Och här har vi brudgummen, nu ska vi se,
 Sa vi psalmen 7 eller 63?
-<br>
+
 Det var 68!
 _Fru C + G + C_
 <br>
-<br>
-<br>
-<br>
 Du ser ganska pigg ut
 Jag tror det går bra
-<br>
+
 Jag tror det går bra
-<br>
+
 Jag tror det går bra
 Det här vet vi bäst!
 Det här vet vi bäst
 Vi får välan se
 Vi får välan se
 <br>
-_(Ulrika (kommer in med Rutan som tärna))_
+_Ulrika (kommer in med Rutan som tärna)_
 Kalle, gullunge, här är jag
 Älskling kom uti min famn
 Här har jag en bröllopsgåva
@@ -120,16 +115,9 @@ Ingenting, ingenting, ingenting!
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 _(Kalle (har hört dom, är gömd))_
-<br>
+
 Jag ska giftas? Med Ulrika?
 Trodde dom ja!
 Vänta bara, du har så fel!
@@ -137,15 +125,14 @@ Jag vill inte vara med
 Vänta bara, du har så fel!
 Jag vill inte vara med
 <br>
-<br>
 Jaja, vänta bara då va
 Det var ingen bra idé
 Jag ska smita ska ni se
 Jag vill inte vara med
-<br>
+
 Så försiktigt
 Ingen hör
-<br>
+
 Så diskret och försiktigt
 Ingen hör
 Jag ska smyga ut diskret
@@ -157,16 +144,13 @@ Ja, så diskret
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
 Ha inte så brått, va
 **Kalle**
 Ha inte så brått, va
 Jag kan inte gifta mig
 Här nu idag
 Jag mår inte bra
-<br>
+
 Jag har faktiskt feber
 Jag mår inte bra
 Och karies
@@ -184,20 +168,11 @@ Och svår diarré
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 Nämen, nämen...
 <br>
 <br>
-<br>
-<br>
+
 Jamen vänta, jamen vänta
-<br>
 <br>
 <br>
 <br>
@@ -207,11 +182,9 @@ Vänta lite...
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
+
 Jag är fast, har ingen chans
-<br>
+
 Jag vill va nån annanstans
 Asch, hur kunde allting
 Gå så jäkla fel
