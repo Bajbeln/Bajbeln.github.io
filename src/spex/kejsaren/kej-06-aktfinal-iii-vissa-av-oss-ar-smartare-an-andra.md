@@ -70,7 +70,7 @@ Tankar hoppar
 Som laxar i älv
 Vill trolla bort mig själv
 ::: col
-**LS:** Ha
+<br>**LS:** Ha
 **K:** En
 **YS:** Stämpel
 **LS:** Är
