@@ -11,13 +11,9 @@ permalink: false
 **Slughöken:**
 Nu har jag nog gjort bort mej
 Nu är nog spelet slut
-
-
+<br>
 Hur kan man va så klantig?
-Va?
-
-
-
+Va?<br><br><br>
 Hur kan man va så klantig
 Hur kan man va så klantig
 För jag har nog gjort bort mej
@@ -32,8 +28,7 @@ Otur jag tycks ha
 Inte bra
 Jag är ej gla
 Ja jävlar
-
-
+<br>
 En sån jävla otur, otur
 Sån jävla otur som jag ha
 Sån otur jag tycks ha
@@ -83,13 +78,7 @@ Jag har då ingen tur
 Jag har då ingen tur
 
 
-
-
-
-
-
-
-
+<br><br><br><br>
 Man varje dag nåt lär sej
 Man bör ej klä sej ut
 Sån otur
@@ -101,8 +90,7 @@ Otur. En sån otur
 Det är ju inte bra-
 a-a-a-a-a-a
 Sån otrolig otur jag ha
-
-
+<br>
 Ja jävlar
 Fy satans otur
 Sån jävla otur som jag ha
