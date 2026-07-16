@@ -18,8 +18,7 @@ Ja, jag blir alldeles darrig
 När jag ser en man
 Då klär jag om och av mej för
 Att visa vad jag kan
-
-
+<br>
 Jag heter Munk men är sällsynt
 Liderlig ändå
 Jag letar efter en man här
@@ -28,10 +27,7 @@ Får jag blott en, ska
 Han va stor och tung
 Ja, jag vill ha en väldig man
 Så ge mej Danmarks kung
-
-
-
-
+<br><br><br>
 Jag vill ha Christian den fjärde
 Att stilla mitt begär
 Så arkitekten, den lärde
@@ -40,7 +36,6 @@ Jag har vatt med om det mesta
 När det gäller sex
 Men pengar, makt och fetma gör
 Att mina lustar väcks
-
 
 Nu har jag lockat monarken
 Till min mjuka barm
@@ -55,8 +50,7 @@ Ett lyckligt slut!
 ::: col
 **Alla män:**
 Titta en tjej som kommer ur ett paket!
-
-
+<br>
 Hur kom hon dit
 Hon är en läckerbit
 Se vad
@@ -65,8 +59,7 @@ Kan hon få plats
 I en spann
 
 Vem är hon som sätter blodet i svang?
-
-
+<br>
 Men tänk ändå
 Ja, tänk att henne få
 Tänk om
@@ -78,7 +71,6 @@ Vem var det hon nämnde?
 Var det nån vi kände?
 Sa hon att hon ville ha Danmarks kung?
 
-
 Han står ju där
 Har en form utav en sfär
 Oj, ett
@@ -87,8 +79,7 @@ Mina under-
 byxor spräcks
 
 Tänk om allting ordnar upp sej till slut!
-
-
+<br>
 Nu blir jag varm
 Hon har en fyllig barm
 Min lust

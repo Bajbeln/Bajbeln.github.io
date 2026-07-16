@@ -18,8 +18,7 @@ Ja, jag blir alldeles darrig
 När jag ser en man
 Då klär jag om och av mej för
 Att visa vad jag kan
-
-
+<br>
 Jag heter Munk men är sällsynt
 Liderlig ändå
 Jag letar efter en man här
@@ -33,8 +32,7 @@ En man en kung
 ::: col
 **Alla män:**
 Titta en tjej som kommer ur ett paket!
-
-
+<br>
 Hur kom hon dit
 Hon är en läckerbit
 Se vad
@@ -43,8 +41,7 @@ Kan hon få plats
 I en spann
 
 Vem är hon som sätter blodet i svang?
-
-
+<br>
 Men tänk ändå
 Ja, tänk att henne få
 Tänk om
