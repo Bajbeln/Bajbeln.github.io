@@ -25,7 +25,6 @@ npm run start
 
 ## På gång & kända fel (mer på `todo`)
 - Korrläsning av alla spex (på gång)
-- Migrering till ny sidstruktur (på gång)
 
 ## Tack till
 - Kodning har gjorts av Joel Takahashi Olsson, Jacob Annefors och Johan Furuhjelm.
