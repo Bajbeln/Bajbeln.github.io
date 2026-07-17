@@ -35,3 +35,4 @@
 - Kontrollera alla nya spexsidor mot källa (pdf:er)
 - Expandera alla knappen verkar inte ha rätt borders på mobil
 - Skapa en valbar faktaruta-popup för varje spexsida
+- Gör så att index genereras istället för att manuellt behöva läggas till
