@@ -215,9 +215,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "assets/": "assets/" });
   eleventyConfig.addPassthroughCopy({ "partials/": "partials/" });
   eleventyConfig.addPassthroughCopy({ "manifest.json": "manifest.json" });
-  // Keep all existing spex HTML pages at their original /spex/* URLs
-  eleventyConfig.addPassthroughCopy({ "spex/": "spex/" });
-  eleventyConfig.addPassthroughCopy({ "index.html": "index.html" }); // remove this to enable the new index site
 
   return {
     // Process {% ... %} shortcodes inside .md files using Nunjucks
