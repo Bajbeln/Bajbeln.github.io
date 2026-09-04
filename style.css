@@ -357,7 +357,6 @@ button.random {
   display: inline-block;
   margin: var(--spacing-md);
   font-size: var(--font-size-base);
-  margin-bottom: 11px;
 }
 
 /* Spex page räändom button */
