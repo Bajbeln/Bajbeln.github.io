@@ -65,6 +65,7 @@
 body {
   background: var(--bg);
   -webkit-tap-highlight-color: transparent; /* Mobile: removes blue tap highlight */
+  zoom: 1.12;
 }
 
 /* ========================================
