@@ -21,8 +21,16 @@
 </head>
 <body>
   <h2>{{ title }}</h2>
-  <button class="copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
-  <button class="toggle-all-btn" id="toggleAllBtn" onclick="toggleAll()" aria-label="Expandera/kollapsa alla sånger">
+  {% if info %}
+  <div class="info-wrapper">
+    <button class="pageRoundButton infoButton" onclick="toggleInfoBubble(this)" aria-label="Information om spexet" aria-expanded="false">
+      <i class="fa fa-info"></i>
+    </button>
+    <div class="info-bubble">{{ info | safe }}</div>
+  </div>
+  {% endif %}
+  <button class="pagePillButton copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
+  <button class="pageRoundButton toggle-all-btn" id="toggleAllBtn" onclick="toggleAll()" aria-label="Expandera/kollapsa alla sånger">
     <svg class="icon-expand" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
       <polyline points="3,4 10,10 17,4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
       <polyline points="3,11 10,17 17,11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -150,6 +158,44 @@
         fallbackCopy(url); feedback();
       }
     }
+
+    // Spex info bubble
+    function toggleInfoBubble(btn) {
+      var bubble = btn.nextElementSibling;
+      var isOpen = bubble.classList.contains("show");
+      closeInfoBubbles();
+      if (!isOpen) {
+        bubble.classList.add("show");
+        btn.classList.add("active");
+        btn.setAttribute("aria-expanded", "true");
+      }
+    }
+
+    function closeInfoBubbles() {
+      document.querySelectorAll(".info-bubble.show").forEach(function (b) {
+        b.classList.remove("show");
+      });
+      document.querySelectorAll("button.infoButton.active").forEach(function (b) {
+        b.classList.remove("active");
+        b.setAttribute("aria-expanded", "false");
+      });
+    }
+
+    document.addEventListener("click", function (e) {
+      if (!e.target.closest(".info-wrapper")) closeInfoBubbles();
+    });
+
+    // Fix the info bubble's vertical position once, aligned with the first
+    // song pill's top, so it stays put regardless of scroll position.
+    document.addEventListener("DOMContentLoaded", function () {
+      var infoBubble = document.querySelector(".info-bubble");
+      if (!infoBubble) return;
+      var headerReady = window.headerReadyPromise || Promise.resolve();
+      headerReady.then(function () {
+        var firstPill = document.querySelector(".collapsible");
+        infoBubble.style.top = (firstPill ? firstPill.getBoundingClientRect().top : window.innerHeight * 0.2) + "px";
+      });
+    });
 
     function fallbackCopy(text) {
       var ta = document.createElement("textarea");

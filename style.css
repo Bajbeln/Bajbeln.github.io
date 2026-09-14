@@ -299,11 +299,8 @@ button.song-link-btn:hover {
   opacity: 1;
 }
 
-/* Copy button (copy spex page link) */
-button.copyButton {
-  background-color: var(--purple);
-  border-color: var(--purple);
-  color: white;
+/* Pill page button base (copyButton, random-page) */
+.pagePillButton {
   font-size: 17px;
   border-radius: var(--radius-md);
   height: var(--btn-height);
@@ -312,10 +309,82 @@ button.copyButton {
   vertical-align: middle;
 }
 
+/* Copy button (copy spex page link) */
+button.copyButton {
+  background-color: var(--purple);
+  border-color: var(--purple);
+  color: white;
+}
+
+/* Pill button base for main page (copy-main, random) */
+.mainPillButton {
+  font-size: var(--font-size-base);
+  border-radius: var(--radius-lg);
+  height: var(--btn-height-lg);
+  padding: 0 11px;
+  margin: var(--spacing-md);
+  vertical-align: middle;
+}
+
 /* Main page copy link button — same height as front-page random */
 button.copy-main {
-  height: var(--btn-height-lg);
   white-space: nowrap;
+}
+
+/* Round page button base (infoButton, toggle-all-btn) */
+.pageRoundButton {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: var(--radius-full);
+  width: 49px;
+  height: 49px;
+  padding: var(--spacing-md);
+  margin: var(--spacing-md);
+  vertical-align: middle;
+}
+
+/* Spex info button + text bubble */
+.info-wrapper {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+button.infoButton {
+  background-color: var(--purple);
+  border: 2px outset var(--purple);
+  color: white;
+  font-size: var(--icon-lg);
+}
+
+button.infoButton:hover,
+button.infoButton.active {
+  background-color: var(--yellow-hover);
+}
+
+.info-bubble {
+  display: none;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  color: #333;
+  border: 2px solid var(--purple);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-3xl) var(--spacing-2xl);
+  min-height: 4.2em;
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 320px;
+  font-size: var(--font-size-base);
+  text-align: left;
+  line-height: 1.4;
+  z-index: 20;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.info-bubble.show {
+  display: block;
 }
 
 /* Uppsättning link button (circular) */
@@ -337,36 +406,12 @@ button.uppsattning-link-btn:hover {
 /* Toggle all button (circular, yellow) */
 button.toggle-all-btn {
   border: 2px outset var(--yellow-border);
-  -webkit-appearance: none;
-  appearance: none;
-  border-radius: var(--radius-full);
-  width: 49px;
-  height: 49px;
-  padding: var(--spacing-md);
-  margin: var(--spacing-md);
-  vertical-align: middle;
   margin-left: var(--spacing-md);
 }
 
 /* Front-page räändom button */
 button.random {
-  border-radius: var(--radius-lg);
-  height: var(--btn-height-lg);
-  padding: 0 11px;
   display: inline-block;
-  margin: var(--spacing-md);
-  font-size: var(--font-size-base);
-}
-
-/* Spex page räändom button */
-button.random-page {
-  font-size: 17px;
-  margin-left: var(--spacing-md);
-  border-radius: var(--radius-md);
-  height: var(--btn-height);
-  padding: 0 var(--spacing-2xl);
-  margin: var(--spacing-sm);
-  vertical-align: middle;
 }
 
 
@@ -502,6 +547,22 @@ body.dark-mode .search-container input[type="text"]::placeholder {
 
 body.dark-mode .spex-logo {
   filter: invert(1);
+}
+
+body.dark-mode button.infoButton {
+  background-color: var(--color-purple-dark);
+  border-color:    var(--color-purple-dark);
+}
+
+body.dark-mode button.infoButton:hover,
+body.dark-mode button.infoButton.active {
+  background-color: var(--yellow-hover);
+}
+
+body.dark-mode .info-bubble {
+  background-color: var(--color-card-dark);
+  color:           var(--color-text-dark);
+  border-color:    var(--color-purple-dark);
 }
 
 

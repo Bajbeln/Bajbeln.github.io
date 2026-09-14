@@ -9,12 +9,11 @@
 - Abstrahera sök och randomize
 - Kanske ett konto-system i framtiden för favoriter-system och röstsystem
 - Flytta settings-knapp på sidorna upp så att den inte överlappar på mobil (?)
-- Info-ruta om varje spex? (pop-up)
 - Göra övergången från startsida till spexsida mer sömlös? - typ som en transition
+- länk till inspelning?
 
 ## Stil
-- Se över alla färgerna på alla sidorna - inkl de nya sidorna
-- Gör flera sidor mer läsbara - favoriter (se `/docs/page-rating.md`)
+- Gör flera sidor mer läsbara - ex. favoriter (se `/docs/page-rating.md`)
 - Tjockare logga i icon (inte på sidorna)
 - Expandera alla-knappen verkar inte ha rätt borders på mobil
 

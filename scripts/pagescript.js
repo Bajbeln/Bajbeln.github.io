@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var copyButton = document.querySelector('.copyButton:not(.copy-main)');
     if (copyButton) {
       var randomBtn = document.createElement('button');
-      randomBtn.className = 'random-page';
+      randomBtn.className = 'pagePillButton random-page';
       randomBtn.setAttribute('aria-label', 'Gå till en slumpmässig sång');
       randomBtn.textContent = 'Räändom';
       randomBtn.addEventListener('click', function() {

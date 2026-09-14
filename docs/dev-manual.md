@@ -296,6 +296,27 @@ Färger ställs **inte** in i `index.md` frontmatter. De finns i `{namn}.json` o
 
 ---
 
+## Infobubbla
+
+Ett valfritt `info`-fält i `index.md`-frontmatter visar en rund infoknapp (ⓘ) till vänster om "Kopiera länk"-knappen. Knappen visas endast på sidor där fältet är satt.
+
+```yaml
+---
+layout: spex
+title: Spextitel År (XXX)
+permalink: /spex-namn/
+spex: spex-namn
+info: "Kuriosa om spääxet i fråga."
+---
+```
+
+- Värdet renderas med `| safe`, så `<br>` kan användas för radbrytningar. Fältet är avsett för betrodd, manuellt skriven text — inte användarinmatning.
+- Ett klick på knappen öppnar en textbubbla; ett nytt klick på knappen eller var som helst utanför bubblan stänger den.
+- Bubblans horisontella position är alltid centrerad på sidan. Den vertikala positionen beräknas en gång vid sidladdning (efter att headern har laddats klart) så att bubblans överkant hamnar i linje med den första låtknappens överkant — därefter ligger den fast oavsett skrollposition.
+- Knappen (`button.infoButton`) och bubblan (`.info-bubble`) är stylade i `style.css`, inklusive mörkt läge-varianter. Logiken (`toggleInfoBubble`, `closeInfoBubbles`) finns i det inbäddade `<script>`-blocket i `src/_layouts/spex.njk`.
+
+---
+
 ## Spex med flera uppsättningar
 
 När en spextitel har uppförts flera år finns en två-nivåstruktur: en **navsida** som listar alla uppsättningar, och en separat **produktionssida** för varje år.
