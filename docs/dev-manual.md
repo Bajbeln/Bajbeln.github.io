@@ -298,7 +298,7 @@ Färger ställs **inte** in i `index.md` frontmatter. De finns i `{namn}.json` o
 
 ## Infobubbla
 
-Ett valfritt `info`-fält i `index.md`-frontmatter visar en rund infoknapp (ⓘ) till vänster om "Kopiera länk"-knappen. Knappen visas endast på sidor där fältet är satt.
+Ett valfritt `info`-fält i `index.md`-frontmatter visar en rund infoknapp (ⓘ) till höger om "Expandera/kollapsa alla"-knappen. Knappen visas endast på sidor där fältet är satt.
 
 ```yaml
 ---

@@ -21,14 +21,6 @@
 </head>
 <body>
   <h2>{{ title }}</h2>
-  {% if info %}
-  <div class="info-wrapper">
-    <button class="pageRoundButton infoButton" onclick="toggleInfoBubble(this)" aria-label="Information om spexet" aria-expanded="false">
-      <i class="fa fa-info"></i>
-    </button>
-    <div class="info-bubble">{{ info | safe }}</div>
-  </div>
-  {% endif %}
   <button class="pagePillButton copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
   <button class="pageRoundButton toggle-all-btn" id="toggleAllBtn" onclick="toggleAll()" aria-label="Expandera/kollapsa alla sånger">
     <svg class="icon-expand" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,6 +32,14 @@
       <polyline points="3,17 10,11 17,17" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
   </button>
+  {% if info %}
+  <div class="info-wrapper">
+    <button class="pageRoundButton infoButton" onclick="toggleInfoBubble(this)" aria-label="Information om spexet" aria-expanded="false">
+      <i class="fa fa-info"></i>
+    </button>
+    <div class="info-bubble">{{ info | safe }}</div>
+  </div>
+  {% endif %}
   <br><br>
 
   {% if songs %}
