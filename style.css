@@ -22,6 +22,7 @@
   --font-size-settings:     30px;
   
   /* Spacing */
+  --spacing-xxs:  1.3px;
   --spacing-xs:   1px;
   --spacing-sm:   2px;
   --spacing-md:   4px;
@@ -219,7 +220,7 @@ th {
   line-height: 1.6;
   color: white;
   border-radius: var(--radius-sm);
-  margin: 1.3px auto;
+  margin: var(--spacing-xxs) auto;
   padding: 0 var(--spacing-lg);
   max-width: 600px;
   display: block;
@@ -244,7 +245,7 @@ a.button {
   border-radius: var(--radius-md);
   display: inline-block;
   background-color: var(--purple);
-  margin: 1.3px;
+  margin: var(--spacing-xxs);
   font-size: var(--font-size-base);
 }
 
@@ -254,7 +255,6 @@ a.button:hover {
 
 /* Action button base styles */
 button.copyButton,
-button.install-btn,
 button.random,
 button.random-page,
 button.song-link-btn,
@@ -302,7 +302,7 @@ button.song-link-btn:hover {
 
 /* Pill page button base (copyButton, random-page) */
 .pagePillButton {
-  font-size: 17px;
+  font-size: var(--font-size-base);
   border-radius: var(--radius-md);
   height: var(--btn-height);
   padding: 0 var(--spacing-2xl);
@@ -311,11 +311,20 @@ button.song-link-btn:hover {
 }
 
 /* Copy button (copy spex page link) */
-button.copyButton,
-button.install-btn {
+button.copyButton {
   background-color: var(--purple);
   border-color: var(--purple);
   color: white;
+}
+
+/* Main page button row — wraps once install/copy buttons push Räändom too wide */
+.main-btn-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 /* Pill button base for main page (copy-main, random) */
@@ -329,8 +338,7 @@ button.install-btn {
 }
 
 /* Main page copy link button — same height as front-page random */
-button.copy-main,
-button.install-btn {
+button.copy-main {
   white-space: nowrap;
 }
 

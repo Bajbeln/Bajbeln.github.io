@@ -24,8 +24,8 @@ eleventyExcludeFromCollections: true
   </a>
   <h1><a href="/"> Krischanstaspääxets<br>Sajber-Bajbel</a></h1>
 
-  <div style="display:flex;align-items:center;justify-content:center;gap:0">
-    <button class="mainPillButton install-btn" onclick="installApp()" aria-label="Lägg till hemskärm" hidden>Lägg till hemskärm</button>
+  <div class="main-btn-row">
+    <!-- <button class="mainPillButton install-btn" onclick="installApp()" aria-label="Lägg till hemskärm" hidden>Lägg till hemskärm</button> -->
     <button class="mainPillButton copyButton copy-main" onclick="copyMainLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
     <button class="mainPillButton random" aria-label="Välj en slumpmässig sång">Räändom</button>
   </div>
@@ -89,8 +89,20 @@ eleventyExcludeFromCollections: true
     }
   });
 
-  // Add to home screen
+  // Add to home screen (disabled for now — see commented-out button above)
+  /*
   var deferredInstallPrompt = null;
+
+  var isIos = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  var isStandalone = window.navigator.standalone === true ||
+    window.matchMedia("(display-mode: standalone)").matches;
+
+  document.addEventListener("DOMContentLoaded", function() {
+    // iOS/Safari has no beforeinstallprompt API, so show manual instructions instead.
+    if (isIos && !isStandalone) {
+      document.querySelector(".install-btn").hidden = false;
+    }
+  });
 
   window.addEventListener("beforeinstallprompt", function(event) {
     event.preventDefault();
@@ -104,6 +116,10 @@ eleventyExcludeFromCollections: true
   });
 
   function installApp() {
+    if (isIos) {
+      alert("Lägg till på hemskärmen:\n\nTryck på Dela-knappen (fyrkant med pil) i Safaris menyrad och välj sedan \"Lägg till på hemskärmen\".");
+      return;
+    }
     if (!deferredInstallPrompt) return;
     deferredInstallPrompt.prompt();
     deferredInstallPrompt.userChoice.finally(function() {
@@ -111,6 +127,7 @@ eleventyExcludeFromCollections: true
       document.querySelector(".install-btn").hidden = true;
     });
   }
+  */
 
   function copyMainLink() {
     var btn = document.querySelector('.copy-main');
@@ -123,7 +140,7 @@ eleventyExcludeFromCollections: true
     try { document.execCommand("copy"); } catch (e) {}
     document.body.removeChild(ta);
     var orig = btn.textContent;
-    btn.textContent = "Kopierat!";
+    btn.textContent = "Kopierad!";
     setTimeout(function() { btn.textContent = orig; }, 1500);
   }
 </script>
