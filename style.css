@@ -254,6 +254,7 @@ a.button:hover {
 
 /* Action button base styles */
 button.copyButton,
+button.install-btn,
 button.random,
 button.random-page,
 button.song-link-btn,
@@ -310,7 +311,8 @@ button.song-link-btn:hover {
 }
 
 /* Copy button (copy spex page link) */
-button.copyButton {
+button.copyButton,
+button.install-btn {
   background-color: var(--purple);
   border-color: var(--purple);
   color: white;
@@ -327,7 +329,8 @@ button.copyButton {
 }
 
 /* Main page copy link button — same height as front-page random */
-button.copy-main {
+button.copy-main,
+button.install-btn {
   white-space: nowrap;
 }
 

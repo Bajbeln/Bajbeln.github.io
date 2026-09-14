@@ -25,6 +25,7 @@ eleventyExcludeFromCollections: true
   <h1><a href="/"> Krischanstaspääxets<br>Sajber-Bajbel</a></h1>
 
   <div style="display:flex;align-items:center;justify-content:center;gap:0">
+    <button class="mainPillButton install-btn" onclick="installApp()" aria-label="Lägg till hemskärm" hidden>Lägg till hemskärm</button>
     <button class="mainPillButton copyButton copy-main" onclick="copyMainLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
     <button class="mainPillButton random" aria-label="Välj en slumpmässig sång">Räändom</button>
   </div>
@@ -87,6 +88,29 @@ eleventyExcludeFromCollections: true
       addReadingMode();
     }
   });
+
+  // Add to home screen
+  var deferredInstallPrompt = null;
+
+  window.addEventListener("beforeinstallprompt", function(event) {
+    event.preventDefault();
+    deferredInstallPrompt = event;
+    document.querySelector(".install-btn").hidden = false;
+  });
+
+  window.addEventListener("appinstalled", function() {
+    deferredInstallPrompt = null;
+    document.querySelector(".install-btn").hidden = true;
+  });
+
+  function installApp() {
+    if (!deferredInstallPrompt) return;
+    deferredInstallPrompt.prompt();
+    deferredInstallPrompt.userChoice.finally(function() {
+      deferredInstallPrompt = null;
+      document.querySelector(".install-btn").hidden = true;
+    });
+  }
 
   function copyMainLink() {
     var btn = document.querySelector('.copy-main');

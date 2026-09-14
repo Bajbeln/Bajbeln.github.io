@@ -2,15 +2,12 @@
 
 ## Att lägga till
 - CIV 2010 - finns det ens?
-- Knapp/guide för att lägga till sidan på hemskärmen alternativt app
 
 ## Funktioner
 - Expanderbar inuti expanderbar (se Pausfinalen HC A)
 - Abstrahera sök och randomize
-- Kanske ett konto-system i framtiden för favoriter-system och röstsystem
 - Flytta settings-knapp på sidorna upp så att den inte överlappar på mobil (?)
 - Göra övergången från startsida till spexsida mer sömlös? - typ som en transition
-- länk till inspelning?
 
 ## Stil
 - Gör flera sidor mer läsbara - ex. favoriter (se `/docs/page-rating.md`)
@@ -23,6 +20,3 @@
 - Ersätt låtnummer med hänvisningar till bajbelsidor för Kristina 2023/24
 - stalin-10 måste kontrolleras
 - ett lyckligt slut i favoriter - fixa?
-
-## Buggfixar
-- Fixa sökfunktionen — svårt för ensiffriga låtnummer
