@@ -214,7 +214,7 @@ th {
   background-color: var(--blue-card);
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease-out;
+  transition: max-height 0.05s ease-out;
   font-size: var(--font-size-base);
   line-height: 1.6;
   color: white;
@@ -225,7 +225,6 @@ th {
   display: block;
   width: 96%;
 }
-
 
 
 /* ========================================
@@ -386,6 +385,7 @@ button.random-page {
   margin: 0;
 }
 
+
 /* ========================================
    SETTINGS
    ======================================== */
@@ -504,6 +504,7 @@ body.dark-mode .spex-logo {
   filter: invert(1);
 }
 
+
 /* ========================================
    FOOTER
    ======================================== */
@@ -513,7 +514,6 @@ footer {
   padding: var(--spacing-4xl);
   line-height: 1.4;
 }
-
 
 
 /* ========================================

@@ -166,15 +166,31 @@
       if (hash && hash.length > 1) {
         var el = document.getElementById(hash.slice(1));
         if (!el) return;
-        setTimeout(function () {
-          el.scrollIntoView({ behavior: "smooth", block: "start" });
+        var headerReady = window.headerReadyPromise || Promise.resolve();
+        headerReady.then(function () {
+          var scrolled = false;
+          function scrollToEl() {
+            if (scrolled) return;
+            scrolled = true;
+            el.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+
           if (el.classList.contains("collapsible")) {
             el.style.backgroundColor = "#ffd54f";
             setTimeout(function () { el.style.backgroundColor = ""; }, 2000);
+
+            var block = el.closest(".song-block");
+            var contentDiv = block ? block.querySelector(".content") : el.nextElementSibling;
             el.click();
+            if (contentDiv) {
+              contentDiv.addEventListener("transitionend", scrollToEl, { once: true });
+            }
+            setTimeout(scrollToEl, 350);
+          } else {
+            scrollToEl();
           }
           updateToggleBtn();
-        }, 100);
+        });
       }
     });
   </script>

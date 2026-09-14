@@ -1,5 +1,11 @@
 // Any code on this file will be executed on every page load
 
+// Resolves once the site header (and its logo image) has finished loading,
+// so layout has settled and scroll-to-position code can run safely.
+window.headerReadyPromise = new Promise((resolve) => {
+  window.__resolveHeaderReady = resolve;
+});
+
 document.addEventListener("DOMContentLoaded", () => {
 
     // Inject favicon links if not already present
@@ -28,9 +34,22 @@ document.addEventListener("DOMContentLoaded", () => {
       fetch('/partials/spex_page_header.html')
         .then(response => response.text())
         .then(data => {
-          document.getElementById('spex-header-container').innerHTML = data;
+          const container = document.getElementById('spex-header-container');
+          container.innerHTML = data;
+          const img = container.querySelector('img');
+          if (img && !img.complete) {
+            img.addEventListener('load', window.__resolveHeaderReady, { once: true });
+            img.addEventListener('error', window.__resolveHeaderReady, { once: true });
+          } else {
+            window.__resolveHeaderReady();
+          }
         })
-        .catch(error => console.error('Error loading spex header:', error));
+        .catch(error => {
+          console.error('Error loading spex header:', error);
+          window.__resolveHeaderReady();
+        });
+    } else {
+      window.__resolveHeaderReady();
     }
 
     // Inject settings container after header
