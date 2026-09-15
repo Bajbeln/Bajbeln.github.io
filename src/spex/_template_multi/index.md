@@ -7,7 +7,7 @@
 # Do NOT add a spex: field here — songs are looked up via uppsattning ids.
 # ============================================================
 layout: spex
-title: Spexnamnet (ABB) # Shown as the page heading. Include abbreviation but NOT year (covers all years).
+title: Spextitel (ABB) # Shown as the page heading. Include abbreviation but NOT year (covers all years).
 # Colors live in {name}.json in this folder — create that file with color/accentColor/accentBorderColor
 # All production subpages inherit colors from that file automatically.
 permalink: /spex-name-multi/ # URL for the hub page — short and URL-safe, no year
