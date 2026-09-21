@@ -150,7 +150,7 @@ module.exports = function (eleventyConfig) {
 
     return `<div class="song-block">
   <div class="song-header">
-    <button type="button" class="collapsible" id="${id}" aria-label="Visa eller dölj ${escHtml(title)}">${escHtml(title)}</button><button class="song-link-btn" onclick="copySongLink('${id}')" aria-label="Kopiera länk till ${escHtml(title)}"><img src="/assets/images/song-link-button.png" alt="Kopiera länk" class="song-link-icon"></button>
+    <button type="button" class="collapsible" id="${id}" aria-label="Visa eller dölj ${escHtml(title)}">${escHtml(title)}</button><button type="button" class="song-link-btn" onclick="copySongLink('${id}')" aria-label="Kopiera länk till ${escHtml(title)}"><img src="/assets/images/song-link-button.png" alt="Kopiera länk" class="song-link-icon"></button>
   </div>
   <div class="content">
     ${headerBlock}${renderedContent}<br><br>
@@ -201,7 +201,7 @@ module.exports = function (eleventyConfig) {
 
     return `<div class="song-block">
   <div class="song-header">
-    <button type="button" class="collapsible" id="${id}" aria-label="Visa eller dölj ${escHtml(title)}">${escHtml(title)}</button><button class="song-link-btn" onclick="copySongLink('${id}')" aria-label="Kopiera länk till ${escHtml(title)}"><img src="/assets/images/song-link-button.png" alt="Kopiera länk" class="song-link-icon"></button>
+    <button type="button" class="collapsible" id="${id}" aria-label="Visa eller dölj ${escHtml(title)}">${escHtml(title)}</button><button type="button" class="song-link-btn" onclick="copySongLink('${id}')" aria-label="Kopiera länk till ${escHtml(title)}"><img src="/assets/images/song-link-button.png" alt="Kopiera länk" class="song-link-icon"></button>
   </div>
   <div class="content">
     ${headerBlock}${renderedContent}<br><br>

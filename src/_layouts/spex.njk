@@ -11,7 +11,7 @@
   <script src="/scripts/searchscript.js" defer></script>
   <script src="/scripts/pagescript.js" defer></script>
   <script src="/scripts/settings.js" defer></script>
-  {% if color or accentColor or accentBorderColor or darkColor %}<style>
+  {%- if color or accentColor or accentBorderColor or darkColor %}<style>
     {% if color %}body { background-color: {{ color }}; }{% endif %}
     {% if accentColor %}.collapsible, .content, button.song-link-btn { background-color: {{ accentColor }}; }{% endif %}
     {% if accentBorderColor %}.collapsible, .content, button.song-link-btn { border-color: {{ accentBorderColor }}; }{% endif %}
@@ -21,8 +21,8 @@
 </head>
 <body>
   <h2>{{ title }}</h2>
-  <button class="pagePillButton copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
-  <button class="pageRoundButton toggle-all-btn" id="toggleAllBtn" onclick="toggleAll()" aria-label="Expandera/kollapsa alla sånger">
+  <button type="button" class="pagePillButton copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
+  <button type="button" class="pageRoundButton toggle-all-btn" id="toggleAllBtn" onclick="toggleAll()" aria-label="Expandera/kollapsa alla sånger">
     <svg class="icon-expand" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
       <polyline points="3,4 10,10 17,4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
       <polyline points="3,11 10,17 17,11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -32,39 +32,39 @@
       <polyline points="3,17 10,11 17,17" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
   </button>
-  {% if info %}
+  {%- if info %}
   <div class="info-wrapper">
-    <button class="pageRoundButton infoButton" onclick="toggleInfoBubble(this)" aria-label="Information om spexet" aria-expanded="false">
+    <button type="button" class="pageRoundButton infoButton" onclick="toggleInfoBubble(this)" aria-label="Information om spexet" aria-expanded="false">
       <i class="fa fa-info"></i>
     </button>
     <div class="info-bubble">{{ info | safe }}</div>
   </div>
-  {% endif %}
+  {%- endif %}
   <br><br>
 
-  {% if songs %}
-    {% set pageSongs = collections.songs | songsFromList(songs) %}
-    {% for song in pageSongs %}{{ song | renderSong | safe }}{% endfor %}
-  {% elif uppsattning %}
-    {% set _prefix = page.url | replace("/", "") %}
-    {% for u in uppsattning %}
-      {% set _sectionId = u.id | replace(_prefix ~ "-", "") | replace("-", "_") %}
+  {%- if songs %}
+    {%- set pageSongs = collections.songs | songsFromList(songs) %}
+    {%- for song in pageSongs %}{{ song | renderSong | safe }}{% endfor %}
+  {%- elif uppsattning %}
+    {%- set _prefix = page.url | replace("/", "") %}
+    {%- for u in uppsattning %}
+      {%- set _sectionId = u.id | replace(_prefix ~ "-", "") | replace("-", "_") %}
       <br>
       <div class="uppsattning-header">
         <h2 class="uppsattning-heading" id="{{ _sectionId }}">{{ u.label }}</h2>
-        <button class="uppsattning-link-btn" onclick="copyUppLink(this, '{{ _sectionId }}')" aria-label="Kopiera länk till {{ u.label }}"><img src="/assets/images/song-link-button.png" class="song-link-icon" alt=""></button>
+        <button type="button" class="uppsattning-link-btn" onclick="copyUppLink(this, '{{ _sectionId }}')" aria-label="Kopiera länk till {{ u.label }}"><img src="/assets/images/song-link-button.png" class="song-link-icon" alt=""></button>
       </div>
       <br>
-      {% set groupSongs = collections.songs | songsForSpex(u.id) %}
-      {% for song in groupSongs %}{{ song | renderSong | safe }}{% endfor %}
+      {%- set groupSongs = collections.songs | songsForSpex(u.id) %}
+      {%- for song in groupSongs %}{{ song | renderSong | safe }}{% endfor %}
       <br>
-    {% endfor %}
-  {% elif spex %}
-    {% set pageSongs = collections.songs | songsForSpex(spex) %}
-    {% for song in pageSongs %}{{ song | renderSong | safe }}{% endfor %}
-  {% else %}
-    {{ content | safe }}
-  {% endif %}
+    {%- endfor %}
+  {%- elif spex %}
+    {%- set pageSongs = collections.songs | songsForSpex(spex) %}
+    {%- for song in pageSongs %}{{ song | renderSong | safe }}{% endfor %}
+  {%- else %}
+{{ content | safe }}
+  {%- endif %}
 
   <script>
     // Collapsible song sections — find .content inside the same .song-block
@@ -240,10 +240,10 @@
       }
     });
   </script>
-</body>
 
-<!-- Footer -->
-<script src="/scripts/footer.js" defer></script>
-<div id="footer-container"></div>
+  <!-- Footer -->
+  <script src="/scripts/footer.js" defer></script>
+  <div id="footer-container"></div>
+</body>
 
 </html>

@@ -26,16 +26,15 @@ eleventyExcludeFromCollections: true
 
   <div class="main-btn-row">
     <!-- <button class="mainPillButton install-btn" onclick="installApp()" aria-label="Lägg till hemskärm" hidden>Lägg till hemskärm</button> -->
-    <button class="mainPillButton copyButton copy-main" onclick="copyMainLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
-    <button class="mainPillButton random" aria-label="Välj en slumpmässig sång">Räändom</button>
+    <button type="button" class="mainPillButton copyButton copy-main" onclick="copyMainLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
+    <button type="button" class="mainPillButton random" aria-label="Välj en slumpmässig sång">Räändom</button>
   </div>
   <br>
 
-  {% for entry in spexlist %}
+  {%- for entry in spexlist %}
   <a href="{{ entry.url }}" class="button">{% if entry.italic %}<i>{{ entry.label }}</i>{% else %}{{ entry.label }}{% endif %}</a>
   <br>
-  {% endfor %}
-</body>
+{% endfor %}
 
 <script>
   // Load main_page_header.html into the div
@@ -148,5 +147,6 @@ eleventyExcludeFromCollections: true
 <!-- Footer -->
 <script src="/scripts/footer.js" defer></script>
 <div id="footer-container"></div>
+</body>
 
 </html>
