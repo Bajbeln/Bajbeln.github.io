@@ -59,10 +59,10 @@
 
 * {
   font-family: 'Georgia', Times, serif;
-  text-align: center;
 }
 
 body {
+  text-align: center;
   background: var(--bg);
   -webkit-tap-highlight-color: transparent; /* Mobile: removes blue tap highlight */
   zoom: 1.10;
@@ -157,7 +157,6 @@ th {
   outline: none;
   transition: all 0.3s ease-in-out;
   box-sizing: border-box;
-  text-align: left;
   font-size: var(--font-size-base);
 }
 
@@ -389,7 +388,6 @@ button.infoButton.active {
   width: 90%;
   max-width: 320px;
   font-size: var(--font-size-base);
-  text-align: left;
   line-height: 1.4;
   z-index: 20;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
