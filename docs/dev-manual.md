@@ -59,7 +59,7 @@ Krischanstaspääxets Sajber-Bajbel är en statisk webbsida för spääxets sån
 
 ### Krav
 
-- **Node.js 18+** (Node.js 20 rekommenderas — det är vad CI använder). Ladda ner från [nodejs.org](https://nodejs.org/).
+- **Node.js 18+** (Node.js 24 rekommenderas — det är vad CI använder). Ladda ner från [nodejs.org](https://nodejs.org/).
 - **npm** — följer med Node.js, ingen separat installation krävs.
 
 ### Kommandon

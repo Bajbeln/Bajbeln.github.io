@@ -1,9 +1,7 @@
 # Bajbeln
 Tillgänglig på [bajbeln.github.io](https://bajbeln.github.io/)
 
-
 ## Kontakt
-
 
 ## Låtar
 Spexen finns som filer i [`src/spex`](./src/spex), där kupletterna finns som
@@ -11,7 +9,6 @@ Spexen finns som filer i [`src/spex`](./src/spex), där kupletterna finns som
 [`assets/song-files`](./assets/song-files).
 
 ## Projektstruktur
-
 - [`src/`](./src) – källfiler och mallar för webbplatsen
 - [`src/spex/`](./src/spex) – spex och kupletter
 - [`src/_data/`](./src/_data) – metadata, bland annat spexlistan
@@ -19,9 +16,6 @@ Spexen finns som filer i [`src/spex`](./src/spex), där kupletterna finns som
 - [`partials/`](./partials) – återanvändbara HTML-delar
 - [`scripts/`](./scripts) – JavaScript för webbplatsens funktioner
 - [`_site/`](./_site) – genererade filer; ändra inte dessa manuellt
-
-
-
 
 ## Lägga till ett spex
 Kopiera mall-mappen [`src/spex/_template_single`](./src/spex/_template_single)
@@ -42,7 +36,7 @@ Mer information finns i:
 - [Kontroll av sidor](./docs/page-check.md)
 
 ## För utvecklare
-Kräver **Node.js 18 eller nyare** (rekommenderat: 20). npm ingår i Node.js.
+Kräver **Node.js 18 eller nyare** (rekommenderat: 24). npm ingår i Node.js.
 
 För att köra igång appen kör:
 ```
@@ -51,7 +45,6 @@ npm run start
 ```
 
 ## Publicering
-
 Webbplatsen publiceras på [bajbeln.github.io](https://bajbeln.github.io/) med
 GitHub Pages. Arbetsflödet
 [`deploy_try.yml`](./.github/workflows/deploy_try.yml) bygger webbplatsen med
