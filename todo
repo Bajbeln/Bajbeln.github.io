@@ -12,7 +12,7 @@
 ## Stil
 - Gör flera sidor mer läsbara - ex. favoriter (se `/docs/page-rating.md`)
 - Tjockare logga i icon (inte på sidorna)
-- Expandera alla-knappen verkar inte ha rätt borders på mobil
+- Expandera alla-knappen verkar inte ha rätt borders på mobil (kanske fixad?)
 
 ## Kvalitetssäkring
 - Korrläs alla spex - automatiskt flaggade "fel" finns i `/docs/songtext-quality-control`
