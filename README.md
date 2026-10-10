@@ -1,6 +1,10 @@
 # Bajbeln
 Tillgänglig på [bajbeln.github.io](https://bajbeln.github.io/)
 
+
+## Kontakt
+
+
 ## Låtar
 Spexen finns som filer i [`src/spex`](./src/spex), där kupletterna finns som
 `.md`-filer. Originaldokumenten de är tagna ifrån finns i
@@ -16,7 +20,7 @@ Spexen finns som filer i [`src/spex`](./src/spex), där kupletterna finns som
 - [`scripts/`](./scripts) – JavaScript för webbplatsens funktioner
 - [`_site/`](./_site) – genererade filer; ändra inte dessa manuellt
 
-## Kontakt
+
 
 
 ## Lägga till ett spex
