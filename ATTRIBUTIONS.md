@@ -14,4 +14,4 @@
 - Creator: Gregor Cresnar
 - Source: [The Noun Project](https://thenounproject.com/icon/copy-link-6368283/)
 - License and terms: [The Noun Project icon licenses](https://thenounproject.com/legal/terms-of-use/#icon-licenses)
-- Local assets: `assets/images/song-link-button.webp` and `assets/images/song-link-feedback.webp`
+- Local assets: `assets/images/song-link-button.webp`
