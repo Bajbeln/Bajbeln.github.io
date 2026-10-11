@@ -1,119 +1,32 @@
-// Any code on this file will be executed on every page load
+// Common scripts executed on page load
 
-// Resolves once the site header (and its logo image) has finished loading,
-// so layout has settled and scroll-to-position code can run safely.
-window.headerReadyPromise = new Promise((resolve) => {
-  window.__resolveHeaderReady = resolve;
-});
+// Header is statically pre-rendered, so layout is immediately ready
+window.headerReadyPromise = Promise.resolve();
 
-document.addEventListener("DOMContentLoaded", () => {
-
-    // Inject favicon links if not already present
-    if (!document.querySelector('link[rel="icon"][type="image/png"]')) {
-      const faviconLinks = [
-        { rel: 'icon', type: 'image/png', href: '/assets/images/manifest/favicon-96x96.png', sizes: '96x96' },
-        { rel: 'icon', type: 'image/svg+xml', href: '/assets/images/manifest/icons/favicon.svg' },
-        { rel: 'shortcut icon', href: '/assets/images/manifest/favicon.ico' },
-        { rel: 'apple-touch-icon', sizes: '180x180', href: '/assets/images/manifest/apple-touch-icon.png' },
-        { rel: 'manifest', href: '/site.webmanifest' },
-      ];
-      faviconLinks.forEach(attrs => {
-        const link = document.createElement('link');
-        Object.entries(attrs).forEach(([k, v]) => link.setAttribute(k, v));
-        document.head.appendChild(link);
-      });
-      const appleTitleMeta = document.createElement('meta');
-      appleTitleMeta.setAttribute('name', 'apple-mobile-web-app-title');
-      appleTitleMeta.setAttribute('content', 'Bajbeln');
-      document.head.appendChild(appleTitleMeta);
-    }
-
-    // Inject header container and fetch spex header partial (skip on root page)
-    document.body.insertAdjacentHTML('afterbegin', '<div id="spex-header-container"></div>');
-    if (window.location.pathname !== '/') {
-      fetch('/partials/spex_page_header.html')
-        .then(response => response.text())
-        .then(data => {
-          const container = document.getElementById('spex-header-container');
-          container.innerHTML = data;
-          const img = container.querySelector('img');
-          if (img && !img.complete) {
-            img.addEventListener('load', window.__resolveHeaderReady, { once: true });
-            img.addEventListener('error', window.__resolveHeaderReady, { once: true });
-          } else {
-            window.__resolveHeaderReady();
-          }
-        })
-        .catch(error => {
-          console.error('Error loading spex header:', error);
-          window.__resolveHeaderReady();
-        });
-    } else {
-      window.__resolveHeaderReady();
-    }
-
-    // Inject settings container after header
-    var settingsHTML = '<div class="settings-container">' +
-      '<button id="settings-button" onclick="openSettings()" aria-label="Öppna inställningar" title="Öppna inställningar"><i class="fa fa-cog"></i></button>' +
-      '<div id="settings-options" class="hide">' +
-        '<button id="reading-mode-button" onclick="toggleReadingMode()" aria-label="Växla läsläge" title="Växla läsläge"><i class="fa fa-adjust"></i></button>' +
-        '<button id="dark-mode-button" onclick="toggleDarkMode()" aria-label="Växla mörkt läge" title="Växla mörkt läge"><i class="fa fa-moon"></i></button>' +
-'</div>' +
-    '</div>';
-    document.getElementById('spex-header-container').insertAdjacentHTML('afterend', settingsHTML);
-
-    // Inject random button after the "Kopiera länk" button
-    var copyButton = document.querySelector('.copyButton:not(.copy-main)');
-    if (copyButton) {
-      var randomBtn = document.createElement('button');
-      randomBtn.className = 'pagePillButton random-page';
-      randomBtn.setAttribute('aria-label', 'Gå till en slumpmässig kuplett');
-      randomBtn.setAttribute('title', 'Välj en slumpmässig kuplett');
-      randomBtn.textContent = 'Räändom';
-      randomBtn.addEventListener('click', function() {
-        getSongIndex()
-          .then(data => {
-            const randomSong = data[Math.floor(Math.random() * data.length)];
-            window.location.href = randomSong.page + '?search=' + encodeURIComponent(randomSong.title);
-          })
-          .catch(error => {
-            console.error('Error fetching song index:', error);
-            alert("Could not load the song index file.");
-          });
-      });
-      copyButton.parentNode.insertBefore(randomBtn, copyButton.nextSibling);
-    }
-
-    // Load Font Awesome if not already loaded
-    if (!document.querySelector('link[href*="font-awesome"]')) {
-      var fa = document.createElement('link');
-      fa.rel = 'stylesheet';
-      fa.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css';
-      document.head.appendChild(fa);
-    }
-
-    // Check if reading mode is enabled
-    if(document.cookie.includes("readingMode=true")){
+document.addEventListener("DOMContentLoaded", function() {
+  // Apply reading mode if saved in preferences
+  if (typeof getSetting === 'function') {
+    if (getSetting("readingMode")) {
       addReadingMode();
     }
-
-    // Check if dark mode is enabled
-    if(document.cookie.includes("darkMode=true")){
+    if (getSetting("darkMode")) {
       addDarkMode();
     }
-  });
-
-async function getSongIndex(){
-  const response = await fetch('/songIndex.json');
-  if (!response.ok) {
-    throw new Error('Failed to load song index');
   }
-  return response.json();
+});
+
+// Register service worker for offline support and faster loads (PWA)
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').catch(function(err) {
+      console.warn('ServiceWorker registration failed: ', err);
+    });
+  });
 }
 
 function copyLink() {
   const link = window.location.origin + window.location.pathname + window.location.hash;
-  
+
   if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(link)
       .then(() => {
@@ -143,9 +56,9 @@ function fallbackCopy(text) {
 }
 
 function showCopyFeedback() {
-  const copyButton = document.querySelector('.copyButton');
+  const copyButton = document.querySelector('.copyButton:not(.copy-main)');
   if (!copyButton) return;
-  
+
   const originalText = copyButton.textContent;
   copyButton.style.width = copyButton.offsetWidth + 'px';
   copyButton.textContent = 'Kopierad!';

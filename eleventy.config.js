@@ -148,12 +148,16 @@ module.exports = function (eleventyConfig) {
     if (melody) header += `<i>Mel. ${escHtml(melody)}</i><br>\n`;
     const headerBlock = header ? `<br>\n${header}<br>\n` : "<br>\n";
 
+    const linkIconHtml = '<img src="/assets/images/song-link-button.webp" alt="Kopiera länk" class="song-link-icon">';
+
     return `<div class="song-block">
   <div class="song-header">
-    <button type="button" class="collapsible" id="${id}" aria-label="Visa eller dölj ${escHtml(title)}">${escHtml(title)}</button><button type="button" class="song-link-btn" onclick="copySongLink('${id}')" aria-label="Kopiera länk till ${escHtml(title)}" title="Kopiera länk till kuplett"><img src="/assets/images/song-link-button.png" alt="Kopiera länk" class="song-link-icon"></button>
+    <button type="button" class="collapsible" id="${id}" aria-label="Visa eller dölj ${escHtml(title)}">${escHtml(title)}</button><button type="button" class="song-link-btn" onclick="copySongLink('${id}')" aria-label="Kopiera länk till ${escHtml(title)}" title="Kopiera länk till kuplett">${linkIconHtml}</button>
   </div>
   <div class="content">
-    ${headerBlock}${renderedContent}<br><br>
+    <div class="content-inner">
+      ${headerBlock}${renderedContent}<br><br>
+    </div>
   </div>
 </div>
 <br>`;
@@ -204,12 +208,16 @@ module.exports = function (eleventyConfig) {
     if (melody) header += `<i>Mel. ${escHtml(melody)}</i><br>\n`;
     const headerBlock = header ? `<br>\n${header}<br>\n` : "<br>\n";
 
+    const linkIconHtml = '<img src="/assets/images/song-link-button.webp" alt="Kopiera länk" class="song-link-icon">';
+
     return `<div class="song-block">
   <div class="song-header">
-    <button type="button" class="collapsible" id="${id}" aria-label="Visa eller dölj ${escHtml(title)}">${escHtml(title)}</button><button type="button" class="song-link-btn" onclick="copySongLink('${id}')" aria-label="Kopiera länk till ${escHtml(title)}" title="Kopiera länk till kuplett"><img src="/assets/images/song-link-button.png" alt="Kopiera länk" class="song-link-icon"></button>
+    <button type="button" class="collapsible" id="${id}" aria-label="Visa eller dölj ${escHtml(title)}">${escHtml(title)}</button><button type="button" class="song-link-btn" onclick="copySongLink('${id}')" aria-label="Kopiera länk till ${escHtml(title)}" title="Kopiera länk till kuplett">${linkIconHtml}</button>
   </div>
   <div class="content">
-    ${headerBlock}${renderedContent}<br><br>
+    <div class="content-inner">
+      ${headerBlock}${renderedContent}<br><br>
+    </div>
   </div>
 </div>`;
   });
@@ -220,6 +228,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "assets/": "assets/" });
   eleventyConfig.addPassthroughCopy({ "partials/": "partials/" });
   eleventyConfig.addPassthroughCopy({ "manifest.json": "manifest.json" });
+  eleventyConfig.addPassthroughCopy({ "site.webmanifest": "site.webmanifest" });
+  eleventyConfig.addPassthroughCopy({ "sw.js": "sw.js" });
 
   return {
     // Process {% ... %} shortcodes inside .md files using Nunjucks
@@ -228,6 +238,7 @@ module.exports = function (eleventyConfig) {
       input: "src",
       output: "_site",
       layouts: "_layouts",
+      includes: "../partials",
     },
   };
 };

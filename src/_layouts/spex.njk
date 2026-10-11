@@ -4,9 +4,19 @@
   <meta charset="UTF-8">
   <title>{{ tabTitle or title }} - Bajbeln</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    (function() {
+      try {
+        if (localStorage.getItem('darkMode') === 'true') {
+          document.documentElement.classList.add('dark-mode');
+        }
+      } catch(e) {
+        // localStorage may be unavailable in privacy-restricted browsers.
+      }
+    })();
+  </script>
   <link rel="stylesheet" href="/style.css">
-  <link rel="icon" type="image/png" href="/assets/images/logga.png">
-  <link rel="manifest" href="/manifest.json">
+  {% include "favicons.html" %}
   <script src="/scripts/songIndexCache.js" defer></script>
   <script src="/scripts/searchscript.js" defer></script>
   <script src="/scripts/pagescript.js" defer></script>
@@ -20,10 +30,14 @@
   </style>{% endif %}
 </head>
 <body>
+  {% include "spex_page_header.html" %}
+  {% include "settings.html" %}
+
   <h2>{{ title }}</h2>
   {%- set _facts = facts or factbox or info %}
   <div class="page-header-actions">
     <button type="button" class="pagePillButton copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida" title="Kopiera länk">Kopiera länk</button>
+    <button type="button" class="pagePillButton random-page" onclick="goToRandomSong()" aria-label="Gå till en slumpmässig kuplett" title="Välj en slumpmässig kuplett">Räändom</button>
     <div class="page-header-actions-right">
       <button type="button" class="pageRoundButton toggle-all-btn" id="toggleAllBtn" onclick="toggleAll()" aria-label="Expandera/kollapsa alla kupletter" title="Expandera eller kollapsa alla kupletter">
         <svg class="icon-expand" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +52,7 @@
       {%- if _facts %}
       <div class="fact-wrapper">
         <button type="button" class="pageRoundButton factButton" onclick="toggleFactBubble(this)" aria-label="Fakta om spexet" aria-expanded="false">
-          <i class="fa fa-lightbulb"></i>
+          <img class="icon-lightbulb" src="/assets/images/spex-fact-button.webp" width="27" alt="">
         </button>
         <div class="fact-bubble">{{ _facts | markdownify | safe }}</div>
       </div>
@@ -57,7 +71,7 @@
       <br>
       <div class="uppsattning-header">
         <h2 class="uppsattning-heading" id="{{ _sectionId }}">{{ u.label }}</h2>
-        <button type="button" class="uppsattning-link-btn" onclick="copyUppLink(this, '{{ _sectionId }}')" aria-label="Kopiera länk till {{ u.label }}" title="Kopiera länk till avdelningen"><img src="/assets/images/song-link-button.png" class="song-link-icon" alt=""></button>
+        <button type="button" class="uppsattning-link-btn" onclick="copyUppLink(this, '{{ _sectionId }}')" aria-label="Kopiera länk till {{ u.label }}" title="Kopiera länk till avdelningen"><img src="/assets/images/song-link-button.webp" class="song-link-icon" alt="Kopiera länk"></button>
       </div>
       <br>
       {%- set groupSongs = collections.songs | songsForSpex(u.id) %}
@@ -79,11 +93,7 @@
         this.classList.toggle("active");
         var block = this.closest(".song-block");
         var contentDiv = block ? block.querySelector(".content") : this.nextElementSibling;
-        if (contentDiv.style.maxHeight) {
-          contentDiv.style.maxHeight = null;
-        } else {
-          contentDiv.style.maxHeight = contentDiv.scrollHeight + "px";
-        }
+        contentDiv.classList.toggle("open", this.classList.contains("active"));
         updateToggleBtn();
       });
     }
@@ -96,48 +106,73 @@
     function updateToggleBtn() {
       var btn = document.getElementById("toggleAllBtn");
       if (!btn) return;
-      var anyOpen = Array.from(document.querySelectorAll(".song-block .content")).some(function (c) {
-        return !!c.style.maxHeight;
-      });
+      var anyOpen = document.querySelector(".song-block .collapsible.active") !== null;
       btn.querySelector(".icon-expand").style.display = anyOpen ? "none" : "";
       btn.querySelector(".icon-collapse").style.display = anyOpen ? "" : "none";
     }
 
+    // Batched read/write toggleAll to prevent forced synchronous layout reflows (Layout Thrashing)
     function toggleAll() {
-      var blocks = document.querySelectorAll(".song-block");
-      var anyOpen = Array.from(blocks).some(function (block) {
+      var blocks = Array.from(document.querySelectorAll(".song-block"));
+      var anyOpen = blocks.some(function (block) {
         var c = block.querySelector(".content");
-        return c && !!c.style.maxHeight;
+        return c && c.classList.contains("open");
       });
-      blocks.forEach(function (block) {
-        var contentDiv = block.querySelector(".content");
-        var btn = block.querySelector(".collapsible");
-        if (!contentDiv) return;
-        if (anyOpen && contentDiv.style.maxHeight) {
-          contentDiv.style.maxHeight = null;
-          if (btn) btn.classList.remove("active");
-        } else if (!anyOpen && !contentDiv.style.maxHeight) {
-          contentDiv.style.maxHeight = contentDiv.scrollHeight + "px";
-          if (btn) btn.classList.add("active");
-        }
-      });
+
+      if (anyOpen) {
+        blocks.forEach(function (block) {
+          var c = block.querySelector(".content");
+          var btn = block.querySelector(".collapsible");
+          if (c && c.classList.contains("open")) {
+            c.classList.remove("open");
+            if (btn) btn.classList.remove("active");
+          }
+        });
+      } else {
+        blocks.forEach(function (block) {
+          var c = block.querySelector(".content");
+          var btn = block.querySelector(".collapsible");
+          if (c && !c.classList.contains("open")) {
+            c.classList.add("open");
+            if (btn) btn.classList.add("active");
+          }
+        });
+      }
       updateToggleBtn();
+    }
+
+    function goToRandomSong() {
+      getSongIndex()
+        .then(function(data) {
+          var randomSong = data[Math.floor(Math.random() * data.length)];
+          window.location.href = randomSong.page + '?search=' + encodeURIComponent(randomSong.title);
+        })
+        .catch(function(error) {
+          console.error('Error fetching song index:', error);
+          alert("Could not load the song index file.");
+        });
+    }
+
+    function triggerCopyFeedback(btn) {
+      var img = btn.querySelector("img");
+      if (img) {
+        img.src = "/assets/images/song-link-feedback.webp";
+        setTimeout(function() {
+          img.src = "/assets/images/song-link-button.webp";
+        }, 1500);
+      }
     }
 
     // Copy a direct anchor link to an uppsättning section
     function copyUppLink(btn, id) {
       var url = location.href.split("#")[0] + "#" + id;
-      var img = btn.querySelector("img");
-      function feedback() {
-        if (img) {
-          img.src = "/assets/images/song-link-feedback.png";
-          setTimeout(function () { img.src = "/assets/images/song-link-button.png"; }, 1500);
-        }
-      }
       if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(url).then(feedback).catch(function () { fallbackCopy(url); feedback(); });
+        navigator.clipboard.writeText(url)
+          .then(function() { triggerCopyFeedback(btn); })
+          .catch(function() { fallbackCopy(url); triggerCopyFeedback(btn); });
       } else {
-        fallbackCopy(url); feedback();
+        fallbackCopy(url);
+        triggerCopyFeedback(btn);
       }
     }
 
@@ -146,21 +181,14 @@
       var url = location.href.split("#")[0] + "#" + id;
       var songBtn = document.getElementById(id);
       var linkBtn = songBtn ? songBtn.nextElementSibling : null;
-      var img = linkBtn ? linkBtn.querySelector("img") : null;
-
-      function feedback() {
-        if (img) {
-          img.src = "/assets/images/song-link-feedback.png";
-          setTimeout(function () { img.src = "/assets/images/song-link-button.png"; }, 1500);
-        }
-      }
 
       if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(url).then(feedback).catch(function () {
-          fallbackCopy(url); feedback();
-        });
+        navigator.clipboard.writeText(url)
+          .then(function() { if (linkBtn) triggerCopyFeedback(linkBtn); })
+          .catch(function() { fallbackCopy(url); if (linkBtn) triggerCopyFeedback(linkBtn); });
       } else {
-        fallbackCopy(url); feedback();
+        fallbackCopy(url);
+        if (linkBtn) triggerCopyFeedback(linkBtn);
       }
     }
 
@@ -205,38 +233,36 @@
       if (hash && hash.length > 1) {
         var el = document.getElementById(hash.slice(1));
         if (!el) return;
-        var headerReady = window.headerReadyPromise || Promise.resolve();
-        headerReady.then(function () {
-          var scrolled = false;
-          function scrollToEl() {
-            if (scrolled) return;
-            scrolled = true;
-            el.scrollIntoView({ behavior: "smooth", block: "start" });
-          }
+        var scrolled = false;
+        function scrollToEl() {
+          if (scrolled) return;
+          scrolled = true;
+          el.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
 
-          if (el.classList.contains("collapsible")) {
-            el.style.backgroundColor = "#ffd54f";
-            setTimeout(function () { el.style.backgroundColor = ""; }, 2000);
+        if (el.classList.contains("collapsible")) {
+          el.style.backgroundColor = "#ffd54f";
+          setTimeout(function () { el.style.backgroundColor = ""; }, 2000);
 
-            var block = el.closest(".song-block");
-            var contentDiv = block ? block.querySelector(".content") : el.nextElementSibling;
-            el.click();
-            if (contentDiv) {
-              contentDiv.addEventListener("transitionend", scrollToEl, { once: true });
-            }
-            setTimeout(scrollToEl, 350);
-          } else {
-            scrollToEl();
+          var block = el.closest(".song-block");
+          var contentDiv = block ? block.querySelector(".content") : el.nextElementSibling;
+          el.click();
+          if (contentDiv) {
+            contentDiv.addEventListener("transitionend", scrollToEl, { once: true });
           }
-          updateToggleBtn();
-        });
+          setTimeout(scrollToEl, 350);
+        } else {
+          scrollToEl();
+        }
+        updateToggleBtn();
       }
     });
   </script>
 
   <!-- Footer -->
-  <script src="/scripts/footer.js" defer></script>
-  <div id="footer-container"></div>
+  <div id="footer-container">
+    {% include "footer.html" %}
+  </div>
 </body>
 
 </html>

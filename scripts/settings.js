@@ -1,23 +1,41 @@
 // Settings functions shared across all pages
 
+function getSetting(key) {
+  try {
+    const val = localStorage.getItem(key);
+    return val === 'true';
+  } catch (e) {
+    return false;
+  }
+}
+
+function setSetting(key, bool) {
+  try {
+    localStorage.setItem(key, String(bool));
+  } catch (e) {
+    console.warn("Could not save setting:", key, e);
+  }
+}
+
 function openSettings() {
   let optionsDiv = document.getElementById("settings-options");
+  if (!optionsDiv) return;
   optionsDiv.classList.toggle("show");
   optionsDiv.classList.toggle("hide");
 }
 
 function toggleReadingMode() {
-  console.log(document.cookie);
-  if (document.cookie.includes("readingMode=true")) {
-    document.cookie = "readingMode=false; path=/; max-age=31536000";
+  if (getSetting("readingMode")) {
+    setSetting("readingMode", false);
     removeReadingMode();
   } else {
-    document.cookie = "readingMode=true; path=/; max-age=31536000";
+    setSetting("readingMode", true);
     addReadingMode();
   }
 }
 
 function addReadingMode() {
+  document.documentElement.classList.add("reading-mode-active");
   let content = Array.from(document.getElementsByClassName("content"));
   content.forEach(el => el.classList.add("reading-mode"));
 
@@ -29,6 +47,7 @@ function addReadingMode() {
 }
 
 function removeReadingMode() {
+  document.documentElement.classList.remove("reading-mode-active");
   let content = Array.from(document.getElementsByClassName("content"));
   content.forEach(el => el.classList.remove("reading-mode"));
 
@@ -40,19 +59,25 @@ function removeReadingMode() {
 }
 
 function toggleDarkMode() {
-  if (document.cookie.includes("darkMode=true")) {
-    document.cookie = "darkMode=false; path=/; max-age=31536000";
+  if (getSetting("darkMode")) {
+    setSetting("darkMode", false);
     removeDarkMode();
   } else {
-    document.cookie = "darkMode=true; path=/; max-age=31536000";
+    setSetting("darkMode", true);
     addDarkMode();
   }
 }
 
 function addDarkMode() {
-  document.body.classList.add("dark-mode");
+  document.documentElement.classList.add("dark-mode");
+  if (document.body) {
+    document.body.classList.add("dark-mode");
+  }
 }
 
 function removeDarkMode() {
-  document.body.classList.remove("dark-mode");
+  document.documentElement.classList.remove("dark-mode");
+  if (document.body) {
+    document.body.classList.remove("dark-mode");
+  }
 }

@@ -4,10 +4,19 @@
     let fetchPromise = null;
 
     window.getSongIndex = function() {
-        // If we have cached data, return it immediately
+        // If we have in-memory cached data, return it immediately
         if (cachedData) {
             return Promise.resolve(cachedData);
         }
+
+        // Try reading from sessionStorage to persist across page navigations in the same session
+        try {
+            const stored = sessionStorage.getItem('bajbeln_song_index');
+            if (stored) {
+                cachedData = JSON.parse(stored);
+                return Promise.resolve(cachedData);
+            }
+        } catch (e) {}
 
         // If a fetch is already in progress, return that promise
         if (fetchPromise) {
@@ -25,6 +34,9 @@
             .then(data => {
                 cachedData = data;
                 fetchPromise = null;
+                try {
+                    sessionStorage.setItem('bajbeln_song_index', JSON.stringify(data));
+                } catch (e) {}
                 return data;
             })
             .catch(error => {

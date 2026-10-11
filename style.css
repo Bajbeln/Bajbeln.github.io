@@ -213,18 +213,28 @@ th {
 
 .content {
   background-color: var(--blue-card);
-  max-height: 0;
+  display: grid;
+  grid-template-rows: 0fr;
   overflow: hidden;
-  transition: max-height 0.05s ease-out;
+  transition: grid-template-rows 0.2s ease-out, padding 0.2s ease-out;
   font-size: var(--font-size-base);
   line-height: 1.6;
   color: white;
   border-radius: var(--radius-sm);
   margin: var(--spacing-xxs) auto;
-  padding: 0 var(--spacing-lg);
+  padding: 0;
   max-width: 600px;
-  display: block;
   width: 96%;
+}
+
+.content.open {
+  grid-template-rows: 1fr;
+  padding: 0 var(--spacing-lg);
+}
+
+.content-inner {
+  min-height: 0;
+  overflow: hidden;
 }
 
 
@@ -388,6 +398,10 @@ button.copy-main {
 .pageRoundButton {
   -webkit-appearance: none;
   appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
   border-radius: var(--radius-full);
   width: 49px;
   height: 49px;
@@ -413,6 +427,14 @@ button.factButton {
 button.factButton:hover,
 button.factButton.active {
   background-color: var(--yellow-hover);
+}
+
+button.factButton .icon-lightbulb {
+  display: block;
+  width: 27px;
+  height: auto;
+  object-fit: contain;
+  margin: 0;
 }
 
 .fact-bubble {
@@ -557,21 +579,40 @@ button.random {
 }
 
 
+/* SVG icon vertical alignment */
+#settings-button svg,
+#reading-mode-button svg,
+#dark-mode-button svg,
+button.factButton svg,
+.search-container button svg,
+.song-link-btn svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /* ========================================
    READING MODE
    ======================================== */
 
+html.reading-mode-active a.button,
+html.reading-mode-active .content,
+html.reading-mode-active .collapsible,
 a.reading-mode,
 div.reading-mode,
 button.reading-mode {
-  background-color: white;
-  color: black;
+  background-color: white !important;
+  color: black !important;
 }
 
 /* ========================================
    DARK MODE
    ======================================== */
 
+html.dark-mode {
+  background-color: var(--color-bg-dark);
+}
+
+html.dark-mode body,
 body.dark-mode {
   --bg:        var(--color-bg-dark);
   --blue-card: var(--color-card-dark);
@@ -580,6 +621,8 @@ body.dark-mode {
   color:       var(--color-text-dark);
 }
 
+html.dark-mode a,
+html.dark-mode footer,
 body.dark-mode a,
 body.dark-mode footer {
   color: var(--purple-dim);

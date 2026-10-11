@@ -1,26 +1,7 @@
-// Load footer from external file
-function loadFooter() {
-  fetch('/partials/footer.html')
-    .then(response => response.text())
-    .then(data => {
-      const footerContainer = document.getElementById('footer-container');
-      if (footerContainer) {
-        footerContainer.innerHTML = data;
-        var yearSpan = document.getElementById('footer-year');
-        if (yearSpan) {
-          yearSpan.textContent = new Date().getFullYear();
-        }
-      }
-    })
-    .catch(error => console.error('Error loading footer:', error));
-}
-
-// Goatcounter - to check website traffic
-const script = document.createElement('script');
-script.dataset.goatcounter = 'https://bajbeln.goatcounter.com/count';
-script.async = true;
-script.src = '//gc.zgo.at/count.js';
-document.body.appendChild(script);
-
-// Load footer when DOM is ready
-document.addEventListener('DOMContentLoaded', loadFooter);
+// Footer year updater (static footer is pre-rendered at build time)
+document.addEventListener('DOMContentLoaded', function() {
+  var yearSpan = document.getElementById('footer-year');
+  if (yearSpan) {
+    yearSpan.textContent = new Date().getFullYear();
+  }
+});

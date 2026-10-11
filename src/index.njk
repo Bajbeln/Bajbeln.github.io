@@ -9,18 +9,31 @@ eleventyExcludeFromCollections: true
   <meta charset="UTF-8">
   <title>Bajbeln</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    (function() {
+      try {
+        if (localStorage.getItem('darkMode') === 'true') {
+          document.documentElement.classList.add('dark-mode');
+        }
+      } catch(e) {
+        // localStorage may be unavailable in privacy-restricted browsers.
+      }
+    })();
+  </script>
   <link rel="stylesheet" href="/style.css">
-  <link rel="manifest" href="/manifest.json">
+  {% include "favicons.html" %}
   <script src="/scripts/songIndexCache.js" defer></script>
   <script src="/scripts/settings.js" defer></script>
   <script src="/scripts/pagescript.js" defer></script>
 </head>
 
 <body>
-  <div id="main_page_header"></div>
+  <div id="main_page_header">
+    {% include "main_page_header.html" %}
+  </div>
 
   <a href="/">
-    <img src="/assets/images/logga.png" width="180" alt="Spexloggan" class="spex-logo">
+    <img src="/assets/images/logga.webp" width="180" height="200" alt="Spexloggan" class="spex-logo">
   </a>
   <h1><a href="/"> Krischanstaspääxets<br>Sajber-Bajbel</a></h1>
 
@@ -37,13 +50,10 @@ eleventyExcludeFromCollections: true
 {% endfor %}
 
 <script>
-  // Load main_page_header.html into the div
-  fetch('/partials/main_page_header.html')
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById('main_page_header').innerHTML = data;
-
-      document.getElementById('search-form').addEventListener('submit', function(event) {
+  document.addEventListener("DOMContentLoaded", function() {
+    var searchForm = document.getElementById('search-form');
+    if (searchForm) {
+      searchForm.addEventListener('submit', function(event) {
         event.preventDefault();
         const searchTerm = document.getElementById('search-input').value.trim().toLowerCase();
         if (!searchTerm) {
@@ -64,69 +74,23 @@ eleventyExcludeFromCollections: true
             alert("Could not load the song index file.");
           });
       });
-    })
-    .catch(error => console.error('Error loading main_page_header.html:', error));
+    }
 
-  // Random
-  document.addEventListener("DOMContentLoaded", function() {
-    document.querySelector('.random').addEventListener("click", () => {
-      getSongIndex()
-        .then(data => {
-          const randomSong = data[Math.floor(Math.random() * data.length)];
-          window.location.href = `${randomSong.page}?search=${encodeURIComponent(randomSong.title)}`;
-        })
-        .catch(error => {
-          console.error('Error fetching song index:', error);
-          alert("Could not load the song index file.");
-        });
-    });
-  });
-
-  document.addEventListener("DOMContentLoaded", function() {
-    if (document.cookie.includes("readingMode=true")) {
-      addReadingMode();
+    var randomBtn = document.querySelector('.random');
+    if (randomBtn) {
+      randomBtn.addEventListener("click", () => {
+        getSongIndex()
+          .then(data => {
+            const randomSong = data[Math.floor(Math.random() * data.length)];
+            window.location.href = `${randomSong.page}?search=${encodeURIComponent(randomSong.title)}`;
+          })
+          .catch(error => {
+            console.error('Error fetching song index:', error);
+            alert("Could not load the song index file.");
+          });
+      });
     }
   });
-
-  // Add to home screen (disabled for now — see commented-out button above)
-  /*
-  var deferredInstallPrompt = null;
-
-  var isIos = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-  var isStandalone = window.navigator.standalone === true ||
-    window.matchMedia("(display-mode: standalone)").matches;
-
-  document.addEventListener("DOMContentLoaded", function() {
-    // iOS/Safari has no beforeinstallprompt API, so show manual instructions instead.
-    if (isIos && !isStandalone) {
-      document.querySelector(".install-btn").hidden = false;
-    }
-  });
-
-  window.addEventListener("beforeinstallprompt", function(event) {
-    event.preventDefault();
-    deferredInstallPrompt = event;
-    document.querySelector(".install-btn").hidden = false;
-  });
-
-  window.addEventListener("appinstalled", function() {
-    deferredInstallPrompt = null;
-    document.querySelector(".install-btn").hidden = true;
-  });
-
-  function installApp() {
-    if (isIos) {
-      alert("Lägg till på hemskärmen:\n\nTryck på Dela-knappen (fyrkant med pil) i Safaris menyrad och välj sedan \"Lägg till på hemskärmen\".");
-      return;
-    }
-    if (!deferredInstallPrompt) return;
-    deferredInstallPrompt.prompt();
-    deferredInstallPrompt.userChoice.finally(function() {
-      deferredInstallPrompt = null;
-      document.querySelector(".install-btn").hidden = true;
-    });
-  }
-  */
 
   function copyMainLink() {
     var btn = document.querySelector('.copy-main');
@@ -145,8 +109,9 @@ eleventyExcludeFromCollections: true
 </script>
 
 <!-- Footer -->
-<script src="/scripts/footer.js" defer></script>
-<div id="footer-container"></div>
+<div id="footer-container">
+  {% include "footer.html" %}
+</div>
 </body>
 
 </html>
