@@ -22,14 +22,6 @@
 <body>
   <h2>{{ title }}</h2>
   {%- set _facts = facts or factbox or info %}
-  {%- if _facts %}
-  <div class="fact-wrapper">
-    <button type="button" class="pageRoundButton factButton" onclick="toggleFactBubble(this)" aria-label="Fakta om spexet" aria-expanded="false">
-      <i class="fa fa-lightbulb"></i>
-    </button>
-    <div class="fact-bubble">{{ _facts | markdownify | safe }}</div>
-  </div>
-  {%- endif %}
   <button type="button" class="pagePillButton copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
   <button type="button" class="pageRoundButton toggle-all-btn" id="toggleAllBtn" onclick="toggleAll()" aria-label="Expandera/kollapsa alla sånger">
     <svg class="icon-expand" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,6 +33,14 @@
       <polyline points="3,17 10,11 17,17" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
   </button>
+  {%- if _facts %}
+  <div class="fact-wrapper">
+    <button type="button" class="pageRoundButton factButton" onclick="toggleFactBubble(this)" aria-label="Fakta om spexet" aria-expanded="false">
+      <i class="fa fa-lightbulb"></i>
+    </button>
+    <div class="fact-bubble">{{ _facts | markdownify | safe }}</div>
+  </div>
+  {%- endif %}
   <br><br>
 
   {%- if songs %}
