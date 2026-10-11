@@ -318,6 +318,8 @@ button.copyButton {
 }
 
 .page-header-actions {
+  position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -332,15 +334,28 @@ button.copyButton {
   gap: var(--spacing-sm);
 }
 
+.page-header-actions > button,
+.page-header-actions-right > button {
+  position: relative;
+  z-index: 2;
+}
+
 @media (max-width: 640px) {
   .page-header-actions {
+    display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    column-gap: var(--spacing-sm);
+    row-gap: var(--spacing-sm);
+    justify-content: center;
+  }
+
+  .page-header-actions > button,
+  .page-header-actions-right > button {
+    margin: var(--spacing-md);
   }
 
   .page-header-actions-right {
-    width: 100%;
-    justify-content: center;
+    display: contents;
   }
 }
 
@@ -421,7 +436,7 @@ button.infoButton.active {
   max-width: 320px;
   font-size: var(--font-size-base);
   line-height: 1.4;
-  z-index: 20;
+  z-index: 1;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
