@@ -54,10 +54,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Inject settings container after header
     var settingsHTML = '<div class="settings-container">' +
-      '<button id="settings-button" onclick="openSettings()" aria-label="Öppna inställningar"><i class="fa fa-cog"></i></button>' +
+      '<button id="settings-button" onclick="openSettings()" aria-label="Öppna inställningar" title="Öppna inställningar"><i class="fa fa-cog"></i></button>' +
       '<div id="settings-options" class="hide">' +
-        '<button id="reading-mode-button" onclick="toggleReadingMode()" aria-label="Växla läsläge"><i class="fa fa-adjust"></i></button>' +
-        '<button id="dark-mode-button" onclick="toggleDarkMode()" aria-label="Växla mörkt läge"><i class="fa fa-moon"></i></button>' +
+        '<button id="reading-mode-button" onclick="toggleReadingMode()" aria-label="Växla läsläge" title="Växla läsläge"><i class="fa fa-adjust"></i></button>' +
+        '<button id="dark-mode-button" onclick="toggleDarkMode()" aria-label="Växla mörkt läge" title="Växla mörkt läge"><i class="fa fa-moon"></i></button>' +
 '</div>' +
     '</div>';
     document.getElementById('spex-header-container').insertAdjacentHTML('afterend', settingsHTML);
@@ -67,7 +67,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (copyButton) {
       var randomBtn = document.createElement('button');
       randomBtn.className = 'pagePillButton random-page';
-      randomBtn.setAttribute('aria-label', 'Gå till en slumpmässig sång');
+      randomBtn.setAttribute('aria-label', 'Gå till en slumpmässig sång!');
+      randomBtn.setAttribute('title', 'Välj en slumpmässig sång');
       randomBtn.textContent = 'Räändom';
       randomBtn.addEventListener('click', function() {
         getSongIndex()

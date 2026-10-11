@@ -23,9 +23,9 @@
   <h2>{{ title }}</h2>
   {%- set _facts = facts or factbox or info %}
   <div class="page-header-actions">
-    <button type="button" class="pagePillButton copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
+    <button type="button" class="pagePillButton copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida" title="Kopiera länk">Kopiera länk</button>
     <div class="page-header-actions-right">
-      <button type="button" class="pageRoundButton toggle-all-btn" id="toggleAllBtn" onclick="toggleAll()" aria-label="Expandera/kollapsa alla sånger">
+      <button type="button" class="pageRoundButton toggle-all-btn" id="toggleAllBtn" onclick="toggleAll()" aria-label="Expandera/kollapsa alla kupletter" title="Expandera eller kollapsa alla kupletter">
         <svg class="icon-expand" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <polyline points="3,4 10,10 17,4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
           <polyline points="3,11 10,17 17,11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -57,7 +57,7 @@
       <br>
       <div class="uppsattning-header">
         <h2 class="uppsattning-heading" id="{{ _sectionId }}">{{ u.label }}</h2>
-        <button type="button" class="uppsattning-link-btn" onclick="copyUppLink(this, '{{ _sectionId }}')" aria-label="Kopiera länk till {{ u.label }}"><img src="/assets/images/song-link-button.png" class="song-link-icon" alt=""></button>
+        <button type="button" class="uppsattning-link-btn" onclick="copyUppLink(this, '{{ _sectionId }}')" aria-label="Kopiera länk till {{ u.label }}" title="Kopiera länk till avdelningen"><img src="/assets/images/song-link-button.png" class="song-link-icon" alt=""></button>
       </div>
       <br>
       {%- set groupSongs = collections.songs | songsForSpex(u.id) %}
