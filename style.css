@@ -384,7 +384,7 @@ button.copy-main {
   white-space: nowrap;
 }
 
-/* Round page button base (infoButton, toggle-all-btn) */
+/* Round page button base (factButton, toggle-all-btn) */
 .pageRoundButton {
   -webkit-appearance: none;
   appearance: none;
@@ -397,15 +397,13 @@ button.copy-main {
 }
 
 /* Spex fact button + text bubble */
-.fact-wrapper,
-.info-wrapper {
+.fact-wrapper {
   position: relative;
   display: inline-flex;
   vertical-align: middle;
 }
 
-button.factButton,
-button.infoButton {
+button.factButton {
   background-color: var(--purple);
   border: 2px outset var(--purple);
   color: white;
@@ -413,18 +411,16 @@ button.infoButton {
 }
 
 button.factButton:hover,
-button.factButton.active,
-button.infoButton:hover,
-button.infoButton.active {
+button.factButton.active {
   background-color: var(--yellow-hover);
 }
 
-.fact-bubble,
-.info-bubble {
+.fact-bubble {
   display: none;
   position: fixed;
   left: 50%;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
   background-color: white;
   color: #333;
   border: 2px solid var(--purple);
@@ -442,26 +438,21 @@ button.infoButton.active {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.fact-bubble.show,
-.info-bubble.show {
+.fact-bubble.show {
   display: block;
 }
 
-.fact-bubble p,
-.info-bubble p {
+.fact-bubble p {
   margin: 0 0 var(--spacing-md);
 }
 
 .fact-bubble ul,
-.fact-bubble ol,
-.info-bubble ul,
-.info-bubble ol {
+.fact-bubble ol {
   margin: 0 0 var(--spacing-md);
   padding-left: 1.4em;
 }
 
-.fact-bubble li + li,
-.info-bubble li + li {
+.fact-bubble li + li {
   margin-top: 0.2em;
 }
 
@@ -627,21 +618,17 @@ body.dark-mode .spex-logo {
   filter: invert(1);
 }
 
-body.dark-mode button.factButton,
-body.dark-mode button.infoButton {
+body.dark-mode button.factButton {
   background-color: var(--color-purple-dark);
   border-color:    var(--color-purple-dark);
 }
 
 body.dark-mode button.factButton:hover,
-body.dark-mode button.factButton.active,
-body.dark-mode button.infoButton:hover,
-body.dark-mode button.infoButton.active {
+body.dark-mode button.factButton.active {
   background-color: var(--yellow-hover);
 }
 
-body.dark-mode .fact-bubble,
-body.dark-mode .info-bubble {
+body.dark-mode .fact-bubble {
   background-color: var(--color-card-dark);
   color:           var(--color-text-dark);
   border-color:    var(--color-purple-dark);

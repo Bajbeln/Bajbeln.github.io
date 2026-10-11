@@ -190,21 +190,6 @@
       if (!e.target.closest(".fact-wrapper")) closeFactBubbles();
     });
 
-    // Fix the fact bubble's vertical position once, aligned with the first
-    // song pill's top, so it stays put regardless of scroll position.
-    document.addEventListener("DOMContentLoaded", function () {
-      var bubbles = document.querySelectorAll(".fact-bubble");
-      if (!bubbles.length) return;
-      var headerReady = window.headerReadyPromise || Promise.resolve();
-      headerReady.then(function () {
-        var firstPill = document.querySelector(".collapsible");
-        var topPos = (firstPill ? firstPill.getBoundingClientRect().top : window.innerHeight * 0.2) + "px";
-        bubbles.forEach(function (b) {
-          b.style.top = topPos;
-        });
-      });
-    });
-
     function fallbackCopy(text) {
       var ta = document.createElement("textarea");
       ta.value = text;
