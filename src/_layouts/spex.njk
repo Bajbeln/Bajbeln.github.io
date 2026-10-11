@@ -21,6 +21,15 @@
 </head>
 <body>
   <h2>{{ title }}</h2>
+  {%- set _facts = facts or factbox or info %}
+  {%- if _facts %}
+  <div class="fact-wrapper">
+    <button type="button" class="pageRoundButton factButton" onclick="toggleFactBubble(this)" aria-label="Fakta om spexet" aria-expanded="false">
+      <i class="fa fa-lightbulb"></i>
+    </button>
+    <div class="fact-bubble">{{ _facts | markdownify | safe }}</div>
+  </div>
+  {%- endif %}
   <button type="button" class="pagePillButton copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida">Kopiera länk</button>
   <button type="button" class="pageRoundButton toggle-all-btn" id="toggleAllBtn" onclick="toggleAll()" aria-label="Expandera/kollapsa alla sånger">
     <svg class="icon-expand" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -32,14 +41,6 @@
       <polyline points="3,17 10,11 17,17" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
   </button>
-  {%- if info %}
-  <div class="info-wrapper">
-    <button type="button" class="pageRoundButton infoButton" onclick="toggleInfoBubble(this)" aria-label="Information om spexet" aria-expanded="false">
-      <i class="fa fa-info"></i>
-    </button>
-    <div class="info-bubble">{{ info | safe }}</div>
-  </div>
-  {%- endif %}
   <br><br>
 
   {%- if songs %}
@@ -159,11 +160,11 @@
       }
     }
 
-    // Spex info bubble
-    function toggleInfoBubble(btn) {
+    // Spex fact bubble
+    function toggleFactBubble(btn) {
       var bubble = btn.nextElementSibling;
       var isOpen = bubble.classList.contains("show");
-      closeInfoBubbles();
+      closeFactBubbles();
       if (!isOpen) {
         bubble.classList.add("show");
         btn.classList.add("active");
@@ -171,29 +172,32 @@
       }
     }
 
-    function closeInfoBubbles() {
-      document.querySelectorAll(".info-bubble.show").forEach(function (b) {
+    function closeFactBubbles() {
+      document.querySelectorAll(".fact-bubble.show").forEach(function (b) {
         b.classList.remove("show");
       });
-      document.querySelectorAll("button.infoButton.active").forEach(function (b) {
+      document.querySelectorAll("button.factButton.active").forEach(function (b) {
         b.classList.remove("active");
         b.setAttribute("aria-expanded", "false");
       });
     }
 
     document.addEventListener("click", function (e) {
-      if (!e.target.closest(".info-wrapper")) closeInfoBubbles();
+      if (!e.target.closest(".fact-wrapper")) closeFactBubbles();
     });
 
-    // Fix the info bubble's vertical position once, aligned with the first
+    // Fix the fact bubble's vertical position once, aligned with the first
     // song pill's top, so it stays put regardless of scroll position.
     document.addEventListener("DOMContentLoaded", function () {
-      var infoBubble = document.querySelector(".info-bubble");
-      if (!infoBubble) return;
+      var bubbles = document.querySelectorAll(".fact-bubble");
+      if (!bubbles.length) return;
       var headerReady = window.headerReadyPromise || Promise.resolve();
       headerReady.then(function () {
         var firstPill = document.querySelector(".collapsible");
-        infoBubble.style.top = (firstPill ? firstPill.getBoundingClientRect().top : window.innerHeight * 0.2) + "px";
+        var topPos = (firstPill ? firstPill.getBoundingClientRect().top : window.innerHeight * 0.2) + "px";
+        bubbles.forEach(function (b) {
+          b.style.top = topPos;
+        });
       });
     });
 

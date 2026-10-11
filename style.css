@@ -354,13 +354,15 @@ button.copy-main {
   vertical-align: middle;
 }
 
-/* Spex info button + text bubble */
+/* Spex fact button + text bubble */
+.fact-wrapper,
 .info-wrapper {
   position: relative;
   display: inline-flex;
   vertical-align: middle;
 }
 
+button.factButton,
 button.infoButton {
   background-color: var(--purple);
   border: 2px outset var(--purple);
@@ -368,11 +370,14 @@ button.infoButton {
   font-size: var(--icon-lg);
 }
 
+button.factButton:hover,
+button.factButton.active,
 button.infoButton:hover,
 button.infoButton.active {
   background-color: var(--yellow-hover);
 }
 
+.fact-bubble,
 .info-bubble {
   display: none;
   position: fixed;
@@ -390,11 +395,30 @@ button.infoButton.active {
   font-size: var(--font-size-base);
   line-height: 1.4;
   z-index: 20;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+.fact-bubble.show,
 .info-bubble.show {
   display: block;
+}
+
+.fact-bubble p,
+.info-bubble p {
+  margin: 0 0 var(--spacing-md);
+}
+
+.fact-bubble ul,
+.fact-bubble ol,
+.info-bubble ul,
+.info-bubble ol {
+  margin: 0 0 var(--spacing-md);
+  padding-left: 1.4em;
+}
+
+.fact-bubble li + li,
+.info-bubble li + li {
+  margin-top: 0.2em;
 }
 
 /* Uppsättning link button (circular) */
@@ -559,16 +583,20 @@ body.dark-mode .spex-logo {
   filter: invert(1);
 }
 
+body.dark-mode button.factButton,
 body.dark-mode button.infoButton {
   background-color: var(--color-purple-dark);
   border-color:    var(--color-purple-dark);
 }
 
+body.dark-mode button.factButton:hover,
+body.dark-mode button.factButton.active,
 body.dark-mode button.infoButton:hover,
 body.dark-mode button.infoButton.active {
   background-color: var(--yellow-hover);
 }
 
+body.dark-mode .fact-bubble,
 body.dark-mode .info-bubble {
   background-color: var(--color-card-dark);
   color:           var(--color-text-dark);

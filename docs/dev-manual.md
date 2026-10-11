@@ -296,9 +296,9 @@ Färger ställs **inte** in i `index.md` frontmatter. De finns i `{namn}.json` o
 
 ---
 
-## Infobubbla
+## Faktabox
 
-Ett valfritt `info`-fält i `index.md`-frontmatter visar en rund infoknapp (ⓘ) till höger om "Expandera/kollapsa alla"-knappen. Knappen visas endast på sidor där fältet är satt.
+Ett valfritt `facts`-fält (eller `factbox` / `info`) i `index.md`-frontmatter visar en rund faktaboxknapp (💡) längst till vänster i knappraden (före "Kopiera länk"). Knappen visas endast på sidor där fältet är satt.
 
 ```yaml
 ---
@@ -306,14 +306,18 @@ layout: spex
 title: Spextitel År (XXX)
 permalink: /spex-namn/
 spex: spex-namn
-info: "Kuriosa om spääxet i fråga."
+facts: |
+  Fakta och kuriosa om spääxet, uppsättningen eller karaktärerna.
+  - Punkt 1
+  - Punkt 2
 ---
 ```
 
-- Värdet renderas med `| safe`, så `<br>` kan användas för radbrytningar. Fältet är avsett för betrodd, manuellt skriven text — inte användarinmatning.
+- Värdet renderas som markdown, så punktlistor med `-` eller `*` fungerar direkt i faktabubblan. Om du behöver exakt HTML kan du fortfarande använda det, men standardtext med radbrytningar renderas korrekt.
+- Fältet är avsett för betrodd, manuellt skriven text — inte användarinmatning.
 - Ett klick på knappen öppnar en textbubbla; ett nytt klick på knappen eller var som helst utanför bubblan stänger den.
 - Bubblans horisontella position är alltid centrerad på sidan. Den vertikala positionen beräknas en gång vid sidladdning (efter att headern har laddats klart) så att bubblans överkant hamnar i linje med den första låtknappens överkant — därefter ligger den fast oavsett skrollposition.
-- Knappen (`button.infoButton`) och bubblan (`.info-bubble`) är stylade i `style.css`, inklusive mörkt läge-varianter. Logiken (`toggleInfoBubble`, `closeInfoBubbles`) finns i det inbäddade `<script>`-blocket i `src/_layouts/spex.njk`.
+- Knappen (`button.factButton`) och bubblan (`.fact-bubble`) är stylade i `style.css`, inklusive mörkt läge-varianter. Logiken (`toggleFactBubble`, `closeFactBubbles`) finns i det inbäddade `<script>`-blocket i `src/_layouts/spex.njk`.
 
 ---
 

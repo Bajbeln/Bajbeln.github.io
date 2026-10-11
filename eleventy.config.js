@@ -159,6 +159,11 @@ module.exports = function (eleventyConfig) {
 <br>`;
   });
 
+  eleventyConfig.addFilter("markdownify", function (value) {
+    if (value == null || value === "") return "";
+    return mdLib.render(String(value));
+  });
+
   // Collection: all song files (any .md with an `order` frontmatter field)
   eleventyConfig.addCollection("songs", function (collectionApi) {
     return collectionApi
