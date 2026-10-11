@@ -317,6 +317,33 @@ button.copyButton {
   color: white;
 }
 
+.page-header-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: var(--spacing-sm);
+}
+
+.page-header-actions-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+}
+
+@media (max-width: 640px) {
+  .page-header-actions {
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .page-header-actions-right {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 /* Main page button row — wraps once install/copy buttons push Räändom too wide */
 .main-btn-row {
   display: flex;
