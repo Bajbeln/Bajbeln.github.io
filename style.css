@@ -434,6 +434,8 @@ button.infoButton.active {
   box-sizing: border-box;
   width: 90%;
   max-width: 320px;
+  max-height: 80vh;
+  overflow-y: auto;
   font-size: var(--font-size-base);
   line-height: 1.4;
   z-index: 1;
