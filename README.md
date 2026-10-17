@@ -34,6 +34,7 @@ Mer information finns i:
 - [Utvecklarmanualen](./docs/dev-manual.md)
 - [Kvalitetskontroll av sångtexter](./docs/songtext-quality-control.md)
 - [Kontroll av sidor](./docs/page-check.md)
+- [Attributioner](./attributions.md)
 
 ## För utvecklare
 Kräver **Node.js 18 eller nyare** (rekommenderat: 24). npm ingår i Node.js.
