@@ -7,7 +7,7 @@
 - Expanderbar inuti expanderbar (se Pausfinalen HC A)
 - Abstrahera sök och randomize
 - Göra övergången från startsida till spexsida mer sömlös? - typ som en transition
-- Gör att länk preview bättre återspeglar vilken kuplett som delas (kräver backend)
+- Gör att länk preview bättre återspeglar vilken kuplett som delas (kräver att varje låt får sin egen sida - så kanske inte)
 
 ## Stil
 - Gör flera sidor mer läsbara - ex. favoriter (se `/docs/page-rating.md`)
