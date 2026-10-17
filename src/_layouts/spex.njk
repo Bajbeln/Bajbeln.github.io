@@ -4,14 +4,6 @@
   <meta charset="UTF-8">
   <title>{{ tabTitle or title }} - Bajbeln</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  {% if ogTitle %}
-  <meta property="og:title" content="{{ ogTitle }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://bajbeln.github.io{{ page.url }}">
-  <meta property="og:description" content="{{ ogDescription or 'Kupletter från Bajbeln' }}">
-  <meta property="og:image" content="https://bajbeln.github.io{{ ogImage or '/assets/images/logga.webp' }}">
-  <meta property="og:site_name" content="Bajbeln">
-  {% endif %}
   <script>
     (function() {
       try {

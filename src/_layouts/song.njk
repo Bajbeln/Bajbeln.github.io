@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }} - Bajbeln</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta property="og:title" content="{{ title }} - Bajbeln">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bajbeln.github.io{{ page.url }}">
+  <meta property="og:description" content="En kuplett från Bajbeln">
+  <meta property="og:image" content="https://bajbeln.github.io/assets/images/logga.webp">
+  <meta property="og:site_name" content="Bajbeln">
+  
+  <script>
+    (function() {
+      try {
+        if (localStorage.getItem('darkMode') === 'true') {
+          document.documentElement.classList.add('dark-mode');
+        }
+      } catch(e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="/style.css">
+  {% include "favicons.html" %}
+  <script src="/scripts/songIndexCache.js" defer></script>
+  <script src="/scripts/settings.js" defer></script>
+</head>
+<body>
+  {% include "spex_page_header.html" %}
+  {% include "settings.html" %}
+
+  <h2>{{ title }}</h2>
+  {%- if singer %}<p><i>({{ singer }})</i></p>{% endif %}
+  {%- if melody %}<p><i>Mel. {{ melody }}</i></p>{% endif %}
+  
+  <div class="song-content">
+    {{ content | markdownify | safe }}
+  </div>
+  
+  <br><br>
+  <a href="/gyttjeblottning/" class="back-link">← Tillbaka till Gyttjeblottning</a>
+  <br><br>
+
+  <div id="footer-container">
+    {% include "footer.html" %}
+  </div>
+</body>
+</html>

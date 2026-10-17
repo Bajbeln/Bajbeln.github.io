@@ -1,9 +1,10 @@
 ---
+layout: song
 title: "[GYT 1] Vit visa"
 melody: "White Christmas"
 spex: gyttjeblottning
 order: 5
-permalink: false
+permalink: /gyttjeblottning/gyt-01-vit-visa/
 ---
 
 Jag drömmer om en vit vecka
