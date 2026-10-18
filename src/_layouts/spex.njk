@@ -10,7 +10,11 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://bajbeln.github.io{{ page.url }}">
   <meta property="og:description" content="En samling spex och kupletter från Krischanstaspääxets Sajber-Bajbel">
+  {% if color and spex %}
+  <meta property="og:image" content="https://bajbeln.github.io/assets/images/og/og-{{ spex }}.png">
+  {% else %}
   <meta property="og:image" content="https://bajbeln.github.io/assets/images/og-image.png">
+  {% endif %}
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:site_name" content="Bajbeln">
@@ -19,7 +23,11 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ tabTitle or title }} - Bajbeln">
   <meta name="twitter:description" content="En samling spex och kupletter från Krischanstaspääxets Sajber-Bajbel">
+  {% if color and spex %}
+  <meta name="twitter:image" content="https://bajbeln.github.io/assets/images/og/og-{{ spex }}.png">
+  {% else %}
   <meta name="twitter:image" content="https://bajbeln.github.io/assets/images/og-image.png">
+  {% endif %}
   
   <script>
     (function() {
