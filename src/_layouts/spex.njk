@@ -10,8 +10,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://bajbeln.github.io{{ page.url }}">
   <meta property="og:description" content="En samling spex och kupletter från Krischanstaspääxets Sajber-Bajbel">
-  {% if color and spex %}
-  <meta property="og:image" content="https://bajbeln.github.io/assets/images/og/og-{{ spex }}.png">
+  {%- set ogSpex = spex %}
+  {%- if not ogSpex and page.url and page.url != '/' %}
+    {%- set urlPath = page.url | replace('/index.html', '') | replace('/', '') %}
+    {%- set ogSpex = urlPath %}
+  {%- endif %}
+  {% if color and ogSpex %}
+  <meta property="og:image" content="https://bajbeln.github.io/assets/images/og/og-{{ ogSpex }}.png">
   {% else %}
   <meta property="og:image" content="https://bajbeln.github.io/assets/images/og-image.png">
   {% endif %}
@@ -23,8 +28,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ tabTitle or title }} - Bajbeln">
   <meta name="twitter:description" content="En samling spex och kupletter från Krischanstaspääxets Sajber-Bajbel">
-  {% if color and spex %}
-  <meta name="twitter:image" content="https://bajbeln.github.io/assets/images/og/og-{{ spex }}.png">
+  {% if color and ogSpex %}
+  <meta name="twitter:image" content="https://bajbeln.github.io/assets/images/og/og-{{ ogSpex }}.png">
   {% else %}
   <meta name="twitter:image" content="https://bajbeln.github.io/assets/images/og-image.png">
   {% endif %}
