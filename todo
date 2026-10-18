@@ -14,7 +14,8 @@
 - [ ] Tjockare logga i icon (inte på sidorna)
 - [ ] Expandera alla-knappen verkar inte ha rätt borders på mobil (kanske fixad?)
 - [x] Går det att göra så att förhandsgranskningsbilden för sidan (på ex. messenger) bilr skarpare?
- 
+- [ ] Se över alla icons - For optimal PWA display across all devices, you could add 16×16, 32×32, 128×128, and 152×152 sizes - but browsers will scale your existing icons.
+  
 ## Kvalitetssäkring
 - [ ] Korrläs alla spex - automatiskt flaggade "fel" finns i `/docs/songtext-quality-control`
 - [ ] [CXI 6] Invokation till Pelle Andersson - måste kontrolleras (radbryt, finns i del2)
