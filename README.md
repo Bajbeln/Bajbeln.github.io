@@ -45,6 +45,8 @@ npm install   # krävs första gången
 npm run start
 ```
 
+> **Notera:** OG-bilder (Open Graph) genereras **inte** automatiskt. Kör `npm run generate:og-images` manuellt efter ändringar som kräver nya OG-bilder.
+
 ## Publicering
 Webbplatsen publiceras på [bajbeln.github.io](https://bajbeln.github.io/) med
 GitHub Pages. Arbetsflödet

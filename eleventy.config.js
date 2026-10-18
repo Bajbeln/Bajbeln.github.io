@@ -222,18 +222,18 @@ module.exports = function (eleventyConfig) {
 </div>`;
   });
 
-  // --- Generate OG images before build ---
-  eleventyConfig.on("beforeBuild", async () => {
-    const { execSync } = require("child_process");
-    try {
-      execSync("bash scripts/generate-og-images.sh", { 
-        cwd: __dirname,
-        stdio: "inherit"
-      });
-    } catch (error) {
-      console.warn("Warning: Failed to generate OG images. Run 'npm run generate:og-images' manually.");
-    }
-  });
+  // --- Generate OG images before build --- (disabled: run manually with npm run generate:og-images)
+  // eleventyConfig.on("beforeBuild", async () => {
+  //   const { execSync } = require("child_process");
+  //   try {
+  //     execSync("bash scripts/generate-og-images.sh", { 
+  //       cwd: __dirname,
+  //       stdio: "inherit"
+  //     });
+  //   } catch (error) {
+  //     console.warn("Warning: Failed to generate OG images. Run 'npm run generate:og-images' manually.");
+  //   }
+  // });
 
   // --- Passthrough: keep all existing static assets in the build ---
   eleventyConfig.addPassthroughCopy({ "style.css": "style.css" });

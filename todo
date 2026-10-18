@@ -12,12 +12,9 @@
 ## Stil
 - [ ] Gör flera sidor mer läsbara - ex. favoriter (se `/docs/page-rating.md`)
 - [ ] Tjockare logga i icon (inte på sidorna)
-- [ ] Expandera alla-knappen verkar inte ha rätt borders på mobil (kanske fixad?)
-- [x] Går det att göra så att förhandsgranskningsbilden för sidan (på ex. messenger) bilr skarpare?
-- [x] Se över alla icons - For optimal PWA display across all devices, you could add 16×16, 32×32, 128×128, and 152×152 sizes - but browsers will scale your existing icons.
-  
+- [ ] Expandera alla-knappen verkar inte ha rätt borders på mobil (kanske fixad?)  
 ## Under huven
-Göra så att `scripts/generate-og-images.sh` körs automatiskt vid eleventy/push
+- [ ] Göra så att `scripts/generate-og-images.sh` körs automatiskt vid eleventy/push - eller optimera
 
 ## Kvalitetssäkring
 - [ ] Korrläs alla spex - automatiskt flaggade "fel" finns i `/docs/songtext-quality-control`
@@ -25,3 +22,8 @@ Göra så att `scripts/generate-og-images.sh` körs automatiskt vid eleventy/pus
 - [ ] Ersätt låtnummer med hänvisningar till bajbelsidor för Kristina 2023/24
 - [ ] stalin-10 måste kontrolleras
 - [ ] ett lyckligt slut i favoriter - fixa?
+
+## Avklarat
+- [x] Går det att göra så att förhandsgranskningsbilden för sidan (på ex. messenger) bilr skarpare?
+- [x] Se över alla icons - For optimal PWA display across all devices, you could add 16×16, 32×32, 128×128, and 152×152 sizes - but browsers will scale your existing icons.
+- [x] Återgå till de gamla ikonerna i inställningsmenyn

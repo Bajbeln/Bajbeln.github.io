@@ -470,6 +470,33 @@ Kopiera den relevanta mappen, döp om den och `.json`-filen inne i den, och fyll
 
 ---
 
+## OG-bilder (Open Graph)
+
+OG-bilder (1200×630 px) genereras för startsidan och varje spex och används för sociala medier-delningsförhandsvisningar. Bilderna lagras i `assets/images/og/` och refereras via `<meta property="og:image">` i HTML-headern.
+
+### Generering
+
+OG-bilder **genereras inte automatiskt** under utveckling. Kör manuellt:
+
+```
+npm run generate:og-images
+```
+
+Detta kör `scripts/generate-og-images.sh` som:
+1. Skapar en standard OG-bild (`og-image.png`) med bakgrundsfärgen `rgb(210,231,250)`
+2. Skapar spex-specifika OG-bilder (`og-{spex-namn}.png`) med bakgrundsfärgen från varje spex `{namn}.json`-fil (fältet `color`)
+3. Kopierar `og-image.png` till `assets/images/og-image.png` (huvud-OG-bilden)
+
+**Krav:** ImageMagick (`magick`) och `jq` måste vara installerade på systemet.
+
+### Anpassning
+
+Färgen för varje spex OG-bild hämtas från `color`-fältet i spexets `{namn}.json`-fil. Loggan (`assets/images/logga.png`) placeras centrerat vertikalt med 41px marginaler överst och underst.
+
+Om du lägger till ett nytt spex, kör `npm run generate:og-images` och commit:ta de nya OG-bilderna.
+
+---
+
 ## Distribution
 
 Arbetsflödet i `.github/workflows/deploy_try.yml` bygger sidan med `npm run build` och distribuerar `_site/` till GitHub Pages.

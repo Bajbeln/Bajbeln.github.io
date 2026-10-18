@@ -579,10 +579,13 @@ button.random {
 }
 
 
-/* SVG icon vertical alignment */
+/* Icon vertical alignment */
 #settings-button svg,
 #reading-mode-button svg,
 #dark-mode-button svg,
+#settings-button i,
+#reading-mode-button i,
+#dark-mode-button i,
 button.factButton svg,
 .search-container button svg,
 .song-link-btn svg {
