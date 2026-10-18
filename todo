@@ -1,22 +1,23 @@
 # TODO
 
 ## Att lägga till
-- CIV 2010 - finns det ens?
+- [ ] CIV 2010 - finns det ens?
 
 ## Funktioner
-- Expanderbar inuti expanderbar (se Pausfinalen HC A)
-- Abstrahera sök och randomize
-- Göra övergången från startsida till spexsida mer sömlös? - typ som en transition
-- Gör att länk preview bättre återspeglar vilken kuplett som delas (kräver att varje låt får sin egen sida - så kanske inte)
+- [ ] Expanderbar inuti expanderbar (se Pausfinalen HC A) - behövs det?
+- [ ] Abstrahera sök och randomize - kanke inte så aktuellt
+- [ ] Göra övergången från startsida till spexsida mer sömlös? - typ som en transition, men kanske inte behövs
+- [ ] Gör att länk preview bättre återspeglar vilken kuplett som delas (kräver att varje låt får sin egen sida - så kanske inte)
 
 ## Stil
-- Gör flera sidor mer läsbara - ex. favoriter (se `/docs/page-rating.md`)
-- Tjockare logga i icon (inte på sidorna)
-- Expandera alla-knappen verkar inte ha rätt borders på mobil (kanske fixad?)
-
+- [ ] Gör flera sidor mer läsbara - ex. favoriter (se `/docs/page-rating.md`)
+- [ ] Tjockare logga i icon (inte på sidorna)
+- [ ] Expandera alla-knappen verkar inte ha rätt borders på mobil (kanske fixad?)
+- [x] Går det att göra så att förhandsgranskningsbilden för sidan (på ex. messenger) bilr skarpare?
+ 
 ## Kvalitetssäkring
-- Korrläs alla spex - automatiskt flaggade "fel" finns i `/docs/songtext-quality-control`
-- [CXI 6] Invokation till Pelle Andersson - måste kontrolleras (radbryt, finns i del2)
-- Ersätt låtnummer med hänvisningar till bajbelsidor för Kristina 2023/24
-- stalin-10 måste kontrolleras
-- ett lyckligt slut i favoriter - fixa?
+- [ ] Korrläs alla spex - automatiskt flaggade "fel" finns i `/docs/songtext-quality-control`
+- [ ] [CXI 6] Invokation till Pelle Andersson - måste kontrolleras (radbryt, finns i del2)
+- [ ] Ersätt låtnummer med hänvisningar till bajbelsidor för Kristina 2023/24
+- [ ] stalin-10 måste kontrolleras
+- [ ] ett lyckligt slut i favoriter - fixa?
