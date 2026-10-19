@@ -1,243 +1,304 @@
 {
   "spexCount": 59,
-  "songCount": 574,
-  "updatedAt": "2026-10-19T14:54:37.626Z",
+  "uppsattningarCount": 81,
+  "dayCount": 40,
+  "songCount": 997,
+  "updatedAt": "2026-10-19T15:16:28.227Z",
   "spex": [
     {
       "name": "allmanna",
-      "songs": 53
+      "songs": 53,
+      "uppsattningar": 1
     },
     {
       "name": "caesar",
-      "songs": 22
+      "songs": 22,
+      "uppsattningar": 1
     },
     {
       "name": "carl-xi",
-      "songs": 11
+      "songs": 11,
+      "uppsattningar": 1
     },
     {
       "name": "charles-magnusson",
-      "songs": 9
+      "songs": 9,
+      "uppsattningar": 1
     },
     {
       "name": "christian-iv",
-      "songs": 0
+      "songs": 19,
+      "uppsattningar": 2
     },
     {
       "name": "darwin",
-      "songs": 0
+      "songs": 20,
+      "uppsattningar": 2
     },
     {
       "name": "eiffel",
-      "songs": 10
+      "songs": 10,
+      "uppsattningar": 1
     },
     {
       "name": "erik-xiv",
-      "songs": 0
+      "songs": 31,
+      "uppsattningar": 3
     },
     {
       "name": "eva-ekeblad",
-      "songs": 0
+      "songs": 13,
+      "uppsattningar": 2
     },
     {
       "name": "finlands",
-      "songs": 10
+      "songs": 10,
+      "uppsattningar": 1
     },
     {
       "name": "florence",
-      "songs": 0
+      "songs": 35,
+      "uppsattningar": 2
     },
     {
       "name": "franz-ferdinand",
-      "songs": 16
+      "songs": 16,
+      "uppsattningar": 1
     },
     {
       "name": "gustav-iii",
-      "songs": 9
+      "songs": 9,
+      "uppsattningar": 1
     },
     {
       "name": "gyttjeblottning",
-      "songs": 6
+      "songs": 6,
+      "uppsattningar": 1
     },
     {
       "name": "hc-andersen",
-      "songs": 11
+      "songs": 11,
+      "uppsattningar": 1
     },
     {
       "name": "hilma",
-      "songs": 16
+      "songs": 16,
+      "uppsattningar": 1
     },
     {
       "name": "hindenburg",
-      "songs": 10
+      "songs": 10,
+      "uppsattningar": 1
     },
     {
       "name": "hjalmar",
-      "songs": 11
+      "songs": 11,
+      "uppsattningar": 1
     },
     {
       "name": "jerusalem",
-      "songs": 13
+      "songs": 13,
+      "uppsattningar": 1
     },
     {
       "name": "karthago",
-      "songs": 13
+      "songs": 13,
+      "uppsattningar": 1
     },
     {
       "name": "katarina",
-      "songs": 13
+      "songs": 13,
+      "uppsattningar": 1
     },
     {
       "name": "kejsaren",
-      "songs": 19
+      "songs": 19,
+      "uppsattningar": 1
     },
     {
       "name": "kleopatra",
-      "songs": 16
+      "songs": 16,
+      "uppsattningar": 1
     },
     {
       "name": "kraftor",
-      "songs": 14
+      "songs": 14,
+      "uppsattningar": 1
     },
     {
       "name": "kristina",
-      "songs": 0
+      "songs": 40,
+      "uppsattningar": 2
     },
     {
       "name": "krook",
-      "songs": 23
+      "songs": 23,
+      "uppsattningar": 1
     },
     {
       "name": "kubakrisen",
-      "songs": 0
+      "songs": 33,
+      "uppsattningar": 3
     },
     {
       "name": "lafayette",
-      "songs": 14
+      "songs": 14,
+      "uppsattningar": 1
     },
     {
       "name": "lagsta-punkten",
-      "songs": 13
+      "songs": 13,
+      "uppsattningar": 1
     },
     {
       "name": "leonardo",
-      "songs": 0
+      "songs": 45,
+      "uppsattningar": 5
     },
     {
       "name": "lewinsky",
-      "songs": 10
+      "songs": 10,
+      "uppsattningar": 1
     },
     {
       "name": "lincoln",
-      "songs": 0
+      "songs": 25,
+      "uppsattningar": 2
     },
     {
       "name": "linne",
-      "songs": 0
+      "songs": 15,
+      "uppsattningar": 2
     },
     {
       "name": "loshultskuppen",
-      "songs": 11
+      "songs": 11,
+      "uppsattningar": 1
     },
     {
       "name": "maria-eleonora",
-      "songs": 10
+      "songs": 10,
+      "uppsattningar": 1
     },
     {
       "name": "martell",
-      "songs": 0
+      "songs": 38,
+      "uppsattningar": 2
     },
     {
       "name": "mot-strommen",
-      "songs": 17
+      "songs": 17,
+      "uppsattningar": 1
     },
     {
       "name": "mtv",
-      "songs": 9
+      "songs": 9,
+      "uppsattningar": 1
     },
     {
       "name": "nisse",
-      "songs": 6
+      "songs": 6,
+      "uppsattningar": 1
     },
     {
       "name": "nobel",
-      "songs": 18
+      "songs": 18,
+      "uppsattningar": 1
     },
     {
       "name": "nosaby",
-      "songs": 9
+      "songs": 9,
+      "uppsattningar": 1
     },
     {
       "name": "oresundsbron",
-      "songs": 13
+      "songs": 13,
+      "uppsattningar": 1
     },
     {
       "name": "os-feber",
-      "songs": 8
+      "songs": 8,
+      "uppsattningar": 1
     },
     {
       "name": "per-albin",
-      "songs": 13
+      "songs": 13,
+      "uppsattningar": 1
     },
     {
       "name": "pullinutt",
-      "songs": 9
+      "songs": 9,
+      "uppsattningar": 1
     },
     {
       "name": "rosetta",
-      "songs": 12
+      "songs": 12,
+      "uppsattningar": 1
     },
     {
       "name": "sannladan",
-      "songs": 12
+      "songs": 12,
+      "uppsattningar": 1
     },
     {
       "name": "sketchetera",
-      "songs": 4
+      "songs": 4,
+      "uppsattningar": 1
     },
     {
       "name": "sketchistens",
-      "songs": 5
+      "songs": 5,
+      "uppsattningar": 1
     },
     {
       "name": "sketchofori",
-      "songs": 6
+      "songs": 6,
+      "uppsattningar": 1
     },
     {
       "name": "sketchofreni",
-      "songs": 5
+      "songs": 5,
+      "uppsattningar": 1
     },
     {
       "name": "sketchostrof",
-      "songs": 4
+      "songs": 4,
+      "uppsattningar": 1
     },
     {
       "name": "sketchup",
-      "songs": 5
+      "songs": 5,
+      "uppsattningar": 1
     },
     {
       "name": "sokrates",
-      "songs": 19
+      "songs": 19,
+      "uppsattningar": 1
     },
     {
       "name": "stalin",
-      "songs": 0
+      "songs": 64,
+      "uppsattningar": 4
     },
     {
       "name": "synden-molle",
-      "songs": 10
+      "songs": 10,
+      "uppsattningar": 1
     },
     {
       "name": "taget-balt",
-      "songs": 13
+      "songs": 13,
+      "uppsattningar": 1
     },
     {
       "name": "tjogun",
-      "songs": 0
+      "songs": 45,
+      "uppsattningar": 4
     },
     {
       "name": "tycho",
-      "songs": 14
+      "songs": 14,
+      "uppsattningar": 1
     }
   ]
 }
