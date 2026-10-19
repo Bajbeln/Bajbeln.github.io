@@ -61,12 +61,13 @@
   </style>{% endif %}
 </head>
 <body>
-  {% include "spex_page_header.html" %}
   {% include "settings.html" %}
+  <header>
+    {% include "spex_page_header.html" %}
 
-  <h2>{{ title }}</h2>
-  {%- set _facts = facts or factbox or info %}
-  <div class="page-header-actions">
+    <h2>{{ title }}</h2>
+    {%- set _facts = facts or factbox or info %}
+    <div class="page-header-actions">
     <button type="button" class="pagePillButton copyButton" onclick="copyLink()" aria-label="Kopiera länk till sida" title="Kopiera länk">Kopiera länk</button>
     <button type="button" class="pagePillButton random-page" onclick="goToRandomSong()" aria-label="Gå till en slumpmässig kuplett" title="Välj en slumpmässig kuplett">Räändom</button>
     <div class="page-header-actions-right">
@@ -90,6 +91,9 @@
       {%- endif %}
     </div>
   </div>
+  </header>
+
+  <main>
   <br><br>
 
   {%- if songs %}
@@ -115,6 +119,8 @@
   {%- else %}
 {{ content | safe }}
   {%- endif %}
+
+  </main>
 
   <script>
     // Collapsible song sections — find .content inside the same .song-block

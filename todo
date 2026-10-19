@@ -17,10 +17,8 @@
 
 ## Under huven
 - [ ] Ändra skriptet till Node.js?
-- [ ] Optimisera bilder (de är stora)
 - [ ] Implementera lazy loading för bilder och CSS?
 - [ ] Lägga till en service worker för offlinebruk 
-- [ ] Lägg till semantisk HTML
 - [ ] Implementera Cache headers?
 - [ ] Köra på egen domän?
 - [ ] Hosta någon annanstans än GitHub Pages?
@@ -38,3 +36,5 @@
 - [x] Återgå till de gamla ikonerna i inställningsmenyn
 - [x] Optimera `scripts/generate-og-images.sh` med inkrementell generering (körs manuellt, regenererar endast ändrade bilder)
 - [x] konvertera js till typescript? 
+- [x] Optimisera bilder (de är stora)
+- [x] Lägg till semantisk HTML

@@ -1,4 +1,22 @@
 /* ========================================
+   ACCESSIBILITY UTILITIES
+   ======================================== */
+
+/* Hide elements visually but keep them accessible to screen readers */
+.visually-hidden,
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ========================================
    GLOBAL VARIABLES
    ======================================== */
 
@@ -56,6 +74,15 @@
 /* ========================================
    BASE STYLES
    ======================================== */
+
+/* Reset semantic elements to display like divs to maintain existing layout */
+header, main, nav, aside, article, footer, address {
+  display: block;
+}
+
+aside, address {
+  font-style: normal;
+}
 
 * {
   font-family: 'Georgia', Times, serif;
@@ -145,7 +172,8 @@ th {
   padding: var(--spacing-xl);
 }
 
-.search-container input[type='text'] {
+.search-container input[type='text'],
+.search-container input[type='search'] {
   width: 100%;
   max-width: 400px;
   min-width: 230px;
@@ -158,12 +186,14 @@ th {
   font-size: var(--font-size-base);
 }
 
-.search-container input[type='text']:focus {
+.search-container input[type='text']:focus,
+.search-container input[type='search']:focus {
   border-color: var(--blue-search);
   box-shadow: 0 0 8px rgba(138, 201, 228, 0.5);
 }
 
-.search-container input[type='text']::placeholder {
+.search-container input[type='text']::placeholder,
+.search-container input[type='search']::placeholder {
   color: gray;
   font-size: var(--font-size-base);
 }

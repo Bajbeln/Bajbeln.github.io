@@ -35,23 +35,27 @@
   <script src="/scripts/settings.js" defer></script>
 </head>
 <body>
-  {% include "spex_page_header.html" %}
   {% include "settings.html" %}
+  <header>
+    {% include "spex_page_header.html" %}
 
-  <h2>{{ title }}</h2>
-  {%- if singer %}<p><i>({{ singer }})</i></p>{% endif %}
-  {%- if melody %}<p><i>Mel. {{ melody }}</i></p>{% endif %}
-  
-  <div class="song-content">
-    {{ content | markdownify | safe }}
-  </div>
-  
-  <br><br>
-  <a href="/gyttjeblottning/" class="back-link">← Tillbaka till Gyttjeblottning</a>
-  <br><br>
+    <h2>{{ title }}</h2>
+    {%- if singer %}<p><i>({{ singer }})</i></p>{% endif %}
+    {%- if melody %}<p><i>Mel. {{ melody }}</i></p>{% endif %}
+  </header>
 
-  <div id="footer-container">
-    {% include "footer.html" %}
-  </div>
+  <main>
+    <article class="song-content">
+      {{ content | markdownify | safe }}
+    </article>
+    
+    <br><br>
+    <nav><a href="/gyttjeblottning/" class="back-link">← Tillbaka till Gyttjeblottning</a></nav>
+    <br><br>
+
+    <div id="footer-container">
+      {% include "footer.html" %}
+    </div>
+  </main>
 </body>
 </html>

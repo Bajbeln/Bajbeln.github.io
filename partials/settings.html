@@ -1,28 +1,32 @@
-<div class="settings-container">
+<aside class="settings-container" role="complementary" aria-label="Inställningar">
   <button
     id="settings-button"
     onclick="openSettings()"
     aria-label="Öppna inställningar"
     title="Öppna inställningar"
+    aria-expanded="false"
+    aria-controls="settings-options"
   >
-    <i class="fa fa-cog" aria-hidden="true"></i>
+    <i class="fas fa-cog" aria-hidden="true"></i>
   </button>
-  <div id="settings-options" class="hide">
+  <div id="settings-options" class="hide" role="menu" aria-label="Inställningsalternativ">
     <button
       id="reading-mode-button"
       onclick="toggleReadingMode()"
       aria-label="Växla läsläge"
       title="Växla läsläge"
+      role="menuitem"
     >
-      <i class="fa fa-adjust" aria-hidden="true"></i>
+      <i class="fas fa-adjust" aria-hidden="true"></i>
     </button>
     <button
       id="dark-mode-button"
       onclick="toggleDarkMode()"
       aria-label="Växla mörkt läge"
       title="Växla mörkt läge"
+      role="menuitem"
     >
-      <i class="fa fa-moon" aria-hidden="true"></i>
+      <i class="fas fa-moon" aria-hidden="true"></i>
     </button>
   </div>
-</div>
+</aside>

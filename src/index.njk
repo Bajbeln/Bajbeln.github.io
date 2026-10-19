@@ -47,29 +47,35 @@ eleventyExcludeFromCollections: true
 
 <body>
   {% include "settings.html" %}
-  <div id="main_page_header">
-    {% include "main_page_header.html" %}
-  </div>
+  <header>
+    <nav id="main_page_header">
+      {% include "main_page_header.html" %}
+    </nav>
 
-  <a href="/">
-    <img src="/assets/images/logga.webp" width="180" height="200" alt="Spexloggan" class="spex-logo">
-  </a>
-  <h1><a href="/"> Krischanstaspääxets<br>Sajber-Bajbel</a></h1>
+    <a href="/">
+      <img src="/assets/images/logga.webp" width="180" height="200" alt="Spexloggan" class="spex-logo">
+    </a>
+    <h1><a href="/"> Krischanstaspääxets<br>Sajber-Bajbel</a></h1>
 
-  <div class="main-btn-row">
-    <!-- <button class="mainPillButton install-btn" onclick="installApp()" aria-label="Lägg till hemskärm" hidden>Lägg till hemskärm</button> -->
-    <button type="button" class="mainPillButton copyButton copy-main" onclick="copyMainLink()" aria-label="Kopiera länk till sida" title="Kopiera länk">Kopiera länk</button>
-    <button type="button" class="mainPillButton random" aria-label="Välj en slumpmässig kuplett" title="Välj en slumpmässig kuplett">Räändom</button>
-  </div>
-  <br>
+    <div class="main-btn-row">
+      <!-- <button class="mainPillButton install-btn" onclick="installApp()" aria-label="Lägg till hemskärm" hidden>Lägg till hemskärm</button> -->
+      <button type="button" class="mainPillButton copyButton copy-main" onclick="copyMainLink()" aria-label="Kopiera länk till sida" title="Kopiera länk">Kopiera länk</button>
+      <button type="button" class="mainPillButton random" aria-label="Välj en slumpmässig kuplett" title="Välj en slumpmässig kuplett">Räändom</button>
+    </div>
+  </header>
 
-  {%- for entry in spexlist %}
-  <a href="{{ entry.url }}" class="button">{% if entry.italic %}<i>{{ entry.label }}</i>{% else %}{{ entry.label }}{% endif %}</a>
-  <br>
-{% endfor %}
+  <main>
+    <br>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
+    {%- for entry in spexlist %}
+    <a href="{{ entry.url }}" class="button">{% if entry.italic %}<i>{{ entry.label }}</i>{% else %}{{ entry.label }}{% endif %}</a>
+    <br>
+    {% endfor %}
+
+  </main>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
     var searchForm = document.getElementById('search-form');
     if (searchForm) {
       searchForm.addEventListener('submit', function(event) {
