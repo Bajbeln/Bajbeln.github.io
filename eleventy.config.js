@@ -1,27 +1,13 @@
 const markdownIt = require("markdown-it");
+const {
+  preprocessBlankLines,
+  flattenParagraphs,
+  slugify,
+  escHtml,
+} = require("./utils/markdown-helpers.js");
 
 // markdown-it instance used both globally and inside the song shortcode
 const mdLib = markdownIt({ html: true, breaks: true });
-
-// Preserve runs of 2+ blank lines before markdown-it collapses them.
-// N blank lines in source → N visual empty lines in output.
-// Each extra blank line beyond the first is injected as a standalone <br>
-// HTML block, which passes through flattenParagraphs unchanged.
-function preprocessBlankLines(src) {
-  return src.replace(/\n{3,}/g, (match) => {
-    const extraBlanks = match.length - 2;
-    return "\n\n" + Array(extraBlanks).fill("<br>").join("\n\n") + "\n\n";
-  });
-}
-
-// Flatten markdown's <p>...</p> blocks into <br><br>-separated content so
-// stanza spacing matches the <br>-only semantics used inside columns and in
-// the legacy HTML pages — one blank line in source = one empty visual line.
-function flattenParagraphs(html) {
-  return html
-    .replace(/<p>([\s\S]*?)<\/p>\s*/g, (_, inner) => inner.trim() + "<br><br>\n")
-    .replace(/(<br>\s*)+$/, "");
-}
 
 // Custom block rule for multi-column lyrics:
 //   ::: cols
@@ -99,25 +85,6 @@ mdLib.use(colsPlugin);
 // Patch render so every call (shortcodes, Eleventy template pipeline) preserves blank lines.
 const origRender = mdLib.render.bind(mdLib);
 mdLib.render = (src, env) => origRender(preprocessBlankLines(src), env);
-
-function slugify(str) {
-  return str
-    .toLowerCase()
-    .replace(/å/g, "a").replace(/ä/g, "a").replace(/ö/g, "o")
-    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^\w\s-]/g, "")
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-")
-    .trim();
-}
-
-function escHtml(str) {
-  return (str || "")
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
-}
 
 module.exports = function (eleventyConfig) {
   // Use the same markdown-it instance globally

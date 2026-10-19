@@ -7,10 +7,14 @@
     "start": "eleventy --serve",
     "build:watch": "eleventy --watch",
     "generate:og-images": "bash scripts/generate-og-images.sh",
-    "build:all": "npm run generate:og-images && npm run build"
+    "build:all": "npm run generate:og-images && npm run build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "markdown-it": "^14.0.0"
+    "markdown-it": "^14.0.0",
+    "vitest": "^1.0.0"
   }
 }
