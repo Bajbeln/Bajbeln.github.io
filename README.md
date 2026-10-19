@@ -1,6 +1,6 @@
 # Bajbeln
 
-![Bajbeln](assets/images/logga.webp)
+<img src="assets/images/logga.webp" alt="Bajbeln" style="height: 45%" />
 
 Tillgänglig på [bajbeln.github.io](https://bajbeln.github.io/)
 
