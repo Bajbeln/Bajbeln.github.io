@@ -10,7 +10,7 @@
 Tillgänglig på [bajbeln.github.io](https://bajbeln.github.io/)
 
 ## Kontakt/förslag
-I [denna enkät](https://forms.gle/xMGhpRM44DPYhipG7) kan du fylla i om du tycker att något saknas, fungerar mindre bra eller bara borde implementeras i Bajbeln!
+I [denna enkät](https://forms.gle/xMGhpRM44DPYhipG7) kan du fylla i om du tycker att något saknas, fungerar mindre bra eller bara borde implementeras i Bajbeln! På [todo](https://github.com/Bajbeln/Bajbeln.github.io/blob/main/todo) finns idéer och tankar som redan finns hos oss.
 
 ## Låtar
 
@@ -76,7 +76,7 @@ GitHub Pages. Arbetsflödet
 Eleventy och distribuerar den genererade mappen `_site/`. En ny publicering
 sker automatiskt när ändringar pushas till `main`.
 
-## På gång & kända fel (mer på `todo`)
+## På gång & kända fel (mer på [todo](https://github.com/Bajbeln/Bajbeln.github.io/blob/main/todo))
 
 - Korrläsning av alla spex (på gång)
 
