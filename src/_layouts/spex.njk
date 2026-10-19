@@ -45,9 +45,11 @@
       }
     })();
   </script>
-  <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="preload" href="/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/style.css"></noscript>
   {% include "favicons.html" %}
+  <script src="/scripts/lazy-load-polyfill.js" defer></script>
+  <script src="/scripts/lazy-css.js" defer></script>
   <script src="/scripts/songIndexCache.js" defer></script>
   <script src="/scripts/searchscript.js" defer></script>
   <script src="/scripts/pagescript.js" defer></script>
@@ -84,7 +86,7 @@
       {%- if _facts %}
       <div class="fact-wrapper">
         <button type="button" class="pageRoundButton factButton" onclick="toggleFactBubble(this)" aria-label="Fakta om spexet" aria-expanded="false">
-          <img class="icon-lightbulb" src="/assets/images/spex-fact-button.webp" width="27" alt="">
+          <img class="icon-lightbulb" src="/assets/images/spex-fact-button.webp" width="27" alt="" loading="lazy">
         </button>
         <div class="fact-bubble">{{ _facts | markdownify | safe }}</div>
       </div>
@@ -106,7 +108,7 @@
       <br>
       <div class="uppsattning-header">
         <h2 class="uppsattning-heading" id="{{ _sectionId }}">{{ u.label }}</h2>
-        <button type="button" class="uppsattning-link-btn" onclick="copyUppLink(this, '{{ _sectionId }}')" aria-label="Kopiera länk till {{ u.label }}" title="Kopiera länk till avdelningen"><img src="/assets/images/song-link-button.webp" class="song-link-icon" alt="Kopiera länk"></button>
+        <button type="button" class="uppsattning-link-btn" onclick="copyUppLink(this, '{{ _sectionId }}')" aria-label="Kopiera länk till {{ u.label }}" title="Kopiera länk till avdelningen"><img src="/assets/images/song-link-button.webp" class="song-link-icon" alt="Kopiera länk" loading="lazy"></button>
       </div>
       <br>
       {%- set groupSongs = collections.songs | songsForSpex(u.id) %}

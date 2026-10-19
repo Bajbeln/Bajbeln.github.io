@@ -160,7 +160,7 @@ export default function (eleventyConfig: UserConfig): EleventyReturnConfig {
     const headerBlock = header ? `<br>\n${header}<br>\n` : '<br>\n';
 
     const linkIconHtml =
-      '<img src="/assets/images/song-link-button.webp" alt="Kopiera länk" class="song-link-icon">';
+      '<img src="/assets/images/song-link-button.webp" alt="Kopiera länk" class="song-link-icon" loading="lazy">';
 
     return `<div class="song-block">
   <div class="song-header">
@@ -226,7 +226,7 @@ export default function (eleventyConfig: UserConfig): EleventyReturnConfig {
     const headerBlock = header ? `<br>\n${header}<br>\n` : '<br>\n';
 
     const linkIconHtml =
-      '<img src="/assets/images/song-link-button.webp" alt="Kopiera länk" class="song-link-icon">';
+      '<img src="/assets/images/song-link-button.webp" alt="Kopiera länk" class="song-link-icon" loading="lazy">';
 
     return `<div class="song-block">
   <div class="song-header">

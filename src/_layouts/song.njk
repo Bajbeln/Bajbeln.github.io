@@ -29,8 +29,11 @@
       } catch(e) {}
     })();
   </script>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="preload" href="/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/style.css"></noscript>
   {% include "favicons.html" %}
+  <script src="/scripts/lazy-load-polyfill.js" defer></script>
+  <script src="/scripts/lazy-css.js" defer></script>
   <script src="/scripts/songIndexCache.js" defer></script>
   <script src="/scripts/settings.js" defer></script>
 </head>
