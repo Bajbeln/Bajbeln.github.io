@@ -1,7 +1,6 @@
 # Bajbeln
 ![Made with Eleventy](https://img.shields.io/badge/Made%20with-11ty-000?logo=11ty&logoColor=fff)
 [![Node.js](https://img.shields.io/badge/Node.js-24+-green)](https://nodejs.org/)
-[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-bajbeln.github.io-blue)](https://bajbeln.github.io/)
 ![Uppsättningar](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Bajbeln/Bajbeln.github.io/main/src/_data/stats.json&query=$.uppsattningarCount&label=Uppsättningar&color=blue)
 ![Kupletter](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Bajbeln/Bajbeln.github.io/main/src/_data/stats.json&query=$.songCount&label=Kupletter&color=green)
 ![Last commit](https://img.shields.io/github/last-commit/Bajbeln/Bajbeln.github.io?label=Updated)
