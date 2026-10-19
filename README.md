@@ -10,7 +10,7 @@
 Tillgänglig på [bajbeln.github.io](https://bajbeln.github.io/)
 
 ## Kontakt/förslag
-I [denna enkät](https://forms.gle/xMGhpRM44DPYhipG7) kan du fylla i om du tycker att något saknas, fungerar mindre bra eller bara borde implementeras i Bajbeln!
+I [denna enkät](https://forms.gle/xMGhpRM44DPYhipG7) kan du fylla i om du tycker att något saknas, fungerar mindre bra eller bara borde läggas till i Sajber-Bajbeln!
 
 ## Låtar
 
@@ -43,14 +43,12 @@ Glöm inte att du gärna får lägga till källfilen i
 
 Mer information finns i:
 
-- [Utvecklarmanualen](./docs/dev-manual.md)
-- [Kvalitetskontroll av sångtexter](./docs/songtext-quality-control.md)
-- [Kontroll av sidor](./docs/page-check.md)
-- [Attributioner](./attributions.md)
+- [Developer Manual](./docs/dev-manual.md)
+- [Attributions](./ATTRIBUTIONS.md)
 
 ## För utvecklare
 
-Kräver **Node.js 18 eller nyare** (rekommenderat: 24). npm ingår i Node.js.
+Kräver **Node.js 24+**. npm ingår i Node.js.
 
 För att köra igång appen kör:
 
@@ -59,26 +57,14 @@ npm install   # krävs första gången
 npm run start
 ```
 
-> **Notera:** OG-bilder (Open Graph) genereras **inte** automatiskt. Kör `npm run generate:og-images` manuellt efter ändringar (t.ex. nya spex eller ändrade färger). Skriptet är **inkrementellt** – det regenererar endast nya eller ändrade bilder. Använd `npm run generate:og-images -- --force` för att regenerera alla bilder.
->
-> **Systemkrav för OG-bilder:** Skriptet kräver ImageMagick och jq. Installera med:
->
-> - **macOS (Homebrew):** `brew install imagemagick jq`
-> - **Linux (Debian/Ubuntu):** `sudo apt-get install imagemagick jq`
-> - **Linux (Fedora/RHEL):** `sudo dnf install ImageMagick jq`
->   xargs och stat ingår normalt i Unix-lika system.
-
 ## Publicering
 
 Webbplatsen publiceras på [bajbeln.github.io](https://bajbeln.github.io/) med
-GitHub Pages. Arbetsflödet
-[`deploy_try.yml`](./.github/workflows/deploy_try.yml) bygger webbplatsen med
+GitHub Pages. [`deploy_try.yml`](./.github/workflows/deploy_try.yml) bygger webbplatsen med
 Eleventy och distribuerar den genererade mappen `_site/`. En ny publicering
 sker automatiskt när ändringar pushas till `main`.
 
-## På gång & kända fel (mer på `todo`)
-
-- Korrläsning av alla spex (på gång)
+## På gång & kända fel (se `todo`)
 
 ## Tack till
 

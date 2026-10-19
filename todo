@@ -22,6 +22,8 @@
 - [ ] Lägga till en service worker för offlinebruk 
 - [ ] Lägg till semantisk HTML
 - [ ] Implementera Cache headers?
+- [ ] Köra på egen domän?
+- [ ] Hosta någon annanstans än GitHub Pages?
 
 ## Kvalitetssäkring
 - [ ] Korrläs alla spex - automatiskt flaggade "fel" finns i `/docs/songtext-quality-control`
