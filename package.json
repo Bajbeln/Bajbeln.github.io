@@ -1,8 +1,11 @@
 {
   "name": "bajbeln",
   "version": "1.0.0",
+  "type": "module",
   "description": "Krischanstaspääxets Sajber-Bajbel",
   "scripts": {
+    "prebuild": "npm run generate:stats && npm run generate:og-images",
+    "prestart": "npm run generate:stats && npm run generate:og-images",
     "build": "tsx ./node_modules/.bin/eleventy --config=eleventy.config.ts",
     "build:dev": "tsx ./node_modules/.bin/eleventy --config=eleventy.config.ts --serve --incremental",
     "build:watch": "tsx ./node_modules/.bin/eleventy --config=eleventy.config.ts --watch --incremental",
