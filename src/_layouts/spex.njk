@@ -44,6 +44,8 @@
         // localStorage may be unavailable in privacy-restricted browsers.
       }
     })();
+    // Disable smooth scroll restoration to prevent scrolling animation when navigating back
+    history.scrollRestoration = 'manual';
   </script>
   <link rel="preload" href="/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="/style.css"></noscript>
