@@ -14,7 +14,7 @@
 - [ ] Tjockare logga i icon (inte på sidorna)
 - [ ] Expandera alla-knappen verkar inte ha rätt borders på mobil (kanske fixad?)  
 ## Under huven
-- [ ] Göra så att `scripts/generate-og-images.sh` körs automatiskt vid eleventy/push - eller optimera
+- [ ] Ändra skriptet till Node.js?
 
 ## Kvalitetssäkring
 - [ ] Korrläs alla spex - automatiskt flaggade "fel" finns i `/docs/songtext-quality-control`
@@ -27,3 +27,4 @@
 - [x] Går det att göra så att förhandsgranskningsbilden för sidan (på ex. messenger) bilr skarpare?
 - [x] Se över alla icons - For optimal PWA display across all devices, you could add 16×16, 32×32, 128×128, and 152×152 sizes - but browsers will scale your existing icons.
 - [x] Återgå till de gamla ikonerna i inställningsmenyn
+- [x] Optimera `scripts/generate-og-images.sh` med inkrementell generering (körs manuellt, regenererar endast ändrade bilder)

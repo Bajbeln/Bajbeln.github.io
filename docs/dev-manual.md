@@ -476,7 +476,7 @@ OG-bilder (1200×630 px) genereras för startsidan och varje spex och används f
 
 ### Generering
 
-OG-bilder **genereras inte automatiskt** under utveckling. Kör manuellt:
+OG-bilder **genereras inte automatiskt** under utveckling eller vid byggtid. Kör manuellt:
 
 ```
 npm run generate:og-images
@@ -487,13 +487,32 @@ Detta kör `scripts/generate-og-images.sh` som:
 2. Skapar spex-specifika OG-bilder (`og-{spex-namn}.png`) med bakgrundsfärgen från varje spex `{namn}.json`-fil (fältet `color`)
 3. Kopierar `og-image.png` till `assets/images/og-image.png` (huvud-OG-bilden)
 
-**Krav:** ImageMagick (`magick`) och `jq` måste vara installerade på systemet.
+**Inkrementell generering:** Skriptet regenererar endast bilder som saknas eller där källfilerna (JSON-filer med färger eller loggan) är nyare än utdatafilen. Detta gör körningen snabb även för stora ändringar.
+
+För att tvinga regenerering av alla bilder (t.ex. efter ändringar i skriptet själv):
+
+```
+npm run generate:og-images -- --force
+```
+
+**Systemkrav:** ImageMagick (`magick`) och `jq` måste vara installerade på systemet.
+
+Installationsinstruktioner:
+
+| System | Kommando |
+|---|---|
+| **macOS** (Homebrew) | `brew install imagemagick jq` |
+| **Linux** (Debian/Ubuntu) | `sudo apt-get update && sudo apt-get install imagemagick jq` |
+| **Linux** (Fedora/RHEL) | `sudo dnf install ImageMagick jq` |
+| **Windows** (WSL) | `sudo apt-get update && sudo apt-get install imagemagick jq` |
+
+**Notering:** `xargs` och `stat` ingår normalt i alla Unix-lika system (macOS, Linux, WSL) och behöver inte installeras separat.
 
 ### Anpassning
 
 Färgen för varje spex OG-bild hämtas från `color`-fältet i spexets `{namn}.json`-fil. Loggan (`assets/images/logga.png`) placeras centrerat vertikalt med 41px marginaler överst och underst.
 
-Om du lägger till ett nytt spex, kör `npm run generate:og-images` och commit:ta de nya OG-bilderna.
+Om du lägger till ett nytt spex, kör `npm run generate:og-images` och commit:ta de nya OG-bilderna. Om du bara ändrar en färger i ett befintligt spex, kommer skriptet endast att regenerera den specifika OG-bilden.
 
 ---
 

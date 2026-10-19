@@ -45,7 +45,13 @@ npm install   # krävs första gången
 npm run start
 ```
 
-> **Notera:** OG-bilder (Open Graph) genereras **inte** automatiskt. Kör `npm run generate:og-images` manuellt efter ändringar som kräver nya OG-bilder.
+> **Notera:** OG-bilder (Open Graph) genereras **inte** automatiskt. Kör `npm run generate:og-images` manuellt efter ändringar (t.ex. nya spex eller ändrade färger). Skriptet är **inkrementellt** – det regenererar endast nya eller ändrade bilder. Använd `npm run generate:og-images -- --force` för att regenerera alla bilder.
+>
+> **Systemkrav för OG-bilder:** Skriptet kräver ImageMagick och jq. Installera med:
+> - **macOS (Homebrew):** `brew install imagemagick jq`
+> - **Linux (Debian/Ubuntu):** `sudo apt-get install imagemagick jq`
+> - **Linux (Fedora/RHEL):** `sudo dnf install ImageMagick jq`
+> xargs och stat ingår normalt i Unix-lika system.
 
 ## Publicering
 Webbplatsen publiceras på [bajbeln.github.io](https://bajbeln.github.io/) med
