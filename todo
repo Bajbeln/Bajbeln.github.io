@@ -16,12 +16,11 @@
 - [ ] Expandera alla-knappen verkar inte ha rätt borders på mobil (kanske fixad?)  
 
 ## Under huven
-- [ ] Ändra skriptet till Node.js?
-- [ ] Implementera lazy loading för bilder och CSS?
-- [ ] Lägga till en service worker för offlinebruk 
+- [ ] Ändra skriptet till Node.js? 
 - [ ] Implementera Cache headers?
 - [ ] Köra på egen domän?
 - [ ] Hosta någon annanstans än GitHub Pages?
+- [ ] Lägga till att chacha hela webbsidan vid tillägg till hemskärm?
 
 ## Kvalitetssäkring
 - [ ] Korrläs alla spex - automatiskt flaggade "fel" finns i `/docs/songtext-quality-control`
@@ -38,3 +37,5 @@
 - [x] konvertera js till typescript? 
 - [x] Optimisera bilder (de är stora)
 - [x] Lägg till semantisk HTML
+- [x] Implementera lazy loading för bilder och CSS?
+- [x] Lägga till en service worker för offlinebruk
