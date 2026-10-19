@@ -2,6 +2,19 @@
 
 Tillgänglig på [bajbeln.github.io](https://bajbeln.github.io/)
 
+![Made with Eleventy](https://img.shields.io/badge/Made%20with-11ty-000?logo=11ty&logoColor=fff)
+[![Node.js](https://img.shields.io/badge/Node.js-24+-green)](https://nodejs.org/)
+![Nunjucks](https://img.shields.io/badge/Nunjucks-3.x-brightgreen)
+
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-bajbeln.github.io-blue)](https://bajbeln.github.io/)
+![GitHub repo size](https://img.shields.io/github/repo-size/Bajbeln/Bajbeln.github.io)
+![Code size](https://img.shields.io/github/languages/code-size/Bajbeln/Bajbeln.github.io)
+![Spääx](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Bajbeln/Bajbeln.github.io/main/src/_data/stats.json&query=$.spexCount&label=Spex&color=blue)
+![Kupletter](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Bajbeln/Bajbeln.github.io/main/src/_data/stats.json&query=$.songCount&label=Låtar&color=green)
+
+![Last commit](https://img.shields.io/github/last-commit/Bajbeln/Bajbeln.github.io?label=Updated)
+![Repo created](https://img.shields.io/github/created-at/Bajbeln/Bajbeln.github.io)
+
 ## Kontakt
 
 ## Låtar
