@@ -9,7 +9,7 @@
   <meta property="og:title" content="{{ tabTitle or title }} - Bajbeln">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://bajbeln.github.io{{ page.url }}">
-  <meta property="og:description" content="En samling spex och kupletter från Krischanstaspääxets Sajber-Bajbel">
+  <meta property="og:description" content="Krischanstaspääxets Sajber-Bajbel">
   {%- set ogSpex = spex %}
   {%- if not ogSpex and page.url and page.url != '/' %}
     {%- set urlPath = page.url | replace('/index.html', '') | replace('/', '') %}
@@ -27,7 +27,7 @@
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ tabTitle or title }} - Bajbeln">
-  <meta name="twitter:description" content="En samling spex och kupletter från Krischanstaspääxets Sajber-Bajbel">
+  <meta name="twitter:description" content="Krischanstaspääxets Sajber-Bajbel">
   {% if color and ogSpex %}
   <meta name="twitter:image" content="https://bajbeln.github.io/assets/images/og/og-{{ ogSpex }}.png">
   {% else %}
