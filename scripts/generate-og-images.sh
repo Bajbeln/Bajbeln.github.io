@@ -3,12 +3,14 @@
 # Generate OG (Open Graph) images for spex pages
 # Usage: bash scripts/generate-og-images.sh [--force]
 #
-# This script creates PNG OG images (1200x630) for:
-# 1. The default/main page (og-image.png) with neutral background rgb(210,231,250)
+# This script creates WebP OG images (1200x630) for:
+# 1. The default/main page (og-image.webp) with neutral background rgb(210,231,250)
 # 2. Each spex with a custom color defined in its JSON file
 #
 # Images are saved in: assets/images/og/
-# The default og-image.png is also copied to: assets/images/og-image.png
+# The default og-image.webp is also copied to: assets/images/og-image.webp
+#
+# WebP quality: 85 (good balance between size and quality, ~90% smaller than 16-bit PNG)
 #
 # By default, this script only regenerates images when:
 #   - The image doesn't exist yet
@@ -23,7 +25,7 @@ set -e
 
 OG_DIR="assets/images/og"
 SPEX_DIR="src/spex"
-LOGO="assets/images/logga.png"
+LOGO="assets/images/logga.webp"
 
 # Target dimensions
 CANVAS_WIDTH=1200
@@ -116,7 +118,7 @@ generate_og() {
     local spex_name="$1"
     local bg_color="$2"
     local source_file="$3"  # The JSON file that defines the color
-    local output="${OG_DIR}/og-${spex_name}.png"
+    local output="${OG_DIR}/og-${spex_name}.webp"
     
     # Check if we need to regenerate
     if needs_regenerate "$output" "$source_file"; then
@@ -126,6 +128,7 @@ generate_og() {
             \( "$LOGO" -resize ${LOGO_WIDTH}x${LOGO_HEIGHT} \) \
             -geometry +${LOGO_X}+${LOGO_Y} \
             -composite \
+            -quality 85 \
             "$output" 2>/dev/null
     else
         echo "  → ${spex_name}: ${bg_color} (up-to-date, skipping)"
@@ -139,9 +142,9 @@ export -f needs_regenerate
 # Export variables needed by the functions
 export OG_DIR CANVAS_WIDTH CANVAS_HEIGHT LOGO LOGO_WIDTH LOGO_HEIGHT LOGO_X LOGO_Y FORCE_REGENERATE
 
-# Generate default og-image.png (neutral/main page version)
+# Generate default og-image.webp (neutral/main page version)
 # Background: rgb(210,231,250) - same as original og-image.png
-DEFAULT_OUTPUT="${OG_DIR}/og-image.png"
+DEFAULT_OUTPUT="${OG_DIR}/og-image.webp"
 
 echo "Checking default OG image..."
 if needs_regenerate "$DEFAULT_OUTPUT" "$LOGO"; then
@@ -150,9 +153,10 @@ if needs_regenerate "$DEFAULT_OUTPUT" "$LOGO"; then
         \( "$LOGO" -resize ${LOGO_WIDTH}x${LOGO_HEIGHT} \) \
         -geometry +${LOGO_X}+${LOGO_Y} \
         -composite \
+        -quality 85 \
         "$DEFAULT_OUTPUT" 2>/dev/null
-    # Also copy to assets/images/ as the main og-image.png
-    cp "$DEFAULT_OUTPUT" assets/images/og-image.png
+    # Also copy to assets/images/ as the main og-image.webp
+    cp "$DEFAULT_OUTPUT" assets/images/og-image.webp
 else
     echo "  → Default OG image: up-to-date, skipping"
 fi

@@ -20,7 +20,6 @@
 - [ ] Optimisera bilder (de är stora)
 - [ ] Implementera lazy loading för bilder och CSS?
 - [ ] Lägga till en service worker för offlinebruk 
-- [ ] konvertera js till typescript? 
 - [ ] Lägg till semantisk HTML
 - [ ] Implementera Cache headers?
 
@@ -36,3 +35,4 @@
 - [x] Se över alla icons - For optimal PWA display across all devices, you could add 16×16, 32×32, 128×128, and 152×152 sizes - but browsers will scale your existing icons.
 - [x] Återgå till de gamla ikonerna i inställningsmenyn
 - [x] Optimera `scripts/generate-og-images.sh` med inkrementell generering (körs manuellt, regenererar endast ändrade bilder)
+- [x] konvertera js till typescript? 

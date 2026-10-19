@@ -16,9 +16,9 @@
     {%- set ogSpex = urlPath %}
   {%- endif %}
   {% if color and ogSpex %}
-  <meta property="og:image" content="https://bajbeln.github.io/assets/images/og/og-{{ ogSpex }}.png">
+  <meta property="og:image" content="https://bajbeln.github.io/assets/images/og/og-{{ ogSpex }}.webp">
   {% else %}
-  <meta property="og:image" content="https://bajbeln.github.io/assets/images/og-image.png">
+  <meta property="og:image" content="https://bajbeln.github.io/assets/images/og-image.webp">
   {% endif %}
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -29,9 +29,9 @@
   <meta name="twitter:title" content="{{ tabTitle or title }} - Bajbeln">
   <meta name="twitter:description" content="Krischanstaspääxets Sajber-Bajbel">
   {% if color and ogSpex %}
-  <meta name="twitter:image" content="https://bajbeln.github.io/assets/images/og/og-{{ ogSpex }}.png">
+  <meta name="twitter:image" content="https://bajbeln.github.io/assets/images/og/og-{{ ogSpex }}.webp">
   {% else %}
-  <meta name="twitter:image" content="https://bajbeln.github.io/assets/images/og-image.png">
+  <meta name="twitter:image" content="https://bajbeln.github.io/assets/images/og-image.webp">
   {% endif %}
   
   <script>
