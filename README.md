@@ -9,7 +9,8 @@
 
 Tillgänglig på [bajbeln.github.io](https://bajbeln.github.io/)
 
-## Kontakt
+## Kontakt/förslag
+I [denna enkät](https://forms.gle/xMGhpRM44DPYhipG7) kan du fylla i om du tycker att något saknas, fungerar mindre bra eller bara borde implementeras i Bajbeln!
 
 ## Låtar
 
