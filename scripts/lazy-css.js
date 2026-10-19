@@ -8,10 +8,6 @@ function loadFontAwesome() {
   const link = document.createElement('link');
   link.rel = 'stylesheet';
   link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css';
-  link.media = 'print';
-  link.onload = function() {
-    this.media = 'all';
-  };
   document.head.appendChild(link);
 }
 
