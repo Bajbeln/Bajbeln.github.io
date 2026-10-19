@@ -3,13 +3,19 @@
  * Can be used both client-side and server-side
  */
 
+interface SearchableItem {
+  title: string;
+  content?: string;
+  path?: string;
+}
+
 /**
  * Simple case-insensitive search
- * @param {Array<{title: string, content?: string, path?: string}>} items - Array of items to search
- * @param {string} query - Search query
- * @returns {Array} Filtered items matching the query
+ * @param items - Array of items to search
+ * @param query - Search query
+ * @returns Filtered items matching the query
  */
-export function searchItems(items, query) {
+export function searchItems(items: SearchableItem[], query: string): SearchableItem[] {
   if (!query || query.trim() === '') {
     return items || [];
   }
@@ -20,7 +26,7 @@ export function searchItems(items, query) {
 
   const lowerQuery = query.toLowerCase();
 
-  return items.filter((item) => {
+  return items.filter((item): boolean => {
     if (!item) return false;
 
     // Search in title
@@ -41,20 +47,20 @@ export function searchItems(items, query) {
 
 /**
  * Search specifically for songs
- * @param {Array} songIndex - Array of song objects
- * @param {string} query - Search query
- * @returns {Array} Matching songs
+ * @param songIndex - Array of song objects
+ * @param query - Search query
+ * @returns Matching songs
  */
-export function searchSongs(songIndex, query) {
+export function searchSongs(songIndex: SearchableItem[], query: string): SearchableItem[] {
   return searchItems(songIndex, query);
 }
 
 /**
  * Normalize Swedish characters for better search
- * @param {string} text - Text to normalize
- * @returns {string} Normalized text
+ * @param text - Text to normalize
+ * @returns Normalized text
  */
-export function normalizeSwedish(text) {
+export function normalizeSwedish(text: string): string {
   return text
     .toLowerCase()
     .replace(/å/g, 'a')
@@ -63,10 +69,3 @@ export function normalizeSwedish(text) {
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '');
 }
-
-// Export for CommonJS
-module.exports = {
-  searchItems,
-  searchSongs,
-  normalizeSwedish,
-};

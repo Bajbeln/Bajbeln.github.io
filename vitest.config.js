@@ -9,7 +9,7 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       reporter: ['text', 'json', 'html'],
-      include: ['src/**/*', 'eleventy.config.js', 'utils/**/*', 'scripts/**/*.js'],
+      include: ['src/**/*', 'eleventy.config.ts', 'utils/**/*', 'scripts/**/*.js'],
       exclude: ['node_modules/', 'tests/', '_site/', '*.min.js'],
     },
     setupFiles: ['./tests/setup.js'],

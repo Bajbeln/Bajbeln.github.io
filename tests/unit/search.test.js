@@ -2,7 +2,7 @@
  * Unit tests for search.js utility functions
  */
 import { describe, it, expect } from 'vitest';
-import { searchItems, searchSongs, normalizeSwedish } from '../../utils/search.js';
+import { searchItems, searchSongs, normalizeSwedish } from '../../utils/search.ts';
 
 // Mock song data for testing
 const mockSongs = [

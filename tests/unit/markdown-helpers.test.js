@@ -4,7 +4,7 @@ import {
   escHtml,
   flattenParagraphs,
   preprocessBlankLines,
-} from '../../utils/markdown-helpers.js';
+} from '../../utils/markdown-helpers.ts';
 
 describe('slugify', () => {
   it('converts to lowercase', () => {

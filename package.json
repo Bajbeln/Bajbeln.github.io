@@ -3,23 +3,26 @@
   "version": "1.0.0",
   "description": "Krischanstaspääxets Sajber-Bajbel",
   "scripts": {
-    "build": "eleventy",
-    "build:dev": "eleventy --serve --incremental",
-    "build:watch": "eleventy --watch --incremental",
+    "build": "node --import tsx/esm ./node_modules/.bin/eleventy --config=eleventy.config.ts",
+    "build:dev": "node --import tsx/esm ./node_modules/.bin/eleventy --config=eleventy.config.ts --serve --incremental",
+    "build:watch": "node --import tsx/esm ./node_modules/.bin/eleventy --config=eleventy.config.ts --watch --incremental",
     "start": "npm run build:dev",
     "generate:og-images": "bash scripts/generate-og-images.sh",
     "build:all": "npm run generate:og-images && npm run build",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
-    "lint": "eslint . --ext .js,.cjs,.mjs",
-    "lint:fix": "eslint . --ext .js,.cjs,.mjs --fix",
+    "lint": "eslint . --ext .js,.cjs,.mjs,.ts",
+    "lint:fix": "eslint . --ext .js,.cjs,.mjs,.ts --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "typecheck": "echo 'TypeScript not yet configured - run npm install typescript @types/node to enable'"
+    "typecheck": "tsc --noEmit",
+    "typecheck:watch": "tsc --noEmit --watch"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "@types/markdown-it": "^14.2.0",
+    "@types/node": "^26.6.5",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
@@ -27,6 +30,8 @@
     "markdown-it": "^14.0.0",
     "node-cache": "^5.1.2",
     "prettier": "^3.2.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
     "vitest": "^1.0.0"
   }
 }

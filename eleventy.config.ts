@@ -1,13 +1,14 @@
-const markdownIt = require('markdown-it');
-const {
+import markdownIt from 'markdown-it';
+import {
   preprocessBlankLines,
   flattenParagraphs,
   slugify,
   escHtml,
-} = require('./utils/markdown-helpers.js');
+} from './utils/markdown-helpers';
+import type { UserConfig, EleventyReturnConfig } from './types/eleventy';
 
 // Cache for expensive operations
-const NodeCache = require('node-cache');
+import NodeCache from 'node-cache';
 const markdownCache = new NodeCache({ stdTTL: 60 * 60, checkperiod: 120 });
 
 // markdown-it instance used both globally and inside the song shortcode
@@ -20,9 +21,9 @@ const mdLib = markdownIt({ html: true, breaks: true });
 //   right-column markdown
 //   :::
 // Renders as <div class="row"><div class="column">...</div>...</div>.
-function colsPlugin(md) {
-  function colsRule(state, startLine, endLine, silent) {
-    const lineText = (i) =>
+function colsPlugin(md: any): void {
+  function colsRule(state: any, startLine: number, endLine: number, silent: boolean): boolean {
+    const lineText = (i: number): string =>
       state.src.slice(state.bMarks[i] + state.tShift[i], state.eMarks[i]).trim();
 
     if (lineText(startLine) !== '::: cols') return false;
@@ -37,7 +38,7 @@ function colsPlugin(md) {
     }
     if (closeLine === -1) return false;
 
-    const columns = [[]];
+    const columns: string[][] = [[]];
     for (let i = startLine + 1; i < closeLine; i++) {
       if (lineText(i) === '::: col') {
         columns.push([]);
@@ -90,13 +91,13 @@ mdLib.use(colsPlugin);
 
 // Patch render so every call (shortcodes, Eleventy template pipeline) preserves blank lines.
 const origRender = mdLib.render.bind(mdLib);
-mdLib.render = (src, env) => {
+mdLib.render = (src: string, env: any): string => {
   const cacheKey = `markdown:${src.length}:${src.substring(0, 50)}`;
 
   // Check cache first
   const cached = markdownCache.get(cacheKey);
   if (cached) {
-    return cached;
+    return cached as string;
   }
 
   const result = origRender(preprocessBlankLines(src), env);
@@ -104,7 +105,21 @@ mdLib.render = (src, env) => {
   return result;
 };
 
-module.exports = function (eleventyConfig) {
+interface SongData {
+  title: string;
+  singer?: string;
+  melody?: string;
+  order?: number;
+  spex?: string;
+}
+
+interface SongItem {
+  data: SongData & { [key: string]: any };
+  inputPath: string;
+  templateContent?: string;
+}
+
+export default function (eleventyConfig: UserConfig): EleventyReturnConfig {
   // Enable incremental builds for faster development
   eleventyConfig.setUseGitIgnore(false);
 
@@ -120,7 +135,7 @@ module.exports = function (eleventyConfig) {
   // {% cols %}left column markdown<!-- col -->right column markdown{% endcols %}
   // Renders two (or more) side-by-side columns. Split columns with <!-- col -->.
   // Full markdown (bold, italic, stanzas) works inside each column.
-  eleventyConfig.addPairedShortcode('cols', function (content) {
+  eleventyConfig.addPairedShortcode('cols', function (content: string): string {
     const parts = content.split('<!-- col -->').map((p) => p.trim());
     const cols = parts
       .map((p) => {
@@ -135,7 +150,7 @@ module.exports = function (eleventyConfig) {
 
   // {% song "Title", "Singer", "Melody" %}
   // Renders a collapsible song block with a direct-link button.
-  eleventyConfig.addPairedShortcode('song', function (content, title, singer, melody) {
+  eleventyConfig.addPairedShortcode('song', function (content: string, title: string, singer?: string, melody?: string): string {
     const id = slugify(title);
     const renderedContent = flattenParagraphs(mdLib.render(content.trim()));
 
@@ -160,20 +175,20 @@ module.exports = function (eleventyConfig) {
 <br>`;
   });
 
-  eleventyConfig.addFilter('markdownify', function (value) {
+  eleventyConfig.addFilter('markdownify', function (value: unknown): string {
     if (value == null || value === '') return '';
     return mdLib.render(String(value));
   });
 
   // Collection: all song files (any .md with an `order` frontmatter field)
-  eleventyConfig.addCollection('songs', function (collectionApi) {
+  eleventyConfig.addCollection('songs', function (collectionApi: any) {
     return collectionApi
       .getFilteredByGlob('src/spex/**/*.md')
-      .filter((item) => item.data.order != null && !item.inputPath.includes('_template'));
+      .filter((item: SongItem) => item.data.order != null && !item.inputPath.includes('_template'));
   });
 
   // Filter: get songs for a given spex, sorted by order
-  eleventyConfig.addFilter('songsForSpex', function (collection, spexName) {
+  eleventyConfig.addFilter('songsForSpex', function (collection: SongItem[], spexName?: string): SongItem[] {
     if (!spexName) return [];
     return collection
       .filter((item) => item.data.spex === spexName)
@@ -181,7 +196,12 @@ module.exports = function (eleventyConfig) {
   });
 
   // Filter: get specific songs by a list of {spex, title} pairs, preserving list order
-  eleventyConfig.addFilter('songsFromList', function (collection, songList) {
+  interface SongReference {
+    spex: string;
+    title: string;
+  }
+  
+  eleventyConfig.addFilter('songsFromList', function (collection: SongItem[], songList?: SongReference[]): SongItem[] {
     if (!songList || !songList.length) return [];
     return songList
       .map(({ spex, title }) => {
@@ -191,18 +211,18 @@ module.exports = function (eleventyConfig) {
         }
         return found;
       })
-      .filter(Boolean);
+      .filter(Boolean) as SongItem[];
   });
 
   // Filter: render a song collection item as a song-block HTML string
-  eleventyConfig.addFilter('renderSong', function (song) {
+  eleventyConfig.addFilter('renderSong', function (song: SongItem): string {
     const { title, singer, melody } = song.data;
     const id = slugify(title);
     const renderedContent = flattenParagraphs(song.templateContent || '');
 
     let header = '';
-    if (singer) header += `<i>(${escHtml(singer)})</i><br>\n`;
-    if (melody) header += `<i>Mel. ${escHtml(melody)}</i><br>\n`;
+    if (singer) header += `<i>(${escHtml(singer as string)})</i><br>\n`;
+    if (melody) header += `<i>Mel. ${escHtml(melody as string)}</i><br>\n`;
     const headerBlock = header ? `<br>\n${header}<br>\n` : '<br>\n';
 
     const linkIconHtml =
@@ -264,4 +284,4 @@ module.exports = function (eleventyConfig) {
       liveReload: true,
     },
   };
-};
+}

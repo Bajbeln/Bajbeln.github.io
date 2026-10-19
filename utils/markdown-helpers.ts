@@ -1,13 +1,13 @@
 /**
  * Markdown processing utility functions
- * These are extracted for testing and reused in eleventy.config.js
+ * These are extracted for testing and reused in eleventy.config.ts
  */
 
 /**
  * Convert a string to a URL-friendly slug.
  * Handles Swedish characters (å, ä, ö) and normalizes unicode.
  */
-function slugify(str) {
+export function slugify(str: string): string {
   return str
     .toLowerCase()
     .replace(/å/g, 'a')
@@ -25,7 +25,7 @@ function slugify(str) {
 /**
  * Escape HTML special characters to prevent XSS.
  */
-function escHtml(str) {
+export function escHtml(str: string | undefined): string {
   return (str || '')
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
@@ -38,7 +38,7 @@ function escHtml(str) {
  * stanza spacing matches the <br>-only semantics used inside columns and in
  * the legacy HTML pages — one blank line in source = one empty visual line.
  */
-function flattenParagraphs(html) {
+export function flattenParagraphs(html: string): string {
   // First remove existing trailing <br> tags to avoid duplication
   const withoutTrailing = html.replace(/(<br>\s*)+$/, '');
   // Then replace <p> tags with content + <br><br>
@@ -51,17 +51,9 @@ function flattenParagraphs(html) {
  * Each extra blank line beyond the first is injected as a standalone <br>
  * HTML block, which passes through flattenParagraphs unchanged.
  */
-function preprocessBlankLines(src) {
+export function preprocessBlankLines(src: string): string {
   return src.replace(/\n{3,}/g, (match) => {
     const extraBlanks = match.length - 2;
     return '\n\n' + Array(extraBlanks).fill('<br>').join('\n\n') + '\n\n';
   });
 }
-
-// Export for CommonJS
-module.exports = {
-  slugify,
-  escHtml,
-  flattenParagraphs,
-  preprocessBlankLines,
-};
