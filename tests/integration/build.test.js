@@ -13,12 +13,19 @@ function runBuild() {
   try {
     execSync('npm run build', {
       cwd: projectRoot,
-      stdio: 'pipe',
+      stdio: 'inherit',
       encoding: 'utf-8',
     });
+    // Verify that the build directory was created
+    if (!existsSync(buildDir)) {
+      console.error('Build completed but _site directory was not created');
+      return false;
+    }
     return true;
   } catch (error) {
-    console.error('Build failed:', error.stdout, error.stderr);
+    console.error('Build failed with exit code:', error.status);
+    console.error('stdout:', error.stdout);
+    console.error('stderr:', error.stderr);
     return false;
   }
 }
@@ -43,7 +50,7 @@ describe('Eleventy Build Process', () => {
     // Run build before tests
     const success = runBuild();
     if (!success) {
-      throw new Error('Failed to run Eleventy build');
+      throw new Error('Failed to run Eleventy build - check the output above for details');
     }
   }, 30000); // 30 second timeout for build
 
