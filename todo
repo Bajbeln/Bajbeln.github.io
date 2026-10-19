@@ -16,11 +16,8 @@
 - [ ] Expandera alla-knappen verkar inte ha rätt borders på mobil (kanske fixad?)  
 
 ## Under huven
-- [ ] Ändra skriptet till Node.js? 
-- [ ] Implementera Cache headers?
 - [ ] Köra på egen domän?
 - [ ] Hosta någon annanstans än GitHub Pages?
-- [ ] Lägga till att chacha hela webbsidan vid tillägg till hemskärm?
 
 ## Kvalitetssäkring
 - [ ] Korrläs alla spex - automatiskt flaggade "fel" finns i `/docs/songtext-quality-control`
