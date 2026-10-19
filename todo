@@ -8,12 +8,12 @@
 - [ ] Abstrahera sök och randomize - kanke inte så aktuellt
 - [ ] Göra övergången från startsida till spexsida mer sömlös? - typ som en transition, men kanske inte behövs
 - [ ] Gör att länk preview bättre återspeglar vilken kuplett som delas (kräver att varje låt får sin egen sida - så kanske inte)
-- [ ] Lägga till ett formulär för att föreslå funktioner/rapportera buggar etc.
 
 ## Stil
 - [ ] Gör flera sidor mer läsbara - ex. favoriter (se `/docs/page-rating.md`)
 - [ ] Tjockare logga i icon? (inte på sidorna)
 - [ ] Expandera alla-knappen verkar inte ha rätt borders på mobil (kanske fixad?)  
+- [ ] Kanske ändra ikonerna för kopiera länk och bekräftelse
 
 ## Under huven
 - [ ] Köra på egen domän?
@@ -36,3 +36,4 @@
 - [x] Lägg till semantisk HTML
 - [x] Implementera lazy loading för bilder och CSS?
 - [x] Lägga till en service worker för offlinebruk
+- [x] Lägga till ett formulär för att föreslå funktioner/rapportera buggar etc.
