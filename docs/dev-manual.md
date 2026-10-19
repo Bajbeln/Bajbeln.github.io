@@ -484,9 +484,9 @@ npm run generate:og-images
 
 Detta kör `scripts/generate-og-images.sh` som:
 
-1. Skapar en standard OG-bild (`og-image.png`) med bakgrundsfärgen `rgb(210,231,250)`
-2. Skapar spex-specifika OG-bilder (`og-{spex-namn}.png`) med bakgrundsfärgen från varje spex `{namn}.json`-fil (fältet `color`)
-3. Kopierar `og-image.png` till `assets/images/og-image.png` (huvud-OG-bilden)
+1. Skapar en standard OG-bild (`og-image.webp`) med bakgrundsfärgen `rgb(210,231,250)`
+2. Skapar spex-specifika OG-bilder (`og-{spex-namn}.webp`) med bakgrundsfärgen från varje spex `{namn}.json`-fil (fältet `color`)
+3. Kopierar `og-image.webp` till `assets/images/og-image.webp` (huvud-OG-bilden)
 
 **Inkrementell generering:** Skriptet regenererar endast bilder som saknas eller där källfilerna (JSON-filer med färger eller loggan) är nyare än utdatafilen. Detta gör körningen snabb även för stora ändringar.
 
@@ -511,7 +511,7 @@ Installationsinstruktioner:
 
 ### Anpassning
 
-Färgen för varje spex OG-bild hämtas från `color`-fältet i spexets `{namn}.json`-fil. Loggan (`assets/images/logga.png`) placeras centrerat vertikalt med 41px marginaler överst och underst.
+Färgen för varje spex OG-bild hämtas från `color`-fältet i spexets `{namn}.json`-fil. Loggan (`assets/images/logga.webp`) placeras centrerat vertikalt med 41px marginaler överst och underst.
 
 Om du lägger till ett nytt spex, kör `npm run generate:og-images` och commit:ta de nya OG-bilderna. Om du bara ändrar en färger i ett befintligt spex, kommer skriptet endast att regenerera den specifika OG-bilden.
 

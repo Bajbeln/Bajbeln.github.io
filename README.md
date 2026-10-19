@@ -1,5 +1,7 @@
 # Bajbeln
 
+![Bajbeln](assets/images/logga.webp)
+
 Tillgänglig på [bajbeln.github.io](https://bajbeln.github.io/)
 
 ## Kontakt
