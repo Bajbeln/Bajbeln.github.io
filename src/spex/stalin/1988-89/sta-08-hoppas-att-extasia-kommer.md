@@ -1,11 +1,12 @@
 ---
-title: "[STA 8] Hoppas att Extasia kommer"
-singer: "Stalin sjunger"
-melody: "Honky Tonk Woman"
+title: '[STA 8] Hoppas att Extasia kommer'
+singer: 'Stalin sjunger'
+melody: 'Honky Tonk Woman'
 spex: stalin-1988-89
 order: 28
 permalink: false
 ---
+
 Mina affärer med kvinnor har varit rätt många
 Alla kvinnor dyrkar makten som jag har i min hand
 Ställde dom upp sig i rader blev dom för många

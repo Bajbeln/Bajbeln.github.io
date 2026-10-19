@@ -1,7 +1,7 @@
 ---
-title: "[LIN 3] Bonza"
-singer: "Sara Delila sjunger"
-melody: "Theme from Bonanza"
+title: '[LIN 3] Bonza'
+singer: 'Sara Delila sjunger'
+melody: 'Theme from Bonanza'
 spex: lincoln-1985-86
 order: 10
 permalink: false

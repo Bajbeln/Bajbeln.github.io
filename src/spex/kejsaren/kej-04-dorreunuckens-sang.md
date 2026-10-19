@@ -1,7 +1,7 @@
 ---
-title: "[KEJ 4] Dörreunuckens sång"
-singer: "Dörreunucken sjunger"
-melody: "Jag har en telefon/Psalm 235"
+title: '[KEJ 4] Dörreunuckens sång'
+singer: 'Dörreunucken sjunger'
+melody: 'Jag har en telefon/Psalm 235'
 spex: kejsaren-av-kina
 order: 8
 permalink: false
@@ -24,7 +24,7 @@ Le och pluta
 Spela luta
 Så ska det gå bra, tror ja'*
 
-_*Vid öppet påkallande av dylikt, avgavs:_
+_\*Vid öppet påkallande av dylikt, avgavs:_
 
 _"Om ni vill Kejsar'n nö_
 _Och kramma han och sö_

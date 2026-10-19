@@ -1,7 +1,7 @@
 ---
-title: "[OSF 2] Sjukpolketten"
-singer: "Strindberg sjunger"
-melody: "Polett efter Herman Axelsson"
+title: '[OSF 2] Sjukpolketten'
+singer: 'Strindberg sjunger'
+melody: 'Polett efter Herman Axelsson'
 spex: os-feber
 order: 3
 permalink: false

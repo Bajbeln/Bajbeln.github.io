@@ -1,10 +1,11 @@
 ---
-title: "[HIN 3] CargoCult"
-melody: "Jesus is a friend of mine"
+title: '[HIN 3] CargoCult'
+melody: 'Jesus is a friend of mine'
 spex: hindenburg
 order: 6
 permalink: false
 ---
+
 Vi ska till Amerikatt
 — Där får vi det bra!
 Vi ska till Amerikatt

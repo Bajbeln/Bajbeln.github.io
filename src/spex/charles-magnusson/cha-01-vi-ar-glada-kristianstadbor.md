@@ -1,11 +1,12 @@
 ---
-title: "[CHA 1] Vi är glada Kristianstadbor"
-singer: "En massa Kristianstadbor sjunger"
-melody: "The Entertainer"
+title: '[CHA 1] Vi är glada Kristianstadbor'
+singer: 'En massa Kristianstadbor sjunger'
+melody: 'The Entertainer'
 spex: charles-magnusson
 order: 1
 permalink: false
 ---
+
 Alla: Varje människa är nöjd och glad.
 När det är söndag i vår lilla stad.
 Solen lyser på var fasad.

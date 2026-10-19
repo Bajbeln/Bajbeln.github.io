@@ -1,11 +1,12 @@
 ---
-title: "[EIF 1] Nu jädrar är det världsutställningsdags"
-singer: "En massa utställningsaktiva sjunger"
+title: '[EIF 1] Nu jädrar är det världsutställningsdags'
+singer: 'En massa utställningsaktiva sjunger'
 melody: "Fat Sam's Grand Slam ur Bugsy Malone"
 spex: eiffel
 order: 1
 permalink: false
 ---
+
 Nästa kvällning
 Ska vår världsutställningsdags
 Invigas i Paris

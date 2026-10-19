@@ -1,7 +1,7 @@
 ---
-title: "[O 3] Ode till förstörelsen"
-singer: "Alfred Nobel sjunger"
-melody: "Big Bang Theory theme"
+title: '[O 3] Ode till förstörelsen'
+singer: 'Alfred Nobel sjunger'
+melody: 'Big Bang Theory theme'
 spex: rosetta
 order: 6
 permalink: false

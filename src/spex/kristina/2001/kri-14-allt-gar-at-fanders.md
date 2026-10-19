@@ -1,11 +1,12 @@
 ---
-title: "[KRI 10] Allt går åt fanders"
-singer: "Axel och Louise"
-melody: "Blommornas vals ur Nötknäpparen"
+title: '[KRI 10] Allt går åt fanders'
+singer: 'Axel och Louise'
+melody: 'Blommornas vals ur Nötknäpparen'
 spex: kristina-2001
 order: 14
 permalink: false
 ---
+
 **Axel:** Styrkan har blivit klen
 Se på den svenska armén
 **Louise:** Var är starka män med hjältemod

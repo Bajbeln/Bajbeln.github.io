@@ -1,11 +1,12 @@
 ---
 title: "[LAF 8] Va' gött det är att va' kung!"
-singer: "Sjungs av Kung Ludvig XVI"
-melody: "Hard To Handle - The Black Crowes"
+singer: 'Sjungs av Kung Ludvig XVI'
+melody: 'Hard To Handle - The Black Crowes'
 spex: lafayette
 order: 9
 permalink: false
 ---
+
 Tjena, jag är kung!
 Jag är kung varje år,
 Varje vecka, varje dag,

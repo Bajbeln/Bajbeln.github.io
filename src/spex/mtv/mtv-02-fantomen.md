@@ -1,7 +1,7 @@
 ---
-title: "[MTV 2] Fantomen"
-singer: "Småpojkarna sjunger"
-melody: "A Harry Brandelius compilation"
+title: '[MTV 2] Fantomen'
+singer: 'Småpojkarna sjunger'
+melody: 'A Harry Brandelius compilation'
 spex: mtv
 order: 4
 permalink: false

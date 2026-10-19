@@ -1,9 +1,10 @@
 ---
-title: "15. En liten jungman"
+title: '15. En liten jungman'
 spex: allmanna
 order: 15
 permalink: false
 ---
+
 _(Ropas)_ Lanterna om styrbord — Åtta glas
 
 Det stod en liten ljungman

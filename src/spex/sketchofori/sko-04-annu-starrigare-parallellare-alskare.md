@@ -1,10 +1,11 @@
 ---
-title: "[SKO 4] Ännu starrigare parallellare älskare"
-melody: "Wrecking ball / Set fire to the rain SAMTIDIGT"
+title: '[SKO 4] Ännu starrigare parallellare älskare'
+melody: 'Wrecking ball / Set fire to the rain SAMTIDIGT'
 spex: sketchofori
 order: 5
 permalink: false
 ---
+
 ::: cols
 _Mel. Wrecking ball_
 

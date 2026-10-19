@@ -1,11 +1,12 @@
 ---
-title: "[KRÄ 1] Öppningskuplett – Kö-plett"
-singer: "Kön till Systembolaget sjunger"
-melody: "The Baseball Game, ur Falsettos"
+title: '[KRÄ 1] Öppningskuplett – Kö-plett'
+singer: 'Kön till Systembolaget sjunger'
+melody: 'The Baseball Game, ur Falsettos'
 spex: kraftor
 order: 1
 permalink: false
 ---
+
 **Kunder:**
 Vi köar.
 Vi står i kö till systemet,

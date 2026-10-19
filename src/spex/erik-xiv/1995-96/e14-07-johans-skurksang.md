@@ -1,11 +1,12 @@
 ---
-title: "[E14 7] Johans skurksång"
-singer: "Johan sjunger"
-melody: "Show Me, My Fair Lady"
+title: '[E14 7] Johans skurksång'
+singer: 'Johan sjunger'
+melody: 'Show Me, My Fair Lady'
 spex: erik-xiv-1995-96
 order: 12
 permalink: false
 ---
+
 I rikets topp
 Sitter en flopp
 En riktig stropp

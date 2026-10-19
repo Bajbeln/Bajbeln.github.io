@@ -1,11 +1,12 @@
 ---
-title: "[FLO 8] Totalfinal"
-singer: "En hel hoper sjunger"
-melody: "Lay Down Your Arms"
+title: '[FLO 8] Totalfinal'
+singer: 'En hel hoper sjunger'
+melody: 'Lay Down Your Arms'
 spex: florence-1996-97
 order: 21
 permalink: false
 ---
+
 **Refräng, alla:**
 Dom två som hörde till Vincents ätt
 Fick inge för de, och det är rätt

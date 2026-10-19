@@ -1,11 +1,12 @@
 ---
-title: "[LEW 3] En kuplett om den politiska dominansens flyktighet"
-singer: "Clintons Fans & George Bush Jr. sjunger"
-melody: "Hosanna, ur Jesus Christ Superstar"
+title: '[LEW 3] En kuplett om den politiska dominansens flyktighet'
+singer: 'Clintons Fans & George Bush Jr. sjunger'
+melody: 'Hosanna, ur Jesus Christ Superstar'
 spex: lewinsky
 order: 3
 permalink: false
 ---
+
 **Fans:** Åh Chnton, Bill Clinton
 våran president
 Du är bra, tycker jag

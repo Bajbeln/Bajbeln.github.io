@@ -1,10 +1,11 @@
 ---
-title: "[EVA 7] Kärleken är död"
-melody: "O Tannenbaum"
+title: '[EVA 7] Kärleken är död'
+melody: 'O Tannenbaum'
 spex: eva-ekeblad-2019
 order: 11
 permalink: false
 ---
+
 Mitt hjärtas vän, min gulleplutt,
 vart har du gått min kära?
 Blek om kind och blicken tom,

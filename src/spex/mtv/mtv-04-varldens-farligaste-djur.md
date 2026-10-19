@@ -1,7 +1,7 @@
 ---
-title: "[MTV 4] Världens farligaste djur"
-singer: "Mullvadarna sjunger"
-melody: "Moonlight Cocktail"
+title: '[MTV 4] Världens farligaste djur'
+singer: 'Mullvadarna sjunger'
+melody: 'Moonlight Cocktail'
 spex: mtv
 order: 8
 permalink: false

@@ -1,7 +1,7 @@
 ---
-title: "[MOT 3] Ifrågasättande av presidentkandidats förmåga att bortskänka visan"
-singer: "Bell, Morgan och Edison sjunger"
-melody: "Never mind the why and wherefore, ur HMS Pinafore"
+title: '[MOT 3] Ifrågasättande av presidentkandidats förmåga att bortskänka visan'
+singer: 'Bell, Morgan och Edison sjunger'
+melody: 'Never mind the why and wherefore, ur HMS Pinafore'
 spex: mot-strommen
 order: 3
 permalink: false

@@ -1,11 +1,12 @@
 ---
-title: "[E14 7] Aktfinal III - Stick från kommunen och Erik"
-singer: "Elisabeth och Mary sjunger"
-melody: "Help!"
+title: '[E14 7] Aktfinal III - Stick från kommunen och Erik'
+singer: 'Elisabeth och Mary sjunger'
+melody: 'Help!'
 spex: erik-xiv-1995-96
 order: 13
 permalink: false
 ---
+
 **Båda**
 Stick! Din förvuxna kratta
 Stick! Komma här och snatta

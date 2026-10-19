@@ -1,7 +1,7 @@
 ---
-title: "[MOT 11] Dashs hjältesång"
-singer: "Dash sjunger"
-melody: "Nitar och läder"
+title: '[MOT 11] Dashs hjältesång'
+singer: 'Dash sjunger'
+melody: 'Nitar och läder'
 spex: mot-strommen
 order: 13
 permalink: false

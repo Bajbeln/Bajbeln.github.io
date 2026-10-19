@@ -1,10 +1,11 @@
 ---
-title: "32. Geografivisan"
-melody: "Fritt efter Min gode vän Joel, typ"
+title: '32. Geografivisan'
+melody: 'Fritt efter Min gode vän Joel, typ'
 spex: allmanna
 order: 33
 permalink: false
 ---
+
 Kilimanjaro, det är en bergstopp
 Kebnekajse, det är en svensktopp
 Ringsjön, det är en rund sjö

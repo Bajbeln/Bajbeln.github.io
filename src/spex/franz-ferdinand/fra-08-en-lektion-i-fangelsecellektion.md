@@ -1,7 +1,7 @@
 ---
-title: "[FRA 8] En lektion i fängelsecellektion"
-singer: "Alla sjunger"
-melody: "Härliga sommadag – Family Four"
+title: '[FRA 8] En lektion i fängelsecellektion'
+singer: 'Alla sjunger'
+melody: 'Härliga sommadag – Family Four'
 spex: franz-ferdinand
 order: 16
 permalink: false

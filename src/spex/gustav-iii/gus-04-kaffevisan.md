@@ -1,11 +1,12 @@
 ---
-title: "[GUS 4] Kaffevisan"
-singer: "Gustav sjunger"
+title: '[GUS 4] Kaffevisan'
+singer: 'Gustav sjunger'
 melody: "When I'm cleaning windows"
 spex: gustav-iii
 order: 7
 permalink: false
 ---
+
 Man dricker gärna kaffe
 I varje fin salong
 Och varför får ni höra snart

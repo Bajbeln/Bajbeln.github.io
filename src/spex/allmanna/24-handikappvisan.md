@@ -1,10 +1,11 @@
 ---
-title: "24. Handikappvisan"
-melody: "Fråga Hasse Alfredsson"
+title: '24. Handikappvisan'
+melody: 'Fråga Hasse Alfredsson'
 spex: allmanna
 order: 24
 permalink: false
 ---
+
 Han ska inte hänga lapp
 Bara för att han har käpp
 Han ska inte bära ful grimage

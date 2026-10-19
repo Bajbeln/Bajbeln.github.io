@@ -1,11 +1,12 @@
 ---
-title: "[ROF 2] BOISEN"
-singer: "Jonte och Jonathan"
-melody: "Poison – Alice Cooper"
+title: '[ROF 2] BOISEN'
+singer: 'Jonte och Jonathan'
+melody: 'Poison – Alice Cooper'
 spex: sketchostrof
 order: 2
 permalink: false
 ---
+
 Nya, känslor
 Reser, nackhår
 Ett pirr, i mig
@@ -38,7 +39,7 @@ Att vi förlorar
 rör mig inte ett enda dugg
 För det jag spelar om är vår
 romantik
-(*Stön*)
+(_Stön_)
 
 Vill inte längre dölja att jag
 suktar för

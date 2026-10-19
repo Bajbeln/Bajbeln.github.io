@@ -1,11 +1,12 @@
 ---
-title: "[CXI 4] Smörsång"
-singer: "Eisa Päitää sjunger"
-melody: "Hurmio"
+title: '[CXI 4] Smörsång'
+singer: 'Eisa Päitää sjunger'
+melody: 'Hurmio'
 spex: carl-xi
 order: 6
 permalink: false
 ---
+
 Vad äckligt päckligt
 Och förskräckligt
 Träckligt präktigt

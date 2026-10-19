@@ -1,7 +1,7 @@
 ---
-title: "[MOT 8] Patentösens patentvärk"
-singer: "Patentösen och kunder sjunger"
-melody: "I got it from Agnes"
+title: '[MOT 8] Patentösens patentvärk'
+singer: 'Patentösen och kunder sjunger'
+melody: 'I got it from Agnes'
 spex: mot-strommen
 order: 10
 permalink: false

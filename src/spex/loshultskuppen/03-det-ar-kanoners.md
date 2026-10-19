@@ -1,10 +1,11 @@
 ---
-title: "[LOS 2] Det är kanoners"
-melody: "Du Hast, Rammstein"
+title: '[LOS 2] Det är kanoners'
+melody: 'Du Hast, Rammstein'
 spex: loshultskuppen
 order: 3
 permalink: false
 ---
+
 Krig. Konflikt. Kanoner.
 Granat. Bombard. Patroner.
 En borg. Ett fort. Bastioner

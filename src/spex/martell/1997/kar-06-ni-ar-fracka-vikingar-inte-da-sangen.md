@@ -1,7 +1,7 @@
 ---
-title: "[KAR 6] Ni-är fräcka-vikingar/Inte-då-sången"
-singer: "Pippin, Rolf och Benny sjunger"
-melody: "Séguidille ur Carmen, G. Bizet"
+title: '[KAR 6] Ni-är fräcka-vikingar/Inte-då-sången'
+singer: 'Pippin, Rolf och Benny sjunger'
+melody: 'Séguidille ur Carmen, G. Bizet'
 spex: karl-martell-1997
 order: 14
 permalink: false

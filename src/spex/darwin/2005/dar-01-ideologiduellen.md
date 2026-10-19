@@ -1,7 +1,7 @@
 ---
-title: "[DAR 1] Ideologiduellen"
-singer: "Påven & Darwin sjunger"
-melody: "Fågeldansen"
+title: '[DAR 1] Ideologiduellen'
+singer: 'Påven & Darwin sjunger'
+melody: 'Fågeldansen'
 spex: darwin-2005
 order: 1
 permalink: false

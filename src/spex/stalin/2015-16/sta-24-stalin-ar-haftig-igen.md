@@ -1,11 +1,12 @@
 ---
-title: "[STA 24] Stalin är häftig igen"
-singer: "Kontokrister sjunger"
-melody: "Rysslands nationalsång"
+title: '[STA 24] Stalin är häftig igen'
+singer: 'Kontokrister sjunger'
+melody: 'Rysslands nationalsång'
 spex: stalin-2015-16
 order: 3
 permalink: false
 ---
+
 När vädret är rått, kallt, och ostadigt vått
 Kasst och grått, och när folk överallt super vodka
 När massorna hungrar med uppror av ungrarna

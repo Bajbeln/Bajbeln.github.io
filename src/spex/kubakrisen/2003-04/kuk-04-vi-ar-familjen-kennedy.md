@@ -1,7 +1,7 @@
 ---
-title: "[KUK 4] Vi är familjen Kennedy"
-singer: "Kennedy, Jackie och Caroline sjunger"
-melody: "Meet the Flintstones"
+title: '[KUK 4] Vi är familjen Kennedy'
+singer: 'Kennedy, Jackie och Caroline sjunger'
+melody: 'Meet the Flintstones'
 spex: kubakrisen-2003-04
 order: 8
 permalink: false

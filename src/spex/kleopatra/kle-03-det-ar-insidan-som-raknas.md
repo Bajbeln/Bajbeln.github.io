@@ -1,11 +1,12 @@
 ---
-title: "[KLE 3] Det är insidan som räknas"
-singer: "Sussie sjunger"
-melody: "Rock el Casbah – Rashid Taha"
+title: '[KLE 3] Det är insidan som räknas'
+singer: 'Sussie sjunger'
+melody: 'Rock el Casbah – Rashid Taha'
 spex: kleopatra
 order: 4
 permalink: false
 ---
+
 I Egyptens slutna prästerskap,
 spår vi i boskap
 Inuti en lönnfet get

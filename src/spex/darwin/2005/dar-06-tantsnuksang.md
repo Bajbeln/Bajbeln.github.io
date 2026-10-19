@@ -1,7 +1,7 @@
 ---
-title: "[DAR 6] Tantsnusksång"
-singer: "Emma sjunger"
-melody: "La vida loca"
+title: '[DAR 6] Tantsnusksång'
+singer: 'Emma sjunger'
+melody: 'La vida loca'
 spex: darwin-2005
 order: 14
 permalink: false

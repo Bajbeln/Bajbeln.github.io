@@ -1,6 +1,6 @@
 ---
-title: "[KUK 19] En ny världsordning (anno 2013)"
-singer: "Castro och KGB sjunger"
+title: '[KUK 19] En ny världsordning (anno 2013)'
+singer: 'Castro och KGB sjunger'
 melody: "Puttin' on the Ritz, Gerschwin"
 spex: kubakrisen-2013
 order: 12

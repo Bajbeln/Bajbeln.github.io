@@ -1,7 +1,7 @@
 ---
-title: "[GYT 1] Nätsäcks"
-singer: "Sången sjungs av en man som bär på en kassler - i nät"
-melody: "E de det här du kallar kärlek"
+title: '[GYT 1] Nätsäcks'
+singer: 'Sången sjungs av en man som bär på en kassler - i nät'
+melody: 'E de det här du kallar kärlek'
 spex: gyttjeblottning
 order: 2
 permalink: false

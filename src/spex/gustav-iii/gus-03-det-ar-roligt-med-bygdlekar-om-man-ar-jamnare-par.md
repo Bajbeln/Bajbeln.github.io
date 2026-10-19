@@ -1,11 +1,12 @@
 ---
-title: "[GUS 3] Det är roligt med bygdlekar om man är jämnare par"
-singer: "Ulla, Malte, Hebba och Gustav sjunger"
-melody: "Tjo vad det var livat i holken i lördags"
+title: '[GUS 3] Det är roligt med bygdlekar om man är jämnare par'
+singer: 'Ulla, Malte, Hebba och Gustav sjunger'
+melody: 'Tjo vad det var livat i holken i lördags'
 spex: gustav-iii
 order: 5
 permalink: false
 ---
+
 **Alla:** Skynda på, nu ska vi leka uppå ängarna
 Neri skog, över backe och fält
 Bygdlekarna får båd frisk och sjuk ur sängarna

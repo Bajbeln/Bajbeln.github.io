@@ -1,11 +1,12 @@
 ---
-title: "[JER 4] Traditionston"
-singer: "Selma och Fridolf sjunger"
-melody: "Klöversnoa"
+title: '[JER 4] Traditionston'
+singer: 'Selma och Fridolf sjunger'
+melody: 'Klöversnoa'
 spex: jerusalem
 order: 7
 permalink: false
 ---
+
 Svenskarna älskar var tradition,
 tradition, tradition.
 Slutar dock ofta i aggression,

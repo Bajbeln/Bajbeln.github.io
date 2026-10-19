@@ -8,13 +8,21 @@
 - [ ] Abstrahera sök och randomize - kanke inte så aktuellt
 - [ ] Göra övergången från startsida till spexsida mer sömlös? - typ som en transition, men kanske inte behövs
 - [ ] Gör att länk preview bättre återspeglar vilken kuplett som delas (kräver att varje låt får sin egen sida - så kanske inte)
+- [ ] Lägga till ett formulär för att föreslå funktioner/rapportera buggar etc.
 
 ## Stil
 - [ ] Gör flera sidor mer läsbara - ex. favoriter (se `/docs/page-rating.md`)
 - [ ] Tjockare logga i icon (inte på sidorna)
 - [ ] Expandera alla-knappen verkar inte ha rätt borders på mobil (kanske fixad?)  
+
 ## Under huven
 - [ ] Ändra skriptet till Node.js?
+- [ ] Optimisera bilder (de är stora)
+- [ ] Implementera lazy loading för bilder och CSS?
+- [ ] Lägga till en service worker för offlinebruk 
+- [ ] konvertera js till typescript? 
+- [ ] Lägg till semantisk HTML
+- [ ] Implementera Cache headers?
 
 ## Kvalitetssäkring
 - [ ] Korrläs alla spex - automatiskt flaggade "fel" finns i `/docs/songtext-quality-control`

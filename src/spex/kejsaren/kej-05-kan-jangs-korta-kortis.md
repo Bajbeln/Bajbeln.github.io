@@ -1,7 +1,7 @@
 ---
-title: "[KEJ 5] Kan Jangs korta kortis"
-singer: "Kan Jang sjunger"
-melody: "Helan går"
+title: '[KEJ 5] Kan Jangs korta kortis'
+singer: 'Kan Jang sjunger'
+melody: 'Helan går'
 spex: kejsaren-av-kina
 order: 12
 permalink: false

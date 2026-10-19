@@ -1,9 +1,10 @@
 ---
-title: "23. Eisgekültes Coca-cola"
+title: '23. Eisgekültes Coca-cola'
 spex: allmanna
 order: 23
 permalink: false
 ---
+
 In Hannover an der Leine
 Haffengasse nummer 8
 Wohnt det Massenmörder Heine

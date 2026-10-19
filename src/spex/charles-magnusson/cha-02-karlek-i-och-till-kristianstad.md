@@ -1,11 +1,12 @@
 ---
-title: "[CHA 2] Kärlek i och till Kristianstad"
-singer: "Charles och Fanny sjunger"
-melody: "Maria ur West Side Story"
+title: '[CHA 2] Kärlek i och till Kristianstad'
+singer: 'Charles och Fanny sjunger'
+melody: 'Maria ur West Side Story'
 spex: charles-magnusson
 order: 2
 permalink: false
 ---
+
 Fanny: Länge sökte jag kärlek hemma, men
 Den rätte förblev en chimär i Kristianstad
 Charles: Hela landet jag sett, men jag fann aldrig någon vän

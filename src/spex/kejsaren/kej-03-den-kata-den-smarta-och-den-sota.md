@@ -1,7 +1,7 @@
 ---
-title: "[KEJ 3] Den kåta, den smarta och den söta"
-singer: "Yin Seng, Min Seng och Din Seng sjunger"
-melody: "Vi här bak i bilen"
+title: '[KEJ 3] Den kåta, den smarta och den söta'
+singer: 'Yin Seng, Min Seng och Din Seng sjunger'
+melody: 'Vi här bak i bilen'
 spex: kejsaren-av-kina
 order: 6
 permalink: false

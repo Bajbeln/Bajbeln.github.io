@@ -1,7 +1,7 @@
 ---
-title: "[LIN 8] Måsart, tradig"
-singer: "Lind sjunger"
-melody: "Sonat i C dur, Mozart"
+title: '[LIN 8] Måsart, tradig'
+singer: 'Lind sjunger'
+melody: 'Sonat i C dur, Mozart'
 spex: lincoln-1985-86
 order: 19
 permalink: false

@@ -1,7 +1,7 @@
 ---
-title: "[PUL 2] Jag är den stygga drottning Kaxa"
-singer: "Drottning Kaxa sjunger"
-melody: "Kapten Karlsson"
+title: '[PUL 2] Jag är den stygga drottning Kaxa'
+singer: 'Drottning Kaxa sjunger'
+melody: 'Kapten Karlsson'
 spex: pullinutt
 order: 5
 permalink: false

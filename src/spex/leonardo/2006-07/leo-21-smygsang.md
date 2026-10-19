@@ -1,11 +1,12 @@
 ---
-title: "[LEO 21] Smygsång"
-singer: "Mona, Maffiavelli, Julius, Roberto och Lisa sjunger"
-melody: "Jehu"
+title: '[LEO 21] Smygsång'
+singer: 'Mona, Maffiavelli, Julius, Roberto och Lisa sjunger'
+melody: 'Jehu'
 spex: leonardo-2006-07
 order: 9
 permalink: false
 ---
+
 Men hu, vad nu, det är nån här
 Vi måste ut med ens
 Men tyst på tå, vart knyst kan få

@@ -1,11 +1,12 @@
 ---
-title: "[HIL 3] Konstnärsakademiens Re-Entré VT23"
-singer: "Sjungs av Kritika Klander & Kör"
-melody: "Centuries - Fall Out Boy"
+title: '[HIL 3] Konstnärsakademiens Re-Entré VT23'
+singer: 'Sjungs av Kritika Klander & Kör'
+melody: 'Centuries - Fall Out Boy'
 spex: hilma
 order: 4
 permalink: false
 ---
+
 Var på er vakt
 Hon är på en konstnärsjakt
 Hon heter Kritika

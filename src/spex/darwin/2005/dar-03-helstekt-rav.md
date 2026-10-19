@@ -1,6 +1,6 @@
 ---
-title: "[DAR 3] Helstekt räv"
-singer: "Victoria & rävkören sjunger"
+title: '[DAR 3] Helstekt räv'
+singer: 'Victoria & rävkören sjunger'
 melody: "I'm super"
 spex: darwin-2005
 order: 7

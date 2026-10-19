@@ -1,7 +1,7 @@
 ---
-title: "[OSF 3] AktFinal IOK"
-singer: "LDG, IOK, Spionerna och medborgarna sjunger"
-melody: "Be our guest"
+title: '[OSF 3] AktFinal IOK'
+singer: 'LDG, IOK, Spionerna och medborgarna sjunger'
+melody: 'Be our guest'
 spex: os-feber
 order: 4
 permalink: false

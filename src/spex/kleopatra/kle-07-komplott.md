@@ -1,11 +1,12 @@
 ---
-title: "[KLE 7] Komplott"
-singer: "Kleopatra sjunger"
+title: '[KLE 7] Komplott'
+singer: 'Kleopatra sjunger'
 melody: "Perfect isn't easy – Olivaer & gänget"
 spex: kleopatra
 order: 14
 permalink: false
 ---
+
 Kan någon svara på
 Hur jag kan vara så
 Utan tvivel är jag...

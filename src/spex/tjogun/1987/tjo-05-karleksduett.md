@@ -1,7 +1,7 @@
 ---
-title: "[TJO 5] Kärleksduett"
-singer: "Ieyasu och Nissan sjunger"
-melody: "Fröken Fräken"
+title: '[TJO 5] Kärleksduett'
+singer: 'Ieyasu och Nissan sjunger'
+melody: 'Fröken Fräken'
 spex: tjogun-1987
 order: 12
 permalink: false

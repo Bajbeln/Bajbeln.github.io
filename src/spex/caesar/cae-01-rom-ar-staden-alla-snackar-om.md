@@ -1,7 +1,7 @@
 ---
-title: "[CAE 1] Rom är staden alla snackar om"
-singer: "Ett gäng romare sjunger"
-melody: "Sword of Damocles – Rocky Horror Picture Show"
+title: '[CAE 1] Rom är staden alla snackar om'
+singer: 'Ett gäng romare sjunger'
+melody: 'Sword of Damocles – Rocky Horror Picture Show'
 spex: caesar
 order: 1
 permalink: false

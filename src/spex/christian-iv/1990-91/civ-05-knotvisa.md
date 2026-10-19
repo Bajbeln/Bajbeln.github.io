@@ -1,7 +1,7 @@
 ---
-title: "[CIV 5] Knotvisa"
-singer: "Conny och Hebba sjunger"
-melody: "Flickans sång ur djungelboken"
+title: '[CIV 5] Knotvisa'
+singer: 'Conny och Hebba sjunger'
+melody: 'Flickans sång ur djungelboken'
 spex: christian-iv-1990-91
 order: 14
 permalink: false

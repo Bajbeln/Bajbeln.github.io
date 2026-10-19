@@ -1,7 +1,7 @@
 ---
-title: "[CIV 3] En Verdi av slutning på Christian IV"
-singer: "Alla sjunger"
-melody: "Ur Trubaduren av kompositören med samma namn"
+title: '[CIV 3] En Verdi av slutning på Christian IV'
+singer: 'Alla sjunger'
+melody: 'Ur Trubaduren av kompositören med samma namn'
 spex: christian-iv-1990-91
 order: 11
 permalink: false

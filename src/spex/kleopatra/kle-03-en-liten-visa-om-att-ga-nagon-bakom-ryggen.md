@@ -1,11 +1,12 @@
 ---
-title: "[KLE 3] En liten visa om att gå någon bakom ryggen"
-singer: "Kleopatra & Caesar sjunger"
+title: '[KLE 3] En liten visa om att gå någon bakom ryggen'
+singer: 'Kleopatra & Caesar sjunger'
 melody: "It's Oh so quiet – Björk"
 spex: kleopatra
 order: 5
 permalink: false
 ---
+
 **Kleo:** Jag har en hemlis, sch sch
 Som snart alla vet, sch sch
 **Caesar:** Att gå bakom ryggen, sch sch

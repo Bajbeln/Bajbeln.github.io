@@ -1,7 +1,7 @@
 ---
-title: "[TJO 12] Ieyasu expanderar"
-singer: "Ieyasu Tokugawa sjunger"
-melody: "Toreadorian ur Carmen"
+title: '[TJO 12] Ieyasu expanderar'
+singer: 'Ieyasu Tokugawa sjunger'
+melody: 'Toreadorian ur Carmen'
 spex: tjogun-2002-03
 order: 1
 permalink: false

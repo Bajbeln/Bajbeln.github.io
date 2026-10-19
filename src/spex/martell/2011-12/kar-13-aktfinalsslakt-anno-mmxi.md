@@ -1,7 +1,7 @@
 ---
-title: "[KAR 13] Aktfinalsslakt anno MMXI"
-singer: "Pippin och Swanachild sjunger"
-melody: "Fångad av en stormvind"
+title: '[KAR 13] Aktfinalsslakt anno MMXI'
+singer: 'Pippin och Swanachild sjunger'
+melody: 'Fångad av en stormvind'
 spex: karl-martell-2011-12
 order: 7
 permalink: false

@@ -1,11 +1,12 @@
 ---
-title: "[JER 7] Vi är båda kära i Richard"
-singer: "Richard och Estelle sjunger"
-melody: "Gå inte förbi"
+title: '[JER 7] Vi är båda kära i Richard'
+singer: 'Richard och Estelle sjunger'
+melody: 'Gå inte förbi'
 spex: jerusalem
 order: 11
 permalink: false
 ---
+
 **Richard:** Du är så fin och jag likaså.
 **Estelle:** Längtan den väcks,
 ett plus ett kan bli två.

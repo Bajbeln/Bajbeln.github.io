@@ -1,10 +1,11 @@
 ---
-title: "50. Strul med tekniken"
-melody: "Bandet bakom scen"
+title: '50. Strul med tekniken'
+melody: 'Bandet bakom scen'
 spex: allmanna
 order: 50
 permalink: false
 ---
+
 //: Strul med tekniken, strul med
 tekniken, strul med tekniken –
 strul, strul, strul! ://

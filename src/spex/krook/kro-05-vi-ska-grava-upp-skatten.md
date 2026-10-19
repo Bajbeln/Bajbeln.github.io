@@ -1,7 +1,7 @@
 ---
-title: "[KRO 5] Vi ska gräva upp skatten"
-singer: "Pojkarna och Transpiranta sjunger"
-melody: "Gonna Build a Montain"
+title: '[KRO 5] Vi ska gräva upp skatten'
+singer: 'Pojkarna och Transpiranta sjunger'
+melody: 'Gonna Build a Montain'
 spex: krook
 order: 14
 permalink: false

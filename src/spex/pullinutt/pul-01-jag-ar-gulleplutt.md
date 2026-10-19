@@ -1,7 +1,7 @@
 ---
-title: "[PUL 1] Jag är Gulleplutt"
-singer: "Gulleplutt sjunger"
-melody: "Bamses signaturmelodi"
+title: '[PUL 1] Jag är Gulleplutt'
+singer: 'Gulleplutt sjunger'
+melody: 'Bamses signaturmelodi'
 spex: pullinutt
 order: 3
 permalink: false

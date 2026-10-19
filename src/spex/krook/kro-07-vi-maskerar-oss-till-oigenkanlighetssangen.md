@@ -1,7 +1,7 @@
 ---
-title: "[KRO 7] Vi maskerar oss till oigenkänlighet-sången"
-singer: "Krook och Sara sjunger"
-melody: "Electric Light Orchestra, Rock aria!"
+title: '[KRO 7] Vi maskerar oss till oigenkänlighet-sången'
+singer: 'Krook och Sara sjunger'
+melody: 'Electric Light Orchestra, Rock aria!'
 spex: krook
 order: 19
 permalink: false

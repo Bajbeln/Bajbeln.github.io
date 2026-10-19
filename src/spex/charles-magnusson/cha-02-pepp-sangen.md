@@ -1,11 +1,12 @@
 ---
-title: "[CHA 2] Pepp-sången"
-singer: "Charles och transpoletariatet sjunger"
-melody: "High Barbary"
+title: '[CHA 2] Pepp-sången'
+singer: 'Charles och transpoletariatet sjunger'
+melody: 'High Barbary'
 spex: charles-magnusson
 order: 3
 permalink: false
 ---
+
 Charles: Ni är fattiga, utslagna, men ni har en själ
 Märk väl, er själ kan igen slå ihjäl
 Så räta stolt på er rygg, och sluta med ert kryp och kräl

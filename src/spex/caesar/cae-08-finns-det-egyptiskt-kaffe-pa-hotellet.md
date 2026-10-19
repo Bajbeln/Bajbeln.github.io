@@ -1,7 +1,7 @@
 ---
-title: "[CAE 8] Finns det egyptiskt kaffe på hotellet?"
-singer: "Cleopatra sjunger"
-melody: "A friend like me (ur Aladdin)"
+title: '[CAE 8] Finns det egyptiskt kaffe på hotellet?'
+singer: 'Cleopatra sjunger'
+melody: 'A friend like me (ur Aladdin)'
 spex: caesar
 order: 15
 permalink: false

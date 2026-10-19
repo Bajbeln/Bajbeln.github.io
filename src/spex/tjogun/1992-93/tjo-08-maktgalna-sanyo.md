@@ -1,6 +1,6 @@
 ---
-title: "[TJO 8] Maktgalna Sanyo"
-singer: "Sanyo Tokugawa sjunger"
+title: '[TJO 8] Maktgalna Sanyo'
+singer: 'Sanyo Tokugawa sjunger'
 melody: "It ain't Necessarily So, Gershwin"
 spex: tjogun-1992-93
 order: 6

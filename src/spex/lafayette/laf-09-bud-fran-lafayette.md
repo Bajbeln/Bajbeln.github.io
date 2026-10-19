@@ -1,11 +1,12 @@
 ---
-title: "[LAF 9] Bud från Lafayette"
-singer: "Sjungs av Mary, Jane & Kung Ludvig XVI"
-melody: "Sincerely, Me - ur Dear Evan Hansen"
+title: '[LAF 9] Bud från Lafayette'
+singer: 'Sjungs av Mary, Jane & Kung Ludvig XVI'
+melody: 'Sincerely, Me - ur Dear Evan Hansen'
 spex: lafayette
 order: 11
 permalink: false
 ---
+
 **Mary**
 Ers majestät, ni är så
 obeskrivligt stor

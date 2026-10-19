@@ -1,7 +1,7 @@
 ---
-title: "[LIN 6] Presidenten tänker till"
-singer: "Oln och personerna vi bardisken sjunger"
-melody: "This Jesus Must Die, Jesus Christ Super Star"
+title: '[LIN 6] Presidenten tänker till'
+singer: 'Oln och personerna vi bardisken sjunger'
+melody: 'This Jesus Must Die, Jesus Christ Super Star'
 spex: lincoln-1985-86
 order: 17
 permalink: false

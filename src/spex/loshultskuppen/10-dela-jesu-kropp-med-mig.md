@@ -1,10 +1,11 @@
 ---
-title: "[LOS 6] Dela Jesu kropp (med mig)"
-melody: "Up where we belong, Joe Cocker m. Jennifer Warnes"
+title: '[LOS 6] Dela Jesu kropp (med mig)'
+melody: 'Up where we belong, Joe Cocker m. Jennifer Warnes'
 spex: loshultskuppen
 order: 10
 permalink: false
 ---
+
 **Ditte:** Att vara svensk katolik
 Att vilja tillge sig själv
 Till ett kall, till att vara kysk

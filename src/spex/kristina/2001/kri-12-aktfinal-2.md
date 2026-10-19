@@ -1,11 +1,12 @@
 ---
-title: "[KRI 8] Aktfinal 2"
-singer: "Många"
-melody: "Finalen ur Tiggarstudenten"
+title: '[KRI 8] Aktfinal 2'
+singer: 'Många'
+melody: 'Finalen ur Tiggarstudenten'
 spex: kristina-2001
 order: 12
 permalink: false
 ---
+
 **(Axel och Wallenstein)**
 Genom en mystisk incident
 Har Sverige fått en ny regent

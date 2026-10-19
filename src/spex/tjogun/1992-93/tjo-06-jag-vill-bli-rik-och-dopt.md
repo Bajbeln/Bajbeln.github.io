@@ -1,7 +1,7 @@
 ---
-title: "[TJO 6] Jag vill bli rik (och döpt)"
-singer: "Toyota Tank sjunger"
-melody: "If I Should Fall from Grace with God"
+title: '[TJO 6] Jag vill bli rik (och döpt)'
+singer: 'Toyota Tank sjunger'
+melody: 'If I Should Fall from Grace with God'
 spex: tjogun-1992-93
 order: 1
 permalink: false

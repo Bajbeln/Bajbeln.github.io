@@ -1,11 +1,12 @@
 ---
-title: "[TÖB 5] Infiltratörens pajjalåt"
-singer: "Lise sjunger"
-melody: "Big Spender, Peggy lee"
+title: '[TÖB 5] Infiltratörens pajjalåt'
+singer: 'Lise sjunger'
+melody: 'Big Spender, Peggy lee'
 spex: taget-balt
 order: 9
 permalink: false
 ---
+
 Nu måste jag kvickt på nåt vis
 Komma på en plan som följer ordern,
 Att sänka kungen.
@@ -46,4 +47,4 @@ Han nog sjunka
 Det kan funka
 
 När han trillar ner i mitt hål
-(*Plums*)
+(_Plums_)

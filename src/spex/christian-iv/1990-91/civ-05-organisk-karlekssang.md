@@ -1,7 +1,7 @@
 ---
-title: "[CIV 5] Organisk kärlekssång"
-singer: "Snappo och Ebba sjunger"
-melody: "Solen lyser även på liten stuga"
+title: '[CIV 5] Organisk kärlekssång'
+singer: 'Snappo och Ebba sjunger'
+melody: 'Solen lyser även på liten stuga'
 spex: christian-iv-1990-91
 order: 15
 permalink: false

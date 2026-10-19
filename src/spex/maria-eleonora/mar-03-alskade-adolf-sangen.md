@@ -1,7 +1,7 @@
 ---
-title: "[MAR 3] Älskade Adolf-sången"
-singer: "Maria Eleonora sjunger"
-melody: "De sista ljuva åren"
+title: '[MAR 3] Älskade Adolf-sången'
+singer: 'Maria Eleonora sjunger'
+melody: 'De sista ljuva åren'
 spex: maria-eleonora
 order: 4
 permalink: false

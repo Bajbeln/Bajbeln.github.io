@@ -1,11 +1,12 @@
 ---
-title: "[E14 8] Charmduellen"
-singer: "Elisabeth och Mary sjunger"
-melody: "Från slickepinn till läppstift"
+title: '[E14 8] Charmduellen'
+singer: 'Elisabeth och Mary sjunger'
+melody: 'Från slickepinn till läppstift'
 spex: erik-xiv-1995-96
 order: 14
 permalink: false
 ---
+
 **Elisabeth**
 Vi kan bli ärtan i din soppa
 Om du blir honungen i vårt te

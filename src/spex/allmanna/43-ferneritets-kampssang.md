@@ -1,11 +1,12 @@
 ---
-title: "43. Ferneritets kampsång"
-singer: "Rätt- och felkarnevelen Tjogotio"
-melody: "Snapphaneklanen (Skall sjungas på skånska)"
+title: '43. Ferneritets kampsång'
+singer: 'Rätt- och felkarnevelen Tjogotio'
+melody: 'Snapphaneklanen (Skall sjungas på skånska)'
 spex: allmanna
 order: 44
 permalink: false
 ---
+
 Våra halsar smakar som skiet
 Vik hädan för Ferneriet!
 Med brustna hjärtan

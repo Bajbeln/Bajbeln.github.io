@@ -1,11 +1,12 @@
 ---
-title: "[BRA 6] Jag är smart"
-singer: "Tycho sjunger"
-melody: "Real gone"
+title: '[BRA 6] Jag är smart'
+singer: 'Tycho sjunger'
+melody: 'Real gone'
 spex: tycho
 order: 9
 permalink: false
 ---
+
 Jag har tappat mitt sting, panik runt omkring
 Vad ska jag nu ta mig till?
 Ja det hänger på mig

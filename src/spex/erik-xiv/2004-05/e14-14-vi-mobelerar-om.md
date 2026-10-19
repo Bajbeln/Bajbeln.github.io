@@ -1,11 +1,12 @@
 ---
-title: "[E14 14] Vi möblerar om"
-singer: "Elisabeth, Brünnhilde och Erik sjunger"
-melody: "Povels ofullbordade: Opus ännu"
+title: '[E14 14] Vi möblerar om'
+singer: 'Elisabeth, Brünnhilde och Erik sjunger'
+melody: 'Povels ofullbordade: Opus ännu'
 spex: erik-xiv-2004-05
 order: 3
 permalink: false
 ---
+
 **E+B**
 Det har blitt hög tid att möblera om!
 

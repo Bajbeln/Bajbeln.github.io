@@ -1,6 +1,6 @@
 ---
-title: "[KEJ 5] Gonglåt"
-singer: "In och Ut sjunger"
+title: '[KEJ 5] Gonglåt'
+singer: 'In och Ut sjunger'
 melody: "Ballin' the Jack"
 spex: kejsaren-av-kina
 order: 11

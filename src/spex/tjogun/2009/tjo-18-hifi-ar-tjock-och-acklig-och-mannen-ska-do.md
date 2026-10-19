@@ -1,7 +1,7 @@
 ---
-title: "[TJO 18] Hifi-är-tjock-och-äcklig-och-männen-ska-dö"
-singer: "Geishorna sjunger"
-melody: "Lollopop"
+title: '[TJO 18] Hifi-är-tjock-och-äcklig-och-männen-ska-dö'
+singer: 'Geishorna sjunger'
+melody: 'Lollopop'
 spex: tjogun-2009
 order: 5
 permalink: false

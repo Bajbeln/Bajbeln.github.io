@@ -1,7 +1,7 @@
 ---
-title: "[KAR 1] Inledningssång"
-singer: "Abu bark och Yohanna sjunger"
-melody: "Mr. Sandman"
+title: '[KAR 1] Inledningssång'
+singer: 'Abu bark och Yohanna sjunger'
+melody: 'Mr. Sandman'
 spex: karl-martell-1997
 order: 1
 permalink: false

@@ -1,11 +1,12 @@
 ---
-title: "[BRO 5] Slutkuplett"
-singer: "Alla sjunger"
-melody: "Go West – Village People"
+title: '[BRO 5] Slutkuplett'
+singer: 'Alla sjunger'
+melody: 'Go West – Village People'
 spex: oresundsbron
 order: 13
 permalink: false
 ---
+
 Två länder, byggde klart sin bro
 Och Göran, fick åt sig äran sno
 Ett landsting, enades med slit

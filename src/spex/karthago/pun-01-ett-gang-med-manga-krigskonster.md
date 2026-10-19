@@ -1,11 +1,12 @@
 ---
-title: "[PUN 1] Ett gäng med många krigskonster"
-singer: "Generalerna Hannon, Orosius och Byrsa sjunger"
-melody: "Christmas at sea, R.L. Stevenson The Longest Johns"
+title: '[PUN 1] Ett gäng med många krigskonster'
+singer: 'Generalerna Hannon, Orosius och Byrsa sjunger'
+melody: 'Christmas at sea, R.L. Stevenson The Longest Johns'
 spex: karthago
 order: 1
 permalink: false
 ---
+
 **Hannon:** Det började så bra,
 när vi gick i krig mot Rom,
 uppfyllda av moral-

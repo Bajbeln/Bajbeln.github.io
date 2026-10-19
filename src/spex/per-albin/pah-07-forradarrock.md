@@ -1,7 +1,7 @@
 ---
-title: "[PAH 7] Förrädarrock"
-singer: "Vidkun Quisling sjunger"
-melody: "Burning love"
+title: '[PAH 7] Förrädarrock'
+singer: 'Vidkun Quisling sjunger'
+melody: 'Burning love'
 spex: per-albin
 order: 11
 permalink: false

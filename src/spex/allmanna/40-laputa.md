@@ -1,10 +1,11 @@
 ---
-title: "40. Laputa"
-melody: "Pripps Royal"
+title: '40. Laputa'
+melody: 'Pripps Royal'
 spex: allmanna
 order: 41
 permalink: false
 ---
+
 En påse bröd det varit bröd uti
 Brödet Laputa uti toppens mitt
 Sprack uti toppens mitt

@@ -1,11 +1,12 @@
 ---
-title: "[STA 26] Svettig Stalin Tango"
-singer: "Stalin och Extasia sjunger"
-melody: "Håll om mig, Nanne Grönvall; intro: El Tango de Roxanne, ur Moulin Rouge"
+title: '[STA 26] Svettig Stalin Tango'
+singer: 'Stalin och Extasia sjunger'
+melody: 'Håll om mig, Nanne Grönvall; intro: El Tango de Roxanne, ur Moulin Rouge'
 spex: stalin-2008-09
 order: 17
 permalink: false
 ---
+
 Första gången jag såg dig
 Ja, snälla du kom fram och säg
 Det var dig jag ville ha

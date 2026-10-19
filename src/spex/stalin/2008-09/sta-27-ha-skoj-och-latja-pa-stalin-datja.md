@@ -1,11 +1,12 @@
 ---
-title: "[STA 27] Ha skoj och latja på stalin datja"
-singer: "Ribbentrop och Molotov sjunger"
-melody: "Sir Duke, Steve Wonder"
+title: '[STA 27] Ha skoj och latja på stalin datja'
+singer: 'Ribbentrop och Molotov sjunger'
+melody: 'Sir Duke, Steve Wonder'
 spex: stalin-2008-09
 order: 19
 permalink: false
 ---
+
 **Ribbentrop:** Nu är det dags att packa väskorna,
 på sommarstället ska det bli gött häng.
 **Molotov:** Trots att Olga snarkar som en björn.

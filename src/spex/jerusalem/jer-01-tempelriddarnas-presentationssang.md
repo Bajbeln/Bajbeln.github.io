@@ -1,11 +1,12 @@
 ---
-title: "[JER 1] Tempelriddarnas presentationssång"
-singer: "René, Raymond och Brigitte sjunger"
-melody: "Duck tales"
+title: '[JER 1] Tempelriddarnas presentationssång'
+singer: 'René, Raymond och Brigitte sjunger'
+melody: 'Duck tales'
 spex: jerusalem
 order: 2
 permalink: false
 ---
+
 Här ska det bli äventyr, kom följ med du.
 Templargänget samlas här igen, vi är här nu.
 Och du ska vara med; för här ska du få se.

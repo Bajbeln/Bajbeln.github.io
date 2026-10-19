@@ -1,7 +1,7 @@
 ---
-title: "[KUK 10] Ingen USAknad bara Burlove"
-singer: "Caroline sjunger"
-melody: "I will survive"
+title: '[KUK 10] Ingen USAknad bara Burlove'
+singer: 'Caroline sjunger'
+melody: 'I will survive'
 spex: kubakrisen-2003-04
 order: 18
 permalink: false

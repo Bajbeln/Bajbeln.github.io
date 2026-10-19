@@ -17,7 +17,7 @@ permalink: /spex-name-multi/ # URL for the hub page — short and URL-safe, no y
 # and in that production's index.md.
 uppsattning:
   - id: spextitel-2024
-    label: "Spextitel 2024 (ABB)"
+    label: 'Spextitel 2024 (ABB)'
   - id: spextitel-2019
-    label: "Spextitel 2019 (ABB)"
+    label: 'Spextitel 2019 (ABB)'
 ---

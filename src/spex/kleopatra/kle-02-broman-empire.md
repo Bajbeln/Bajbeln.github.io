@@ -1,11 +1,12 @@
 ---
-title: "[KLE 2] Broman Empire"
-singer: "Caesar, Marcus Antonius, Brutus & legionärer sjunger"
-melody: "One night in Bangkok – Chess"
+title: '[KLE 2] Broman Empire'
+singer: 'Caesar, Marcus Antonius, Brutus & legionärer sjunger'
+melody: 'One night in Bangkok – Chess'
 spex: kleopatra
 order: 3
 permalink: false
 ---
+
 **Caesar:** Hit for, Romarnas Romare
 Julius Ceasar under gassande sol.
 El créme de la créme var han - Se vilken fager man!

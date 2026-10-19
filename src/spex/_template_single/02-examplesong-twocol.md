@@ -15,13 +15,14 @@
 # <br> tags on their own line — blank lines get collapsed by markdown.
 # ============================================================
 
-title: "N. Exempelsång med två kolumner"
-singer: "Talare A och Talare B sjunger"
-melody: "Låttitel – Artist"
+title: 'N. Exempelsång med två kolumner'
+singer: 'Talare A och Talare B sjunger'
+melody: 'Låttitel – Artist'
 spex: spextitel
 order: 2
 permalink: false
 ---
+
 ::: cols
 **Talare A:**
 Rad ett, kolumn vänster

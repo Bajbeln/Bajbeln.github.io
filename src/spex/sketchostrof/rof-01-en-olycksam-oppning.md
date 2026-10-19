@@ -1,11 +1,12 @@
 ---
-title: "[ROF 1] En olycksam öppning"
-singer: "Madelene och ensemble"
-melody: "30/90, ur Tick, Tick... BOOM!"
+title: '[ROF 1] En olycksam öppning'
+singer: 'Madelene och ensemble'
+melody: '30/90, ur Tick, Tick... BOOM!'
 spex: sketchostrof
 order: 1
 permalink: false
 ---
+
 Hej på er
 Kul att ses
 Som ni kan se

@@ -1,7 +1,7 @@
 ---
-title: "[TJO 11] Vilka har giftet?"
-singer: "Sanyo, Sony och Akai sjunger"
-melody: "Nu ska vi gasqua"
+title: '[TJO 11] Vilka har giftet?'
+singer: 'Sanyo, Sony och Akai sjunger'
+melody: 'Nu ska vi gasqua'
 spex: tjogun-1992-93
 order: 14
 permalink: false

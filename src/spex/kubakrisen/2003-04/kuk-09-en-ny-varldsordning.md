@@ -1,6 +1,6 @@
 ---
-title: "[KUK 9] En ny världsordning"
-singer: "Castro och KGB sjunger"
+title: '[KUK 9] En ny världsordning'
+singer: 'Castro och KGB sjunger'
 melody: "Puttin' on the Ritz"
 spex: kubakrisen-2003-04
 order: 16
@@ -65,6 +65,7 @@ Ett sånt sätt
 Sitter som ett spett.
 
 7.
+
 Vad har hänt med vårt kalla krig
 Läget spänt det ser alla
 Vi går avklätt

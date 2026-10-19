@@ -1,10 +1,11 @@
 ---
-title: "[HCA 5] Pausfinalmedley"
-melody: "Växeln hallå – Janne Lucas"
+title: '[HCA 5] Pausfinalmedley'
+melody: 'Växeln hallå – Janne Lucas'
 spex: hc-andersen
 order: 6
 permalink: false
 ---
+
 Nu när jag blundar strålar huvet av färgen
 Oj, jag kan inte stå still
 Jag känner kraften ända djupt in i märgen

@@ -1,11 +1,12 @@
 ---
-title: "[FLO 7] Lord Byrons fräckesång"
-singer: "Lord Byron sjunger"
-melody: "Dat Dere, Simmons/Brown"
+title: '[FLO 7] Lord Byrons fräckesång'
+singer: 'Lord Byron sjunger'
+melody: 'Dat Dere, Simmons/Brown'
 spex: florence-1996-97
 order: 17
 permalink: false
 ---
+
 Hej på er, goddag, Lord Byron heter jag
 Jag ska berätta för er om min situation
 Med gul och vaxig hy, jag sitter som staty

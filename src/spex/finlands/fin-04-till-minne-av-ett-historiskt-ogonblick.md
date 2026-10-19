@@ -1,7 +1,7 @@
 ---
-title: "[FIN 4] Till minne av ett historiskt ögonblick"
-singer: "Walter och Werner sjunger"
-melody: "We hate to leave"
+title: '[FIN 4] Till minne av ett historiskt ögonblick'
+singer: 'Walter och Werner sjunger'
+melody: 'We hate to leave'
 spex: finlands
 order: 5
 permalink: false

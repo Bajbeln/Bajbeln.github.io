@@ -1,11 +1,12 @@
 ---
-title: "[KRI 4] Krigskurtis"
-singer: "Gustav och Svetschlinka"
-melody: "Två mörka ögon"
+title: '[KRI 4] Krigskurtis'
+singer: 'Gustav och Svetschlinka'
+melody: 'Två mörka ögon'
 spex: kristina-2001
 order: 6
 permalink: false
 ---
+
 **Svetschlinka:**
 Få ting är lättare än raggning
 Steg ett: ta av din vigselring

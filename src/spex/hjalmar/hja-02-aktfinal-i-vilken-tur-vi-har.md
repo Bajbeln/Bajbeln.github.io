@@ -1,6 +1,6 @@
 ---
-title: "[HJA 2] Aktfinal I - Vilken tur vi har!"
-singer: "Hjalle, Storemor, hembygdsföreningen sjunger"
+title: '[HJA 2] Aktfinal I - Vilken tur vi har!'
+singer: 'Hjalle, Storemor, hembygdsföreningen sjunger'
 melody: "Here's a How-de-do!"
 spex: hjalmar
 order: 3

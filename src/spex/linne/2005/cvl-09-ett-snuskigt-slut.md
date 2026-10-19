@@ -1,11 +1,12 @@
 ---
-title: "[CvL 9] Ett snuskigt slut"
-singer: "En massa sjunger"
-melody: "Då blir det genast lite ruskigt, eller nåt?"
+title: '[CvL 9] Ett snuskigt slut'
+singer: 'En massa sjunger'
+melody: 'Då blir det genast lite ruskigt, eller nåt?'
 spex: linne-2005
 order: 5
 permalink: false
 ---
+
 **Kalle Dy och Louise:** Sen vi varandra fann
 Vi följts av en tyrann
 En man av hemsk natur

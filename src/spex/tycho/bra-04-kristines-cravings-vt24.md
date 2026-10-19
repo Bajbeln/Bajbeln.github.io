@@ -1,11 +1,12 @@
 ---
-title: "[BRA 4] Kristines cravings (vt24)"
-singer: "Kristine sjunger"
-melody: "Snacket på stan"
+title: '[BRA 4] Kristines cravings (vt24)'
+singer: 'Kristine sjunger'
+melody: 'Snacket på stan'
 spex: tycho
 order: 5
 permalink: false
 ---
+
 Jag ser det framför mig
 Den dan vi fick vårt första barn
 (hon blev mamma då, mamma Brahe oh ja)

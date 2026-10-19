@@ -1,11 +1,12 @@
 ---
-title: "[SKE 1] Religiösa vänner"
-singer: "En imam, rabbi, buddistisk munk och en katolik sjunger"
+title: '[SKE 1] Religiösa vänner'
+singer: 'En imam, rabbi, buddistisk munk och en katolik sjunger'
 melody: "I'll be there for you, Theme from Friends"
 spex: sketchistens
 order: 1
 permalink: false
 ---
+
 Är du utstött, retad, trött på gnäll och gnat?
 Svårt att ta dig ur ett livslångt celibat?
 Försöker hitta lösning till din situation

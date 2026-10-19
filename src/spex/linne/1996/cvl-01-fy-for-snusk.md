@@ -1,11 +1,12 @@
 ---
-title: "[CvL 1] Fy för snusk!"
-singer: "Swedenborg och måttlighetsföreningen sjunger"
-melody: "Be Prepared! ur Lejonkungen"
+title: '[CvL 1] Fy för snusk!'
+singer: 'Swedenborg och måttlighetsföreningen sjunger'
+melody: 'Be Prepared! ur Lejonkungen'
 spex: linne-1996
 order: 2
 permalink: false
 ---
+
 **Swedenb:** Tro inte att ni sover trygga
 I er mjuka säng nu i natt
 För ondskanden djävulska stygga

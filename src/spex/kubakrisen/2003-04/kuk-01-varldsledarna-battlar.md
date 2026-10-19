@@ -1,7 +1,7 @@
 ---
-title: "[KUK 1] Världsledarna battlar"
-singer: "Kennedy och Chrustjov sjunger"
-melody: "In the mood"
+title: '[KUK 1] Världsledarna battlar'
+singer: 'Kennedy och Chrustjov sjunger'
+melody: 'In the mood'
 spex: kubakrisen-2003-04
 order: 1
 permalink: false

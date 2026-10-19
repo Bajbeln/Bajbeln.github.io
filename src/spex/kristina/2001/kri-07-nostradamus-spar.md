@@ -1,11 +1,12 @@
 ---
-title: "[KRI 4] Nostradamus spår"
-singer: "Fröken Nostradamus"
-melody: "Take five"
+title: '[KRI 4] Nostradamus spår'
+singer: 'Fröken Nostradamus'
+melody: 'Take five'
 spex: kristina-2001
 order: 7
 permalink: false
 ---
+
 Varje gång min far har förutspått
 Krävs aktion, ambition
 Jag begår de brott som han begått

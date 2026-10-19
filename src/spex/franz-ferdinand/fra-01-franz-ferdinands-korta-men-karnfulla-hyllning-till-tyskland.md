@@ -1,7 +1,7 @@
 ---
-title: "[FRA 1] Franz Ferdinands korta men kärnfulla hyllning till Tyskland"
-singer: "Franz Ferdinand, von Jagow, Fröken Slatko och Fru Törley sjunger"
-melody: "Preussens gloria – tysk marsch"
+title: '[FRA 1] Franz Ferdinands korta men kärnfulla hyllning till Tyskland'
+singer: 'Franz Ferdinand, von Jagow, Fröken Slatko och Fru Törley sjunger'
+melody: 'Preussens gloria – tysk marsch'
 spex: franz-ferdinand
 order: 3
 permalink: false

@@ -1,7 +1,7 @@
 ---
-title: "[NOB 5] Le Nons Presentationssång"
-singer: "Le Non sjunger"
-melody: "Santa Claus is Coming to Town"
+title: '[NOB 5] Le Nons Presentationssång'
+singer: 'Le Non sjunger'
+melody: 'Santa Claus is Coming to Town'
 spex: nobel
 order: 7
 permalink: false

@@ -1,7 +1,7 @@
 ---
-title: "[LIN 2] Vänner för livet"
-singer: "Sara Delila och Ericsson sjunger"
-melody: "Down By the Riverside"
+title: '[LIN 2] Vänner för livet'
+singer: 'Sara Delila och Ericsson sjunger'
+melody: 'Down By the Riverside'
 spex: lincoln-1985-86
 order: 6
 permalink: false

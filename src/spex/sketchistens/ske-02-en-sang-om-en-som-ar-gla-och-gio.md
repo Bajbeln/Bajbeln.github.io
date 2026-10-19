@@ -1,11 +1,12 @@
 ---
 title: "[SKE 2] En sång om en som är gla och gi'o"
 singer: "Föreningen 'Skjut-kpist-men-lämna-bilen-hemma' sjunger"
-melody: "Total eclipse of the heart"
+melody: 'Total eclipse of the heart'
 spex: sketchistens
 order: 4
 permalink: false
 ---
+
 Jan Guillou - det börja på gymnasiet,
 min lärare sa: Ondskan är bra och du
 ska läsa den

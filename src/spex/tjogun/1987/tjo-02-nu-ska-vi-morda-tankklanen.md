@@ -1,7 +1,7 @@
 ---
-title: "[TJO 2] Nu ska vi mörda Tankklanen"
-singer: "Sanyo sjunger"
-melody: "Lilla Idas visa"
+title: '[TJO 2] Nu ska vi mörda Tankklanen'
+singer: 'Sanyo sjunger'
+melody: 'Lilla Idas visa'
 spex: tjogun-1987
 order: 5
 permalink: false

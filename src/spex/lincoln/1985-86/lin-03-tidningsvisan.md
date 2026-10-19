@@ -1,7 +1,7 @@
 ---
-title: "[LIN 3] Tidningsvisan"
-singer: "Sara Delila och Lind sjunger"
-melody: "Elektricitetsvisan"
+title: '[LIN 3] Tidningsvisan'
+singer: 'Sara Delila och Lind sjunger'
+melody: 'Elektricitetsvisan'
 spex: lincoln-1985-86
 order: 11
 permalink: false

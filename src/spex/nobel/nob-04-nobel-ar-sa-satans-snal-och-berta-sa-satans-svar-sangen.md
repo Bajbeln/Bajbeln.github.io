@@ -1,7 +1,7 @@
 ---
-title: "[NOB 4] Nobel är så satans snål och Berta så satans svår sången"
-singer: "Nobel och Bertha sjunger"
-melody: "Worrying Kind"
+title: '[NOB 4] Nobel är så satans snål och Berta så satans svår sången'
+singer: 'Nobel och Bertha sjunger'
+melody: 'Worrying Kind'
 spex: nobel
 order: 5
 permalink: false

@@ -1,7 +1,7 @@
 ---
-title: "[MAR 5] Ge oss öl-sången"
-singer: "Stånden sjunger"
-melody: "Det sa bom"
+title: '[MAR 5] Ge oss öl-sången'
+singer: 'Stånden sjunger'
+melody: 'Det sa bom'
 spex: maria-eleonora
 order: 6
 permalink: false

@@ -1,6 +1,6 @@
 ---
-title: "[GYT 1] Kärleksballad"
-melody: "Dover - Calais"
+title: '[GYT 1] Kärleksballad'
+melody: 'Dover - Calais'
 spex: gyttjeblottning
 order: 1
 permalink: false

@@ -1,7 +1,7 @@
 ---
-title: "[DAR 2] Troskupplett"
-singer: "Troenden & Agnostikern sjunger"
-melody: "Don Pasquale - Aspetta, aspetta"
+title: '[DAR 2] Troskupplett'
+singer: 'Troenden & Agnostikern sjunger'
+melody: 'Don Pasquale - Aspetta, aspetta'
 spex: darwin-2005
 order: 5
 permalink: false

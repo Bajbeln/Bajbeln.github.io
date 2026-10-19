@@ -1,11 +1,12 @@
 ---
-title: "[LEW 4] Rädda isbjörnarna! (och förräd din vän)"
-singer: "George Bush Sr, George Bush Jr, Sara Blek, Anne Yster, Republikaner & Al Gore sjunger"
-melody: "Friends on the other side, ur Prinsessan & Grodan"
+title: '[LEW 4] Rädda isbjörnarna! (och förräd din vän)'
+singer: 'George Bush Sr, George Bush Jr, Sara Blek, Anne Yster, Republikaner & Al Gore sjunger'
+melody: 'Friends on the other side, ur Prinsessan & Grodan'
 spex: lewinsky
 order: 5
 permalink: false
 ---
+
 **Sr(tal):** Tveka ej nu lille demokrat
 **Jr(tal):** Vi gör allt för att hjälpa dig
 **Jr:** Skriv på här

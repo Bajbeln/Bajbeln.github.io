@@ -1,11 +1,12 @@
 ---
-title: "[CHA 4] En Verdi avslutning på spääxet Charles Magnusson"
-singer: "Alla sjunger jättemycket"
-melody: "Zigenarkören, Verdi"
+title: '[CHA 4] En Verdi avslutning på spääxet Charles Magnusson'
+singer: 'Alla sjunger jättemycket'
+melody: 'Zigenarkören, Verdi'
 spex: charles-magnusson
 order: 9
 permalink: false
 ---
+
 Tanten far till andra kanten av den blå atlanten
 Charles blir frisläppt och får göra film för hela slanten
 Och Niding får sitt straff till sist

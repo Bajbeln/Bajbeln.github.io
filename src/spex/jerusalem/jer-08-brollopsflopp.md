@@ -1,11 +1,12 @@
 ---
-title: "[JER 8] Bröllopsflopp"
-singer: "Bröllopsgästerna sjunger"
-melody: "Hava Nagila"
+title: '[JER 8] Bröllopsflopp'
+singer: 'Bröllopsgästerna sjunger'
+melody: 'Hava Nagila'
 spex: jerusalem
 order: 12
 permalink: false
 ---
+
 **Balduin:** Åh nej, åh nej,
 för nu är det bröllop.
 Min kära syster gifter sig.

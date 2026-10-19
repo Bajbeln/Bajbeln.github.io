@@ -1,7 +1,7 @@
 ---
-title: "[DAR 3] Nu ska vi ta Darwin i tvåan"
-singer: "Victoria & Konungaätten sjunger"
-melody: "La det swinge"
+title: '[DAR 3] Nu ska vi ta Darwin i tvåan'
+singer: 'Victoria & Konungaätten sjunger'
+melody: 'La det swinge'
 spex: darwin-2005
 order: 6
 permalink: false

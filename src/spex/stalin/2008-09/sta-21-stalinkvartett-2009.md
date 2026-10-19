@@ -1,11 +1,12 @@
 ---
-title: "[STA 21] Stalinkvartett 2009"
-singer: "Stalin 3, 4, 5 och 6 sjunger"
-melody: "Darkness on the delta"
+title: '[STA 21] Stalinkvartett 2009'
+singer: 'Stalin 3, 4, 5 och 6 sjunger'
+melody: 'Darkness on the delta'
 spex: stalin-2008-09
 order: 13
 permalink: false
 ---
+
 Här på Lenin-mausoleet
 blir vi bara fler och fler
 Här på Lenin-mausoleet

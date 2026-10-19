@@ -1,7 +1,7 @@
 ---
-title: "[O 5] Franskförnedringskupletten"
-singer: "Drottning Victoria sjunger"
-melody: "Poupée de cire, poupée de son – France Gall"
+title: '[O 5] Franskförnedringskupletten'
+singer: 'Drottning Victoria sjunger'
+melody: 'Poupée de cire, poupée de son – France Gall'
 spex: rosetta
 order: 8
 permalink: false

@@ -1,6 +1,6 @@
 ---
-title: "[NOB 2] En tung gung kung sång"
-singer: "Oskar II sjunger"
+title: '[NOB 2] En tung gung kung sång'
+singer: 'Oskar II sjunger'
 melody: "Travelin' Band"
 spex: nobel
 order: 3

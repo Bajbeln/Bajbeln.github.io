@@ -1,11 +1,12 @@
 ---
-title: "[E14 13] Om kungen dog"
-singer: "Johan, Karin, Karl, Conny och Hebba sjunger"
-melody: "Kvartett ur Chess"
+title: '[E14 13] Om kungen dog'
+singer: 'Johan, Karin, Karl, Conny och Hebba sjunger'
+melody: 'Kvartett ur Chess'
 spex: erik-xiv-2004-05
 order: 2
 permalink: false
 ---
+
 **Johan**
 Se där nu är vi här så lär
 er av när jag gör karriär.

@@ -1,7 +1,7 @@
 ---
-title: "[KRO 1] Nu dör jag-sången"
-singer: "Tomlinson Pitt sjunger"
-melody: "No Particular Place to Go"
+title: '[KRO 1] Nu dör jag-sången'
+singer: 'Tomlinson Pitt sjunger'
+melody: 'No Particular Place to Go'
 spex: krook
 order: 3
 permalink: false

@@ -1,7 +1,7 @@
 ---
-title: "[KUK 15] Atomombarjazz"
-singer: "Chrustjev, Jackie och Miss Johnsson sjunger"
-melody: "Äppelknyckarjazz, Movits!"
+title: '[KUK 15] Atomombarjazz'
+singer: 'Chrustjev, Jackie och Miss Johnsson sjunger'
+melody: 'Äppelknyckarjazz, Movits!'
 spex: kubakrisen-2013
 order: 6
 permalink: false

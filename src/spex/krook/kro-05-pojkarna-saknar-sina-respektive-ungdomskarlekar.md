@@ -1,6 +1,6 @@
 ---
-title: "[KRO 5] Pojkarna saknar sina respektive ungdomskärlekar"
-singer: "Pojkarna sjunger"
+title: '[KRO 5] Pojkarna saknar sina respektive ungdomskärlekar'
+singer: 'Pojkarna sjunger'
 melody: "You're the One That I Want"
 spex: krook
 order: 12
@@ -59,7 +59,7 @@ Ifrån tå till topp
 **Benny:**
 Å om jag kunde hitta dig!
 
-*Refräng*
+_Refräng_
 ::: col
 **De andra:**
 Kul, kul, kul

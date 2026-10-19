@@ -1,10 +1,11 @@
 ---
-title: "15. Det är förkylt"
-melody: "Man or muppet – Jason Segel"
+title: '15. Det är förkylt'
+melody: 'Man or muppet – Jason Segel'
 spex: kristina-2023-24
 order: 15
 permalink: false
 ---
+
 _(Roligaste kuplett vid EGT 2024)_
 
 Jag har hostat hela dagen

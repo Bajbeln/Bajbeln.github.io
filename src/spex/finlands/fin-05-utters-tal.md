@@ -1,7 +1,7 @@
 ---
-title: "[FIN 5] Utters tal"
-singer: "Utter sjunger"
-melody: "Du måste finnas"
+title: '[FIN 5] Utters tal'
+singer: 'Utter sjunger'
+melody: 'Du måste finnas'
 spex: finlands
 order: 6
 permalink: false

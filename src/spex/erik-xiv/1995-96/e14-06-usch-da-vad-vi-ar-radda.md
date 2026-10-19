@@ -1,7 +1,7 @@
 ---
-title: "[E14 6] Usch då vad vi är rädda för varandra"
-singer: "Brünnhilde och Karin sjunger"
-melody: "Eh, via buffone – Don Giovanni"
+title: '[E14 6] Usch då vad vi är rädda för varandra'
+singer: 'Brünnhilde och Karin sjunger'
+melody: 'Eh, via buffone – Don Giovanni'
 spex: erik-xiv-1995-96
 order: 10
 permalink: false

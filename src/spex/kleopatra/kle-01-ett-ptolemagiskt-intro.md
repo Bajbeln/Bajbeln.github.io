@@ -1,11 +1,12 @@
 ---
-title: "[KLE 1] Ett Ptolemagiskt intro"
-singer: "Ptolesyskon sjunger"
-melody: "Everyway that I can – Sertab Erener"
+title: '[KLE 1] Ett Ptolemagiskt intro'
+singer: 'Ptolesyskon sjunger'
+melody: 'Everyway that I can – Sertab Erener'
 spex: kleopatra
 order: 1
 permalink: false
 ---
+
 Vår hela släkt bor här längs Nilen
 Alla klär vi i den här stilen
 Har man klass är man ptolemée

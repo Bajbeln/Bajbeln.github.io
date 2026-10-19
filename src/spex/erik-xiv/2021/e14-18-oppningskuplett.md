@@ -1,11 +1,12 @@
 ---
-title: "[E14 18] Öppningskuplett ur Krischanstaspääxets återuppsättning av Erik XIV"
-singer: "Fånge 1 & 2 sjunger"
-melody: "Cabaret, ur Cabaret"
+title: '[E14 18] Öppningskuplett ur Krischanstaspääxets återuppsättning av Erik XIV'
+singer: 'Fånge 1 & 2 sjunger'
+melody: 'Cabaret, ur Cabaret'
 spex: erik-xiv-2021
 order: 1
 permalink: false
 ---
+
 Låt oss välkomna er till
 Stockholms stad
 Kul att ni kommit hit

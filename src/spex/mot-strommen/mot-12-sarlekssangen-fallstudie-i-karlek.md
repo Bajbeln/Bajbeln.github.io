@@ -1,7 +1,7 @@
 ---
-title: "[MOT 12] Särlekssången - fallstudie i kärlek"
-singer: "Dot och Tesla sjunger"
-melody: "Nygammal vals"
+title: '[MOT 12] Särlekssången - fallstudie i kärlek'
+singer: 'Dot och Tesla sjunger'
+melody: 'Nygammal vals'
 spex: mot-strommen
 order: 14
 permalink: false

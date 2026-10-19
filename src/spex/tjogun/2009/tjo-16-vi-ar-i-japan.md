@@ -1,7 +1,7 @@
 ---
-title: "[TJO 16] Vi är i Japan"
-singer: "Syster Krokus och Broder Fikus sjunger"
-melody: "I ditt bagage"
+title: '[TJO 16] Vi är i Japan'
+singer: 'Syster Krokus och Broder Fikus sjunger'
+melody: 'I ditt bagage'
 spex: tjogun-2009
 order: 1
 permalink: false

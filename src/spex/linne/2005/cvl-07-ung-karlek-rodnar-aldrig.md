@@ -1,11 +1,12 @@
 ---
-title: "[CvL 7] Ung kärlek rodnar aldrig"
-singer: "Louise och Calle d.y. sjunger"
-melody: "Total Eclipse of the Heart"
+title: '[CvL 7] Ung kärlek rodnar aldrig'
+singer: 'Louise och Calle d.y. sjunger'
+melody: 'Total Eclipse of the Heart'
 spex: linne-2005
 order: 4
 permalink: false
 ---
+
 ::: cols
 **Carl d.y:**
 Hör på mej!
@@ -20,7 +21,7 @@ Hör på mig,
 älskling!
 ::: col
 **Louise:**
-*(Slår händerna för öronen)*
+_(Slår händerna för öronen)_
 Nej, jag vågar inte; tänk om
 du skulle säga något snuskigt
 så att jag kanske

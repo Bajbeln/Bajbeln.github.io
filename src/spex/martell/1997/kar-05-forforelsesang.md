@@ -1,7 +1,7 @@
 ---
-title: "[KAR 5] Förförelsesång"
-singer: "Korken och Pippin sjunger"
-melody: "Big Spender"
+title: '[KAR 5] Förförelsesång'
+singer: 'Korken och Pippin sjunger'
+melody: 'Big Spender'
 spex: karl-martell-1997
 order: 11
 permalink: false

@@ -1,14 +1,17 @@
 # Bajbeln
+
 Tillgänglig på [bajbeln.github.io](https://bajbeln.github.io/)
 
 ## Kontakt
 
 ## Låtar
+
 Spexen finns som filer i [`src/spex`](./src/spex), där kupletterna finns som
 `.md`-filer. Originaldokumenten de är tagna ifrån finns i
 [`assets/song-files`](./assets/song-files).
 
 ## Projektstruktur
+
 - [`src/`](./src) – källfiler och mallar för webbplatsen
 - [`src/spex/`](./src/spex) – spex och kupletter
 - [`src/_data/`](./src/_data) – metadata, bland annat spexlistan
@@ -18,6 +21,7 @@ Spexen finns som filer i [`src/spex`](./src/spex), där kupletterna finns som
 - [`_site/`](./_site) – genererade filer; ändra inte dessa manuellt
 
 ## Lägga till ett spex
+
 Kopiera mall-mappen [`src/spex/_template_single`](./src/spex/_template_single)
 för enkeluppsättningsspääx eller
 [`src/spex/_template_multi`](./src/spex/_template_multi) för
@@ -37,9 +41,11 @@ Mer information finns i:
 - [Attributioner](./attributions.md)
 
 ## För utvecklare
+
 Kräver **Node.js 18 eller nyare** (rekommenderat: 24). npm ingår i Node.js.
 
 För att köra igång appen kör:
+
 ```
 npm install   # krävs första gången
 npm run start
@@ -48,12 +54,14 @@ npm run start
 > **Notera:** OG-bilder (Open Graph) genereras **inte** automatiskt. Kör `npm run generate:og-images` manuellt efter ändringar (t.ex. nya spex eller ändrade färger). Skriptet är **inkrementellt** – det regenererar endast nya eller ändrade bilder. Använd `npm run generate:og-images -- --force` för att regenerera alla bilder.
 >
 > **Systemkrav för OG-bilder:** Skriptet kräver ImageMagick och jq. Installera med:
+>
 > - **macOS (Homebrew):** `brew install imagemagick jq`
 > - **Linux (Debian/Ubuntu):** `sudo apt-get install imagemagick jq`
 > - **Linux (Fedora/RHEL):** `sudo dnf install ImageMagick jq`
-> xargs och stat ingår normalt i Unix-lika system.
+>   xargs och stat ingår normalt i Unix-lika system.
 
 ## Publicering
+
 Webbplatsen publiceras på [bajbeln.github.io](https://bajbeln.github.io/) med
 GitHub Pages. Arbetsflödet
 [`deploy_try.yml`](./.github/workflows/deploy_try.yml) bygger webbplatsen med
@@ -61,8 +69,10 @@ Eleventy och distribuerar den genererade mappen `_site/`. En ny publicering
 sker automatiskt när ändringar pushas till `main`.
 
 ## På gång & kända fel (mer på `todo`)
+
 - Korrläsning av alla spex (på gång)
 
 ## Tack till
+
 - Kodning har gjorts av Joel Takahashi Olsson, Jacob Annefors och Johan Furuhjelm.
 - Särskilt tack till August Bergöö för namngivande.

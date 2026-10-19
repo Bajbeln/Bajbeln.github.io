@@ -1,7 +1,7 @@
 ---
-title: "[PAH 3] Vi stoppar strumpor och tysken"
-singer: "Eva-Lotta, Anna-Lotta och Slaktar-Lotta sjunger"
-melody: "Signed, sealed, delivered"
+title: '[PAH 3] Vi stoppar strumpor och tysken'
+singer: 'Eva-Lotta, Anna-Lotta och Slaktar-Lotta sjunger'
+melody: 'Signed, sealed, delivered'
 spex: per-albin
 order: 4
 permalink: false

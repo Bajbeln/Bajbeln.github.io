@@ -1,10 +1,11 @@
 ---
-title: "[HCA 8] Slutkuplett"
-melody: "High school musical – High school musical cast"
+title: '[HCA 8] Slutkuplett'
+melody: 'High school musical – High school musical cast'
 spex: hc-andersen
 order: 11
 permalink: false
 ---
+
 Plötsligt har vi nått sagans slut
 Säger snipp, snapp, snut och
 stänger bokomslaget

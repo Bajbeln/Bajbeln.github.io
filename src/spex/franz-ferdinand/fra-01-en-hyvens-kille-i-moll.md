@@ -1,7 +1,7 @@
 ---
-title: "[FRA 1] En hyvens kille i moll"
-singer: "Franz Ferdinand, von Jagow, Fröken Slatko och Fru Törley sjunger"
-melody: "Budapest (fast i moll)"
+title: '[FRA 1] En hyvens kille i moll'
+singer: 'Franz Ferdinand, von Jagow, Fröken Slatko och Fru Törley sjunger'
+melody: 'Budapest (fast i moll)'
 spex: franz-ferdinand
 order: 2
 permalink: false

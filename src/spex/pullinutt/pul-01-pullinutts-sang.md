@@ -1,7 +1,7 @@
 ---
-title: "[PUL 1] Pullinutts sång"
-singer: "Pullinutt sjunger"
-melody: "Drömslottet, Mora träsk"
+title: '[PUL 1] Pullinutts sång'
+singer: 'Pullinutt sjunger'
+melody: 'Drömslottet, Mora träsk'
 spex: pullinutt
 order: 2
 permalink: false

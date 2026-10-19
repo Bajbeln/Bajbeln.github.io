@@ -1,11 +1,12 @@
 ---
-title: "[STA 2] Du gör mig snurrig"
-singer: "Svetlana sjunger"
-melody: "Dizzie, miss Lizzie"
+title: '[STA 2] Du gör mig snurrig'
+singer: 'Svetlana sjunger'
+melody: 'Dizzie, miss Lizzie'
 spex: stalin-1988-89
 order: 4
 permalink: false
 ---
+
 Du gör mej alldeles förvirrad
 Du gör mej snurrig Molotov!
 Du väcker nya känslor i mej

@@ -1,7 +1,7 @@
 ---
-title: "[KRO 4] Nu ska vi festa"
-singer: "Stygg, Transpiranta och mannarna sjunger"
-melody: "Lady Madonna"
+title: '[KRO 4] Nu ska vi festa'
+singer: 'Stygg, Transpiranta och mannarna sjunger'
+melody: 'Lady Madonna'
 spex: krook
 order: 9
 permalink: false

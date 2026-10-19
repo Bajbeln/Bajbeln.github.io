@@ -1,11 +1,12 @@
 ---
-title: "[LEO 11] Julius och lilla Mammas kärlekssång"
-singer: "Julius och lilla Mamma sjunger"
-melody: "Desafinado"
+title: '[LEO 11] Julius och lilla Mammas kärlekssång'
+singer: 'Julius och lilla Mamma sjunger'
+melody: 'Desafinado'
 spex: leonardo-1998-99
 order: 4
 permalink: false
 ---
+
 **LM:** Ensam har jag levt mitt liv i många år
 Makt och pengar den passion som jag förstår
 Jag styrt mitt bankimperium och jag har gått över lik

@@ -1,11 +1,12 @@
 ---
-title: "[LEO 8] Maffiavellis skurksång"
-singer: "Maffiavelli sjunger"
-melody: "Habaneran ur Carmen av Bizet"
+title: '[LEO 8] Maffiavellis skurksång'
+singer: 'Maffiavelli sjunger'
+melody: 'Habaneran ur Carmen av Bizet'
 spex: leonardo-1993
 order: 17
 permalink: false
 ---
+
 Jag är Niccoló Maffiavelli
 Och ve den som tror att jag ger upp
 De ska krossas när jag ikväll i

@@ -1,10 +1,11 @@
 ---
-title: "[EVA 6] Vi är bäst men jag är lite bättre"
-melody: "Call Me Maybe"
+title: '[EVA 6] Vi är bäst men jag är lite bättre'
+melody: 'Call Me Maybe'
 spex: eva-ekeblad-2019
 order: 9
 permalink: false
 ---
+
 **Hedvig-Catarina**
 Mitt liv: en guldbelagd sfär
 Skönhet är min karriär

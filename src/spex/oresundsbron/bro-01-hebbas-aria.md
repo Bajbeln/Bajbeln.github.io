@@ -1,11 +1,12 @@
 ---
-title: "[BRO 1] Hebbas aria"
-singer: "HEBBA sjunger"
-melody: "Kons aria (CIV 2)"
+title: '[BRO 1] Hebbas aria'
+singer: 'HEBBA sjunger'
+melody: 'Kons aria (CIV 2)'
 spex: oresundsbron
 order: 2
 permalink: false
 ---
+
 Jag är en tjej som går omkring i Malmö
 Vill säga "hej", men det fastnar i min hals
 Jag har bråttom att sluta vara ungmö

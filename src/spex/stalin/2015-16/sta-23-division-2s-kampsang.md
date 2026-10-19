@@ -1,11 +1,12 @@
 ---
-title: "[STA 23] Division 2s kampsång"
-singer: "Överste Bestel, Maksymillian, Gregor Smyrnoff sjunger"
-melody: "True survivor, ur Kung Fury"
+title: '[STA 23] Division 2s kampsång'
+singer: 'Överste Bestel, Maksymillian, Gregor Smyrnoff sjunger'
+melody: 'True survivor, ur Kung Fury'
 spex: stalin-2015-16
 order: 2
 permalink: false
 ---
+
 **Ö:** Tysken kommer närmre
 **M:** Och vi gör reträtt?
 **Ö/G:** Nej, för då hamnar

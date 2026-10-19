@@ -1,7 +1,7 @@
 ---
-title: "[KUK 4] När man försöker vara lite hippie"
-singer: "Caroline sjunger"
-melody: "I got life"
+title: '[KUK 4] När man försöker vara lite hippie'
+singer: 'Caroline sjunger'
+melody: 'I got life'
 spex: kubakrisen-2003-04
 order: 9
 permalink: false

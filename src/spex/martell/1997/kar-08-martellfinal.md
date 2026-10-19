@@ -1,7 +1,7 @@
 ---
-title: "[KAR 8] Martellfinal"
-singer: "Alla på scen sjunger"
-melody: "Black Adder"
+title: '[KAR 8] Martellfinal'
+singer: 'Alla på scen sjunger'
+melody: 'Black Adder'
 spex: karl-martell-1997
 order: 20
 permalink: false

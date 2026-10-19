@@ -1,10 +1,11 @@
 ---
-title: "1. Det är synd"
-melody: "Fyllevisan - Kraja"
+title: '1. Det är synd'
+melody: 'Fyllevisan - Kraja'
 spex: kristina-2023-24
 order: 1
 permalink: false
 ---
+
 Här står vi ett gäng polacker
 Sjunger om en sorgsen tid
 Fångade mellan attacker

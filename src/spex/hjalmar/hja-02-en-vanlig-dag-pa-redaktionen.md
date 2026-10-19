@@ -1,7 +1,7 @@
 ---
-title: "[HJA 2] En vanlig dag på redaktionen"
-singer: "Hjalmar, Jörgen och Udo sjunger"
-melody: "The typewriter"
+title: '[HJA 2] En vanlig dag på redaktionen'
+singer: 'Hjalmar, Jörgen och Udo sjunger'
+melody: 'The typewriter'
 spex: hjalmar
 order: 4
 permalink: false

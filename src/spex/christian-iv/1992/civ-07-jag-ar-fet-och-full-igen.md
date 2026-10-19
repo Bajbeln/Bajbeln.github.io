@@ -1,7 +1,7 @@
 ---
-title: "[CIV 7] Jag är fet och full - igen"
-singer: "Christian IV sjunger"
-melody: "La donna e mobile ur Verdis Rigoletto"
+title: '[CIV 7] Jag är fet och full - igen'
+singer: 'Christian IV sjunger'
+melody: 'La donna e mobile ur Verdis Rigoletto'
 spex: christian-iv-1992
 order: 2
 permalink: false

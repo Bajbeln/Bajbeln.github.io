@@ -1,7 +1,7 @@
 ---
-title: "[KAR 21] Karl och hans dotter sju sjunger en (kortare) son-g"
-singer: "Karl Martell och Grifo sjunger"
-melody: "Bara bara mygg av Roland Cedermark"
+title: '[KAR 21] Karl och hans dotter sju sjunger en (kortare) son-g'
+singer: 'Karl Martell och Grifo sjunger'
+melody: 'Bara bara mygg av Roland Cedermark'
 spex: karl-martell-2011-12
 order: 17
 permalink: false

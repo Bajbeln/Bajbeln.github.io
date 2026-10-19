@@ -1,11 +1,12 @@
 ---
-title: "[FLO 11] Advokatdisco"
-singer: "Barry & kören sjunger"
-melody: "Alcastar – Alcazar"
+title: '[FLO 11] Advokatdisco'
+singer: 'Barry & kören sjunger'
+melody: 'Alcastar – Alcazar'
 spex: florence-2025
 order: 3
 permalink: false
 ---
+
 **Kör:** Oh-oh, oh-oh
 Oh-oh, oh-oh
 Ooh-ooh, ooh-ooh

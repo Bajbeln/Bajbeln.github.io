@@ -1,10 +1,11 @@
 ---
-title: "11. Filosofikuplett"
-melody: "After sailing to this island - ur Gondoliers"
+title: '11. Filosofikuplett'
+melody: 'After sailing to this island - ur Gondoliers'
 spex: kristina-2023-24
 order: 11
 permalink: false
 ---
+
 **Rudbeck:** Vi är kloka filosofer
 Säkert seklets största stjärnor
 **Descartes:** Djupa tankar, vackra strofer

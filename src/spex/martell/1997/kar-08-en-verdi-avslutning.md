@@ -1,7 +1,7 @@
 ---
-title: "[KAR 8] En Verdi avslutning på Spääxet Karl Martell"
-singer: "Alla sjunger"
-melody: "Zigenarkören ur Trubaduren av Verdi"
+title: '[KAR 8] En Verdi avslutning på Spääxet Karl Martell'
+singer: 'Alla sjunger'
+melody: 'Zigenarkören ur Trubaduren av Verdi'
 spex: karl-martell-1997
 order: 21
 permalink: false

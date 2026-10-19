@@ -1,11 +1,12 @@
 ---
-title: "[STA 29] Det hårda slagna livet"
-singer: "Kontorister sjunger"
-melody: "The Hard-knock life, ur Annie"
+title: '[STA 29] Det hårda slagna livet'
+singer: 'Kontorister sjunger'
+melody: 'The Hard-knock life, ur Annie'
 spex: stalin-2015-16
 order: 6
 permalink: false
 ---
+
 Det är ett hårt, hårt liv för oss!
 Mycket jobb och slit förstås!
 Fyller alla vår funktion

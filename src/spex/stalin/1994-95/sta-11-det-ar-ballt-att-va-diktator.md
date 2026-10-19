@@ -1,11 +1,12 @@
 ---
-title: "[STA 11] Det är ballt att va diktator"
-singer: "Stalin och städerskegroupies sjunger"
+title: '[STA 11] Det är ballt att va diktator'
+singer: 'Stalin och städerskegroupies sjunger'
 melody: "Wearin' that Loved on Look"
 spex: stalin-1994-95
 order: 4
 permalink: false
 ---
+
 Det är ballt att vara diktator
 Jag har pondus och kraft och kurage
 Jag kan få varje tjej

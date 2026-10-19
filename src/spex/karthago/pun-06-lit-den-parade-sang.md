@@ -1,10 +1,11 @@
 ---
 title: "[PUN 6] Lit de'n parade sang (Ham ljuva Hamilkar)"
-singer: "Sctlambo, Generalerna, Clodia och Tanit sjunger"
+singer: 'Sctlambo, Generalerna, Clodia och Tanit sjunger'
 spex: karthago
 order: 7
 permalink: false
 ---
+
 **Hamilkar:** Karthagos, starkaste man har
 återvänt igen till sitt hemland
 Och plötsligt är tiden kommen

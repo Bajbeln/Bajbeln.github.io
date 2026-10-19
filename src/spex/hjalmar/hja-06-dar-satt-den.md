@@ -1,7 +1,7 @@
 ---
-title: "[HJA 6] Där satt den!"
-singer: "Många sjunger"
-melody: "Kinostar!"
+title: '[HJA 6] Där satt den!'
+singer: 'Många sjunger'
+melody: 'Kinostar!'
 spex: hjalmar
 order: 11
 permalink: false

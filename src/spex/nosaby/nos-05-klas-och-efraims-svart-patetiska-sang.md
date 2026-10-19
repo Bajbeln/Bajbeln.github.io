@@ -1,7 +1,7 @@
 ---
-title: "[NOS 5] Klas och Efraims svårt patetiska sång"
-singer: "Klas och Efraim sjunger"
-melody: "Delila"
+title: '[NOS 5] Klas och Efraims svårt patetiska sång'
+singer: 'Klas och Efraim sjunger'
+melody: 'Delila'
 spex: nosaby
 order: 5
 permalink: false

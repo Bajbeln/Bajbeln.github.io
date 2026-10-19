@@ -1,11 +1,12 @@
 ---
-title: "[HIL 8] Kärlek: Usch och Fy (VT23)"
-singer: "Sjungs av Munch, Vandalina & Börje"
+title: '[HIL 8] Kärlek: Usch och Fy (VT23)'
+singer: 'Sjungs av Munch, Vandalina & Börje'
 melody: "Won't Say I'm in Love - ur Hercules"
 spex: hilma
 order: 12
 permalink: false
 ---
+
 **Munch:** Nu sker det något helt bisarrt här
 Så snabbt kan ingen bli kär
 På tre röda, tre repliker

@@ -1,10 +1,11 @@
 ---
-title: "8. Jag vill bestämma själv"
-melody: "(Du är så) Yeah Yeah, Wow Wow – Martin Svensson"
+title: '8. Jag vill bestämma själv'
+melody: '(Du är så) Yeah Yeah, Wow Wow – Martin Svensson'
 spex: kristina-2023-24
 order: 8
 permalink: false
 ---
+
 **Kristina:** Ha-ha-ha-ha-ha-ha
 **Soldaterna:** Aaaaj
 _(4-8 gånger)_

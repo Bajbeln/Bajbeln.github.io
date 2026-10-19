@@ -1,6 +1,6 @@
 ---
-title: "[KEJ 2] Sex är bra, både med knopp och stjälk"
-singer: "Li Su, Kejsaren och Che Yen sjunger"
+title: '[KEJ 2] Sex är bra, både med knopp och stjälk'
+singer: 'Li Su, Kejsaren och Che Yen sjunger'
 melody: "She's got the lot ur Irma la douce"
 spex: kejsaren-av-kina
 order: 4

@@ -1,7 +1,7 @@
 ---
-title: "[MOT 2] Pappa Edison och Dot-ter sjunger"
-singer: "Edison och Dot sjunger"
-melody: "The money song, ur Cabaret"
+title: '[MOT 2] Pappa Edison och Dot-ter sjunger'
+singer: 'Edison och Dot sjunger'
+melody: 'The money song, ur Cabaret'
 spex: mot-strommen
 order: 2
 permalink: false

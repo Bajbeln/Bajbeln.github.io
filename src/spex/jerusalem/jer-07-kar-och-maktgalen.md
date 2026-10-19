@@ -1,11 +1,12 @@
 ---
-title: "[JER 7] Kär och maktgalen"
-singer: "Sibylla och Estelle sjunger"
+title: '[JER 7] Kär och maktgalen'
+singer: 'Sibylla och Estelle sjunger'
 melody: "I'll do anything for love"
 spex: jerusalem
 order: 10
 permalink: false
 ---
+
 Låt kär'leken få en ärlig chans.
 Den finns där du minst anar det.
 Sveps med i en svindlande romans.

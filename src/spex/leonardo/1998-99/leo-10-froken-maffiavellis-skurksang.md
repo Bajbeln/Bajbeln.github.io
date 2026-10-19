@@ -1,11 +1,12 @@
 ---
-title: "[LEO 10] Fröken Maffiavellis skurksång"
-singer: "Fröken Maffiavelli sjunger"
-melody: "Habaneran ur Carmen"
+title: '[LEO 10] Fröken Maffiavellis skurksång'
+singer: 'Fröken Maffiavelli sjunger'
+melody: 'Habaneran ur Carmen'
 spex: leonardo-1998-99
 order: 1
 permalink: false
 ---
+
 Jag är kvinna, det är besvärligt
 Men har en utomordentlig tur
 Ett manligt syskon är oumbärligt

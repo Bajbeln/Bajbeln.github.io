@@ -1,11 +1,12 @@
 ---
-title: "[LEO 12] Totalfinal"
-singer: "Alla sjunger"
-melody: "Mickey Mouse Club"
+title: '[LEO 12] Totalfinal'
+singer: 'Alla sjunger'
+melody: 'Mickey Mouse Club'
 spex: leonardo-1998-99
 order: 6
 permalink: false
 ---
+
 **Leonardo:**
 Tavlan här blev faktiskt fin
 Säg kan den vara min

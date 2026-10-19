@@ -1,7 +1,7 @@
 ---
-title: "[KAR 16] Kedjorna"
-singer: "Swanachild och Pippin sjunger"
-melody: "Stjärnorna"
+title: '[KAR 16] Kedjorna'
+singer: 'Swanachild och Pippin sjunger'
+melody: 'Stjärnorna'
 spex: karl-martell-2011-12
 order: 11
 permalink: false

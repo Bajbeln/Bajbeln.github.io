@@ -1,7 +1,7 @@
 ---
-title: "[HJA 4] Aktfinal II - Konspirationssången"
-singer: "Hjalle, Jörgen och Maggot sjunger"
-melody: "Underbart spännande ställen ur Dr Doolittle"
+title: '[HJA 4] Aktfinal II - Konspirationssången'
+singer: 'Hjalle, Jörgen och Maggot sjunger'
+melody: 'Underbart spännande ställen ur Dr Doolittle'
 spex: hjalmar
 order: 8
 permalink: false

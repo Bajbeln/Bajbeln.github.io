@@ -1,7 +1,7 @@
 ---
-title: "[PAH 7] Dass Låt"
-singer: "Lottarna och Sverigenazisterna sjunger"
-melody: "Summer nights (ur Grease)"
+title: '[PAH 7] Dass Låt'
+singer: 'Lottarna och Sverigenazisterna sjunger'
+melody: 'Summer nights (ur Grease)'
 spex: per-albin
 order: 10
 permalink: false

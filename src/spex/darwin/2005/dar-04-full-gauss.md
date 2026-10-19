@@ -1,7 +1,7 @@
 ---
-title: "[DAR 4] Full Gauss"
-singer: "Gauss och Sonja sjunger"
-melody: "Temat från Kalles klätterträd"
+title: '[DAR 4] Full Gauss'
+singer: 'Gauss och Sonja sjunger'
+melody: 'Temat från Kalles klätterträd'
 spex: darwin-2005
 order: 8
 permalink: false

@@ -1,7 +1,7 @@
 ---
-title: "[KEJ 6] Lång näsa"
-singer: "Che Yen sjunger"
-melody: "Muppet show theme"
+title: '[KEJ 6] Lång näsa'
+singer: 'Che Yen sjunger'
+melody: 'Muppet show theme'
 spex: kejsaren-av-kina
 order: 14
 permalink: false

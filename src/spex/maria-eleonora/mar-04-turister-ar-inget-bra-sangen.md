@@ -1,7 +1,7 @@
 ---
-title: "[MAR 4] Turister är inget bra-sången"
-singer: "Moster och stånden sjunger"
-melody: "Not Dead Yet"
+title: '[MAR 4] Turister är inget bra-sången'
+singer: 'Moster och stånden sjunger'
+melody: 'Not Dead Yet'
 spex: maria-eleonora
 order: 5
 permalink: false

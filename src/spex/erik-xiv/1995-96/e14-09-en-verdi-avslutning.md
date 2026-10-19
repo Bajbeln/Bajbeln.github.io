@@ -1,11 +1,12 @@
 ---
-title: "[E14 9] En Verdi avslutning på spääxet Erik XIV"
-singer: "Alla sjunger jättemycket"
-melody: "Zigenarkören ur Trubaduren av Verdi"
+title: '[E14 9] En Verdi avslutning på spääxet Erik XIV'
+singer: 'Alla sjunger jättemycket'
+melody: 'Zigenarkören ur Trubaduren av Verdi'
 spex: erik-xiv-1995-96
 order: 18
 permalink: false
 ---
+
 Karin lyckades som skumma hertingarna stoppa
 Erik klarade sig undan sina bröders soppa
 Kanske historiskt inkorrekt

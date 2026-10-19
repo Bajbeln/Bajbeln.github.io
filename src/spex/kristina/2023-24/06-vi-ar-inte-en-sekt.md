@@ -1,10 +1,11 @@
 ---
-title: "6. Vi är inte en sekt"
-melody: "Bögarnas fel – Grotesco"
+title: '6. Vi är inte en sekt'
+melody: 'Bögarnas fel – Grotesco'
 spex: kristina-2023-24
 order: 6
 permalink: false
 ---
+
 Om en vecka eller två, oh yeah oh yeah
 Kommer jorden undergå, oh ack o ve
 Men vi som simmar uppströms, har ändå ryggen fri.

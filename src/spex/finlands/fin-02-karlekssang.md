@@ -1,7 +1,7 @@
 ---
-title: "[FIN 2] Kärlekssång"
-singer: "Einar och Sirkka sjunger"
-melody: "Tango, tango"
+title: '[FIN 2] Kärlekssång'
+singer: 'Einar och Sirkka sjunger'
+melody: 'Tango, tango'
 spex: finlands
 order: 3
 permalink: false

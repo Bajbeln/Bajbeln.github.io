@@ -1,11 +1,12 @@
 ---
-title: "[EIF 2] Hej och hå, gul och blå!"
-singer: "Svenskarna sjunger"
-melody: "Så lunka vi"
+title: '[EIF 2] Hej och hå, gul och blå!'
+singer: 'Svenskarna sjunger'
+melody: 'Så lunka vi'
 spex: eiffel
 order: 4
 permalink: false
 ---
+
 **Kaj:** Jag är informationsansvarig
 Med vilja, list och välsmord trut
 Om ni två följer mina steg

@@ -1,10 +1,11 @@
 ---
-title: "45. Hot stuff (A.K.A. Var tyst och klä av dig-sången)"
-melody: "Hot stuff"
+title: '45. Hot stuff (A.K.A. Var tyst och klä av dig-sången)'
+melody: 'Hot stuff'
 spex: allmanna
 order: 45
 permalink: false
 ---
+
 Sittnin' here eatin' my heart out waitin'
 Waitin' for some love to call
 Dialled about a thousand numbers lately

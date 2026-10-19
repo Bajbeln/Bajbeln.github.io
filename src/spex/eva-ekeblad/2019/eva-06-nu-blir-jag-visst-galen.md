@@ -1,10 +1,11 @@
 ---
-title: "[EVA 6] Nu blir jag visst galen"
+title: '[EVA 6] Nu blir jag visst galen'
 melody: "They're Coming to Take Me Away"
 spex: eva-ekeblad-2019
 order: 10
 permalink: false
 ---
+
 Vad ska jag ta mig till när alla stör och allt
 går fel, och inget verkar någonsin bli som
 det är tänkt? VA?

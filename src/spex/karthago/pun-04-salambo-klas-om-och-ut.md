@@ -1,11 +1,12 @@
 ---
-title: "[PUN 4] Salambo kläs om och ut"
-singer: "Generalerna sjunger"
-melody: "Masculine Women, Feminine Men"
+title: '[PUN 4] Salambo kläs om och ut'
+singer: 'Generalerna sjunger'
+melody: 'Masculine Women, Feminine Men'
 spex: karthago
 order: 5
 permalink: false
 ---
+
 Pojkar är pojkar, det är en norm
 men män'skor är inte stöpta i form
 det blir bara fel om man förklär den man är

@@ -1,6 +1,6 @@
 ---
-title: "[PAH 2] Bygg da bunker"
-singer: "Ernst och Per Albin sjunger"
+title: '[PAH 2] Bygg da bunker'
+singer: 'Ernst och Per Albin sjunger'
 melody: "It wasn't me"
 spex: per-albin
 order: 2

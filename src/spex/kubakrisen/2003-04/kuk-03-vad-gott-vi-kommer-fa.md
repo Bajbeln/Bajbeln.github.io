@@ -1,7 +1,7 @@
 ---
-title: "[KUK 3] Vad gött vi kommer få"
-singer: "Chrustjov och KGB sjunger"
-melody: "Uti skogen ska vi gå"
+title: '[KUK 3] Vad gött vi kommer få'
+singer: 'Chrustjov och KGB sjunger'
+melody: 'Uti skogen ska vi gå'
 spex: kubakrisen-2003-04
 order: 7
 permalink: false

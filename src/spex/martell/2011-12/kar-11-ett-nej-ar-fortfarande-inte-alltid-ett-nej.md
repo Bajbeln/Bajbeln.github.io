@@ -1,7 +1,7 @@
 ---
-title: "[KAR 11] Ett nej är fortfarande inte alltid ett nej"
-singer: "Karl Martell, Swanachild och Pippin sjunger"
-melody: "Rara underbara. Katarina"
+title: '[KAR 11] Ett nej är fortfarande inte alltid ett nej'
+singer: 'Karl Martell, Swanachild och Pippin sjunger'
+melody: 'Rara underbara. Katarina'
 spex: karl-martell-2011-12
 order: 4
 permalink: false

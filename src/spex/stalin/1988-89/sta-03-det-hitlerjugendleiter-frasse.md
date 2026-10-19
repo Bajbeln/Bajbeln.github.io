@@ -1,11 +1,12 @@
 ---
-title: "[STA 3] Det Hitlerjugendleiter Frasse"
-singer: "Fritz sjunger"
-melody: "Scoutledar-Frasse"
+title: '[STA 3] Det Hitlerjugendleiter Frasse'
+singer: 'Fritz sjunger'
+melody: 'Scoutledar-Frasse'
 spex: stalin-1988-89
 order: 8
 permalink: false
 ---
+
 Wer knopft auf meinem Tür?
 Wer knopft auf meinem Tür?
 Wer knopft auf meinem Tür?

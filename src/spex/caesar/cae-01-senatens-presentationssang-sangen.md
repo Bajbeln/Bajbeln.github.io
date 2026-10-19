@@ -1,7 +1,7 @@
 ---
-title: "[CAE 1] Senatens presentationssång-sången"
-singer: "Senaten sjunger"
-melody: "Joshua fit the battle of Jericho"
+title: '[CAE 1] Senatens presentationssång-sången'
+singer: 'Senaten sjunger'
+melody: 'Joshua fit the battle of Jericho'
 spex: caesar
 order: 3
 permalink: false

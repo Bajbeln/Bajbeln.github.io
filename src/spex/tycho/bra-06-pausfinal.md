@@ -1,11 +1,12 @@
 ---
-title: "[BRA 6] Pausfinal"
-singer: "Alla sjunger"
-melody: "Call me"
+title: '[BRA 6] Pausfinal'
+singer: 'Alla sjunger'
+melody: 'Call me'
 spex: tycho
 order: 8
 permalink: false
 ---
+
 Vi ska dra till Prag tillsammans
 Nu säger vi adjö.
 Om tre år kommer kometen

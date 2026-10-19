@@ -1,7 +1,7 @@
 ---
-title: "[MOT 4] Ett spännande bröllop"
-singer: "Morgan och Dolores sjunger"
-melody: "Bad, Bad Leroy"
+title: '[MOT 4] Ett spännande bröllop'
+singer: 'Morgan och Dolores sjunger'
+melody: 'Bad, Bad Leroy'
 spex: mot-strommen
 order: 5
 permalink: false

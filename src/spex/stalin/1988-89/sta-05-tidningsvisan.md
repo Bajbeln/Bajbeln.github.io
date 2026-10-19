@@ -1,11 +1,12 @@
 ---
-title: "[STA 5] Tidningsvisan"
-singer: "Cia Bergling sjunger"
-melody: "Elektricitetsvisan"
+title: '[STA 5] Tidningsvisan'
+singer: 'Cia Bergling sjunger'
+melody: 'Elektricitetsvisan'
 spex: stalin-1988-89
 order: 19
 permalink: false
 ---
+
 Nu är det bråttom, nu har det hänt
 Nu knackar någon på dörren
 Min lycka ja den har vänt

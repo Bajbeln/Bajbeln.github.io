@@ -1,7 +1,7 @@
 ---
-title: "[CAE 7] Jag har blivit en man"
-singer: "Brutus sjunger"
-melody: "The Hippopotamus Song"
+title: '[CAE 7] Jag har blivit en man'
+singer: 'Brutus sjunger'
+melody: 'The Hippopotamus Song'
 spex: caesar
 order: 13
 permalink: false

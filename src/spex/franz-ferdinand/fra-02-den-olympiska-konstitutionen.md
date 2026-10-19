@@ -1,7 +1,7 @@
 ---
-title: "[FRA 2] Den Olympiska konstitutionen"
-singer: "OS-deltagarna sjunger"
-melody: "Gaston – ur Skönheten & Odjuret"
+title: '[FRA 2] Den Olympiska konstitutionen'
+singer: 'OS-deltagarna sjunger'
+melody: 'Gaston – ur Skönheten & Odjuret'
 spex: franz-ferdinand
 order: 4
 permalink: false

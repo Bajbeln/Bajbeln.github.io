@@ -4,53 +4,53 @@
 
 :root {
   /* Colors */
-  --purple:             #9a5587;
-  --purple-dim:         #aa4b8fce;
-  --bg:                 #d2e7fa;
-  --blue-card:          #7ba4dbe0;
-  --blue-search:        #8ac9e4;
-  --blue-search-hover:  #70b6d0;
-  --yellow:             #fcdb59;
-  --yellow-hover:       #f4ce347e;
-  --yellow-border:      #edd599;
-  
+  --purple: #9a5587;
+  --purple-dim: #aa4b8fce;
+  --bg: #d2e7fa;
+  --blue-card: #7ba4dbe0;
+  --blue-search: #8ac9e4;
+  --blue-search-hover: #70b6d0;
+  --yellow: #fcdb59;
+  --yellow-hover: #f4ce347e;
+  --yellow-border: #edd599;
+
   /* Typography */
-  --font-size-base:         17.7px;
-  --font-size-button:       18.2px;
-  --font-size-spex-title:   1.5em;
-  --font-size-uppsattning:  1.5em;
-  --font-size-settings:     30px;
-  
+  --font-size-base: 17.7px;
+  --font-size-button: 18.2px;
+  --font-size-spex-title: 1.5em;
+  --font-size-uppsattning: 1.5em;
+  --font-size-settings: 30px;
+
   /* Spacing */
-  --spacing-xxs:  1.3px;
-  --spacing-xs:   1px;
-  --spacing-sm:   2px;
-  --spacing-md:   4px;
-  --spacing-lg:   8px;
-  --spacing-xl:   10px;
-  --spacing-2xl:  14px;
-  --spacing-3xl:  20px;
-  --spacing-4xl:  70px;
-  
+  --spacing-xxs: 1.3px;
+  --spacing-xs: 1px;
+  --spacing-sm: 2px;
+  --spacing-md: 4px;
+  --spacing-lg: 8px;
+  --spacing-xl: 10px;
+  --spacing-2xl: 14px;
+  --spacing-3xl: 20px;
+  --spacing-4xl: 70px;
+
   /* Border Radius */
-  --radius-sm:    27px;
-  --radius-md:    34px;
-  --radius-lg:    36px;
-  --radius-full:  50%;
-  
+  --radius-sm: 27px;
+  --radius-md: 34px;
+  --radius-lg: 36px;
+  --radius-full: 50%;
+
   /* Sizing */
-  --icon-size:    20px;
-  --icon-lg:      25px;
-  --btn-height:   48px;
-  --btn-height-lg:55px;
+  --icon-size: 20px;
+  --icon-lg: 25px;
+  --btn-height: 48px;
+  --btn-height-lg: 55px;
 
   /* Dark mode colors */
-  --color-bg-dark:        #1a1a2e;
-  --color-text-dark:      #e0e0e0;
-  --color-purple-dark:    #7a3d68;
-  --color-card-dark:      #2d3a5e;
+  --color-bg-dark: #1a1a2e;
+  --color-text-dark: #e0e0e0;
+  --color-purple-dark: #7a3d68;
+  --color-card-dark: #2d3a5e;
   --color-search-bg-dark: #2a2a3e;
-  --color-border-dark:    #444;
+  --color-border-dark: #444;
 }
 
 /* ========================================
@@ -65,7 +65,7 @@ body {
   text-align: center;
   background: var(--bg);
   -webkit-tap-highlight-color: transparent; /* Mobile: removes blue tap highlight */
-  zoom: 1.10;
+  zoom: 1.1;
 }
 
 /* ========================================
@@ -93,7 +93,6 @@ h3 {
   font-size: var(--font-size-uppsattning);
 }
 
-
 /* ========================================
    LAYOUT
    ======================================== */
@@ -117,7 +116,6 @@ th {
   text-align: center;
   color: white;
 }
-
 
 /* ========================================
    NAVIGATION & SEARCH
@@ -147,7 +145,7 @@ th {
   padding: var(--spacing-xl);
 }
 
-.search-container input[type="text"] {
+.search-container input[type='text'] {
   width: 100%;
   max-width: 400px;
   min-width: 230px;
@@ -160,12 +158,12 @@ th {
   font-size: var(--font-size-base);
 }
 
-.search-container input[type="text"]:focus {
+.search-container input[type='text']:focus {
   border-color: var(--blue-search);
   box-shadow: 0 0 8px rgba(138, 201, 228, 0.5);
 }
 
-.search-container input[type="text"]::placeholder {
+.search-container input[type='text']::placeholder {
   color: gray;
   font-size: var(--font-size-base);
 }
@@ -191,7 +189,6 @@ th {
   color: var(--blue-search-hover);
 }
 
-
 /* ========================================
    COLLAPSIBLE SECTIONS
    ======================================== */
@@ -216,7 +213,9 @@ th {
   display: grid;
   grid-template-rows: 0fr;
   overflow: hidden;
-  transition: grid-template-rows 0.2s ease-out, padding 0.2s ease-out;
+  transition:
+    grid-template-rows 0.2s ease-out,
+    padding 0.2s ease-out;
   font-size: var(--font-size-base);
   line-height: 1.6;
   color: white;
@@ -236,7 +235,6 @@ th {
   min-height: 0;
   overflow: hidden;
 }
-
 
 /* ========================================
    BUTTONS
@@ -505,7 +503,6 @@ button.random {
   display: inline-block;
 }
 
-
 /* ========================================
    UPPSÄTTNING SECTION
    ======================================== */
@@ -520,7 +517,6 @@ button.random {
 .uppsattning-header .uppsattning-heading {
   margin: 0;
 }
-
 
 /* ========================================
    SETTINGS
@@ -578,7 +574,6 @@ button.random {
   }
 }
 
-
 /* Icon vertical alignment */
 #settings-button svg,
 #reading-mode-button svg,
@@ -617,11 +612,11 @@ html.dark-mode {
 
 html.dark-mode body,
 body.dark-mode {
-  --bg:        var(--color-bg-dark);
+  --bg: var(--color-bg-dark);
   --blue-card: var(--color-card-dark);
-  --purple-dim:#c084b0;
-  background:  var(--bg);
-  color:       var(--color-text-dark);
+  --purple-dim: #c084b0;
+  background: var(--bg);
+  color: var(--color-text-dark);
 }
 
 html.dark-mode a,
@@ -633,30 +628,30 @@ body.dark-mode footer {
 
 body.dark-mode a.button {
   background-color: var(--color-purple-dark);
-  border-color:    var(--color-purple-dark);
-  color:           white;
+  border-color: var(--color-purple-dark);
+  color: white;
 }
 
 body.dark-mode .collapsible,
 body.dark-mode .content {
   background-color: var(--color-card-dark);
-  border-color:    var(--color-card-dark);
-  color:           var(--color-text-dark);
+  border-color: var(--color-card-dark);
+  color: var(--color-text-dark);
 }
 
 body.dark-mode button.song-link-btn {
   background-color: var(--color-card-dark);
-  border-color:    var(--color-card-dark);
-  color:           white;
+  border-color: var(--color-card-dark);
+  color: white;
 }
 
-body.dark-mode .search-container input[type="text"] {
+body.dark-mode .search-container input[type='text'] {
   background-color: var(--color-search-bg-dark);
-  color:           var(--color-text-dark);
-  border-color:    var(--color-border-dark);
+  color: var(--color-text-dark);
+  border-color: var(--color-border-dark);
 }
 
-body.dark-mode .search-container input[type="text"]::placeholder {
+body.dark-mode .search-container input[type='text']::placeholder {
   color: white;
 }
 
@@ -666,7 +661,7 @@ body.dark-mode .spex-logo {
 
 body.dark-mode button.factButton {
   background-color: var(--color-purple-dark);
-  border-color:    var(--color-purple-dark);
+  border-color: var(--color-purple-dark);
 }
 
 body.dark-mode button.factButton:hover,
@@ -676,10 +671,9 @@ body.dark-mode button.factButton.active {
 
 body.dark-mode .fact-bubble {
   background-color: var(--color-card-dark);
-  color:           var(--color-text-dark);
-  border-color:    var(--color-purple-dark);
+  color: var(--color-text-dark);
+  border-color: var(--color-purple-dark);
 }
-
 
 /* ========================================
    FOOTER
@@ -690,7 +684,6 @@ footer {
   padding: var(--spacing-4xl);
   line-height: 1.4;
 }
-
 
 /* ========================================
    SONG BLOCKS (Eleventy-generated pages)

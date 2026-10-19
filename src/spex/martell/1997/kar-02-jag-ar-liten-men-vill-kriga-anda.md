@@ -1,7 +1,7 @@
 ---
-title: "[KAR 2] Jag är liten men vill kriga ändå"
-singer: "Pippin sjunger"
-melody: "Life on Mars, D. Bowie"
+title: '[KAR 2] Jag är liten men vill kriga ändå'
+singer: 'Pippin sjunger'
+melody: 'Life on Mars, D. Bowie'
 spex: karl-martell-1997
 order: 4
 permalink: false

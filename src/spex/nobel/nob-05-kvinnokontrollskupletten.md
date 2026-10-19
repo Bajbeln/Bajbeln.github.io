@@ -1,7 +1,7 @@
 ---
-title: "[NOB 5] Kvinnokontrollskupletten"
-singer: "Bertha och tanterna sjunger"
-melody: "Operator"
+title: '[NOB 5] Kvinnokontrollskupletten'
+singer: 'Bertha och tanterna sjunger'
+melody: 'Operator'
 spex: nobel
 order: 6
 permalink: false

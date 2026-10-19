@@ -1,7 +1,7 @@
 ---
-title: "[CAE 10] Ett Maffigt outro - Diktator Triumfator"
-singer: "Caesar och alla som vill döda honom sjunger"
-melody: "Walking on Sunshine"
+title: '[CAE 10] Ett Maffigt outro - Diktator Triumfator'
+singer: 'Caesar och alla som vill döda honom sjunger'
+melody: 'Walking on Sunshine'
 spex: caesar
 order: 20
 permalink: false

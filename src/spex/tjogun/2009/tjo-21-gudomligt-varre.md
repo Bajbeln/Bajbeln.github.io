@@ -1,7 +1,7 @@
 ---
-title: "[TJO 21] Gudomligt värre!"
-singer: "Chinon och geishorna sjunger"
-melody: "Älskade ängel"
+title: '[TJO 21] Gudomligt värre!'
+singer: 'Chinon och geishorna sjunger'
+melody: 'Älskade ängel'
 spex: tjogun-2009
 order: 9
 permalink: false

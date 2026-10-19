@@ -1,11 +1,12 @@
 ---
-title: "[CvL 6] Introsång"
-singer: "Schülten sjunger"
-melody: "Zero-Zero mer känd som Hylands Hörna-vinjetten"
+title: '[CvL 6] Introsång'
+singer: 'Schülten sjunger'
+melody: 'Zero-Zero mer känd som Hylands Hörna-vinjetten'
 spex: linne-2005
 order: 1
 permalink: false
 ---
+
 God afton, hallå, hej, och välkomna på
 spääx
 Där skrattgropar grävs och det på

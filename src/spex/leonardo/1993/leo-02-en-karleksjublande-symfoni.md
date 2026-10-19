@@ -1,11 +1,12 @@
 ---
-title: "[LEO 2] En kärleksjublande symfoni"
-singer: "Giovanni och Mona sjunger"
-melody: "De sista entusiasterna av P. Ramel"
+title: '[LEO 2] En kärleksjublande symfoni'
+singer: 'Giovanni och Mona sjunger'
+melody: 'De sista entusiasterna av P. Ramel'
 spex: leonardo-1993
 order: 6
 permalink: false
 ---
+
 **Gio:** När jag ser dig blir jag förlägen
 Och mina fotter står dumt i vägen
 Och nãr du ler blir mitt inre bubbligt som av kolsyra

@@ -1,6 +1,6 @@
 ---
-title: "[MTV 1] Aktivistvisan"
-melody: "Lumberjack"
+title: '[MTV 1] Aktivistvisan'
+melody: 'Lumberjack'
 spex: mtv
 order: 1
 permalink: false

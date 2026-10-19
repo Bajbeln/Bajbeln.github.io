@@ -1,10 +1,11 @@
 ---
-title: "[LEO 23] Pausfinal"
-melody: "Rawhide"
+title: '[LEO 23] Pausfinal'
+melody: 'Rawhide'
 spex: leonardo-2018-19
 order: 3
 permalink: false
 ---
+
 Nu tätnar intrigen
 Vi drar ut i krig
 En kamp om påvestolen tar vid

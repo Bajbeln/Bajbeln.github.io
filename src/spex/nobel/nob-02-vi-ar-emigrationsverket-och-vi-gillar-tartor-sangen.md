@@ -1,7 +1,7 @@
 ---
-title: "[NOB 2] Vi-är-Emigrationsverket-och-vi-gillar-tårtor-sången"
-singer: "Emigrationsverket sjunger"
-melody: "Monte Carlo"
+title: '[NOB 2] Vi-är-Emigrationsverket-och-vi-gillar-tårtor-sången'
+singer: 'Emigrationsverket sjunger'
+melody: 'Monte Carlo'
 spex: nobel
 order: 2
 permalink: false

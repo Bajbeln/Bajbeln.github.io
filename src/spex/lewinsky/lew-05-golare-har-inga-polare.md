@@ -1,11 +1,12 @@
 ---
-title: "[LEW 5] Golare har inga Polare"
-singer: "Bill, Hillary, Månika och Al sjunger"
-melody: "Gimme! Girnme! Gimme!, ABBA"
+title: '[LEW 5] Golare har inga Polare'
+singer: 'Bill, Hillary, Månika och Al sjunger'
+melody: 'Gimme! Girnme! Gimme!, ABBA'
 spex: lewinsky
 order: 7
 permalink: false
 ---
+
 **Hillary:** Al Gore du
 Har en del att förklara
 Stack en kniv i vår rygg

@@ -1,7 +1,7 @@
 ---
-title: "[KRO 2] Transpiranta på bal"
-singer: "Senioritan sjunger"
-melody: "Rosa på bal"
+title: '[KRO 2] Transpiranta på bal'
+singer: 'Senioritan sjunger'
+melody: 'Rosa på bal'
 spex: krook
 order: 5
 permalink: false

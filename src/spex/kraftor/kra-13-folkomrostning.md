@@ -1,11 +1,12 @@
 ---
-title: "[KRÄ 7] Folkomröstning"
-singer: "Ensemblen sjunger"
-melody: "Thunderstruck, AC/DC"
+title: '[KRÄ 7] Folkomröstning'
+singer: 'Ensemblen sjunger'
+melody: 'Thunderstruck, AC/DC'
 spex: kraftor
 order: 13
 permalink: false
 ---
+
 **Alla:**
 Rösta, aaaah
 Rösta, aaaah

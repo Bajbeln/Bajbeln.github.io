@@ -1,7 +1,7 @@
 ---
-title: "[NOB 1] Låt mig-bestämma-/Låt-mig-va-låten"
-singer: "Oscar II och Sofia sjunger"
-melody: "Supercalifragilistiexpialidoscious"
+title: '[NOB 1] Låt mig-bestämma-/Låt-mig-va-låten'
+singer: 'Oscar II och Sofia sjunger'
+melody: 'Supercalifragilistiexpialidoscious'
 spex: nobel
 order: 1
 permalink: false

@@ -1,7 +1,7 @@
 ---
-title: "[KRO 6] Tjejernas skattgrävarsång"
-singer: "Krook, Sara och Lisa sjunger"
-melody: "Flirtige Knut"
+title: '[KRO 6] Tjejernas skattgrävarsång'
+singer: 'Krook, Sara och Lisa sjunger'
+melody: 'Flirtige Knut'
 spex: krook
 order: 17
 permalink: false

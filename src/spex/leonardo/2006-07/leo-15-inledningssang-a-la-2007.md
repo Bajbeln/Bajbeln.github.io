@@ -1,11 +1,12 @@
 ---
-title: "[LEO 15] Inledningssång à la 2007"
-singer: "Maffiavelli och Fru Medici sjunger"
-melody: "Sweet Georgia Brown"
+title: '[LEO 15] Inledningssång à la 2007'
+singer: 'Maffiavelli och Fru Medici sjunger'
+melody: 'Sweet Georgia Brown'
 spex: leonardo-2006-07
 order: 1
 permalink: false
 ---
+
 **Båda:**
 Välkomna till bankpalatset,
 kliv in, stig på

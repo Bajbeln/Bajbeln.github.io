@@ -1,7 +1,7 @@
 ---
-title: "[NOB 11] Pangfinal"
-singer: "Alla sjunger"
-melody: "Build me up Buttercup"
+title: '[NOB 11] Pangfinal'
+singer: 'Alla sjunger'
+melody: 'Build me up Buttercup'
 spex: nobel
 order: 14
 permalink: false

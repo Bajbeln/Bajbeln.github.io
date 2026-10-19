@@ -1,7 +1,7 @@
 ---
-title: "[MOT 8] Aktfinal II - Sorti i anarki"
-singer: "Hebba, Siv och Göte sjunger"
-melody: "Diggi-loo, diggi-ley"
+title: '[MOT 8] Aktfinal II - Sorti i anarki'
+singer: 'Hebba, Siv och Göte sjunger'
+melody: 'Diggi-loo, diggi-ley'
 spex: mot-strommen
 order: 9
 permalink: false

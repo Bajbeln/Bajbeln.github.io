@@ -1,11 +1,12 @@
 ---
-title: "[E14 5] En god sak i var mans mun"
-singer: "De tre kockarna Bruse sjunger"
-melody: "Fin che le barca va"
+title: '[E14 5] En god sak i var mans mun'
+singer: 'De tre kockarna Bruse sjunger'
+melody: 'Fin che le barca va'
 spex: erik-xiv-1995-96
 order: 8
 permalink: false
 ---
+
 Vi föddes alla tre så små som sockor
 På Tornavägen 3 högst upp på vinn'
 Vi matades så ömt med kronärtskockor

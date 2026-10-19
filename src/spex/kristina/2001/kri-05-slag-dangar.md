@@ -1,11 +1,12 @@
 ---
-title: "[KRI 2] Slag-dängan"
-singer: "Gustav och Wallenstein"
-melody: "Ouvertyren till William Tell"
+title: '[KRI 2] Slag-dängan'
+singer: 'Gustav och Wallenstein'
+melody: 'Ouvertyren till William Tell'
 spex: kristina-2001
 order: 5
 permalink: false
 ---
+
 **Gustav:** Hör nu hit lilla skit får du se på fan
 Få på flabben av grabben hela dan
 Det finns ingen som matchar mig här i stan
@@ -57,7 +58,6 @@ Ping
 Ping
 
 Boll
-
 
 Pajas ska du sticka
 Till Häckefjäll

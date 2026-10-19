@@ -1,11 +1,12 @@
 ---
-title: "[STA 21] Slutsång"
-singer: "Alla sjunger"
-melody: "Gröna granna sköna sanna sommar"
+title: '[STA 21] Slutsång'
+singer: 'Alla sjunger'
+melody: 'Gröna granna sköna sanna sommar'
 spex: stalin-2008-09
 order: 14
 permalink: false
 ---
+
 Av alla lemmar är ju klart den främsta handen
 Framför allt när man ska till att bilda pakt
 Knyt alltid dubbelt när du knyter vänskapsbanden

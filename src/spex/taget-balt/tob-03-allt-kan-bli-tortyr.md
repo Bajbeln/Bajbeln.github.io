@@ -1,11 +1,12 @@
 ---
-title: "[TÖB 3] Allt kan bli tortyr"
-singer: "Gyllenlöa, Lise & spejare sjunger"
-melody: "Titta det snöar, Povel Ramel"
+title: '[TÖB 3] Allt kan bli tortyr'
+singer: 'Gyllenlöa, Lise & spejare sjunger'
+melody: 'Titta det snöar, Povel Ramel'
 spex: taget-balt
 order: 6
 permalink: false
 ---
+
 **Gy:** När jag var bara 10 år så
 slogs jag av min far,
 **Sp:** Så slogs han av sin far,

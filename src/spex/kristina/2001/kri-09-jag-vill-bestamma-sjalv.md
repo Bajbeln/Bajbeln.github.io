@@ -1,11 +1,12 @@
 ---
-title: "[KRI 6] Jag vill bestämma själv"
-singer: "Kristina, Svärdh och Wärjha"
-melody: "(Du är så) Yeah, yeah, wow, wow"
+title: '[KRI 6] Jag vill bestämma själv'
+singer: 'Kristina, Svärdh och Wärjha'
+melody: '(Du är så) Yeah, yeah, wow, wow'
 spex: kristina-2001
 order: 9
 permalink: false
 ---
+
 **Kristina:** Ha, ha ha ha ha ha ha
 **Soldaterna:** Aaooo
 
@@ -58,4 +59,4 @@ Att jag vill bestämma själv
 Att jag vill
 Ja jag vill
 
-_*påå Ståkkholmska, annars rimmar det inte..._
+_\*påå Ståkkholmska, annars rimmar det inte..._

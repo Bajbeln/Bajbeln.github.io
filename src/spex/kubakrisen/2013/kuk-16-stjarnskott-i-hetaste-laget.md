@@ -1,6 +1,6 @@
 ---
-title: "[KUK 16] Stjärnskott (I hetaste laget)"
-singer: "Marilyn Monroe sjunger"
+title: '[KUK 16] Stjärnskott (I hetaste laget)'
+singer: 'Marilyn Monroe sjunger'
 melody: "Diamonds are a Girl's best friend"
 spex: kubakrisen-2013
 order: 9

@@ -1,11 +1,12 @@
 ---
-title: "[STA 20] Är det ingen som vill ta Frankrike-sången (Slutsång)"
-singer: "Alla sjunger"
-melody: "Wild Rover"
+title: '[STA 20] Är det ingen som vill ta Frankrike-sången (Slutsång)'
+singer: 'Alla sjunger'
+melody: 'Wild Rover'
 spex: stalin-2008-09
 order: 12
 permalink: false
 ---
+
 **Alla:** Vi har utstått er dryghet i ett tusen år
 Vi ska släinga er lyxmat och er Trikolor
 Osten är möglad, ni gör det med flit

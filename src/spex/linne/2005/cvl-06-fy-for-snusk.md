@@ -1,11 +1,12 @@
 ---
-title: "[CvL 6] Fy för snusk!"
-singer: "Swedenborg och tanterna sjunger"
-melody: "Simarik"
+title: '[CvL 6] Fy för snusk!'
+singer: 'Swedenborg och tanterna sjunger'
+melody: 'Simarik'
 spex: linne-2005
 order: 2
 permalink: false
 ---
+
 **Swedenborg:**
 Hör på mig för jag vet
 Vad som är sedlighet
@@ -30,13 +31,13 @@ Blommor som har kö-ö-ö-ö-ön
 **Swedenborg:**
 Gud har hört min bö-ö-ö-ö-ö-ö-ö-ön
 Fy för allt snuskigt
-Tanterna: *Smack* *Smack*
+Tanterna: _Smack_ _Smack_
 **Swedenborg+Tanterna:**
 Porr elimine-e-e-e-ra
 Och på gatan demonstre-e-e-e'e-ra
 **Swedenborg:**
 Inleder en e-e-e-e-e-e-ra
-Där är det slut på *Smack*
+Där är det slut på _Smack_
 _(mellanspel)_
 **Swedenborg+Tanterna:**
 Inget mera tramsigt svammel
@@ -58,10 +59,10 @@ Blommor som har kö-ö-ö-ö-ön
 Gud har hört min bö-ö-ö-ö-ö-ö-ö-ön
 Fy för allt snuskigt
 **Tanterna:**
-*Smack* *Smack*
+_Smack_ _Smack_
 **Swedenborg+Tanterna:**
 Porr elimine-e-e-e-ra
 Och på gatan demonstre-e-e-e-e-ra
 **Swedenborg:**
 Inleder en e-e-e-e-e-e-ra
-Då är det slut på *SMACK*
+Då är det slut på _SMACK_

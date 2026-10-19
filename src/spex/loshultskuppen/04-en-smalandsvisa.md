@@ -1,10 +1,11 @@
 ---
-title: "[LOS 2] En smålandsvisa"
+title: '[LOS 2] En smålandsvisa'
 melody: "Yakko's world, Animaniacs"
 spex: loshultskuppen
 order: 4
 permalink: false
 ---
+
 Det finns Duvhult o Tärnhult
 o Lidhult o Karhult
 O Jämnhult de finns alla här

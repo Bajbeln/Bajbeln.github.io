@@ -1,11 +1,12 @@
 ---
-title: "[BRO 2] Connys färdlåt"
-singer: "CONNY och de andra kritikerna sjunger"
-melody: "Gå & fiska! – Gyllene tider"
+title: '[BRO 2] Connys färdlåt'
+singer: 'CONNY och de andra kritikerna sjunger'
+melody: 'Gå & fiska! – Gyllene tider'
 spex: oresundsbron
 order: 4
 permalink: false
 ---
+
 **Conny:** Ingenting är som det ska
 Nya smällar varje da'
 Jag som nyss förlorat frugan

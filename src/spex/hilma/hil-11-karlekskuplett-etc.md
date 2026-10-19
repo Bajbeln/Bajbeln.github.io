@@ -1,11 +1,12 @@
 ---
-title: "[HIL 8] Kärlekskuplett etc"
-singer: "Sjungs av Vandalina & Börje"
-melody: "Seventeen - ur Heathers: The Musical"
+title: '[HIL 8] Kärlekskuplett etc'
+singer: 'Sjungs av Vandalina & Börje'
+melody: 'Seventeen - ur Heathers: The Musical'
 spex: hilma
 order: 11
 permalink: false
 ---
+
 **Vandalina:** Wow!
 Så häftigt
 Vilken kille

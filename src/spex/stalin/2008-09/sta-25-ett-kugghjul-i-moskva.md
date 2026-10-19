@@ -1,11 +1,12 @@
 ---
-title: "[STA 25] Ett kugghjul i Moskva"
-singer: "Kontrokrister sjunger"
-melody: "Sacred war, The Red Army Choir"
+title: '[STA 25] Ett kugghjul i Moskva'
+singer: 'Kontrokrister sjunger'
+melody: 'Sacred war, The Red Army Choir'
 spex: stalin-2008-09
 order: 16
 permalink: false
 ---
+
 Vi jobbar hårt för vår nation
 och sliter tills vi dör
 Med sånt som bara bidrar till

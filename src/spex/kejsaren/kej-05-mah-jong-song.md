@@ -1,7 +1,7 @@
 ---
-title: "[KEJ 5] Mah Jong Song"
-singer: "Mah Jong sjunger"
-melody: "Lola"
+title: '[KEJ 5] Mah Jong Song'
+singer: 'Mah Jong sjunger'
+melody: 'Lola'
 spex: kejsaren-av-kina
 order: 10
 permalink: false

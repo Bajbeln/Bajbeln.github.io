@@ -1,7 +1,7 @@
 ---
-title: "[CAE 7] Rut har häcken full"
-singer: "Rut sjunger"
-melody: "Bråttom, bråttom, bråttom"
+title: '[CAE 7] Rut har häcken full'
+singer: 'Rut sjunger'
+melody: 'Bråttom, bråttom, bråttom'
 spex: caesar
 order: 14
 permalink: false

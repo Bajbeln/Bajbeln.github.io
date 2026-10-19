@@ -1,7 +1,7 @@
 ---
-title: "[KAR 3] Påvens korta kortis"
-singer: "Påve Stefan II sjunger"
-melody: "Introt till the Flintstones"
+title: '[KAR 3] Påvens korta kortis'
+singer: 'Påve Stefan II sjunger'
+melody: 'Introt till the Flintstones'
 spex: karl-martell-1997
 order: 6
 permalink: false

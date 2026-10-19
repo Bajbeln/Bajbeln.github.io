@@ -1,10 +1,11 @@
 ---
-title: "[LOS 3] Snillrika nyrika snillen"
-melody: "Jag mår illa, Magnus Uggla"
+title: '[LOS 3] Snillrika nyrika snillen'
+melody: 'Jag mår illa, Magnus Uggla'
 spex: loshultskuppen
 order: 5
 permalink: false
 ---
+
 **Gorm:** Vi spanar här i skogen tills
 tiden den är mogen
 Att krossa svenskens fjöntiga armé

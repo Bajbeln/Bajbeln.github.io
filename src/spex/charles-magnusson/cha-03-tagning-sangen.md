@@ -1,11 +1,12 @@
 ---
-title: "[CHA 3] Tagning-sången"
-singer: "Hela filmgänget sjunger"
-melody: "Wake Me Up Before You Go Go"
+title: '[CHA 3] Tagning-sången'
+singer: 'Hela filmgänget sjunger'
+melody: 'Wake Me Up Before You Go Go'
 spex: charles-magnusson
 order: 6
 permalink: false
 ---
+
 _Charles:_ Vi gör vår första tagning idag
 Det ska bli dramatik
 Genom filmoptik

@@ -1,11 +1,12 @@
 ---
-title: "[LEO 3] Jag ska bli påve-sång"
-singer: "Julius sjunger"
+title: '[LEO 3] Jag ska bli påve-sång'
+singer: 'Julius sjunger'
 melody: "Wait 'til the Midnight Hour"
 spex: leonardo-1993
 order: 8
 permalink: false
 ---
+
 Jag heter Julius, är kardinal
 En härlig syssla fast något sakral
 Snabb karriär som ej varit för lätt

@@ -1,11 +1,12 @@
 ---
-title: "[KRI 11] Nu är det förkylt"
-singer: "Carthesius sjunger"
-melody: "Jennie, Jennie"
+title: '[KRI 11] Nu är det förkylt'
+singer: 'Carthesius sjunger'
+melody: 'Jennie, Jennie'
 spex: kristina-2001
 order: 15
 permalink: false
 ---
+
 En kylig dag steg jag ombord
 På ett fartyg i riktning mot nord
 För att bli informatör hos Sveriges diktator

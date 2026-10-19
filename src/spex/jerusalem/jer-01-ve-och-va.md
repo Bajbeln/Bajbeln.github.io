@@ -1,11 +1,12 @@
 ---
-title: "[JER 1] Ve och Vä"
-singer: "Vä-bor sjunger"
-melody: "Beetlejuice theme"
+title: '[JER 1] Ve och Vä'
+singer: 'Vä-bor sjunger'
+melody: 'Beetlejuice theme'
 spex: jerusalem
 order: 1
 permalink: false
 ---
+
 Ve och Vä
 Herregud!
 Staden Vä

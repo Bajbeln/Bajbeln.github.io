@@ -1,11 +1,12 @@
 ---
-title: "[STA 8] Vi erkänner allt och förlåter varandra"
-singer: "Stalin och Olga sjunger"
-melody: "Yeah, Yeh (Matt Bianco)"
+title: '[STA 8] Vi erkänner allt och förlåter varandra'
+singer: 'Stalin och Olga sjunger'
+melody: 'Yeah, Yeh (Matt Bianco)'
 spex: stalin-1988-89
 order: 30
 permalink: false
 ---
+
 **Stalin:**
 Min lilla Olga, ja, det är dig jag vill ha
 Min lilla Olga, nu så ska allt bli bra

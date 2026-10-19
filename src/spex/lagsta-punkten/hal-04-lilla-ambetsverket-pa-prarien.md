@@ -1,11 +1,12 @@
 ---
-title: "[HÅL 4] Lilla ämbetsverket på prärien"
-singer: "Magnus de la Gardie och Länstyrelseapacherna sjunger"
-melody: "Rawhide, Frankie Laine"
+title: '[HÅL 4] Lilla ämbetsverket på prärien'
+singer: 'Magnus de la Gardie och Länstyrelseapacherna sjunger'
+melody: 'Rawhide, Frankie Laine'
 spex: lagsta-punkten
 order: 7
 permalink: false
 ---
+
 _(Temat från "Den gode, den onde, och den fule" spelas)_
 
 Vi rider över fälten

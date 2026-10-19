@@ -1,11 +1,12 @@
 ---
-title: "[KRÄ 7] Slutkuplett – Kö-plett pt. 2"
-singer: "Alla sjunger"
-melody: "Här ska vi salta sillar, Galenskaparna & After Shave"
+title: '[KRÄ 7] Slutkuplett – Kö-plett pt. 2'
+singer: 'Alla sjunger'
+melody: 'Här ska vi salta sillar, Galenskaparna & After Shave'
 spex: kraftor
 order: 14
 permalink: false
 ---
+
 **Albert Engström & Arne:**
 Det finns en plats, ett paradis på vår jord
 En liten kö, vi trivs som fisken i vattnet

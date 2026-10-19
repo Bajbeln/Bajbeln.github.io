@@ -1,11 +1,12 @@
 ---
-title: "[STA 2] Stalin är häftig"
-singer: "Olga, Svetlana och Molotov sjunger"
-melody: "Den Sovjetiska Nationalhymnen"
+title: '[STA 2] Stalin är häftig'
+singer: 'Olga, Svetlana och Molotov sjunger'
+melody: 'Den Sovjetiska Nationalhymnen'
 spex: stalin-1988-89
 order: 5
 permalink: false
 ---
+
 När vädret är rått, kallt och ostadigt vått
 Kasst och grått, och när folk överallt super vodka
 När massorna hungrar med uppror av ungrarna

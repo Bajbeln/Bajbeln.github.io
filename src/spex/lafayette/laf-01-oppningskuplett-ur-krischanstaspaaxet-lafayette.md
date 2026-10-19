@@ -1,11 +1,12 @@
 ---
-title: "[LAF 1] Öppningskuplett ur Krischanstaspääxet Lafayette"
-singer: "Sjungs av Soldat 1, Soldat 2 & Soldat 3"
-melody: "Gaston - ur Beauty and the Beast"
+title: '[LAF 1] Öppningskuplett ur Krischanstaspääxet Lafayette'
+singer: 'Sjungs av Soldat 1, Soldat 2 & Soldat 3'
+melody: 'Gaston - ur Beauty and the Beast'
 spex: lafayette
 order: 1
 permalink: false
 ---
+
 **Soldat 1**
 Vi utropade våran
 självständighet

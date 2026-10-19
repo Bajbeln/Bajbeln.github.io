@@ -1,11 +1,12 @@
 ---
-title: "[LEO 11] Aktfinal III - Allt ska bli bra"
-singer: "Mona och Giovanni sjunger"
-melody: "Det börjar bli kärlek"
+title: '[LEO 11] Aktfinal III - Allt ska bli bra'
+singer: 'Mona och Giovanni sjunger'
+melody: 'Det börjar bli kärlek'
 spex: leonardo-1998-99
 order: 3
 permalink: false
 ---
+
 **Båda:** I kväll så har vi genomfört en listig plan
 För att kunna
 Få varandra

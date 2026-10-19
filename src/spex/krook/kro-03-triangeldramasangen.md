@@ -1,7 +1,7 @@
 ---
-title: "[KRO 3] Triangeldramasången"
-singer: "Stygg, Transpiranta och Iglesias sjunger"
-melody: "Bei mir bist du schön"
+title: '[KRO 3] Triangeldramasången'
+singer: 'Stygg, Transpiranta och Iglesias sjunger'
+melody: 'Bei mir bist du schön'
 spex: krook
 order: 7
 permalink: false

@@ -1,11 +1,12 @@
 ---
-title: "[E14 5] Vi ska sova på saken"
-singer: "Erik och Sture sjunger"
-melody: "Bra vibrationer"
+title: '[E14 5] Vi ska sova på saken'
+singer: 'Erik och Sture sjunger'
+melody: 'Bra vibrationer'
 spex: erik-xiv-1995-96
 order: 9
 permalink: false
 ---
+
 Närhelst du står inför en kris
 Försök på något vis
 Betrakta den som smärre

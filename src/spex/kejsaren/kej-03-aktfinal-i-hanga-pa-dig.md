@@ -1,7 +1,7 @@
 ---
-title: "[KEJ 3] Aktfinal I - Hänga på dig"
-singer: "Che Yen och Li Su sjunger"
-melody: "Stanna hos dig"
+title: '[KEJ 3] Aktfinal I - Hänga på dig'
+singer: 'Che Yen och Li Su sjunger'
+melody: 'Stanna hos dig'
 spex: kejsaren-av-kina
 order: 5
 permalink: false

@@ -1,7 +1,7 @@
 ---
-title: "[LIN 1] Uti gamla Sverige"
-singer: "Ericsson och Lind sjunger"
-melody: "Horgalåten"
+title: '[LIN 1] Uti gamla Sverige'
+singer: 'Ericsson och Lind sjunger'
+melody: 'Horgalåten'
 spex: lincoln-1985-86
 order: 2
 permalink: false

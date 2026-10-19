@@ -1,10 +1,11 @@
 ---
-title: "12. Pausfinal (höst)"
-melody: "Finalen ur Tiggarstudenterna"
+title: '12. Pausfinal (höst)'
+melody: 'Finalen ur Tiggarstudenterna'
 spex: kristina-2023-24
 order: 12
 permalink: false
 ---
+
 **Axel, Louise, Kristina:** Genom en mystisk incident
 Har Sverige fått en ny regent
 Lilla Kristina som befäl

@@ -1,6 +1,6 @@
 ---
-title: "[NOB 12] Le Nons presentationssång"
-singer: "Le Non och Nikita sjunger"
+title: '[NOB 12] Le Nons presentationssång'
+singer: 'Le Non och Nikita sjunger'
 spex: nobel
 order: 15
 permalink: false

@@ -1,7 +1,7 @@
 ---
-title: "[NOS 7] När jag var i Yngsjö"
-singer: "Albert, Alberta, Emil, Ingeborg, Hörman och Bengta sjunger"
-melody: "If I were a rich man"
+title: '[NOS 7] När jag var i Yngsjö'
+singer: 'Albert, Alberta, Emil, Ingeborg, Hörman och Bengta sjunger'
+melody: 'If I were a rich man'
 spex: nosaby
 order: 8
 permalink: false

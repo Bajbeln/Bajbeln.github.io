@@ -1,7 +1,7 @@
 ---
-title: "[LIN 5] Oh, Delila"
-singer: "Ericsson och Sara Delila sjunger"
-melody: "Diana"
+title: '[LIN 5] Oh, Delila'
+singer: 'Ericsson och Sara Delila sjunger'
+melody: 'Diana'
 spex: lincoln-1985-86
 order: 16
 permalink: false

@@ -1,7 +1,7 @@
 ---
-title: "[KUK 2] Medlarkuplett"
-singer: "Lisbeth Palme sjunger"
-melody: "Yackety Sax"
+title: '[KUK 2] Medlarkuplett'
+singer: 'Lisbeth Palme sjunger'
+melody: 'Yackety Sax'
 spex: kubakrisen-2003-04
 order: 5
 permalink: false

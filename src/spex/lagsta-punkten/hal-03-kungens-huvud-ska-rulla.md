@@ -1,11 +1,12 @@
 ---
-title: "[HÅL 3] Kungens huvud ska rulla (Teatersällskapets sång)"
-singer: "Christian IV, Kirsten Munk, von Salm, Conny och Hebba sjunger"
-melody: "Dammit, Janet, ur Rocky Horror Picture Show"
+title: '[HÅL 3] Kungens huvud ska rulla (Teatersällskapets sång)'
+singer: 'Christian IV, Kirsten Munk, von Salm, Conny och Hebba sjunger'
+melody: 'Dammit, Janet, ur Rocky Horror Picture Show'
 spex: lagsta-punkten
 order: 6
 permalink: false
 ---
+
 ::: cols
 **CIV:**
 Hej, det är jag som är Kungen
@@ -40,7 +41,6 @@ han tills det tar stopp
 (Kungen)
 (Kungen)
 (Kungen)
-
 
 <br><br><br><br>
 (Tjockis)

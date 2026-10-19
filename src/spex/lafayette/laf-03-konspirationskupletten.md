@@ -1,11 +1,12 @@
 ---
-title: "[LAF 3] Konspirationskupletten"
-singer: "Sjungs av Mary, Jane, Rousseau & Voltaire"
-melody: "The Other Side - ur The Greatest Showman"
+title: '[LAF 3] Konspirationskupletten'
+singer: 'Sjungs av Mary, Jane, Rousseau & Voltaire'
+melody: 'The Other Side - ur The Greatest Showman'
 spex: lafayette
 order: 3
 permalink: false
 ---
+
 **Mary**
 Voltaire, Rousseau
 Hur ska nu detta gå?

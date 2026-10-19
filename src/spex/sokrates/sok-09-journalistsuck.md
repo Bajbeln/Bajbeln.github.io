@@ -1,7 +1,7 @@
 ---
-title: "[SOK 9] Journalistsuck"
-singer: "Journalisterna sjunger"
-melody: "Sixteen Tons"
+title: '[SOK 9] Journalistsuck'
+singer: 'Journalisterna sjunger'
+melody: 'Sixteen Tons'
 spex: sokrates
 order: 18
 permalink: false

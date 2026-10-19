@@ -1,11 +1,12 @@
 ---
-title: "[SEV 1] Diagnoskupletten"
-singer: "Doktorn sjunger"
-melody: "ABC"
+title: '[SEV 1] Diagnoskupletten'
+singer: 'Doktorn sjunger'
+melody: 'ABC'
 spex: sketchofreni
 order: 1
 permalink: false
 ---
+
 Galningar huka
 Nu ska jag bota sjuka
 Din dumma gås

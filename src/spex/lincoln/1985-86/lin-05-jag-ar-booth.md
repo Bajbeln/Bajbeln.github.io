@@ -1,7 +1,7 @@
 ---
-title: "[LIN 5] Jag är Booth"
-singer: "John Wilkes Booth sjunger"
-melody: "God Jul, Ulf Lundell"
+title: '[LIN 5] Jag är Booth'
+singer: 'John Wilkes Booth sjunger'
+melody: 'God Jul, Ulf Lundell'
 spex: lincoln-1985-86
 order: 15
 permalink: false

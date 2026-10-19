@@ -1,7 +1,7 @@
 ---
-title: "[TJO 14] Shogun"
-singer: "Sony och Akai sjunger"
-melody: "Så klart"
+title: '[TJO 14] Shogun'
+singer: 'Sony och Akai sjunger'
+melody: 'Så klart'
 spex: tjogun-2002-03
 order: 5
 permalink: false
@@ -75,13 +75,8 @@ Med Sony som Shogun
 
 Spring spring
 
-
-
-
 <br><br><br><br>
 Ska jag hjälpa till?
-
-
 
 <br><br>
 Så Sony klarar biffen
@@ -96,4 +91,4 @@ Njuter när vi krossar, checka bossarnas bossar
 
 Alla bugar när det är som jag är...
 
-_*Akai fyller i de ord som står med fet stil_
+_\*Akai fyller i de ord som står med fet stil_

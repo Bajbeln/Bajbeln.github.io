@@ -1,6 +1,6 @@
 ---
-title: "[KAR 8] Så fick vi på varandras rygg"
-singer: "Karl Martell och Gretchen sjunger"
+title: '[KAR 8] Så fick vi på varandras rygg'
+singer: 'Karl Martell och Gretchen sjunger'
 melody: "Don't Get Around Much Anymore"
 spex: karl-martell-1997
 order: 19

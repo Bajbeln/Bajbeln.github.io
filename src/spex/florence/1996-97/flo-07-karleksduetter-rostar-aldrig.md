@@ -1,11 +1,12 @@
 ---
-title: "[FLO 7] Kärleksduetter rostar aldrig"
-singer: "Ronnie och Sally sjunger"
-melody: "Five Foot Two, Eyes of Blue"
+title: '[FLO 7] Kärleksduetter rostar aldrig'
+singer: 'Ronnie och Sally sjunger'
+melody: 'Five Foot Two, Eyes of Blue'
 spex: florence-1996-97
 order: 19
 permalink: false
 ---
+
 **Ronnie:**
 Jag för två decennier sen
 Miste en liten vän

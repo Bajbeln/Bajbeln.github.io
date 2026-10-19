@@ -1,6 +1,6 @@
 ---
-title: "[MTV 1] Belåna"
-melody: "Ramona"
+title: '[MTV 1] Belåna'
+melody: 'Ramona'
 spex: mtv
 order: 2
 permalink: false

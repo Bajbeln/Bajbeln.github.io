@@ -1,10 +1,11 @@
 ---
-title: "[LOS 1] En Svenssons svåra liv"
-melody: "Poupée de cire poupée de son, France Gall"
+title: '[LOS 1] En Svenssons svåra liv'
+melody: 'Poupée de cire poupée de son, France Gall'
 spex: loshultskuppen
 order: 2
 permalink: false
 ---
+
 Utsatt vandrar jag omkring: Mitt liv
 är en biverkning
 Grenarna river min bara kind, Jag

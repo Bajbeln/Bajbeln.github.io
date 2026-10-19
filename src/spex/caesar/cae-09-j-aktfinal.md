@@ -1,7 +1,7 @@
 ---
-title: "[CAE 9] J-Aktfinal"
-singer: "Senaten och Biblius sjunger"
-melody: "Break Away"
+title: '[CAE 9] J-Aktfinal'
+singer: 'Senaten och Biblius sjunger'
+melody: 'Break Away'
 spex: caesar
 order: 17
 permalink: false

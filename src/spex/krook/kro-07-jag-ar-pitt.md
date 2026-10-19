@@ -1,7 +1,7 @@
 ---
-title: "[KRO 7] Jag är Pitt"
-singer: "Slughöken och Jeremy Pitt sjunger. Fast inte samtidigt"
-melody: "Möte i monsunen"
+title: '[KRO 7] Jag är Pitt'
+singer: 'Slughöken och Jeremy Pitt sjunger. Fast inte samtidigt'
+melody: 'Möte i monsunen'
 spex: krook
 order: 18
 permalink: false

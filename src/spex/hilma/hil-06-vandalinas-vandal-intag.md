@@ -1,11 +1,12 @@
 ---
-title: "[HIL 4] Vandalinas Vandal-Intåg"
-singer: "Sjungs av Vandalina Sabb & Edvard Munch"
+title: '[HIL 4] Vandalinas Vandal-Intåg'
+singer: 'Sjungs av Vandalina Sabb & Edvard Munch'
 melody: "Don't Lose Your Head - ur SIX"
 spex: hilma
 order: 6
 permalink: false
 ---
+
 En viskning i gränden
 Fiendernas frände
 Alla ordningsmän har

@@ -1,11 +1,12 @@
 ---
-title: "[BRA 7] Jeppes skämt"
-singer: "Jeppe sjunger"
-melody: "En man i byrån"
+title: '[BRA 7] Jeppes skämt'
+singer: 'Jeppe sjunger'
+melody: 'En man i byrån'
 spex: tycho
 order: 11
 permalink: false
 ---
+
 Jag är narr i danska hovet
 Högsta jönsen i mitt skrå, ett
 jobb med fina förmåner, ni vet

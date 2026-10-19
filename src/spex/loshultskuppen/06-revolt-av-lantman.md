@@ -1,10 +1,11 @@
 ---
-title: "[LOS 4] Revolt av lantmän"
-melody: "Lagt kort ligger, ur Ebba och Didrik"
+title: '[LOS 4] Revolt av lantmän'
+melody: 'Lagt kort ligger, ur Ebba och Didrik'
 spex: loshultskuppen
 order: 6
 permalink: false
 ---
+
 **Trine, Ditte & Bente:**
 Vi ska planera
 Inkomst dubblera

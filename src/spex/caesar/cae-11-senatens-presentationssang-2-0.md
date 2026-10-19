@@ -1,7 +1,7 @@
 ---
-title: "[CAE 11] Senatens presentationssång 2.0"
-singer: "Senaten sjunger"
-melody: "Gospel Truth ur Hercules"
+title: '[CAE 11] Senatens presentationssång 2.0'
+singer: 'Senaten sjunger'
+melody: 'Gospel Truth ur Hercules'
 spex: caesar
 order: 21
 permalink: false

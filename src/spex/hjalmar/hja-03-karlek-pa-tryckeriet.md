@@ -1,7 +1,7 @@
 ---
-title: "[HJA 3] Kärlek på tryckeriet"
-singer: "Jörgen och Lillemor sjunger"
-melody: "Moondance"
+title: '[HJA 3] Kärlek på tryckeriet'
+singer: 'Jörgen och Lillemor sjunger'
+melody: 'Moondance'
 spex: hjalmar
 order: 6
 permalink: false

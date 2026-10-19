@@ -1,7 +1,7 @@
 ---
-title: "[PUL 1] Jag är den kloke Jan Eric Larsson"
-singer: "Jan Eric Larsson sjunger"
-melody: "Man cyklar för lite"
+title: '[PUL 1] Jag är den kloke Jan Eric Larsson'
+singer: 'Jan Eric Larsson sjunger'
+melody: 'Man cyklar för lite'
 spex: pullinutt
 order: 4
 permalink: false

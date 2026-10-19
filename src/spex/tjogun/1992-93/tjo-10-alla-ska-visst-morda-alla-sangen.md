@@ -1,7 +1,7 @@
 ---
-title: "[TJO 10] Alla-ska-visst-mörda-alla-sången"
-singer: "Ieyasu, Nissan och Chinon sjunger"
-melody: "Leaning on a Lamp-post"
+title: '[TJO 10] Alla-ska-visst-mörda-alla-sången'
+singer: 'Ieyasu, Nissan och Chinon sjunger'
+melody: 'Leaning on a Lamp-post'
 spex: tjogun-1992-93
 order: 12
 permalink: false

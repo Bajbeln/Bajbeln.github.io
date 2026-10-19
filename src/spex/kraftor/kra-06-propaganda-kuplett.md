@@ -1,11 +1,12 @@
 ---
-title: "[KRÄ 3] Propaganda-kuplett"
-singer: "Albert Engström sjunger"
-melody: "How The World Works, Bo Burnham"
+title: '[KRÄ 3] Propaganda-kuplett'
+singer: 'Albert Engström sjunger'
+melody: 'How The World Works, Bo Burnham'
 spex: kraftor
 order: 6
 permalink: false
 ---
+
 Folk i vårt land har en massa idéer
 Vad som är rätt och fel
 Och såna dära klichéer

@@ -1,10 +1,11 @@
 ---
-title: "18. Pripps Royal"
-melody: "Lambeth Walk"
+title: '18. Pripps Royal'
+melody: 'Lambeth Walk'
 spex: allmanna
 order: 18
 permalink: false
 ---
+
 En flaska det varit öl uti
 Folkölet Royal från Pripps bryggeri
 Fastnade härom dan

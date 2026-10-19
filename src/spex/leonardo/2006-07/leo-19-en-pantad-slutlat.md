@@ -1,11 +1,12 @@
 ---
-title: "[LEO 19] En pantad slutlåt"
-singer: "Alla sjunger"
-melody: "Returpack-reklamlåten av Artister i samverkan"
+title: '[LEO 19] En pantad slutlåt'
+singer: 'Alla sjunger'
+melody: 'Returpack-reklamlåten av Artister i samverkan'
 spex: leonardo-2006-07
 order: 8
 permalink: false
 ---
+
 **Gio+Mona:** Vi fann varann
 **Lisa:** Jag fick en man
 **Medici:** Fick en man

@@ -1,11 +1,12 @@
 ---
-title: "[FLO 3] Aktfinal I - Detta ska hända i akt II"
-singer: "Florence och Nanny sjunger"
-melody: "Rytmen av ett regn"
+title: '[FLO 3] Aktfinal I - Detta ska hända i akt II'
+singer: 'Florence och Nanny sjunger'
+melody: 'Rytmen av ett regn'
 spex: florence-1996-97
 order: 6
 permalink: false
 ---
+
 **Nanny:**
 Packa nu din väska Florence, du och jag ska fara
 Pengar, pass, parlör sen kan vi resan klara

@@ -1,10 +1,11 @@
 ---
-title: "[HCA 7] Nakenkupletten"
+title: '[HCA 7] Nakenkupletten'
 melody: "Don't stop me now – Queen"
 spex: hc-andersen
 order: 10
 permalink: false
 ---
+
 Snart, ska ni få se på nåt helt nytt
 Kläder med ke-ejsarsnitt
 Denna dräkt, den sitter helt perfekt, ju

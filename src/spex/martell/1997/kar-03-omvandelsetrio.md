@@ -1,6 +1,6 @@
 ---
-title: "[KAR 3] Omvändelsetrio"
-singer: "Benasir, Jamina och Korken sjunger"
+title: '[KAR 3] Omvändelsetrio'
+singer: 'Benasir, Jamina och Korken sjunger'
 melody: "It's Oh So Quiet"
 spex: karl-martell-1997
 order: 7

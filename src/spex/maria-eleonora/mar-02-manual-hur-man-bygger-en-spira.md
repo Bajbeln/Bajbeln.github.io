@@ -1,7 +1,7 @@
 ---
-title: "[MAR 2] Manual hur man bygger en spira"
-singer: "Fabian, Moster Ingeborg och Anna sjunger"
-melody: "If you want a receipt"
+title: '[MAR 2] Manual hur man bygger en spira'
+singer: 'Fabian, Moster Ingeborg och Anna sjunger'
+melody: 'If you want a receipt'
 spex: maria-eleonora
 order: 3
 permalink: false

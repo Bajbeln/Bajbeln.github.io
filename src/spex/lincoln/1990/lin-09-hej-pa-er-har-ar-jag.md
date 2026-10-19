@@ -1,7 +1,7 @@
 ---
-title: "[LIN 9] Hej på er, här är jag"
-singer: "President Oln sjunger"
-melody: "The Star Spangled Banner"
+title: '[LIN 9] Hej på er, här är jag'
+singer: 'President Oln sjunger'
+melody: 'The Star Spangled Banner'
 spex: lincoln-1990
 order: 2
 permalink: false

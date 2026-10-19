@@ -1,6 +1,6 @@
 ---
-title: "[GYT 1] Julvisa"
-melody: "Trad."
+title: '[GYT 1] Julvisa'
+melody: 'Trad.'
 spex: gyttjeblottning
 order: 3
 permalink: false

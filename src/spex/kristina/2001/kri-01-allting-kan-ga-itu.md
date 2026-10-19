@@ -1,11 +1,12 @@
 ---
-title: "[KRI 1] Allting kan gå itu, men Polen har gått i tusen bitar"
-singer: "Härjande polska bönder"
-melody: "Two step Nadja"
+title: '[KRI 1] Allting kan gå itu, men Polen har gått i tusen bitar'
+singer: 'Härjande polska bönder'
+melody: 'Two step Nadja'
 spex: kristina-2001
 order: 1
 permalink: false
 ---
+
 Lukten av svartkrut väckt oss som spädbarn
 Undrar om vi nån gång till slut slipper loss ur krigets garn
 På varje åkerbit en batalj böljar än hit, än dit

@@ -1,11 +1,12 @@
 ---
-title: "[KLE 4] Kuplett om mordvapen & dyl"
-singer: "Aurelia sjunger"
+title: '[KLE 4] Kuplett om mordvapen & dyl'
+singer: 'Aurelia sjunger'
 melody: "When you're good to Mama – Chicago"
 spex: kleopatra
 order: 8
 permalink: false
 ---
+
 En hänförd tystnad när jag gör entré.
 Den stora sfund, då min plan ska ske!
 Med mitt vapen höjt redo för din chans.

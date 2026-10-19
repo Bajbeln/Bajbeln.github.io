@@ -1,7 +1,7 @@
 ---
-title: "[TJO 6] Jag är Ieyasu"
-singer: "Ieyasu Tokugawa sjunger"
-melody: "Toreador"
+title: '[TJO 6] Jag är Ieyasu'
+singer: 'Ieyasu Tokugawa sjunger'
+melody: 'Toreador'
 spex: tjogun-1992-93
 order: 2
 permalink: false

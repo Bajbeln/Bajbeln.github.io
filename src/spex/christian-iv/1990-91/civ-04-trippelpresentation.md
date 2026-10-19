@@ -1,6 +1,6 @@
 ---
-title: "[CIV 4] Trippelpresentation"
-singer: "Snappo, Kungen och von Salm sjunger"
+title: '[CIV 4] Trippelpresentation'
+singer: 'Snappo, Kungen och von Salm sjunger'
 spex: christian-iv-1990-91
 order: 13
 permalink: false

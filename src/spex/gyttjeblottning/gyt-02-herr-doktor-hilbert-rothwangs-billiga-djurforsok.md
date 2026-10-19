@@ -1,5 +1,5 @@
 ---
-title: "[GYT 2] Herr Doktor Hilbert Rothwangs billiga djurförsök"
+title: '[GYT 2] Herr Doktor Hilbert Rothwangs billiga djurförsök'
 spex: gyttjeblottning
 order: 6
 permalink: false

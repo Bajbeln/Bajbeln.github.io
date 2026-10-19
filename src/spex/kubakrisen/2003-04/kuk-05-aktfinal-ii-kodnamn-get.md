@@ -1,7 +1,7 @@
 ---
 title: "[KUK 5] Aktfinal II - 'Kodnamn Get'"
-singer: "Miss Johnson, Jackie och agenter sjunger"
-melody: "Djingis Khan, Vikingarna"
+singer: 'Miss Johnson, Jackie och agenter sjunger'
+melody: 'Djingis Khan, Vikingarna'
 spex: kubakrisen-2003-04
 order: 11
 permalink: false

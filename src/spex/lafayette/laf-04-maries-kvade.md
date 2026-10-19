@@ -1,11 +1,12 @@
 ---
-title: "[LAF 4] Maries kväde"
-singer: "Sjungs av Marie"
+title: '[LAF 4] Maries kväde'
+singer: 'Sjungs av Marie'
 melody: "How Far I'll Go - ur Moana"
 spex: lafayette
 order: 4
 permalink: false
 ---
+
 Jag har alltid velat va' någon annan
 Någon som inspirerar
 Bara genom att va' där

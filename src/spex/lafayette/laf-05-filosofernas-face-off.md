@@ -1,11 +1,12 @@
 ---
-title: "[LAF 5] Filosofernas face/off"
-singer: "Sjungs av Voltaire & Rousseau"
-melody: "Rondo alla Turca - av W. A. Mozart (text ur \"Kärlek och lavemang\")"
+title: '[LAF 5] Filosofernas face/off'
+singer: 'Sjungs av Voltaire & Rousseau'
+melody: 'Rondo alla Turca - av W. A. Mozart (text ur "Kärlek och lavemang")'
 spex: lafayette
 order: 5
 permalink: false
 ---
+
 **Rousseau**
 Titta på dig själv, hjärnan full
 med dun

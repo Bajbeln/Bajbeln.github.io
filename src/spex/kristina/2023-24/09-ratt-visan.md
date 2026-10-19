@@ -1,10 +1,11 @@
 ---
-title: "9. Rätt-visan"
-melody: "Zwampen – Electric Banana Band"
+title: '9. Rätt-visan'
+melody: 'Zwampen – Electric Banana Band'
 spex: kristina-2023-24
 order: 9
 permalink: false
 ---
+
 Jag är bara rättvis
 Det är juridik
 Rättvisan ska skipas

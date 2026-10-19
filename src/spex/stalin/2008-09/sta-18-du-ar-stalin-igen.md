@@ -1,11 +1,12 @@
 ---
-title: "[STA 18] Du är Stalin igen"
-singer: "Molotov sjunger"
-melody: "Samma som ovan fast jävelet snabbt"
+title: '[STA 18] Du är Stalin igen'
+singer: 'Molotov sjunger'
+melody: 'Samma som ovan fast jävelet snabbt'
 spex: stalin-2008-09
 order: 9
 permalink: false
 ---
+
 Josef Stalin, heja, heja Stalin!
 Kamrat, broder, pappa, älskare och äkta man
 Men en gest är, Gulag på semester

@@ -1,11 +1,12 @@
 ---
-title: "[FLO 2] Kärleksaspekter"
-singer: "Florence, Fred, Anne och Harriet sjunger"
-melody: "Ur Schuberts Impromptu op. 142 no. 2"
+title: '[FLO 2] Kärleksaspekter'
+singer: 'Florence, Fred, Anne och Harriet sjunger'
+melody: 'Ur Schuberts Impromptu op. 142 no. 2'
 spex: florence-1996-97
 order: 4
 permalink: false
 ---
+
 **Flo.:** Den värme jag känner
 Får mig att förstå
 Att vi två är vänner

@@ -1,7 +1,7 @@
 ---
-title: "[KUK 7] Land i sikte"
-singer: "Thor, Ole, Mette och Marit sjunger"
-melody: "In the navy"
+title: '[KUK 7] Land i sikte'
+singer: 'Thor, Ole, Mette och Marit sjunger'
+melody: 'In the navy'
 spex: kubakrisen-2003-04
 order: 13
 permalink: false

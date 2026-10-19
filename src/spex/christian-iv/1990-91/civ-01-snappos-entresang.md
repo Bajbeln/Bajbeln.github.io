@@ -1,7 +1,7 @@
 ---
-title: "[CIV 1] Snappos entré-sång"
-singer: "Snappo sjunger"
-melody: "Sudda, sudda (nästan)"
+title: '[CIV 1] Snappos entré-sång'
+singer: 'Snappo sjunger'
+melody: 'Sudda, sudda (nästan)'
 spex: christian-iv-1990-91
 order: 3
 permalink: false

@@ -1,11 +1,12 @@
 ---
 title: "[STA 29] Soviet's got a brand new dad"
-singer: "Stalin sjunger"
-melody: "Barn av vår tid, ur Nationalteatern"
+singer: 'Stalin sjunger'
+melody: 'Barn av vår tid, ur Nationalteatern'
 spex: stalin-2015-16
 order: 5
 permalink: false
 ---
+
 Jag var ett barn av vår tid
 Jag valde klasskampens strid
 Kommunismen blev tidigt mitt kall

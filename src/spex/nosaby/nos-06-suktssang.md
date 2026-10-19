@@ -1,7 +1,7 @@
 ---
-title: "[NOS 6] Suktsång"
-singer: "Albertina sjunger"
-melody: "Till Österland vill jag fara"
+title: '[NOS 6] Suktsång'
+singer: 'Albertina sjunger'
+melody: 'Till Österland vill jag fara'
 spex: nosaby
 order: 6
 permalink: false

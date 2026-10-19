@@ -1,7 +1,7 @@
 ---
-title: "[TJO 15] Spääxfinal"
-singer: "Levande och döda sjunger"
-melody: "We are the world"
+title: '[TJO 15] Spääxfinal'
+singer: 'Levande och döda sjunger'
+melody: 'We are the world'
 spex: tjogun-2002-03
 order: 6
 permalink: false

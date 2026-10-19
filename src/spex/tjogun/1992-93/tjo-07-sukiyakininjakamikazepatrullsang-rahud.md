@@ -1,7 +1,7 @@
 ---
-title: "[TJO 7] Sukiyakininjakamikazepatrullsång (råhud)"
-singer: "Datsun och Daihatsu sjunger"
-melody: "Rawhide"
+title: '[TJO 7] Sukiyakininjakamikazepatrullsång (råhud)'
+singer: 'Datsun och Daihatsu sjunger'
+melody: 'Rawhide'
 spex: tjogun-1992-93
 order: 5
 permalink: false

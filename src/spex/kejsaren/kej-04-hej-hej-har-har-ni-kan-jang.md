@@ -1,7 +1,7 @@
 ---
-title: "[KEJ 4] Hej, hej här har ni Kan Jang"
-singer: "Kan Jang sjunger"
-melody: "Oh Boy"
+title: '[KEJ 4] Hej, hej här har ni Kan Jang'
+singer: 'Kan Jang sjunger'
+melody: 'Oh Boy'
 spex: kejsaren-av-kina
 order: 7
 permalink: false

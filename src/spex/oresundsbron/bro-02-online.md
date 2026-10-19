@@ -1,11 +1,12 @@
 ---
-title: "[BRO 2] Online"
-singer: "LISA, BERIT & JÖRGEN sjunger"
-melody: "Life – E-Type"
+title: '[BRO 2] Online'
+singer: 'LISA, BERIT & JÖRGEN sjunger'
+melody: 'Life – E-Type'
 spex: oresundsbron
 order: 5
 permalink: false
 ---
+
 **Lisa:**
 Vi är online!
 

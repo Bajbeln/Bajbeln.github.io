@@ -1,11 +1,12 @@
 ---
-title: "[LAF 11] Duelldängan"
-singer: "Sjungs av Konferenciern"
-melody: "Hon Kommer Med Solsken - Östen Med Resten"
+title: '[LAF 11] Duelldängan'
+singer: 'Sjungs av Konferenciern'
+melody: 'Hon Kommer Med Solsken - Östen Med Resten'
 spex: lafayette
 order: 13
 permalink: false
 ---
+
 Har vässat din värja,
 och putsat din pistol
 Andats djupt och bett din sista bön

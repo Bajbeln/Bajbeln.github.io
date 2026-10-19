@@ -1,7 +1,7 @@
 ---
-title: "[SOK 8] Trög-sången"
-singer: "Sokrates sjunger"
-melody: "Je ne regrette rien"
+title: '[SOK 8] Trög-sången'
+singer: 'Sokrates sjunger'
+melody: 'Je ne regrette rien'
 spex: sokrates
 order: 15
 permalink: false

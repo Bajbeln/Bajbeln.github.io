@@ -1,5 +1,5 @@
 ---
-title: "[KAR 1] Ett harem kräver sin man"
+title: '[KAR 1] Ett harem kräver sin man'
 spex: karl-martell-1997
 order: 2
 permalink: false

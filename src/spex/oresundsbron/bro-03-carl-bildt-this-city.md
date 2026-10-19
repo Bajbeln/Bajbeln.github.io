@@ -1,11 +1,12 @@
 ---
-title: "[BRO 3] Carl Bildt This City"
-singer: "Carl Bildt sjunger"
-melody: "We Built This City – Starship"
+title: '[BRO 3] Carl Bildt This City'
+singer: 'Carl Bildt sjunger'
+melody: 'We Built This City – Starship'
 spex: oresundsbron
 order: 7
 permalink: false
 ---
+
 Carl Bildt this city
 Carl Bildt this city
 av sten och grus

@@ -1,7 +1,7 @@
 ---
-title: "[NOS 4] Man måste vara tapper"
-singer: "Alberta, Albertina och Signe sjunger"
-melody: "Bongo, bongo..."
+title: '[NOS 4] Man måste vara tapper'
+singer: 'Alberta, Albertina och Signe sjunger'
+melody: 'Bongo, bongo...'
 spex: nosaby
 order: 4
 permalink: false

@@ -1,11 +1,12 @@
 ---
-title: "[TÖB 2] Nu jävlar tar vi fredde"
-singer: "Karl XI, Wrangel, soldater & spejare sjunger"
-melody: "Fortune favours the brave, ur Aida"
+title: '[TÖB 2] Nu jävlar tar vi fredde'
+singer: 'Karl XI, Wrangel, soldater & spejare sjunger'
+melody: 'Fortune favours the brave, ur Aida'
 spex: taget-balt
 order: 5
 permalink: false
 ---
+
 **K:** Här står vi i lera,
 fast beslutna att nu dra
 för att slå där det gör ondast

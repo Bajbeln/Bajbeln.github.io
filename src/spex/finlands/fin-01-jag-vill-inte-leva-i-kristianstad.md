@@ -1,7 +1,7 @@
 ---
-title: "[FIN 1] Jag vill inte leva i Kristianstad"
-singer: "Pekka, Sirkka och Ulla sjunger"
-melody: "Jag vill leva i Europa"
+title: '[FIN 1] Jag vill inte leva i Kristianstad'
+singer: 'Pekka, Sirkka och Ulla sjunger'
+melody: 'Jag vill leva i Europa'
 spex: finlands
 order: 1
 permalink: false

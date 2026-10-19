@@ -1,7 +1,7 @@
 ---
-title: "[KRO 9] En Verdi Avslutning"
-singer: "Alla sjunger - typ"
-melody: "Verdis Trubaduren"
+title: '[KRO 9] En Verdi Avslutning'
+singer: 'Alla sjunger - typ'
+melody: 'Verdis Trubaduren'
 spex: krook
 order: 23
 permalink: false

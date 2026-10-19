@@ -1,7 +1,7 @@
 ---
-title: "[PAH 3] Fräuleins presentationssång"
-singer: "Fräunlein Liebfraumilch sjunger"
-melody: "Love story"
+title: '[PAH 3] Fräuleins presentationssång'
+singer: 'Fräunlein Liebfraumilch sjunger'
+melody: 'Love story'
 spex: per-albin
 order: 3
 permalink: false

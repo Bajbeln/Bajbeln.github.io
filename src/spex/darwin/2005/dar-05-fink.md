@@ -1,7 +1,7 @@
 ---
-title: "[DAR 5] Fink!"
-singer: "F.D Jungfru, Städerskan & Agnostikern sjunger"
-melody: "Think"
+title: '[DAR 5] Fink!'
+singer: 'F.D Jungfru, Städerskan & Agnostikern sjunger'
+melody: 'Think'
 spex: darwin-2005
 order: 12
 permalink: false

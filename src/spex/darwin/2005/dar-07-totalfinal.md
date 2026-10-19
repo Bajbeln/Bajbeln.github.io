@@ -1,6 +1,6 @@
 ---
-title: "[DAR 7] Totalfinal"
-singer: "Bonnie R, Emma, Darwin, Victoria & alla sjunger"
+title: '[DAR 7] Totalfinal'
+singer: 'Bonnie R, Emma, Darwin, Victoria & alla sjunger'
 melody: "Let's twist again"
 spex: darwin-2005
 order: 16

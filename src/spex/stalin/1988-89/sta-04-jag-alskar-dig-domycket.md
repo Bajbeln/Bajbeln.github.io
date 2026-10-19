@@ -1,11 +1,12 @@
 ---
-title: "[STA 4] Jag älskar dig dömycket"
-singer: "Extasia och Stalin sjunger"
+title: '[STA 4] Jag älskar dig dömycket'
+singer: 'Extasia och Stalin sjunger'
 melody: "Je t'aime"
 spex: stalin-1988-89
 order: 12
 permalink: false
 ---
+
 **Refräng,båda:**
 Ja ljublju'tiebia'
 Ja ljublju'tiebia'

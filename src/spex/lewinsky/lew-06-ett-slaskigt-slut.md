@@ -1,11 +1,12 @@
 ---
-title: "[LEW 6] Ett slaskigt slut"
-singer: "Bill, Hillary, Månika och Krister sjunger"
-melody: "Proud Mary, Tina Turner"
+title: '[LEW 6] Ett slaskigt slut'
+singer: 'Bill, Hillary, Månika och Krister sjunger'
+melody: 'Proud Mary, Tina Turner'
 spex: lewinsky
 order: 10
 permalink: false
 ---
+
 **Krister:** Vi har nått vår sagas ände
 Alla utom Bush fick ett lyckligt slut
 **Månika:** Min popmusikstjärna kommer att tändas

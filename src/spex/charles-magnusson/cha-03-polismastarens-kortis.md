@@ -1,11 +1,12 @@
 ---
-title: "[CHA 3] Polismästarens kortis"
-singer: "Polismästaren sjunger"
-melody: "När du ska gå över gatan – Televinken"
+title: '[CHA 3] Polismästarens kortis'
+singer: 'Polismästaren sjunger'
+melody: 'När du ska gå över gatan – Televinken'
 spex: charles-magnusson
 order: 7
 permalink: false
 ---
+
 Har du tappat bort din nyckel
 Kalla på Polisen
 Har du råkat sno en cykel

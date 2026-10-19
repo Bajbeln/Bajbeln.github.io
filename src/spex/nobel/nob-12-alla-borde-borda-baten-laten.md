@@ -1,7 +1,7 @@
 ---
-title: "[NOB 12] Alla borde-borda-båten-låten"
-singer: "Bertha, tanterna, Nobel, Le Non, Nikita och agenterna sjunger"
-melody: "Go West"
+title: '[NOB 12] Alla borde-borda-båten-låten'
+singer: 'Bertha, tanterna, Nobel, Le Non, Nikita och agenterna sjunger'
+melody: 'Go West'
 spex: nobel
 order: 17
 permalink: false

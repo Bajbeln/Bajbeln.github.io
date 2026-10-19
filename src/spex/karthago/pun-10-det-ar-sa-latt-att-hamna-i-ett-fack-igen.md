@@ -1,11 +1,12 @@
 ---
-title: "[PUN 10] Det är så lätt att hamna i ett fack igen (eller: Ett A-lag med dito kassa)"
-singer: "Legoknektarna sjunger"
-melody: "Kolla, kolla, Nattionalteatern"
+title: '[PUN 10] Det är så lätt att hamna i ett fack igen (eller: Ett A-lag med dito kassa)'
+singer: 'Legoknektarna sjunger'
+melody: 'Kolla, kolla, Nattionalteatern'
 spex: karthago
 order: 13
 permalink: false
 ---
+
 Vi är nog många här i hären
 som önskar lämna militären
 Men om man ändå tänker stanna

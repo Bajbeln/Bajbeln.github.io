@@ -1,7 +1,7 @@
 ---
-title: "[MOT 6] Toner av kontradiktioner"
-singer: "Dash och Louisa sjunger"
-melody: "Alla turca allegretto. Pianosonata i A-Dur, Mozart"
+title: '[MOT 6] Toner av kontradiktioner'
+singer: 'Dash och Louisa sjunger'
+melody: 'Alla turca allegretto. Pianosonata i A-Dur, Mozart'
 spex: mot-strommen
 order: 7
 permalink: false

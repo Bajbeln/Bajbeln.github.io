@@ -1,10 +1,11 @@
 ---
-title: "22. Spääxfinal (vår)"
-melody: "Sjung hallelujah – Carola Häggkvist"
+title: '22. Spääxfinal (vår)'
+melody: 'Sjung hallelujah – Carola Häggkvist'
 spex: kristina-2023-24
 order: 22
 permalink: false
 ---
+
 Tänk att kungen kom tillbaka
 Men nu är han död igen
 Så Kristina får va kvar

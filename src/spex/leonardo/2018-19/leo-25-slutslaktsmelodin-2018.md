@@ -1,10 +1,11 @@
 ---
-title: "[LEO 25] Slutslaktsmelodin 2018"
-melody: "Karnevalsmelodin 2010"
+title: '[LEO 25] Slutslaktsmelodin 2018'
+melody: 'Karnevalsmelodin 2010'
 spex: leonardo-2018-19
 order: 6
 permalink: false
 ---
+
 Där fick vi veta, hur allt gick till
 Nu ska vi sjunga slutsång, som vi lärt
 utantill

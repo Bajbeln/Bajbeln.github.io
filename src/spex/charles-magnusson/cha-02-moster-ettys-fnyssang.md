@@ -1,11 +1,12 @@
 ---
-title: "[CHA 2] Moster Ettys Fnyssång"
-singer: "Moster Etty sjunger"
-melody: "Pepparkakebagarns visa"
+title: '[CHA 2] Moster Ettys Fnyssång'
+singer: 'Moster Etty sjunger'
+melody: 'Pepparkakebagarns visa'
 spex: charles-magnusson
 order: 4
 permalink: false
 ---
+
 Moster Etty ska ni veta
 Bör man passa sig att reta
 Jag försäkrar det för

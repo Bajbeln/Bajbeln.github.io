@@ -1,11 +1,12 @@
 ---
-title: "[ETC 1] Sången om Pablo Picassos långa namn och hur himla otympligt det är att signera tavlor (eller hangarfartyg) med det*"
-singer: "Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso sjunger"
-melody: "Karma Chameleon, Culture Club"
+title: '[ETC 1] Sången om Pablo Picassos långa namn och hur himla otympligt det är att signera tavlor (eller hangarfartyg) med det*'
+singer: 'Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso sjunger'
+melody: 'Karma Chameleon, Culture Club'
 spex: sketchetera
 order: 1
 permalink: false
 ---
+
 En stor nackdel med att vara en spanjor
 är vårt sätt att ge namn åt människor
 Om en man heter Maria

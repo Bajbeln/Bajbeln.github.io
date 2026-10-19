@@ -1,11 +1,12 @@
 ---
 title: "[E14 17] Där vi va'i fredags!"
-singer: "Conny och Hebba sjunger"
-melody: "Viva Las Vegas"
+singer: 'Conny och Hebba sjunger'
+melody: 'Viva Las Vegas'
 spex: erik-xiv-2004-05
 order: 6
 permalink: false
 ---
+
 **Hebba**
 Det känns så hårt att bara hänga här
 Särskilt när ens karl ser ut sådär

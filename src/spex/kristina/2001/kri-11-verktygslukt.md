@@ -1,11 +1,12 @@
 ---
-title: "[KRI 8] Verktygslukt (ursäkta!)"
-singer: "Rudbeck och Cartesius"
-melody: "After sailing to this island ur Gondoliers"
+title: '[KRI 8] Verktygslukt (ursäkta!)'
+singer: 'Rudbeck och Cartesius'
+melody: 'After sailing to this island ur Gondoliers'
 spex: kristina-2001
 order: 11
 permalink: false
 ---
+
 **Rudbeck:** Vi är kloka filosofer,
 Säkert seklets största hjärnor
 **Cartesius:** Djupa tankar, vackra strofer,

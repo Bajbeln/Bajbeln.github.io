@@ -1,10 +1,11 @@
 ---
-title: "[SKO 2] Eristikteknik"
-melody: "10 000 sätt"
+title: '[SKO 2] Eristikteknik'
+melody: '10 000 sätt'
 spex: sketchofori
 order: 2
 permalink: false
 ---
+
 Om du alltid vill ha rätt så
 finns det många smarta sätt
 Att smidigt kamouflera alla dina fel

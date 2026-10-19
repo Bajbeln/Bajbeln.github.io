@@ -1,10 +1,11 @@
 ---
-title: "[HCA 4] Fula hattar"
+title: '[HCA 4] Fula hattar'
 melody: "King Herold's song – Andrew Lloyd Webber"
 spex: hc-andersen
 order: 5
 permalink: false
 ---
+
 Länge har jag spridit ondska både här och var
 Den värsta sortens hyss och skada, är min repertoar
 Pest och kolera, gulligt

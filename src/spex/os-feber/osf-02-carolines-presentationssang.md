@@ -1,7 +1,7 @@
 ---
-title: "[OSF 2] Carolines presentationssång"
-singer: "Caroline sjunger"
-melody: "Poupée de cire, poupée de son"
+title: '[OSF 2] Carolines presentationssång'
+singer: 'Caroline sjunger'
+melody: 'Poupée de cire, poupée de son'
 spex: os-feber
 order: 2
 permalink: false

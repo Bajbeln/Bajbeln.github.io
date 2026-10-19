@@ -1,11 +1,12 @@
 ---
-title: "[HIL 11] Slutkuplett ur Krischanstaspääxet Hilma af Klint HT22"
-singer: "Sjungs av Alla"
-melody: "Upp och Hoppa - Jävlaranamma"
+title: '[HIL 11] Slutkuplett ur Krischanstaspääxet Hilma af Klint HT22'
+singer: 'Sjungs av Alla'
+melody: 'Upp och Hoppa - Jävlaranamma'
 spex: hilma
 order: 15
 permalink: false
 ---
+
 **Alla:** Nu har spexet Hilma
 Kommit till sitt slut
 En ny konstform fick till slut

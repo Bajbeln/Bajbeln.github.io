@@ -1,7 +1,7 @@
 ---
-title: "[TJO 11] Skynda-sången"
-singer: "Sony och Akai sjunger"
-melody: "Badinerie ur Bachs orkestersvit, h-moll"
+title: '[TJO 11] Skynda-sången'
+singer: 'Sony och Akai sjunger'
+melody: 'Badinerie ur Bachs orkestersvit, h-moll'
 spex: tjogun-1992-93
 order: 13
 permalink: false

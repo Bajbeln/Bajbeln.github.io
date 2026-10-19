@@ -1,6 +1,6 @@
 ---
-title: "[SOK 1] Vi är Platons murvlar alla tre"
-singer: "Idéon, Frossos och Rolex sjunger"
+title: '[SOK 1] Vi är Platons murvlar alla tre'
+singer: 'Idéon, Frossos och Rolex sjunger'
 melody: "Auntie Maggie's Remedy"
 spex: sokrates
 order: 1

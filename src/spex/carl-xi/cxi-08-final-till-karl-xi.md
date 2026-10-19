@@ -1,11 +1,12 @@
 ---
-title: "[CXI 8] Final till Karl XI"
-singer: "Glada skandinaver sjunger"
-melody: "Be prepared, Tom Lehrer"
+title: '[CXI 8] Final till Karl XI'
+singer: 'Glada skandinaver sjunger'
+melody: 'Be prepared, Tom Lehrer'
 spex: carl-xi
 order: 11
 permalink: false
 ---
+
 **Kalle** Allt gick bra
 Jag är singel nu igen
 Hipp hurra!

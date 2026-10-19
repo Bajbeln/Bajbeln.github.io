@@ -1,11 +1,12 @@
 ---
-title: "29. Pronomenångest"
-singer: "Pedagogen \"Einstein\" och medhjälparen \"Kungen\" sjunger"
-melody: "Du är där..."
+title: '29. Pronomenångest'
+singer: 'Pedagogen "Einstein" och medhjälparen "Kungen" sjunger'
+melody: 'Du är där...'
 spex: allmanna
 order: 30
 permalink: false
 ---
+
 **Einstein**
 Jag är Jag och Du är Du
 Och Du är Du med mej

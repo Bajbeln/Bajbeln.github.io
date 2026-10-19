@@ -1,7 +1,7 @@
 ---
-title: "[SOK 8] Stor, jättedundrande finalsång"
-singer: "Ganska många sjunger"
-melody: "Da doo ron ron"
+title: '[SOK 8] Stor, jättedundrande finalsång'
+singer: 'Ganska många sjunger'
+melody: 'Da doo ron ron'
 spex: sokrates
 order: 17
 permalink: false

@@ -1,11 +1,12 @@
 ---
-title: "[KRÄ 6] Arnes korruptions-kuplett"
-singer: "f.d. butiksbiträdet Arne sjunger"
-melody: "Jag räknar dina fräknar, Povel Ramel"
+title: '[KRÄ 6] Arnes korruptions-kuplett'
+singer: 'f.d. butiksbiträdet Arne sjunger'
+melody: 'Jag räknar dina fräknar, Povel Ramel'
 spex: kraftor
 order: 12
 permalink: false
 ---
+
 Här i vårt folkhem uppstått har en massa regler,
 och de blir fler och fler och fler och fler och fler.
 Mitt apotek hade mobila kvalitéer,

@@ -1,7 +1,7 @@
 ---
-title: "[KAR 7] Yohanna håller stånd"
-singer: "Yohanna sjunger"
-melody: "Calle Cobra"
+title: '[KAR 7] Yohanna håller stånd'
+singer: 'Yohanna sjunger'
+melody: 'Calle Cobra'
 spex: karl-martell-1997
 order: 18
 permalink: false

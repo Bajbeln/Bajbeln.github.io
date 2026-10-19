@@ -1,11 +1,12 @@
 ---
-title: "[CvL 3] Potatiskonventsången"
-singer: "Potatiskonventet sjunger"
-melody: "Tyrolerhatt"
+title: '[CvL 3] Potatiskonventsången'
+singer: 'Potatiskonventet sjunger'
+melody: 'Tyrolerhatt'
 spex: linne-1996
 order: 6
 permalink: false
 ---
+
 Päran är en nyttig knöl
 Finns som allt från mos till mjöl
 Chips och frites och Pommes Duchesse

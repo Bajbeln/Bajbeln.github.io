@@ -1,7 +1,7 @@
 ---
-title: "[CAE 10] Vi blir talföra av slavgöra"
-singer: "Rut och Cassius sjunger"
-melody: "Se på mig"
+title: '[CAE 10] Vi blir talföra av slavgöra'
+singer: 'Rut och Cassius sjunger'
+melody: 'Se på mig'
 spex: caesar
 order: 19
 permalink: false

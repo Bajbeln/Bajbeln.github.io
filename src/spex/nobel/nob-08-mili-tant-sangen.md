@@ -1,7 +1,7 @@
 ---
-title: "[NOB 8] Mili-tant-sången"
-singer: "Tanterna sjunger"
-melody: "Candyman"
+title: '[NOB 8] Mili-tant-sången'
+singer: 'Tanterna sjunger'
+melody: 'Candyman'
 spex: nobel
 order: 11
 permalink: false

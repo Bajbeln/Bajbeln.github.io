@@ -1,7 +1,7 @@
 ---
-title: "[MTV 2] Moder Jord visar sig för människorna"
-singer: "Alla gudar sjunger"
-melody: "Stadsbudsvisan"
+title: '[MTV 2] Moder Jord visar sig för människorna'
+singer: 'Alla gudar sjunger'
+melody: 'Stadsbudsvisan'
 spex: mtv
 order: 5
 permalink: false

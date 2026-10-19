@@ -1,10 +1,11 @@
 ---
-title: "[STA 7] Opera"
-singer: "Svetlana, Mototav, Ribbenhopp, Stalin, Olga och Extasia sjunger"
+title: '[STA 7] Opera'
+singer: 'Svetlana, Mototav, Ribbenhopp, Stalin, Olga och Extasia sjunger'
 spex: stalin-1988-89
 order: 27
 permalink: false
 ---
+
 **Svetlana, Molotov:**
 _(Mel. åttondelar kromatiskt fallande från a)_
 (Och hur jag) Älskar dina ögon och jag

@@ -1,6 +1,6 @@
 ---
-title: "[NIS 3] Lille Nisses stora klocka-theme"
-singer: "Alla sjunger"
+title: '[NIS 3] Lille Nisses stora klocka-theme'
+singer: 'Alla sjunger'
 melody: "Tie a yellow ribbon 'round the old oak tree"
 spex: nisse
 order: 6

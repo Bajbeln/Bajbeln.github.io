@@ -1,7 +1,7 @@
 ---
-title: "[FRA 1] Franz Ferdinand är en hyvens kille"
-singer: "Franz Ferdinand, von Jagow, Fröken Slatko och Fru Törley sjunger"
-melody: "Budapest – Zarah Leander"
+title: '[FRA 1] Franz Ferdinand är en hyvens kille'
+singer: 'Franz Ferdinand, von Jagow, Fröken Slatko och Fru Törley sjunger'
+melody: 'Budapest – Zarah Leander'
 spex: franz-ferdinand
 order: 1
 permalink: false

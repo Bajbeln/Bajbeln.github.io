@@ -1,7 +1,7 @@
 ---
-title: "[TJO 13] Så lunka vi så småningom"
-singer: "Lownoise Tokugawa sjunger"
-melody: "Japansk nospelmusik"
+title: '[TJO 13] Så lunka vi så småningom'
+singer: 'Lownoise Tokugawa sjunger'
+melody: 'Japansk nospelmusik'
 spex: tjogun-2002-03
 order: 4
 permalink: false

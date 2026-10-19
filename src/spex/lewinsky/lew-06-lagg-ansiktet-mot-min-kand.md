@@ -1,11 +1,12 @@
 ---
-title: "[LEW 6] Lägg ansiktet mot min känd"
-singer: "Månika Lewinsky sjunger"
-melody: "Fame, Irene Cara"
+title: '[LEW 6] Lägg ansiktet mot min känd'
+singer: 'Månika Lewinsky sjunger'
+melody: 'Fame, Irene Cara'
 spex: lewinsky
 order: 8
 permalink: false
 ---
+
 Ända sen jag var
 Ett lite mindre barn
 Har jag vetat vad jag ska bli

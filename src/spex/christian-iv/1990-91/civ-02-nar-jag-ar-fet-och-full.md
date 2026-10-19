@@ -1,7 +1,7 @@
 ---
-title: "[CIV 2] När jag är fet och full"
-singer: "Kungen sjunger"
-melody: "La donna e mobile, ur Giuseppe Verdis Rigoletto"
+title: '[CIV 2] När jag är fet och full'
+singer: 'Kungen sjunger'
+melody: 'La donna e mobile, ur Giuseppe Verdis Rigoletto'
 spex: christian-iv-1990-91
 order: 9
 permalink: false

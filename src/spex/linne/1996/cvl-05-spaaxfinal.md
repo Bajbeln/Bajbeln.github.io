@@ -1,11 +1,12 @@
 ---
-title: "[CvL 5] Spääxfinal"
-singer: "Alla sjunger"
-melody: "Det blåser en storm, ur Dunderklumpen"
+title: '[CvL 5] Spääxfinal'
+singer: 'Alla sjunger'
+melody: 'Det blåser en storm, ur Dunderklumpen'
 spex: linne-1996
 order: 10
 permalink: false
 ---
+
 **Alla utom potatiskonventet:**
 Nu är allt lugnt här i stan
 Inga skäl till nåt gräl

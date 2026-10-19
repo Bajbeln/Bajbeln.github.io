@@ -1,11 +1,12 @@
 ---
-title: "[FLO 14] Slutkuplett - en totalfinal"
-singer: "Alla sjunger"
-melody: "Better Days – Benjamin Ingrosso"
+title: '[FLO 14] Slutkuplett - en totalfinal'
+singer: 'Alla sjunger'
+melody: 'Better Days – Benjamin Ingrosso'
 spex: florence-2025
 order: 10
 permalink: false
 ---
+
 **Alla:** Ja det tog sin tid att lyckas,
 men nu har det hänt igen
 Vår 97 var sist man såg,

@@ -1,11 +1,12 @@
 ---
-title: "[LEO 3] Aktfinal I - Vi ska vara listiga"
-singer: "Mona och Giovanni sjunger"
+title: '[LEO 3] Aktfinal I - Vi ska vara listiga'
+singer: 'Mona och Giovanni sjunger'
 melody: "I'm so Excited"
 spex: leonardo-1993
 order: 7
 permalink: false
 ---
+
 **Båda:** Med snill-rik list så ska vi övervinna
 Min/din mammas planer att få påvlig makt
 Leonardos nyckel ska en stund förvinna

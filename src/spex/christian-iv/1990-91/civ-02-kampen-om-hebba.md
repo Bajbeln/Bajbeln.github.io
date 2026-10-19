@@ -1,7 +1,7 @@
 ---
-title: "[CIV 2] Kampen om Hebba"
-singer: "Snappo, Christian och Otto sjunger"
-melody: "Ob-la-di, ob-la-da"
+title: '[CIV 2] Kampen om Hebba'
+singer: 'Snappo, Christian och Otto sjunger'
+melody: 'Ob-la-di, ob-la-da'
 spex: christian-iv-1990-91
 order: 5
 permalink: false

@@ -1,11 +1,12 @@
 ---
-title: "[FLO 10] Öppningskuplett - Vi är glada britter igen"
-singer: "Vincent, Barry, Anne & Harriet sjunger"
+title: '[FLO 10] Öppningskuplett - Vi är glada britter igen'
+singer: 'Vincent, Barry, Anne & Harriet sjunger'
 melody: "You can't hurry love – Phil Collins"
 spex: florence-2025
 order: 1
 permalink: false
 ---
+
 **Alla:** I storaa Britannien
 Här regnaaaar, och här blåser
 Men vad gör det?

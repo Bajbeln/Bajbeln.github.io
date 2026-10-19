@@ -1,7 +1,7 @@
 ---
-title: "[LIN 4] Personlighetsklyvning"
-singer: "Oln och Ericsson sjunger"
-melody: "Här är jag, Beppes julmorgon"
+title: '[LIN 4] Personlighetsklyvning'
+singer: 'Oln och Ericsson sjunger'
+melody: 'Här är jag, Beppes julmorgon'
 spex: lincoln-1985-86
 order: 12
 permalink: false

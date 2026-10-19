@@ -1,7 +1,7 @@
 ---
-title: "[KAR 2] Nu binder vi eunucken och sticker"
-singer: "Haremsdamerna sjunger"
-melody: "Vingar, M. Rickfors"
+title: '[KAR 2] Nu binder vi eunucken och sticker'
+singer: 'Haremsdamerna sjunger'
+melody: 'Vingar, M. Rickfors'
 spex: karl-martell-1997
 order: 3
 permalink: false

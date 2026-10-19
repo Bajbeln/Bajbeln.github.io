@@ -1,11 +1,12 @@
 ---
-title: "[FLO 14] KAOS-kuplett eller Avslöjad!"
-singer: "Nanny, Harriet & Fred sjunger"
-melody: "Walking on sunshine – Katrina and the Waves"
+title: '[FLO 14] KAOS-kuplett eller Avslöjad!'
+singer: 'Nanny, Harriet & Fred sjunger'
+melody: 'Walking on sunshine – Katrina and the Waves'
 spex: florence-2025
 order: 9
 permalink: false
 ---
+
 **N + H:** Ah!
 Aaaaaa, yeeeh
 

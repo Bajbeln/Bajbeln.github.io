@@ -1,11 +1,12 @@
 ---
-title: "[STA 9] Städsång"
-singer: "Städerskorna sjunger"
-melody: "Sledgehammer, Peter Gabriel"
+title: '[STA 9] Städsång'
+singer: 'Städerskorna sjunger'
+melody: 'Sledgehammer, Peter Gabriel'
 spex: stalin-1994-95
 order: 1
 permalink: false
 ---
+
 Städpahull på Röda torget
 Vi jobbar i vårt anlets svett
 Ja, vi städar Kremlpalatsets salar

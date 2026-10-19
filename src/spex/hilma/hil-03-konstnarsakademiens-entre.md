@@ -1,11 +1,12 @@
 ---
-title: "[HIL 2] Konstnärsakademiens Entré"
-singer: "Sjungs av Kritika Klander & Kör"
+title: '[HIL 2] Konstnärsakademiens Entré'
+singer: 'Sjungs av Kritika Klander & Kör'
 melody: "It's hard to be the bard - ur Something Rotten"
 spex: hilma
 order: 3
 permalink: false
 ---
+
 Här mitt ibland er
 Står Kritika Klander
 Och rider min höga häst

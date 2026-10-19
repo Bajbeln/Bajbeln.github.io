@@ -1,11 +1,12 @@
 ---
-title: "[LEO 19] Mot påvlig makt"
-singer: "Julius och Fru Medici sjunger"
-melody: "A Whole New World"
+title: '[LEO 19] Mot påvlig makt'
+singer: 'Julius och Fru Medici sjunger'
+melody: 'A Whole New World'
 spex: leonardo-2006-07
 order: 7
 permalink: false
 ---
+
 **Julius:** Min lyckligaste minut
 Det var när Gud och jag blev ett
 Men nu det tänks ifrån skrevet

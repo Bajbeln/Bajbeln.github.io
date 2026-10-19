@@ -1,11 +1,12 @@
 ---
-title: "[E14 1] Brödraduetten ur spääxet Erik XIV"
-singer: "Johan och Karl sjunger"
-melody: "Ännu en rysk folksång, Rysk trad."
+title: '[E14 1] Brödraduetten ur spääxet Erik XIV'
+singer: 'Johan och Karl sjunger'
+melody: 'Ännu en rysk folksång, Rysk trad.'
 spex: erik-xiv-1995-96
 order: 2
 permalink: false
 ---
+
 **Johan**
 Det är ditt fel, det är min rätt
 Att vara sur när allt går snett

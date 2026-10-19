@@ -1,7 +1,7 @@
 ---
-title: "[KRO 8] Jag-har-gjort-bort-mig-det-är-inte-bra-sången"
-singer: "Slughöken, Krook och Transpiranta sjunger inte"
-melody: "Terzetta ur Figaros bröllop av Mozart"
+title: '[KRO 8] Jag-har-gjort-bort-mig-det-är-inte-bra-sången'
+singer: 'Slughöken, Krook och Transpiranta sjunger inte'
+melody: 'Terzetta ur Figaros bröllop av Mozart'
 spex: krook
 order: 21
 permalink: false
@@ -76,7 +76,6 @@ Sån otur man kan ha
 Det var en väldig otur
 Jag har då ingen tur
 Jag har då ingen tur
-
 
 <br><br><br><br>
 Man varje dag nåt lär sej

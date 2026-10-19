@@ -1,6 +1,6 @@
 ---
-title: "[MOT 5] Etikettkuplett"
-singer: "Madame, Hebba, Siv, Göte och Groger sjunger"
+title: '[MOT 5] Etikettkuplett'
+singer: 'Madame, Hebba, Siv, Göte och Groger sjunger'
 melody: "Surfin' USA"
 spex: mot-strommen
 order: 6
@@ -54,7 +54,6 @@ Ja en nödvändig dos av
 
 Ooh...
 
-
 <br><br><br>
 Konversera elegant
 Slippa ses som dilettant
@@ -66,7 +65,6 @@ För här bankar dom i dig
 Vett och etikett
 
 Ooh...
-
 
 <br><br><br>
 Fisa, rapa gör man ej

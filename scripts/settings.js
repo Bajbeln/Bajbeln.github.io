@@ -13,71 +13,71 @@ function setSetting(key, bool) {
   try {
     localStorage.setItem(key, String(bool));
   } catch (e) {
-    console.warn("Could not save setting:", key, e);
+    console.warn('Could not save setting:', key, e);
   }
 }
 
 function openSettings() {
-  let optionsDiv = document.getElementById("settings-options");
+  const optionsDiv = document.getElementById('settings-options');
   if (!optionsDiv) return;
-  optionsDiv.classList.toggle("show");
-  optionsDiv.classList.toggle("hide");
+  optionsDiv.classList.toggle('show');
+  optionsDiv.classList.toggle('hide');
 }
 
 function toggleReadingMode() {
-  if (getSetting("readingMode")) {
-    setSetting("readingMode", false);
+  if (getSetting('readingMode')) {
+    setSetting('readingMode', false);
     removeReadingMode();
   } else {
-    setSetting("readingMode", true);
+    setSetting('readingMode', true);
     addReadingMode();
   }
 }
 
 function addReadingMode() {
-  document.documentElement.classList.add("reading-mode-active");
-  let content = Array.from(document.getElementsByClassName("content"));
-  content.forEach(el => el.classList.add("reading-mode"));
+  document.documentElement.classList.add('reading-mode-active');
+  const content = Array.from(document.getElementsByClassName('content'));
+  content.forEach((el) => el.classList.add('reading-mode'));
 
-  let buttons = Array.from(document.getElementsByClassName("collapsible"));
-  buttons.forEach(button => button.classList.add("reading-mode"));
+  const buttons = Array.from(document.getElementsByClassName('collapsible'));
+  buttons.forEach((button) => button.classList.add('reading-mode'));
 
-  let linkButtons = Array.from(document.getElementsByClassName("button"));
-  linkButtons.forEach(button => button.classList.add("reading-mode"));
+  const linkButtons = Array.from(document.getElementsByClassName('button'));
+  linkButtons.forEach((button) => button.classList.add('reading-mode'));
 }
 
 function removeReadingMode() {
-  document.documentElement.classList.remove("reading-mode-active");
-  let content = Array.from(document.getElementsByClassName("content"));
-  content.forEach(el => el.classList.remove("reading-mode"));
+  document.documentElement.classList.remove('reading-mode-active');
+  const content = Array.from(document.getElementsByClassName('content'));
+  content.forEach((el) => el.classList.remove('reading-mode'));
 
-  let buttons = Array.from(document.getElementsByClassName("collapsible"));
-  buttons.forEach(button => button.classList.remove("reading-mode"));
+  const buttons = Array.from(document.getElementsByClassName('collapsible'));
+  buttons.forEach((button) => button.classList.remove('reading-mode'));
 
-  let linkButtons = Array.from(document.getElementsByClassName("button"));
-  linkButtons.forEach(button => button.classList.remove("reading-mode"));
+  const linkButtons = Array.from(document.getElementsByClassName('button'));
+  linkButtons.forEach((button) => button.classList.remove('reading-mode'));
 }
 
 function toggleDarkMode() {
-  if (getSetting("darkMode")) {
-    setSetting("darkMode", false);
+  if (getSetting('darkMode')) {
+    setSetting('darkMode', false);
     removeDarkMode();
   } else {
-    setSetting("darkMode", true);
+    setSetting('darkMode', true);
     addDarkMode();
   }
 }
 
 function addDarkMode() {
-  document.documentElement.classList.add("dark-mode");
+  document.documentElement.classList.add('dark-mode');
   if (document.body) {
-    document.body.classList.add("dark-mode");
+    document.body.classList.add('dark-mode');
   }
 }
 
 function removeDarkMode() {
-  document.documentElement.classList.remove("dark-mode");
+  document.documentElement.classList.remove('dark-mode');
   if (document.body) {
-    document.body.classList.remove("dark-mode");
+    document.body.classList.remove('dark-mode');
   }
 }

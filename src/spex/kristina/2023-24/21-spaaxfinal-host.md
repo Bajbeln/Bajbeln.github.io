@@ -1,10 +1,11 @@
 ---
-title: "21. Spääxfinal (höst)"
+title: '21. Spääxfinal (höst)'
 melody: "I don't feel like dancing – Scissor Sisters"
 spex: kristina-2023-24
 order: 21
 permalink: false
 ---
+
 Kungen sköt sig själv in i sitt huvud med en kork
 Nostradamus sa upp sig för hon tappade all ork
 Wallenstein blev av en purjolök helt undanröjd

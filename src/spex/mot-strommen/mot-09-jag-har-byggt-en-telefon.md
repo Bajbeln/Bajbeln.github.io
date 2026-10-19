@@ -1,7 +1,7 @@
 ---
-title: "[MOT 9] Jag har byggt en telefon, är rätt fräck, och vill ha fröken i säng-kuplett (telefongozzen)"
-singer: "Bell sjunger"
-melody: "Jazzgossen"
+title: '[MOT 9] Jag har byggt en telefon, är rätt fräck, och vill ha fröken i säng-kuplett (telefongozzen)'
+singer: 'Bell sjunger'
+melody: 'Jazzgossen'
 spex: mot-strommen
 order: 11
 permalink: false

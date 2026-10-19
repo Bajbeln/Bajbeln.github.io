@@ -1,10 +1,11 @@
 ---
-title: "[SAN 1] Karnevalskösång"
-melody: "Allegro con brio ur Drottningholmsmusiken"
+title: '[SAN 1] Karnevalskösång'
+melody: 'Allegro con brio ur Drottningholmsmusiken'
 spex: sannladan
 order: 1
 permalink: false
 ---
+
 Kom låt oss gå på karneval
 Ja låt oss stå i kö, ja låt stå och vänta
 I regn eller solsken, i storm eller dimma

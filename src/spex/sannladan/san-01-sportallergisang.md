@@ -1,10 +1,11 @@
 ---
-title: "[SAN 1] Sportallergisång"
-melody: "Give Me Hope Joanna"
+title: '[SAN 1] Sportallergisång'
+melody: 'Give Me Hope Joanna'
 spex: sannladan
 order: 2
 permalink: false
 ---
+
 Jag får andnöd och näsan den blir röd
 När jag råkar ut för sportmani
 Av folk som joggar runt och äter sunt

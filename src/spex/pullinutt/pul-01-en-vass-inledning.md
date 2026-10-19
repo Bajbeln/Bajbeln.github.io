@@ -1,7 +1,7 @@
 ---
-title: "[PUL 1] En Vass inledning"
-singer: "Berättaren sjunger"
-melody: "Allmän rock"
+title: '[PUL 1] En Vass inledning'
+singer: 'Berättaren sjunger'
+melody: 'Allmän rock'
 spex: pullinutt
 order: 1
 permalink: false

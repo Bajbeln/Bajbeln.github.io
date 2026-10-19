@@ -1,7 +1,7 @@
 ---
-title: "[TJO 10] Fikus svanesång"
-singer: "Broder Fikus sjunger"
-melody: "Morgonstämning ur Peer Gynt av Grieg"
+title: '[TJO 10] Fikus svanesång'
+singer: 'Broder Fikus sjunger'
+melody: 'Morgonstämning ur Peer Gynt av Grieg'
 spex: tjogun-1992-93
 order: 11
 permalink: false

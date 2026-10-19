@@ -1,7 +1,7 @@
 ---
-title: "[TJO 1] Oh, Ieyasu!"
-singer: "Nissan sjunger"
-melody: "Oh, Carl-Gustaf!"
+title: '[TJO 1] Oh, Ieyasu!'
+singer: 'Nissan sjunger'
+melody: 'Oh, Carl-Gustaf!'
 spex: tjogun-1987
 order: 3
 permalink: false

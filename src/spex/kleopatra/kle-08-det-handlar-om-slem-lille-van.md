@@ -1,11 +1,12 @@
 ---
-title: "[KLE 8] Det handlar om slem, lille vän"
-singer: "Sussie sjunger"
-melody: "Sweet transvestite – The Rocky Horror Picture Show"
+title: '[KLE 8] Det handlar om slem, lille vän'
+singer: 'Sussie sjunger'
+melody: 'Sweet transvestite – The Rocky Horror Picture Show'
 spex: kleopatra
 order: 15
 permalink: false
 ---
+
 Ta ett djur - och
 Slit det itu - och
 Skåda framtiden!

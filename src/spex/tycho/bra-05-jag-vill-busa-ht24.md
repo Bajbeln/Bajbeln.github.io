@@ -1,11 +1,12 @@
 ---
-title: "[BRA 5] Jag vill busa (ht24)"
-singer: "Älgen sjunger"
-melody: "Olyckans sång"
+title: '[BRA 5] Jag vill busa (ht24)'
+singer: 'Älgen sjunger'
+melody: 'Olyckans sång'
 spex: tycho
 order: 6
 permalink: false
 ---
+
 En älg som kan sjunga? Kalla mig bisarr
 Men jag råkar va en expert på överraskningar
 Säg har du nånsin halkat, på ett bananskal?

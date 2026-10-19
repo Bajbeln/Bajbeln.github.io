@@ -1,10 +1,11 @@
 ---
-title: "44. Kukens håvjävel"
-melody: "Min gode vän Joel"
+title: '44. Kukens håvjävel'
+melody: 'Min gode vän Joel'
 spex: allmanna
 order: 44
 permalink: false
 ---
+
 <i>En bland spääxare mycket populär bastulek är
 att sjunga en variant av Våran Håv med några
 ord utbytta enligt följande regelverk:

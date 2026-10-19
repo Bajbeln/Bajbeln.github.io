@@ -1,7 +1,7 @@
 ---
-title: "[CIV 1] Hebbatrånen"
-singer: "Hebba sjunger"
-melody: "Som en majdag"
+title: '[CIV 1] Hebbatrånen'
+singer: 'Hebba sjunger'
+melody: 'Som en majdag'
 spex: christian-iv-1990-91
 order: 2
 permalink: false

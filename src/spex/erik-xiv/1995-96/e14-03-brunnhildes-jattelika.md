@@ -1,11 +1,12 @@
 ---
-title: "[E14 3] Brünnhildes jättelika"
-singer: "Brünnhilde sjunger"
-melody: "Sköna maj"
+title: '[E14 3] Brünnhildes jättelika'
+singer: 'Brünnhilde sjunger'
+melody: 'Sköna maj'
 spex: erik-xiv-1995-96
 order: 5
 permalink: false
 ---
+
 Guten tag, Brünnhilde ber om audiens
 Det är jag som vill det, jag ska nu med ens
 Börja sälja

@@ -1,11 +1,12 @@
 ---
-title: "[HIL 1] Öppningskuplett ur Krischanstaspääxet Hilma af Klint VT23 (En återuppsättning)"
-singer: "Sjungs av Alla"
-melody: "Man! I feel like a woman! - Shania Twain"
+title: '[HIL 1] Öppningskuplett ur Krischanstaspääxet Hilma af Klint VT23 (En återuppsättning)'
+singer: 'Sjungs av Alla'
+melody: 'Man! I feel like a woman! - Shania Twain'
 spex: hilma
 order: 2
 permalink: false
 ---
+
 Publiken!
 
 Hitta till er plats

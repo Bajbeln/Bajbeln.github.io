@@ -1,7 +1,7 @@
 ---
-title: "[DAR 5] Den gudomliga kom med in"
-singer: "Gud, Påven & Nunnan sjunger"
-melody: "Beethoven nr 9 (Till Glädjen)"
+title: '[DAR 5] Den gudomliga kom med in'
+singer: 'Gud, Påven & Nunnan sjunger'
+melody: 'Beethoven nr 9 (Till Glädjen)'
 spex: darwin-2005
 order: 11
 permalink: false

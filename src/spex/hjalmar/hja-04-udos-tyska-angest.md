@@ -1,7 +1,7 @@
 ---
-title: "[HJA 4] Udos tyska ångest"
-singer: "Udo Beier sjunger"
-melody: "Highlights ur finalen till Haydns trumpetkonsert"
+title: '[HJA 4] Udos tyska ångest'
+singer: 'Udo Beier sjunger'
+melody: 'Highlights ur finalen till Haydns trumpetkonsert'
 spex: hjalmar
 order: 7
 permalink: false

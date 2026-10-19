@@ -48,7 +48,9 @@ describe('slugify', () => {
 
   it('handles song titles from the project', () => {
     expect(slugify('[NOS 1] Efraims sång')).toBe('nos-1-efraims-sang');
-    expect(slugify('[CXI 6] Invokation till Pelle Andersson')).toBe('cxi-6-invokation-till-pelle-andersson');
+    expect(slugify('[CXI 6] Invokation till Pelle Andersson')).toBe(
+      'cxi-6-invokation-till-pelle-andersson'
+    );
   });
 });
 

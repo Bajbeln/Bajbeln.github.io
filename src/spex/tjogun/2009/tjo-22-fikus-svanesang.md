@@ -1,7 +1,7 @@
 ---
-title: "[TJO 22] Fikus svanesång"
-singer: "Broder fikus sjunger"
-melody: "Morgenstemming ur Peer Gynt"
+title: '[TJO 22] Fikus svanesång'
+singer: 'Broder fikus sjunger'
+melody: 'Morgenstemming ur Peer Gynt'
 spex: tjogun-2009
 order: 10
 permalink: false

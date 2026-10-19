@@ -1,7 +1,7 @@
 ---
-title: "[NOS 2] Gropar gräves bäst med grep"
-singer: "Emil, Albert och Efraim sjunger"
-melody: "My eyes are fully open ur Ruddigore, A.Sullivan"
+title: '[NOS 2] Gropar gräves bäst med grep'
+singer: 'Emil, Albert och Efraim sjunger'
+melody: 'My eyes are fully open ur Ruddigore, A.Sullivan'
 spex: nosaby
 order: 2
 permalink: false

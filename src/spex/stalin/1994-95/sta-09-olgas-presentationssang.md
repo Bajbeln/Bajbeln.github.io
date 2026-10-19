@@ -1,11 +1,12 @@
 ---
-title: "[STA 9] Olgas presentationssång"
-singer: "Olga och Svetlana sjunger"
-melody: "Bad guys ur Bugsy Malone"
+title: '[STA 9] Olgas presentationssång'
+singer: 'Olga och Svetlana sjunger'
+melody: 'Bad guys ur Bugsy Malone'
 spex: stalin-1994-95
 order: 2
 permalink: false
 ---
+
 **Olga:**
 Ni vet det finns såna kvinns
 Som är väna små våp

@@ -1,7 +1,7 @@
 ---
-title: "[KRO 2] Iglesias sång"
-singer: "Julio Iglesias, kapten, sjunger"
-melody: "Moonlight Lady"
+title: '[KRO 2] Iglesias sång'
+singer: 'Julio Iglesias, kapten, sjunger'
+melody: 'Moonlight Lady'
 spex: krook
 order: 6
 permalink: false

@@ -1,11 +1,12 @@
 ---
-title: "[FLO 9] Fett ös med fett arv"
-singer: "Systrarna sjunger"
-melody: "California sun"
+title: '[FLO 9] Fett ös med fett arv'
+singer: 'Systrarna sjunger'
+melody: 'California sun'
 spex: florence-1996-97
 order: 24
 permalink: false
 ---
+
 **Harriet:**
 En spelgalen man med banala begär
 Förstör mina chanser att bli miljonär

@@ -1,7 +1,7 @@
 ---
-title: "[HJA 3] Ibelsax presenterar sig"
-singer: "Gertrud Rasmussen Ibelsax sjunger"
-melody: "Stockholm blir Stockholm"
+title: '[HJA 3] Ibelsax presenterar sig'
+singer: 'Gertrud Rasmussen Ibelsax sjunger'
+melody: 'Stockholm blir Stockholm'
 spex: hjalmar
 order: 5
 permalink: false

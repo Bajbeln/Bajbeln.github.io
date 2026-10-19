@@ -1,11 +1,12 @@
 ---
-title: "[STA 14] Tyskarnas Sightseeing-sång"
-singer: "Ubermench, von Braun och Money sjunger"
-melody: "What would Brian Boinato do"
+title: '[STA 14] Tyskarnas Sightseeing-sång'
+singer: 'Ubermench, von Braun och Money sjunger'
+melody: 'What would Brian Boinato do'
 spex: stalin-2008-09
 order: 2
 permalink: false
 ---
+
 **Tyskarna:** Vad skulle vår Führer göra
 om han va här just nu?
 Jo, ha en plan att fullfölja

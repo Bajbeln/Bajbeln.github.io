@@ -1,7 +1,7 @@
 ---
-title: "[NOB 3] Budbärarumbäranden"
-singer: "Budbäraren sjunger"
-melody: "La danza, Rossini"
+title: '[NOB 3] Budbärarumbäranden'
+singer: 'Budbäraren sjunger'
+melody: 'La danza, Rossini'
 spex: nobel
 order: 4
 permalink: false

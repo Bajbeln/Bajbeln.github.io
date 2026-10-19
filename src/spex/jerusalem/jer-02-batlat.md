@@ -1,11 +1,12 @@
 ---
-title: "[JER 2] Båtlåt"
-singer: "Båtresenärerna sjunger"
-melody: "Stackarsramsor"
+title: '[JER 2] Båtlåt'
+singer: 'Båtresenärerna sjunger'
+melody: 'Stackarsramsor'
 spex: jerusalem
 order: 3
 permalink: false
 ---
+
 **Tempelriddarna:** Vi tager nu vår avfärd, med pompa och med ståt.
 Och varje gång vi seglar, så sjunger vi vår låt.
 I varje stad och varje hamn, söks nu Sibyllas nya man.

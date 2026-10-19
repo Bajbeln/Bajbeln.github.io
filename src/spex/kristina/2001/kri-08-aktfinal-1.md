@@ -1,11 +1,12 @@
 ---
-title: "[KRI 5] Aktfinal 1"
-singer: "Axel Oxenstierna och Olof Rubeck"
-melody: "Bättre och bättre dag för dag"
+title: '[KRI 5] Aktfinal 1'
+singer: 'Axel Oxenstierna och Olof Rubeck'
+melody: 'Bättre och bättre dag för dag'
 spex: kristina-2001
 order: 8
 permalink: false
 ---
+
 **Axel:** Hånad blev jag jämt, för kungen var mitt namn ett skämt
 Men den som skrattar sist han skrattar bäst
 Gustav hålig som ett såll ger mig en förmyndarroll

@@ -1,11 +1,12 @@
 ---
-title: "[SEV 1] Fyra Juggar och en påse kola"
-singer: "Knarkarinnan och juggarna sjunger"
-melody: "Fyra bugg och en Coca Cola"
+title: '[SEV 1] Fyra Juggar och en påse kola'
+singer: 'Knarkarinnan och juggarna sjunger'
+melody: 'Fyra bugg och en Coca Cola'
 spex: sketchofreni
 order: 2
 permalink: false
 ---
+
 **Knarkarinnan:**
 Du som tycker din dag är grå
 jorden snurrar sitt varv ändå

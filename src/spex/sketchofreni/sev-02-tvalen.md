@@ -1,11 +1,12 @@
 ---
-title: "[SEV 2] Tvålen"
-singer: "Jubeldoktor Palmquist och kören sjunger"
-melody: "Var är tvålen"
+title: '[SEV 2] Tvålen'
+singer: 'Jubeldoktor Palmquist och kören sjunger'
+melody: 'Var är tvålen'
 spex: sketchofreni
 order: 3
 permalink: false
 ---
+
 **Palmquist:**
 Jag har plötsligt råkat hamna
 i ett litet trångomål

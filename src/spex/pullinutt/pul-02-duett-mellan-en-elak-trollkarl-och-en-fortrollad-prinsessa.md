@@ -1,7 +1,7 @@
 ---
-title: "[PUL 2] Duett mellan en elak trollkarl och en förtrollad prinsessa"
-singer: "Leo och Pullinutt sjunger"
-melody: "Grevens och Susannas duett ur le nozze di Figaro av W A Mozart"
+title: '[PUL 2] Duett mellan en elak trollkarl och en förtrollad prinsessa'
+singer: 'Leo och Pullinutt sjunger'
+melody: 'Grevens och Susannas duett ur le nozze di Figaro av W A Mozart'
 spex: pullinutt
 order: 6
 permalink: false

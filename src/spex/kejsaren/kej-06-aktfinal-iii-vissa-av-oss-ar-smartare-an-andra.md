@@ -1,7 +1,7 @@
 ---
-title: "[KEJ 6] Aktfinal III - Vissa av oss är smartare än andra"
-singer: "Li Su, Kejsaren, Yin Seng och Mah Jong sjunger"
-melody: "The shoop shoop song"
+title: '[KEJ 6] Aktfinal III - Vissa av oss är smartare än andra'
+singer: 'Li Su, Kejsaren, Yin Seng och Mah Jong sjunger'
+melody: 'The shoop shoop song'
 spex: kejsaren-av-kina
 order: 13
 permalink: false

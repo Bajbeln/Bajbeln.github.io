@@ -1,7 +1,7 @@
 ---
-title: "[NOB 9] Kvinnokonventssången"
-singer: "Bertha och tanterna sjunger"
-melody: "9 to 5"
+title: '[NOB 9] Kvinnokonventssången'
+singer: 'Bertha och tanterna sjunger'
+melody: '9 to 5'
 spex: nobel
 order: 12
 permalink: false

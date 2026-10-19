@@ -1,10 +1,11 @@
 ---
-title: "5. Krigsduett"
-melody: "Uvertyren till William Tell"
+title: '5. Krigsduett'
+melody: 'Uvertyren till William Tell'
 spex: kristina-2023-24
 order: 5
 permalink: false
 ---
+
 **Gustav**
 Hör nu hit lilla skit får du se på fan
 Jag ska ge dig en omgång din huligan
@@ -91,7 +92,6 @@ Upp och ner och in och ut
 In och ut och in
 ::: col
 **Wallenstein**
-
 
 Du din
 Störda

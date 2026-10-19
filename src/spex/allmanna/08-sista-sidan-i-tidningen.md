@@ -1,10 +1,11 @@
 ---
-title: "8. Sista sidan i tidningen"
-melody: "Elektricitetsvisan"
+title: '8. Sista sidan i tidningen'
+melody: 'Elektricitetsvisan'
 spex: allmanna
 order: 8
 permalink: false
 ---
+
 Denna visa är väldigt lång
 Man kan faktiskt undra va de
 E som pågår i denna sång

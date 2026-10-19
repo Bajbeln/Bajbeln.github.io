@@ -1,10 +1,11 @@
 ---
-title: "[HCA 6] Kvittetten"
-melody: "Barcelona – Freddy Mercury, Montserrat Caballé"
+title: '[HCA 6] Kvittetten'
+melody: 'Barcelona – Freddy Mercury, Montserrat Caballé'
 spex: hc-andersen
 order: 8
 permalink: false
 ---
+
 **HC:** Jenny, är du där?
 **Näktergalen:** Kvi-vidi-vidi-vitt
 **HC:** Hur blev allting såhär?

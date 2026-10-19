@@ -1,7 +1,7 @@
 ---
-title: "[KEJ 1] Khom Mehs tragiska-men-ändå-en-smula-hoppfulla sång"
-singer: "Khom Meh sjunger"
-melody: "Czardas av Vittorio Monti"
+title: '[KEJ 1] Khom Mehs tragiska-men-ändå-en-smula-hoppfulla sång'
+singer: 'Khom Meh sjunger'
+melody: 'Czardas av Vittorio Monti'
 spex: kejsaren-av-kina
 order: 3
 permalink: false

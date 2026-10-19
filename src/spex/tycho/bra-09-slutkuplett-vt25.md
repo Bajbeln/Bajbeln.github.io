@@ -1,11 +1,12 @@
 ---
-title: "[BRA 9] Slutkuplett (vt25)"
-singer: "Alla sjunger"
-melody: "Tusen och en natt"
+title: '[BRA 9] Slutkuplett (vt25)'
+singer: 'Alla sjunger'
+melody: 'Tusen och en natt'
 spex: tycho
 order: 14
 permalink: false
 ---
+
 **Fredrik:** Det började bra, nästan intressant
 **Novastella:** Och dome-dagen klara vi galant
 **Kepler och Sophie:** Vi tävlade när allt stod på spel

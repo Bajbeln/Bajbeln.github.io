@@ -1,11 +1,12 @@
 ---
-title: "[KRÄ 5] Folkfylleslag"
-singer: "Fyllan sjunger, ensemblen skrålar med"
-melody: "Highway to Hell, AC/DC"
+title: '[KRÄ 5] Folkfylleslag'
+singer: 'Fyllan sjunger, ensemblen skrålar med'
+melody: 'Highway to Hell, AC/DC'
 spex: kraftor
 order: 8
 permalink: false
 ---
+
 **Fyllan:**
 Leva livet, trilla runt
 Undrar du om kvällen blir succé?

@@ -1,11 +1,12 @@
 ---
-title: "[STA 18] Stalinkvartett 2008"
-singer: "Stalin 3, 4, 5 och 6 sjunger"
+title: '[STA 18] Stalinkvartett 2008'
+singer: 'Stalin 3, 4, 5 och 6 sjunger'
 melody: "I've got rhythm"
 spex: stalin-2008-09
 order: 8
 permalink: false
 ---
+
 Jag är ju ganska unik
 och ingen är mig lik
 Nej ingen kan ta platsen som mig

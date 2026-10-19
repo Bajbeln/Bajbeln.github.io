@@ -1,10 +1,11 @@
 ---
-title: "[SIM 2] Vem kan skiljas från vännen sin utan att turistfälla tårar"
-melody: "Closed for renovation, Little shop of horror"
+title: '[SIM 2] Vem kan skiljas från vännen sin utan att turistfälla tårar'
+melody: 'Closed for renovation, Little shop of horror'
 spex: synden-molle
 order: 3
 permalink: false
 ---
+
 Nu kommer nåt att hända och allting ställs på ända.
 Vi känner oss så spänd4 och hoppet i oss tända.
 Om Mölle sätts på kartan av vår käre Gustav V

@@ -1,10 +1,11 @@
 ---
-title: "[EVA 2] En riktigt ond kuplett"
-melody: "Be Prepared"
+title: '[EVA 2] En riktigt ond kuplett'
+melody: 'Be Prepared'
 spex: eva-ekeblad-2019
 order: 4
 permalink: false
 ---
+
 Jag smider jämt listiga planer, komplotter är mitt eau-de-vie.
 Mina illdåd kan fylla romaner, rackartyg är min filosofi.
 Jag är ond, och det hör ni på sången.

@@ -1,11 +1,12 @@
 ---
-title: "[PUN 5] Alla kastar skit på Salambo"
-singer: "Sctlambo, Generalerna, Clodia och Tanit sjunger"
-melody: "1985, Patrik Isaksson"
+title: '[PUN 5] Alla kastar skit på Salambo'
+singer: 'Sctlambo, Generalerna, Clodia och Tanit sjunger'
+melody: '1985, Patrik Isaksson'
 spex: karthago
 order: 6
 permalink: false
 ---
+
 **Salambo:** För höga krav ställer jag jämt på mig själv,
 Jag är svag och snäll, var aldrig nån rebell
 Jag tar mig ary att hjälpa vem som mig än ber

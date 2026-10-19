@@ -1,11 +1,12 @@
 ---
-title: "[E14 18] Marys Majestätiska Melodi"
-singer: "Mary sjunger"
-melody: "Me, ur Beauty and the Beast"
+title: '[E14 18] Marys Majestätiska Melodi'
+singer: 'Mary sjunger'
+melody: 'Me, ur Beauty and the Beast'
 spex: erik-xiv-2021
 order: 3
 permalink: false
 ---
+
 Mary Stuart, Queen of Scots
 Nu så är jag här
 Resan hit var rysligt flott

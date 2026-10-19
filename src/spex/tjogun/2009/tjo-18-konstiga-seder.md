@@ -1,7 +1,7 @@
 ---
-title: "[TJO 18] Konstiga seder"
-singer: "Broder Fikus och Nissan sjunger"
-melody: "My favourite things"
+title: '[TJO 18] Konstiga seder'
+singer: 'Broder Fikus och Nissan sjunger'
+melody: 'My favourite things'
 spex: tjogun-2009
 order: 4
 permalink: false

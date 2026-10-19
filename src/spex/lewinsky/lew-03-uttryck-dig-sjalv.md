@@ -1,11 +1,12 @@
 ---
-title: "[LEW 3] Uttryck dig själv!"
-singer: "George Bush Sr, George Bush Jr, Sara Blek & Anne Yster sjunger"
-melody: "Apache (Jump on it), The Sugarhill Gøng"
+title: '[LEW 3] Uttryck dig själv!'
+singer: 'George Bush Sr, George Bush Jr, Sara Blek & Anne Yster sjunger'
+melody: 'Apache (Jump on it), The Sugarhill Gøng'
 spex: lewinsky
 order: 4
 permalink: false
 ---
+
 **Alla:** Hey! Wow! Yeah!
 Nu kör vi, kör vi, kör vi, kör vi
 

@@ -1,7 +1,7 @@
 ---
-title: "[MAR 6] Det är synd om Dodo"
-singer: "Dodo sjunger"
-melody: "Hold Me Now"
+title: '[MAR 6] Det är synd om Dodo'
+singer: 'Dodo sjunger'
+melody: 'Hold Me Now'
 spex: maria-eleonora
 order: 8
 permalink: false

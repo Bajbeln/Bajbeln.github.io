@@ -1,11 +1,12 @@
 ---
-title: "[SAN 3] Vi kan festa utan att ha roligt"
-singer: "Nietzche, Strindberg, Marx och Schopenhauer sjunger"
-melody: "Soldatkören ur Faust av Gounod"
+title: '[SAN 3] Vi kan festa utan att ha roligt'
+singer: 'Nietzche, Strindberg, Marx och Schopenhauer sjunger'
+melody: 'Soldatkören ur Faust av Gounod'
 spex: sannladan
 order: 7
 permalink: false
 ---
+
 **Alla:** Nu ska vi festa och ha det trist
 Supa till omdömet vi har mist
 Kräkas och däcka precis som sist

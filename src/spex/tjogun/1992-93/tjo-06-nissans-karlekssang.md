@@ -1,7 +1,7 @@
 ---
-title: "[TJO 6] Nissans kärlekssång"
-singer: "Nissan Tank sjunger"
-melody: "Bedårande sommarvals"
+title: '[TJO 6] Nissans kärlekssång'
+singer: 'Nissan Tank sjunger'
+melody: 'Bedårande sommarvals'
 spex: tjogun-1992-93
 order: 3
 permalink: false

@@ -1,11 +1,12 @@
 ---
-title: "[KRÄ 2] Herr Graaf"
-singer: "Lage Mann och Sten O. Graaf sjunger"
-melody: "Mein Herr, ur Cabaret"
+title: '[KRÄ 2] Herr Graaf'
+singer: 'Lage Mann och Sten O. Graaf sjunger'
+melody: 'Mein Herr, ur Cabaret'
 spex: kraftor
 order: 3
 permalink: false
 ---
+
 **Lage Mann:**
 Jag hoppas ni förstår mina motiv, herr Graaf
 Jag hoppas att ni inte är naiv, herr Graaf

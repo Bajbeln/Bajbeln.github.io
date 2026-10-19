@@ -1,11 +1,12 @@
 ---
-title: "[LAF 2] Lafayettes entré"
-singer: "Sjungs av Lafayette"
-melody: "The Worrying Kind - The Ark"
+title: '[LAF 2] Lafayettes entré'
+singer: 'Sjungs av Lafayette'
+melody: 'The Worrying Kind - The Ark'
 spex: lafayette
 order: 2
 permalink: false
 ---
+
 Hejsan allihopa
 Hej på dig, Europa
 Vi har inte setts på ett tag

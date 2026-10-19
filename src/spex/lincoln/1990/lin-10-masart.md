@@ -1,7 +1,7 @@
 ---
-title: "[LIN 10] Måsart"
-singer: "Lind, Abraham och kör sjunger"
-melody: "Duettino de Zerlina e Masetto, ur Don Giovanni av Mozart"
+title: '[LIN 10] Måsart'
+singer: 'Lind, Abraham och kör sjunger'
+melody: 'Duettino de Zerlina e Masetto, ur Don Giovanni av Mozart'
 spex: lincoln-1990
 order: 5
 permalink: false
@@ -50,23 +50,15 @@ Anan ananan ananan ananas
 ::: col
 **Personerna vid baren:**
 
-
-
-
 Han sa nej
 Han sa nej
 Till en stor megastjärna som dej
 Man fattar det ej
 Man fattar det ej
 
-
-
-
 Al
 Han vill ha sin näktergal
 Lala lalala lala lalala
-
-
 
 Dom vill inte ha någon ann
 Anan ananan ananan ananan

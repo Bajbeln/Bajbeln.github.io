@@ -1,7 +1,7 @@
 ---
-title: "[SKE 1] Livet som en spermie"
-singer: "Spermierna sjunger"
-melody: "I parfymaffären (Därför blommar mitt parfymeri)"
+title: '[SKE 1] Livet som en spermie'
+singer: 'Spermierna sjunger'
+melody: 'I parfymaffären (Därför blommar mitt parfymeri)'
 spex: sketchup
 order: 1
 permalink: false

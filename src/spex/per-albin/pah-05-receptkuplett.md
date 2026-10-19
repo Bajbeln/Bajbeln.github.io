@@ -1,7 +1,7 @@
 ---
-title: "[PAH 5] Receptkuplett"
-singer: "Lottorna och Sverigenazisterna sjunger"
-melody: "Last month of the year"
+title: '[PAH 5] Receptkuplett'
+singer: 'Lottorna och Sverigenazisterna sjunger'
+melody: 'Last month of the year'
 spex: per-albin
 order: 7
 permalink: false

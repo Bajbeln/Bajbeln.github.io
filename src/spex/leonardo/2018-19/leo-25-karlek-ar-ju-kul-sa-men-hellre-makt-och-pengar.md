@@ -1,10 +1,11 @@
 ---
-title: "[LEO 25] Kärlek är ju kul & så men hellre makt och pengar"
-melody: "Umbrella"
+title: '[LEO 25] Kärlek är ju kul & så men hellre makt och pengar'
+melody: 'Umbrella'
 spex: leonardo-2018-19
 order: 5
 permalink: false
 ---
+
 **Lilla Mamma:**
 Blir rent timid, av makt och hög likvid.
 Gemensam despoti, vår kärleksymfoni.

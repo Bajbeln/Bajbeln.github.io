@@ -1,11 +1,12 @@
 ---
-title: "[FLO 11] Aktfinal I - Detta ska hända i Akt II"
-singer: "Nanny & Florence sjunger"
+title: '[FLO 11] Aktfinal I - Detta ska hända i Akt II'
+singer: 'Nanny & Florence sjunger'
 melody: "Rytmen av ett regn – Milla's Mirakel!"
 spex: florence-2025
 order: 4
 permalink: false
 ---
+
 **Nanny:** Packa nu din väska Florence, du och jag ska fara
 Pengar, pass, parlör sen kan du resan klara
 **Florence:** Hyperkänslig, smått labil, har lätt tendens att svimma

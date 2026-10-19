@@ -1,11 +1,12 @@
 ---
-title: "[TÖB 7] Pimpa. Båten Låten"
-singer: "Karolinerna & Wrangel sjunger"
-melody: "Greased lightning, ur Grease"
+title: '[TÖB 7] Pimpa. Båten Låten'
+singer: 'Karolinerna & Wrangel sjunger'
+melody: 'Greased lightning, ur Grease'
 spex: taget-balt
 order: 11
 permalink: false
 ---
+
 **K2(tal):** Nä, men det här det är ingen vanlig eka. (Bam)
 **K1(tal):** Det är en stridseka! (Bam)
 **K3(tal):** Den har en åra! (bam)

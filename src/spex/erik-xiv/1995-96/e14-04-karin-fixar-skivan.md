@@ -1,11 +1,12 @@
 ---
-title: "[E14 4] Karin fixar skivan"
-singer: "Karin sjunger"
+title: '[E14 4] Karin fixar skivan'
+singer: 'Karin sjunger'
 melody: "I'm Beginning to See the Light"
 spex: erik-xiv-1995-96
 order: 7
 permalink: false
 ---
+
 Allmoge-Karin det är jag
 En fångvaktardotter käck och gla
 Jag knegar för kungen varje da

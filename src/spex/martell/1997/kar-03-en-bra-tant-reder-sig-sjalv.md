@@ -1,7 +1,7 @@
 ---
-title: "[KAR 3] En bra tant reder sig själv"
-singer: "Tant Pippin sjunger"
-melody: "I mitt bagage, Galenskaparna"
+title: '[KAR 3] En bra tant reder sig själv'
+singer: 'Tant Pippin sjunger'
+melody: 'I mitt bagage, Galenskaparna'
 spex: karl-martell-1997
 order: 5
 permalink: false

@@ -1,11 +1,12 @@
 ---
-title: "[BRA 7] Vi ska bunkra"
-singer: "Trädgårdsmästaren, Sofie, Inge sjunger, Fredrik bompar"
-melody: "Mr Blue sky"
+title: '[BRA 7] Vi ska bunkra'
+singer: 'Trädgårdsmästaren, Sofie, Inge sjunger, Fredrik bompar'
+melody: 'Mr Blue sky'
 spex: tycho
 order: 10
 permalink: false
 ---
+
 Utan någon mataffär,
 vatten och värme här
 Tappas tillit

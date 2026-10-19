@@ -1,7 +1,7 @@
 ---
-title: "[FIN 8] Slutsång"
-singer: "Många sjunger"
-melody: "I scream, you scream, we all scream for icecream"
+title: '[FIN 8] Slutsång'
+singer: 'Många sjunger'
+melody: 'I scream, you scream, we all scream for icecream'
 spex: finlands
 order: 10
 permalink: false

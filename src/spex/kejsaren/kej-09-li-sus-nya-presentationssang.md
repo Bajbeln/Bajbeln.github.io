@@ -1,7 +1,7 @@
 ---
-title: "[KEJ 9] Li Sus nya presentationssång"
-singer: "Li Su sjunger"
-melody: "Sing, sing, sing"
+title: '[KEJ 9] Li Sus nya presentationssång'
+singer: 'Li Su sjunger'
+melody: 'Sing, sing, sing'
 spex: kejsaren-av-kina
 order: 18
 permalink: false

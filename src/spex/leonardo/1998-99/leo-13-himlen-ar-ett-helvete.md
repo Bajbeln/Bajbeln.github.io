@@ -1,11 +1,12 @@
 ---
-title: "[LEO 13] Himlen är ett helvete"
-singer: "Döde Maffiavelli sjunger, bandet körar"
-melody: "Sam Hill"
+title: '[LEO 13] Himlen är ett helvete'
+singer: 'Döde Maffiavelli sjunger, bandet körar'
+melody: 'Sam Hill'
 spex: leonardo-1998-99
 order: 7
 permalink: false
 ---
+
 När jag ser bakåt på dom år jag levat
 Den första tiden tycks så härligt ljus
 Tre år i glädje, sedan kom min syster

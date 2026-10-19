@@ -1,11 +1,12 @@
 ---
-title: "[STA 6] Åh, vilken fest vi ska ha"
-singer: "Alla sjunger"
-melody: "Mardi Gras Day"
+title: '[STA 6] Åh, vilken fest vi ska ha'
+singer: 'Alla sjunger'
+melody: 'Mardi Gras Day'
 spex: stalin-1988-89
 order: 23
 permalink: false
 ---
+
 **Olga:** Vi ska sitta ner, vi ska roa oss
 **Alla:** ÅH, VILKEN FEST VI SKA HA!
 **Olga:** Vi ska skåla i vin och vi ska sjunga, förstås

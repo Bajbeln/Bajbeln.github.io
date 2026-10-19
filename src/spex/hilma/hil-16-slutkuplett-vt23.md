@@ -1,11 +1,12 @@
 ---
-title: "[HIL 11] Slutkuplett ur Krischanstaspääxet Hilma af Klint VT23"
-singer: "Sjungs av Alla"
-melody: "Lena Anthem - Lena Philipsson"
+title: '[HIL 11] Slutkuplett ur Krischanstaspääxet Hilma af Klint VT23'
+singer: 'Sjungs av Alla'
+melody: 'Lena Anthem - Lena Philipsson'
 spex: hilma
 order: 16
 permalink: false
 ---
+
 **Hilma:** Jag gömmer mina tavlor
 Tills efter jag har dött
 Ingen ska få veta nått

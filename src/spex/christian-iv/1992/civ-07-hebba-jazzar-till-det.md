@@ -1,6 +1,6 @@
 ---
-title: "[CIV 7] Hebba jazzar till det"
-singer: "Hebba sjunger"
+title: '[CIV 7] Hebba jazzar till det'
+singer: 'Hebba sjunger'
 melody: "Ain't Misbehavin'"
 spex: christian-iv-1992
 order: 1

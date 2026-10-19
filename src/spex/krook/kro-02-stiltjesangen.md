@@ -1,7 +1,7 @@
 ---
-title: "[KRO 2] Stiltjesången"
-singer: "Iglesias och Transpiranta sjunger"
-melody: "Summertime"
+title: '[KRO 2] Stiltjesången'
+singer: 'Iglesias och Transpiranta sjunger'
+melody: 'Summertime'
 spex: krook
 order: 4
 permalink: false

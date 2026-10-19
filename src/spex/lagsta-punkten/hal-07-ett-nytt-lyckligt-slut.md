@@ -1,11 +1,12 @@
 ---
-title: "[HÅL 7] Ett nytt lyckligt slut"
-singer: "Kirsten Munk, CIV, von Salm och Hebba sjunger"
-melody: "Jazzbacillen, Sizo Malmqaist"
+title: '[HÅL 7] Ett nytt lyckligt slut'
+singer: 'Kirsten Munk, CIV, von Salm och Hebba sjunger'
+melody: 'Jazzbacillen, Sizo Malmqaist'
 spex: lagsta-punkten
 order: 12
 permalink: false
 ---
+
 **Kör:** Titta en tjej som kommer ur ett paket!
 
 **Kirsten:** Se hit och fäst era blickar

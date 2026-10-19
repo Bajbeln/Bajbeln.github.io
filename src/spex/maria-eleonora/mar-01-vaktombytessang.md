@@ -1,7 +1,7 @@
 ---
-title: "[MAR 1] Vaktombytessång"
-singer: "Aron och Oden sjunger"
-melody: "Embassy Lament"
+title: '[MAR 1] Vaktombytessång'
+singer: 'Aron och Oden sjunger'
+melody: 'Embassy Lament'
 spex: maria-eleonora
 order: 1
 permalink: false

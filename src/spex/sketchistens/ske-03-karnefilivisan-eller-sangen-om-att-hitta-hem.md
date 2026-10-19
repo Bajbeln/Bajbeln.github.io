@@ -1,11 +1,12 @@
 ---
-title: "[SKE 3] Karnefilivisan eller sången om att hitta hem"
-singer: "F och karnefilerna sjunger"
+title: '[SKE 3] Karnefilivisan eller sången om att hitta hem'
+singer: 'F och karnefilerna sjunger'
 melody: "I'm so ronery och Kärleken är evig"
 spex: sketchistens
 order: 5
 permalink: false
 ---
+
 Jag är så ensam
 Så ensam
 En ensam och svag individ

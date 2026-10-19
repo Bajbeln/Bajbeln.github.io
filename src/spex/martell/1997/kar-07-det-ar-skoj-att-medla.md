@@ -1,6 +1,6 @@
 ---
-title: "[KAR 7] Det är skoj att medla"
-singer: "Stefan II sjunger"
+title: '[KAR 7] Det är skoj att medla'
+singer: 'Stefan II sjunger'
 melody: "What's the Use ur Candide"
 spex: karl-martell-1997
 order: 16

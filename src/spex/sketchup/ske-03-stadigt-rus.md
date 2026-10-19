@@ -1,7 +1,7 @@
 ---
-title: "[SKE 3] Stadigt rus"
-singer: "Full student sjunger"
-melody: "Stad i ljus"
+title: '[SKE 3] Stadigt rus'
+singer: 'Full student sjunger'
+melody: 'Stad i ljus'
 spex: sketchup
 order: 4
 permalink: false

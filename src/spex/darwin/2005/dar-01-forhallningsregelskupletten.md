@@ -1,7 +1,7 @@
 ---
-title: "[DAR 1] Förhållningsregelskupletten"
-singer: "Victoria sjunger"
-melody: "Rak Banana"
+title: '[DAR 1] Förhållningsregelskupletten'
+singer: 'Victoria sjunger'
+melody: 'Rak Banana'
 spex: darwin-2005
 order: 2
 permalink: false

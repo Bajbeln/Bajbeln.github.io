@@ -1,7 +1,7 @@
 ---
-title: "[LIN 4] Transplantation"
-singer: "Dobber sjunger"
-melody: "Femöringen, barnvisa"
+title: '[LIN 4] Transplantation'
+singer: 'Dobber sjunger'
+melody: 'Femöringen, barnvisa'
 spex: lincoln-1985-86
 order: 13
 permalink: false

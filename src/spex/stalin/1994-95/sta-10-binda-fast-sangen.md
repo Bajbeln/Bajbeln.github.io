@@ -1,11 +1,12 @@
 ---
-title: "[STA 10] Binda-fast-sången"
-singer: "Ribbenhopp, Städerskan och Fritz sjunger"
-melody: "Jesu bleibet meine Freude, J.S. Bach"
+title: '[STA 10] Binda-fast-sången'
+singer: 'Ribbenhopp, Städerskan och Fritz sjunger'
+melody: 'Jesu bleibet meine Freude, J.S. Bach'
 spex: stalin-1994-95
 order: 3
 permalink: false
 ---
+
 ::: cols
 **Ribbenhopp:**
 Ta och bind denna slampa med tagel och hampa
@@ -57,19 +58,12 @@ Den spionen skall ångra aktionen så bind henne hårt!
 ::: col
 **Fritz:**
 
-
-
 <br><br><br><br>
 Jag skall binda henne hårt
 Henne hårt
 
 Hon skall plågas
 Länge och svårt
-
-
-
-
-
 
 Men jag älskar
 Henne
@@ -79,7 +73,6 @@ Jag
 Kan
 Inte klara
 Trycket
-
 
 <br><br><br><br>
 Lita bara

@@ -1,7 +1,7 @@
 ---
-title: "[NOS 1] Efraims sång"
-singer: "Efraim sjunger"
-melody: "Karnevalsmelodi 1986"
+title: '[NOS 1] Efraims sång'
+singer: 'Efraim sjunger'
+melody: 'Karnevalsmelodi 1986'
 spex: nosaby
 order: 1
 permalink: false

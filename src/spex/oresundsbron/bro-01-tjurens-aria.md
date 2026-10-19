@@ -1,11 +1,12 @@
 ---
-title: "[BRO 1] Tjurens aria"
-singer: "TJUREN sjunger"
-melody: "Hebbas aria"
+title: '[BRO 1] Tjurens aria'
+singer: 'TJUREN sjunger'
+melody: 'Hebbas aria'
 spex: oresundsbron
 order: 3
 permalink: false
 ---
+
 Jag är en tjur som känner alla väder
 I vind och skur är jag trogen Sjä-älland
 En kraftig gestalt, av kött och klädd i läder

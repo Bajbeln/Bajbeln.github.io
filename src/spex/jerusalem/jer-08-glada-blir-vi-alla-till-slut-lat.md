@@ -1,11 +1,12 @@
 ---
-title: "[JER 8] Glada blir vi alla till Slut-låt"
-singer: "Alla sjunger"
-melody: "Always look on the bright side of life"
+title: '[JER 8] Glada blir vi alla till Slut-låt'
+singer: 'Alla sjunger'
+melody: 'Always look on the bright side of life'
 spex: jerusalem
 order: 13
 permalink: false
 ---
+
 **Connt¡:** Nu åker vi till Vä,
 jag vill hem till folk och fä.
 

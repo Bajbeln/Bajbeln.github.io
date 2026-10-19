@@ -1,7 +1,7 @@
 ---
-title: "[CAE 11] Maktfinal"
-singer: "Senaten sjunger"
-melody: "Joshua fit the battle of Jericho"
+title: '[CAE 11] Maktfinal'
+singer: 'Senaten sjunger'
+melody: 'Joshua fit the battle of Jericho'
 spex: caesar
 order: 22
 permalink: false

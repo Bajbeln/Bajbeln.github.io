@@ -1,7 +1,7 @@
 ---
-title: "[LIN 3] Gud, vad det är tråkigt i senaten"
-singer: "Oln sjunger"
-melody: "Assar höll ett tal, Torsson"
+title: '[LIN 3] Gud, vad det är tråkigt i senaten'
+singer: 'Oln sjunger'
+melody: 'Assar höll ett tal, Torsson'
 spex: lincoln-1985-86
 order: 9
 permalink: false

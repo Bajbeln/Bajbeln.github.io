@@ -1,7 +1,7 @@
 ---
-title: "[CIV 4] Snappos kampsång"
-singer: "Snappo sjunger"
-melody: "Sudda, sudda"
+title: '[CIV 4] Snappos kampsång'
+singer: 'Snappo sjunger'
+melody: 'Sudda, sudda'
 spex: christian-iv-1990-91
 order: 12
 permalink: false

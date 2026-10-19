@@ -1,11 +1,12 @@
 ---
-title: "[E14 4] Vi tapetserar om"
-singer: "Brünnhilde, Elisabeth och Erik sjunger"
+title: '[E14 4] Vi tapetserar om'
+singer: 'Brünnhilde, Elisabeth och Erik sjunger'
 melody: "Let's Call the Whole Thing Off"
 spex: erik-xiv-1995-96
 order: 6
 permalink: false
 ---
+
 **E**
 Här behövs det en renovering
 **B**

@@ -1,7 +1,7 @@
 ---
-title: "[KAR 14] Frankerad av franker"
-singer: "Theudoald sjunger"
-melody: "Follow Me (Uncle Kracker)"
+title: '[KAR 14] Frankerad av franker'
+singer: 'Theudoald sjunger'
+melody: 'Follow Me (Uncle Kracker)'
 spex: karl-martell-2011-12
 order: 8
 permalink: false

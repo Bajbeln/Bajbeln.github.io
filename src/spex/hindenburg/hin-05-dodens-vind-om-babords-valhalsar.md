@@ -1,10 +1,11 @@
 ---
-title: "[HIN 5] Dödens vind om babords Valhalsar"
-melody: "Gabriellas sång"
+title: '[HIN 5] Dödens vind om babords Valhalsar'
+melody: 'Gabriellas sång'
 spex: hindenburg
 order: 9
 permalink: false
 ---
+
 Är det nu som livet tar slut?
 Är det nu jag möter mitt öde?
 När min själ vackert lägger ut, Lovar upp, och sätter kurs?

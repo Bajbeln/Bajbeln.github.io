@@ -1,7 +1,7 @@
 ---
-title: "[O 1] Vi vä-rldsvana turister"
-singer: "Erik och Kerstin sjunger"
-melody: "Världens bästa Karlsson"
+title: '[O 1] Vi vä-rldsvana turister'
+singer: 'Erik och Kerstin sjunger'
+melody: 'Världens bästa Karlsson'
 spex: rosetta
 order: 2
 permalink: false

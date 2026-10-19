@@ -1,7 +1,7 @@
 ---
-title: "[TJO 9] Chinons förföringssång"
-singer: "Chinon sjunger"
-melody: "Fever"
+title: '[TJO 9] Chinons förföringssång'
+singer: 'Chinon sjunger'
+melody: 'Fever'
 spex: tjogun-1992-93
 order: 10
 permalink: false

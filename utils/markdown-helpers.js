@@ -10,15 +10,15 @@
 function slugify(str) {
   return str
     .toLowerCase()
-    .replace(/å/g, "a")
-    .replace(/ä/g, "a")
-    .replace(/ö/g, "o")
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^\w\s-]/g, "")
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "")
+    .replace(/å/g, 'a')
+    .replace(/ä/g, 'a')
+    .replace(/ö/g, 'o')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^\w\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '')
     .trim();
 }
 
@@ -26,11 +26,11 @@ function slugify(str) {
  * Escape HTML special characters to prevent XSS.
  */
 function escHtml(str) {
-  return (str || "")
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
+  return (str || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
 }
 
 /**
@@ -40,10 +40,9 @@ function escHtml(str) {
  */
 function flattenParagraphs(html) {
   // First remove existing trailing <br> tags to avoid duplication
-  const withoutTrailing = html.replace(/(<br>\s*)+$/, "");
+  const withoutTrailing = html.replace(/(<br>\s*)+$/, '');
   // Then replace <p> tags with content + <br><br>
-  return withoutTrailing
-    .replace(/<p>([\s\S]*?)<\/p>/g, (_, inner) => inner.trim() + "<br><br>\n");
+  return withoutTrailing.replace(/<p>([\s\S]*?)<\/p>/g, (_, inner) => inner.trim() + '<br><br>\n');
 }
 
 /**
@@ -55,7 +54,7 @@ function flattenParagraphs(html) {
 function preprocessBlankLines(src) {
   return src.replace(/\n{3,}/g, (match) => {
     const extraBlanks = match.length - 2;
-    return "\n\n" + Array(extraBlanks).fill("<br>").join("\n\n") + "\n\n";
+    return '\n\n' + Array(extraBlanks).fill('<br>').join('\n\n') + '\n\n';
   });
 }
 

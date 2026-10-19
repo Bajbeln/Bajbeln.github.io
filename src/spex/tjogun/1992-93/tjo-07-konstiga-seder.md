@@ -1,7 +1,7 @@
 ---
-title: "[TJO 7] Konstiga seder"
-singer: "Nissan och Broder Fikus sjunger"
-melody: "My Favourite Things ur Sound of Music"
+title: '[TJO 7] Konstiga seder'
+singer: 'Nissan och Broder Fikus sjunger'
+melody: 'My Favourite Things ur Sound of Music'
 spex: tjogun-1992-93
 order: 4
 permalink: false

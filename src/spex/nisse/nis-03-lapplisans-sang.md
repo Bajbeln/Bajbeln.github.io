@@ -1,7 +1,7 @@
 ---
-title: "[NIS 3] Lapplisans sång"
-singer: "Lapplisan sjunger"
-melody: "Christoffer Columbus"
+title: '[NIS 3] Lapplisans sång'
+singer: 'Lapplisan sjunger'
+melody: 'Christoffer Columbus'
 spex: nisse
 order: 4
 permalink: false

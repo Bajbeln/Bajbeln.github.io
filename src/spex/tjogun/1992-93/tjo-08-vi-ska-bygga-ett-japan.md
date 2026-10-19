@@ -1,7 +1,7 @@
 ---
-title: "[TJO 8] Vi ska bygga ett Japan"
-singer: "Sony och Akai sjunger"
-melody: "Gonna Build a Mountain"
+title: '[TJO 8] Vi ska bygga ett Japan'
+singer: 'Sony och Akai sjunger'
+melody: 'Gonna Build a Mountain'
 spex: tjogun-1992-93
 order: 8
 permalink: false

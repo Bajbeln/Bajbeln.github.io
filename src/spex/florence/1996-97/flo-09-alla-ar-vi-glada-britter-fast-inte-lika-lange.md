@@ -1,11 +1,12 @@
 ---
-title: "[FLO 9] Alla är vi glada britter - fast inte lika länge"
-singer: "Glada britter sjunger"
-melody: "Boy from New York City"
+title: '[FLO 9] Alla är vi glada britter - fast inte lika länge'
+singer: 'Glada britter sjunger'
+melody: 'Boy from New York City'
 spex: florence-1996-97
 order: 23
 permalink: false
 ---
+
 **Alla:** Sju och trettio folket sitter
 Spääxet bjuder er på hejdlöst fnitter
 Glada människor, glam och glitter
@@ -31,7 +32,6 @@ Tänk att va miljonär
 Tala väder och vind
 Det kan även en blind
 :::
-
 
 **Belle:** Ooh oo ee
 Nu får du låta bli

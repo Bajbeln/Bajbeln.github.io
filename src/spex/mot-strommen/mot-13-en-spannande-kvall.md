@@ -1,7 +1,7 @@
 ---
-title: "[MOT 13] En spännande kväll"
-singer: "Många bröllopsgäster sjunger"
-melody: "Consider yourself"
+title: '[MOT 13] En spännande kväll'
+singer: 'Många bröllopsgäster sjunger'
+melody: 'Consider yourself'
 spex: mot-strommen
 order: 15
 permalink: false

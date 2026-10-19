@@ -1,11 +1,12 @@
 ---
-title: "[FLO 6] Jag är så ensam och mörkrädd sången"
-singer: "Edmund sjunger"
-melody: "Karamellféns dans ur Nötknäpparen"
+title: '[FLO 6] Jag är så ensam och mörkrädd sången'
+singer: 'Edmund sjunger'
+melody: 'Karamellféns dans ur Nötknäpparen'
 spex: florence-1996-97
 order: 15
 permalink: false
 ---
+
 Var finns alla?
 Här vill faktiskt jag inte va
 Vem ska ta hand om mig idag?

@@ -1,10 +1,11 @@
 ---
-title: "[SIM 3] Bulleri, bulleri syndabock!"
-melody: "Svensson, Dåliga människor"
+title: '[SIM 3] Bulleri, bulleri syndabock!'
+melody: 'Svensson, Dåliga människor'
 spex: synden-molle
 order: 4
 permalink: false
 ---
+
 Sedan barnsben har jag sett på
 Livet alldeles för klart
 Ja, det gäller att begränsa

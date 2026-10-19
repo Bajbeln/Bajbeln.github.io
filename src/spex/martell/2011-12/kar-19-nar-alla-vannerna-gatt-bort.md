@@ -1,7 +1,7 @@
 ---
-title: "[KAR 19] När alla vännerna gått bort"
-singer: "Alla sjunger"
-melody: "Les Champs Elysées"
+title: '[KAR 19] När alla vännerna gått bort'
+singer: 'Alla sjunger'
+melody: 'Les Champs Elysées'
 spex: karl-martell-2011-12
 order: 15
 permalink: false

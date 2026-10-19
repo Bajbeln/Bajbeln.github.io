@@ -1,7 +1,7 @@
 ---
-title: "[NOB 7] Houdini bryter ut i sång"
-singer: "Houdini sjunger"
-melody: "Bubble bubble"
+title: '[NOB 7] Houdini bryter ut i sång'
+singer: 'Houdini sjunger'
+melody: 'Bubble bubble'
 spex: nobel
 order: 10
 permalink: false

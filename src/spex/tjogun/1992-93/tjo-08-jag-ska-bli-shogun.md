@@ -1,6 +1,6 @@
 ---
-title: "[TJO 8] Jag ska bli shogun"
-singer: "Sony sjunger"
+title: '[TJO 8] Jag ska bli shogun'
+singer: 'Sony sjunger'
 melody: "Brian's Song, Monty Python"
 spex: tjogun-1992-93
 order: 7

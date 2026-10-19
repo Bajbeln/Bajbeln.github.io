@@ -1,10 +1,11 @@
 ---
-title: "[HIN 2] Anguished Dog"
-melody: "Mannish Boy"
+title: '[HIN 2] Anguished Dog'
+melody: 'Mannish Boy'
 spex: hindenburg
 order: 4
 permalink: false
 ---
+
 Ooh, auff
 Ooh, auff
 När jag var en ung valp,

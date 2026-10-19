@@ -1,11 +1,12 @@
 ---
-title: "[LEO 1] Inledningssång"
-singer: "Maffavelli och Lilla mamma sjunger"
-melody: "Sweet Georgia Brown"
+title: '[LEO 1] Inledningssång'
+singer: 'Maffavelli och Lilla mamma sjunger'
+melody: 'Sweet Georgia Brown'
 spex: leonardo-1993
 order: 2
 permalink: false
 ---
+
 Välkomna till bankpalatset, stig in, kliv på
 Huka er, nu tar vi sats, ett spääx ska ni få
 En helkvällstripp till denna plats, ett nöjets chateau

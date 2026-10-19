@@ -1,7 +1,7 @@
 ---
-title: "[TJO 11] Spääxfiiinaaal"
-singer: "Ieyasu, Nissan och Minolta sjunger"
-melody: "Finalen ur A Chorus Line"
+title: '[TJO 11] Spääxfiiinaaal'
+singer: 'Ieyasu, Nissan och Minolta sjunger'
+melody: 'Finalen ur A Chorus Line'
 spex: tjogun-1992-93
 order: 15
 permalink: false

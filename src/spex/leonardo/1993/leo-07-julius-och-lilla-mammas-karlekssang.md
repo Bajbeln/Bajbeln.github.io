@@ -1,11 +1,12 @@
 ---
-title: "[LEO 7] Julius och Lilla mammas kärlekssång"
-singer: "Julius och Lilla mamma sjunger"
+title: '[LEO 7] Julius och Lilla mammas kärlekssång'
+singer: 'Julius och Lilla mamma sjunger'
 melody: "Diamonds are a Girl's Best Friend"
 spex: leonardo-1993
 order: 15
 permalink: false
 ---
+
 **LM:** Jag inser jag saknat en man när jag vaknat
 trots att jag haft det garska fett
 Om lätt jag får sprätt

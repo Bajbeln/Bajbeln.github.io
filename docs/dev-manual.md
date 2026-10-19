@@ -6,13 +6,13 @@ Krischanstaspääxets Sajber-Bajbel är en statisk webbsida för spääxets sån
 
 ## Teknisk stack
 
-| Komponent | Detalj |
-|---|---|
-| Statisk sidoskapare | [Eleventy](https://www.11ty.dev/) 3.x |
-| Mallar | Nunjucks (`.njk`) |
-| Markdown-renderare | markdown-it 14 (`html: true`, `breaks: true`) |
-| Host | GitHub Pages, distribueras från `_site/` |
-| Build trigger | Automatisk (GitHub Actions) |
+| Komponent           | Detalj                                        |
+| ------------------- | --------------------------------------------- |
+| Statisk sidoskapare | [Eleventy](https://www.11ty.dev/) 3.x         |
+| Mallar              | Nunjucks (`.njk`)                             |
+| Markdown-renderare  | markdown-it 14 (`html: true`, `breaks: true`) |
+| Host                | GitHub Pages, distribueras från `_site/`      |
+| Build trigger       | Automatisk (GitHub Actions)                   |
 
 ---
 
@@ -30,7 +30,7 @@ Krischanstaspääxets Sajber-Bajbel är en statisk webbsida för spääxets sån
 │   │   │   └── ...
 │   │   ├── <spex-namn>/       # Spex med flera uppsättningar
 │   │   │   ├── index.md        # Navsida (uppsattning-lista, inget spex-fält)
-│   │   │   ├── <ar>/ 
+│   │   │   ├── <ar>/
 │   │   │   │   ├── index.md    # Produktionssida (spex: namn-år, permalink: false)
 │   │   │   │   ├── 01-lat.md
 │   │   │   │   └── ...
@@ -149,12 +149,12 @@ Namnkonventionen för filer beror på låttitelns format:
 
 ```yaml
 ---
-title: "[XXX N] Låttitel"       # eller "N. Låttitel"
-singer: "Sjungs av Rollfigur"    # valfritt
-melody: "Melodin – Artist"       # valfritt
-spex: spex-namn                  # måste matcha spex-identifieraren i index.md
-order: 1                        # bestämmer sorteringsordning på sidan
-permalink: false                # alltid false för enskilda låt-filer
+title: '[XXX N] Låttitel' # eller "N. Låttitel"
+singer: 'Sjungs av Rollfigur' # valfritt
+melody: 'Melodin – Artist' # valfritt
+spex: spex-namn # måste matcha spex-identifieraren i index.md
+order: 1 # bestämmer sorteringsordning på sidan
+permalink: false # alltid false för enskilda låt-filer
 ---
 Låttext här
 ```
@@ -218,7 +218,7 @@ För dialog i löpande text, använd ett tankstreck `—` i början av raden. An
 
 ### Scenanvisningar
 
-Använd markdown *kursiv*:
+Använd markdown _kursiv_:
 
 ```
 _(Alla kliver in på scenen)_
@@ -228,7 +228,7 @@ _(Alla kliver in på scenen)_
 
 För låtar där karaktärer sjunger samtidigt, använd syntaxen `::: cols` för fenced-div:
 
-````
+```
 ::: cols
 **Karaktär A:**
 Sjunger sin vers
@@ -240,7 +240,7 @@ Andra strofen
 
 Sjunger sin vers (indrag med två rader)
 :::
-````
+```
 
 - `::: cols` öppnar raden, `::: col` separerar kolumner, `:::` stänger raden.
 - Full markdown fungerar inne i varje kolumn — använd `**fet**` för talarutdrag, tomma rader för versbrytningar, enstaka radbrytningar för radbrytningar inom en vers.
@@ -281,14 +281,14 @@ När sidan laddas med en hash i URL:en öppnar layouten automatiskt och rullar t
 
 Varje spexsidas bakgrunds- och accentfärger ställs in i `{namn}.json` (se [steg 2b ovan](#2b-skapa-namnjson-färger)). Layouten injectar dessa som ett inbäddat `<style>`-block.
 
-| Fält | Sätter | Standard i mörkt läge |
-|---|---|---|
-| `color` | `body { background-color }` | `#1a1a2e` (via `style.css`) |
-| `accentColor` | `.collapsible, .content { background-color }` | `#2d3a5e` |
-| `accentBorderColor` | `.collapsible, .content { border-color }` | `#2d3a5e` |
-| `darkColor` | `body.dark-mode { background-color }` | — |
-| `darkAccentColor` | `body.dark-mode .collapsible, .content { background-color }` | — |
-| `darkAccentBorderColor` | `body.dark-mode .collapsible, .content { border-color }` | — |
+| Fält                    | Sätter                                                       | Standard i mörkt läge       |
+| ----------------------- | ------------------------------------------------------------ | --------------------------- |
+| `color`                 | `body { background-color }`                                  | `#1a1a2e` (via `style.css`) |
+| `accentColor`           | `.collapsible, .content { background-color }`                | `#2d3a5e`                   |
+| `accentBorderColor`     | `.collapsible, .content { border-color }`                    | `#2d3a5e`                   |
+| `darkColor`             | `body.dark-mode { background-color }`                        | —                           |
+| `darkAccentColor`       | `body.dark-mode .collapsible, .content { background-color }` | —                           |
+| `darkAccentBorderColor` | `body.dark-mode .collapsible, .content { border-color }`     | —                           |
 
 `dark*`-fälten är valfria. När ett spex har `accentColor` inställt injectar layouten automatiskt mörkt läges-overskridningar med standardvärdena ovan — om inte motsvarande `dark*`-fält är angivna.
 
@@ -336,9 +336,9 @@ title: Kristina (KRI)
 permalink: /kristina/
 uppsattning:
   - id: kristina-2023-24
-    label: "Kristina 2023/24 (KRI)"
+    label: 'Kristina 2023/24 (KRI)'
   - id: kristina-2001
-    label: "Kristina 2001 (KRI)"
+    label: 'Kristina 2001 (KRI)'
 ---
 ```
 
@@ -384,15 +384,15 @@ src/spex/kristina/
 ---
 layout: spex
 title: Favoriter
-color: "rgb(252, 246, 218)"
-accentColor: "rgb(250, 203, 18)"
-accentBorderColor: "rgb(226, 185, 22)"
+color: 'rgb(252, 246, 218)'
+accentColor: 'rgb(250, 203, 18)'
+accentBorderColor: 'rgb(226, 185, 22)'
 permalink: /favoriter/
 songs:
   - spex: oresundsbron
-    title: "1. Öppningskuplett"
+    title: '1. Öppningskuplett'
   - spex: hilma
-    title: "[HIL 3] Börjes Bödel-Bop"
+    title: '[HIL 3] Börjes Bödel-Bop'
 ---
 ```
 
@@ -423,11 +423,11 @@ Varje låts `page`-värde kommer från `spexPageUrl` i spexets `{namn}.json`. Fi
 
 ### Filter
 
-| Filter | Syfte |
-|---|---|
-| `songsForSpex(collection, spexName)` | Returnerar alla låtar för ett givet `spex`-ID, sorterade efter `order` |
+| Filter                                | Syfte                                                                   |
+| ------------------------------------- | ----------------------------------------------------------------------- |
+| `songsForSpex(collection, spexName)`  | Returnerar alla låtar för ett givet `spex`-ID, sorterade efter `order`  |
 | `songsFromList(collection, songList)` | Returnerar specifika låtar via `{spex, title}`-par, bevarar listordning |
-| `renderSong(song)` | Renderar en låt från samlingen som en HTML-låtblock-sträng |
+| `renderSong(song)`                    | Renderar en låt från samlingen som en HTML-låtblock-sträng              |
 
 ### Layoutflöde (`src/_layouts/spex.njk`)
 
@@ -445,12 +445,12 @@ Varje låt renderas som:
     <button class="song-link-btn" onclick="copySongLink('<slug>')">…</button>
   </div>
   <div class="content">
-    <br>
-    <i>(Singer)</i><br>
-    <i>Mel. Melody</i><br>
-    <br>
+    <br />
+    <i>(Singer)</i><br />
+    <i>Mel. Melody</i><br />
+    <br />
     <!-- renderad markdown-body -->
-    <br><br>
+    <br /><br />
   </div>
 </div>
 ```
@@ -483,6 +483,7 @@ npm run generate:og-images
 ```
 
 Detta kör `scripts/generate-og-images.sh` som:
+
 1. Skapar en standard OG-bild (`og-image.png`) med bakgrundsfärgen `rgb(210,231,250)`
 2. Skapar spex-specifika OG-bilder (`og-{spex-namn}.png`) med bakgrundsfärgen från varje spex `{namn}.json`-fil (fältet `color`)
 3. Kopierar `og-image.png` till `assets/images/og-image.png` (huvud-OG-bilden)
@@ -499,12 +500,12 @@ npm run generate:og-images -- --force
 
 Installationsinstruktioner:
 
-| System | Kommando |
-|---|---|
-| **macOS** (Homebrew) | `brew install imagemagick jq` |
+| System                    | Kommando                                                     |
+| ------------------------- | ------------------------------------------------------------ |
+| **macOS** (Homebrew)      | `brew install imagemagick jq`                                |
 | **Linux** (Debian/Ubuntu) | `sudo apt-get update && sudo apt-get install imagemagick jq` |
-| **Linux** (Fedora/RHEL) | `sudo dnf install ImageMagick jq` |
-| **Windows** (WSL) | `sudo apt-get update && sudo apt-get install imagemagick jq` |
+| **Linux** (Fedora/RHEL)   | `sudo dnf install ImageMagick jq`                            |
+| **Windows** (WSL)         | `sudo apt-get update && sudo apt-get install imagemagick jq` |
 
 **Notering:** `xargs` och `stat` ingår normalt i alla Unix-lika system (macOS, Linux, WSL) och behöver inte installeras separat.
 

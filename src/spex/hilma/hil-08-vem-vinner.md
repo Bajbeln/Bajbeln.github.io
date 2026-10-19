@@ -1,11 +1,12 @@
 ---
-title: "[HIL 6] Vem vinner? (Kissa, gå nu och kissa!)"
-singer: "Sjungs av Vandalina, Munch, Börje, Hilma, Selma & Strindberg"
-melody: "I Want It All - ur High School Musical 3"
+title: '[HIL 6] Vem vinner? (Kissa, gå nu och kissa!)'
+singer: 'Sjungs av Vandalina, Munch, Börje, Hilma, Selma & Strindberg'
+melody: 'I Want It All - ur High School Musical 3'
 spex: hilma
 order: 8
 permalink: false
 ---
+
 **Vandalina:** Nu sätter vi vår plan i rullning
 Hilma ska bort!
 Är du med mig?

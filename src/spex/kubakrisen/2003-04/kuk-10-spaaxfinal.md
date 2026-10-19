@@ -1,7 +1,7 @@
 ---
-title: "[KUK 10] Spääxfinal"
-singer: "Många sjunger"
-melody: "You can call me Al"
+title: '[KUK 10] Spääxfinal'
+singer: 'Många sjunger'
+melody: 'You can call me Al'
 spex: kubakrisen-2003-04
 order: 17
 permalink: false

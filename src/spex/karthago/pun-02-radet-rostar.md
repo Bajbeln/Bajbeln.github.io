@@ -1,11 +1,12 @@
 ---
-title: "[PUN 2] Rådet röstar"
-singer: "Diodorius, Generalerna och Salambo sjunger"
+title: '[PUN 2] Rådet röstar'
+singer: 'Diodorius, Generalerna och Salambo sjunger'
 melody: 'Temat till "Nalle har ett stort blått hus"'
 spex: karthago
 order: 2
 permalink: false
 ---
+
 I krig och politken
 blir man läft besviken
 det finns tröst:

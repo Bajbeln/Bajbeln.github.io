@@ -1,11 +1,12 @@
 ---
-title: "[STA 23] Pakt, makt och politiskt förakt"
-singer: "Ribbentrop, Molotov & Quisling sjunger"
-melody: "I got a dream, ur Trassel"
+title: '[STA 23] Pakt, makt och politiskt förakt'
+singer: 'Ribbentrop, Molotov & Quisling sjunger'
+melody: 'I got a dream, ur Trassel'
 spex: stalin-2015-16
 order: 1
 permalink: false
 ---
+
 **Ribbentrop:** Jag är Ribbentrop, den stora
 Är här för att förstora
 Tysklands yta bortåt där mot Polen

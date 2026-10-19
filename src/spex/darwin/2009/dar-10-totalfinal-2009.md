@@ -1,6 +1,6 @@
 ---
-title: "[DAR 10] Totalfinal 2009"
-singer: "Bonnie R, Darwin, Emma, Victoria och alla sjunger"
+title: '[DAR 10] Totalfinal 2009'
+singer: 'Bonnie R, Darwin, Emma, Victoria och alla sjunger'
 melody: "Let's twist again"
 spex: darwin-2009
 order: 4

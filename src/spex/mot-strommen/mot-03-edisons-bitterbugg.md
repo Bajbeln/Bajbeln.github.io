@@ -1,7 +1,7 @@
 ---
-title: "[MOT 3] Edisons bitterbugg"
-singer: "Edison sjunger"
-melody: "Jag vet en dejlig rosa"
+title: '[MOT 3] Edisons bitterbugg'
+singer: 'Edison sjunger'
+melody: 'Jag vet en dejlig rosa'
 spex: mot-strommen
 order: 4
 permalink: false

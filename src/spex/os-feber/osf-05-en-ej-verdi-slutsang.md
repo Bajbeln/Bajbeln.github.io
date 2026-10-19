@@ -1,7 +1,7 @@
 ---
-title: "[OSF 5] En ej Verdi slutsång"
-singer: "Många försöker, några sjunger"
-melody: "Waterloo"
+title: '[OSF 5] En ej Verdi slutsång'
+singer: 'Många försöker, några sjunger'
+melody: 'Waterloo'
 spex: os-feber
 order: 8
 permalink: false

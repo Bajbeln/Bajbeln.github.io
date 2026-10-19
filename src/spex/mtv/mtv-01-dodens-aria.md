@@ -1,7 +1,7 @@
 ---
-title: "[MTV 1] Dödens aria"
-singer: "Döden sjunger"
-melody: "Il balen del suo sorriso, ur Trubaduren av Verdi"
+title: '[MTV 1] Dödens aria'
+singer: 'Döden sjunger'
+melody: 'Il balen del suo sorriso, ur Trubaduren av Verdi'
 spex: mtv
 order: 3
 permalink: false

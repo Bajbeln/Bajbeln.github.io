@@ -1,11 +1,12 @@
 ---
-title: "[E14 1] Måns har en grogg"
-singer: "Måns (och Karin) sjunger"
+title: '[E14 1] Måns har en grogg'
+singer: 'Måns (och Karin) sjunger'
 melody: "Rubberneckin', Bunny Warren"
 spex: erik-xiv-1995-96
 order: 1
 permalink: false
 ---
+
 Här! _(Va!)_ Greppa groggen grabbar
 Min senaste kompott _(Snälla pappa!)_
 Drick upp och låt bli att slabba

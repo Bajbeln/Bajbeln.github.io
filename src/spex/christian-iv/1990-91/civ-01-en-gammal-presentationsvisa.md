@@ -1,7 +1,7 @@
 ---
-title: "[CIV 1] En gammal presentationsvisa"
-singer: "Kungen, Salm och Lego sjunger"
-melody: "Calmarevisan"
+title: '[CIV 1] En gammal presentationsvisa'
+singer: 'Kungen, Salm och Lego sjunger'
+melody: 'Calmarevisan'
 spex: christian-iv-1990-91
 order: 4
 permalink: false

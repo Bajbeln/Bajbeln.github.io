@@ -1,6 +1,6 @@
 ---
-title: "[KUK 18] Risk för nederbörd enligt vedergällningsrapporten"
-singer: "Miss Johnson, Jackie Kennedy, KCG och CIA sjunger"
+title: '[KUK 18] Risk för nederbörd enligt vedergällningsrapporten'
+singer: 'Miss Johnson, Jackie Kennedy, KCG och CIA sjunger'
 melody: "I'll make a man out of you, ur Mulan"
 spex: kubakrisen-2013
 order: 11

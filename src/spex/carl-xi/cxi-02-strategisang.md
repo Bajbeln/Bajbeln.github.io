@@ -1,11 +1,12 @@
 ---
-title: "[CXI 2] Strategisång"
-singer: "Fru Coyer, Gyllenstierna och Carl XI sjunger"
+title: '[CXI 2] Strategisång'
+singer: 'Fru Coyer, Gyllenstierna och Carl XI sjunger'
 melody: 'I am so proud, ur "The Mikado" av Gilbert & Sullivan'
 spex: carl-xi
 order: 2
 permalink: false
 ---
+
 ::: cols
 **Coyet:**
 Min strategi

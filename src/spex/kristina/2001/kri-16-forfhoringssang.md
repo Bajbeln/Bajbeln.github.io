@@ -1,11 +1,12 @@
 ---
-title: "[KRI 12] Förfhöringssång"
-singer: "Olof Rudbeck och Maria Eleonora"
-melody: "Canneloni macaroni"
+title: '[KRI 12] Förfhöringssång'
+singer: 'Olof Rudbeck och Maria Eleonora'
+melody: 'Canneloni macaroni'
 spex: kristina-2001
 order: 16
 permalink: false
 ---
+
 ::: cols
 **(Rudbeck)**
 Se den store detektiven närma sig sitt mål.
@@ -40,9 +41,7 @@ Nu ska Rudbeck ställa allting till rätta
 
 Men jag jobbar ju med din före detta
 
-
 Vad gjorde du på mordkvällen?
-
 
 Nej, nu blir jag generad
 Det känns konstigt i mitt bröst

@@ -1,10 +1,11 @@
 ---
-title: "[HIN 3] Hejdå, och hoppas att vi inte dör"
-melody: "Lay all your love on me"
+title: '[HIN 3] Hejdå, och hoppas att vi inte dör'
+melody: 'Lay all your love on me'
 spex: hindenburg
 order: 5
 permalink: false
 ---
+
 Hur ska jag nu klara ut det här?
 Var insikt är en misär,
 min situation prekär.

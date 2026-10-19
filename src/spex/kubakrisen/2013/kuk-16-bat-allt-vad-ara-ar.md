@@ -1,7 +1,7 @@
 ---
-title: "[KUK 16] Båt allt vad åra är"
-singer: "Thor Heyerdahl och besättningen sjunger"
-melody: "Work song, The Delta Rythm Boys"
+title: '[KUK 16] Båt allt vad åra är'
+singer: 'Thor Heyerdahl och besättningen sjunger'
+melody: 'Work song, The Delta Rythm Boys'
 spex: kubakrisen-2013
 order: 7
 permalink: false

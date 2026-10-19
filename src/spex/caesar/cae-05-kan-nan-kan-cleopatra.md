@@ -1,7 +1,7 @@
 ---
-title: "[CAE 5] Kan nån, kan Cleopatra"
-singer: "Brutus, Cleopatra, Speerimania och Caesar sjunger"
-melody: "Canon – Pachelbel"
+title: '[CAE 5] Kan nån, kan Cleopatra'
+singer: 'Brutus, Cleopatra, Speerimania och Caesar sjunger'
+melody: 'Canon – Pachelbel'
 spex: caesar
 order: 11
 permalink: false

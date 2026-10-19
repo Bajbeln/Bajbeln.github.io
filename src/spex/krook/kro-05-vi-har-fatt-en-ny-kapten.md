@@ -1,6 +1,6 @@
 ---
-title: "[KRO 5] Vi har fått en ny kapten"
-singer: "Slughöken sjunger"
+title: '[KRO 5] Vi har fått en ny kapten'
+singer: 'Slughöken sjunger'
 melody: "John Brown's Body"
 spex: krook
 order: 13

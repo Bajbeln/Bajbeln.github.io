@@ -1,7 +1,7 @@
 ---
-title: "[TJO 5] En Verdi avslutning på Shogun"
-singer: "Alla sjunger"
-melody: "Ur Trubaduren av kompositören med samma namn"
+title: '[TJO 5] En Verdi avslutning på Shogun'
+singer: 'Alla sjunger'
+melody: 'Ur Trubaduren av kompositören med samma namn'
 spex: tjogun-1987
 order: 13
 permalink: false

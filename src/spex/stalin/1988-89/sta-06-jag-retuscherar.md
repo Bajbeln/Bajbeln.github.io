@@ -1,11 +1,12 @@
 ---
-title: "[STA 6] Jag retuscherar"
-singer: "Stalin sjunger"
-melody: "Sudda, sudda bort sin sura min"
+title: '[STA 6] Jag retuscherar'
+singer: 'Stalin sjunger'
+melody: 'Sudda, sudda bort sin sura min'
 spex: stalin-1988-89
 order: 22
 permalink: false
 ---
+
 Ibland när jag är ledsen
 Det händer då ochdå
 När jag har det tråkigt

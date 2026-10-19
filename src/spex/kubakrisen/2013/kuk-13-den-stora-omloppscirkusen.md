@@ -1,6 +1,6 @@
 ---
-title: "[KUK 13] Den stora omloppscirkusen"
-singer: "Kennedy och Chrustjev sjunger"
+title: '[KUK 13] Den stora omloppscirkusen'
+singer: 'Kennedy och Chrustjev sjunger'
 melody: "The Freakin' FCC, ur Family Guy"
 spex: kubakrisen-2013
 order: 1

@@ -1,7 +1,7 @@
 ---
-title: "[KUK 12] Vi ska befria världen!"
-singer: "Ryssarna och amerikanarna sjunger"
-melody: "When Johnny comes marching home"
+title: '[KUK 12] Vi ska befria världen!'
+singer: 'Ryssarna och amerikanarna sjunger'
+melody: 'When Johnny comes marching home'
 spex: kubakrisen-2008
 order: 2
 permalink: false

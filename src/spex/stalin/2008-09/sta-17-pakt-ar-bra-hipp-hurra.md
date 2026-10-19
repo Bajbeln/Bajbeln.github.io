@@ -1,11 +1,12 @@
 ---
-title: "[STA 17] Pakt är bra, hipp hurra"
-singer: "Tyskarna, Stalin, Molotov, Olga och Svetlana sjunger"
-melody: "Animaniacs theme"
+title: '[STA 17] Pakt är bra, hipp hurra'
+singer: 'Tyskarna, Stalin, Molotov, Olga och Svetlana sjunger'
+melody: 'Animaniacs theme'
 spex: stalin-2008-09
 order: 6
 permalink: false
 ---
+
 **Tyskar:** Vi har kommit med förslag
 på en pakt just denna dag
 **Alla:** Vi får nu ett övertag

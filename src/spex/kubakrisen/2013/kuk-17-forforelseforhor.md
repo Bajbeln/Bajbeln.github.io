@@ -1,6 +1,6 @@
 ---
-title: "[KUK 17] Förförelseförhör"
-singer: "KGB och CIA sjunger"
+title: '[KUK 17] Förförelseförhör'
+singer: 'KGB och CIA sjunger'
 melody: "Everthing's allright, ur Jesus Christ Superstar"
 spex: kubakrisen-2013
 order: 10

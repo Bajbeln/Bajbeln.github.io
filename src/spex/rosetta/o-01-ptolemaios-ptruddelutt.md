@@ -1,7 +1,7 @@
 ---
-title: "[O 1] Ptolemaios ptruddelutt"
-singer: "Ptolemnios och groupisarna sjunger"
-melody: "Rock me Amadeus – Falco"
+title: '[O 1] Ptolemaios ptruddelutt'
+singer: 'Ptolemnios och groupisarna sjunger'
+melody: 'Rock me Amadeus – Falco'
 spex: rosetta
 order: 1
 permalink: false

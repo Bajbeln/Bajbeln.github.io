@@ -1,11 +1,12 @@
 ---
-title: "[KLE 3] Nu ska visst alla mörda Caesar"
-singer: "Aurelia, Marcus Antonius & Brutus sjunger"
-melody: "Death on two legs – Queen"
+title: '[KLE 3] Nu ska visst alla mörda Caesar'
+singer: 'Aurelia, Marcus Antonius & Brutus sjunger'
+melody: 'Death on two legs – Queen'
 spex: kleopatra
 order: 6
 permalink: false
 ---
+
 **Aurelia:** Låt oss få stopp på det här.
 Frågan är var, hur och när.
 Han har blivit ett svin!

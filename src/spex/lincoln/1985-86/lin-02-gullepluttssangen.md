@@ -1,7 +1,7 @@
 ---
-title: "[LIN 2] Gullepluttssången"
-singer: "Ericsson sjunger, fast inte 1985, utan 1990"
-melody: "Oh Susanna"
+title: '[LIN 2] Gullepluttssången'
+singer: 'Ericsson sjunger, fast inte 1985, utan 1990'
+melody: 'Oh Susanna'
 spex: lincoln-1985-86
 order: 7
 permalink: false

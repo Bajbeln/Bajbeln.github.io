@@ -1,11 +1,12 @@
 ---
-title: "[CXI 5] Kaninens sötsång"
-singer: "Kaninen sjunger"
-melody: "John Blund"
+title: '[CXI 5] Kaninens sötsång'
+singer: 'Kaninen sjunger'
+melody: 'John Blund'
 spex: carl-xi
 order: 8
 permalink: false
 ---
+
 Dagen
 Börjar jag en
 Rätt dum, men söt kanin

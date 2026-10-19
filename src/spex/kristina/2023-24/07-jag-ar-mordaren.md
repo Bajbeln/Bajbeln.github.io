@@ -1,10 +1,11 @@
 ---
-title: "7. Jag är mördaren"
-melody: "Problematic – Bo Burnham"
+title: '7. Jag är mördaren'
+melody: 'Problematic – Bo Burnham'
 spex: kristina-2023-24
 order: 7
 permalink: false
 ---
+
 **Oxenstierna**
 Under många år så var jag Sveriges mäktiga man.
 I historieböcker står det: Höger hand till tyrann.

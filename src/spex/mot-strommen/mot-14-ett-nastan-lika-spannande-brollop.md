@@ -1,7 +1,7 @@
 ---
-title: "[MOT 14] Ett nästan lika spännande bröllop"
-singer: "Morgan och Dolores sjunger"
-melody: "Bad, bad Leroy Brown"
+title: '[MOT 14] Ett nästan lika spännande bröllop'
+singer: 'Morgan och Dolores sjunger'
+melody: 'Bad, bad Leroy Brown'
 spex: mot-strommen
 order: 17
 permalink: false

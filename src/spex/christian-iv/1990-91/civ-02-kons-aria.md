@@ -1,7 +1,7 @@
 ---
-title: "[CIV 2] Kons aria"
-singer: "Kon sjunger"
-melody: "O Helga natt"
+title: '[CIV 2] Kons aria'
+singer: 'Kon sjunger'
+melody: 'O Helga natt'
 spex: christian-iv-1990-91
 order: 6
 permalink: false

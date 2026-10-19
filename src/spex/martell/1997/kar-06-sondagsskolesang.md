@@ -1,7 +1,7 @@
 ---
-title: "[KAR 6] Söndagsskolesång"
-singer: "Stefan II och vikingarna sjunger"
-melody: "Vi sätter oss i ringen"
+title: '[KAR 6] Söndagsskolesång'
+singer: 'Stefan II och vikingarna sjunger'
+melody: 'Vi sätter oss i ringen'
 spex: karl-martell-1997
 order: 13
 permalink: false

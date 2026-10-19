@@ -1,6 +1,6 @@
 ---
-title: "[KAR 9] Håll käften annars får du på käften"
-singer: "Abu Bakr, Sabelvakterna och Imamen sjunger"
+title: '[KAR 9] Håll käften annars får du på käften'
+singer: 'Abu Bakr, Sabelvakterna och Imamen sjunger'
 melody: "It's Oh So Quiet"
 spex: karl-martell-2011-12
 order: 1

@@ -1,10 +1,11 @@
 ---
-title: "46. Dekorens låt"
-melody: "Les Champs-Élysées"
+title: '46. Dekorens låt'
+melody: 'Les Champs-Élysées'
 spex: allmanna
 order: 47
 permalink: false
 ---
+
 Åh byta dekor!
 Åh byta dekor!
 Byt ett träd mot en vagn,

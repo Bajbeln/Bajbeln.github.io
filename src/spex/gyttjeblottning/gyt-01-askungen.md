@@ -1,7 +1,7 @@
 ---
-title: "[GYT 1] Askungen"
-singer: "Två möss sjunger"
-melody: "Mössens syvisa ur Askungen, Disney"
+title: '[GYT 1] Askungen'
+singer: 'Två möss sjunger'
+melody: 'Mössens syvisa ur Askungen, Disney'
 spex: gyttjeblottning
 order: 4
 permalink: false

@@ -1,11 +1,12 @@
 ---
-title: "[STA 25] Pausfinal of DOOM"
-singer: "Ribbentrop, von Braun & Soldater sjunger"
-melody: "Spooky mormon hell dream, ur The Book of Mormon"
+title: '[STA 25] Pausfinal of DOOM'
+singer: 'Ribbentrop, von Braun & Soldater sjunger'
+melody: 'Spooky mormon hell dream, ur The Book of Mormon'
 spex: stalin-2008-09
 order: 15
 permalink: false
 ---
+
 Vem hade trott det skulle va så lätt
 att slå till mot Moskva
 Nu kan ingenting gå fel

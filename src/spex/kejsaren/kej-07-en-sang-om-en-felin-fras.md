@@ -1,7 +1,7 @@
 ---
-title: "[KEJ 7] En sång om en felin fras"
-singer: "Kejsaren, Li Su, Che Yen och Liu Band sjunger"
-melody: "Like a ghost his vigil keeping ur The yeomen of the guard"
+title: '[KEJ 7] En sång om en felin fras'
+singer: 'Kejsaren, Li Su, Che Yen och Liu Band sjunger'
+melody: 'Like a ghost his vigil keeping ur The yeomen of the guard'
 spex: kejsaren-av-kina
 order: 15
 permalink: false

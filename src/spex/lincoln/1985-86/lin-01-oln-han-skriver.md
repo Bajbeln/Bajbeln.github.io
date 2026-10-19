@@ -1,7 +1,7 @@
 ---
-title: "[LIN 1] Oln han skriver"
-singer: "Nordstatsgeneralerna sjunger"
-melody: "Old Man River"
+title: '[LIN 1] Oln han skriver'
+singer: 'Nordstatsgeneralerna sjunger'
+melody: 'Old Man River'
 spex: lincoln-1985-86
 order: 1
 permalink: false

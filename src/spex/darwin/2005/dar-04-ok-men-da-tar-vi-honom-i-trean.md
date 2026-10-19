@@ -1,7 +1,7 @@
 ---
-title: "[DAR 4] Ok men då tar vi honom i trean"
-singer: "Mördaren, Troenden & Agnostikern sjunger"
-melody: "Temat från Falcon Crest"
+title: '[DAR 4] Ok men då tar vi honom i trean'
+singer: 'Mördaren, Troenden & Agnostikern sjunger'
+melody: 'Temat från Falcon Crest'
 spex: darwin-2005
 order: 9
 permalink: false

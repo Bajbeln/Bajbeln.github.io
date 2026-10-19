@@ -1,10 +1,11 @@
 ---
-title: "[SKO 3] Ett rop på hjälp till självhjälp"
-melody: "Superstition"
+title: '[SKO 3] Ett rop på hjälp till självhjälp'
+melody: 'Superstition'
 spex: sketchofori
 order: 4
 permalink: false
 ---
+
 Sen jag tog studenten,
 har jag haft det hårt
 valet av utbildning

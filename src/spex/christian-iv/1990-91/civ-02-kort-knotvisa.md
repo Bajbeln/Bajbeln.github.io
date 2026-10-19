@@ -1,7 +1,7 @@
 ---
-title: "[CIV 2] Kort knotvisa"
-singer: "Conny och Hebba sjunger"
-melody: "Flickans sång ur djungelboken"
+title: '[CIV 2] Kort knotvisa'
+singer: 'Conny och Hebba sjunger'
+melody: 'Flickans sång ur djungelboken'
 spex: christian-iv-1990-91
 order: 7
 permalink: false

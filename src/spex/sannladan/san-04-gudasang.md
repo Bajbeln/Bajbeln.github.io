@@ -1,11 +1,12 @@
 ---
-title: "[SAN 4] Gudasång"
-singer: "Herren och Allah sjunger"
-melody: "Keep Young and Beautiful"
+title: '[SAN 4] Gudasång'
+singer: 'Herren och Allah sjunger'
+melody: 'Keep Young and Beautiful'
 spex: sannladan
 order: 8
 permalink: false
 ---
+
 I himlen ljuder änglakörsång
 I ett kör, det är pest
 Människolekar är förbjudet

@@ -1,11 +1,12 @@
 ---
-title: "[CvL 3] Hybriskupletten"
-singer: "Swedenborg sjunger"
-melody: "Strangers in the Night"
+title: '[CvL 3] Hybriskupletten'
+singer: 'Swedenborg sjunger'
+melody: 'Strangers in the Night'
 spex: linne-1996
 order: 5
 permalink: false
 ---
+
 Som ett ungt geni
 Var jag bespottad
 Utstött, struntad i

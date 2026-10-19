@@ -1,7 +1,7 @@
 ---
-title: "[DAR 2] Mördarens kortis"
-singer: "Mördaren sjunger"
-melody: "Temat till Airwolf"
+title: '[DAR 2] Mördarens kortis'
+singer: 'Mördaren sjunger'
+melody: 'Temat till Airwolf'
 spex: darwin-2005
 order: 3
 permalink: false

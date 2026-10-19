@@ -1,10 +1,11 @@
 ---
-title: "[KAT 1] Mamsen har rätt"
-melody: "Mother knows best"
+title: '[KAT 1] Mamsen har rätt'
+melody: 'Mother knows best'
 spex: katarina
 order: 2
 permalink: false
 ---
+
 Mamsen har rätt,
 följ din mammas order,
 så ska allting lösa sig.

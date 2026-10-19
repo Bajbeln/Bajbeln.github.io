@@ -1,11 +1,12 @@
 ---
-title: "[LEO 8] Spääxfinal"
-singer: "Alla på scen sjunger, utom Maffiavelli som är död"
-melody: "Master of the House ur Les Miserables"
+title: '[LEO 8] Spääxfinal'
+singer: 'Alla på scen sjunger, utom Maffiavelli som är död'
+melody: 'Master of the House ur Les Miserables'
 spex: leonardo-1993
 order: 19
 permalink: false
 ---
+
 **Leo:** Är tavlan min
 Var låg den gömd
 De'n är ju fin

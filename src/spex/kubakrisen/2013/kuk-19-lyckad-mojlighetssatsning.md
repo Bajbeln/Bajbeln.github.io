@@ -1,11 +1,12 @@
 ---
-title: "[KUK 19] Lyckad möjlighetshantering i krisernas århundrade"
-singer: "Alla sjunger"
+title: '[KUK 19] Lyckad möjlighetshantering i krisernas århundrade'
+singer: 'Alla sjunger'
 melody: "You can call me Al, Paul Simon/We'll meet again, Vera Lynn"
 spex: kubakrisen-2013
 order: 13
 permalink: false
 ---
+
 **Lisbeth:** Vi kände vibrationerna
 på håll, Förenta Nationerna
 har nu stoppat kubakrisen

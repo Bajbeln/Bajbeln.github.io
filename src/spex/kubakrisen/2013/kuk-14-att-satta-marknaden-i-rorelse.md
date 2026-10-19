@@ -1,6 +1,6 @@
 ---
-title: "[KUK 14] Att sätta marknaden i rörelse"
-singer: "Jackie Kennedy sjunger"
+title: '[KUK 14] Att sätta marknaden i rörelse'
+singer: 'Jackie Kennedy sjunger'
 melody: "This world'll remember me, ur den välkända musikalen Bonnie and Clyde"
 spex: kubakrisen-2013
 order: 5

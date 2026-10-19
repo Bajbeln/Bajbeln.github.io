@@ -1,6 +1,6 @@
 ---
-title: "[KEJ 9] Ins och Uts sång"
-singer: "In och Ut sjunger"
+title: '[KEJ 9] Ins och Uts sång'
+singer: 'In och Ut sjunger'
 melody: "Ballin' the Jack"
 spex: kejsaren-av-kina
 order: 19

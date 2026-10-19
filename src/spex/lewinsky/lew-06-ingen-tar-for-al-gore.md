@@ -1,11 +1,12 @@
 ---
-title: "[LEW 6] Ingen tår för Al Gore"
-singer: "Al Gore sjunger"
-melody: "Nothing else matters, Metallica"
+title: '[LEW 6] Ingen tår för Al Gore'
+singer: 'Al Gore sjunger'
+melody: 'Nothing else matters, Metallica'
 spex: lewinsky
 order: 9
 permalink: false
 ---
+
 Jag predikade hållbarhet
 För att rädda vår döende planet
 Men jag har övergett min lojalitet

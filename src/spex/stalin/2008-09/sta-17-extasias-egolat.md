@@ -1,11 +1,12 @@
 ---
-title: "[STA 17] Extasias egolåt"
-singer: "Extasia sjunger"
-melody: "Mein Herr ur Cabaret"
+title: '[STA 17] Extasias egolåt'
+singer: 'Extasia sjunger'
+melody: 'Mein Herr ur Cabaret'
 spex: stalin-2008-09
 order: 5
 permalink: false
 ---
+
 För alla killar faller för min charm
 Jag vet
 Mitt hår, mitt lår, min runda mjuka barm

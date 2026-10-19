@@ -1,6 +1,6 @@
 ---
-title: "[KRO 6] Flickorna saknar sina respektive ungdomskärlekar"
-singer: "Flickorna sjunger"
+title: '[KRO 6] Flickorna saknar sina respektive ungdomskärlekar'
+singer: 'Flickorna sjunger'
 melody: "You're the One That I Want"
 spex: krook
 order: 16

@@ -1,11 +1,12 @@
 ---
-title: "[HÅL 6] En jäfvla man som kan många konster"
-singer: "Ågust Strindberg [sic] sjunger"
-melody: "Ikaros, Björn Afzelius"
+title: '[HÅL 6] En jäfvla man som kan många konster'
+singer: 'Ågust Strindberg [sic] sjunger'
+melody: 'Ikaros, Björn Afzelius'
 spex: lagsta-punkten
 order: 11
 permalink: false
 ---
+
 När jag tänker tillbaka på min barndom
 ser jag skräckbilder tydligast av allt
 bara spottloskor, hånflin eller smälek

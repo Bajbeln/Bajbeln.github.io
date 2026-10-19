@@ -1,11 +1,12 @@
 ---
-title: "[CXI 1] Kalles presentationssång"
-singer: "Kalle sjunger"
-melody: "Champagnegalopp, Lumbye"
+title: '[CXI 1] Kalles presentationssång'
+singer: 'Kalle sjunger'
+melody: 'Champagnegalopp, Lumbye'
 spex: carl-xi
 order: 1
 permalink: false
 ---
+
 Vilket skott!
 Jag träffa alltid nåt
 Jag skjuter stort som smått

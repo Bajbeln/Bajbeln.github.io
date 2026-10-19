@@ -1,7 +1,7 @@
 ---
-title: "[MAR 8] Slutsång"
-singer: "Alla sjunger"
-melody: "Öppna ditt fönster"
+title: '[MAR 8] Slutsång'
+singer: 'Alla sjunger'
+melody: 'Öppna ditt fönster'
 spex: maria-eleonora
 order: 10
 permalink: false

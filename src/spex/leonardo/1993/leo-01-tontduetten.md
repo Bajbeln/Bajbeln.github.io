@@ -1,11 +1,12 @@
 ---
-title: "[LEO 1] Töntduetten"
-singer: "Lilla mamma och Giovanni sjunger"
-melody: "Bäst att ta sig ett glas"
+title: '[LEO 1] Töntduetten'
+singer: 'Lilla mamma och Giovanni sjunger'
+melody: 'Bäst att ta sig ett glas'
 spex: leonardo-1993
 order: 3
 permalink: false
 ---
+
 **Lilla mamma:**
 Jag har kontroll, han gör som jag vill
 Hon kammar noll när jag säger till

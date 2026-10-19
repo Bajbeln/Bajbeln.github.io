@@ -1,7 +1,7 @@
 ---
-title: "[NIS 3] Nisses Helsingkronasång"
-singer: "Nisse, Bruno och Klockan sjunger"
-melody: "Rule Britannia"
+title: '[NIS 3] Nisses Helsingkronasång'
+singer: 'Nisse, Bruno och Klockan sjunger'
+melody: 'Rule Britannia'
 spex: nisse
 order: 5
 permalink: false

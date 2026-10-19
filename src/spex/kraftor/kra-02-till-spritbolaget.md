@@ -1,11 +1,12 @@
 ---
-title: "[KRÄ 2] Till spritbolaget"
-singer: "Ivan Bratt sjunger"
-melody: "Du käre lille snickerbo"
+title: '[KRÄ 2] Till spritbolaget'
+singer: 'Ivan Bratt sjunger'
+melody: 'Du käre lille snickerbo'
 spex: kraftor
 order: 2
 permalink: false
 ---
+
 Till spritbolaget ränner jag,
 och jag bankar på dess port
 Jag kontrollerar varorna

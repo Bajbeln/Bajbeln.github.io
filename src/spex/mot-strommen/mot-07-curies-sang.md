@@ -1,7 +1,7 @@
 ---
-title: "[MOT 7] Curies sång"
-singer: "Marie Curie sjunger"
-melody: "Mysterious tango"
+title: '[MOT 7] Curies sång'
+singer: 'Marie Curie sjunger'
+melody: 'Mysterious tango'
 spex: mot-strommen
 order: 8
 permalink: false

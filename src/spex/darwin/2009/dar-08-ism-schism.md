@@ -1,7 +1,7 @@
 ---
-title: "[DAR 8] Ism-schism"
-singer: "Darwin och Påven sjunger"
-melody: "Puppet on a string"
+title: '[DAR 8] Ism-schism'
+singer: 'Darwin och Påven sjunger'
+melody: 'Puppet on a string'
 spex: darwin-2009
 order: 1
 permalink: false

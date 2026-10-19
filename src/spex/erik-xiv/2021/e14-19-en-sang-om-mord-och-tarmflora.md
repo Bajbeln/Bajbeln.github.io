@@ -1,11 +1,12 @@
 ---
-title: "[E14 19] En sång om mord & tarmflora"
-singer: "Karin, Fånge 1 & Fånge 2 sjunger"
-melody: "No Reason, ur Beetlejuice"
+title: '[E14 19] En sång om mord & tarmflora'
+singer: 'Karin, Fånge 1 & Fånge 2 sjunger'
+melody: 'No Reason, ur Beetlejuice'
 spex: erik-xiv-2021
 order: 4
 permalink: false
 ---
+
 **K**
 Dom har en plan
 Dom kommer att mörda sin bror

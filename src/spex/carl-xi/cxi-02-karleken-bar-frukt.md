@@ -1,11 +1,12 @@
 ---
-title: "[CXI 2] Kärleken bär frukt"
-singer: "Rut och Ullis sjunger"
-melody: "Me and my shadow"
+title: '[CXI 2] Kärleken bär frukt'
+singer: 'Rut och Ullis sjunger'
+melody: 'Me and my shadow'
 spex: carl-xi
 order: 3
 permalink: false
 ---
+
 **Ullis:** Har du någon som du håller kär?
 **Rut:** Är han annorstädes än här?
 **Ullis:** Bara lugn, för vi vet att man älskar

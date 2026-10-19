@@ -1,7 +1,7 @@
 ---
-title: "[KRO 6] Kapten Krook presenterar sig"
-singer: "Kapten Krook sjunger"
-melody: "Sjörövarfabbe"
+title: '[KRO 6] Kapten Krook presenterar sig'
+singer: 'Kapten Krook sjunger'
+melody: 'Sjörövarfabbe'
 spex: krook
 order: 15
 permalink: false

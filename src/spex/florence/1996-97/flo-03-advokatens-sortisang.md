@@ -1,11 +1,12 @@
 ---
-title: "[FLO 3] Advokatens sortisång"
-singer: "Barry sjunger"
-melody: "Lydia"
+title: '[FLO 3] Advokatens sortisång'
+singer: 'Barry sjunger'
+melody: 'Lydia'
 spex: florence-1996-97
 order: 5
 permalink: false
 ---
+
 Brittiska släktingar
 Ogillar oäktingar
 Som visar sig bli konkurrenter

@@ -1,7 +1,7 @@
 ---
-title: "[KAR 4] Varför får jag inte kriga i fred?"
-singer: "Karl Martell sjunger"
-melody: "Still All Stands Still"
+title: '[KAR 4] Varför får jag inte kriga i fred?'
+singer: 'Karl Martell sjunger'
+melody: 'Still All Stands Still'
 spex: karl-martell-1997
 order: 8
 permalink: false

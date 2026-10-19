@@ -1,7 +1,7 @@
 ---
-title: "[TJO 17] Tankar om dop"
-singer: "Jesuiterna och Tankklanen sjunger"
-melody: "Härlig är jorden/Pärleporten"
+title: '[TJO 17] Tankar om dop'
+singer: 'Jesuiterna och Tankklanen sjunger'
+melody: 'Härlig är jorden/Pärleporten'
 spex: tjogun-2009
 order: 3
 permalink: false
@@ -9,7 +9,7 @@ permalink: false
 
 ::: cols
 **Jesuiterna:**
-*(Härlig är jorden)*
+_(Härlig är jorden)_
 
 När du kom till jorden
 Då var du otrogen
@@ -17,7 +17,6 @@ Ofrälst, hedning och syndare
 Felet var Evas
 Hon åt upp ä-äpplet
 och det är grunden till allt ont
-
 
 Ni har visst missförstått
 Vi är dom go-oda
@@ -36,9 +35,7 @@ Hon åt upp ä-äpplet
 och det var grunden till allt ont
 ::: col
 **Tankarna:**
-*(Pärleporten)*
-
-
+_(Pärleporten)_
 
 Dom ser till att vi blir döpta
 Så att vi får monopol

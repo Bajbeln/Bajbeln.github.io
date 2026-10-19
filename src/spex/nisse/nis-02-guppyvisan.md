@@ -1,6 +1,6 @@
 ---
-title: "[NIS 2] Guppyvisan"
-singer: "Tre guppies sjunger"
+title: '[NIS 2] Guppyvisan'
+singer: 'Tre guppies sjunger'
 melody: "Si, fino all'ore estreme ur Norma"
 spex: nisse
 order: 2

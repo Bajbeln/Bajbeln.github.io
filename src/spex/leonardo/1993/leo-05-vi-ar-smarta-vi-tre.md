@@ -1,11 +1,12 @@
 ---
-title: "[LEO 5] Vi är smarta, vi tre!"
-singer: "Lisa, Roberto och Julius sjunger"
-melody: "To Life!"
+title: '[LEO 5] Vi är smarta, vi tre!'
+singer: 'Lisa, Roberto och Julius sjunger'
+melody: 'To Life!'
 spex: leonardo-1993
 order: 11
 permalink: false
 ---
+
 **Alla:** Nu ska vi vara smarta
 Vi genomför planen i natt
 Vi spelar tjuven ett listigt spratt

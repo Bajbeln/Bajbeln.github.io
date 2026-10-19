@@ -1,11 +1,12 @@
 ---
-title: "[STA 11] Finalsång"
-singer: "Många sjunger"
-melody: "Gyllene morgon"
+title: '[STA 11] Finalsång'
+singer: 'Många sjunger'
+melody: 'Gyllene morgon'
 spex: stalin-1994-95
 order: 6
 permalink: false
 ---
+
 **Fritz + Städerskan:**
 Vi har stoppat pakten med gemensam list
 Och das hoch-modernes Kraftbomb har dom mist

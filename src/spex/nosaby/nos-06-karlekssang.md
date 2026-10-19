@@ -1,7 +1,7 @@
 ---
-title: "[NOS 6] Kärlekssång"
-singer: "Albertina och John Milner sjunger"
-melody: "Tangokavaljer"
+title: '[NOS 6] Kärlekssång'
+singer: 'Albertina och John Milner sjunger'
+melody: 'Tangokavaljer'
 spex: nosaby
 order: 7
 permalink: false

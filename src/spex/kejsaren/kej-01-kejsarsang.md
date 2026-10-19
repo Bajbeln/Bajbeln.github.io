@@ -1,7 +1,7 @@
 ---
-title: "[KEJ 1] Kejsarsång"
-singer: "Kejsaren sjunger"
-melody: "Scotland brave"
+title: '[KEJ 1] Kejsarsång'
+singer: 'Kejsaren sjunger'
+melody: 'Scotland brave'
 spex: kejsaren-av-kina
 order: 2
 permalink: false

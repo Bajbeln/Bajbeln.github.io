@@ -1,11 +1,12 @@
 ---
-title: "[PUN 9] Bravo för Karthago"
-singer: "Tanit och Salambo sjunger"
-melody: "Umbrella, The Baseballs"
+title: '[PUN 9] Bravo för Karthago'
+singer: 'Tanit och Salambo sjunger'
+melody: 'Umbrella, The Baseballs'
 spex: karthago
 order: 12
 permalink: false
 ---
+
 **T:** Här är vår chans, vi är sugna på revansch
 När vi besegrat Rom får vi vår lagerkrans
 **S:** Kommer pappa att stå pall

@@ -1,7 +1,7 @@
 ---
-title: "[NIS 2] Brunos sång"
-singer: "Bruno sjunger"
-melody: "For Once in My Life"
+title: '[NIS 2] Brunos sång'
+singer: 'Bruno sjunger'
+melody: 'For Once in My Life'
 spex: nisse
 order: 3
 permalink: false

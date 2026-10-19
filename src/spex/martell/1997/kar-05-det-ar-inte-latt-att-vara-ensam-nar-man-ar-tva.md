@@ -1,7 +1,7 @@
 ---
-title: "[KAR 5] Det är inte lätt att vara ensam när man är två"
-singer: "Gosh och Drutten sjunger"
-melody: "Tango Jalouise"
+title: '[KAR 5] Det är inte lätt att vara ensam när man är två'
+singer: 'Gosh och Drutten sjunger'
+melody: 'Tango Jalouise'
 spex: karl-martell-1997
 order: 10
 permalink: false

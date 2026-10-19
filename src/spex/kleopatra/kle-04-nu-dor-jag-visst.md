@@ -1,11 +1,12 @@
 ---
-title: "[KLE 4] Nu dör jag visst (Mitt hiärta kan gå et tu Brutus)"
-singer: "Brutus sjunger"
-melody: "Hur gör man drömmen sann – Livet är en schlager"
+title: '[KLE 4] Nu dör jag visst (Mitt hiärta kan gå et tu Brutus)'
+singer: 'Brutus sjunger'
+melody: 'Hur gör man drömmen sann – Livet är en schlager'
 spex: kleopatra
 order: 9
 permalink: false
 ---
+
 Täckt av blod så rosenröd.
 Vad har jag g¡ort? Min Ceasar död.
 För sent för ånger.

@@ -1,11 +1,12 @@
 ---
-title: "[GUS 1] Alla är här-sången"
-singer: "Pytt, Ulla, Malla, Malte, Gusten, Hebba och Toll sjunger"
-melody: "Downtown"
+title: '[GUS 1] Alla är här-sången'
+singer: 'Pytt, Ulla, Malla, Malte, Gusten, Hebba och Toll sjunger'
+melody: 'Downtown'
 spex: gustav-iii
 order: 1
 permalink: false
 ---
+
 **Pytt:** Min lilla krog
 Ja, den har kallats med fog
 För stadens medelpunkt

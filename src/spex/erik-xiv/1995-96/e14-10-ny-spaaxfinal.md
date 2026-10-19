@@ -1,11 +1,12 @@
 ---
-title: "[E14 10] Ny spääxfinal"
-singer: "Erik, Karin, Måns och bröderna sjunger"
+title: '[E14 10] Ny spääxfinal'
+singer: 'Erik, Karin, Måns och bröderna sjunger'
 melody: "Raindrops Keep Fallin' on My Head"
 spex: erik-xiv-1995-96
 order: 19
 permalink: false
 ---
+
 **Erik**
 Nu har jag fått en svensk gemål
 **Måns**

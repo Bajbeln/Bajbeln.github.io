@@ -1,7 +1,7 @@
 ---
-title: "[DAR 6] Gregers stund på jorden"
-singer: "Greger & badkören sjunger"
-melody: "Runaround Sue"
+title: '[DAR 6] Gregers stund på jorden'
+singer: 'Greger & badkören sjunger'
+melody: 'Runaround Sue'
 spex: darwin-2005
 order: 13
 permalink: false

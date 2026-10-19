@@ -1,7 +1,7 @@
 ---
-title: "[SOK 2] Jag är ett rivigt järn"
-singer: "Xantippa sjunger"
-melody: "E de de här du kallar kärlek"
+title: '[SOK 2] Jag är ett rivigt järn'
+singer: 'Xantippa sjunger'
+melody: 'E de de här du kallar kärlek'
 spex: sokrates
 order: 4
 permalink: false

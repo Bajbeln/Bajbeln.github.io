@@ -1,7 +1,7 @@
 ---
-title: "[TJO 9] Kejsarinnans tristsång"
-singer: "Minolta och hovgeishorna sjunger"
-melody: "Mana-mana, ur mupparna"
+title: '[TJO 9] Kejsarinnans tristsång'
+singer: 'Minolta och hovgeishorna sjunger'
+melody: 'Mana-mana, ur mupparna'
 spex: tjogun-1992-93
 order: 9
 permalink: false
@@ -17,14 +17,14 @@ Jag längtar bort
 Låt det va torrt
 En tråkig sort
 
-(*Jammar fritt*)
+(_Jammar fritt_)
 Om det bara kunde hända
 nåt nån gång, nåt...nåt
 Här är så trist
 Origami
 Dum poesi
 
-(*Ännu intensivare jam*)
+(_Ännu intensivare jam_)
 Jag vill ha äventyr med
 fart och fläkt och
 killar utan kläder...med...
@@ -48,7 +48,6 @@ Vi viker papper
 Vi läser dikt
 Vi målar naglar och pudrar och sminkar
 Och noppar kejsarinnans ögonbryn
-
 
 Vi målar vaser
 Och parasoll

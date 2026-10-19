@@ -1,11 +1,12 @@
 ---
-title: "[E14 6] Om du vore min ko så vore jag din tjur och tvärtom"
-singer: "Erik och Karin sjunger"
-melody: "Good as Gold, The Beautiful South"
+title: '[E14 6] Om du vore min ko så vore jag din tjur och tvärtom'
+singer: 'Erik och Karin sjunger'
+melody: 'Good as Gold, The Beautiful South'
 spex: erik-xiv-1995-96
 order: 11
 permalink: false
 ---
+
 **Erik**
 I mitt liv har saknats nåt
 Trots att jag haft alltsammans

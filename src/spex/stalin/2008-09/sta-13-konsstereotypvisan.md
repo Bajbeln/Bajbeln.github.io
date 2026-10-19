@@ -1,11 +1,12 @@
 ---
-title: "[STA 13] Könsstereotypvisan"
-singer: "Chuirchill och Money sjunger"
-melody: "Bababa"
+title: '[STA 13] Könsstereotypvisan'
+singer: 'Chuirchill och Money sjunger'
+melody: 'Bababa'
 spex: stalin-2008-09
 order: 1
 permalink: false
 ---
+
 ::: cols
 **Money:**
 Hör nu, vad blir det för nåt?

@@ -1,7 +1,7 @@
 ---
-title: "[CAE 6] Nu ska vi sätta galler bakom galler"
-singer: "Marcus Antonius sjunger"
-melody: "Bag of Weed (ur Family Guy)"
+title: '[CAE 6] Nu ska vi sätta galler bakom galler'
+singer: 'Marcus Antonius sjunger'
+melody: 'Bag of Weed (ur Family Guy)'
 spex: caesar
 order: 12
 permalink: false

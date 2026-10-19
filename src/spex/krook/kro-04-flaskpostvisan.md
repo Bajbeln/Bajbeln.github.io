@@ -1,7 +1,7 @@
 ---
-title: "[KRO 4] Flaskpostvisan"
-singer: "Benny sjunger"
-melody: "Elektricitetsvisan"
+title: '[KRO 4] Flaskpostvisan'
+singer: 'Benny sjunger'
+melody: 'Elektricitetsvisan'
 spex: krook
 order: 11
 permalink: false

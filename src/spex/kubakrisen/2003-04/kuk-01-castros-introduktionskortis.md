@@ -1,7 +1,7 @@
 ---
-title: "[KUK 1] Castros introduktionskortis"
-singer: "Castro sjunger"
-melody: "Inspector Gadget theme"
+title: '[KUK 1] Castros introduktionskortis'
+singer: 'Castro sjunger'
+melody: 'Inspector Gadget theme'
 spex: kubakrisen-2003-04
 order: 2
 permalink: false

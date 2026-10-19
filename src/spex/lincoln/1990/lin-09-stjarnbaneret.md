@@ -1,7 +1,7 @@
 ---
-title: "[LIN 9] Stjärnbaneret"
-singer: "Nordstatsgeneralerna sjunger"
-melody: "The Stars and Stripes Forever"
+title: '[LIN 9] Stjärnbaneret'
+singer: 'Nordstatsgeneralerna sjunger'
+melody: 'The Stars and Stripes Forever'
 spex: lincoln-1990
 order: 1
 permalink: false

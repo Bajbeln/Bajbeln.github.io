@@ -1,11 +1,12 @@
 ---
-title: "[FLO 1] Alla är vi glada britter"
-singer: "Glada britter sjunger"
-melody: "Boy from New York City"
+title: '[FLO 1] Alla är vi glada britter'
+singer: 'Glada britter sjunger'
+melody: 'Boy from New York City'
 spex: florence-1996-97
 order: 1
 permalink: false
 ---
+
 **Alla:** Sju och trettio folket sitter
 Spääxet bjuder er på hejdlöst fnitter
 Glada människor, glam och glitter

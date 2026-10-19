@@ -1,11 +1,12 @@
 ---
-title: "[CvL 2] Linnéduetten"
-singer: "Två generationer Linné sjunger"
-melody: "Jag vägrar sjunga med, ur Sesam"
+title: '[CvL 2] Linnéduetten'
+singer: 'Två generationer Linné sjunger'
+melody: 'Jag vägrar sjunga med, ur Sesam'
 spex: linne-1996
 order: 3
 permalink: false
 ---
+
 **Linné:**
 Den har sex hjärtformade kronblad
 Grenad stjälk med mörka knoppar

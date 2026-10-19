@@ -1,11 +1,12 @@
 ---
-title: "[E14 9] Spääxfinal"
-singer: "Alla sjunger"
-melody: "When the Lovelight Starts Shining Through His Eyes"
+title: '[E14 9] Spääxfinal'
+singer: 'Alla sjunger'
+melody: 'When the Lovelight Starts Shining Through His Eyes'
 spex: erik-xiv-1995-96
 order: 17
 permalink: false
 ---
+
 **Måns**
 Känns hjärnan full med smog
 Ta dig en redig grogg

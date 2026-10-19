@@ -1,10 +1,11 @@
 ---
-title: "[SIM 1] Kronan i klaveret"
-melody: "Splish splash, Bobby Darin"
+title: '[SIM 1] Kronan i klaveret'
+melody: 'Splish splash, Bobby Darin'
 spex: synden-molle
 order: 2
 permalink: false
 ---
+
 Tut, tut, titta på mig och njut.
 Vem är det som hoppar här ut? yeah
 Tjingeling, Svearikets kirg.

@@ -1,7 +1,7 @@
 ---
-title: "[PAH 8] Slutlåt"
-singer: "Alla sjunger"
-melody: "Min soldat"
+title: '[PAH 8] Slutlåt'
+singer: 'Alla sjunger'
+melody: 'Min soldat'
 spex: per-albin
 order: 13
 permalink: false

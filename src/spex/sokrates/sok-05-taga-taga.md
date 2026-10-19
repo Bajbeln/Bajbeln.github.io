@@ -1,7 +1,7 @@
 ---
-title: "[SOK 5] Tåga, tåga"
-singer: "Ambrosia, Platon och Aristoteles sjunger"
-melody: "Frithiof Anderssons parad(ox)marsch"
+title: '[SOK 5] Tåga, tåga'
+singer: 'Ambrosia, Platon och Aristoteles sjunger'
+melody: 'Frithiof Anderssons parad(ox)marsch'
 spex: sokrates
 order: 9
 permalink: false

@@ -1,10 +1,11 @@
 ---
-title: "[HCA 6] Ta ett bloss"
-melody: "Castle on a cloud – Isabelle Allen"
+title: '[HCA 6] Ta ett bloss'
+melody: 'Castle on a cloud – Isabelle Allen'
 spex: hc-andersen
 order: 7
 permalink: false
 ---
+
 I svavelstickans blyga ljus
 Visas för mig en dröm så kär
 Dukat bord i mammas hus

@@ -1,7 +1,7 @@
 ---
-title: "[CAE 1] Stoppa inte gallerna i näsan, Marcus"
-singer: "Senaten och Marcus Antonius sjunger"
-melody: "Piluttavisan"
+title: '[CAE 1] Stoppa inte gallerna i näsan, Marcus'
+singer: 'Senaten och Marcus Antonius sjunger'
+melody: 'Piluttavisan'
 spex: caesar
 order: 2
 permalink: false

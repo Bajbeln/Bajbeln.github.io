@@ -1,11 +1,12 @@
 ---
-title: "[BRA 1] Rymdmekanik"
-singer: "Tycho och Kepler sjunger"
-melody: "Cantina band"
+title: '[BRA 1] Rymdmekanik'
+singer: 'Tycho och Kepler sjunger'
+melody: 'Cantina band'
 spex: tycho
 order: 2
 permalink: false
 ---
+
 **Tycho:** Med v noll, s och r givet
 Krävs cylinder koordinater
 Tiden t från A till B ges av sträckans

@@ -1,7 +1,7 @@
 ---
-title: "[SOK 6] Platon-och-Ambrosia-tänker-ha-lite-kul-sången"
-singer: "Platon och Ambrosia sjunger"
-melody: "I Feel Good, James Brown"
+title: '[SOK 6] Platon-och-Ambrosia-tänker-ha-lite-kul-sången'
+singer: 'Platon och Ambrosia sjunger'
+melody: 'I Feel Good, James Brown'
 spex: sokrates
 order: 11
 permalink: false

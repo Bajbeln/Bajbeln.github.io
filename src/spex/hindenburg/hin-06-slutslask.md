@@ -1,10 +1,11 @@
 ---
-title: "[HIN 6] Slutslask"
-melody: "99 luftballons"
+title: '[HIN 6] Slutslask'
+melody: '99 luftballons'
 spex: hindenburg
 order: 10
 permalink: false
 ---
+
 Allt glatt som fanns med denna sång,
 Sprängdes med vår luftballong
 Tiden har nu runnit ut

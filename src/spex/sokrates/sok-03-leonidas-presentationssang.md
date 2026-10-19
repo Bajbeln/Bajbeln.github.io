@@ -1,7 +1,7 @@
 ---
-title: "[SOK 3] Leonidas presentationssång"
-singer: "Leonidas sjunger"
-melody: "Sweet Transvestite, Rocky Horror Show"
+title: '[SOK 3] Leonidas presentationssång'
+singer: 'Leonidas sjunger'
+melody: 'Sweet Transvestite, Rocky Horror Show'
 spex: sokrates
 order: 6
 permalink: false

@@ -1,11 +1,12 @@
 ---
-title: "[KLE 1] Kleopatras IntroduktionsKomplott"
-singer: "Kleopatra sjunger"
-melody: "Friends like me – Aladdin Broadway"
+title: '[KLE 1] Kleopatras IntroduktionsKomplott'
+singer: 'Kleopatra sjunger'
+melody: 'Friends like me – Aladdin Broadway'
 spex: kleopatra
 order: 2
 permalink: false
 ---
+
 (Göttigt intro!)
 Här har ni mig, jag är Kleopatra!
 Drottning av Egyptens land!

@@ -1,7 +1,7 @@
 ---
-title: "[NOS 3] Husförhörsmenuett"
-singer: "Ingeborg sjunger, Emil lyssnar"
-melody: "Opp Amaryllis"
+title: '[NOS 3] Husförhörsmenuett'
+singer: 'Ingeborg sjunger, Emil lyssnar'
+melody: 'Opp Amaryllis'
 spex: nosaby
 order: 3
 permalink: false

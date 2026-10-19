@@ -1,7 +1,7 @@
 ---
-title: "[KUK 1] Halles introduktionskortis"
-singer: "Halle sjunger"
-melody: "Jag möte Lassie"
+title: '[KUK 1] Halles introduktionskortis'
+singer: 'Halle sjunger'
+melody: 'Jag möte Lassie'
 spex: kubakrisen-2003-04
 order: 4
 permalink: false

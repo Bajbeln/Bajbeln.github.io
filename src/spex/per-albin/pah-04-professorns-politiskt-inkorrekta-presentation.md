@@ -1,7 +1,7 @@
 ---
-title: "[PAH 4] Professorns politiskt inkorrekta presentation"
-singer: "Professor Backman sjunger"
-melody: "Jesus älskar alla barnen"
+title: '[PAH 4] Professorns politiskt inkorrekta presentation'
+singer: 'Professor Backman sjunger'
+melody: 'Jesus älskar alla barnen'
 spex: per-albin
 order: 6
 permalink: false

@@ -1,7 +1,7 @@
 ---
-title: "[NOS 8] Totalfinal"
-singer: "Nosabyborna sjunger"
-melody: "Wunderbar!, C. Porter."
+title: '[NOS 8] Totalfinal'
+singer: 'Nosabyborna sjunger'
+melody: 'Wunderbar!, C. Porter.'
 spex: nosaby
 order: 9
 permalink: false

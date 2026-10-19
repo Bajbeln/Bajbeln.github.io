@@ -1,11 +1,12 @@
 ---
-title: "[E14 18] Elizabeths Eleganta Entré"
-singer: "Elizabeth sjunger"
-melody: "Me, ur Beauty and the Beast"
+title: '[E14 18] Elizabeths Eleganta Entré'
+singer: 'Elizabeth sjunger'
+melody: 'Me, ur Beauty and the Beast'
 spex: erik-xiv-2021
 order: 2
 permalink: false
 ---
+
 Elizabeth, the Virgin Queen
 Vi har kommit hit
 Vid resan hit vi lida pin

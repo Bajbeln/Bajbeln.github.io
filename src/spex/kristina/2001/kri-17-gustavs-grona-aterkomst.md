@@ -1,11 +1,12 @@
 ---
-title: "[KRI 13] Gustavs gröna återkomst, en smal sak"
-singer: "Gustav II Adolf"
-melody: "Lambeth walk"
+title: '[KRI 13] Gustavs gröna återkomst, en smal sak'
+singer: 'Gustav II Adolf'
+melody: 'Lambeth walk'
 spex: kristina-2001
 order: 17
 permalink: false
 ---
+
 Jag har varit på turné
 En gastronomisk odysse
 I fjärran land

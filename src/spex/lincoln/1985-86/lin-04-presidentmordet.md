@@ -1,7 +1,7 @@
 ---
-title: "[LIN 4] Presidentmordet"
-singer: "Lee och Dobber sjunger"
-melody: "Du ska va president, Imperiet"
+title: '[LIN 4] Presidentmordet'
+singer: 'Lee och Dobber sjunger'
+melody: 'Du ska va president, Imperiet'
 spex: lincoln-1985-86
 order: 14
 permalink: false

@@ -1,7 +1,7 @@
 ---
-title: "[LIN 9] Linds och Ericssons presentationssång"
-singer: "Lind och Ericsson sjunger"
-melody: "Det var dans bort i vägen"
+title: '[LIN 9] Linds och Ericssons presentationssång'
+singer: 'Lind och Ericsson sjunger'
+melody: 'Det var dans bort i vägen'
 spex: lincoln-1990
 order: 3
 permalink: false

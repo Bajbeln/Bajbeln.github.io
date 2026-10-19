@@ -1,11 +1,12 @@
 ---
-title: "[SEV 3] Suicidsång"
-singer: "Sussie Dahl sjunger"
-melody: "La Felicidad"
+title: '[SEV 3] Suicidsång'
+singer: 'Sussie Dahl sjunger'
+melody: 'La Felicidad'
 spex: sketchofreni
 order: 4
 permalink: false
 ---
+
 Jag har vatt så lessen
 Av stressen och av pressen
 Har inte en spänn

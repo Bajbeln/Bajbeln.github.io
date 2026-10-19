@@ -1,7 +1,7 @@
 ---
-title: "[MOT 1] Kapitalisttwist"
-singer: "Morgan och Dolores sjunger"
-melody: "Under the sea"
+title: '[MOT 1] Kapitalisttwist'
+singer: 'Morgan och Dolores sjunger'
+melody: 'Under the sea'
 spex: mot-strommen
 order: 1
 permalink: false

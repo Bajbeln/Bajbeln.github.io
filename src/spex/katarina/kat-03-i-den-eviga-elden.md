@@ -1,10 +1,11 @@
 ---
-title: "[KAT 3] I den eviga elden"
-melody: "In the dark of the night"
+title: '[KAT 3] I den eviga elden'
+melody: 'In the dark of the night'
 spex: katarina
 order: 6
 permalink: false
 ---
+
 **Patriarken:**
 På gatan som barn i misär och tragik
 Föraktad och hånad av Rysslands elit

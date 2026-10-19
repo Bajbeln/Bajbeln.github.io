@@ -1,11 +1,12 @@
 ---
-title: "[CXI 4] Aktfinal 2"
-singer: "Combatgruppen Blåsippan sjunger"
-melody: "Sveriges kompani, Eddie Menduza"
+title: '[CXI 4] Aktfinal 2'
+singer: 'Combatgruppen Blåsippan sjunger'
+melody: 'Sveriges kompani, Eddie Menduza'
 spex: carl-xi
 order: 7
 permalink: false
 ---
+
 **Hare-Åke** Vi är dom som slåss för Skåneland
 Slåss med både hand och tand ibland
 Håriga som harar,

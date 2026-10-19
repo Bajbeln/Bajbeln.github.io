@@ -1,7 +1,7 @@
 ---
-title: "[KRO 8] Transpirantas visa"
-singer: "Transpiranta sjunger"
-melody: "Leonoras cabaletta ur Trubaduren av Verdi"
+title: '[KRO 8] Transpirantas visa'
+singer: 'Transpiranta sjunger'
+melody: 'Leonoras cabaletta ur Trubaduren av Verdi'
 spex: krook
 order: 20
 permalink: false

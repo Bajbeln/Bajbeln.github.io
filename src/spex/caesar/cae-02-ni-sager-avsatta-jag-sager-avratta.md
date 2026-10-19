@@ -1,7 +1,7 @@
 ---
-title: "[CAE 2] Ni säger avsätta, jag säger avrätta"
-singer: "Biblius sjunger"
-melody: "Sixteen Tons"
+title: '[CAE 2] Ni säger avsätta, jag säger avrätta'
+singer: 'Biblius sjunger'
+melody: 'Sixteen Tons'
 spex: caesar
 order: 5
 permalink: false

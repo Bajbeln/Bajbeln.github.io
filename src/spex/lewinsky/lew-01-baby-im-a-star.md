@@ -1,11 +1,12 @@
 ---
 title: "[LEW 1] Baby I'm A Star"
-singer: "Lewinsky, Krister & Bill Clinton sjunger"
-melody: "Why Should I Worry?, ur Oliver & gänget"
+singer: 'Lewinsky, Krister & Bill Clinton sjunger'
+melody: 'Why Should I Worry?, ur Oliver & gänget'
 spex: lewinsky
 order: 1
 permalink: false
 ---
+
 **Lewinsky:** Tog Greyhoundbussen in till sta'n!
 Miss Lewinsky i DC
 **Krister:** En stad av knark och samvetskval

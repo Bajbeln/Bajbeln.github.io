@@ -1,11 +1,12 @@
 ---
-title: "[ETC 2] Kosmonautens klagan"
-singer: "Tanja och Yuri sjunger"
-melody: "I believe, Book of Mormon"
+title: '[ETC 2] Kosmonautens klagan'
+singer: 'Tanja och Yuri sjunger'
+melody: 'I believe, Book of Mormon'
 spex: sketchetera
 order: 2
 permalink: false
 ---
+
 **Tanja:** Mina två drömyrken som barn
 dom var rätt och slätt: köra traktor,
 och jobba så att pannan badar i svett

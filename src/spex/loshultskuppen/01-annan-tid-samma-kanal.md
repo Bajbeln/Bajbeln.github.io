@@ -1,10 +1,11 @@
 ---
-title: "[LOS 1] Annan tid, samma kanal"
-melody: "Papaya Coconut, Kicki Danielsson"
+title: '[LOS 1] Annan tid, samma kanal'
+melody: 'Papaya Coconut, Kicki Danielsson'
 spex: loshultskuppen
 order: 1
 permalink: false
 ---
+
 Annan tid, samma kanal.
 Föreningsliv i skogen
 var lite vildare, var lite busigare,

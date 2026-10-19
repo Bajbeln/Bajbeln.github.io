@@ -1,11 +1,12 @@
 ---
-title: "[CvL 7] Hybrisduetten"
-singer: "Swedenborg och hans docka sjunger"
-melody: "Strangers in the Night"
+title: '[CvL 7] Hybrisduetten'
+singer: 'Swedenborg och hans docka sjunger'
+melody: 'Strangers in the Night'
 spex: linne-2005
 order: 3
 permalink: false
 ---
+
 **Swedenborg:**
 Som ett ungt geni
 Var jag bespottad

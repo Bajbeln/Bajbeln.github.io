@@ -1,10 +1,11 @@
 ---
-title: "19. Kärlekskupletten"
-melody: "Lay your love on me – BWO"
+title: '19. Kärlekskupletten'
+melody: 'Lay your love on me – BWO'
 spex: kristina-2023-24
 order: 19
 permalink: false
 ---
+
 Rudbeck: Vad är denna nya känsla?
 Drottningen: Att du mig nu aggressivt vill gränsla?
 **R:** Något pirrar här i magen

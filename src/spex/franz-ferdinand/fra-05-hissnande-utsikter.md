@@ -1,7 +1,7 @@
 ---
-title: "[FRA 5] Hissnande utsikter"
-singer: "Franz Jerring och hisspersonalen sjunger"
-melody: "Hey Boy – Teddybears STHLM"
+title: '[FRA 5] Hissnande utsikter'
+singer: 'Franz Jerring och hisspersonalen sjunger'
+melody: 'Hey Boy – Teddybears STHLM'
 spex: franz-ferdinand
 order: 10
 permalink: false

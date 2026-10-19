@@ -1,11 +1,12 @@
 ---
-title: "[JER 3] Hellre gift än gift"
-singer: "Sibylla och Balduin den Spetälske sjunger"
-melody: "Money, money, money"
+title: '[JER 3] Hellre gift än gift'
+singer: 'Sibylla och Balduin den Spetälske sjunger'
+melody: 'Money, money, money'
 spex: jerusalem
 order: 4
 permalink: false
 ---
+
 **Sibylla:** De kommer ifrån fjärran land,
 går ner på knä och tar min hand.
 **Balduin:** Håll min tand [ger Hebes en tand]

@@ -1,11 +1,12 @@
 ---
-title: "[PUN 8] Incest när den är som bäst"
-singer: "Glodia och Messsalintt sjunger"
-melody: "Allt syns när man är naken, BAO"
+title: '[PUN 8] Incest när den är som bäst'
+singer: 'Glodia och Messsalintt sjunger'
+melody: 'Allt syns när man är naken, BAO'
 spex: karthago
 order: 10
 permalink: false
 ---
+
 **Båda:** Här har ni äkta syskon-
 kärlek, när den är som bäst.
 Vad kallas dubbel kärlek?

@@ -1,7 +1,7 @@
 ---
-title: "[KUK 2] Kristjev är så hård och hemlig"
-singer: "KGB sjunger"
-melody: "Bergsprängartango"
+title: '[KUK 2] Kristjev är så hård och hemlig'
+singer: 'KGB sjunger'
+melody: 'Bergsprängartango'
 spex: kubakrisen-2003-04
 order: 6
 permalink: false
@@ -49,4 +49,4 @@ Har en stillett i dojan
 Men är diskret, därför bor han på hemlighuset
 Vår nummer ett uti Sovjet
 
-_*alt. Ooh det är Jan Guillou_
+_\*alt. Ooh det är Jan Guillou_

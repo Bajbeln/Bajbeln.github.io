@@ -1,11 +1,12 @@
 ---
-title: "[SKE 2] En sång om the dark side of the love"
-singer: "De fyra nunnorna sjunger"
-melody: "jul, jul, strålande jul"
+title: '[SKE 2] En sång om the dark side of the love'
+singer: 'De fyra nunnorna sjunger'
+melody: 'jul, jul, strålande jul'
 spex: sketchistens
 order: 3
 permalink: false
 ---
+
 Strul, Strul, Karnevalsstrul
 Nu sprids det könssjukdomar.
 I hela lundagårds grönskande prunk,

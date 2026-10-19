@@ -1,7 +1,7 @@
 ---
-title: "[TJO 20] Vi ska bygga ett Japan 2"
-singer: "Geishorna, Sony och Akai sjunger"
-melody: "Digga Darwin"
+title: '[TJO 20] Vi ska bygga ett Japan 2'
+singer: 'Geishorna, Sony och Akai sjunger'
+melody: 'Digga Darwin'
 spex: tjogun-2009
 order: 8
 permalink: false

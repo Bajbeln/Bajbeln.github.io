@@ -1,11 +1,12 @@
 ---
-title: "[FLO 6] Nattvaktens presentationssång"
-singer: "Ronnie Rembrant sjunger"
-melody: "Hallelujah I Love Him So"
+title: '[FLO 6] Nattvaktens presentationssång'
+singer: 'Ronnie Rembrant sjunger'
+melody: 'Hallelujah I Love Him So'
 spex: florence-1996-97
 order: 16
 permalink: false
 ---
+
 Låt mig berätta hur jag hamna här
 Jag hatar folk och jag är sur och tvär
 Jag ville ha ett jobb i ensamhet

@@ -1,7 +1,7 @@
 ---
-title: "[OSF 4] Myggkupletten"
-singer: "Myggorna sjunger"
-melody: "Sandman"
+title: '[OSF 4] Myggkupletten'
+singer: 'Myggorna sjunger'
+melody: 'Sandman'
 spex: os-feber
 order: 6
 permalink: false

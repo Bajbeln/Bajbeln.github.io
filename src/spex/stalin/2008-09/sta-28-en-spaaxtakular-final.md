@@ -1,11 +1,12 @@
 ---
-title: "[STA 28] En spääxtakulär final"
-singer: "Alla sjunger"
-melody: "En andlig sång (Du ska aldrig runka bulle), Grotesco"
+title: '[STA 28] En spääxtakulär final'
+singer: 'Alla sjunger'
+melody: 'En andlig sång (Du ska aldrig runka bulle), Grotesco'
 spex: stalin-2008-09
 order: 21
 permalink: false
 ---
+
 **Polacker:** År nittonhundra-arton sa man
 Aldrig mera krig!
 Men nittonhundra-fyrtio

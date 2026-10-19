@@ -1,11 +1,12 @@
 ---
-title: "[FLO 4] Undervisningssång"
-singer: "Nanny, Helga, Florence och sjuka sjunger"
-melody: "Gee, Officer Krupke!"
+title: '[FLO 4] Undervisningssång'
+singer: 'Nanny, Helga, Florence och sjuka sjunger'
+melody: 'Gee, Officer Krupke!'
 spex: florence-1996-97
 order: 7
 permalink: false
 ---
+
 **Nanny:** Här kommer nu den första
 Det borde vara lätt
 **Helga:** Ojoj, det var det största

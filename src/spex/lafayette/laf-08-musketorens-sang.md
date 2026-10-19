@@ -1,11 +1,12 @@
 ---
-title: "[LAF 8] Musketörens sång"
-singer: "Sjungs av Loranga, Masarin & Dartanjang"
-melody: "Frisörens sång - ur Grisen i säcken"
+title: '[LAF 8] Musketörens sång'
+singer: 'Sjungs av Loranga, Masarin & Dartanjang'
+melody: 'Frisörens sång - ur Grisen i säcken'
 spex: lafayette
 order: 10
 permalink: false
 ---
+
 Om du ska ut och fajtas en kväll
 Med en pistol av gammal modell
 Löper du en risk

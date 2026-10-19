@@ -1,10 +1,11 @@
 ---
-title: "[SAN 5] Halleluja - final"
-melody: "Halleluja"
+title: '[SAN 5] Halleluja - final'
+melody: 'Halleluja'
 spex: sannladan
 order: 12
 permalink: false
 ---
+
 **Ensam, förvirrad student:**
 Var e resten? Var e jag?
 Var e festen? Va e de för dag?

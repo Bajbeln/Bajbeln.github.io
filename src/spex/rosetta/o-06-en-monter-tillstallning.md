@@ -1,7 +1,7 @@
 ---
-title: "[O 6] En monter tillställning"
-singer: "Mässdeltagarna sjunger"
-melody: "Some Nights – Fun"
+title: '[O 6] En monter tillställning'
+singer: 'Mässdeltagarna sjunger'
+melody: 'Some Nights – Fun'
 spex: rosetta
 order: 10
 permalink: false

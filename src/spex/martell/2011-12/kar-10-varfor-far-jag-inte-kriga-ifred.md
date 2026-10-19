@@ -1,7 +1,7 @@
 ---
-title: "[KAR 10] Varför får jag inte kriga ifred?"
-singer: "Abu Bakr och Karl Martell sjunger"
-melody: "You and me (but mostly me) ur The Book of Mormon"
+title: '[KAR 10] Varför får jag inte kriga ifred?'
+singer: 'Abu Bakr och Karl Martell sjunger'
+melody: 'You and me (but mostly me) ur The Book of Mormon'
 spex: karl-martell-2011-12
 order: 3
 permalink: false

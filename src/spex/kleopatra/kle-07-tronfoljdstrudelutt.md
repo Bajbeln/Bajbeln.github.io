@@ -1,11 +1,12 @@
 ---
-title: "[KLE 7] Tronföljdstrudelutt (Har ni hört det feta?)"
-singer: "Ptolesyskon sjunger"
-melody: "Belle – Skönheten & odjuret"
+title: '[KLE 7] Tronföljdstrudelutt (Har ni hört det feta?)'
+singer: 'Ptolesyskon sjunger'
+melody: 'Belle – Skönheten & odjuret'
 spex: kleopatra
 order: 13
 permalink: false
 ---
+
 **Ptolemaja:** Gråa moln, Nu är sorgens dagar,
 **Ptolematilda:** Var är far? Våran tron står tom.
 **Ptolemadeläine:** Gråa moln, Gudar hör vår klagan,

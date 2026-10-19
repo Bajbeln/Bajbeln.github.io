@@ -1,7 +1,7 @@
 ---
-title: "[KUK 6] Wass boot"
-singer: "Thor, Ole, Mette och Marit sjunger"
-melody: "Blue Moon"
+title: '[KUK 6] Wass boot'
+singer: 'Thor, Ole, Mette och Marit sjunger'
+melody: 'Blue Moon'
 spex: kubakrisen-2003-04
 order: 12
 permalink: false

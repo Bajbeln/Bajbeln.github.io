@@ -1,11 +1,12 @@
 ---
-title: "[BRA 8] Slutkuplett (ht24)"
-singer: "Alla sjunger"
-melody: "Tusen och en natt"
+title: '[BRA 8] Slutkuplett (ht24)'
+singer: 'Alla sjunger'
+melody: 'Tusen och en natt'
 spex: tycho
 order: 13
 permalink: false
 ---
+
 Efter all intrig och allt på spel
 Slapp vi alla sjunga på den sista sången
 Vilken tur beräkningen va fel

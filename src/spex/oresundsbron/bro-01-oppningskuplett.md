@@ -1,11 +1,12 @@
 ---
-title: "[BRO 1] Öppningskuplett"
-singer: "MANNE MOSESSON sjunger"
-melody: "Burning Love – Elvis Presley"
+title: '[BRO 1] Öppningskuplett'
+singer: 'MANNE MOSESSON sjunger'
+melody: 'Burning Love – Elvis Presley'
 spex: oresundsbron
 order: 1
 permalink: false
 ---
+
 Från kullens fyr
 ner till Falsterbonäset
 Där Östersjön

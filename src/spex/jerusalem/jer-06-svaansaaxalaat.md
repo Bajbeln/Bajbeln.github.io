@@ -1,11 +1,12 @@
 ---
-title: "[JER 6] Sväänsääxalååt"
-singer: "Friarna, Templeriddarna, Balduin och Hebes sjunger"
-melody: "I got a dream"
+title: '[JER 6] Sväänsääxalååt'
+singer: 'Friarna, Templeriddarna, Balduin och Hebes sjunger'
+melody: 'I got a dream'
 spex: jerusalem
 order: 9
 permalink: false
 ---
+
 **Vald:** Här är vi, tre goa kungar
 **Barb:** som här glider in i klunga.
 **Richard:** Mot oss kan ingen drottning sig besvärja.

@@ -1,11 +1,12 @@
 ---
-title: "[HÅL 4] Någon av oss måste kapitälera [sic]"
-singer: "Hedin, Hertha och Ellen Fries sjunger"
-melody: "BaBaBa, Miss Li"
+title: '[HÅL 4] Någon av oss måste kapitälera [sic]'
+singer: 'Hedin, Hertha och Ellen Fries sjunger'
+melody: 'BaBaBa, Miss Li'
 spex: lagsta-punkten
 order: 8
 permalink: false
 ---
+
 Vi har grävt skatter bort i fjärran land
 och vi kan uppskatta tjusningen i
 stenar och sand - ett äventyr

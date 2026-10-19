@@ -1,7 +1,7 @@
 ---
-title: "[CIV 3] Ett ur-lyckligt slut (Kirsten Munks korta presentationssång)"
-singer: "Kirsten och Alla män sjunger"
-melody: "Jazzbacillen"
+title: '[CIV 3] Ett ur-lyckligt slut (Kirsten Munks korta presentationssång)'
+singer: 'Kirsten och Alla män sjunger'
+melody: 'Jazzbacillen'
 spex: christian-iv-1990-91
 order: 10
 permalink: false

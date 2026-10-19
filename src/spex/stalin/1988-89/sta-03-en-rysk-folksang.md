@@ -1,10 +1,11 @@
 ---
-title: "[STA 3] En rysk folksång"
-melody: "Stenka Rasin"
+title: '[STA 3] En rysk folksång'
+melody: 'Stenka Rasin'
 spex: stalin-1988-89
 order: 9
 permalink: false
 ---
+
 Ack, hur vackert allt kan vara
 Här vid Volgas gröna strand
 Aldrig aldrig vill jag fara

@@ -1,11 +1,12 @@
 ---
-title: "[FLO 5] Aktfinal II - Vem är död nu?"
-singer: "Florence, Nanny och Edmund sjunger"
-melody: "Oh, Lady Be Good"
+title: '[FLO 5] Aktfinal II - Vem är död nu?'
+singer: 'Florence, Nanny och Edmund sjunger'
+melody: 'Oh, Lady Be Good'
 spex: florence-1996-97
 order: 12
 permalink: false
 ---
+
 Stoppad i en stor kartong
 Och svept i en gammal duk
 Lindad som en trång kokong

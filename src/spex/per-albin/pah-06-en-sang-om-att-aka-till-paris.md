@@ -1,7 +1,7 @@
 ---
-title: "[PAH 6] En sång om att åka till Paris"
-singer: "Pytt och Big Ben sjunger"
-melody: "I know him so well (ur Chess)"
+title: '[PAH 6] En sång om att åka till Paris'
+singer: 'Pytt och Big Ben sjunger'
+melody: 'I know him so well (ur Chess)'
 spex: per-albin
 order: 9
 permalink: false

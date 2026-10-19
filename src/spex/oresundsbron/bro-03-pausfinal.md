@@ -1,11 +1,12 @@
 ---
-title: "[BRO 3] Pausfinal"
-singer: "Carl Bildt, DK:s statsminister, Conny, Mr. Ferry, kritikerna, landstinget & byggarbetarna sjunger"
-melody: "In The Navy – Village People"
+title: '[BRO 3] Pausfinal'
+singer: 'Carl Bildt, DK:s statsminister, Conny, Mr. Ferry, kritikerna, landstinget & byggarbetarna sjunger'
+melody: 'In The Navy – Village People'
 spex: oresundsbron
 order: 8
 permalink: false
 ---
+
 **Carl:** Vi har nu förhandlat, osämjan förvandlat
 Till en ny samstämmighet
 **Danmarks Statsminister:** Vi förenar länder, fatta mina händer

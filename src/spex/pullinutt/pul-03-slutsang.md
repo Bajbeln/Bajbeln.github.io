@@ -1,7 +1,7 @@
 ---
-title: "[PUL 3] Slutsång"
-singer: "Alla sjunger"
-melody: "Tomtarnas julbal, Gullan Bornemark"
+title: '[PUL 3] Slutsång'
+singer: 'Alla sjunger'
+melody: 'Tomtarnas julbal, Gullan Bornemark'
 spex: pullinutt
 order: 9
 permalink: false

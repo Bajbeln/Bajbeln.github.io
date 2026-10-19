@@ -1,11 +1,12 @@
 ---
-title: "[LAF 10] Ode till Brödette"
-singer: "Sjungs av Pierre & Brödette"
-melody: "Suddenly Seymour - ur Little Shop of Horrors"
+title: '[LAF 10] Ode till Brödette'
+singer: 'Sjungs av Pierre & Brödette'
+melody: 'Suddenly Seymour - ur Little Shop of Horrors'
 spex: lafayette
 order: 12
 permalink: false
 ---
+
 **Pierre**
 Hej på dig brödet,
 det var ett tag sen
@@ -23,7 +24,7 @@ Bland ugnar och plåtar,
 Mitt bageri är så tomt
 när vi är isär
 En tårta står helt utan ljus,
-*snyft*
+_snyft_
 hipp hipp hurra...
 
 **Brödette**

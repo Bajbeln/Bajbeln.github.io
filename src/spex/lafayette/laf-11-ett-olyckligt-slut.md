@@ -1,11 +1,12 @@
 ---
-title: "[LAF 11] Ett olyckligt slut"
-singer: "Sjungs av Alla"
-melody: "Alla flickor - Linda Bengtzing"
+title: '[LAF 11] Ett olyckligt slut'
+singer: 'Sjungs av Alla'
+melody: 'Alla flickor - Linda Bengtzing'
 spex: lafayette
 order: 14
 permalink: false
 ---
+
 **Pierre**
 Nu gick allting väldigt snett
 Ett slut ingen förutsett

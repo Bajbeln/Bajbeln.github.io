@@ -1,7 +1,7 @@
 ---
-title: "[MTV 3] Slumpen och Kärlekens sång"
-singer: "Nixon och Amanda sjunger"
-melody: "Sams sång"
+title: '[MTV 3] Slumpen och Kärlekens sång'
+singer: 'Nixon och Amanda sjunger'
+melody: 'Sams sång'
 spex: mtv
 order: 6
 permalink: false

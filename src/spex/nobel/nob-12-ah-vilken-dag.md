@@ -1,7 +1,7 @@
 ---
-title: "[NOB 12] Åh, vilken dag"
-singer: "Nikita, Le Non, kaptenen och matroserna sjunger"
-melody: "Oh, Happy Day"
+title: '[NOB 12] Åh, vilken dag'
+singer: 'Nikita, Le Non, kaptenen och matroserna sjunger'
+melody: 'Oh, Happy Day'
 spex: nobel
 order: 16
 permalink: false

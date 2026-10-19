@@ -1,7 +1,7 @@
 ---
-title: "[CAE 3] Du var prost och jag hade brost"
-singer: "Servilia sjunger"
-melody: "Håll om mig"
+title: '[CAE 3] Du var prost och jag hade brost'
+singer: 'Servilia sjunger'
+melody: 'Håll om mig'
 spex: caesar
 order: 8
 permalink: false

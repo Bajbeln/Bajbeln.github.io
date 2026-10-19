@@ -1,7 +1,7 @@
 ---
-title: "[NOB 10] Plottpluttinuttisnuttitutt"
-singer: "Nobel, Oscar II och Le Non sjunger"
-melody: "Tonight ur Westside Story"
+title: '[NOB 10] Plottpluttinuttisnuttitutt'
+singer: 'Nobel, Oscar II och Le Non sjunger'
+melody: 'Tonight ur Westside Story'
 spex: nobel
 order: 13
 permalink: false

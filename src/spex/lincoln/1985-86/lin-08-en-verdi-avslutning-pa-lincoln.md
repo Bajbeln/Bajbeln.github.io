@@ -1,7 +1,7 @@
 ---
-title: "[LIN 8] En Verdi avslutning på Lincoln"
-singer: "Alla sjunger"
-melody: "Zigenarkören, ur Verdis Trubaduren"
+title: '[LIN 8] En Verdi avslutning på Lincoln'
+singer: 'Alla sjunger'
+melody: 'Zigenarkören, ur Verdis Trubaduren'
 spex: lincoln-1985-86
 order: 20
 permalink: false

@@ -1,7 +1,7 @@
 ---
-title: "[DAR 7] Mingelsången"
-singer: "Victoria, Gauss, Sonja, Hertigen, Darwin & Greger sjunger"
-melody: "Dradel"
+title: '[DAR 7] Mingelsången'
+singer: 'Victoria, Gauss, Sonja, Hertigen, Darwin & Greger sjunger'
+melody: 'Dradel'
 spex: darwin-2005
 order: 15
 permalink: false

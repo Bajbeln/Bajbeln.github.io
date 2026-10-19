@@ -1,7 +1,7 @@
 ---
-title: "[KAR 6] Aktfinalsslakt"
-singer: "Pippin och Korken sjunger"
-melody: "Fångad av en stormvind"
+title: '[KAR 6] Aktfinalsslakt'
+singer: 'Pippin och Korken sjunger'
+melody: 'Fångad av en stormvind'
 spex: karl-martell-1997
 order: 15
 permalink: false

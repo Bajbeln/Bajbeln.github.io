@@ -1,7 +1,7 @@
 ---
-title: "[PAH 8] Vi ska bygga bunkrar"
-singer: "Lottorna, Ernst, Nazisterna och Håkanssons sjunger"
-melody: "Gonna build a mountain"
+title: '[PAH 8] Vi ska bygga bunkrar'
+singer: 'Lottorna, Ernst, Nazisterna och Håkanssons sjunger'
+melody: 'Gonna build a mountain'
 spex: per-albin
 order: 12
 permalink: false

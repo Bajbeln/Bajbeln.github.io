@@ -1,11 +1,12 @@
 ---
-title: "[E14 15] Skurkfinal"
-singer: "Johan, Karl och Brünnhilde sjunger"
-melody: "Vägen till Curacao"
+title: '[E14 15] Skurkfinal'
+singer: 'Johan, Karl och Brünnhilde sjunger'
+melody: 'Vägen till Curacao'
 spex: erik-xiv-2004-05
 order: 4
 permalink: false
 ---
+
 **Johan**
 Imorrn är det dags för en stor bedrift.
 I Eriks soppa vi lägger gift

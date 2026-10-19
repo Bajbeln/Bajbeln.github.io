@@ -1,7 +1,7 @@
 ---
-title: "[HJA 1] Vi är glada Kristianstadsbor"
-singer: "Glada Kristianstadsbor sjunger"
-melody: "The entertainer"
+title: '[HJA 1] Vi är glada Kristianstadsbor'
+singer: 'Glada Kristianstadsbor sjunger'
+melody: 'The entertainer'
 spex: hjalmar
 order: 1
 permalink: false

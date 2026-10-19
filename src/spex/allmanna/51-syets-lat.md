@@ -1,10 +1,11 @@
 ---
-title: "51. Syets låt"
-melody: "Holding Out for a Hero – Bonnie Tyler"
+title: '51. Syets låt'
+melody: 'Holding Out for a Hero – Bonnie Tyler'
 spex: allmanna
 order: 51
 permalink: false
 ---
+
 Byta kostymer! Att stå och knäppa en skjorta
 medan tiden är knapp
 Det är fan inte lätt, när det stinker av svett

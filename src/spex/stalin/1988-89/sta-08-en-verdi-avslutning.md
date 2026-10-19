@@ -1,11 +1,12 @@
 ---
-title: "[STA 8] En Verdi avslutning"
-singer: "Alla sjunger"
-melody: "Zigenarkören ur Verdis Trubaduren"
+title: '[STA 8] En Verdi avslutning'
+singer: 'Alla sjunger'
+melody: 'Zigenarkören ur Verdis Trubaduren'
 spex: stalin-1988-89
 order: 29
 permalink: false
 ---
+
 **Cia och Fritz:**
 Ribbenhopp och Stalin konspirerade om makten
 Sicken flopp! Med bomben konfirmerade man pakten

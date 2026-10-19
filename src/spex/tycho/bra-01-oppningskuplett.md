@@ -1,11 +1,12 @@
 ---
-title: "[BRA 1] Öppningskuplett"
-singer: "Alla sjunger"
-melody: "River deep, Mountain high"
+title: '[BRA 1] Öppningskuplett'
+singer: 'Alla sjunger'
+melody: 'River deep, Mountain high'
 spex: tycho
 order: 1
 permalink: false
 ---
+
 Femtonhundra-åttioett, där har vi Brahe
 En astronom med mycket koll
 Jobbar både dag och natt, den där Tycho Brahe

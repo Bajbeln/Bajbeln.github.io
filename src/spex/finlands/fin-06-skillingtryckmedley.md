@@ -1,7 +1,7 @@
 ---
-title: "[FIN 6] Skillingtryckmedley"
-singer: "Walter och Werner sjunger"
-melody: "Skillingtryck"
+title: '[FIN 6] Skillingtryckmedley'
+singer: 'Walter och Werner sjunger'
+melody: 'Skillingtryck'
 spex: finlands
 order: 8
 permalink: false

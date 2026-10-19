@@ -1,11 +1,12 @@
 ---
-title: "[E14 8] Kockarnas kortis"
-singer: "Kockarna Bruse sjunger"
-melody: "Fläska på med musik"
+title: '[E14 8] Kockarnas kortis'
+singer: 'Kockarna Bruse sjunger'
+melody: 'Fläska på med musik'
 spex: erik-xiv-1995-96
 order: 15
 permalink: false
 ---
+
 **Alla**
 Syskon är jobbigt att ha
 För det tycker i alla fall jag

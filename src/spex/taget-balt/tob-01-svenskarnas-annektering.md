@@ -1,11 +1,12 @@
 ---
-title: "[TÖB 1] Svenskarnas Annektering"
-singer: "Karl XI och svenska soldeter sjunger"
-melody: "Gröna Granna Sköna Sanna Sommar, Lill-Babs"
+title: '[TÖB 1] Svenskarnas Annektering'
+singer: 'Karl XI och svenska soldeter sjunger'
+melody: 'Gröna Granna Sköna Sanna Sommar, Lill-Babs'
 spex: taget-balt
 order: 2
 permalink: false
 ---
+
 Här har ni
 mig/han den svenska kungen på en åker
 jag/han annekterar allt som kommer i min/hans väg

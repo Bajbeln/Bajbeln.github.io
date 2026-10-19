@@ -1,11 +1,12 @@
 ---
-title: "[LAF 6] Kär i Pierre / Pierre är kär"
-singer: "Sjungs av Pierre & Marie"
-melody: "I Believe - ur The Book of Mormon"
+title: '[LAF 6] Kär i Pierre / Pierre är kär'
+singer: 'Sjungs av Pierre & Marie'
+melody: 'I Believe - ur The Book of Mormon'
 spex: lafayette
 order: 6
 permalink: false
 ---
+
 **Marie**
 Vad är det som händer, jag känner mig svag
 **Pierre**

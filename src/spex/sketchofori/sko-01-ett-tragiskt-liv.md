@@ -1,10 +1,11 @@
 ---
-title: "[SKO 1] Ett tragiskt liv är mycket mer tragiskt utan kaffe, medan ett lyckligt liv är så mycket lyckligare med kaffe."
-melody: "The flesh failures (Let the sunshine in) ur Hair"
+title: '[SKO 1] Ett tragiskt liv är mycket mer tragiskt utan kaffe, medan ett lyckligt liv är så mycket lyckligare med kaffe.'
+melody: 'The flesh failures (Let the sunshine in) ur Hair'
 spex: sketchofori
 order: 1
 permalink: false
 ---
+
 **A**
 — Hur ska jag nånsin kunna ta
 **B**

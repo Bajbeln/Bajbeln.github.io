@@ -1,7 +1,7 @@
 ---
-title: "[KUK 11] Världsledarna battlar (igen)"
-singer: "Kennedy och Chrustjev"
-melody: "Johnny B Good"
+title: '[KUK 11] Världsledarna battlar (igen)'
+singer: 'Kennedy och Chrustjev'
+melody: 'Johnny B Good'
 spex: kubakrisen-2008
 order: 1
 permalink: false

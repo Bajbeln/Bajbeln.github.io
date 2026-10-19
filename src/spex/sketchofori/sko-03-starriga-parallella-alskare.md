@@ -1,10 +1,11 @@
 ---
-title: "[SKO 3] Starriga parallella älskare"
-melody: "The history of (the) wrong guys"
+title: '[SKO 3] Starriga parallella älskare'
+melody: 'The history of (the) wrong guys'
 spex: sketchofori
 order: 3
 permalink: false
 ---
+
 **A**
 Jag önskar att jag kunde få en partner
 som har både Volvo och stil

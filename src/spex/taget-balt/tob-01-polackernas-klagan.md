@@ -1,11 +1,12 @@
 ---
-title: "[TÖB 1] Polackernas klagan"
-singer: "Polackerna sjunger"
-melody: "Deliver us, ur The Prince of Egypt"
+title: '[TÖB 1] Polackernas klagan'
+singer: 'Polackerna sjunger'
+melody: 'Deliver us, ur The Prince of Egypt'
 spex: taget-balt
 order: 1
 permalink: false
 ---
+
 Vi har plogat vår åker i å-årtal
 Aldrig nånsinn vi fått någon skörd
 Hur ska vi klara oss

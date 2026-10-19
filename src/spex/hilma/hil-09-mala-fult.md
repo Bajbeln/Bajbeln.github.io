@@ -1,11 +1,12 @@
 ---
-title: "[HIL 7] Måla Fult"
-singer: "Sjungs av Hilma, Vandalina & Munch"
-melody: "Avundsjuk - Nanne Grönvall"
+title: '[HIL 7] Måla Fult'
+singer: 'Sjungs av Hilma, Vandalina & Munch'
+melody: 'Avundsjuk - Nanne Grönvall'
 spex: hilma
 order: 9
 permalink: false
 ---
+
 **Vandalina:** Se ditt vita kanvas, fatta penseln
 Skapa något nytt
 Men handen som styr kreationen
@@ -38,7 +39,7 @@ Hon är fast i vår hypnos
 **Munch:** Måla oförståeligt
 **Vandalina:** Helt utan nått motiv
 Och du ner i konstnärsgraven
-Tar ditt sista kliv *HAHA!*
+Tar ditt sista kliv _HAHA!_
 **Alla:** Måla nu, ja fortsätt måla nu
 **Munch:** Med färger ska du inte snåla
 **Hilma:** Måla! Måla! Måla! Måla!

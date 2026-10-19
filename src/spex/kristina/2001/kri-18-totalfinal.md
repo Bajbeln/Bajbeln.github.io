@@ -1,11 +1,12 @@
 ---
-title: "[KRI 13] Totalfinal"
-singer: "Många"
-melody: "Gummi Bears theme"
+title: '[KRI 13] Totalfinal'
+singer: 'Många'
+melody: 'Gummi Bears theme'
 spex: kristina-2001
 order: 18
 permalink: false
 ---
+
 **Alla:**
 En kork i en panna kan drömmar besanna
 Som det kan bli, lyckan har stått oss bi

@@ -1,7 +1,7 @@
 ---
-title: "[MOT 10] Aktfinal III"
-singer: "Edison och Tesla sjunger"
-melody: "Money, Money ur Cabaret"
+title: '[MOT 10] Aktfinal III'
+singer: 'Edison och Tesla sjunger'
+melody: 'Money, Money ur Cabaret'
 spex: mot-strommen
 order: 12
 permalink: false

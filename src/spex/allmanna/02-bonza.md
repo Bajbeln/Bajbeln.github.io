@@ -1,9 +1,10 @@
 ---
-title: "2. Bonza"
+title: '2. Bonza'
 spex: allmanna
 order: 2
 permalink: false
 ---
+
 Bam barabam barabam barabambam Bonza!
 Bam barabam barabam barabam
 Bam barabam bam bam

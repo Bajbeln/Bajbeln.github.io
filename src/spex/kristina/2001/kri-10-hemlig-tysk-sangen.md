@@ -1,11 +1,12 @@
 ---
-title: "[KRI 7] Hemlig tysk-sången"
-singer: "Wallenstein, Axel och Louise"
-melody: "Jädrigt obskyr spansk tango (av R. Carra)"
+title: '[KRI 7] Hemlig tysk-sången'
+singer: 'Wallenstein, Axel och Louise'
+melody: 'Jädrigt obskyr spansk tango (av R. Carra)'
 spex: kristina-2001
 order: 10
 permalink: false
 ---
+
 Genom Sverige gick min färd i det fördolda
 Är ytterst hemlig, min skrud förnemmlig
 Har i Tyskland lämnat mina trupper bålda

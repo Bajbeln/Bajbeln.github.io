@@ -4,6 +4,7 @@ spex: allmanna
 order: 12
 permalink: false
 ---
+
 Immanuel Kant was a real piss-ant
 Who was very rarely stable
 Heidegger, Heidegger was a boozy beggar

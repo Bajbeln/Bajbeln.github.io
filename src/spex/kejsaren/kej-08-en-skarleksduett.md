@@ -1,6 +1,6 @@
 ---
-title: "[KEJ 8] En skärleksduett"
-singer: "Din Seng och Li Su sjunger"
+title: '[KEJ 8] En skärleksduett'
+singer: 'Din Seng och Li Su sjunger'
 melody: "Nothing's gonna change my love for you"
 spex: kejsaren-av-kina
 order: 16

@@ -1,7 +1,7 @@
 ---
-title: "[PAH 1] Här händer ingenting"
-singer: "Tidningsbudet, Pytt och Håkanssons sjunger"
-melody: "Colonel Bogey march"
+title: '[PAH 1] Här händer ingenting'
+singer: 'Tidningsbudet, Pytt och Håkanssons sjunger'
+melody: 'Colonel Bogey march'
 spex: per-albin
 order: 1
 permalink: false

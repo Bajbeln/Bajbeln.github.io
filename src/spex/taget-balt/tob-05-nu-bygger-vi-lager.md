@@ -1,11 +1,12 @@
 ---
-title: "[TÖB 5] Nu bygger vi läger"
-singer: "Karl XI, Wrangel & soldater sjunger"
+title: '[TÖB 5] Nu bygger vi läger'
+singer: 'Karl XI, Wrangel & soldater sjunger'
 melody: "When we're human, ur Prinsessan & grodan"
 spex: taget-balt
 order: 8
 permalink: false
 ---
+
 **W:** Se så och sätt nu fart
 Så att vi får lägret klart
 Hela vårt förband

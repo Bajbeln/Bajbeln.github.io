@@ -1,10 +1,11 @@
 ---
-title: "14. Kristina är kung"
-melody: "Crazy in love - Beyoncé"
+title: '14. Kristina är kung'
+melody: 'Crazy in love - Beyoncé'
 spex: kristina-2023-24
 order: 14
 permalink: false
 ---
+
 Ku-kung, ku-kung, ku-kung Kristina
 Ku-kung, ku-kung, ku-kung Kristina
 Ku-kung, ku-kung, ku-kung Kristina

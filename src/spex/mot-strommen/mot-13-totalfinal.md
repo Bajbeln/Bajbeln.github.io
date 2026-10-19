@@ -1,7 +1,7 @@
 ---
-title: "[MOT 13] Totalfinal"
-singer: "Många sjunger"
-melody: "Night train to Memphis"
+title: '[MOT 13] Totalfinal'
+singer: 'Många sjunger'
+melody: 'Night train to Memphis'
 spex: mot-strommen
 order: 16
 permalink: false

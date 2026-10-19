@@ -1,11 +1,12 @@
 ---
-title: "[BRA 8] Fredriks presentation"
-singer: "Fredrik och Novastella sjunger"
-melody: "Wallace & Gromit"
+title: '[BRA 8] Fredriks presentation'
+singer: 'Fredrik och Novastella sjunger'
+melody: 'Wallace & Gromit'
 spex: tycho
 order: 12
 permalink: false
 ---
+
 **Fredrik:** Jag heter Fredrik den andre
 Konung i landet röd och vit
 Jag heter Fredrik den andre

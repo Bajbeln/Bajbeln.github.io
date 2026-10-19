@@ -1,11 +1,12 @@
 ---
-title: "[HIL 7] Vi gömmer oss"
-singer: "Sjungs av Anna Casell, Munch, Vandalina, Strindberg & Selma"
-melody: "Never Ever Getting Rid of Me - ur Waitress"
+title: '[HIL 7] Vi gömmer oss'
+singer: 'Sjungs av Anna Casell, Munch, Vandalina, Strindberg & Selma'
+melody: 'Never Ever Getting Rid of Me - ur Waitress'
 spex: hilma
 order: 10
 permalink: false
 ---
+
 **Vandalina:** När helst som man nu har gömt sig
 För att smidigt sabotera
 Kommer någon genast och så
@@ -53,7 +54,7 @@ Börja inte lipa
 **Strindberg:** Lovar inget!
 Min magflora är helt kaputt
 Se upp här kommer det en
-*prutt*
+_prutt_
 **Anna:** Vad va det där?
 Hörde någonting jag svär
 **Övriga:** Tror det är lugnt

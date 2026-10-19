@@ -1,11 +1,12 @@
 ---
-title: "[FLO 6] Hyllningssång"
-singer: "Florences hysteriska fans sjunger"
-melody: "Rövarnas visa ur Kamomilla stad"
+title: '[FLO 6] Hyllningssång'
+singer: 'Florences hysteriska fans sjunger'
+melody: 'Rövarnas visa ur Kamomilla stad'
 spex: florence-1996-97
 order: 14
 permalink: false
 ---
+
 En sköterska dom kallade
 Heroisk i tidning
 Och nu vet plötsligt alla det

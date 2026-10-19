@@ -1,11 +1,12 @@
 ---
-title: "[STA 4] Vi ska bygga en traktor"
-singer: "Stalin och Molotov sjunger"
-melody: "Gonna Build a Mountain"
+title: '[STA 4] Vi ska bygga en traktor'
+singer: 'Stalin och Molotov sjunger'
+melody: 'Gonna Build a Mountain'
 spex: stalin-1988-89
 order: 17
 permalink: false
 ---
+
 Vi ska bygga en traktor av en massa skrot
 Vi ska bygga en haktor, nu ska vi få det gjort
 Vi ska bygga en traktor och göra drömmen sann

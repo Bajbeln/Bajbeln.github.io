@@ -1,11 +1,12 @@
 ---
-title: "[GUS 5] Spääxfinal"
-singer: "Många sjunger"
-melody: "Send the marines"
+title: '[GUS 5] Spääxfinal'
+singer: 'Många sjunger'
+melody: 'Send the marines'
 spex: gustav-iii
 order: 9
 permalink: false
 ---
+
 **GIII:** Allt ordnar sig till slut
 Jag härskar absolut
 Man skulle kunna ropa hipp hurr

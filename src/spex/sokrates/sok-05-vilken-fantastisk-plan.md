@@ -1,7 +1,7 @@
 ---
-title: "[SOK 5] Vilken fantastisk plan!"
-singer: "Platon, Ambrosia och Aristoteles sjunger"
-melody: "Tulsa Time, E Clapton"
+title: '[SOK 5] Vilken fantastisk plan!'
+singer: 'Platon, Ambrosia och Aristoteles sjunger'
+melody: 'Tulsa Time, E Clapton'
 spex: sokrates
 order: 10
 permalink: false

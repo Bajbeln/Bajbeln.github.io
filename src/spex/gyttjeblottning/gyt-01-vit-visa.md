@@ -1,7 +1,7 @@
 ---
 layout: song
-title: "[GYT 1] Vit visa"
-melody: "White Christmas"
+title: '[GYT 1] Vit visa'
+melody: 'White Christmas'
 spex: gyttjeblottning
 order: 5
 permalink: /gyttjeblottning/gyt-01-vit-visa/

@@ -1,7 +1,7 @@
 ---
-title: "[CAE 2] Gallernas presentationskuplett I"
-singer: "Gallerna sjunger"
-melody: "Asterix and Obelix theme"
+title: '[CAE 2] Gallernas presentationskuplett I'
+singer: 'Gallerna sjunger'
+melody: 'Asterix and Obelix theme'
 spex: caesar
 order: 4
 permalink: false

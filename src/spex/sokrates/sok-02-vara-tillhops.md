@@ -1,7 +1,7 @@
 ---
-title: "[SOK 2] Vara tillhops"
-singer: "Platon och Ambrosia sjunger"
-melody: "King Of the Road"
+title: '[SOK 2] Vara tillhops'
+singer: 'Platon och Ambrosia sjunger'
+melody: 'King Of the Road'
 spex: sokrates
 order: 3
 permalink: false

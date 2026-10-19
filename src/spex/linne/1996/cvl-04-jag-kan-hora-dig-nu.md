@@ -1,11 +1,12 @@
 ---
-title: "[CvL 4] Jag kan höra dig nu!"
-singer: "Louise och Carl d.y. sjunger"
-melody: "Tjakovskij symfoni nr. 6, pathétique, sats II"
+title: '[CvL 4] Jag kan höra dig nu!'
+singer: 'Louise och Carl d.y. sjunger'
+melody: 'Tjakovskij symfoni nr. 6, pathétique, sats II'
 spex: linne-1996
 order: 7
 permalink: false
 ---
+
 ::: cols
 **Louise:**
 Det är härligt att bara höra på

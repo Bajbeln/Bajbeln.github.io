@@ -1,11 +1,12 @@
 ---
-title: "[GUS 3] Det är synd om Näsman-sången"
-singer: "Näsman sjunger"
-melody: "Guldet blev till sand ur Kristina från Duvemåla"
+title: '[GUS 3] Det är synd om Näsman-sången'
+singer: 'Näsman sjunger'
+melody: 'Guldet blev till sand ur Kristina från Duvemåla'
 spex: gustav-iii
 order: 6
 permalink: false
 ---
+
 Hela livet så har jag tjänat Herran
 Jag har döpt människor från när och fjärran
 När Aurelia reste tog jag hand om hus och he

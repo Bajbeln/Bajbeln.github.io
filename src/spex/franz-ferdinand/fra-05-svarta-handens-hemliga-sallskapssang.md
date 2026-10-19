@@ -1,7 +1,7 @@
 ---
-title: "[FRA 5] Svarta handens hemliga sällskapssång"
-singer: "Svarta Handen sjunger"
-melody: "Che la luna mezzo mare – siciliansk trad"
+title: '[FRA 5] Svarta handens hemliga sällskapssång'
+singer: 'Svarta Handen sjunger'
+melody: 'Che la luna mezzo mare – siciliansk trad'
 spex: franz-ferdinand
 order: 11
 permalink: false

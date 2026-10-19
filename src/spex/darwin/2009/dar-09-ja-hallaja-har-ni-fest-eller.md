@@ -1,7 +1,7 @@
 ---
-title: "[DAR 9] Ja hallåja, har ni fest eller?"
-singer: "Victoria, Gauss, Darwin och Greger sjunger"
-melody: "Hallelujah"
+title: '[DAR 9] Ja hallåja, har ni fest eller?'
+singer: 'Victoria, Gauss, Darwin och Greger sjunger'
+melody: 'Hallelujah'
 spex: darwin-2009
 order: 2
 permalink: false

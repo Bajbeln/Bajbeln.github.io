@@ -1,7 +1,7 @@
 ---
-title: "[NIS 1] Nisse och klockan"
-singer: "Nisse och Klockan sjunger"
-melody: "Goodmorning Starshine"
+title: '[NIS 1] Nisse och klockan'
+singer: 'Nisse och Klockan sjunger'
+melody: 'Goodmorning Starshine'
 spex: nisse
 order: 1
 permalink: false

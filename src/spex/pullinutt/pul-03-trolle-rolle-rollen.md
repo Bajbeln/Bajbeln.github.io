@@ -1,7 +1,7 @@
 ---
-title: "[PUL 3] Trolle-rolle-rollen"
-singer: "Trollen sjunger"
-melody: "Go Tell It on the Mountain"
+title: '[PUL 3] Trolle-rolle-rollen'
+singer: 'Trollen sjunger'
+melody: 'Go Tell It on the Mountain'
 spex: pullinutt
 order: 7
 permalink: false

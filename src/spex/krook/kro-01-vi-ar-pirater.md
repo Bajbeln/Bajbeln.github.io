@@ -1,7 +1,7 @@
 ---
-title: "[KRO 1] Vi är pirater"
-singer: "Svarta Sara, Döds-Doris och Lisa med lappen sjunger"
-melody: "Come Together"
+title: '[KRO 1] Vi är pirater'
+singer: 'Svarta Sara, Döds-Doris och Lisa med lappen sjunger'
+melody: 'Come Together'
 spex: krook
 order: 1
 permalink: false

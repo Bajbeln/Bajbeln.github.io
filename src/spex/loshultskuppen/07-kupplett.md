@@ -1,10 +1,11 @@
 ---
-title: "[LOS 4] Kupp(lett)"
-melody: "Flash, Queen"
+title: '[LOS 4] Kupp(lett)'
+melody: 'Flash, Queen'
 spex: loshultskuppen
 order: 7
 permalink: false
 ---
+
 KUPP! AHAAA!
 Vi knycker era penningar!
 

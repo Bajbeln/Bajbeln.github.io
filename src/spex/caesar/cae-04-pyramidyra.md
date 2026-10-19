@@ -1,6 +1,6 @@
 ---
-title: "[CAE 4] Pyramidyra"
-singer: "Speerimaia sjunger"
+title: '[CAE 4] Pyramidyra'
+singer: 'Speerimaia sjunger'
 melody: "Let's build a snowman"
 spex: caesar
 order: 10

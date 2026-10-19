@@ -1,11 +1,12 @@
 ---
-title: "[GUS 2] Gustav har klätt ut sig"
-singer: "Toll, Gustav och Hebba sjunger"
-melody: "When you had left out pirate fold ur The pirates of Penzance"
+title: '[GUS 2] Gustav har klätt ut sig'
+singer: 'Toll, Gustav och Hebba sjunger'
+melody: 'When you had left out pirate fold ur The pirates of Penzance'
 spex: gustav-iii
 order: 3
 permalink: false
 ---
+
 **Toll:** Jag troode att jag tänkt på allt
 Jag hade packat väskan full
 Och om det skulle bli för kallt

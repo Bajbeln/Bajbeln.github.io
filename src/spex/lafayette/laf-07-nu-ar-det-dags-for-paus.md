@@ -1,11 +1,12 @@
 ---
-title: "[LAF 7] Nu är det dags för paus"
-singer: "Sjungs av Mary, Jane, Voltaire, Rousseau, Skrivaren, Marie & Pierre"
-melody: "Paris / Look Down - Les Misérables"
+title: '[LAF 7] Nu är det dags för paus'
+singer: 'Sjungs av Mary, Jane, Voltaire, Rousseau, Skrivaren, Marie & Pierre'
+melody: 'Paris / Look Down - Les Misérables'
 spex: lafayette
 order: 8
 permalink: false
 ---
+
 **Mary**
 Vi klär oss ut, och tar oss in
 Ludvig får inte veta nått

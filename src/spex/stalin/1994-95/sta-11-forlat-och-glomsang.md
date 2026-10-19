@@ -1,11 +1,12 @@
 ---
-title: "[STA 11] Förlåt-och-glömsång"
-singer: "Stalin och Olga sjunger"
+title: '[STA 11] Förlåt-och-glömsång'
+singer: 'Stalin och Olga sjunger'
 melody: "Plenty of Nuttin', Gershwin"
 spex: stalin-1994-95
 order: 5
 permalink: false
 ---
+
 **Stalin:**
 Förlåt mig älskade Olga
 Jag vet jag är en despot

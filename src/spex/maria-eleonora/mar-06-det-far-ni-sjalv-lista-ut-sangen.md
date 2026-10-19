@@ -1,7 +1,7 @@
 ---
-title: "[MAR 6] Det får ni själv lista ut-sången"
-singer: "Moster, Fabian och Anna sjunger"
-melody: "Just like a Boomerang"
+title: '[MAR 6] Det får ni själv lista ut-sången'
+singer: 'Moster, Fabian och Anna sjunger'
+melody: 'Just like a Boomerang'
 spex: maria-eleonora
 order: 7
 permalink: false

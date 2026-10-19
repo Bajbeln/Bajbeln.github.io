@@ -1,7 +1,7 @@
 ---
-title: "[OSF 1] Officiella OS-låten"
-singer: "Louis de Geer, Jönsson, m.fl. sjunger"
-melody: "We are all the winners mf."
+title: '[OSF 1] Officiella OS-låten'
+singer: 'Louis de Geer, Jönsson, m.fl. sjunger'
+melody: 'We are all the winners mf.'
 spex: os-feber
 order: 1
 permalink: false

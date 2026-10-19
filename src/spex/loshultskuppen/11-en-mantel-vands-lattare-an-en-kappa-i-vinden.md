@@ -1,10 +1,11 @@
 ---
-title: "[LOS 6] En mantel vänds lättare än en kappa i vinden"
-melody: "Paloma Blanca, George Baker Selection"
+title: '[LOS 6] En mantel vänds lättare än en kappa i vinden'
+melody: 'Paloma Blanca, George Baker Selection'
 spex: loshultskuppen
 order: 11
 permalink: false
 ---
+
 Jag är göing, och en rädd sån
 jag har aldrig lett en här
 men nu står han

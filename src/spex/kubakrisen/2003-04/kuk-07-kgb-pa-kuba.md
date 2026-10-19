@@ -1,7 +1,7 @@
 ---
-title: "[KUK 7] KGB på Kuba"
-singer: "5, 6, 7, 8 sjunger"
-melody: "Haydns trumpetkoncert"
+title: '[KUK 7] KGB på Kuba'
+singer: '5, 6, 7, 8 sjunger'
+melody: 'Haydns trumpetkoncert'
 spex: kubakrisen-2003-04
 order: 14
 permalink: false

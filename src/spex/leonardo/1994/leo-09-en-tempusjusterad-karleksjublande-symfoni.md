@@ -1,11 +1,12 @@
 ---
-title: "[LEO 9] En tempusjusterad kärleksjublande symfoni"
-singer: "Giovanni och Mona sjunger"
-melody: "De sista entusiasterna av P. Ramel"
+title: '[LEO 9] En tempusjusterad kärleksjublande symfoni'
+singer: 'Giovanni och Mona sjunger'
+melody: 'De sista entusiasterna av P. Ramel'
 spex: leonardo-1994
 order: 1
 permalink: false
 ---
+
 **Gio:** När jag fick se dig blev jag förlägen
 Och mina fötter stod dumt i vägen
 Men när du log blir mitt inre bubbligt som av kolsyra

@@ -1,11 +1,12 @@
 ---
-title: "[STA 19] Tanketrallandet"
-singer: "Ribbentropp, Stalin, Extasia, Molotov & Svetlana sjunger"
-melody: "Stand by me/Beautiful girls"
+title: '[STA 19] Tanketrallandet'
+singer: 'Ribbentropp, Stalin, Extasia, Molotov & Svetlana sjunger'
+melody: 'Stand by me/Beautiful girls'
 spex: stalin-2008-09
 order: 11
 permalink: false
 ---
+
 **Ribbentropp** _(repeteras genom hela låten)_:
 Tysk, jag är tysk... etc
 

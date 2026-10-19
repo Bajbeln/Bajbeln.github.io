@@ -1,11 +1,12 @@
 ---
-title: "[EIF 3] Lady Go Diva"
-singer: "Sarah Bernhart sjunger"
-melody: "New York, New York"
+title: '[EIF 3] Lady Go Diva'
+singer: 'Sarah Bernhart sjunger'
+melody: 'New York, New York'
 spex: eiffel
 order: 7
 permalink: false
 ---
+
 När jag gör entré
 Blir solen till grus
 Och faller ner och dör

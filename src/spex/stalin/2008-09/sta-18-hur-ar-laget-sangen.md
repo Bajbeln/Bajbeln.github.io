@@ -1,11 +1,12 @@
 ---
-title: "[STA 18] Hur är läget-sången (Du är Stalin)"
-singer: "Molotov sjunger"
-melody: "Slängpolska efter Kyss-Ba... nej jag menar Byss-Kalle"
+title: '[STA 18] Hur är läget-sången (Du är Stalin)'
+singer: 'Molotov sjunger'
+melody: 'Slängpolska efter Kyss-Ba... nej jag menar Byss-Kalle'
 spex: stalin-2008-09
 order: 7
 permalink: false
 ---
+
 Josef Stalin, fria folkets ledare; Stalin!
 Du är prästutbildad bolsjevik, kamrat, son och broder, pappa, älskare och äkta man
 Med en gest är, någon i Gulag på semester, men ta det lugnt dom älskar dig ändå

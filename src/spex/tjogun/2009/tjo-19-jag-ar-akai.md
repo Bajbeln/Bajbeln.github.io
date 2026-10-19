@@ -1,7 +1,7 @@
 ---
-title: "[TJO 19] Jag är akai"
-singer: "Akai sjunger"
-melody: "Högt över havet"
+title: '[TJO 19] Jag är akai'
+singer: 'Akai sjunger'
+melody: 'Högt över havet'
 spex: tjogun-2009
 order: 6
 permalink: false

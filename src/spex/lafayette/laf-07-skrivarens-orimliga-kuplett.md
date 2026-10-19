@@ -1,11 +1,12 @@
 ---
-title: "[LAF 7] Skrivarens orimliga kuplett"
-singer: "Sjungs av Skrivaren"
+title: '[LAF 7] Skrivarens orimliga kuplett'
+singer: 'Sjungs av Skrivaren'
 melody: "Morfar till mig själv / I'm My Own Grandpa - Lonzo & Oscar"
 spex: lafayette
 order: 7
 permalink: false
 ---
+
 Det här var ju en väldigt problematisk
 situation
 Och det blir bara värre av mitt val av

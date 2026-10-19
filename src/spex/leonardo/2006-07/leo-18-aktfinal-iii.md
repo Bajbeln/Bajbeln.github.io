@@ -1,7 +1,7 @@
 ---
-title: "[LEO 18] Aktfinal III"
-singer: "Giovanni, Mona och Frk Maffianelli sjunger"
-melody: "Ding Dong, Merrily on High"
+title: '[LEO 18] Aktfinal III'
+singer: 'Giovanni, Mona och Frk Maffianelli sjunger'
+melody: 'Ding Dong, Merrily on High'
 spex: leonardo-2006-07
 order: 6
 permalink: false

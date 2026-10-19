@@ -1,11 +1,12 @@
 ---
-title: "[STA 2] Bomben smäller högt"
-singer: "Ribbenhopp och alla andra sjunger"
-melody: "Manricos aria ur Verdis Trubaduren"
+title: '[STA 2] Bomben smäller högt'
+singer: 'Ribbenhopp och alla andra sjunger'
+melody: 'Manricos aria ur Verdis Trubaduren'
 spex: stalin-1988-89
 order: 7
 permalink: false
 ---
+
 **Ribbenhopp:**
 Ach, Du mein Josef
 Lyssna på detta

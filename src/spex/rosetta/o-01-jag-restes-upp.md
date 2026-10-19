@@ -1,7 +1,7 @@
 ---
-title: "[O 1] Jag restes upp"
-singer: "Rosettastenen sjunger"
-melody: "You raise me up – Josh Groban"
+title: '[O 1] Jag restes upp'
+singer: 'Rosettastenen sjunger'
+melody: 'You raise me up – Josh Groban'
 spex: rosetta
 order: 3
 permalink: false

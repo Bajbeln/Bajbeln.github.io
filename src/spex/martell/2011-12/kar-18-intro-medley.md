@@ -1,7 +1,7 @@
 ---
-title: "[KAR 18] Intro-Medley"
-singer: "Folk sjunger"
-melody: "Blandad kompott"
+title: '[KAR 18] Intro-Medley'
+singer: 'Folk sjunger'
+melody: 'Blandad kompott'
 spex: karl-martell-2011-12
 order: 14
 permalink: false

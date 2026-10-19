@@ -1,7 +1,7 @@
 ---
-title: "[SKE 1] ADHD-sången"
-singer: "Skolbarnen sjunger"
-melody: "YMCA"
+title: '[SKE 1] ADHD-sången'
+singer: 'Skolbarnen sjunger'
+melody: 'YMCA'
 spex: sketchup
 order: 2
 permalink: false

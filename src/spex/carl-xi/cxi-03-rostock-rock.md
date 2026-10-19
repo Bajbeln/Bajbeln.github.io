@@ -1,11 +1,12 @@
 ---
-title: "[CXI 3] Rostock rock"
-singer: "Peder Frestare sjunger"
-melody: "A little less conversation"
+title: '[CXI 3] Rostock rock'
+singer: 'Peder Frestare sjunger'
+melody: 'A little less conversation'
 spex: carl-xi
 order: 5
 permalink: false
 ---
+
 **Peder**
 En superdupermegaguru på trender och fester
 Spriten bryggs på vete och furu till elaka gäster

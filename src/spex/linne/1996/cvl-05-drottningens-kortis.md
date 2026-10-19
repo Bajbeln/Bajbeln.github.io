@@ -1,11 +1,12 @@
 ---
-title: "[CvL 5] Drottningens kortis"
-singer: "Drottning Lovisa Ulrika sjunger"
-melody: "Monkey Song, Monty Python"
+title: '[CvL 5] Drottningens kortis'
+singer: 'Drottning Lovisa Ulrika sjunger'
+melody: 'Monkey Song, Monty Python'
 spex: linne-1996
 order: 8
 permalink: false
 ---
+
 Jag var på besök hos konungen av Danmark
 När det kommer en kurir med ett kuvert
 Och trots värdfolkets protester

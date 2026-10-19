@@ -8,4 +8,3 @@ title: Spextitel År (ABB) # Shown as the page heading. Include year and abbrevi
 permalink: /spex-name/ # URL path for this spex — keep short and URL-safe
 spex: spextitel
 ---
-

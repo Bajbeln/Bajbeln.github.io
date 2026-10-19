@@ -1,11 +1,12 @@
 ---
-title: "[STA 16] Churchills ärliga visa"
-singer: "Churchill sjunger"
-melody: "King Gamas song ur Princess Ida"
+title: '[STA 16] Churchills ärliga visa'
+singer: 'Churchill sjunger'
+melody: 'King Gamas song ur Princess Ida'
 spex: stalin-2008-09
 order: 4
 permalink: false
 ---
+
 Man har sagt mig att jag är den allra suraste av män
 Fast jag är en filantrop och hela mänsklighetens vän
 Jag är oskyldig till att det blir en dålig atmosfär

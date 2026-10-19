@@ -1,11 +1,12 @@
 ---
-title: "[KRI 9] Exercissång"
-singer: "Kristina och soldaterna"
-melody: "Sjörövarfabbe"
+title: '[KRI 9] Exercissång'
+singer: 'Kristina och soldaterna'
+melody: 'Sjörövarfabbe'
 spex: kristina-2001
 order: 13
 permalink: false
 ---
+
 **Kristina:** Pennorna fram och kudden så
 Var nu beredda uti striden gå
 Pennfajter ska få dom förstå

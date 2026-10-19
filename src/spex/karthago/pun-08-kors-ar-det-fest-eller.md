@@ -1,11 +1,12 @@
 ---
-title: "[PUN 8] Kors! Är det fest eller? (Spääxfinal)"
-singer: "Alla sjunger"
-melody: "Eiffeltornet, Ted Mellangärdestad"
+title: '[PUN 8] Kors! Är det fest eller? (Spääxfinal)'
+singer: 'Alla sjunger'
+melody: 'Eiffeltornet, Ted Mellangärdestad'
 spex: karthago
 order: 11
 permalink: false
 ---
+
 **Diodorius:** Jag måste medge att
 Bli fäst vid era kors
 Ar nåt man vänjer sig vid

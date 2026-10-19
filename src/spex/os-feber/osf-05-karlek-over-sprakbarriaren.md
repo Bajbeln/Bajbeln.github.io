@@ -1,7 +1,7 @@
 ---
-title: "[OSF 5] Kärlek över språkbarriären"
-singer: "Caroline och Clas-Pierre sjunger"
-melody: "Eternal Flame"
+title: '[OSF 5] Kärlek över språkbarriären'
+singer: 'Caroline och Clas-Pierre sjunger'
+melody: 'Eternal Flame'
 spex: os-feber
 order: 7
 permalink: false

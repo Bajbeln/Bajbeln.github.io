@@ -1,7 +1,7 @@
 ---
-title: "[KRO 3] Alla är rädda för kapten Krook"
-singer: "Transpiranta, Stygg och mannarna sjunger"
-melody: "Ingen rädder för vargen här"
+title: '[KRO 3] Alla är rädda för kapten Krook'
+singer: 'Transpiranta, Stygg och mannarna sjunger'
+melody: 'Ingen rädder för vargen här'
 spex: krook
 order: 8
 permalink: false

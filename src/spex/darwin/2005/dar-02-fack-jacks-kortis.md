@@ -1,7 +1,7 @@
 ---
-title: "[DAR 2] Fack-Jacks kortis"
-singer: "Fack-Jack sjunger"
-melody: "Plåtlaggen"
+title: '[DAR 2] Fack-Jacks kortis'
+singer: 'Fack-Jack sjunger'
+melody: 'Plåtlaggen'
 spex: darwin-2005
 order: 4
 permalink: false

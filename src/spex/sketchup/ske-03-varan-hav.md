@@ -1,7 +1,7 @@
 ---
-title: "[SKE 3] Våran håv"
-singer: "Frälsta sjunger"
-melody: "Ovan där"
+title: '[SKE 3] Våran håv'
+singer: 'Frälsta sjunger'
+melody: 'Ovan där'
 spex: sketchup
 order: 5
 permalink: false

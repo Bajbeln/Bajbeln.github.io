@@ -1,6 +1,6 @@
 ---
-title: "[KAR 15] Påven är en medlarmåtta"
-singer: "Påven och byborna sjunger"
+title: '[KAR 15] Påven är en medlarmåtta'
+singer: 'Påven och byborna sjunger'
 melody: "What's the Use ur Candide"
 spex: karl-martell-2011-12
 order: 9

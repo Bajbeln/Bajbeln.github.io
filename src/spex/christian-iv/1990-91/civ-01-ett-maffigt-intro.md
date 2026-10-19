@@ -1,7 +1,7 @@
 ---
-title: "[CIV 1] Ett maffigt intro"
-singer: "Conny sjunger"
-melody: "Pick a Bale of Cotton"
+title: '[CIV 1] Ett maffigt intro'
+singer: 'Conny sjunger'
+melody: 'Pick a Bale of Cotton'
 spex: christian-iv-1990-91
 order: 1
 permalink: false

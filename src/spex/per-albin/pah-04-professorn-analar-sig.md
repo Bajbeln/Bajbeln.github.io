@@ -1,7 +1,7 @@
 ---
-title: "[PAH 4] Professorn analar sig"
-singer: "Professor Backman sjunger"
-melody: "Mylord"
+title: '[PAH 4] Professorn analar sig'
+singer: 'Professor Backman sjunger'
+melody: 'Mylord'
 spex: per-albin
 order: 5
 permalink: false

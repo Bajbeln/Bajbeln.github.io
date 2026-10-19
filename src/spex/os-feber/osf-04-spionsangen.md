@@ -1,7 +1,7 @@
 ---
-title: "[OSF 4] Spionsången"
-singer: "Claes-Pierre och Jannike"
-melody: "Ghostbusters"
+title: '[OSF 4] Spionsången'
+singer: 'Claes-Pierre och Jannike'
+melody: 'Ghostbusters'
 spex: os-feber
 order: 5
 permalink: false

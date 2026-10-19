@@ -1,7 +1,7 @@
 ---
-title: "[LIN 2] Läget är kritiskt"
-singer: "Oln, Pinkerton och Ericsson sjunger"
-melody: "Go Where I Send Thee"
+title: '[LIN 2] Läget är kritiskt'
+singer: 'Oln, Pinkerton och Ericsson sjunger'
+melody: 'Go Where I Send Thee'
 spex: lincoln-1985-86
 order: 8
 permalink: false

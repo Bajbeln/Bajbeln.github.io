@@ -1,5 +1,5 @@
 ---
-title: "[MTV 4] Dubbelmoralen: en sex-, våld- och spritsång"
+title: '[MTV 4] Dubbelmoralen: en sex-, våld- och spritsång'
 melody: "It's the End Of the World as We Know It, R.E.M."
 spex: mtv
 order: 9

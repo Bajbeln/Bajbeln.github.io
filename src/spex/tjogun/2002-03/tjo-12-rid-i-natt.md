@@ -1,7 +1,7 @@
 ---
-title: "[TJO 12] Rid i natt"
-singer: "Nissan Tank och Ieyasu Tokugawa sjunger"
-melody: "Jävel på kärlek"
+title: '[TJO 12] Rid i natt'
+singer: 'Nissan Tank och Ieyasu Tokugawa sjunger'
+melody: 'Jävel på kärlek'
 spex: tjogun-2002-03
 order: 2
 permalink: false

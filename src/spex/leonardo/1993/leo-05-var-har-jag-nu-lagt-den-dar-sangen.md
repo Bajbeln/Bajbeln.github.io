@@ -1,11 +1,12 @@
 ---
-title: "[LEO 5] Var-har-jag-nu-lagt-den-där-sången"
-singer: "Leonardo sjunger"
-melody: "Den lille tecknaren av P. Ramel"
+title: '[LEO 5] Var-har-jag-nu-lagt-den-där-sången'
+singer: 'Leonardo sjunger'
+melody: 'Den lille tecknaren av P. Ramel'
 spex: leonardo-1993
 order: 12
 permalink: false
 ---
+
 Det finns en uppfinnunare gömd inom oss alla
 Och i mitt fall har han haft en särdeles potens
 Allestädes i min verkstads villervalla

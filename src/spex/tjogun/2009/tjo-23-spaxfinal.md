@@ -1,7 +1,7 @@
 ---
-title: "[TJO 23] Spääxfinal"
-singer: "Alla sjunger"
-melody: "Wake me up before you go-go"
+title: '[TJO 23] Spääxfinal'
+singer: 'Alla sjunger'
+melody: 'Wake me up before you go-go'
 spex: tjogun-2009
 order: 11
 permalink: false

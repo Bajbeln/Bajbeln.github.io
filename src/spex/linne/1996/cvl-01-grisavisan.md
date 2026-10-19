@@ -1,11 +1,12 @@
 ---
-title: "[CvL 1] Grisavisan"
-singer: "Borgmästare Schultén sjunger"
-melody: "Er heißt Waldemar"
+title: '[CvL 1] Grisavisan'
+singer: 'Borgmästare Schultén sjunger'
+melody: 'Er heißt Waldemar'
 spex: linne-1996
 order: 1
 permalink: false
 ---
+
 Mina svin från Kina fick
 Jag importera själv, det gick
 Till slut men var rätt svårt

@@ -1,7 +1,7 @@
 ---
-title: "[FRA 7] Rådvill lådvisa"
-singer: "Gisela, Valerie, Gavrillo, Apis, Franz Josef sjunger"
-melody: "Tiny Toons theme"
+title: '[FRA 7] Rådvill lådvisa'
+singer: 'Gisela, Valerie, Gavrillo, Apis, Franz Josef sjunger'
+melody: 'Tiny Toons theme'
 spex: franz-ferdinand
 order: 15
 permalink: false

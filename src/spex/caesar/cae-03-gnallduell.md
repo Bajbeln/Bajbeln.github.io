@@ -1,7 +1,7 @@
 ---
-title: "[CAE 3] Gnällduell"
-singer: "Brutus, Cassius och Marcus Antonius sjunger"
-melody: "Vem e det du vill ha?"
+title: '[CAE 3] Gnällduell'
+singer: 'Brutus, Cassius och Marcus Antonius sjunger'
+melody: 'Vem e det du vill ha?'
 spex: caesar
 order: 7
 permalink: false

@@ -1,7 +1,7 @@
 ---
-title: "[KUK 14] Kristjeva är så hård och hemlig"
-singer: "Chrustjeu och KGB sjunger"
-melody: "Bergsprängartango"
+title: '[KUK 14] Kristjeva är så hård och hemlig'
+singer: 'Chrustjeu och KGB sjunger'
+melody: 'Bergsprängartango'
 spex: kubakrisen-2013
 order: 4
 permalink: false

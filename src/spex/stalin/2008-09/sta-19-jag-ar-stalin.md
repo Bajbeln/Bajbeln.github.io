@@ -1,11 +1,12 @@
 ---
-title: "[STA 19] Jag är Stalin"
-singer: "Stalin sjunger... Nähä.."
-melody: "Highway to hell"
+title: '[STA 19] Jag är Stalin'
+singer: 'Stalin sjunger... Nähä..'
+melody: 'Highway to hell'
 spex: stalin-2008-09
 order: 10
 permalink: false
 ---
+
 Jag är Stalin, bolsjevik
 Har ett sommarhus i Kazakstan
 Jag är mäktig, snygg och rik

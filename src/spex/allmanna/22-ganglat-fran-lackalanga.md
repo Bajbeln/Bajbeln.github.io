@@ -1,10 +1,11 @@
 ---
-title: "22. Gånglåt från Lackalänga"
-melody: "Horgalåten"
+title: '22. Gånglåt från Lackalänga'
+melody: 'Horgalåten'
 spex: allmanna
 order: 22
 permalink: false
 ---
+
 Uti Lackalänga är det sorgeligt
 Då är det sorgeligt
 Där stänger kiosken tidigt

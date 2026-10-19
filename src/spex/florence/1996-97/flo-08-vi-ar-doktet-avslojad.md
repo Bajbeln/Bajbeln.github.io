@@ -1,11 +1,12 @@
 ---
-title: "[FLO 8] Vi är doktet avslöjade"
-singer: "Harriet, Fred och Nanny sjunger"
-melody: "Zitti, zitti, piano, piano (Rossini)"
+title: '[FLO 8] Vi är doktet avslöjade'
+singer: 'Harriet, Fred och Nanny sjunger'
+melody: 'Zitti, zitti, piano, piano (Rossini)'
 spex: florence-1996-97
 order: 20
 permalink: false
 ---
+
 **Nanny:**
 Jag var lätt till sinnes kände mig så käck
 Hade framgången som i en liten säck

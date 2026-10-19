@@ -1,7 +1,7 @@
 ---
-title: "[KAR 17] Helstekt gris"
-singer: "Festdeltagarna sjunger"
-melody: "Vi ska lura Bamse"
+title: '[KAR 17] Helstekt gris'
+singer: 'Festdeltagarna sjunger'
+melody: 'Vi ska lura Bamse'
 spex: karl-martell-2011-12
 order: 13
 permalink: false

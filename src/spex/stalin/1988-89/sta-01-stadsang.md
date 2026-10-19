@@ -1,11 +1,12 @@
 ---
-title: "[STA 1] Städsång"
-singer: "En städerska sjunger"
-melody: "Ur Helsinglandspexet"
+title: '[STA 1] Städsång'
+singer: 'En städerska sjunger'
+melody: 'Ur Helsinglandspexet'
 spex: stalin-1988-89
 order: 2
 permalink: false
 ---
+
 Jag städar och dammar och bonar och gnor
 För Kreml rlrynmer till och med mer skit än vad man tror
 

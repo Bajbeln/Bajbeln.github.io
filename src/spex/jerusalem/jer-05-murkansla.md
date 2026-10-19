@@ -1,11 +1,12 @@
 ---
-title: "[JER 5] Murkänsla"
-singer: "Antoinette och frimurarorden sjunger"
-melody: "Hooked on a feeling"
+title: '[JER 5] Murkänsla'
+singer: 'Antoinette och frimurarorden sjunger'
+melody: 'Hooked on a feeling'
 spex: jerusalem
 order: 8
 permalink: false
 ---
+
 **Frimurarna:** Bygga murar, byggu, byggu murar etc.
 
 **Antoinette:** Över hela staden

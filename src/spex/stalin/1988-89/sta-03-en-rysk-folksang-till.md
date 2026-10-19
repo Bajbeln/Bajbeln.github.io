@@ -1,10 +1,11 @@
 ---
-title: "[STA 3] En rysk folksång till"
-melody: "Katjoska"
+title: '[STA 3] En rysk folksång till'
+melody: 'Katjoska'
 spex: stalin-1988-89
 order: 10
 permalink: false
 ---
+
 I min ungdom var jag väldigt fattig
 Jag fick endast äta gammalt fett
 Nu jag blivit gammal, knäpp och spattig

@@ -1,6 +1,6 @@
 ---
-title: "[DAR 9] Aktfinal III - kärlekssång"
-singer: "Emma och Darwin sjunger"
+title: '[DAR 9] Aktfinal III - kärlekssång'
+singer: 'Emma och Darwin sjunger'
 melody: "You're the inspiration"
 spex: darwin-2009
 order: 3

@@ -1,7 +1,7 @@
 ---
-title: "[KRO 4] Knotvisan"
-singer: "Grabbarna Grus sjunger"
-melody: "Visa från Utanmyra"
+title: '[KRO 4] Knotvisan'
+singer: 'Grabbarna Grus sjunger'
+melody: 'Visa från Utanmyra'
 spex: krook
 order: 10
 permalink: false

@@ -1,10 +1,11 @@
 ---
-title: "[LEO 22] Luthers kval"
-melody: "Svärföräldrarna"
+title: '[LEO 22] Luthers kval'
+melody: 'Svärföräldrarna'
 spex: leonardo-2018-19
 order: 2
 permalink: false
 ---
+
 Sen jag var en liten palt
 Har jag dyrkat gud i himmelen
 jag gör allt som han befallt

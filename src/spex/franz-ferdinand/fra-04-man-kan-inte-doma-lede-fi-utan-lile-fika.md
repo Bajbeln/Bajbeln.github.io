@@ -1,7 +1,7 @@
 ---
-title: "[FRA 4] Man kan inte döma lede fi utan lile fika"
-singer: "Domstolsfolket sjunger"
-melody: "Springtime for Hitler pt. II – ur The Producers"
+title: '[FRA 4] Man kan inte döma lede fi utan lile fika'
+singer: 'Domstolsfolket sjunger'
+melody: 'Springtime for Hitler pt. II – ur The Producers'
 spex: franz-ferdinand
 order: 9
 permalink: false

@@ -1,11 +1,12 @@
 ---
-title: "[LEO 7] Kardinalskuplett"
-singer: "Julius och kardinalerna sjunger"
-melody: "Knights of the Round Table av Monty Python"
+title: '[LEO 7] Kardinalskuplett'
+singer: 'Julius och kardinalerna sjunger'
+melody: 'Knights of the Round Table av Monty Python'
 spex: leonardo-1993
 order: 16
 permalink: false
 ---
+
 Vi är påvens kardinaler
 I kapor och sandaler
 Vår religion

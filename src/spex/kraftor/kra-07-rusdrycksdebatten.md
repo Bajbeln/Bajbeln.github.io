@@ -1,11 +1,12 @@
 ---
-title: "[KRÄ 4] Rusdrycksdebatten på Kristianstads stadshotell, 25 augusti 1922"
-singer: "Ivan Bratt, Fru Quist och Albert Engström sjunger"
-melody: "We Both Reached For The Gun, ur Chicago"
+title: '[KRÄ 4] Rusdrycksdebatten på Kristianstads stadshotell, 25 augusti 1922'
+singer: 'Ivan Bratt, Fru Quist och Albert Engström sjunger'
+melody: 'We Both Reached For The Gun, ur Chicago'
 spex: kraftor
 order: 7
 permalink: false
 ---
+
 _(talat)_
 **Ivan Bratt:**
 Damer och herrar,

@@ -12,15 +12,16 @@
 # Title — two formats:
 #   "N. Song Title"        ← number-first (newer spex)
 #   "[ABB N] Song Title"   ← abbreviation-first (most spex)
-title: "1. Exempelsång"
+title: '1. Exempelsång'
 
 # Who sings — optional, shown below the title
-singer: "Namn sjunger"
-melody: "Låttitel – Artist" # Melody — optional, shown below singer
+singer: 'Namn sjunger'
+melody: 'Låttitel – Artist' # Melody — optional, shown below singer
 spex: spextitel # Must match the spex: (or uppsattning id) in index.md
 order: 1 # Sort order within the production (integer, 1-based)
 permalink: false # Always false — songs are not standalone pages
 ---
+
 Här börjar sångtexten.
 Varje rad med enkel radbrytning håller ihop som en strof.
 

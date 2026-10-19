@@ -1,7 +1,7 @@
 ---
-title: "[KAR 17] Nu ska visst alla döda Kalle"
-singer: "I princip alla utom Karl Martell sjunger"
-melody: "Do You Hear The People Sing ur Les Miserables"
+title: '[KAR 17] Nu ska visst alla döda Kalle'
+singer: 'I princip alla utom Karl Martell sjunger'
+melody: 'Do You Hear The People Sing ur Les Miserables'
 spex: karl-martell-2011-12
 order: 12
 permalink: false

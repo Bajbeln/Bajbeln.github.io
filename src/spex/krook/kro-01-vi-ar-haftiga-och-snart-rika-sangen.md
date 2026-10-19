@@ -1,7 +1,7 @@
 ---
-title: "[KRO 1] Vi är häftiga och snart rika-sången"
-singer: "Flickorna sjunger"
-melody: "Waterloo"
+title: '[KRO 1] Vi är häftiga och snart rika-sången'
+singer: 'Flickorna sjunger'
+melody: 'Waterloo'
 spex: krook
 order: 2
 permalink: false

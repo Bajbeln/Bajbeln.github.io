@@ -1,11 +1,12 @@
 ---
-title: "[FLO 5] Lågan är tänd men vi är släkt"
-singer: "Edmund och Florence sjunger"
-melody: "Guck doch nicht immer nach dem Tangogeiger hin"
+title: '[FLO 5] Lågan är tänd men vi är släkt'
+singer: 'Edmund och Florence sjunger'
+melody: 'Guck doch nicht immer nach dem Tangogeiger hin'
 spex: florence-1996-97
 order: 10
 permalink: false
 ---
+
 **Flo:** Du for ut i kriget mot nån vild despot
 Så att vi skildes åt, jag föll i gråt
 Jag gick där ensam kvar och trånade

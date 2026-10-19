@@ -1,7 +1,7 @@
 ---
-title: "[PUL 3] Drakens magplåga"
-singer: "Draken sjunger"
-melody: "Varm korv boogie"
+title: '[PUL 3] Drakens magplåga'
+singer: 'Draken sjunger'
+melody: 'Varm korv boogie'
 spex: pullinutt
 order: 8
 permalink: false

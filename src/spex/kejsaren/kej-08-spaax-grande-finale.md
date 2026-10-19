@@ -1,7 +1,7 @@
 ---
-title: "[KEJ 8] Spääx-Grande Finale"
-singer: "Alla sjunger"
-melody: "Internationalen"
+title: '[KEJ 8] Spääx-Grande Finale'
+singer: 'Alla sjunger'
+melody: 'Internationalen'
 spex: kejsaren-av-kina
 order: 17
 permalink: false

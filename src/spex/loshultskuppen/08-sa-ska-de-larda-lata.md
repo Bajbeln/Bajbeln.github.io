@@ -1,10 +1,11 @@
 ---
-title: "[LOS 5] Så ska de lärda låta"
-melody: "Köttbullelåten, Ronny Rooster"
+title: '[LOS 5] Så ska de lärda låta'
+melody: 'Köttbullelåten, Ronny Rooster'
 spex: loshultskuppen
 order: 8
 permalink: false
 ---
+
 När helst som man hör någon som
 uttrycker sig fel
 Så kommer vi till undsättning och

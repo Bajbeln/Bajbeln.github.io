@@ -1,7 +1,7 @@
 ---
-title: "[LIN 1] Abraham och Jenny sjunger"
-singer: "Abraham och Jenny sjunger"
-melody: "All of Me"
+title: '[LIN 1] Abraham och Jenny sjunger'
+singer: 'Abraham och Jenny sjunger'
+melody: 'All of Me'
 spex: lincoln-1985-86
 order: 3
 permalink: false

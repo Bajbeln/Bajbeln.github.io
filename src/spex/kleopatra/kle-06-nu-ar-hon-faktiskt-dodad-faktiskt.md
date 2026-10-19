@@ -1,11 +1,12 @@
 ---
-title: "[KLE 6] Nu är hon faktiskt dödad, faktiskt."
-singer: "Alla sjunger"
-melody: "La Vida Loca – Ricky Martin"
+title: '[KLE 6] Nu är hon faktiskt dödad, faktiskt.'
+singer: 'Alla sjunger'
+melody: 'La Vida Loca – Ricky Martin'
 spex: kleopatra
 order: 12
 permalink: false
 ---
+
 **Ptolemaios:** Min dröm att möta döden, dödsriket är mitt kall
 Men Kleo hann ju före, mitt liv i sönderfall
 

@@ -1,11 +1,12 @@
 ---
-title: "[BRA 2] Aktfinal 1"
-singer: "Sofie sjunger duett med Sofie"
+title: '[BRA 2] Aktfinal 1'
+singer: 'Sofie sjunger duett med Sofie'
 melody: "What I've been looking for"
 spex: tycho
 order: 3
 permalink: false
 ---
+
 Jag kan inte tro
 En älg kunde sno
 Min chans till en befordran

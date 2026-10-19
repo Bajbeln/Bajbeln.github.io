@@ -1,6 +1,6 @@
 ---
-title: "[NOB 13] Kvinnokonventssången version 2.0"
-singer: "Bertha och tanterna sjunger"
+title: '[NOB 13] Kvinnokonventssången version 2.0'
+singer: 'Bertha och tanterna sjunger'
 melody: "When you're good to Mama ur Chicago"
 spex: nobel
 order: 18
@@ -24,7 +24,6 @@ Kvinnor kräver rösträtt
 Kärlek och respekt
 Det är dags att sluta
 Ses som sexobjekt
-
 
 Som man så gör du karriär
 Som doktor och jurist
@@ -57,7 +56,6 @@ Just börjat har äventyret
 Och ingenjörer
 
 Fredsarrangörer
-
 
 <br><br><br><br>
 Få rösträtt -vi ska få rösträtt

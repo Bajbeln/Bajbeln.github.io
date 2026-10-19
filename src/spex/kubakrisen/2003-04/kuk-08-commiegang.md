@@ -1,7 +1,7 @@
 ---
-title: "[KUK 8] Commiegång"
-singer: "Castro och Miss Johnson sjunger"
-melody: "The time of my life"
+title: '[KUK 8] Commiegång'
+singer: 'Castro och Miss Johnson sjunger'
+melody: 'The time of my life'
 spex: kubakrisen-2003-04
 order: 15
 permalink: false

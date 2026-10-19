@@ -1,7 +1,7 @@
 ---
-title: "[CAE 8] Ett ode värre än doden"
-singer: "VERSALIUS sjunger"
-melody: "Underbart"
+title: '[CAE 8] Ett ode värre än doden'
+singer: 'VERSALIUS sjunger'
+melody: 'Underbart'
 spex: caesar
 order: 16
 permalink: false

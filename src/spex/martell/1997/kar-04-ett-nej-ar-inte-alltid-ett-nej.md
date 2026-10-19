@@ -1,7 +1,7 @@
 ---
-title: "[KAR 4] Ett nej är inte alltid ett nej..."
-singer: "Karl Martell och Gretchen sjunger"
-melody: "Rara underbara Katarina"
+title: '[KAR 4] Ett nej är inte alltid ett nej...'
+singer: 'Karl Martell och Gretchen sjunger'
+melody: 'Rara underbara Katarina'
 spex: karl-martell-1997
 order: 9
 permalink: false

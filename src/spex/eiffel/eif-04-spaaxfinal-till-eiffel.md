@@ -1,11 +1,12 @@
 ---
-title: "[EIF 4] Spääxfinal till Eiffel"
-singer: "Många glada sjunger"
-melody: "So Long, Mom (Tom Lehrer)"
+title: '[EIF 4] Spääxfinal till Eiffel'
+singer: 'Många glada sjunger'
+melody: 'So Long, Mom (Tom Lehrer)'
 spex: eiffel
 order: 9
 permalink: false
 ---
+
 **Eiffel:**
 Inget knorr, nu far jag upp åt norr
 Jag fick en ny klient

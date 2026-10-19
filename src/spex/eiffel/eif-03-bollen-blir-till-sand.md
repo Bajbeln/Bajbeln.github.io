@@ -1,11 +1,12 @@
 ---
-title: "[EIF 3] Bollen blir till sand"
-singer: "Fru Carnegie sjunger"
-melody: "Jag är blott en stackars kvinna"
+title: '[EIF 3] Bollen blir till sand'
+singer: 'Fru Carnegie sjunger'
+melody: 'Jag är blott en stackars kvinna'
 spex: eiffel
 order: 6
 permalink: false
 ---
+
 Kvinnan hon har i våra dar
 Strävat att bli lik en man
 Och för att nå denna nivå

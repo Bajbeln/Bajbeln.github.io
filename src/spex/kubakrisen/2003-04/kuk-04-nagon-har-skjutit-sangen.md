@@ -1,7 +1,7 @@
 ---
-title: "[KUK 4] Någon har skjutit-sången"
-singer: "Kennedy, Jackie, Caroline och Lisbeth sjunger"
-melody: "Första satsen i Beethovens symfoni"
+title: '[KUK 4] Någon har skjutit-sången'
+singer: 'Kennedy, Jackie, Caroline och Lisbeth sjunger'
+melody: 'Första satsen i Beethovens symfoni'
 spex: kubakrisen-2003-04
 order: 10
 permalink: false

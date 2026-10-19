@@ -1,7 +1,7 @@
 ---
-title: "[KAR 5] Helstekt gris"
-singer: "Alla hungriga sjunger"
-melody: "Vi ska lura Bamse"
+title: '[KAR 5] Helstekt gris'
+singer: 'Alla hungriga sjunger'
+melody: 'Vi ska lura Bamse'
 spex: karl-martell-1997
 order: 12
 permalink: false

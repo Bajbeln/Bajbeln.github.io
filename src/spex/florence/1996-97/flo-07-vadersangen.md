@@ -1,11 +1,12 @@
 ---
-title: "[FLO 7] Vädersången"
-singer: "Vädersällskapet sjunger"
-melody: "The British Grenadiers"
+title: '[FLO 7] Vädersången'
+singer: 'Vädersällskapet sjunger'
+melody: 'The British Grenadiers'
 spex: florence-1996-97
 order: 18
 permalink: false
 ---
+
 Vi utgör en förening
 För var äkta väderfilantrop
 Som vet att livets mening

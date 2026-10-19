@@ -1,11 +1,12 @@
 ---
-title: "[BRO 5] Måskvartett"
-singer: "Måzart, Måskar, Måsika & Måsa-Lisa sjunger"
-melody: "Mr. Sandman – The Chordettes"
+title: '[BRO 5] Måskvartett'
+singer: 'Måzart, Måskar, Måsika & Måsa-Lisa sjunger'
+melody: 'Mr. Sandman – The Chordettes'
 spex: oresundsbron
 order: 12
 permalink: false
 ---
+
 Vi är måsar, här på en bro
 Vi chillar kant med
 grepp från våra klor

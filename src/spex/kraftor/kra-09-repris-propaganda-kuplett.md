@@ -1,11 +1,12 @@
 ---
-title: "[KRÄ 5] Repris: Propaganda-kuplett"
-singer: "Albert Engström sjunger igen"
-melody: "How The World Works, kortvers"
+title: '[KRÄ 5] Repris: Propaganda-kuplett'
+singer: 'Albert Engström sjunger igen'
+melody: 'How The World Works, kortvers'
 spex: kraftor
 order: 9
 permalink: false
 ---
+
 Att supa är kul – det vet ju de flesta
 Men det har varit svårt att få fyllon att rösta
 Nu har jag nåt som kommer locka!

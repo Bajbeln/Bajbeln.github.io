@@ -1,7 +1,7 @@
 ---
-title: "[KRO 9] Oh-vad-vi-älskar-varandra-sången"
-singer: "Många sjunger"
-melody: "I do, I do, I do, I do, I do"
+title: '[KRO 9] Oh-vad-vi-älskar-varandra-sången'
+singer: 'Många sjunger'
+melody: 'I do, I do, I do, I do, I do'
 spex: krook
 order: 22
 permalink: false

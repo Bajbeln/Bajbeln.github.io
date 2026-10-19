@@ -1,11 +1,12 @@
 ---
-title: "[KRÄ 5] Ivans anekdot(iska bevisföring)"
-singer: "Ivan Bratt sjunger"
-melody: "Trubbel, Olle Adolphson (i T. Körbergs version)"
+title: '[KRÄ 5] Ivans anekdot(iska bevisföring)'
+singer: 'Ivan Bratt sjunger'
+melody: 'Trubbel, Olle Adolphson (i T. Körbergs version)'
 spex: kraftor
 order: 10
 permalink: false
 ---
+
 När jag var ung, ja inte mer än åtta vårar
 Då när jag ännu bodde hos min mor och far
 Fanns det ett opium som familjeband försvårar

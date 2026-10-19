@@ -1,11 +1,12 @@
 ---
-title: "[CvL 2] Fröken Schulténs klagan"
-singer: "Louise sjunger"
-melody: "Att angöra en brygga"
+title: '[CvL 2] Fröken Schulténs klagan'
+singer: 'Louise sjunger'
+melody: 'Att angöra en brygga'
 spex: linne-1996
 order: 4
 permalink: false
 ---
+
 Jag har i hela mitt liv
 Fått hålla en hand över örat
 För att ej uppfatta tal

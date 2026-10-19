@@ -1,11 +1,12 @@
 ---
-title: "[STA 5] Sjunde himlen"
-singer: "Extasia och von Ribbenhopp sjunger"
-melody: "Sunny side of the Street"
+title: '[STA 5] Sjunde himlen'
+singer: 'Extasia och von Ribbenhopp sjunger'
+melody: 'Sunny side of the Street'
 spex: stalin-1988-89
 order: 21
 permalink: false
 ---
+
 **Extasia:**
 Dina stövlar gör mig het
 När du sparkar mig i baken

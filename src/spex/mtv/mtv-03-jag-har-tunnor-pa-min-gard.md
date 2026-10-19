@@ -1,7 +1,7 @@
 ---
-title: "[MTV 3] Jag har tunnor på min gård"
-singer: "Bonden och kören sjunger"
-melody: "Hon har blommor i sitt hår"
+title: '[MTV 3] Jag har tunnor på min gård'
+singer: 'Bonden och kören sjunger'
+melody: 'Hon har blommor i sitt hår'
 spex: mtv
 order: 7
 permalink: false

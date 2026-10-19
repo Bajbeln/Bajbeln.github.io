@@ -1,7 +1,7 @@
 ---
-title: "[NOB 7] Kölhalad och ölsaglad"
-singer: "Kaptenen och matroserna sjunger"
-melody: "Gospelship"
+title: '[NOB 7] Kölhalad och ölsaglad'
+singer: 'Kaptenen och matroserna sjunger'
+melody: 'Gospelship'
 spex: nobel
 order: 9
 permalink: false

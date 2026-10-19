@@ -1,11 +1,12 @@
 ---
-title: "[KRÄ 2] Min motbok och jag"
-singer: "Helan och Halvan sjunger"
+title: '[KRÄ 2] Min motbok och jag'
+singer: 'Helan och Halvan sjunger'
 melody: "I'm Beginning To See The Light"
 spex: kraftor
 order: 4
 permalink: false
 ---
+
 **Halvan:**
 Den tredje mars 1922
 Jag köpte en flaska från Bordeaux

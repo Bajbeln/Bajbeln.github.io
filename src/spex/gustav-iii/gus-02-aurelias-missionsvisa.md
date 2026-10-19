@@ -1,11 +1,12 @@
 ---
-title: "[GUS 2] Aurelias missionsvisa"
-singer: "Aurelia sjunger"
-melody: "En grön syrénberså"
+title: '[GUS 2] Aurelias missionsvisa'
+singer: 'Aurelia sjunger'
+melody: 'En grön syrénberså'
 spex: gustav-iii
 order: 4
 permalink: false
 ---
+
 Krischansta det övergav jag
 Bort ville jag från stan
 Från mänskor behäftade med synd

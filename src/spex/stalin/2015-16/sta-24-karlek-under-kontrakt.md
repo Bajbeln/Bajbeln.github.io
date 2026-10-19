@@ -1,11 +1,12 @@
 ---
-title: "[STA 24] Kärlek under kontrakt"
-singer: "Molotov och Svetlana sjunger"
-melody: "Hallelujah I love her so, Ray Charles"
+title: '[STA 24] Kärlek under kontrakt'
+singer: 'Molotov och Svetlana sjunger'
+melody: 'Hallelujah I love her so, Ray Charles'
 spex: stalin-2015-16
 order: 4
 permalink: false
 ---
+
 **Molotov:**
 Jag har spanat på dig länge nu,
 Och i min världsbild så finns bara du,

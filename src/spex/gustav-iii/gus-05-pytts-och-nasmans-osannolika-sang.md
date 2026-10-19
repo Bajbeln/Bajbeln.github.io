@@ -1,11 +1,12 @@
 ---
-title: "[GUS 5] Pytts och Näsmans osannolika sång"
-singer: "Näsman och Pytt sjunger"
+title: '[GUS 5] Pytts och Näsmans osannolika sång'
+singer: 'Näsman och Pytt sjunger'
 melody: "Baby it's cold outside, Loesser"
 spex: gustav-iii
 order: 8
 permalink: false
 ---
+
 _(Sångarna alternerar rad för rad där annat inte anges)_
 
 ::: cols
@@ -26,11 +27,11 @@ Men tråkigt sval
 Du får gärna på mig pilla
 Då har jag allt en bra medicin
 Vi dansar, jag för
-(*samtidigt*)
+(_samtidigt_)
 **Pytt:** Du ska bli min för vin
 **Näs:** Jag lider pin för vin
 
-*Dans*
+_Dans_
 
 **Näsman:**
 Jag känner mig varm
@@ -40,7 +41,7 @@ Håll blusen knäppt!
 Jag fångas här av en galning
 Och kelar inte bra under tvång
 Nu får det vara nog
-(*samtidigt:*)
+(_samtidigt:_)
 ::: col
 **Näsman:**
 Jag är faktiskt stadens präst

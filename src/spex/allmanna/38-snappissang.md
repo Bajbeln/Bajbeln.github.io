@@ -1,10 +1,11 @@
 ---
-title: "38. Snappissång"
-melody: "Århus Tappensteg"
+title: '38. Snappissång'
+melody: 'Århus Tappensteg'
 spex: allmanna
 order: 39
 permalink: false
 ---
+
 **Alla**
 Ryck upp dig och förtreten svälj
 Nu ska vi gå på Snappisbal

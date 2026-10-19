@@ -1,7 +1,7 @@
 ---
-title: "[KAR 20] Imamen är ond men ändå inte 2.0"
-singer: "Imamen och Sabelvakterna sjunger"
-melody: "Prince Ali"
+title: '[KAR 20] Imamen är ond men ändå inte 2.0'
+singer: 'Imamen och Sabelvakterna sjunger'
+melody: 'Prince Ali'
 spex: karl-martell-2011-12
 order: 16
 permalink: false

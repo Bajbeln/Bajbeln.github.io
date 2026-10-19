@@ -1,11 +1,12 @@
 ---
-title: "[KRÄ 3] Kristen kampanj-kuplett"
-singer: "Familjen Quist sjunger"
-melody: "Var är tvålen?, Povel Ramel"
+title: '[KRÄ 3] Kristen kampanj-kuplett'
+singer: 'Familjen Quist sjunger'
+melody: 'Var är tvålen?, Povel Ramel'
 spex: kraftor
 order: 5
 permalink: false
 ---
+
 **Fadern:** Bom
 **Sonen:** Bom
 **Den helige ande:** Bom

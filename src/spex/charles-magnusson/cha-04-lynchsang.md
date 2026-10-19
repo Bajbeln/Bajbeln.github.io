@@ -1,11 +1,12 @@
 ---
-title: "[CHA 4] Lynchsång"
-singer: "Niding och en ilsken Kristianstadsmobb sjunger"
-melody: "What Now My Love"
+title: '[CHA 4] Lynchsång'
+singer: 'Niding och en ilsken Kristianstadsmobb sjunger'
+melody: 'What Now My Love'
 spex: charles-magnusson
 order: 8
 permalink: false
 ---
+
 ::: cols
 **Mobben:**
 Se
@@ -20,7 +21,7 @@ Han är en skam, för våran stad - han borde doppas i ett syrabad
 Kokas i flott, grillas i spett - han ska få osa, han ska få det hett
 Fjättras i en, hönstoalett - han kan ej and-dass, det är bara rätt
 
-(*Hela texten från "Här står en man..." en gång till*)
+(_Hela texten från "Här står en man..." en gång till_)
 
 Nu är han fast, nu ska han få -
 Han har gjort nåt, som han ej fått - då är han skyldig och så ska han få

@@ -1,11 +1,12 @@
 ---
-title: "[ROF 3] Skolis Kurviosa Exposé"
-singer: "Skolis"
-melody: "My Number One – Helena Paparizou"
+title: '[ROF 3] Skolis Kurviosa Exposé'
+singer: 'Skolis'
+melody: 'My Number One – Helena Paparizou'
 spex: sketchostrof
 order: 3
 permalink: false
 ---
+
 Sensuella, se dom svälla
 Kurvornas magi kan alltid
 tillfredsställa

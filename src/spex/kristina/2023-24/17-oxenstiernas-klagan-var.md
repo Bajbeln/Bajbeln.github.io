@@ -1,10 +1,11 @@
 ---
-title: "17. Oxenstiernas klagan (vår)"
-melody: "Let me entertain you – Robbie Williams"
+title: '17. Oxenstiernas klagan (vår)'
+melody: 'Let me entertain you – Robbie Williams'
 spex: kristina-2023-24
 order: 17
 permalink: false
 ---
+
 Hovet glömde sin barnvakt
 En sexåring har tat min makt
 Nu skriker jag till ton och takt, väx upp.

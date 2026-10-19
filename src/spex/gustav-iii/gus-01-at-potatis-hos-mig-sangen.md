@@ -1,11 +1,12 @@
 ---
-title: "[GUS 1] Ät potatis hos mig-sången"
-singer: "Pytt, Ulla, Malla och Malte sjunger"
-melody: "Dansa samba med mig"
+title: '[GUS 1] Ät potatis hos mig-sången'
+singer: 'Pytt, Ulla, Malla och Malte sjunger'
+melody: 'Dansa samba med mig'
 spex: gustav-iii
 order: 2
 permalink: false
 ---
+
 **Pytt:**
 Jag är Ella Pytt och äger
 Enda krogen här i bygden

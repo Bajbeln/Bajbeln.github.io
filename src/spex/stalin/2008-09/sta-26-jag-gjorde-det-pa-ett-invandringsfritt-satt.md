@@ -1,11 +1,12 @@
 ---
-title: "[STA 26] Jag gjorde det på ett invandringsfritt sätt"
-singer: "Stalin sjunger"
-melody: "My way, Sid Vicious"
+title: '[STA 26] Jag gjorde det på ett invandringsfritt sätt'
+singer: 'Stalin sjunger'
+melody: 'My way, Sid Vicious'
 spex: stalin-2008-09
 order: 18
 permalink: false
 ---
+
 Mitt liv,
 när jag var ung.
 Var inte lätt,

@@ -1,10 +1,11 @@
 ---
-title: "[HIN 1] En stadsman göring ett rike"
-melody: "En svala gör ingen sommør"
+title: '[HIN 1] En stadsman göring ett rike'
+melody: 'En svala gör ingen sommør'
 spex: hindenburg
 order: 2
 permalink: false
 ---
+
 En stadsman gör inget rike
 Men min licens, täcker in både stridsplan och Mercedes Benz
 En stadsman gör inget rike

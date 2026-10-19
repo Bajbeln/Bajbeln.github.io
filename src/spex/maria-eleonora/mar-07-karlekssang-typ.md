@@ -1,7 +1,7 @@
 ---
-title: "[MAR 7] Kärlekssång, typ"
-singer: "Maria Eleonora och Dodo sjunger"
-melody: "The Q Man Loves Nobody"
+title: '[MAR 7] Kärlekssång, typ'
+singer: 'Maria Eleonora och Dodo sjunger'
+melody: 'The Q Man Loves Nobody'
 spex: maria-eleonora
 order: 9
 permalink: false

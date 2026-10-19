@@ -1,11 +1,12 @@
 ---
-title: "[E14 21] Slutkuplett ur Krischanstaspääxets återuppsättning av Erik XIV"
-singer: "Alla sjunger"
-melody: "Not a Sinner nor a Saint, Alcazar"
+title: '[E14 21] Slutkuplett ur Krischanstaspääxets återuppsättning av Erik XIV'
+singer: 'Alla sjunger'
+melody: 'Not a Sinner nor a Saint, Alcazar'
 spex: erik-xiv-2021
 order: 6
 permalink: false
 ---
+
 **Erik**
 Det var gift i min soppa
 Tur att jag kuppen stoppa

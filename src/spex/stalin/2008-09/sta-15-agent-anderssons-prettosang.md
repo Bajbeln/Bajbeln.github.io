@@ -1,11 +1,12 @@
 ---
-title: "[STA 15] Agent Anderssons Prettosång"
-singer: "Agent Andersson, M, Churchill och Money sjunger"
-melody: "Tango av Vocal Six"
+title: '[STA 15] Agent Anderssons Prettosång'
+singer: 'Agent Andersson, M, Churchill och Money sjunger'
+melody: 'Tango av Vocal Six'
 spex: stalin-2008-09
 order: 3
 permalink: false
 ---
+
 ::: cols
 **Andersson:**
 Det har blivit dags att presentera
@@ -53,7 +54,6 @@ Goooooooooooo kväll!
 <br><br><br><br><br><br><br><br>
 **Churchill, M & Money:**
 Riktigt störig är vad du var!
-
 
 <br><br><br>
 **Churchill, M & Money:**

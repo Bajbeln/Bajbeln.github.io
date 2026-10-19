@@ -1,11 +1,12 @@
 ---
-title: "[CHA 3] Skurksång"
-singer: "Niding sjunger"
-melody: "Benen i kors – Lisa Ekdahl"
+title: '[CHA 3] Skurksång'
+singer: 'Niding sjunger'
+melody: 'Benen i kors – Lisa Ekdahl'
 spex: charles-magnusson
 order: 5
 permalink: false
 ---
+
 Jag, är en man med rätt låg moral
 En tvättäkta skurk som tar vad jag vill ha
 Bara man struntar i samvetskval

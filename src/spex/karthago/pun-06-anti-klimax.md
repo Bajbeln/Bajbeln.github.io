@@ -1,11 +1,12 @@
 ---
-title: "[PUN 6] Anti-klimax eller Anti-klimakterie-sång"
-singer: "Karthagiterna och Hamilkar sjunger"
-melody: "Laker girls cheer ur Spamalot"
+title: '[PUN 6] Anti-klimax eller Anti-klimakterie-sång'
+singer: 'Karthagiterna och Hamilkar sjunger'
+melody: 'Laker girls cheer ur Spamalot'
 spex: karthago
 order: 8
 permalink: false
 ---
+
 **Tanit:** På en sekund har allt vänts rätt,
 snart tar han del av min bankett
 Min man är här ocþ småkryp

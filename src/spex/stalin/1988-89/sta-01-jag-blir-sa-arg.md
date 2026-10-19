@@ -1,11 +1,12 @@
 ---
-title: "[STA 1] Jag blir så arg"
-singer: "Olga sjunger"
-melody: "Blixtkär"
+title: '[STA 1] Jag blir så arg'
+singer: 'Olga sjunger'
+melody: 'Blixtkär'
 spex: stalin-1988-89
 order: 3
 permalink: false
 ---
+
 Vad ska det här betyda?
 Jag h mig nu för paruran _(gör detta)_
 Min Josef har en annan

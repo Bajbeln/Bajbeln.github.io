@@ -1,7 +1,7 @@
 ---
-title: "[TJO 2] Tankklanen rockar till det"
-singer: "Toyota, Datsun och Daihatsu sjunger"
-melody: "Proud Mary"
+title: '[TJO 2] Tankklanen rockar till det'
+singer: 'Toyota, Datsun och Daihatsu sjunger'
+melody: 'Proud Mary'
 spex: tjogun-1987
 order: 4
 permalink: false

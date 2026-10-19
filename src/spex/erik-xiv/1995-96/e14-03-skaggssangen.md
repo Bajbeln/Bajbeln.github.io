@@ -1,11 +1,12 @@
 ---
-title: "[E14 3] Skäggsången"
-singer: "Erik sjunger"
-melody: "En sån karl, Reed/Mason"
+title: '[E14 3] Skäggsången'
+singer: 'Erik sjunger'
+melody: 'En sån karl, Reed/Mason'
 spex: erik-xiv-1995-96
 order: 4
 permalink: false
 ---
+
 Åh, jag går som en kung
 Jag ser ut som en kung
 Med ett skägg som en kung
