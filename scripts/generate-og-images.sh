@@ -35,7 +35,7 @@ CANVAS_HEIGHT=630
 # Margins: 41px top and bottom
 MARGIN=41
 LOGO_HEIGHT=$(( CANVAS_HEIGHT - 2 * MARGIN ))
-# Calculate width maintaining aspect ratio from logga.png (431x480)
+# Calculate width maintaining aspect ratio from logga.webp (431x480)
 LOGO_WIDTH=$(( 431 * LOGO_HEIGHT / 480 ))
 
 # Position: centered horizontally
