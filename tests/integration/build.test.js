@@ -10,22 +10,54 @@ const buildDir = resolve(projectRoot, '_site');
  * Run the Eleventy build
  */
 function runBuild() {
+  console.log('Starting Eleventy build...');
+  console.log('Current directory:', process.cwd());
+  console.log('Project root:', projectRoot);
+  
   try {
+    // First, try with inherit to show output directly
     execSync('npm run build', {
       cwd: projectRoot,
       stdio: 'inherit',
       encoding: 'utf-8',
     });
+    
+    console.log('Build command completed. Checking _site directory...');
+    
     // Verify that the build directory was created
     if (!existsSync(buildDir)) {
-      console.error('Build completed but _site directory was not created');
+      console.error('ERROR: Build completed but _site directory was not created');
+      console.error('Expected _site at:', buildDir);
+      console.error('Contents of project root:', readdirSync(projectRoot).filter(f => !f.startsWith('.')));
       return false;
     }
+    console.log('_site directory exists:', buildDir);
     return true;
   } catch (error) {
-    console.error('Build failed with exit code:', error.status);
-    console.error('stdout:', error.stdout);
-    console.error('stderr:', error.stderr);
+    console.error('\n=== BUILD FAILED ===');
+    console.error('Exit code:', error.status);
+    console.error('Error message:', error.message);
+    
+    // Try to get more information by checking what exists
+    console.error('\nChecking project structure:');
+    console.error('Project root exists:', existsSync(projectRoot));
+    console.error('node_modules exists:', existsSync(resolve(projectRoot, 'node_modules')));
+    console.error('eleventy.config.ts exists:', existsSync(resolve(projectRoot, 'eleventy.config.ts')));
+    console.error('src directory exists:', existsSync(resolve(projectRoot, 'src')));
+    
+    // Try running eleventy directly with tsx
+    console.error('\nTrying to run eleventy with tsx directly...');
+    try {
+      execSync('tsx ./node_modules/.bin/eleventy --config=eleventy.config.ts', {
+        cwd: projectRoot,
+        stdio: 'inherit',
+        encoding: 'utf-8',
+      });
+      console.error('Direct eleventy run with tsx succeeded');
+    } catch (directError) {
+      console.error('Direct eleventy run with tsx also failed with exit code:', directError.status);
+    }
+    
     return false;
   }
 }

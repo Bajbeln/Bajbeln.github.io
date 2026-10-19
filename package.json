@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Krischanstaspääxets Sajber-Bajbel",
   "scripts": {
-    "build": "node --import tsx/esm ./node_modules/.bin/eleventy --config=eleventy.config.ts",
-    "build:dev": "node --import tsx/esm ./node_modules/.bin/eleventy --config=eleventy.config.ts --serve --incremental",
-    "build:watch": "node --import tsx/esm ./node_modules/.bin/eleventy --config=eleventy.config.ts --watch --incremental",
+    "build": "tsx ./node_modules/.bin/eleventy --config=eleventy.config.ts",
+    "build:dev": "tsx ./node_modules/.bin/eleventy --config=eleventy.config.ts --serve --incremental",
+    "build:watch": "tsx ./node_modules/.bin/eleventy --config=eleventy.config.ts --watch --incremental",
     "start": "npm run build:dev",
     "generate:og-images": "bash scripts/generate-og-images.sh",
     "build:all": "npm run generate:og-images && npm run build",
