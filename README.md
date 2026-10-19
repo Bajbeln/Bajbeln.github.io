@@ -3,8 +3,9 @@
 [![Node.js](https://img.shields.io/badge/Node.js-24+-green)](https://nodejs.org/)
 ![Uppsättningar](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Bajbeln/Bajbeln.github.io/main/src/_data/stats.json&query=$.uppsattningarCount&label=Uppsättningar&color=blue)
 ![Kupletter](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Bajbeln/Bajbeln.github.io/main/src/_data/stats.json&query=$.songCount&label=Kupletter&color=green)
-![Last commit](https://img.shields.io/github/last-commit/Bajbeln/Bajbeln.github.io?label=Updated)
 ![Repo created](https://img.shields.io/github/created-at/Bajbeln/Bajbeln.github.io)
+![Last commit](https://img.shields.io/github/last-commit/Bajbeln/Bajbeln.github.io?label=Updated)
+
 
 Tillgänglig på [bajbeln.github.io](https://bajbeln.github.io/)
 
