@@ -1,9 +1,9 @@
 {
   "spexCount": 59,
-  "uppsattningarCount": 81,
-  "dayCount": 40,
+  "uppsattningarCount": 80,
+  "dayCount": 39,
   "songCount": 997,
-  "updatedAt": "2026-10-20T12:51:18.398Z",
+  "updatedAt": "2026-10-20T15:32:05.474Z",
   "spex": [
     {
       "name": "allmanna",
@@ -48,7 +48,7 @@
     {
       "name": "eva-ekeblad",
       "songs": 13,
-      "uppsattningar": 2
+      "uppsattningar": 1
     },
     {
       "name": "finlands",

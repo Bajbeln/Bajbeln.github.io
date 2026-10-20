@@ -1,7 +1,7 @@
 ---
 title: '[EVA 2] Axel von Fersens entré'
 melody: 'The Liberty Bell March'
-spex: eva-ekeblad-2019
+spex: eva-ekeblad
 order: 3
 permalink: false
 ---

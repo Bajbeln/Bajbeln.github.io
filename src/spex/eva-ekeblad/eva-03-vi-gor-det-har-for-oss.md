@@ -1,7 +1,7 @@
 ---
 title: '[EVA 3] Vi gör det här för oss'
 melody: 'Full Disclosure'
-spex: eva-ekeblad-2019
+spex: eva-ekeblad
 order: 5
 permalink: false
 ---

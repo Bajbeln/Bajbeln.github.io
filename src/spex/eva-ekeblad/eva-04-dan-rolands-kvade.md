@@ -1,7 +1,7 @@
 ---
 title: '[EVA 4] Dan-Rolands kväde'
 melody: 'S som i Sångerska'
-spex: eva-ekeblad-2019
+spex: eva-ekeblad
 order: 7
 permalink: false
 ---

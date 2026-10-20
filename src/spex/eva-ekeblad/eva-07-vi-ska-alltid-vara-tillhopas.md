@@ -1,7 +1,7 @@
 ---
 title: '[EVA 7] Vi ska alltid vara tillhopas'
 melody: 'Scared of Heights'
-spex: eva-ekeblad-2019
+spex: eva-ekeblad
 order: 12
 permalink: false
 ---

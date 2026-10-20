@@ -1,7 +1,7 @@
 ---
 title: '[EVA 6] Nu blir jag visst galen'
 melody: "They're Coming to Take Me Away"
-spex: eva-ekeblad-2019
+spex: eva-ekeblad
 order: 10
 permalink: false
 ---
