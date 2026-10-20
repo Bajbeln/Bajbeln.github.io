@@ -4,8 +4,8 @@ import {
   flattenParagraphs,
   slugify,
   escHtml,
-} from './utils/markdown-helpers';
-import type { UserConfig, EleventyReturnConfig } from './types/eleventy';
+} from './utils/markdown-helpers.js';
+import type { UserConfig, EleventyReturnConfig } from './types/eleventy.js';
 
 // Cache for expensive operations
 import NodeCache from 'node-cache';
