@@ -11,13 +11,10 @@
 
 ## Stil
 - [ ] Gör flera sidor mer läsbara - ex. favoriter (se `/docs/page-rating.md`)
-- [ ] Tjockare logga i icon? (inte på sidorna)
-- [ ] Expandera alla-knappen verkar inte ha rätt borders på mobil (kanske fixad?)  
-- [ ] Kanske ändra ikonerna för kopiera länk och bekräftelse
+- [ ] Kanske ändra ikonerna för kopiera länk och bekräftelse till Font Awesome - gick inte bra senast
 
 ## Under huven
 - [ ] Köra på egen domän?
-- [ ] Hosta någon annanstans än GitHub Pages?
 
 ## Kvalitetssäkring
 - [ ] Korrläs alla spex - automatiskt flaggade "fel" finns i `/docs/songtext-quality-control`
