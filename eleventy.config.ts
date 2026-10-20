@@ -255,6 +255,7 @@ export default function (eleventyConfig: UserConfig): EleventyReturnConfig {
   // --- Passthrough: keep all existing static assets in the build ---
   eleventyConfig.addPassthroughCopy({ 'style.css': 'style.css' });
   eleventyConfig.addPassthroughCopy({ 'assets/': 'assets/' });
+  eleventyConfig.addPassthroughCopy({ 'src/scripts/': 'scripts/' });
   eleventyConfig.addPassthroughCopy({ 'partials/': 'partials/' });
   eleventyConfig.addPassthroughCopy({ 'manifest.json': 'manifest.json' });
   eleventyConfig.addPassthroughCopy({ 'site.webmanifest': 'site.webmanifest' });
