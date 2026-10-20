@@ -15,7 +15,8 @@
 
 ## Under huven
 - [ ] Köra på egen domän?
-
+- [ ] Använda Node.js 24 för test workflow?
+ 
 ## Kvalitetssäkring
 - [ ] Korrläs alla spex - automatiskt flaggade "fel" finns i `/docs/songtext-quality-control`
 - [ ] [CXI 6] Invokation till Pelle Andersson - måste kontrolleras (radbryt, finns i del2)
