@@ -16,6 +16,8 @@
 ## Under huven
 - [ ] Köra på egen domän?
 - [ ] Använda Node.js 24 för test workflow?
+- [ ] Jämna ut skillnadenrna mellan enkel- och fleruppsättningsspex så att det är enklare att konvertera
+- [ ] Lägg automatiskt in ...sjunger i sångare för en kuplett
  
 ## Kvalitetssäkring
 - [ ] Korrläs alla spex - automatiskt flaggade "fel" finns i `/docs/songtext-quality-control`

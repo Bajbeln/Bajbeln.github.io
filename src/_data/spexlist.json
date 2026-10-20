@@ -1,5 +1,6 @@
 [
   { "label": "Favoriter", "url": "/favoriter/", "italic": true },
+  { "label": "Maria Eleonora 2026 (MAR)", "url": "/maria-eleonora/#2026" },
   { "label": "Florence 2025 (FLO)", "url": "/florence/" },
   { "label": "Öresundsbron 2025 (BRO)", "url": "/oresundsbron/" },
   { "label": "Tycho Brahe 2024/25 (BRA)", "url": "/tycho/" },
@@ -39,7 +40,7 @@
   { "label": "Nobel 2007/08 (NOB)", "url": "/nobel/" },
   { "label": "OS-feber i Kristianstad 2007 (OSF)", "url": "/os-feber/" },
   { "label": "Leonardo 2006/07 (LEO)", "url": "/leonardo/#2006_07" },
-  { "label": "Maria Eleonora 2006 (MAR)", "url": "/maria-eleonora/" },
+  { "label": "Maria Eleonora 2006 (MAR)", "url": "/maria-eleonora/#2006" },
   { "label": "Sketchofreni 2006 (SEV)", "url": "/sketchofreni/" },
   { "label": "Carl von Linné 2005 (CvL)", "url": "/linne/" },
   { "label": "Darwin 2005 (DAR)", "url": "/darwin#2005" },

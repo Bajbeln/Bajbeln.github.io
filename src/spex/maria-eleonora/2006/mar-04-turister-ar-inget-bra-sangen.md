@@ -2,7 +2,7 @@
 title: '[MAR 4] Turister är inget bra-sången'
 singer: 'Moster och stånden sjunger'
 melody: 'Not Dead Yet'
-spex: maria-eleonora
+spex: maria-eleonora-2006
 order: 5
 permalink: false
 ---

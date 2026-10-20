@@ -2,7 +2,7 @@
 title: '[MAR 6] Det får ni själv lista ut-sången'
 singer: 'Moster, Fabian och Anna sjunger'
 melody: 'Just like a Boomerang'
-spex: maria-eleonora
+spex: maria-eleonora-2006
 order: 7
 permalink: false
 ---

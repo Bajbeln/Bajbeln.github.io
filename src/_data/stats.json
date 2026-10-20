@@ -1,9 +1,9 @@
 {
   "spexCount": 59,
-  "uppsattningarCount": 80,
-  "dayCount": 39,
-  "songCount": 997,
-  "updatedAt": "2026-10-20T15:32:05.474Z",
+  "uppsattningarCount": 81,
+  "dayCount": 40,
+  "songCount": 1007,
+  "updatedAt": "2026-10-20T16:54:01.867Z",
   "spex": [
     {
       "name": "allmanna",
@@ -177,8 +177,8 @@
     },
     {
       "name": "maria-eleonora",
-      "songs": 10,
-      "uppsattningar": 1
+      "songs": 20,
+      "uppsattningar": 2
     },
     {
       "name": "martell",

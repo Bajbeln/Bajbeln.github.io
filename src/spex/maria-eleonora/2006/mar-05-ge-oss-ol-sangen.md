@@ -2,7 +2,7 @@
 title: '[MAR 5] Ge oss öl-sången'
 singer: 'Stånden sjunger'
 melody: 'Det sa bom'
-spex: maria-eleonora
+spex: maria-eleonora-2006
 order: 6
 permalink: false
 ---

@@ -2,7 +2,7 @@
 title: '[MAR 6] Det är synd om Dodo'
 singer: 'Dodo sjunger'
 melody: 'Hold Me Now'
-spex: maria-eleonora
+spex: maria-eleonora-2006
 order: 8
 permalink: false
 ---

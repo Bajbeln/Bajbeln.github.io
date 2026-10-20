@@ -2,7 +2,7 @@
 title: '[MAR 7] Kärlekssång, typ'
 singer: 'Maria Eleonora och Dodo sjunger'
 melody: 'The Q Man Loves Nobody'
-spex: maria-eleonora
+spex: maria-eleonora-2006
 order: 9
 permalink: false
 ---
