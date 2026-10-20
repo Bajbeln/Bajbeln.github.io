@@ -260,7 +260,7 @@ export default function (eleventyConfig: UserConfig): EleventyReturnConfig {
   eleventyConfig.addPassthroughCopy({ 'partials/': 'partials/' });
   eleventyConfig.addPassthroughCopy({ 'manifest.json': 'manifest.json' });
   eleventyConfig.addPassthroughCopy({ 'site.webmanifest': 'site.webmanifest' });
-  eleventyConfig.addPassthroughCopy({ 'favicon.ico': 'favicon.ico' });
+  eleventyConfig.addPassthroughCopy({ 'assets/images/manifest/favicon.ico': 'favicon.ico' });
   eleventyConfig.addPassthroughCopy({ 'sw.js': 'sw.js' });
 
   return {
