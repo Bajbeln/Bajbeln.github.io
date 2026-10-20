@@ -32,7 +32,7 @@ Call log:
   9  |   test('searches for a song from the homepage', async ({ page }) => {
   10 |     await page.goto('/');
   11 | 
-  12 |     await page.getByRole('textbox', { name: 'Sök efter en kuplett!' }).fill(songTitle);
+  12 |     await page.getByRole('textbox', { name: 'Sök efter en kuplett' }).fill(songTitle);
   13 |     await page.getByRole('button', { name: 'Sök' }).click();
   14 | 
   15 |     await expect(page).toHaveURL(/\/nosaby\/\?search=/);
@@ -105,7 +105,7 @@ Call log:
   81 |     await page.reload();
   82 | 
   83 |     await expect(page).toHaveTitle('Bajbeln');
-  84 |     await expect(page.getByRole('textbox', { name: 'Sök efter en kuplett!' })).toBeVisible();
+  84 |     await expect(page.getByRole('textbox', { name: 'Sök efter en kuplett' })).toBeVisible();
   85 |   });
   86 | });
   87 | 

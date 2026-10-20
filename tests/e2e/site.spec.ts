@@ -9,7 +9,7 @@ test.describe('Bajbeln browser smoke tests', () => {
   test('searches for a song from the homepage', async ({ page }) => {
     await page.goto('/');
 
-    await page.getByRole('textbox', { name: 'Sök efter en kuplett!' }).fill(songTitle);
+    await page.getByRole('textbox', { name: 'Sök efter en kuplett' }).fill(songTitle);
     await page.getByRole('button', { name: 'Sök' }).click();
 
     await expect(page).toHaveURL(/\/nosaby\/\?search=/);
@@ -81,6 +81,6 @@ test.describe('Bajbeln browser smoke tests', () => {
     await page.reload();
 
     await expect(page).toHaveTitle('Bajbeln');
-    await expect(page.getByRole('textbox', { name: 'Sök efter en kuplett!' })).toBeVisible();
+    await expect(page.getByRole('textbox', { name: 'Sök efter en kuplett' })).toBeVisible();
   });
 });
