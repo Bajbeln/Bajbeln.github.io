@@ -24,6 +24,14 @@ Krischanstaspääxets Sajber-Bajbel is a static website for spex song lyrics. Th
 │   ├── _layouts/
 │   │   ├── spex.njk            # Layout for all spex pages
 │   │   └── song.njk            # Layout for individual songs
+│   ├── scripts/                # JavaScript for the browser (client-side)
+│   │   ├── pagescript.js       # Main page interactions
+│   │   ├── searchscript.js     # Search functionality
+│   │   ├── settings.js         # User settings (dark mode, etc.)
+│   │   ├── songIndexCache.js   # Song index caching
+│   │   ├── lazy-css.js         # Lazy loading for CSS
+│   │   ├── lazy-load-polyfill.js # Lazy loading polyfill
+│   │   └── footer.js           # Footer functionality
 │   ├── spex/
 │   │   ├── <spex-name>/        # Spex with a single production run
 │   │   │   ├── index.md        # Spex page (spex: name, permalink: /name/)
@@ -41,7 +49,9 @@ Krischanstaspääxets Sajber-Bajbel is a static website for spex song lyrics. Th
 │   │   └── index.md            # Favorites page
 │   └── songIndex.json.njk      # Generates /songIndex.json from the songs collection
 ├── spex/                       # Legacy HTML files for spex (passthrough, untouched)
-├── scripts/                    # JavaScript for the browser (pagescript, searchscript, etc.)
+├── scripts/                    # Build scripts (Node.js)
+│   ├── generate-og-images.sh   # Generate Open Graph images
+│   └── generate-stats.js       # Generate statistics
 ├── assets/                     # Images and other static resources
 ├── partials/                   # HTML parts fetched at runtime (footer, etc.)
 ├── style.css
@@ -52,7 +62,7 @@ Krischanstaspääxets Sajber-Bajbel is a static website for spex song lyrics. Th
     └── deploy_try.yml          # GitHub Actions deployment workflow
 ```
 
-**Output:** Eleventy writes everything to `_site/`. All files under `spex/`, `scripts/`, `assets/`, `partials/`, `style.css`, `index.html`, and `site.webmanifest` are passed through so that old URLs continue to work. `songIndex.json` is automatically generated from `src/songIndex.json.njk` - it is not copied through from the root directory.
+**Output:** Eleventy writes everything to `_site/`. Files under `src/scripts/` are processed and output to `scripts/`. All files under `spex/`, `assets/`, `partials/`, `style.css`, `index.html`, and `site.webmanifest` are passed through so that old URLs continue to work. `songIndex.json` is automatically generated from `src/songIndex.json.njk` - it is not copied through from the root directory.
 
 ---
 

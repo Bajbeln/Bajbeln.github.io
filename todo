@@ -16,7 +16,6 @@
 ## Under huven
 - [ ] Köra på egen domän?
 - [ ] Använda Node.js 24 för test workflow?
-- [x] Lägga till browser-level tests (Playwright smoke suite) för Search from the homepage, Search result expansion and scrolling, Copying a song link, Random song navigation, Dark mode persistence, Offline fallback/service-worker behavior
  
 ## Kvalitetssäkring
 - [ ] Korrläs alla spex - automatiskt flaggade "fel" finns i `/docs/songtext-quality-control`
@@ -36,3 +35,4 @@
 - [x] Implementera lazy loading för bilder och CSS?
 - [x] Lägga till en service worker för offlinebruk
 - [x] Lägga till ett formulär för att föreslå funktioner/rapportera buggar etc.
+- [x] Lägga till browser-level tests (Playwright smoke suite) för Search from the homepage, Search result expansion and scrolling, Copying a song link, Random song navigation, Dark mode persistence, Offline fallback/service-worker behavior

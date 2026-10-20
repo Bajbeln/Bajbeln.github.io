@@ -16,16 +16,18 @@ I [denna enkät](https://forms.gle/xMGhpRM44DPYhipG7) kan du fylla i om du tycke
 
 Spexen finns som filer i [`src/spex`](./src/spex), där kupletterna finns som
 `.md`-filer. Originaldokumenten de är tagna ifrån finns i
-[`assets/song-files`](./assets/song-files).
+[`assets/documents`](./assets/documents).
 
 ## Projektstruktur
 
 - [`src/`](./src) – källfiler och mallar för webbplatsen
 - [`src/spex/`](./src/spex) – spex och kupletter
 - [`src/_data/`](./src/_data) – metadata, bland annat spexlistan
-- [`assets/`](./assets) – bilder och originaldokument
+- [`src/scripts/`](./src/scripts) – JavaScript för webbläsaren (client-side)
+- [`assets/images/`](./assets/images) – ikoner och bilder
+- [`assets/documents/`](./assets/documents) – originaldokument och PDF-filer
 - [`partials/`](./partials) – återanvändbara HTML-delar
-- [`scripts/`](./scripts) – JavaScript för webbplatsens funktioner
+- [`scripts/`](./scripts) – Byggskript (build scripts)
 - [`_site/`](./_site) – genererade filer; ändra inte dessa manuellt
 
 ## Lägga till ett spex
@@ -39,7 +41,7 @@ Lägg sedan in spexet i `src/_data/spexlist.json` så att det dyker upp på
 startsidan.
 
 Glöm inte att du gärna får lägga till källfilen i
-[`assets/song-files`](./assets/song-files).
+[`assets/documents`](./assets/documents).
 
 Mer information finns i:
 

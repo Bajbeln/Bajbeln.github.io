@@ -125,7 +125,6 @@ export default function (eleventyConfig: UserConfig): EleventyReturnConfig {
 
   // Watch these directories for changes during --watch
   eleventyConfig.addWatchTarget('./src/');
-  eleventyConfig.addWatchTarget('./scripts/');
   eleventyConfig.addWatchTarget('./utils/');
   eleventyConfig.addWatchTarget('./partials/');
 
@@ -255,7 +254,6 @@ export default function (eleventyConfig: UserConfig): EleventyReturnConfig {
 
   // --- Passthrough: keep all existing static assets in the build ---
   eleventyConfig.addPassthroughCopy({ 'style.css': 'style.css' });
-  eleventyConfig.addPassthroughCopy({ 'scripts/': 'scripts/' });
   eleventyConfig.addPassthroughCopy({ 'assets/': 'assets/' });
   eleventyConfig.addPassthroughCopy({ 'partials/': 'partials/' });
   eleventyConfig.addPassthroughCopy({ 'manifest.json': 'manifest.json' });
