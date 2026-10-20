@@ -43,7 +43,12 @@ LOGO_X=$(( (CANVAS_WIDTH - LOGO_WIDTH) / 2 ))
 LOGO_Y=$MARGIN
 
 # Number of parallel jobs - use number of CPU cores, or fall back to 4
-PARALLEL_JOBS=$(nproc 2>/dev/null || sysctl -n hw.ncpu 2>/dev/null || echo 4)
+# In CI environments, limit to 2 to avoid resource exhaustion
+if [ -n "$CI" ]; then
+    PARALLEL_JOBS=2
+else
+    PARALLEL_JOBS=$(nproc 2>/dev/null || sysctl -n hw.ncpu 2>/dev/null || echo 4)
+fi
 
 # Check for --force flag
 FORCE_REGENERATE=false
