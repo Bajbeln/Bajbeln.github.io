@@ -3,7 +3,7 @@
   "uppsattningarCount": 81,
   "dayCount": 52,
   "songCount": 1007,
-  "updatedAt": "2026-10-23T13:59:46.121Z",
+  "updatedAt": "2026-10-23T14:37:01.098Z",
   "spex": [
     {
       "name": "allmanna",
@@ -101,6 +101,11 @@
       "uppsattningar": 1
     },
     {
+      "name": "karl-martell",
+      "songs": 38,
+      "uppsattningar": 2
+    },
+    {
       "name": "karthago",
       "songs": 13,
       "uppsattningar": 1
@@ -178,11 +183,6 @@
     {
       "name": "maria-eleonora",
       "songs": 20,
-      "uppsattningar": 2
-    },
-    {
-      "name": "martell",
-      "songs": 38,
       "uppsattningar": 2
     },
     {

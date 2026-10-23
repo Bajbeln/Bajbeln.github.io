@@ -13,7 +13,7 @@ songs:
     title: '[CIV 6] Ett lyckligt slut (Kirsten Munks förlängda presentationssång)'
   - spex: tjogun-1987
     title: '[TJO 3] Jag är Akai'
-  - spex: karl-martell-2011-12
+  - spex: martell-2011-12
     title: '[KAR 17] Nu ska visst alla döda Kalle'
   - spex: florence-1996-97
     title: '[FLO 6] Hyllningssång'
@@ -37,6 +37,6 @@ songs:
     title: '[TJO 11] Vilka har giftet?'
   - spex: leonardo-1993
     title: '[LEO 2] Michelangelos presentationssång'
-  - spex: karl-martell-1997
+  - spex: martell-1997
     title: '[KAR 6] Aktfinalsslakt'
 ---
