@@ -71,8 +71,6 @@ sker automatiskt när ändringar pushas till `main`.
 
 ## På gång & kända fel (mer på [todo](https://github.com/Bajbeln/Bajbeln.github.io/blob/main/todo))
 
-- Korrläsning av alla spex (på gång)
-
 ## Tack till
 
 - Kodning har gjorts av Joel Takahashi Olsson, Jacob Annefors och Johan Furuhjelm.
