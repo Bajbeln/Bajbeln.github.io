@@ -3,5 +3,9 @@ layout: spex
 title: Loshultskuppen 2022 (LOS)
 tabTitle: Loshultskuppen (LOS)
 permalink: /loshultskuppen/
-spex: loshultskuppen
+
+uppsattning:
+  - id: loshultskuppen-2022
+    label: 'Loshultskuppen 2022 (LOS)'
 ---
+
