@@ -104,19 +104,25 @@
     {%- set pageSongs = collections.songs | songsFromList(songs) %}
     {%- for song in pageSongs %}{{ song | renderSong | safe }}{% endfor %}
   {%- elif uppsattning %}
-    {%- set _prefix = page.url | replace("/", "") %}
-    {%- for u in uppsattning %}
-      {%- set _sectionId = u.id | replace(_prefix ~ "-", "") | replace("-", "_") %}
-      <br>
-      <div class="uppsattning-header">
-        <h2 class="uppsattning-heading" id="{{ _sectionId }}">{{ u.label }}</h2>
-        <button type="button" class="uppsattning-link-btn" onclick="copyUppLink(this, '{{ _sectionId }}')" aria-label="Kopiera länk till {{ u.label }}" title="Kopiera länk till avdelningen"><img src="/assets/images/song-link-button.webp" class="song-link-icon" alt="Kopiera länk" loading="lazy"></button>
-      </div>
-      <br>
+    {%- if uppsattning.length === 1 %}
+      {%- set u = uppsattning[0] %}
       {%- set groupSongs = collections.songs | songsForSpex(u.id) %}
       {%- for song in groupSongs %}{{ song | renderSong | safe }}{% endfor %}
-      <br>
-    {%- endfor %}
+    {%- else %}
+      {%- set _prefix = page.url | replace("/", "") %}
+      {%- for u in uppsattning %}
+        {%- set _sectionId = u.id | replace(_prefix ~ "-", "") | replace("-", "_") %}
+        <br>
+        <div class="uppsattning-header">
+          <h2 class="uppsattning-heading" id="{{ _sectionId }}">{{ u.label }}</h2>
+          <button type="button" class="uppsattning-link-btn" onclick="copyUppLink(this, '{{ _sectionId }}')" aria-label="Kopiera länk till {{ u.label }}" title="Kopiera länk till avdelningen"><img src="/assets/images/song-link-button.webp" class="song-link-icon" alt="Kopiera länk" loading="lazy"></button>
+        </div>
+        <br>
+        {%- set groupSongs = collections.songs | songsForSpex(u.id) %}
+        {%- for song in groupSongs %}{{ song | renderSong | safe }}{% endfor %}
+        <br>
+      {%- endfor %}
+    {%- endif %}
   {%- elif spex %}
     {%- set pageSongs = collections.songs | songsForSpex(spex) %}
     {%- for song in pageSongs %}{{ song | renderSong | safe }}{% endfor %}

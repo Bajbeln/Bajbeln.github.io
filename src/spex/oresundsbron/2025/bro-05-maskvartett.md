@@ -2,7 +2,7 @@
 title: '[BRO 5] Måskvartett'
 singer: 'Måzart, Måskar, Måsika & Måsa-Lisa sjunger'
 melody: 'Mr. Sandman – The Chordettes'
-spex: oresundsbron
+spex: oresundsbron-2025
 order: 12
 permalink: false
 ---

@@ -2,7 +2,7 @@
 title: '[BRO 3] Carl Bildt This City'
 singer: 'Carl Bildt sjunger'
 melody: 'We Built This City – Starship'
-spex: oresundsbron
+spex: oresundsbron-2025
 order: 7
 permalink: false
 ---

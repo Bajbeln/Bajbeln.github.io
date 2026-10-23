@@ -2,7 +2,7 @@
 title: '[BRO 3] Pausfinal'
 singer: 'Carl Bildt, DK:s statsminister, Conny, Mr. Ferry, kritikerna, landstinget & byggarbetarna sjunger'
 melody: 'In The Navy – Village People'
-spex: oresundsbron
+spex: oresundsbron-2025
 order: 8
 permalink: false
 ---

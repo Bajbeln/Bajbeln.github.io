@@ -2,7 +2,7 @@
 title: '[BRO 1] Tjurens aria'
 singer: 'TJUREN sjunger'
 melody: 'Hebbas aria'
-spex: oresundsbron
+spex: oresundsbron-2025
 order: 3
 permalink: false
 ---

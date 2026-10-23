@@ -2,7 +2,7 @@
 title: '[BRO 1] Öppningskuplett'
 singer: 'MANNE MOSESSON sjunger'
 melody: 'Burning Love – Elvis Presley'
-spex: oresundsbron
+spex: oresundsbron-2025
 order: 1
 permalink: false
 ---

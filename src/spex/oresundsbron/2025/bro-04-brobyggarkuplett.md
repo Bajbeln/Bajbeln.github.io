@@ -2,7 +2,7 @@
 title: '[BRO 4] Brobyggarkuplett'
 singer: 'Byggarbetarna sjunger'
 melody: 'Bye, Bye, Bye – *NSYNC'
-spex: oresundsbron
+spex: oresundsbron-2025
 order: 9
 permalink: false
 ---

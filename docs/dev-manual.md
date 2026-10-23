@@ -33,17 +33,12 @@ Krischanstaspääxets Sajber-Bajbel is a static website for spex song lyrics. Th
 │   │   ├── lazy-load-polyfill.js # Lazy loading polyfill
 │   │   └── footer.js           # Footer functionality
 │   ├── spex/
-│   │   ├── <spex-name>/        # Spex with a single production run
-│   │   │   ├── index.md        # Spex page (spex: name, permalink: /name/)
-│   │   │   ├── 01-songname.md
-│   │   │   └── ...
-│   │   ├── <spex-name>/        # Spex with multiple productions
-│   │   │   ├── index.md        # Nav page (production list, no spex field)
+│   │   ├── <spex-name>/        # Spex (single or multi-production)
+│   │   │   ├── index.md        # Main page (uppsattning: list, permalink: /name/)
 │   │   │   ├── <year>/
-│   │   │   │   ├── index.md    # Production page (spex: name-year, permalink: false)
-│   │   │   │   ├── 01-song.md
+│   │   │   │   ├── <song>.md   # Songs with spex: name-year
 │   │   │   │   └── ...
-│   │   │   └── ...
+│   │   │   └── {name}.json     # Colors and metadata
 │   │   └── ...
 │   ├── favoriter/
 │   │   └── index.md            # Favorites page
@@ -85,28 +80,50 @@ npm run build      # Single build to _site/
 
 ## Adding a New Spex
 
-### 1. Create the Directory
+### 1. Create the Directory Structure
+
+**All spex (single or multi-production) must use year subfolders** for consistency:
 
 ```
 src/spex/<spex-name>/
+├── index.md                      # Main page with uppsattning list
+├── <spex-name>.json              # Colors and metadata
+├── <year>/
+│   ├── <song>.md                # Songs with spex: name-year
+│   └── ...
+└── ...
 ```
 
-Use lowercase letters, hyphens, and replace Swedish characters: å→a, ä→a, ö→o. This name is also the `spex` identifier used in frontmatter.
+Use lowercase letters, hyphens, and replace Swedish characters: å→a, ä→a, ö→o.
 
-### 2. Create `index.md`
+### 2. Create `index.md` with `uppsattning`
+
+All spex use the same unified `uppsattning` (production) list format:
 
 ```yaml
 ---
 layout: spex
-title: Spex Title Year (XXX)
+title: Spex Title Year (XXX)  # For single: include year; for multi: omit year
 permalink: /spex-name/
-spex: spex-name
+uppsattning:
+  - id: spex-name-2025         # Must match spex: field in song files
+    label: 'Spex Title 2025 (XXX)'
 ---
 ```
 
-The content of `index.md` is intentionally left empty. The layout automatically renders all songs via the `spex` identifier.
+**For single-production spex:**
+- `title` includes the year (e.g., "Öresundsbron 2025 (BRO)")
+- `uppsattning` has one item
+- Single heading displays with year
 
-For spex with multiple productions, see [Spex with Multiple Productions](#spex-with-multiple-productions).
+**For multi-production spex:**
+- `title` omits the year (e.g., "Stalin (STA)")
+- `uppsattning` has multiple items (one per year)
+- Main heading displays without year, each production shows its year in its section
+
+The content of `index.md` is intentionally left empty. The layout automatically renders songs via the `uppsattning` identifiers.
+
+For more details, see [Spex Organization](#spex-organization).
 
 ### 2b. Create `{name}.json` (colors)
 
@@ -332,58 +349,55 @@ facts: |
 
 ---
 
-## Spex with Multiple Productions
+## Spex Organization
 
-When a spex title has been performed in multiple years, there is a two-level structure: a **nav page** that lists all productions, and a separate **production page** for each year.
+**All spex must use year subfolders** for consistency, regardless of whether they have one or multiple productions.
 
-### Nav Page — `src/spex/{name}/index.md`
+### Main Page — `src/spex/{name}/index.md`
 
-Has a `uppsattning` (production) list and no `spex` field. Renders all productions on one page, each under an `<h2>` heading.
+Every spex has a main `index.md` with a `uppsattning` (production) list:
 
 ```yaml
 ---
 layout: spex
-title: Kristina (KRI)
+title: Kristina (KRI)          # Multi: omit year; Single: include year
 permalink: /kristina/
 uppsattning:
-  - id: kristina-2023-24
+  - id: kristina-2023-24             # Must match spex: in song files
     label: 'Kristina 2023/24 (KRI)'
   - id: kristina-2001
     label: 'Kristina 2001 (KRI)'
 ---
 ```
 
-Colors come from `src/spex/kristina/kristina.json` and automatically cascade down to all year subfolders.
+**Title guidelines:**
+- **Single production:** Include year (e.g., "Öresundsbron 2025 (BRO)") — this becomes the main page heading
+- **Multiple productions:** Omit year (e.g., "Kristina (KRI)") — productions display their years in section headings
 
-### Production Page — `src/spex/{name}/{year}/index.md`
+Colors come from `src/spex/{name}/{name}.json` and automatically cascade down to all year subfolders.
 
-Each production has its own page with a `spex` field that matches the production ID. `permalink: false` — production pages have no URL of their own; songs are only rendered on the nav page.
+### Required Folder Structure
 
-```yaml
----
-layout: spex
-title: Kristina 2001 (KRI)
-spex: kristina-2001
-permalink: false
----
-```
-
-No color fields are required — they are inherited from the parent `kristina.json`.
-
-### File Structure
+**Mandatory:** All song files must be organized in year subfolders. **Do not use subfolder `index.md` files.**
 
 ```
 src/spex/kristina/
-├── index.md                          # nav: production list, no spex field
+├── index.md                          # Main page with uppsattning list
+├── kristina.json                     # Colors (cascades to subfolders)
 ├── 2023-24/
-│   ├── index.md                      # spex: kristina-2023-24, permalink: false
 │   ├── 01-its-a-sin.md               # spex: kristina-2023-24
 │   └── ...
 └── 2001/
-    ├── index.md                      # spex: kristina-2001, permalink: false
     ├── kri-01-everything-can-happen.md  # spex: kristina-2001
     └── ...
 ```
+
+**Key requirements:**
+- The `spex:` field in song files must match the `id:` in the `uppsattning` list
+- **Do not create subfolder `index.md` files** — they are not used and should not exist
+- Year subfolders are **mandatory** for all spex
+- Single-production spex use one year subfolder (e.g., `2025/`)
+- Multi-production spex use multiple year subfolders (e.g., `2023-24/`, `2001/`)
 
 ---
 
@@ -443,9 +457,12 @@ Each song's `page` value comes from `spexPageUrl` in the spex's `{name}.json`. T
 ### Layout Flow (`src/_layouts/spex.njk`)
 
 1. If the page has `songs` (e.g., favorites page): render the specified list of songs via `songsFromList`.
-2. If the page has `uppsattning` (nav page): iterate over productions in list order, render each group under an `<h2>` heading with `songsForSpex(u.id)`.
-3. If the page has `spex` (single production or individual production page): query `songsForSpex(spex)` and render all songs.
-4. Otherwise: render `{{ content | safe }}` (fallback, normally not used).
+2. If the page has `uppsattning` (unified spex page): 
+   - If `uppsattning` has **1 item**: render songs directly (no production section heading)
+   - If `uppsattning` has **2+ items**: iterate over productions, render each group under an `<h2>` heading with `songsForSpex(u.id)`
+3. Otherwise: render `{{ content | safe }}` (fallback, normally not used).
+
+**Note:** The old `spex:` field approach is still supported for backward compatibility, but new spex should use `uppsattning:` for consistency.
 
 Each song is rendered as:
 
@@ -474,8 +491,10 @@ The behavior for collapsible elements and hash navigation is handled by the embe
 
 Ready-to-use templates for copying are available at:
 
-- `src/spex/_template_single/` — spex with a single production run
-- `src/spex/_template_multi/` — spex with multiple productions (nav + year subfolder)
+- `src/spex/_template_single/` — spex with a single production (uses `uppsattning` with one item)
+- `src/spex/_template_multi/` — spex with multiple productions (uses `uppsattning` with multiple items)
+
+**Note:** Both templates now use the unified `uppsattning` approach. The only difference is the number of items in the list. For maximum consistency, single-production spex can also use the `_template_multi` structure with just one item.
 
 Copy the relevant folder, rename it and the `.json` file inside, and fill in the placeholders. The templates include comments explaining each field.
 

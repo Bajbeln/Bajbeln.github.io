@@ -2,7 +2,7 @@
 title: '[BRO 5] Slutkuplett'
 singer: 'Alla sjunger'
 melody: 'Go West – Village People'
-spex: oresundsbron
+spex: oresundsbron-2025
 order: 13
 permalink: false
 ---

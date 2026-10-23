@@ -2,7 +2,7 @@
 title: '[BRO 4] När vi enar Öresund'
 singer: 'Hebba & Lille Mads sjunger'
 melody: 'Smuk som et stjerneskud – Brødrene Olsen'
-spex: oresundsbron
+spex: oresundsbron-2025
 order: 10
 permalink: false
 ---

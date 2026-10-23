@@ -2,7 +2,7 @@
 title: '[BRO 3] En färjstark entré'
 singer: 'MR. FERRY sjunger'
 melody: 'My Heart Will Go On – Céline Dion'
-spex: oresundsbron
+spex: oresundsbron-2025
 order: 6
 permalink: false
 ---

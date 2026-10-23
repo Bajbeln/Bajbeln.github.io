@@ -2,7 +2,7 @@
 title: '[BRO 2] Connys färdlåt'
 singer: 'CONNY och de andra kritikerna sjunger'
 melody: 'Gå & fiska! – Gyllene tider'
-spex: oresundsbron
+spex: oresundsbron-2025
 order: 4
 permalink: false
 ---
