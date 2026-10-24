@@ -37,19 +37,13 @@ för enkeluppsättningsspääx eller
 [`src/spex/_template_multi`](./src/spex/_template_multi) för
 fleruppsättningsspääx och anpassa den för spääxet i fråga.
 
-**OBS:** Alla spex **måste** organiseras i årsmappar (t.ex. `2025/`). 
-Använd **inte** subfolderns `index.md`-filer — de behövs ej och ska inte finnas.
-
 Lägg sedan in spexet i `src/_data/spexlist.json` så att det dyker upp på
 startsidan.
 
 Glöm inte att du gärna får lägga till källfilen i
 [`assets/documents`](./assets/documents).
 
-Mer information finns i:
-
-- [Developer Manual](./docs/dev-manual.md)
-- [Attributions](./ATTRIBUTIONS.md)
+Mer information finns i [Developer Manual](./docs/dev-manual.md) och [Attributions](./ATTRIBUTIONS.md).
 
 ## För utvecklare
 

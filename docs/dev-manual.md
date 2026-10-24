@@ -43,21 +43,21 @@ Krischanstaspääxets Sajber-Bajbel is a static website for spex song lyrics. Th
 │   ├── favoriter/
 │   │   └── index.md            # Favorites page
 │   └── songIndex.json.njk      # Generates /songIndex.json from the songs collection
-├── spex/                       # Legacy HTML files for spex (passthrough, untouched)
 ├── scripts/                    # Build scripts (Node.js)
 │   ├── generate-og-images.sh   # Generate Open Graph images
 │   └── generate-stats.js       # Generate statistics
 ├── assets/                     # Images and other static resources
 ├── partials/                   # HTML parts fetched at runtime (footer, etc.)
 ├── style.css
-├── index.html                  # Homepage (passthrough)
+├── site.webmanifest
+├── sw.js
 ├── eleventy.config.ts          # Eleventy config: shortcodes, filters, passthrough
 ├── package.json
 └── .github/workflows/
     └── deploy_try.yml          # GitHub Actions deployment workflow
 ```
 
-**Output:** Eleventy writes everything to `_site/`. Files under `src/scripts/` are processed and output to `scripts/`. All files under `spex/`, `assets/`, `partials/`, `style.css`, `index.html`, and `site.webmanifest` are passed through so that old URLs continue to work. `songIndex.json` is automatically generated from `src/songIndex.json.njk` - it is not copied through from the root directory.
+**Output:** Eleventy writes everything to `_site/`. Files under `src/scripts/` are processed and output to `scripts/`. The following files and directories are passed through to preserve old URLs: `assets/`, `partials/`, `style.css`, `site.webmanifest`, and `sw.js`. `songIndex.json` is automatically generated from `src/songIndex.json.njk`.
 
 ---
 
@@ -442,9 +442,7 @@ The `spex.njk` layout looks up each entry in the `songs` collection via the `son
 ]
 ```
 
-Each song's `page` value comes from `spexPageUrl` in the spex's `{name}.json`. The file is used by `scripts/searchscript.js` (the `?search=` function) and the random song button.
-
-**Migration note:** Currently, there is also an older `songIndex.json` in the root directory that is passed through via `eleventy.config.ts` (with the comment `// remove this to enable search and random to new pages`). When the migration is complete, this line should be removed so that the generated file from `src/songIndex.json.njk` is used exclusively. No manual editing of the generated `songIndex.json` is required — adding songs to the `songs` collection includes them automatically at the next build.
+Each song's `page` value comes from `spexPageUrl` in the spex's `{name}.json`. The file is used by `scripts/searchscript.js` (the `?search=` function) and the random song button. No manual editing of `songIndex.json` is required — adding songs to the `songs` collection includes them automatically at the next build.
 
 ### Filters
 
