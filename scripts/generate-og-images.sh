@@ -100,7 +100,7 @@ needs_regenerate() {
         local logo_mtime
         logo_mtime=$(stat -c %Y "$LOGO" 2>/dev/null || stat -f %m "$LOGO" 2>/dev/null)
         local output_mtime
-        output_mtime=$(stat -c %Y "$output" 2>/dev/null || stat -f %m "$output" 2>/dev/null)
+        output_mtime=$(stat -c %Y "$output" || stat -f %m "$output")
         
         if [ "$logo_mtime" -gt "$output_mtime" ]; then
             return 0
@@ -112,7 +112,7 @@ needs_regenerate() {
         local source_mtime
         source_mtime=$(stat -c %Y "$source_file" 2>/dev/null || stat -f %m "$source_file" 2>/dev/null)
         local output_mtime
-        output_mtime=$(stat -c %Y "$output" 2>/dev/null || stat -f %m "$output" 2>/dev/null)
+        output_mtime=$(stat -c %Y "$output" || stat -f %m "$output")
         
         if [ "$source_mtime" -gt "$output_mtime" ]; then
             return 0
@@ -139,7 +139,7 @@ generate_og() {
             -geometry +${LOGO_X}+${LOGO_Y} \
             -composite \
             -quality 85 \
-            "$output" 2>/dev/null
+            "$output"
     else
         echo "  → ${spex_name}: ${bg_color} (up-to-date, skipping)"
     fi
@@ -150,9 +150,6 @@ export -f generate_og
 export -f needs_regenerate
 export OG_DIR CANVAS_WIDTH CANVAS_HEIGHT LOGO LOGO_WIDTH LOGO_HEIGHT \
   LOGO_X LOGO_Y FORCE_REGENERATE magick_cmd
-
-# Export variables needed by the functions
-export OG_DIR CANVAS_WIDTH CANVAS_HEIGHT LOGO LOGO_WIDTH LOGO_HEIGHT LOGO_X LOGO_Y FORCE_REGENERATE
 
 # Generate default og-image.webp (neutral/main page version)
 # Background: rgb(210,231,250) - same as original og-image.png
@@ -166,7 +163,7 @@ if needs_regenerate "$DEFAULT_OUTPUT" "$LOGO"; then
         -geometry +${LOGO_X}+${LOGO_Y} \
         -composite \
         -quality 85 \
-        "$DEFAULT_OUTPUT" 2>/dev/null
+        "$DEFAULT_OUTPUT"
     # Also copy to assets/images/ as the main og-image.webp
     cp "$DEFAULT_OUTPUT" assets/images/og-image.webp
 else
