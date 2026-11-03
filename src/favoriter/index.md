@@ -5,7 +5,7 @@ permalink: /favoriter/
 songs:
   # - spex: spextitel
   #   title: "[AAA N] Sångtitel"
-  - spex: krook
+  - spex: krook-1989
     title: '[KRO 4] Nu ska vi festa'
   - spex: leonardo-1993
     title: '[LEO 4] Lisas presentationssång'
@@ -17,15 +17,15 @@ songs:
     title: '[KAR 17] Nu ska visst alla döda Kalle'
   - spex: florence-1996-97
     title: '[FLO 6] Hyllningssång'
-  - spex: sketchistens
+  - spex: sketchistens-2010
     title: "[SKE 2] En sång om en som är gla och gi'o"
-  - spex: sketchup
+  - spex: sketchup-2003
     title: '[SKE 3] Våran håv'
-  - spex: sketchostrof
+  - spex: sketchostrof-2022
     title: '[ROF 2] BOISEN'
-  - spex: lafayette
+  - spex: lafayette-2019
     title: '[LAF 2] Lafayettes entré'
-  - spex: hilma
+  - spex: hilma-2022
     title: '[HIL 5] Din Mamma!'
   - spex: erik-xiv-1995-96
     title: '[E14 5] Vi ska sova på saken'
