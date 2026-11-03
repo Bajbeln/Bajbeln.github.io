@@ -1,9 +1,9 @@
 {
-  "spexCount": 59,
-  "uppsattningarCount": 81,
+  "spexCount": 60,
+  "uppsattningarCount": 82,
   "dayCount": 52,
-  "songCount": 1007,
-  "updatedAt": "2026-10-23T14:37:01.098Z",
+  "songCount": 1014,
+  "updatedAt": "2026-11-03T11:22:44.947Z",
   "spex": [
     {
       "name": "allmanna",
@@ -101,11 +101,6 @@
       "uppsattningar": 1
     },
     {
-      "name": "martell",
-      "songs": 38,
-      "uppsattningar": 2
-    },
-    {
       "name": "karthago",
       "songs": 13,
       "uppsattningar": 1
@@ -186,6 +181,11 @@
       "uppsattningar": 2
     },
     {
+      "name": "martell",
+      "songs": 38,
+      "uppsattningar": 2
+    },
+    {
       "name": "mot-strommen",
       "songs": 17,
       "uppsattningar": 1
@@ -223,6 +223,11 @@
     {
       "name": "per-albin",
       "songs": 13,
+      "uppsattningar": 1
+    },
+    {
+      "name": "pionjarerna",
+      "songs": 7,
       "uppsattningar": 1
     },
     {

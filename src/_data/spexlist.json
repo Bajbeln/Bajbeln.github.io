@@ -1,6 +1,7 @@
 
 [
   { "label": "Favoriter", "url": "/favoriter/", "italic": true },
+  { "label": "Pionjärerna från Göinge 2026 (PIO)", "url": "/pionjarerna/"},
   { "label": "Maria Eleonora 2026 (MAR)", "url": "/maria-eleonora/" },
   { "label": "Florence 2025 (FLO)", "url": "/florence/" },
   { "label": "Öresundsbron 2025 (BRO)", "url": "/oresundsbron/" },
