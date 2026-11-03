@@ -1,5 +1,5 @@
 ---
-title: '[SKE 2] En sång om the dark side of the love'
+title: '[FEL 2] En sång om the dark side of the love'
 singer: 'De fyra nunnorna sjunger'
 melody: 'jul, jul, strålande jul'
 spex: sketchistens-2010

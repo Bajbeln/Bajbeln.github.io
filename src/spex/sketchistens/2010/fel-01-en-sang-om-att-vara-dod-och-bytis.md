@@ -1,5 +1,5 @@
 ---
-title: '[SKE 1] En sång om att vara död och bytis'
+title: '[FEL 1] En sång om att vara död och bytis'
 singer: 'John Doe och hans Doe-kör sjunger'
 melody: 'Highwayman'
 spex: sketchistens-2010

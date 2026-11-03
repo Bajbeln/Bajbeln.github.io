@@ -1,5 +1,5 @@
 ---
-title: '[SKE 1] Religiösa vänner'
+title: '[FEL 1] Religiösa vänner'
 singer: 'En imam, rabbi, buddistisk munk och en katolik sjunger'
 melody: "I'll be there for you, Theme from Friends"
 spex: sketchistens-2010

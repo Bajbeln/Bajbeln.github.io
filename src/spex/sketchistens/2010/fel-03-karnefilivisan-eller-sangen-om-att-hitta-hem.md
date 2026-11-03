@@ -1,5 +1,5 @@
 ---
-title: '[SKE 3] Karnefilivisan eller sången om att hitta hem'
+title: '[FEL 3] Karnefilivisan eller sången om att hitta hem'
 singer: 'F och karnefilerna sjunger'
 melody: "I'm so ronery och Kärleken är evig"
 spex: sketchistens-2010
