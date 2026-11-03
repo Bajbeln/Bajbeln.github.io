@@ -21,6 +21,11 @@
 #
 # Dependencies: ImageMagick (magick), jq, xargs, stat
 
+magick_cmd="magick"
+if ! command -v "$magick_cmd" >/dev/null 2>&1; then
+  magick_cmd="convert"
+fi
+
 set -e
 
 OG_DIR="assets/images/og"
@@ -129,7 +134,7 @@ generate_og() {
     if needs_regenerate "$output" "$source_file"; then
         echo "  → ${spex_name}: ${bg_color} (regenerating)"
         
-        magick -size ${CANVAS_WIDTH}x${CANVAS_HEIGHT} xc:"$bg_color" \
+        "$magick_cmd" -size ${CANVAS_WIDTH}x${CANVAS_HEIGHT} xc:"$bg_color" \
             \( "$LOGO" -resize ${LOGO_WIDTH}x${LOGO_HEIGHT} \) \
             -geometry +${LOGO_X}+${LOGO_Y} \
             -composite \
@@ -143,6 +148,8 @@ generate_og() {
 # Export function so it's available to subshells
 export -f generate_og
 export -f needs_regenerate
+export OG_DIR CANVAS_WIDTH CANVAS_HEIGHT LOGO LOGO_WIDTH LOGO_HEIGHT \
+  LOGO_X LOGO_Y FORCE_REGENERATE magick_cmd
 
 # Export variables needed by the functions
 export OG_DIR CANVAS_WIDTH CANVAS_HEIGHT LOGO LOGO_WIDTH LOGO_HEIGHT LOGO_X LOGO_Y FORCE_REGENERATE
@@ -154,7 +161,7 @@ DEFAULT_OUTPUT="${OG_DIR}/og-image.webp"
 echo "Checking default OG image..."
 if needs_regenerate "$DEFAULT_OUTPUT" "$LOGO"; then
     echo "  → Default OG image: regenerating"
-    magick -size ${CANVAS_WIDTH}x${CANVAS_HEIGHT} xc:"rgb(210,231,250)" \
+    "$magick_cmd" -size ${CANVAS_WIDTH}x${CANVAS_HEIGHT} xc:"rgb(210,231,250)" \
         \( "$LOGO" -resize ${LOGO_WIDTH}x${LOGO_HEIGHT} \) \
         -geometry +${LOGO_X}+${LOGO_Y} \
         -composite \
